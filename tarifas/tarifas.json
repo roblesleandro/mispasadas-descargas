@@ -1,0 +1,3579 @@
+{
+ "version": 1,
+ "categorias": [
+  "moto",
+  "auto",
+  "remolque",
+  "pesado2",
+  "pesado3",
+  "pesado4",
+  "pesado5"
+ ],
+ "empresas": {
+  "AUSA": {
+   "nombre": "AUSA (autopistas de la Ciudad)",
+   "fuente": "https://www.ausa.com.ar/telepase/tarifas",
+   "automatico": true,
+   "pico": {
+    "habiles": [
+     [
+      7,
+      11
+     ],
+     [
+      16,
+      20
+     ]
+    ],
+    "finde": [
+     [
+      11,
+      15
+     ],
+     [
+      17,
+      21
+     ]
+    ]
+   },
+   "tramos": {
+    "25 de Mayo / Perito Moreno": {
+     "telepase": {
+      "moto": [
+       1994.73,
+       3191.98
+      ],
+      "auto": [
+       4787.85,
+       6785.16
+      ],
+      "remolque": [
+       7580.52,
+       11171.27
+      ],
+      "pesado2": [
+       7580.52,
+       11171.27
+      ],
+      "pesado3": [
+       9671.04,
+       25933.38
+      ],
+      "pesado4": [
+       14761.99,
+       37104.54
+      ],
+      "pesado5": [
+       21145.94,
+       47078.98
+      ]
+     }
+    },
+    "Illia / Retiro II / Sarmiento / Salguero": {
+     "telepase": {
+      "moto": [
+       1197.05,
+       1436.13
+      ],
+      "auto": [
+       1994.73,
+       2820.84
+      ],
+      "remolque": [
+       3590.72,
+       5186.7
+      ],
+      "pesado2": [
+       3590.72,
+       5186.7
+      ],
+      "pesado3": [
+       4787.84,
+       12368.18
+      ],
+      "pesado4": [
+       5641.47,
+       13564.92
+      ],
+      "pesado5": [
+       8378.7,
+       23539.59
+      ]
+     }
+    },
+    "Alberti": {
+     "telepase": {
+      "moto": [
+       1197.05,
+       1596.01
+      ],
+      "auto": [
+       1516.27,
+       1914.97
+      ],
+      "remolque": [
+       2793.07,
+       3590.72
+      ],
+      "pesado2": [
+       2793.07,
+       3590.72
+      ],
+      "pesado3": [
+       null,
+       null
+      ],
+      "pesado4": [
+       null,
+       null
+      ],
+      "pesado5": [
+       null,
+       null
+      ]
+     }
+    },
+    "Paseo del Bajo": {
+     "telepase": {
+      "moto": [
+       null,
+       null
+      ],
+      "auto": [
+       10593.69,
+       10593.69
+      ],
+      "remolque": [
+       10593.69,
+       10593.69
+      ],
+      "pesado2": [
+       10593.69,
+       10593.69
+      ],
+      "pesado3": [
+       11653.16,
+       11653.16
+      ],
+      "pesado4": [
+       12712.48,
+       12712.48
+      ],
+      "pesado5": [
+       13771.95,
+       13771.95
+      ]
+     }
+    }
+   }
+  },
+  "AUSOL": {
+   "nombre": "Autopistas del Sol (Panamericana)",
+   "fuente": "https://www.ausol.com.ar/tarifas",
+   "api": "https://back.ausol.com.ar",
+   "automatico": false,
+   "vigencia": "7 de marzo de 2026",
+   "imagen": "https://back.ausol.com.ar/wp-content/uploads/2026/03/web_ausol_03_2026.jpg",
+   "resolucion": "RS-2026-297-APN-DNV#MEC",
+   "pico": {
+    "habiles": [
+     [
+      7,
+      11
+     ],
+     [
+      16,
+      20
+     ]
+    ],
+    "finde": [
+     [
+      11,
+      15
+     ],
+     [
+      17,
+      21
+     ]
+    ]
+   },
+   "nota": "Categorías: 1 moto, 2 auto, 3 pesado 2 ejes, 4 auto con remolque, 5 hasta 4 ejes, 6 hasta 6 ejes (7, más de 6 ejes, no se usa).",
+   "tramos": {
+    "Acceso Norte": {
+     "telepase": {
+      "moto": [
+       497.08,
+       596.49
+      ],
+      "auto": [
+       994.15,
+       1192.99
+      ],
+      "remolque": [
+       1988.3,
+       2385.97
+      ],
+      "pesado2": [
+       1988.3,
+       2385.97
+      ],
+      "pesado3": [
+       2982.44,
+       3578.96
+      ],
+      "pesado4": [
+       2982.44,
+       3578.96
+      ],
+      "pesado5": [
+       3976.59,
+       4771.95
+      ]
+     },
+     "manual": {
+      "moto": [
+       994.15,
+       1192.99
+      ],
+      "auto": [
+       1988.3,
+       2385.97
+      ],
+      "remolque": [
+       3976.59,
+       4771.95
+      ],
+      "pesado2": [
+       3976.59,
+       4771.95
+      ],
+      "pesado3": [
+       5964.89,
+       7157.92
+      ],
+      "pesado4": [
+       5964.89,
+       7157.92
+      ],
+      "pesado5": [
+       7953.18,
+       9543.9
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "AUOESTE": {
+   "nombre": "Autopistas del Oeste (Acceso Oeste)",
+   "fuente": "https://www.auoeste.com.ar/tarifas",
+   "api": "https://back.auoeste.com.ar",
+   "automatico": false,
+   "vigencia": "7 de marzo de 2026",
+   "imagen": "https://back.auoeste.com.ar/wp-content/uploads/2026/03/TARIFAS-WEB.jpg",
+   "resolucion": "RS-2026-297-APN-DNV#MEC",
+   "pico": {
+    "habiles": [
+     [
+      7,
+      11
+     ],
+     [
+      16,
+      20
+     ]
+    ],
+    "finde": [
+     [
+      11,
+      15
+     ],
+     [
+      17,
+      21
+     ]
+    ]
+   },
+   "nota": "Categorías: 1 moto, 2 auto, 3 pesado 2 ejes, 4 auto con remolque, 5 hasta 4 ejes, 6 hasta 6 ejes (7, más de 6 ejes, no se usa).",
+   "tramos": {
+    "Acceso Oeste": {
+     "telepase": {
+      "moto": [
+       497.08,
+       596.49
+      ],
+      "auto": [
+       994.15,
+       1192.99
+      ],
+      "remolque": [
+       1988.3,
+       2385.97
+      ],
+      "pesado2": [
+       1988.3,
+       2385.97
+      ],
+      "pesado3": [
+       2982.44,
+       3578.96
+      ],
+      "pesado4": [
+       2982.44,
+       3578.96
+      ],
+      "pesado5": [
+       3976.59,
+       4771.95
+      ]
+     },
+     "manual": {
+      "moto": [
+       994.15,
+       1192.99
+      ],
+      "auto": [
+       1988.3,
+       2385.97
+      ],
+      "remolque": [
+       3976.59,
+       4771.95
+      ],
+      "pesado2": [
+       3976.59,
+       4771.95
+      ],
+      "pesado3": [
+       5964.89,
+       7157.92
+      ],
+      "pesado4": [
+       5964.89,
+       7157.92
+      ],
+      "pesado5": [
+       7953.18,
+       9543.9
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "AUBASA": {
+   "nombre": "AUBASA (Autopista Buenos Aires – La Plata)",
+   "fuente": "https://aubasa.com.ar/tarifas-aubasa/",
+   "automatico": false,
+   "vigencia": "10 de octubre de 2026",
+   "pico": {
+    "habiles": [
+     [
+      7,
+      10
+     ],
+     [
+      17,
+      20
+     ]
+    ],
+    "finde": []
+   },
+   "nota": "Hudson, Bernal, Quilmes y Berazategui cobran distinto según el sentido (hacia La Plata o hacia CABA).",
+   "tramos": {
+    "Dock Sud / Gutiérrez / Hudson (hacia La Plata)": {
+     "telepase": {
+      "moto": [
+       1296.77,
+       1620.96
+      ],
+      "auto": [
+       2593.53,
+       3241.92
+      ],
+      "pesado2": [
+       7780.58,
+       9725.73
+      ],
+      "remolque": [
+       7780.58,
+       9725.73
+      ],
+      "pesado3": [
+       10374.12,
+       12967.63
+      ],
+      "pesado4": [
+       10374.12,
+       12967.63
+      ],
+      "pesado5": [
+       12967.63,
+       16209.55
+      ]
+     },
+     "manual": {
+      "moto": [
+       1300,
+       1700
+      ],
+      "auto": [
+       2600,
+       3300
+      ],
+      "pesado2": [
+       7800,
+       9800
+      ],
+      "remolque": [
+       7800,
+       9800
+      ],
+      "pesado3": [
+       10400,
+       13000
+      ],
+      "pesado4": [
+       10400,
+       13000
+      ],
+      "pesado5": [
+       13000,
+       16300
+      ]
+     }
+    },
+    "Hudson (hacia CABA)": {
+     "telepase": {
+      "moto": [
+       2593.53,
+       3241.92
+      ],
+      "auto": [
+       5187.05,
+       6483.81
+      ],
+      "pesado2": [
+       15561.17,
+       19451.47
+      ],
+      "remolque": [
+       15561.17,
+       19451.47
+      ],
+      "pesado3": [
+       20748.22,
+       25935.29
+      ],
+      "pesado4": [
+       20748.22,
+       25935.29
+      ],
+      "pesado5": [
+       25935.29,
+       32419.09
+      ]
+     },
+     "manual": {
+      "moto": [
+       2600,
+       3400
+      ],
+      "auto": [
+       5200,
+       6600
+      ],
+      "pesado2": [
+       15600,
+       19600
+      ],
+      "remolque": [
+       15600,
+       19600
+      ],
+      "pesado3": [
+       20800,
+       26000
+      ],
+      "pesado4": [
+       20800,
+       26000
+      ],
+      "pesado5": [
+       26000,
+       32600
+      ]
+     }
+    },
+    "Bernal / Quilmes / Berazategui (hacia La Plata)": {
+     "telepase": {
+      "moto": [
+       907.73,
+       1134.66
+      ],
+      "auto": [
+       1815.48,
+       2269.35
+      ],
+      "pesado2": [
+       5446.41,
+       6808.0
+      ],
+      "remolque": [
+       5446.41,
+       6808.0
+      ],
+      "pesado3": [
+       7261.87,
+       9077.34
+      ],
+      "pesado4": [
+       7261.87,
+       9077.34
+      ],
+      "pesado5": [
+       9077.34,
+       11346.66
+      ]
+     },
+     "manual": {
+      "moto": [
+       1000,
+       1200
+      ],
+      "auto": [
+       1900,
+       2300
+      ],
+      "pesado2": [
+       5500,
+       6900
+      ],
+      "remolque": [
+       5500,
+       6900
+      ],
+      "pesado3": [
+       7300,
+       9100
+      ],
+      "pesado4": [
+       7300,
+       9100
+      ],
+      "pesado5": [
+       9100,
+       11400
+      ]
+     }
+    },
+    "Bernal / Quilmes / Berazategui (hacia CABA)": {
+     "telepase": {
+      "moto": [
+       2204.5,
+       2755.62
+      ],
+      "auto": [
+       4408.99,
+       5511.24
+      ],
+      "pesado2": [
+       13227.0,
+       16533.74
+      ],
+      "remolque": [
+       13227.0,
+       16533.74
+      ],
+      "pesado3": [
+       17635.99,
+       22044.99
+      ],
+      "pesado4": [
+       17635.99,
+       22044.99
+      ],
+      "pesado5": [
+       22044.99,
+       27556.24
+      ]
+     },
+     "manual": {
+      "moto": [
+       2300,
+       2900
+      ],
+      "auto": [
+       4500,
+       5600
+      ],
+      "pesado2": [
+       13300,
+       16700
+      ],
+      "remolque": [
+       13300,
+       16700
+      ],
+      "pesado3": [
+       17700,
+       22100
+      ],
+      "pesado4": [
+       17700,
+       22100
+      ],
+      "pesado5": [
+       22100,
+       27700
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "AUBASA Rutas": {
+   "nombre": "AUBASA (rutas a la Costa)",
+   "fuente": "https://aubasa.com.ar/tarifas-aubasa/",
+   "automatico": false,
+   "vigencia": "10 de octubre de 2026",
+   "nota": "Tarifa básica (en temporada baja los autos tienen tarifa bonificada de lunes 12 h a viernes 12 h).",
+   "tramos": {
+    "Samborombón / Maipú / La Huella": {
+     "telepase": {
+      "moto": null,
+      "auto": [
+       8507.95,
+       8507.95
+      ],
+      "pesado2": [
+       17015.88,
+       17015.88
+      ],
+      "remolque": [
+       17015.88,
+       17015.88
+      ],
+      "pesado3": [
+       25523.83,
+       25523.83
+      ],
+      "pesado4": [
+       25523.83,
+       25523.83
+      ],
+      "pesado5": [
+       34031.76,
+       34031.76
+      ]
+     },
+     "manual": {
+      "moto": null,
+      "auto": [
+       8600,
+       8600
+      ],
+      "pesado2": [
+       17100,
+       17100
+      ],
+      "remolque": [
+       17100,
+       17100
+      ],
+      "pesado3": [
+       25600,
+       25600
+      ],
+      "pesado4": [
+       25600,
+       25600
+      ],
+      "pesado5": [
+       34100,
+       34100
+      ]
+     }
+    },
+    "Madariaga": {
+     "telepase": {
+      "moto": null,
+      "auto": [
+       3573.33,
+       3573.33
+      ],
+      "pesado2": [
+       7146.68,
+       7146.68
+      ],
+      "remolque": [
+       7146.68,
+       7146.68
+      ],
+      "pesado3": [
+       10720.0,
+       10720.0
+      ],
+      "pesado4": [
+       10720.0,
+       10720.0
+      ],
+      "pesado5": [
+       14293.33,
+       14293.33
+      ]
+     },
+     "manual": {
+      "moto": null,
+      "auto": [
+       3600,
+       3600
+      ],
+      "pesado2": [
+       7200,
+       7200
+      ],
+      "remolque": [
+       7200,
+       7200
+      ],
+      "pesado3": [
+       10800,
+       10800
+      ],
+      "pesado4": [
+       10800,
+       10800
+      ],
+      "pesado5": [
+       14300,
+       14300
+      ]
+     }
+    },
+    "Mar Chiquita": {
+     "telepase": {
+      "moto": null,
+      "auto": [
+       3913.65,
+       3913.65
+      ],
+      "pesado2": [
+       7827.3,
+       7827.3
+      ],
+      "remolque": [
+       7827.3,
+       7827.3
+      ],
+      "pesado3": [
+       11740.96,
+       11740.96
+      ],
+      "pesado4": [
+       11740.96,
+       11740.96
+      ],
+      "pesado5": [
+       15654.61,
+       15654.61
+      ]
+     },
+     "manual": {
+      "moto": null,
+      "auto": [
+       4000,
+       4000
+      ],
+      "pesado2": [
+       7900,
+       7900
+      ],
+      "remolque": [
+       7900,
+       7900
+      ],
+      "pesado3": [
+       11800,
+       11800
+      ],
+      "pesado4": [
+       11800,
+       11800
+      ],
+      "pesado5": [
+       15700,
+       15700
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "CORRESUR": {
+   "nombre": "Corresur (Riccheri, Newbery y Ezeiza-Cañuelas)",
+   "fuente": "https://www.corresur.com.ar/tarifas.php",
+   "automatico": false,
+   "pico": {
+    "habiles": [
+     [
+      7,
+      11
+     ],
+     [
+      16,
+      20
+     ]
+    ],
+    "finde": [
+     [
+      11,
+      15
+     ],
+     [
+      17,
+      21
+     ]
+    ]
+   },
+   "nota": "Sin TelePASE se cobra el doble (pago electrónico manual).",
+   "tramos": {
+    "Riccheri / Ezeiza-Cañuelas": {
+     "telepase": {
+      "moto": [
+       774.41,
+       893.55
+      ],
+      "auto": [
+       1548.82,
+       1787.1
+      ],
+      "pesado2": [
+       3097.65,
+       3574.19
+      ],
+      "remolque": [
+       3097.65,
+       3574.19
+      ],
+      "pesado3": [
+       4646.47,
+       5361.29
+      ],
+      "pesado4": [
+       4646.47,
+       5361.29
+      ],
+      "pesado5": [
+       6195.3,
+       7148.39
+      ]
+     },
+     "manual": {
+      "moto": [
+       1548.82,
+       1787.1
+      ],
+      "auto": [
+       3097.65,
+       3574.19
+      ],
+      "pesado2": [
+       6195.3,
+       7148.39
+      ],
+      "remolque": [
+       6195.3,
+       7148.39
+      ],
+      "pesado3": [
+       9292.95,
+       10722.58
+      ],
+      "pesado4": [
+       9292.95,
+       10722.58
+      ],
+      "pesado5": [
+       12390.59,
+       14296.78
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "CORRESUR Rutas": {
+   "nombre": "Corresur (rutas nacionales 3, 205 y 226)",
+   "fuente": "https://www.corresur.com.ar/tarifas.php",
+   "automatico": false,
+   "tramos": {
+    "RN 3 / 205 / 226": {
+     "telepase": {
+      "moto": null,
+      "auto": [
+       1787.1,
+       1787.1
+      ],
+      "remolque": [
+       3574.19,
+       3574.19
+      ],
+      "pesado2": [
+       3574.19,
+       3574.19
+      ],
+      "pesado3": [
+       5361.29,
+       5361.29
+      ],
+      "pesado4": [
+       5361.29,
+       5361.29
+      ],
+      "pesado5": [
+       7148.39,
+       7148.39
+      ]
+     },
+     "manual": {
+      "moto": null,
+      "auto": [
+       3574.19,
+       3574.19
+      ],
+      "remolque": [
+       7148.39,
+       7148.39
+      ],
+      "pesado2": [
+       7148.39,
+       7148.39
+      ],
+      "pesado3": [
+       10722.58,
+       10722.58
+      ],
+      "pesado4": [
+       10722.58,
+       10722.58
+      ],
+      "pesado5": [
+       14296.78,
+       14296.78
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "PENTAVIA": {
+   "nombre": "Pentavía (Ruta Nacional 5)",
+   "fuente": "https://pentavia.com.ar/tarifas-peaje/",
+   "automatico": false,
+   "vigencia": "28 de agosto de 2026",
+   "nota": "Sin TelePASE: pago electrónico (en efectivo se redondea: $3.600 la categoría 1).",
+   "tramos": {
+    "RN 5": {
+     "telepase": {
+      "moto": null,
+      "auto": [
+       1787.1,
+       1787.1
+      ],
+      "remolque": [
+       3574.19,
+       3574.19
+      ],
+      "pesado2": [
+       3574.19,
+       3574.19
+      ],
+      "pesado3": [
+       5361.29,
+       5361.29
+      ],
+      "pesado4": [
+       5361.29,
+       5361.29
+      ],
+      "pesado5": [
+       7148.39,
+       7148.39
+      ]
+     },
+     "manual": {
+      "moto": null,
+      "auto": [
+       3574.19,
+       3574.19
+      ],
+      "remolque": [
+       7148.39,
+       7148.39
+      ],
+      "pesado2": [
+       7148.39,
+       7148.39
+      ],
+      "pesado3": [
+       10722.58,
+       10722.58
+      ],
+      "pesado4": [
+       10722.58,
+       10722.58
+      ],
+      "pesado5": [
+       14296.78,
+       14296.78
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "VIAL8": {
+   "nombre": "Vial8 (Ruta Nacional 8)",
+   "fuente": "https://vial8.com.ar/tarifas-y-servicios/",
+   "automatico": false,
+   "vigencia": "12 de septiembre de 2026",
+   "tramos": {
+    "RN 8": {
+     "telepase": {
+      "moto": null,
+      "auto": [
+       1834.95,
+       1834.95
+      ],
+      "remolque": [
+       3669.9,
+       3669.9
+      ],
+      "pesado2": [
+       3669.9,
+       3669.9
+      ],
+      "pesado3": [
+       5504.85,
+       5504.85
+      ],
+      "pesado4": [
+       5504.85,
+       5504.85
+      ],
+      "pesado5": [
+       7339.8,
+       7339.8
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "AUMESA": {
+   "nombre": "Autovía del Mercosur (RN 12 y 14)",
+   "fuente": "https://aumesa.com.ar/tarifas/",
+   "automatico": false,
+   "vigencia": "septiembre de 2026",
+   "nota": "No se acepta efectivo. Sin TelePASE: pago electrónico (QR o tarjeta sin contacto), el doble.",
+   "tramos": {
+    "Zárate / Colonia Elía": {
+     "telepase": {
+      "moto": [
+       2715.35,
+       2715.35
+      ],
+      "auto": [
+       5430.7,
+       5430.7
+      ],
+      "pesado2": [
+       10861.4,
+       10861.4
+      ],
+      "remolque": [
+       10861.4,
+       10861.4
+      ],
+      "pesado3": [
+       16292.09,
+       16292.09
+      ],
+      "pesado4": [
+       21722.79,
+       21722.79
+      ],
+      "pesado5": [
+       27153.49,
+       27153.49
+      ]
+     },
+     "manual": {
+      "moto": [
+       5430.7,
+       5430.7
+      ],
+      "auto": [
+       10861.4,
+       10861.4
+      ],
+      "pesado2": [
+       21722.79,
+       21722.79
+      ],
+      "remolque": [
+       21722.79,
+       21722.79
+      ],
+      "pesado3": [
+       32584.19,
+       32584.19
+      ],
+      "pesado4": [
+       43445.58,
+       43445.58
+      ],
+      "pesado5": [
+       54306.98,
+       54306.98
+      ]
+     }
+    },
+    "Yeruá / Piedritas": {
+     "telepase": {
+      "moto": null,
+      "auto": [
+       2340.48,
+       2340.48
+      ],
+      "pesado2": [
+       4680.96,
+       4680.96
+      ],
+      "remolque": [
+       4680.96,
+       4680.96
+      ],
+      "pesado3": [
+       7021.44,
+       7021.44
+      ],
+      "pesado4": [
+       7021.44,
+       7021.44
+      ],
+      "pesado5": [
+       9361.92,
+       9361.92
+      ]
+     },
+     "manual": {
+      "moto": null,
+      "auto": [
+       4680.96,
+       4680.96
+      ],
+      "pesado2": [
+       9361.92,
+       9361.92
+      ],
+      "remolque": [
+       9361.92,
+       9361.92
+      ],
+      "pesado3": [
+       14042.87,
+       14042.87
+      ],
+      "pesado4": [
+       14042.87,
+       14042.87
+      ],
+      "pesado5": [
+       18723.83,
+       18723.83
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "BUENAYRE": {
+   "nombre": "Camino del Buen Ayre (CEAMSE)",
+   "fuente": "https://www.ceamse.gov.ar/buen-ayre/",
+   "automatico": false,
+   "vigencia": "1 de septiembre de 2026",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "Misma tarifa con TelePASE y sin TelePASE.",
+   "tramos": {
+    "Buen Ayre": {
+     "telepase": {
+      "moto": [
+       1400,
+       1400
+      ],
+      "auto": [
+       3500,
+       3500
+      ],
+      "remolque": [
+       4900,
+       4900
+      ],
+      "pesado2": [
+       8400,
+       8400
+      ],
+      "pesado3": [
+       9500,
+       9500
+      ],
+      "pesado4": [
+       12800,
+       12800
+      ],
+      "pesado5": [
+       16300,
+       16300
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "AUNOA": {
+   "nombre": "Autovía del NOA (RN 9 y 34: Santiago del Estero, Tucumán, Salta y Jujuy)",
+   "fuente": "https://www.todojujuy.com/sociedad/aumentan-los-peajes-la-autovia-del-noa-cuales-seran-las-nuevas-tarifas-n297155",
+   "automatico": false,
+   "vigencia": "9 de octubre de 2026",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "Sin efectivo. Sin TelePASE (QR, tarjeta) se paga el doble.",
+   "tramos": {
+    "Noroeste": {
+     "telepase": {
+      "moto": [
+       1850.1,
+       1850.1
+      ],
+      "auto": [
+       1850.1,
+       1850.1
+      ],
+      "remolque": [
+       3700.2,
+       3700.2
+      ],
+      "pesado2": [
+       3700.2,
+       3700.2
+      ],
+      "pesado3": [
+       5550.31,
+       5550.31
+      ],
+      "pesado4": [
+       5550.31,
+       5550.31
+      ],
+      "pesado5": [
+       7400.41,
+       7400.41
+      ]
+     },
+     "manual": {
+      "moto": [
+       3700.2,
+       3700.2
+      ],
+      "auto": [
+       3700.2,
+       3700.2
+      ],
+      "remolque": [
+       7400.4,
+       7400.4
+      ],
+      "pesado2": [
+       7400.4,
+       7400.4
+      ],
+      "pesado3": [
+       11100.62,
+       11100.62
+      ],
+      "pesado4": [
+       11100.62,
+       11100.62
+      ],
+      "pesado5": [
+       14800.82,
+       14800.82
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "ARCOPORT": {
+   "nombre": "Arco Portuario (RN 9 Rosario–San Nicolás)",
+   "fuente": "https://www.lacapital.com.ar/la-ciudad/autopista-rosario-buenos-aires-este-sabado-rige-la-nueva-tarifa-peaje-y-no-se-aceptara-el-pago-efectivo-n10285600.html",
+   "automatico": false,
+   "vigencia": "10 de octubre de 2026",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "Sin efectivo. Sin TelePASE se paga el doble.",
+   "tramos": {
+    "General Lagos": {
+     "telepase": {
+      "moto": [
+       1850.1,
+       1850.1
+      ],
+      "auto": [
+       1850.1,
+       1850.1
+      ],
+      "remolque": [
+       3700.2,
+       3700.2
+      ],
+      "pesado2": [
+       3700.2,
+       3700.2
+      ],
+      "pesado3": [
+       5550.31,
+       5550.31
+      ],
+      "pesado4": [
+       5550.31,
+       5550.31
+      ],
+      "pesado5": [
+       7400.41,
+       7400.41
+      ]
+     },
+     "manual": {
+      "moto": [
+       3700.2,
+       3700.2
+      ],
+      "auto": [
+       3700.2,
+       3700.2
+      ],
+      "remolque": [
+       7400.4,
+       7400.4
+      ],
+      "pesado2": [
+       7400.4,
+       7400.4
+      ],
+      "pesado3": [
+       11100.62,
+       11100.62
+      ],
+      "pesado4": [
+       11100.62,
+       11100.62
+      ],
+      "pesado5": [
+       14800.82,
+       14800.82
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "COVICEN": {
+   "nombre": "Covicen (RN 9 Rosario–Córdoba, RN 19 y RN 34)",
+   "fuente": "https://examedia.com.ar/portada/post/88035486",
+   "automatico": false,
+   "vigencia": "9 de octubre de 2026",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "Sin efectivo. El recargo sin TelePASE todavía no está publicado por estación.",
+   "tramos": {
+    "Centro": {
+     "telepase": {
+      "moto": [
+       1850.1,
+       1850.1
+      ],
+      "auto": [
+       1850.1,
+       1850.1
+      ],
+      "remolque": [
+       3700.2,
+       3700.2
+      ],
+      "pesado2": [
+       3700.2,
+       3700.2
+      ],
+      "pesado3": [
+       5550.31,
+       5550.31
+      ],
+      "pesado4": [
+       5550.31,
+       5550.31
+      ],
+      "pesado5": [
+       7400.41,
+       7400.41
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "AUNOSA": {
+   "nombre": "Autovía al Norte (RN 34 Rafaela–Santiago del Estero)",
+   "fuente": "https://ceresciudad.com/el-peaje-de-ceres-ya-esta-en-manos-de-aunosa-y-desde-el-viernes-el-peaje-de-un-auto-costara-1850-con-telepase/",
+   "automatico": false,
+   "vigencia": "9 de octubre de 2026",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "Sin efectivo. Sin TelePASE se paga el doble.",
+   "tramos": {
+    "Centro-Norte": {
+     "telepase": {
+      "moto": [
+       1850.1,
+       1850.1
+      ],
+      "auto": [
+       1850.1,
+       1850.1
+      ],
+      "remolque": [
+       3700.2,
+       3700.2
+      ],
+      "pesado2": [
+       3700.2,
+       3700.2
+      ],
+      "pesado3": [
+       5550.31,
+       5550.31
+      ],
+      "pesado4": [
+       5550.31,
+       5550.31
+      ],
+      "pesado5": [
+       7400.41,
+       7400.41
+      ]
+     },
+     "manual": {
+      "moto": [
+       3700.2,
+       3700.2
+      ],
+      "auto": [
+       3700.2,
+       3700.2
+      ],
+      "remolque": [
+       7400.4,
+       7400.4
+      ],
+      "pesado2": [
+       7400.4,
+       7400.4
+      ],
+      "pesado3": [
+       11100.62,
+       11100.62
+      ],
+      "pesado4": [
+       11100.62,
+       11100.62
+      ],
+      "pesado5": [
+       14800.82,
+       14800.82
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "LITORAL": {
+   "nombre": "Corredor Litoral (RN 12 Corrientes, RN 16 y Puente Chaco–Corrientes)",
+   "fuente": "https://facundoquiroga.com/cruzar-el-puente-entre-chaco-y-corrientes-sera-mas-caro-desde-este-viernes/",
+   "automatico": false,
+   "vigencia": "9 de octubre de 2026",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "Sin efectivo. Sin TelePASE, alrededor de 50% más (estimado). En el puente sigue el multipase del día.",
+   "tramos": {
+    "Litoral": {
+     "telepase": {
+      "moto": [
+       1850.1,
+       1850.1
+      ],
+      "auto": [
+       1850.1,
+       1850.1
+      ],
+      "remolque": [
+       3700.2,
+       3700.2
+      ],
+      "pesado2": [
+       3700.2,
+       3700.2
+      ],
+      "pesado3": [
+       5550.31,
+       5550.31
+      ],
+      "pesado4": [
+       5550.31,
+       5550.31
+      ],
+      "pesado5": [
+       7400.41,
+       7400.41
+      ]
+     },
+     "manual": {
+      "moto": [
+       2775.15,
+       2775.15
+      ],
+      "auto": [
+       2775.15,
+       2775.15
+      ],
+      "remolque": [
+       5550.3,
+       5550.3
+      ],
+      "pesado2": [
+       5550.3,
+       5550.3
+      ],
+      "pesado3": [
+       8325.47,
+       8325.47
+      ],
+      "pesado4": [
+       8325.47,
+       8325.47
+      ],
+      "pesado5": [
+       11100.61,
+       11100.61
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "SELVA": {
+   "nombre": "Camino Selva (RN 12 Corrientes–Misiones y RN 105)",
+   "fuente": "https://economis.com.ar/peajes-desde-1-85010-camino-selva-confirmo-las-tarifas-y-elimina-el-efectivo/",
+   "automatico": false,
+   "vigencia": "9 de octubre de 2026",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "Sin efectivo. Mismo valor con TelePASE o pago electrónico.",
+   "tramos": {
+    "Noreste": {
+     "telepase": {
+      "moto": [
+       1850.1,
+       1850.1
+      ],
+      "auto": [
+       1850.1,
+       1850.1
+      ],
+      "remolque": [
+       3700.2,
+       3700.2
+      ],
+      "pesado2": [
+       3700.2,
+       3700.2
+      ],
+      "pesado3": [
+       5550.31,
+       5550.31
+      ],
+      "pesado4": [
+       5550.31,
+       5550.31
+      ],
+      "pesado5": [
+       7400.41,
+       7400.41
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "ACONCAGUA": {
+   "nombre": "Caminos del Aconcagua (RN 7 Mendoza)",
+   "fuente": "https://www.diariouno.com.ar/sociedad/peajes-la-ruta-7-cuanto-cuesta-este-viernes-y-cuando-se-sumaran-otros-dos-n1604075",
+   "automatico": false,
+   "vigencia": "9 de octubre de 2026",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "Manual = efectivo (redondeado).",
+   "tramos": {
+    "Cuyo": {
+     "telepase": {
+      "moto": [
+       1850.1,
+       1850.1
+      ],
+      "auto": [
+       1850.1,
+       1850.1
+      ],
+      "remolque": [
+       3700.2,
+       3700.2
+      ],
+      "pesado2": [
+       3700.2,
+       3700.2
+      ],
+      "pesado3": [
+       5550.31,
+       5550.31
+      ],
+      "pesado4": [
+       5550.31,
+       5550.31
+      ],
+      "pesado5": [
+       7400.41,
+       7400.41
+      ]
+     },
+     "manual": {
+      "moto": [
+       1900,
+       1900
+      ],
+      "auto": [
+       1900,
+       1900
+      ],
+      "remolque": [
+       3800,
+       3800
+      ],
+      "pesado2": [
+       3800,
+       3800
+      ],
+      "pesado3": [
+       5600,
+       5600
+      ],
+      "pesado4": [
+       5600,
+       5600
+      ],
+      "pesado5": [
+       7500,
+       7500
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "CPLATA": {
+   "nombre": "Caminos del Plata (RN 7 Luján–San Luis, RN 9 Campana–San Nicolás, RN 188)",
+   "fuente": "https://www.diariodemocracia.com/ciudad/junin/346164-peaje-de-roca-ya-se-exhiben-las-nuevas-tarifas-per/",
+   "automatico": false,
+   "vigencia": "septiembre de 2026",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "Solo TelePASE o pago digital; sin TelePASE, el doble. Algunas estaciones todavía pasan a free flow.",
+   "tramos": {
+    "Mediterráneo y Portuario Sur": {
+     "telepase": {
+      "moto": [
+       1834.95,
+       1834.95
+      ],
+      "auto": [
+       1834.95,
+       1834.95
+      ],
+      "remolque": [
+       3669.91,
+       3669.91
+      ],
+      "pesado2": [
+       3669.91,
+       3669.91
+      ],
+      "pesado3": [
+       5504.86,
+       5504.86
+      ],
+      "pesado4": [
+       5504.86,
+       5504.86
+      ],
+      "pesado5": [
+       7339.81,
+       7339.81
+      ]
+     },
+     "manual": {
+      "moto": [
+       3669.9,
+       3669.9
+      ],
+      "auto": [
+       3669.9,
+       3669.9
+      ],
+      "remolque": [
+       7339.82,
+       7339.82
+      ],
+      "pesado2": [
+       7339.82,
+       7339.82
+      ],
+      "pesado3": [
+       11009.72,
+       11009.72
+      ],
+      "pesado4": [
+       11009.72,
+       11009.72
+      ],
+      "pesado5": [
+       14679.62,
+       14679.62
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "CONEXION": {
+   "nombre": "Conexión Alto Delta (Puente Rosario–Victoria, RN 174)",
+   "fuente": "https://www.analisisdigital.com.ar/nacionales/2026/07/21/aumento-el-peaje-del-puente-victoria-rosario-los-autos-pagan-5061-con-telepase",
+   "automatico": false,
+   "vigencia": "21 de julio de 2026",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "Cobra por eje. Sin efectivo; sin TelePASE se paga el doble.",
+   "tramos": {
+    "Puente Rosario–Victoria": {
+     "telepase": {
+      "moto": [
+       2530.72,
+       2530.72
+      ],
+      "auto": [
+       5061.43,
+       5061.43
+      ],
+      "remolque": [
+       15184.29,
+       15184.29
+      ],
+      "pesado2": [
+       10122.86,
+       10122.86
+      ],
+      "pesado3": [
+       15184.29,
+       15184.29
+      ],
+      "pesado4": [
+       20245.72,
+       20245.72
+      ],
+      "pesado5": [
+       25307.15,
+       25307.15
+      ]
+     },
+     "manual": {
+      "moto": [
+       5061.44,
+       5061.44
+      ],
+      "auto": [
+       10122.86,
+       10122.86
+      ],
+      "remolque": [
+       30368.58,
+       30368.58
+      ],
+      "pesado2": [
+       20245.72,
+       20245.72
+      ],
+      "pesado3": [
+       30368.58,
+       30368.58
+      ],
+      "pesado4": [
+       40491.44,
+       40491.44
+      ],
+      "pesado5": [
+       50614.3,
+       50614.3
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "CDLS": {
+   "nombre": "Caminos de las Sierras (Red de Accesos a Córdoba)",
+   "fuente": "https://www.perfil.com/noticias/cordoba/aumentan-los-peajes-en-cordoba-el-telepeaje-costara-casi-2000-desde-el-jueves.phtml",
+   "automatico": false,
+   "vigencia": "8 de octubre de 2026",
+   "pico": {
+    "habiles": [],
+    "finde": [
+     [
+      0,
+      24
+     ]
+    ]
+   },
+   "nota": "Una sola tarifa para toda la red. Con TelePASE se toma el valor de referencia (con el TelePEAJE propio hay descuento por cantidad de pasadas). Las motos no pagan de lunes a viernes.",
+   "tramos": {
+    "Red de Accesos a Córdoba": {
+     "telepase": {
+      "moto": [
+       0,
+       800
+      ],
+      "auto": [
+       2033.57,
+       2033.57
+      ],
+      "remolque": [
+       4067.14,
+       4067.14
+      ],
+      "pesado2": [
+       4067.14,
+       4067.14
+      ],
+      "pesado3": [
+       6100.71,
+       6100.71
+      ],
+      "pesado4": [
+       6100.71,
+       6100.71
+      ],
+      "pesado5": [
+       8134.28,
+       8134.28
+      ]
+     },
+     "manual": {
+      "moto": [
+       0,
+       800
+      ],
+      "auto": [
+       3000,
+       3000
+      ],
+      "remolque": [
+       6000,
+       6000
+      ],
+      "pesado2": [
+       6000,
+       6000
+      ],
+      "pesado3": [
+       15000,
+       15000
+      ],
+      "pesado4": [
+       15000,
+       15000
+      ],
+      "pesado5": [
+       20000,
+       20000
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "TUNEL": {
+   "nombre": "Túnel Subfluvial Santa Fe–Paraná",
+   "fuente": "https://www.tunelsubfluvial.gov.ar/tarifas/",
+   "automatico": false,
+   "vigencia": "4 de enero de 2025",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "No acepta TelePASE.",
+   "tramos": {
+    "Túnel Subfluvial": {
+     "telepase": {
+      "moto": [
+       2500,
+       2500
+      ],
+      "auto": [
+       2500,
+       2500
+      ],
+      "remolque": [
+       4500,
+       4500
+      ],
+      "pesado2": [
+       8000,
+       8000
+      ],
+      "pesado3": [
+       12500,
+       12500
+      ],
+      "pesado4": [
+       13500,
+       13500
+      ],
+      "pesado5": [
+       17500,
+       17500
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "AP01": {
+   "nombre": "Autopista Rosario–Santa Fe (AP-01)",
+   "fuente": "https://www.lacapital.com.ar/la-region/ya-rige-el-aumento-del-peaje-la-autopista-rosario-santa-fe-cuales-son-las-nuevas-tarifas-n10272941.html",
+   "automatico": false,
+   "vigencia": "1 de agosto de 2026",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "Con TelePASE, 20% menos. Recorrerla entera son 2 pasadas por troncal.",
+   "tramos": {
+    "Troncal": {
+     "telepase": {
+      "moto": [
+       3200,
+       3200
+      ],
+      "auto": [
+       3200,
+       3200
+      ],
+      "remolque": [
+       6400,
+       6400
+      ],
+      "pesado2": [
+       6400,
+       6400
+      ],
+      "pesado3": [
+       12800,
+       12800
+      ],
+      "pesado4": [
+       19200,
+       19200
+      ],
+      "pesado5": [
+       22400,
+       22400
+      ]
+     },
+     "manual": {
+      "moto": [
+       4000,
+       4000
+      ],
+      "auto": [
+       4000,
+       4000
+      ],
+      "remolque": [
+       8000,
+       8000
+      ],
+      "pesado2": [
+       8000,
+       8000
+      ],
+      "pesado3": [
+       16000,
+       16000
+      ],
+      "pesado4": [
+       24000,
+       24000
+      ],
+      "pesado5": [
+       28000,
+       28000
+      ]
+     }
+    },
+    "Accesos": {
+     "telepase": {
+      "moto": [
+       1200,
+       1200
+      ],
+      "auto": [
+       1200,
+       1200
+      ],
+      "remolque": [
+       2400,
+       2400
+      ],
+      "pesado2": [
+       2400,
+       2400
+      ]
+     },
+     "manual": {
+      "moto": [
+       1500,
+       1500
+      ],
+      "auto": [
+       1500,
+       1500
+      ],
+      "remolque": [
+       3000,
+       3000
+      ],
+      "pesado2": [
+       3000,
+       3000
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "SLUIS": {
+   "nombre": "Peajes de San Luis (provinciales)",
+   "fuente": "https://www.villamercedes.info/aumentan-los-peajes-en-san-luis-desde-este-sabado-cuanto-costara-cada-tarifa/",
+   "automatico": false,
+   "vigencia": "3 de octubre de 2026",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "No usa TelePASE. Es la tarifa general (vehículos de otras provincias); con la Tarjeta Sanluiseña es más barato.",
+   "tramos": {
+    "San Luis": {
+     "telepase": {
+      "moto": [
+       800,
+       800
+      ],
+      "auto": [
+       2000,
+       2000
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  },
+  "CVU": {
+   "nombre": "Uruguay – rutas nacionales (Corporación Vial del Uruguay)",
+   "fuente": "https://www.montevideo.com.uy/Noticias/Subieron-los-peajes-en-rutas-nacionales--en-cuanto-quedo-la-tarifa-basica--uc964243",
+   "automatico": false,
+   "vigencia": "1 de junio de 2026",
+   "moneda": "UYU",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "Tarifas en pesos uruguayos con IVA. Con TAG de Telepeaje se paga menos; sin TAG se cobra por matrícula con SUCIVE. Se actualizan el 1 de junio y el 1 de diciembre.",
+   "tramos": {
+    "Uruguay": {
+     "telepase": {
+      "auto": [
+       167,
+       167
+      ],
+      "remolque": [
+       220,
+       220
+      ],
+      "pesado2": [
+       220,
+       220
+      ],
+      "pesado3": [
+       220,
+       220
+      ],
+      "pesado4": [
+       449,
+       449
+      ],
+      "pesado5": [
+       449,
+       449
+      ]
+     },
+     "manual": {
+      "auto": [
+       214,
+       214
+      ],
+      "remolque": [
+       282,
+       282
+      ],
+      "pesado2": [
+       282,
+       282
+      ],
+      "pesado3": [
+       282,
+       282
+      ],
+      "pesado4": [
+       527.78,
+       527.78
+      ],
+      "pesado5": [
+       527.78,
+       527.78
+      ]
+     }
+    }
+   },
+   "desactualizado": false
+  }
+ },
+ "plazas": [
+  {
+   "nombre": "Parque Avellaneda (Perito Moreno)",
+   "lat": -34.647877,
+   "lon": -58.477892,
+   "radio": 700,
+   "empresa": "AUSA",
+   "tramo": "25 de Mayo / Perito Moreno",
+   "tipo": "portico"
+  },
+  {
+   "nombre": "Dellepiane",
+   "lat": -34.649446,
+   "lon": -58.465233,
+   "radio": 700,
+   "empresa": "AUSA",
+   "tramo": "25 de Mayo / Perito Moreno",
+   "tipo": "portico"
+  },
+  {
+   "nombre": "Alberti",
+   "lat": -34.625497,
+   "lon": -58.400099,
+   "radio": 700,
+   "empresa": "AUSA",
+   "tramo": "Alberti",
+   "tipo": "portico"
+  },
+  {
+   "nombre": "Retiro (Illia)",
+   "lat": -34.572644,
+   "lon": -58.398138,
+   "radio": 700,
+   "empresa": "AUSA",
+   "tramo": "Illia / Retiro II / Sarmiento / Salguero",
+   "tipo": "portico"
+  },
+  {
+   "nombre": "Salguero (Illia)",
+   "lat": -34.566753,
+   "lon": -58.406448,
+   "radio": 700,
+   "empresa": "AUSA",
+   "tramo": "Illia / Retiro II / Sarmiento / Salguero",
+   "tipo": "portico"
+  },
+  {
+   "nombre": "Márquez",
+   "lat": -34.498369,
+   "lon": -58.550936,
+   "radio": 700,
+   "empresa": "AUSOL",
+   "tramo": "Acceso Norte",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Panamericana San Isidro",
+   "lat": -34.486097,
+   "lon": -58.559678,
+   "radio": 700,
+   "empresa": "AUSOL",
+   "tramo": "Acceso Norte",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "San Martín",
+   "lat": -34.491115,
+   "lon": -58.566033,
+   "radio": 700,
+   "empresa": "AUSOL",
+   "tramo": "Acceso Norte",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Camino Real",
+   "lat": -34.488474,
+   "lon": -58.579565,
+   "radio": 700,
+   "empresa": "AUSOL",
+   "tramo": "Acceso Norte",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Buen Ayre (Panamericana)",
+   "lat": -34.487809,
+   "lon": -58.589478,
+   "radio": 700,
+   "empresa": "AUSOL",
+   "tramo": "Acceso Norte",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Debenedetti",
+   "lat": -34.513058,
+   "lon": -58.521696,
+   "radio": 700,
+   "empresa": "AUSOL",
+   "tramo": "Acceso Norte",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Tigre (Acceso Norte)",
+   "lat": -34.486117,
+   "lon": -58.609029,
+   "radio": 700,
+   "empresa": "AUSOL",
+   "tramo": "Acceso Norte",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Tigre ramal (Acceso Norte)",
+   "lat": -34.483714,
+   "lon": -58.626267,
+   "radio": 700,
+   "empresa": "AUSOL",
+   "tramo": "Acceso Norte",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Tigre oeste (Acceso Norte)",
+   "lat": -34.477158,
+   "lon": -58.656666,
+   "radio": 700,
+   "empresa": "AUSOL",
+   "tramo": "Acceso Norte",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Ramal Campana (RN9)",
+   "lat": -34.458116,
+   "lon": -58.691524,
+   "radio": 700,
+   "empresa": "AUSOL",
+   "tramo": "Acceso Norte",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Ramal Pilar (RN8)",
+   "lat": -34.460822,
+   "lon": -58.709435,
+   "radio": 700,
+   "empresa": "AUSOL",
+   "tramo": "Acceso Norte",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Ituzaingó",
+   "lat": -34.63146,
+   "lon": -58.675188,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso Oeste Ituzaingó 1",
+   "lat": -34.628866,
+   "lon": -58.692656,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso Oeste Ituzaingó 2",
+   "lat": -34.628353,
+   "lon": -58.705486,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso Oeste Ituzaingó 3",
+   "lat": -34.632818,
+   "lon": -58.665156,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso Oeste Ituzaingó 4",
+   "lat": -34.62914,
+   "lon": -58.713335,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso Oeste Morón 1",
+   "lat": -34.631415,
+   "lon": -58.6525,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso Oeste Morón 2",
+   "lat": -34.632685,
+   "lon": -58.624835,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso Oeste Morón 3",
+   "lat": -34.631247,
+   "lon": -58.571889,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso Oeste Morón 4",
+   "lat": -34.632268,
+   "lon": -58.598104,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso Oeste Morón 5",
+   "lat": -34.632502,
+   "lon": -58.611113,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso Oeste Tres de Febrero",
+   "lat": -34.629567,
+   "lon": -58.557172,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Buen Ayre (Acceso Oeste)",
+   "lat": -34.628072,
+   "lon": -58.728071,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "General Rodríguez 1",
+   "lat": -34.593563,
+   "lon": -58.946137,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "General Rodríguez 2",
+   "lat": -34.602325,
+   "lon": -58.900869,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "General Rodríguez 3",
+   "lat": -34.596258,
+   "lon": -58.935491,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "General Rodríguez 4",
+   "lat": -34.588416,
+   "lon": -58.969349,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "General Rodríguez 5",
+   "lat": -34.582704,
+   "lon": -58.995838,
+   "radio": 700,
+   "empresa": "AUOESTE",
+   "tramo": "Acceso Oeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Dock Sud",
+   "lat": -34.651175,
+   "lon": -58.35315,
+   "radio": 700,
+   "empresa": "AUBASA",
+   "tramo": "Dock Sud / Gutiérrez / Hudson (hacia La Plata)",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Hudson",
+   "lat": -34.774105,
+   "lon": -58.163504,
+   "radio": 700,
+   "empresa": "AUBASA",
+   "tramo": "Dock Sud / Gutiérrez / Hudson (hacia La Plata)",
+   "tramo_vuelta": "Hudson (hacia CABA)",
+   "rumbo": 125,
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Gutiérrez",
+   "lat": -34.784294,
+   "lon": -58.1532,
+   "radio": 700,
+   "empresa": "AUBASA",
+   "tramo": "Dock Sud / Gutiérrez / Hudson (hacia La Plata)",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Bernal",
+   "lat": -34.7011,
+   "lon": -58.27466,
+   "radio": 500,
+   "empresa": "AUBASA",
+   "tramo": "Bernal / Quilmes / Berazategui (hacia La Plata)",
+   "tramo_vuelta": "Bernal / Quilmes / Berazategui (hacia CABA)",
+   "rumbo": 125,
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Quilmes",
+   "lat": -34.71638,
+   "lon": -58.23698,
+   "radio": 500,
+   "empresa": "AUBASA",
+   "tramo": "Bernal / Quilmes / Berazategui (hacia La Plata)",
+   "tramo_vuelta": "Bernal / Quilmes / Berazategui (hacia CABA)",
+   "rumbo": 125,
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Berazategui",
+   "lat": -34.7537,
+   "lon": -58.19079,
+   "radio": 500,
+   "empresa": "AUBASA",
+   "tramo": "Bernal / Quilmes / Berazategui (hacia La Plata)",
+   "tramo_vuelta": "Bernal / Quilmes / Berazategui (hacia CABA)",
+   "rumbo": 125,
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Samborombón (RP 2)",
+   "lat": -35.307553,
+   "lon": -58.053599,
+   "radio": 700,
+   "empresa": "AUBASA Rutas",
+   "tramo": "Samborombón / Maipú / La Huella",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Maipú (RP 2)",
+   "lat": -36.8467,
+   "lon": -57.86662,
+   "radio": 700,
+   "empresa": "AUBASA Rutas",
+   "tramo": "Samborombón / Maipú / La Huella",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Huella (RP 11)",
+   "lat": -36.428185,
+   "lon": -57.351007,
+   "radio": 700,
+   "empresa": "AUBASA Rutas",
+   "tramo": "Samborombón / Maipú / La Huella",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Madariaga (RP 74)",
+   "lat": -37.035939,
+   "lon": -57.142982,
+   "radio": 700,
+   "empresa": "AUBASA Rutas",
+   "tramo": "Madariaga",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Mar Chiquita (RP 11)",
+   "lat": -37.733688,
+   "lon": -57.445862,
+   "radio": 700,
+   "empresa": "AUBASA Rutas",
+   "tramo": "Mar Chiquita",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Agüero (Riccheri)",
+   "lat": -34.699016,
+   "lon": -58.495917,
+   "radio": 400,
+   "empresa": "CORRESUR",
+   "tramo": "Riccheri / Ezeiza-Cañuelas",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Boulogne Sur Mer",
+   "lat": -34.704551,
+   "lon": -58.499545,
+   "radio": 300,
+   "empresa": "CORRESUR",
+   "tramo": "Riccheri / Ezeiza-Cañuelas",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Donovan",
+   "lat": -34.708457,
+   "lon": -58.503599,
+   "radio": 300,
+   "empresa": "CORRESUR",
+   "tramo": "Riccheri / Ezeiza-Cañuelas",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Mercado Central",
+   "lat": -34.709665,
+   "lon": -58.503758,
+   "radio": 300,
+   "empresa": "CORRESUR",
+   "tramo": "Riccheri / Ezeiza-Cañuelas",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Ezeiza",
+   "lat": -34.829625,
+   "lon": -58.509801,
+   "radio": 300,
+   "empresa": "CORRESUR",
+   "tramo": "Riccheri / Ezeiza-Cañuelas",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Monte Grande",
+   "lat": -34.832047,
+   "lon": -58.508556,
+   "radio": 300,
+   "empresa": "CORRESUR",
+   "tramo": "Riccheri / Ezeiza-Cañuelas",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Tristán Suárez",
+   "lat": -34.854014,
+   "lon": -58.551482,
+   "radio": 700,
+   "empresa": "CORRESUR",
+   "tramo": "Riccheri / Ezeiza-Cañuelas",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cañuelas (RN 3)",
+   "lat": -35.14294,
+   "lon": -58.7403,
+   "radio": 700,
+   "empresa": "CORRESUR Rutas",
+   "tramo": "RN 3 / 205 / 226",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Uribelarrea (RN 205)",
+   "lat": -35.09714,
+   "lon": -58.931518,
+   "radio": 700,
+   "empresa": "CORRESUR Rutas",
+   "tramo": "RN 3 / 205 / 226",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "El Dorado (RN 226)",
+   "lat": -37.884778,
+   "lon": -57.902105,
+   "radio": 700,
+   "empresa": "CORRESUR Rutas",
+   "tramo": "RN 3 / 205 / 226",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Vasconia (RN 226)",
+   "lat": -37.373021,
+   "lon": -59.008032,
+   "radio": 700,
+   "empresa": "CORRESUR Rutas",
+   "tramo": "RN 3 / 205 / 226",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Hinojo (RN 226)",
+   "lat": -36.861748,
+   "lon": -60.12274,
+   "radio": 700,
+   "empresa": "CORRESUR Rutas",
+   "tramo": "RN 3 / 205 / 226",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Olivera (RN 5)",
+   "lat": -34.645054,
+   "lon": -59.294277,
+   "radio": 700,
+   "empresa": "PENTAVIA",
+   "tramo": "RN 5",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "9 de Julio (RN 5)",
+   "lat": -35.360467,
+   "lon": -60.70288,
+   "radio": 700,
+   "empresa": "PENTAVIA",
+   "tramo": "RN 5",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Trenque Lauquen (RN 5)",
+   "lat": -35.918179,
+   "lon": -62.556098,
+   "radio": 700,
+   "empresa": "PENTAVIA",
+   "tramo": "RN 5",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Larena (RN 8)",
+   "lat": -34.403014,
+   "lon": -59.013831,
+   "radio": 700,
+   "empresa": "VIAL8",
+   "tramo": "RN 8",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Solís (RN 8)",
+   "lat": -34.28453,
+   "lon": -59.36352,
+   "radio": 700,
+   "empresa": "VIAL8",
+   "tramo": "RN 8",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Venado Tuerto (RN 8)",
+   "lat": -33.691236,
+   "lon": -62.097262,
+   "radio": 700,
+   "empresa": "VIAL8",
+   "tramo": "RN 8",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Sampacho (RN 8)",
+   "lat": -33.424162,
+   "lon": -64.775614,
+   "radio": 700,
+   "empresa": "VIAL8",
+   "tramo": "RN 8",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Zárate (RN 12)",
+   "lat": -34.118083,
+   "lon": -59.011308,
+   "radio": 700,
+   "empresa": "AUMESA",
+   "tramo": "Zárate / Colonia Elía",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Colonia Elía (RN 14)",
+   "lat": -32.666996,
+   "lon": -58.441728,
+   "radio": 700,
+   "empresa": "AUMESA",
+   "tramo": "Zárate / Colonia Elía",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Yeruá (RN 14)",
+   "lat": -31.507616,
+   "lon": -58.183954,
+   "radio": 700,
+   "empresa": "AUMESA",
+   "tramo": "Yeruá / Piedritas",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Buen Ayre – Estación Oeste",
+   "lat": -34.61123,
+   "lon": -58.71615,
+   "radio": 450,
+   "empresa": "BUENAYRE",
+   "tramo": "Buen Ayre",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Buen Ayre (Hurlingham)",
+   "lat": -34.58373,
+   "lon": -58.67671,
+   "radio": 450,
+   "empresa": "BUENAYRE",
+   "tramo": "Buen Ayre",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Buen Ayre (San Miguel)",
+   "lat": -34.56876,
+   "lon": -58.65254,
+   "radio": 450,
+   "empresa": "BUENAYRE",
+   "tramo": "Buen Ayre",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Buen Ayre (San Martín)",
+   "lat": -34.56231,
+   "lon": -58.62968,
+   "radio": 450,
+   "empresa": "BUENAYRE",
+   "tramo": "Buen Ayre",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Buen Ayre (Bella Vista)",
+   "lat": -34.56805,
+   "lon": -58.63948,
+   "radio": 450,
+   "empresa": "BUENAYRE",
+   "tramo": "Buen Ayre",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Buen Ayre – Estación Norte",
+   "lat": -34.50342,
+   "lon": -58.58972,
+   "radio": 450,
+   "empresa": "BUENAYRE",
+   "tramo": "Buen Ayre",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Buen Ayre (José León Suárez)",
+   "lat": -34.53232,
+   "lon": -58.596,
+   "radio": 450,
+   "empresa": "BUENAYRE",
+   "tramo": "Buen Ayre",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Buen Ayre (pórtico)",
+   "lat": -34.51781,
+   "lon": -58.59199,
+   "radio": 450,
+   "empresa": "BUENAYRE",
+   "tramo": "Buen Ayre",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Florida",
+   "lat": -27.36355,
+   "lon": -64.95727,
+   "radio": 1500,
+   "empresa": "AUNOA",
+   "tramo": "Noroeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Molle Yaco",
+   "lat": -26.2947,
+   "lon": -65.28077,
+   "radio": 1500,
+   "empresa": "AUNOA",
+   "tramo": "Noroeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cabeza de Buey",
+   "lat": -24.81427,
+   "lon": -65.01586,
+   "radio": 1500,
+   "empresa": "AUNOA",
+   "tramo": "Noroeste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "General Lagos",
+   "lat": -33.12882,
+   "lon": -60.57803,
+   "radio": 1200,
+   "empresa": "ARCOPORT",
+   "tramo": "General Lagos",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Carcarañá",
+   "lat": -32.87637,
+   "lon": -61.16987,
+   "radio": 1500,
+   "empresa": "COVICEN",
+   "tramo": "Centro",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "James Craik",
+   "lat": -32.18869,
+   "lon": -63.38943,
+   "radio": 1500,
+   "empresa": "COVICEN",
+   "tramo": "Centro",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Franck",
+   "lat": -31.63625,
+   "lon": -60.97415,
+   "radio": 1500,
+   "empresa": "COVICEN",
+   "tramo": "Centro",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "San Vicente (RN 34)",
+   "lat": -31.79214,
+   "lon": -61.56714,
+   "radio": 1500,
+   "empresa": "COVICEN",
+   "tramo": "Centro",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Ceres",
+   "lat": -29.94602,
+   "lon": -61.88645,
+   "radio": 1500,
+   "empresa": "AUNOSA",
+   "tramo": "Centro-Norte",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Fernández",
+   "lat": -27.94812,
+   "lon": -63.84634,
+   "radio": 1500,
+   "empresa": "AUNOSA",
+   "tramo": "Centro-Norte",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Puente General Belgrano",
+   "lat": -27.44621,
+   "lon": -58.88729,
+   "radio": 1500,
+   "empresa": "LITORAL",
+   "tramo": "Litoral",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Makallé",
+   "lat": -27.18683,
+   "lon": -59.3263,
+   "radio": 1500,
+   "empresa": "LITORAL",
+   "tramo": "Litoral",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Riachuelo",
+   "lat": -27.62123,
+   "lon": -58.73834,
+   "radio": 1500,
+   "empresa": "LITORAL",
+   "tramo": "Litoral",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Ituzaingó",
+   "lat": -27.57865,
+   "lon": -56.61875,
+   "radio": 1500,
+   "empresa": "SELVA",
+   "tramo": "Noreste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Santa Ana",
+   "lat": -27.42841,
+   "lon": -55.62978,
+   "radio": 1500,
+   "empresa": "SELVA",
+   "tramo": "Noreste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Colonia Victoria",
+   "lat": -26.33614,
+   "lon": -54.61753,
+   "radio": 1500,
+   "empresa": "SELVA",
+   "tramo": "Noreste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Fachinal",
+   "lat": -27.64416,
+   "lon": -55.81592,
+   "radio": 1500,
+   "empresa": "SELVA",
+   "tramo": "Noreste",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Paz",
+   "lat": -33.43584,
+   "lon": -67.50243,
+   "radio": 1500,
+   "empresa": "ACONCAGUA",
+   "tramo": "Cuyo",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Las Cuevas",
+   "lat": -32.80632,
+   "lon": -70.06727,
+   "radio": 1500,
+   "empresa": "ACONCAGUA",
+   "tramo": "Cuyo",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Villa Espil",
+   "lat": -34.51985,
+   "lon": -59.30891,
+   "radio": 1500,
+   "empresa": "CPLATA",
+   "tramo": "Mediterráneo y Portuario Sur",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Junín (Saforcada)",
+   "lat": -34.57931,
+   "lon": -61.09399,
+   "radio": 1500,
+   "empresa": "CPLATA",
+   "tramo": "Mediterráneo y Portuario Sur",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Vicuña Mackenna",
+   "lat": -33.92974,
+   "lon": -64.45203,
+   "radio": 1500,
+   "empresa": "CPLATA",
+   "tramo": "Mediterráneo y Portuario Sur",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Zárate (RN 9)",
+   "lat": -34.10117,
+   "lon": -59.15035,
+   "radio": 1500,
+   "empresa": "CPLATA",
+   "tramo": "Mediterráneo y Portuario Sur",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Agustín Roca (RN 188)",
+   "lat": -34.53222,
+   "lon": -60.90191,
+   "radio": 1500,
+   "empresa": "CPLATA",
+   "tramo": "Mediterráneo y Portuario Sur",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Puente Rosario–Victoria",
+   "lat": -32.86544,
+   "lon": -60.65123,
+   "radio": 1500,
+   "empresa": "CONEXION",
+   "tramo": "Puente Rosario–Victoria",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Calera (E-55)",
+   "lat": -31.37009,
+   "lon": -64.29964,
+   "radio": 800,
+   "empresa": "CDLS",
+   "tramo": "Red de Accesos a Córdoba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Pajas Blancas (E-53)",
+   "lat": -31.31235,
+   "lon": -64.21882,
+   "radio": 800,
+   "empresa": "CDLS",
+   "tramo": "Red de Accesos a Córdoba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Córdoba–Carlos Paz (RN 20)",
+   "lat": -31.43664,
+   "lon": -64.31235,
+   "radio": 800,
+   "empresa": "CDLS",
+   "tramo": "Red de Accesos a Córdoba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Variante Ruta 5",
+   "lat": -31.54044,
+   "lon": -64.30491,
+   "radio": 800,
+   "empresa": "CDLS",
+   "tramo": "Red de Accesos a Córdoba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Monte Cristo (RN 19)",
+   "lat": -31.32776,
+   "lon": -63.87494,
+   "radio": 800,
+   "empresa": "CDLS",
+   "tramo": "Red de Accesos a Córdoba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Toledo (RN 9 Sur)",
+   "lat": -31.53996,
+   "lon": -63.97204,
+   "radio": 800,
+   "empresa": "CDLS",
+   "tramo": "Red de Accesos a Córdoba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Toledo (RN 9 Sur, acceso)",
+   "lat": -31.56943,
+   "lon": -63.99541,
+   "radio": 800,
+   "empresa": "CDLS",
+   "tramo": "Red de Accesos a Córdoba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Jesús María (RN 9 Norte)",
+   "lat": -31.1908,
+   "lon": -64.15301,
+   "radio": 800,
+   "empresa": "CDLS",
+   "tramo": "Red de Accesos a Córdoba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Calamuchita (RP 5)",
+   "lat": -31.74792,
+   "lon": -64.41773,
+   "radio": 800,
+   "empresa": "CDLS",
+   "tramo": "Red de Accesos a Córdoba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Calamuchita (RP 5, acceso)",
+   "lat": -31.73521,
+   "lon": -64.41416,
+   "radio": 800,
+   "empresa": "CDLS",
+   "tramo": "Red de Accesos a Córdoba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Camino a 60 Cuadras",
+   "lat": -31.51971,
+   "lon": -64.22888,
+   "radio": 800,
+   "empresa": "CDLS",
+   "tramo": "Red de Accesos a Córdoba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Punilla (RN 38)",
+   "lat": -31.2988,
+   "lon": -64.47395,
+   "radio": 800,
+   "empresa": "CDLS",
+   "tramo": "Red de Accesos a Córdoba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Juárez Celman",
+   "lat": -31.28004,
+   "lon": -64.22907,
+   "radio": 800,
+   "empresa": "CDLS",
+   "tramo": "Red de Accesos a Córdoba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Arroyo Tegua (RN 36)",
+   "lat": -32.69899,
+   "lon": -64.35068,
+   "radio": 800,
+   "empresa": "CDLS",
+   "tramo": "Red de Accesos a Córdoba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Piedras Moras (RN 36)",
+   "lat": -32.13206,
+   "lon": -64.29366,
+   "radio": 800,
+   "empresa": "CDLS",
+   "tramo": "Red de Accesos a Córdoba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Túnel Subfluvial (Paraná)",
+   "lat": -31.71659,
+   "lon": -60.50232,
+   "radio": 700,
+   "empresa": "TUNEL",
+   "tramo": "Túnel Subfluvial",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Túnel Subfluvial (acceso)",
+   "lat": -31.68742,
+   "lon": -60.51205,
+   "radio": 700,
+   "empresa": "TUNEL",
+   "tramo": "Túnel Subfluvial",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Troncal Puerto San Martín",
+   "lat": -32.69945,
+   "lon": -60.7856,
+   "radio": 600,
+   "empresa": "AP01",
+   "tramo": "Troncal",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Troncal Sauce Viejo",
+   "lat": -31.70866,
+   "lon": -60.82583,
+   "radio": 600,
+   "empresa": "AP01",
+   "tramo": "Troncal",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso San Lorenzo Sur",
+   "lat": -32.76718,
+   "lon": -60.74802,
+   "radio": 600,
+   "empresa": "AP01",
+   "tramo": "Accesos",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso San Lorenzo Centro",
+   "lat": -32.74809,
+   "lon": -60.75903,
+   "radio": 600,
+   "empresa": "AP01",
+   "tramo": "Accesos",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso San Lorenzo Norte",
+   "lat": -32.72446,
+   "lon": -60.76303,
+   "radio": 600,
+   "empresa": "AP01",
+   "tramo": "Accesos",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso Villa La Ribera",
+   "lat": -32.63634,
+   "lon": -60.82449,
+   "radio": 600,
+   "empresa": "AP01",
+   "tramo": "Accesos",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso Sauce Viejo",
+   "lat": -31.69096,
+   "lon": -60.81106,
+   "radio": 600,
+   "empresa": "AP01",
+   "tramo": "Accesos",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acceso Santo Tomé",
+   "lat": -31.66661,
+   "lon": -60.79545,
+   "radio": 600,
+   "empresa": "AP01",
+   "tramo": "Accesos",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Cumbre",
+   "lat": -33.35912,
+   "lon": -66.06709,
+   "radio": 1200,
+   "empresa": "SLUIS",
+   "tramo": "San Luis",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Justo Daract",
+   "lat": -33.85026,
+   "lon": -65.15472,
+   "radio": 1200,
+   "empresa": "SLUIS",
+   "tramo": "San Luis",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Desaguadero (San Luis)",
+   "lat": -33.41233,
+   "lon": -67.11912,
+   "radio": 1200,
+   "empresa": "SLUIS",
+   "tramo": "San Luis",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Santa Rosa del Conlara",
+   "lat": -32.36137,
+   "lon": -65.17489,
+   "radio": 1200,
+   "empresa": "SLUIS",
+   "tramo": "San Luis",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Anchorena",
+   "lat": -35.66936,
+   "lon": -65.37524,
+   "radio": 1200,
+   "empresa": "SLUIS",
+   "tramo": "San Luis",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Villa Mercedes",
+   "lat": -33.60822,
+   "lon": -65.45162,
+   "radio": 1200,
+   "empresa": "SLUIS",
+   "tramo": "San Luis",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Río Quinto",
+   "lat": -33.87103,
+   "lon": -65.33113,
+   "radio": 1200,
+   "empresa": "SLUIS",
+   "tramo": "San Luis",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Buena Esperanza",
+   "lat": -34.78083,
+   "lon": -65.26005,
+   "radio": 1200,
+   "empresa": "SLUIS",
+   "tramo": "San Luis",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Toma (Saladillo)",
+   "lat": -33.12053,
+   "lon": -65.69128,
+   "radio": 1200,
+   "empresa": "SLUIS",
+   "tramo": "San Luis",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Los Puquios",
+   "lat": -33.27142,
+   "lon": -66.1965,
+   "radio": 1200,
+   "empresa": "SLUIS",
+   "tramo": "San Luis",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Punilla",
+   "lat": -33.09101,
+   "lon": -65.08781,
+   "radio": 1200,
+   "empresa": "SLUIS",
+   "tramo": "San Luis",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cruz de Piedra",
+   "lat": -33.25411,
+   "lon": -66.22701,
+   "radio": 1200,
+   "empresa": "SLUIS",
+   "tramo": "San Luis",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Barra de Santa Lucía (Ruta 1)",
+   "lat": -34.77639,
+   "lon": -56.3662,
+   "radio": 1200,
+   "empresa": "CVU",
+   "tramo": "Uruguay",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cufré (Ruta 1)",
+   "lat": -34.35498,
+   "lon": -57.11349,
+   "radio": 1200,
+   "empresa": "CVU",
+   "tramo": "Uruguay",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Mercedes (Ruta 2)",
+   "lat": -33.21196,
+   "lon": -58.04795,
+   "radio": 1200,
+   "empresa": "CVU",
+   "tramo": "Uruguay",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Paso del Puerto (Ruta 3)",
+   "lat": -33.12897,
+   "lon": -57.17266,
+   "radio": 1200,
+   "empresa": "CVU",
+   "tramo": "Uruguay",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Queguay (Ruta 3)",
+   "lat": -32.14554,
+   "lon": -57.93869,
+   "radio": 1200,
+   "empresa": "CVU",
+   "tramo": "Uruguay",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Mendoza (Ruta 5)",
+   "lat": -34.33482,
+   "lon": -56.24506,
+   "radio": 1200,
+   "empresa": "CVU",
+   "tramo": "Uruguay",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Centenario (Ruta 5)",
+   "lat": -32.83994,
+   "lon": -56.49355,
+   "radio": 1200,
+   "empresa": "CVU",
+   "tramo": "Uruguay",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Manuel Díaz (Ruta 5)",
+   "lat": -31.54674,
+   "lon": -55.69877,
+   "radio": 1200,
+   "empresa": "CVU",
+   "tramo": "Uruguay",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Soca (Ruta 8)",
+   "lat": -34.67229,
+   "lon": -55.76538,
+   "radio": 1200,
+   "empresa": "CVU",
+   "tramo": "Uruguay",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cebollatí (Ruta 8)",
+   "lat": -33.83756,
+   "lon": -54.76641,
+   "radio": 1200,
+   "empresa": "CVU",
+   "tramo": "Uruguay",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Capilla de Cella (Ruta 9)",
+   "lat": -34.7064,
+   "lon": -55.46613,
+   "radio": 1200,
+   "empresa": "CVU",
+   "tramo": "Uruguay",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Garzón (Ruta 9)",
+   "lat": -34.60275,
+   "lon": -54.42654,
+   "radio": 1200,
+   "empresa": "CVU",
+   "tramo": "Uruguay",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Santa Lucía (Ruta 11)",
+   "lat": -34.44334,
+   "lon": -56.42148,
+   "radio": 1200,
+   "empresa": "CVU",
+   "tramo": "Uruguay",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Pando (Interbalnearia)",
+   "lat": -34.78482,
+   "lon": -55.88853,
+   "radio": 1200,
+   "empresa": "CVU",
+   "tramo": "Uruguay",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Solís (Interbalnearia)",
+   "lat": -34.77751,
+   "lon": -55.39245,
+   "radio": 1200,
+   "empresa": "CVU",
+   "tramo": "Uruguay",
+   "tipo": "cabina"
+  }
+ ],
+ "generado": "2026-10-17T13:45Z"
+}
