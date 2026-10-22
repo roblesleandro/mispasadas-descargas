@@ -1031,7 +1031,7 @@
      }
     }
    },
-   "desactualizado": false
+   "desactualizado": true
   },
   "VIAL8": {
    "nombre": "Vial8 (Ruta Nacional 8)",
@@ -3575,5 +3575,5 @@
    "tipo": "cabina"
   }
  ],
- "generado": "2026-10-19T16:59Z"
+ "generado": "2026-10-22T15:18Z"
 }
