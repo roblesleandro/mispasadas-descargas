@@ -1069,7 +1069,7 @@
      }
     }
    },
-   "desactualizado": false
+   "desactualizado": true
   },
   "AUMESA": {
    "nombre": "Autovía del Mercosur (RN 12 y 14)",
@@ -3575,5 +3575,5 @@
    "tipo": "cabina"
   }
  ],
- "generado": "2026-10-22T15:18Z"
+ "generado": "2026-10-24T14:02Z"
 }
