@@ -1,0 +1,44 @@
+{
+ "version": 2,
+ "pais": "HT",
+ "moneda": "HTG",
+ "resumen": {
+  "oficial": 0,
+  "osm": 0,
+  "armado": 2,
+  "total": 2,
+  "confianza_baja": 0,
+  "excluidas": 0
+ },
+ "estaciones": [
+  {
+   "lat": 18.563205,
+   "lon": -72.343523,
+   "nombre": "Peaje Route de Waaf Jérémie",
+   "tipo": "cabina",
+   "via": "Route de Waaf Jérémie",
+   "localidad": "Bellecourt",
+   "fuente": "armado",
+   "pais": "HT",
+   "via_visible": "Route de Waaf Jérémie",
+   "punto": "Bellecourt",
+   "nombre_visible": "Route de Waaf Jérémie - Péage Bellecourt",
+   "confianza": "media"
+  },
+  {
+   "lat": 18.664293,
+   "lon": -72.280204,
+   "nombre": "Pórtico cerca de Lerebours",
+   "tipo": "portico",
+   "localidad": "Lerebours",
+   "fuente": "armado",
+   "pais": "HT",
+   "punto": "Lerebours",
+   "nombre_visible": "Portique Lerebours",
+   "confianza": "media"
+  }
+ ],
+ "excluidas": [],
+ "generado": "2026-10-29T22:49Z",
+ "alertas": []
+}
