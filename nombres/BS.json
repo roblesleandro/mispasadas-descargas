@@ -1,0 +1,32 @@
+{
+ "version": 2,
+ "pais": "BS",
+ "moneda": "BSD",
+ "resumen": {
+  "oficial": 0,
+  "osm": 0,
+  "armado": 1,
+  "total": 1,
+  "confianza_baja": 0,
+  "excluidas": 0
+ },
+ "estaciones": [
+  {
+   "lat": 25.080553,
+   "lon": -77.321813,
+   "nombre": "Peaje Paradise Island Bridge",
+   "tipo": "cabina",
+   "via": "Paradise Island Bridge",
+   "localidad": "Nassau",
+   "fuente": "armado",
+   "pais": "BS",
+   "via_visible": "Paradise Island Bridge",
+   "punto": "Nassau",
+   "nombre_visible": "Paradise Island Bridge - Toll Nassau",
+   "confianza": "media"
+  }
+ ],
+ "excluidas": [],
+ "generado": "2026-10-29T23:02Z",
+ "alertas": []
+}
