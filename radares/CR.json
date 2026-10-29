@@ -1,0 +1,67 @@
+{
+ "version": "cr-2026-10-29",
+ "pais": "CR",
+ "generado": "2026-10-29T22:55:53+00:00",
+ "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
+ "a_investigar": [
+  "Sin listado oficial (COSEVI)."
+ ],
+ "resumen": {
+  "total": 2,
+  "oficiales": 0,
+  "osm": 2,
+  "por_tipo": {
+   "FIXED_SPEED": 1,
+   "AVERAGE_SPEED_SECTION": 0,
+   "RED_LIGHT_CAMERA": 0,
+   "VEHICLE_CAMERA": 1
+  },
+  "con_limite": 2,
+  "limite_revisar": 0,
+  "limite_desconocido": 0,
+  "revisados_esta_corrida": 2
+ },
+ "alertas": [],
+ "radars": [
+  {
+   "radar_id": "osm-cr-n1234896046",
+   "name": "Carretera Pacífica Fernández Oreamuno - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": 9.842082,
+   "longitude": -84.587927,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/1234896046",
+   "source_version": "cr-2026-10-29",
+   "confidence_score": 50,
+   "speed_limit_checked": "2026-10-29",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "road_label": "Carretera Pacífica Fernández Oreamuno",
+   "display_name": "Carretera Pacífica Fernández Oreamuno - Radar",
+   "country": "CR"
+  },
+  {
+   "radar_id": "osm-cr-n12327820501",
+   "name": "Ruta 126 - Cámara de tránsito",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": 10.024558,
+   "longitude": -84.124249,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/12327820501",
+   "source_version": "cr-2026-10-29",
+   "confidence_score": 50,
+   "speed_limit_checked": "2026-10-29",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_kmh": 40,
+   "speed_limit_source": "OSM_PROPIO",
+   "road_label": "Ruta 126",
+   "display_name": "Ruta 126 - Cámara de tránsito",
+   "country": "CR"
+  }
+ ]
+}
