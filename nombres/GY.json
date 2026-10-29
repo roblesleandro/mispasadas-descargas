@@ -1,0 +1,82 @@
+{
+ "version": 2,
+ "pais": "GY",
+ "moneda": "GYD",
+ "resumen": {
+  "oficial": 0,
+  "osm": 3,
+  "armado": 2,
+  "total": 5,
+  "confianza_baja": 0,
+  "excluidas": 0
+ },
+ "estaciones": [
+  {
+   "lat": 5.284673,
+   "lon": -58.693448,
+   "nombre": "Demerara Timbers Ltd.",
+   "tipo": "cabina",
+   "fuente": "osm",
+   "pais": "GY",
+   "punto": "Demerara Timbers Ltd.",
+   "nombre_visible": "Toll Demerara Timbers Ltd.",
+   "confianza": "alta"
+  },
+  {
+   "lat": 5.995373,
+   "lon": -58.302336,
+   "nombre": "Peaje Soesdyke-Linden Highway km 70",
+   "tipo": "cabina",
+   "via": "Soesdyke-Linden Highway",
+   "km": "70",
+   "localidad": "Linden",
+   "fuente": "armado",
+   "pais": "GY",
+   "via_visible": "Soesdyke-Linden Highway",
+   "punto": "Linden",
+   "nombre_visible": "Soesdyke-Linden Highway - Toll Linden",
+   "confianza": "media"
+  },
+  {
+   "lat": 6.007946,
+   "lon": -58.293999,
+   "nombre": "Mayor & Town Council - Town of Linden",
+   "tipo": "cabina",
+   "fuente": "osm",
+   "pais": "GY",
+   "punto": "Mayor & Town Council - Town of Linden",
+   "nombre_visible": "Toll Mayor & Town Council - Town of Linden",
+   "confianza": "alta"
+  },
+  {
+   "lat": 6.281259,
+   "lon": -57.536677,
+   "nombre": "Peaje West Berbice Highway",
+   "tipo": "cabina",
+   "via": "West Berbice Highway",
+   "localidad": "Rosignol",
+   "fuente": "armado",
+   "pais": "GY",
+   "via_visible": "West Berbice Highway",
+   "punto": "Rosignol",
+   "nombre_visible": "West Berbice Highway - Toll Rosignol",
+   "confianza": "media"
+  },
+  {
+   "lat": 6.767442,
+   "lon": -58.178164,
+   "nombre": "Demerara Harbour Bridge Toll Booth",
+   "tipo": "cabina",
+   "via": "Demerara Harbour Bridge",
+   "fuente": "osm",
+   "pais": "GY",
+   "via_visible": "Demerara Harbour Bridge",
+   "punto": "Demerara Harbour Bridge Toll Booth",
+   "nombre_visible": "Demerara Harbour Bridge - Toll Demerara Harbour Bridge Toll Booth",
+   "confianza": "alta"
+  }
+ ],
+ "excluidas": [],
+ "generado": "2026-10-29T22:51Z",
+ "alertas": []
+}
