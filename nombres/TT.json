@@ -1,0 +1,60 @@
+{
+ "version": 2,
+ "pais": "TT",
+ "moneda": "TTD",
+ "resumen": {
+  "oficial": 0,
+  "osm": 3,
+  "armado": 0,
+  "total": 3,
+  "confianza_baja": 0,
+  "excluidas": 1
+ },
+ "estaciones": [
+  {
+   "lat": 10.288399,
+   "lon": -61.006918,
+   "nombre": "MSC Gard Booth",
+   "tipo": "cabina",
+   "fuente": "osm",
+   "pais": "TT",
+   "punto": "MSC Gard Booth",
+   "nombre_visible": "Toll MSC Gard Booth",
+   "confianza": "alta"
+  },
+  {
+   "lat": 10.294491,
+   "lon": -61.004607,
+   "nombre": "Security Booth",
+   "tipo": "cabina",
+   "fuente": "osm",
+   "pais": "TT",
+   "punto": "Security Booth",
+   "nombre_visible": "Toll Security Booth",
+   "confianza": "alta"
+  },
+  {
+   "lat": 10.645473,
+   "lon": -61.401121,
+   "nombre": "Republic Bank Security Booth",
+   "tipo": "cabina",
+   "fuente": "osm",
+   "pais": "TT",
+   "punto": "Republic Bank Security Booth",
+   "nombre_visible": "Toll Republic Bank Security Booth",
+   "confianza": "alta"
+  }
+ ],
+ "excluidas": [
+  {
+   "lat": 10.603543,
+   "lon": -61.340496,
+   "nombre": "Caribbean Airlines Employee Parking",
+   "tipo": "cabina",
+   "fuente": "osm",
+   "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
+  }
+ ],
+ "generado": "2026-10-29T22:58Z",
+ "alertas": []
+}
