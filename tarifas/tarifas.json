@@ -901,7 +901,7 @@
      }
     }
    },
-   "desactualizado": false
+   "desactualizado": true
   },
   "CORRESUR Rutas": {
    "nombre": "Corresur (rutas nacionales 3, 205 y 226)",
@@ -965,7 +965,7 @@
      }
     }
    },
-   "desactualizado": false
+   "desactualizado": true
   },
   "PENTAVIA": {
    "nombre": "Pentavía (Ruta Nacional 5)",
@@ -1069,7 +1069,7 @@
      }
     }
    },
-   "desactualizado": false
+   "desactualizado": true
   },
   "AUMESA": {
    "nombre": "Autovía del Mercosur (RN 12 y 14)",
@@ -3575,5 +3575,5 @@
    "tipo": "cabina"
   }
  ],
- "generado": "2026-10-27T15:53Z"
+ "generado": "2026-10-29T16:56Z"
 }
