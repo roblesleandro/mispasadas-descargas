@@ -1,0 +1,17 @@
+{
+ "version": 2,
+ "pais": "AW",
+ "moneda": "AWG",
+ "resumen": {
+  "oficial": 0,
+  "osm": 0,
+  "armado": 0,
+  "total": 0,
+  "confianza_baja": 0,
+  "excluidas": 0
+ },
+ "estaciones": [],
+ "excluidas": [],
+ "generado": "2026-10-29T22:58Z",
+ "alertas": []
+}
