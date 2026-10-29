@@ -1,0 +1,45 @@
+{
+ "version": 2,
+ "pais": "NI",
+ "moneda": "NIO",
+ "resumen": {
+  "oficial": 0,
+  "osm": 0,
+  "armado": 2,
+  "total": 2,
+  "confianza_baja": 0,
+  "excluidas": 0
+ },
+ "estaciones": [
+  {
+   "lat": 12.493871,
+   "lon": -86.731332,
+   "nombre": "Peaje cerca de Rota",
+   "tipo": "cabina",
+   "localidad": "Rota",
+   "fuente": "armado",
+   "pais": "NI",
+   "punto": "Rota",
+   "nombre_visible": "Peaje Rota",
+   "confianza": "media"
+  },
+  {
+   "lat": 12.736753,
+   "lon": -85.013951,
+   "nombre": "Peaje NIC-17",
+   "tipo": "cabina",
+   "via": "NIC-17",
+   "ref": "NIC-17",
+   "localidad": "Villa Siquia",
+   "fuente": "armado",
+   "pais": "NI",
+   "via_visible": "NIC-17",
+   "punto": "Villa Siquia",
+   "nombre_visible": "NIC-17 - Peaje Villa Siquia",
+   "confianza": "media"
+  }
+ ],
+ "excluidas": [],
+ "generado": "2026-10-29T22:48Z",
+ "alertas": []
+}
