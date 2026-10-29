@@ -1,0 +1,19 @@
+{
+ "version": 2,
+ "pais": "SV",
+ "moneda": "USD",
+ "resumen": {
+  "oficial": 0,
+  "osm": 0,
+  "armado": 0,
+  "total": 0,
+  "confianza_baja": 0,
+  "excluidas": 0
+ },
+ "estaciones": [],
+ "excluidas": [],
+ "generado": "2026-10-29T22:45Z",
+ "alertas": [
+  "SV: no se pudieron leer los peajes de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+ ]
+}
