@@ -1,6 +1,6 @@
 {
- "version": "ansv-2026-10-27",
- "generado": "2026-10-27T17:22:15+00:00",
+ "version": "ansv-2026-10-29",
+ "generado": "2026-10-29T22:07:25+00:00",
  "fuente": "https://docs.google.com/spreadsheets/d/1qKy9Ok4BSOkuFpmeTvLMsre6ZkHGZRY7aYwmnUbpTwE/gviz/tq?tqx=out:csv&sheet=fijo",
  "aviso": "Radares fijos autorizados por la ANSV en rutas nacionales, con la ubicación que publica la ANSV (o, si falta, por ruta y km con mojones de OpenStreetMap). Sin límite de velocidad; que estén autorizados no garantiza que estén funcionando.",
  "resumen": {
@@ -12,12 +12,9 @@
   "sin_ubicar": 0
  },
  "alertas": [
-  "Overpass no respondió para AR-B RN 9.",
-  "Overpass no respondió para AR-B RN 8.",
-  "Overpass no respondió para AR-B RN 9, RN 8.",
-  "Overpass no respondió para AR-B RN 7.",
-  "Overpass no respondió para AR-B RN 226.",
-  "Overpass no respondió para AR-B RN 35."
+  "Overpass no respondió para AR-B RN 3.",
+  "Overpass no respondió para AR-B RN 12.",
+  "Overpass no respondió para AR-H RN 16."
  ],
  "radars": [
   {
@@ -30,7 +27,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 652; San Nicolas de los Arroyos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -43,7 +40,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 661; San Nicolas de los Arroyos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -56,7 +53,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 662; San Nicolas de los Arroyos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -69,7 +66,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 663, 664; San Nicolas de los Arroyos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -82,7 +79,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 665; San Nicolas de los Arroyos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -95,7 +92,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 667; San Nicolas de los Arroyos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -108,7 +105,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 668; San Nicolas de los Arroyos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -121,7 +118,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 669; San Nicolas de los Arroyos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -134,7 +131,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 670; San Nicolas de los Arroyos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -147,7 +144,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 671; San Nicolas de los Arroyos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -160,7 +157,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 672; San Nicolas de los Arroyos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -173,7 +170,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 107, 108; Exaltación de la Cruz; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -186,7 +183,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 109, 110; Exaltación de la Cruz; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -199,7 +196,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Pellegrini; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -212,7 +209,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 155, 156; Vicente Lopez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -225,7 +222,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 157, 158; Vicente Lopez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -238,8 +235,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Vicente Lopez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 278.7,
+   "heading_max": 348.7,
+   "travel_direction": "ascendente"
   },
   {
    "radar_id": "ansv--34.51430_-58.52030-desc",
@@ -251,8 +251,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Vicente Lopez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 98.7,
+   "heading_max": 168.7,
+   "travel_direction": "descendente"
   },
   {
    "radar_id": "ansv--34.48357_-58.62652-asc",
@@ -264,7 +267,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 286, 287; Tigre; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -277,7 +280,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 288, 289; Tigre; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -290,7 +293,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 290, 291, 292, 293; Tigre; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -303,7 +306,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 294, 295; Tigre; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -316,7 +319,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 192; Adolfo Gonzalez Chávez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -329,7 +332,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 193; Adolfo Gonzalez Chávez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -342,7 +345,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 214; Alberti; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -355,7 +358,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 215; Alberti; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -368,7 +371,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 64, 125; Baradero; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -381,7 +384,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 115, 128; Baradero; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -394,7 +397,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 179; Bragado; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -407,7 +410,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 180; Bragado; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -420,7 +423,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 95; Roque Perez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -433,7 +436,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 96; Roque Perez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -446,7 +449,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 135; Roque Perez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -459,7 +462,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 137; Roque Perez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -472,7 +475,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 138; Roque Perez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -485,7 +488,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 139; Roque Perez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -498,7 +501,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 130; Villarino; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -511,7 +514,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 131; Villarino; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -524,7 +527,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 132; Villarino; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -537,7 +540,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 133; Villarino; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60,
    "heading_min": 31.0,
    "heading_max": 101.0,
@@ -553,7 +556,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 438; Villarino; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -566,7 +569,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 449; Villarino; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -579,7 +582,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 55; Carmen de Areco; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -592,7 +595,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 61; Carmen de Areco; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -605,7 +608,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 63; Carmen de Areco; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -618,7 +621,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 73; Carmen de Areco; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -631,7 +634,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 153; Chacabuco; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -644,7 +647,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 154; Chacabuco; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -657,7 +660,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 257; Saladillo; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -670,7 +673,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 258; Saladillo; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -683,7 +686,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 259; Saladillo; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -696,7 +699,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 260; Saladillo; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -709,7 +712,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 208, 392; Ituzaingó; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -722,7 +725,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 209, 393; Ituzaingó; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -735,7 +738,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 210, 211, 394; Ituzaingó; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -748,8 +751,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 241, 242, 243; Moreno; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 218.0,
+   "heading_max": 288.0,
+   "travel_direction": "ascendente"
   },
   {
    "radar_id": "ansv--34.63017_-58.74248-desc",
@@ -761,8 +767,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 244, 245, 246; Moreno; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 38.0,
+   "heading_max": 108.0,
+   "travel_direction": "descendente"
   },
   {
    "radar_id": "ansv--34.61378_-58.85735-asc",
@@ -774,7 +783,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 247, 248, 249; Moreno; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -787,7 +796,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 250, 251, 252; Moreno; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -800,7 +809,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 253, 254; Marcos Paz; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -813,7 +822,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 255, 256; Marcos Paz; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -826,7 +835,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 31, 32; Campana; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -839,7 +848,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 33, 34; Campana; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -852,7 +861,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 216, 217, 218; Campana; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -865,7 +874,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 219, 220, 221; Campana; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -878,7 +887,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 222; Campana; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -891,7 +900,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 223; Campana; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -904,7 +913,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 263; Bolivar; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -917,7 +926,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 264; Bolivar; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -930,7 +939,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 405, 406; Cañuelas; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -943,7 +952,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 407; Cañuelas; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -956,7 +965,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 408; Cañuelas; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -969,7 +978,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 409; Cañuelas; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -982,7 +991,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 410; Cañuelas; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -995,7 +1004,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 147; Bahia Blanca; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1008,7 +1017,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 148; Bahia Blanca; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1021,7 +1030,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 149; Bahia Blanca; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1034,7 +1043,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 150; Bahia Blanca; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1047,7 +1056,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 181; Lobos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1060,7 +1069,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 182; Lobos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1073,7 +1082,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Lobos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1086,7 +1095,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Lobos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1099,7 +1108,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Lobos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1112,7 +1121,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Lobos; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1125,7 +1134,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 199; Rojas; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1138,7 +1147,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 200; Rojas; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1151,7 +1160,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 175; 9 de julio; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1164,7 +1173,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 113; 9 de julio; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1177,7 +1186,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 114; 9 de julio; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1190,7 +1199,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 116; 9 de julio; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1203,7 +1212,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 153; Junin; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1216,7 +1225,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 154; Junin; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1229,7 +1238,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 155; Junin; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1242,7 +1251,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 144, 145; San Andrés de Giles; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1255,7 +1264,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 146, 147; San Andrés de Giles; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1268,7 +1277,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 382, 378; Exaltación de la Cruz; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1281,7 +1290,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 383, 379; Exaltación de la Cruz; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1294,7 +1303,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 301; Pergamino; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1307,7 +1316,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 302; Pergamino; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1320,7 +1329,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 303; Pergamino; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1333,7 +1342,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 304; Pergamino; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1346,7 +1355,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 305; Pergamino; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1359,7 +1368,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 306; Pergamino; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1372,7 +1381,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 523; Pergamino; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1385,7 +1394,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 524; Pergamino; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1398,7 +1407,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 12; Colonia Benitez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1411,7 +1420,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 13; Campo Largo; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1424,7 +1433,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 14; Colonia Benitez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1437,7 +1446,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 17, 32; Puerto Tirol; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1450,7 +1459,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 18; Lapachito; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1463,7 +1472,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 19; La Tigra; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1476,7 +1485,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 20; Campo Largo; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1489,7 +1498,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 26; La Tigra; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1502,7 +1511,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 29, 53; Resistencia; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1515,7 +1524,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 34; Machagai; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1528,7 +1537,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 38; Machagai; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1541,7 +1550,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 44; Lapachito; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1554,7 +1563,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 48; Basail; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1567,7 +1576,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 49; Basail; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1580,7 +1589,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 51; Basail; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1593,7 +1602,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 56; Resistencia; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1606,7 +1615,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 58; La Tigra; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1619,7 +1628,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 62; Colonia Benitez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1632,7 +1641,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 65; Corzuela; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1645,7 +1654,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 68; Resistencia; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1658,7 +1667,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 77, 84; Resistencia; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1671,7 +1680,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 80; Colonia Benitez; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1684,7 +1693,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 87; Puerto Bastiani; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1697,7 +1706,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 176; Basail; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1710,7 +1719,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 185; Campo Largo; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1723,7 +1732,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 189; Avia Terai; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1736,7 +1745,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 196; Quitilipi; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1749,7 +1758,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 197; Quitilipi; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1762,7 +1771,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 1; Riachuelo; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1775,7 +1784,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 2; Riachuelo; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1788,7 +1797,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 3; Riachuelo; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1801,7 +1810,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 4; Riachuelo; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1814,7 +1823,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 5; Riachuelo; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1827,8 +1836,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 74; Provincial Corrientes; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 359.9,
+   "heading_max": 69.9,
+   "travel_direction": "ascendente"
   },
   {
    "radar_id": "ansv--27.96576_-56.00715-desc",
@@ -1840,8 +1852,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 75; Provincial Corrientes; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 179.9,
+   "heading_max": 249.9,
+   "travel_direction": "descendente"
   },
   {
    "radar_id": "ansv--30.58689_-57.97665-desc",
@@ -1853,7 +1868,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 76, 77; Provincial Corrientes; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1866,7 +1881,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 88, 89; Provincial Corrientes; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1879,7 +1894,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 90, 91; Provincial Corrientes; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1892,7 +1907,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 100; Santa Rosa; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1905,7 +1920,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 101; Santa Rosa; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1918,7 +1933,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 121, 123; Provincial Corrientes; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1931,7 +1946,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 124, 125; Parada Pucheta; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1944,7 +1959,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 126, 127; Bonpland; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1957,7 +1972,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 251; Provincial Corrientes; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1970,7 +1985,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 252; Provincial Corrientes; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1983,7 +1998,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 269; Provincial Corrientes; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -1996,7 +2011,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 270; Provincial Corrientes; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2009,7 +2024,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 271; Provincial Corrientes; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2022,7 +2037,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 900; Santa Rosa; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2035,7 +2050,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 3001; El Sombrero; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2048,7 +2063,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 3002; El Sombrero; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2061,7 +2076,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Alvear; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2074,7 +2089,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Alvear; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2087,7 +2102,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Esquina; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2100,7 +2115,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Esquina; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2113,7 +2128,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "San Cosme; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2126,7 +2141,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "San Cosme; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2139,7 +2154,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "La Cruz; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2152,7 +2167,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "La Cruz; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2165,7 +2180,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Ramada Paso; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2178,7 +2193,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Ramada Paso; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2191,7 +2206,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Santo Tomé; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2204,7 +2219,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Santo Tomé; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2217,7 +2232,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Villa Olivari; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2230,7 +2245,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Villa Olivari; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2243,7 +2258,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2256,7 +2271,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2269,7 +2284,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2282,7 +2297,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2295,7 +2310,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2308,8 +2323,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 165.5,
+   "heading_max": 235.5,
+   "travel_direction": "descendente"
   },
   {
    "radar_id": "ansv--33.01481_-58.60798-desc",
@@ -2321,7 +2339,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2334,7 +2352,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2347,7 +2365,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2360,7 +2378,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2373,7 +2391,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2386,7 +2404,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2399,7 +2417,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2412,7 +2430,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2425,7 +2443,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2438,7 +2456,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2451,7 +2469,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2464,7 +2482,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2477,7 +2495,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 138; Las Heras; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2490,7 +2508,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 139; Las Heras; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2503,7 +2521,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 140; Las Heras; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2516,7 +2534,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 141; Las Heras; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2529,7 +2547,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 142; Las Heras; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2542,7 +2560,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 143; Las Heras; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2555,7 +2573,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Santa Rosa; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2568,7 +2586,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Santa Rosa; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2581,7 +2599,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Santa Rosa; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2594,7 +2612,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Santa Rosa; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2607,7 +2625,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Santa Rosa; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2620,7 +2638,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Santa Rosa; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2633,8 +2651,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 106; Puerto Iguazú; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 100.3,
+   "heading_max": 170.3,
+   "travel_direction": "descendente"
   },
   {
    "radar_id": "ansv--27.45429_-55.86174-asc",
@@ -2646,7 +2667,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 112, 113; Garupá; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2659,8 +2680,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 114; Puerto Iguazú; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 280.3,
+   "heading_max": 350.3,
+   "travel_direction": "ascendente"
   },
   {
    "radar_id": "ansv--25.74081_-54.53533-desc",
@@ -2672,8 +2696,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 116; Puerto Iguazú; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 169.4,
+   "heading_max": 239.4,
+   "travel_direction": "descendente"
   },
   {
    "radar_id": "ansv--25.74081_-54.53533-asc",
@@ -2685,8 +2712,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 117; Puerto Iguazú; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 349.4,
+   "heading_max": 59.4,
+   "travel_direction": "ascendente"
   },
   {
    "radar_id": "ansv--25.61822_-54.55563-asc",
@@ -2698,8 +2728,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 856, 868; Puerto Iguazú; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 284.5,
+   "heading_max": 354.5,
+   "travel_direction": "ascendente"
   },
   {
    "radar_id": "ansv--25.61753_-54.55615-desc",
@@ -2711,8 +2744,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 857, 869; Puerto Iguazú; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 104.5,
+   "heading_max": 174.5,
+   "travel_direction": "descendente"
   },
   {
    "radar_id": "ansv--27.50431_-55.86171-desc",
@@ -2724,7 +2760,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2737,7 +2773,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2750,7 +2786,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2763,7 +2799,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Eldorado; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2776,7 +2812,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Garuhape; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2789,7 +2825,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Garupá; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2802,7 +2838,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Hipolito Yrigoyen (Helvecia); ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2815,7 +2851,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Colonia Vctoria; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2828,7 +2864,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Parque Nacional Iguazú; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2841,7 +2877,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Parque Provincial Pto. Península; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2854,7 +2890,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Pto. Rico; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2867,7 +2903,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Colonia Wanda; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2880,7 +2916,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Leandro N Alem; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2893,7 +2929,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Oberá; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2906,7 +2942,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Salto Encantado; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2919,7 +2955,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Acceso a Parque Nacional Pto. Iguazú; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2932,8 +2968,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Colonia Victoria; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 326.3,
+   "heading_max": 36.3,
+   "travel_direction": "ascendente"
   },
   {
    "radar_id": "ansv--26.32311_-54.61536-desc",
@@ -2945,8 +2984,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Colonia Victoria; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 146.3,
+   "heading_max": 216.3,
+   "travel_direction": "descendente"
   },
   {
    "radar_id": "ansv--26.69124_-54.82325-asc",
@@ -2958,8 +3000,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "El Alcazar; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 40.0,
+   "heading_max": 110.0,
+   "travel_direction": "ascendente"
   },
   {
    "radar_id": "ansv--26.68939_-54.81472-desc",
@@ -2971,8 +3016,11 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "El Alcazar; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
-   "confidence_score": 60
+   "source_version": "ansv-2026-10-29",
+   "confidence_score": 60,
+   "heading_min": 220.0,
+   "heading_max": 290.0,
+   "travel_direction": "descendente"
   },
   {
    "radar_id": "ansv--27.22682_-54.97482-asc",
@@ -2984,7 +3032,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Campo Grande; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -2997,7 +3045,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Campo Grande; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3010,7 +3058,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 168; Villa la Angostura; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3023,7 +3071,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 169; Villa la Angostura; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3036,7 +3084,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 170; Villa la Angostura; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3049,7 +3097,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 171; Villa la Angostura; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3062,7 +3110,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Picun Leufu; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3075,7 +3123,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Picun Leufu; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3088,7 +3136,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Metán; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3101,7 +3149,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Metán; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3114,7 +3162,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Metán; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3127,7 +3175,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 36; Fighiera; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3140,7 +3188,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 37; Fighiera; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3153,7 +3201,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 38; Fighiera; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3166,7 +3214,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 39; Fighiera; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3179,7 +3227,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 96; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3192,7 +3240,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 101; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3205,7 +3253,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 103; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3218,7 +3266,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 104; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3231,7 +3279,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 105; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3244,7 +3292,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 113; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3257,7 +3305,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Series 119, 120; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3270,7 +3318,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3283,7 +3331,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3296,7 +3344,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 87; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3309,7 +3357,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 97; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3322,7 +3370,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 98; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3335,7 +3383,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 99; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3348,7 +3396,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 100; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3361,7 +3409,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 436; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3374,7 +3422,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 437; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3387,7 +3435,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 606; Contralmirante Cordero; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3400,7 +3448,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 607; Contralmirante Cordero; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3413,7 +3461,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 608; Contralmirante Cordero; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3426,7 +3474,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 609; Contralmirante Cordero; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3439,7 +3487,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 618; Bariloche; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3452,7 +3500,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 619; El Bolson; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3465,7 +3513,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 620; El Bolson; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3478,7 +3526,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 621; Dina Huapi; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3491,7 +3539,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 622; Dina Huapi; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3504,7 +3552,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 623; Dina Huapi; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3517,7 +3565,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 624; Dina Huapi; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3530,7 +3578,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Serie 625; Bariloche; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3543,7 +3591,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3556,7 +3604,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3569,7 +3617,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Curuzú Cuatiá; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3582,7 +3630,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Curuzú Cuatiá; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3595,7 +3643,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Curuzú Cuatiá; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   },
   {
@@ -3608,7 +3656,7 @@
    "status": "UNVERIFIED",
    "source": "ANSV",
    "source_reference": "Piedra del Águila; ubicado por planilla",
-   "source_version": "ansv-2026-10-27",
+   "source_version": "ansv-2026-10-29",
    "confidence_score": 60
   }
  ]
