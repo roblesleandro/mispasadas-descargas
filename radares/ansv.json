@@ -19,7 +19,7 @@
  "radars": [
   {
    "radar_id": "ansv--33.58894_-60.35276-asc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 32,1",
+   "name": "RN 188 - Radar km 32,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.588944,
    "longitude": -60.352762,
@@ -28,11 +28,16 @@
    "source": "ANSV",
    "source_reference": "Serie 652; San Nicolas de los Arroyos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--33.36510_-60.25366-asc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 231,1",
+   "name": "Autopista Juan José Valle - Radar km 231,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.3651,
    "longitude": -60.253659,
@@ -41,11 +46,16 @@
    "source": "ANSV",
    "source_reference": "Serie 661; San Nicolas de los Arroyos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Juan José Valle"
   },
   {
    "radar_id": "ansv--33.36510_-60.25366-desc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 231,1",
+   "name": "Autopista Juan José Valle - Radar km 231,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.3651,
    "longitude": -60.253659,
@@ -54,11 +64,16 @@
    "source": "ANSV",
    "source_reference": "Serie 662; San Nicolas de los Arroyos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Juan José Valle"
   },
   {
    "radar_id": "ansv--33.34916_-60.27483-desc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 233,7",
+   "name": "Autopista Juan José Valle - Radar km 233,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.349156,
    "longitude": -60.274831,
@@ -67,11 +82,16 @@
    "source": "ANSV",
    "source_reference": "Series 663, 664; San Nicolas de los Arroyos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Juan José Valle"
   },
   {
    "radar_id": "ansv--33.60561_-60.36190-desc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 34,1",
+   "name": "RN 188 - Radar km 34,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.605606,
    "longitude": -60.361896,
@@ -80,11 +100,16 @@
    "source": "ANSV",
    "source_reference": "Serie 665; San Nicolas de los Arroyos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--33.52066_-60.31509-asc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 23,9",
+   "name": "RN 188 - Radar km 23,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.520656,
    "longitude": -60.315087,
@@ -93,11 +118,16 @@
    "source": "ANSV",
    "source_reference": "Serie 667; San Nicolas de los Arroyos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--33.52817_-60.31918-desc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 24,8",
+   "name": "RN 188 - Radar km 24,8",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.528174,
    "longitude": -60.319178,
@@ -106,11 +136,16 @@
    "source": "ANSV",
    "source_reference": "Serie 668; San Nicolas de los Arroyos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--33.40978_-60.24192-desc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 9,8",
+   "name": "RN 188 - Radar km 9,8",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.40978,
    "longitude": -60.241923,
@@ -119,11 +154,16 @@
    "source": "ANSV",
    "source_reference": "Serie 669; San Nicolas de los Arroyos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado A: 80 km/h a 540 m · lado B: 80 km/h a 1956 m",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--33.40152_-60.23405-asc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 8,6",
+   "name": "RN 188 - Radar km 8,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.401522,
    "longitude": -60.234053,
@@ -132,11 +172,16 @@
    "source": "ANSV",
    "source_reference": "Serie 670; San Nicolas de los Arroyos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado A: 80 km/h a 1709 m · lado B: 80 km/h a 787 m",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--33.37943_-60.21052-asc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 5,2",
+   "name": "RN 188 - Radar km 5,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.379431,
    "longitude": -60.21052,
@@ -145,11 +190,16 @@
    "source": "ANSV",
    "source_reference": "Serie 671; San Nicolas de los Arroyos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--33.37943_-60.21052-desc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 5,2",
+   "name": "RN 188 - Radar km 5,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.379431,
    "longitude": -60.21052,
@@ -158,11 +208,16 @@
    "source": "ANSV",
    "source_reference": "Serie 672; San Nicolas de los Arroyos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--34.37343_-59.13378-asc",
-   "name": "Radar autorizado por la ANSV · RN 8 km 78",
+   "name": "RN 8 - Radar km 78",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.37343,
    "longitude": -59.13378,
@@ -171,11 +226,16 @@
    "source": "ANSV",
    "source_reference": "Series 107, 108; Exaltación de la Cruz; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 8"
   },
   {
    "radar_id": "ansv--34.37343_-59.13378-desc",
-   "name": "Radar autorizado por la ANSV · RN 8 km 78",
+   "name": "RN 8 - Radar km 78",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.37343,
    "longitude": -59.13378,
@@ -184,11 +244,16 @@
    "source": "ANSV",
    "source_reference": "Series 109, 110; Exaltación de la Cruz; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 8"
   },
   {
    "radar_id": "ansv--36.27796_-63.15294-asc",
-   "name": "Radar autorizado por la ANSV · RN 5 km 496,08",
+   "name": "RN 5 - Radar km 496,08",
    "radar_type": "FIXED_SPEED",
    "latitude": -36.277956,
    "longitude": -63.15294,
@@ -197,11 +262,16 @@
    "source": "ANSV",
    "source_reference": "Pellegrini; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 5"
   },
   {
    "radar_id": "ansv--34.24930_-58.90640-asc",
-   "name": "Radar autorizado por la ANSV · Panamericana (Colectora este) km 14",
+   "name": "Autopista Panamericana (colectora este) - Radar km 14",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.2493,
    "longitude": -58.9064,
@@ -210,11 +280,14 @@
    "source": "ANSV",
    "source_reference": "Series 155, 156; Vicente Lopez; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_VIA",
+   "speed_limit_detail": "No hay vía de OSM a menos de 40 m",
+   "road_label": "Autopista Panamericana (colectora este)"
   },
   {
    "radar_id": "ansv--34.43800_-58.79990-desc",
-   "name": "Radar autorizado por la ANSV · Panamericana (Colectora oeste) km 14",
+   "name": "Autopista Panamericana (colectora oeste) - Radar km 14",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.438,
    "longitude": -58.7999,
@@ -223,11 +296,16 @@
    "source": "ANSV",
    "source_reference": "Series 157, 158; Vicente Lopez; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 130,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/10695192211",
+   "road_label": "Autopista Panamericana (colectora oeste)"
   },
   {
    "radar_id": "ansv--34.51430_-58.52030-asc",
-   "name": "Radar autorizado por la ANSV · Panamericana (Colectora este) km 16,4",
+   "name": "RN 9 - Radar km 16,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.5143,
    "longitude": -58.5203,
@@ -239,11 +317,16 @@
    "confidence_score": 60,
    "heading_min": 278.7,
    "heading_max": 348.7,
-   "travel_direction": "ascendente"
+   "travel_direction": "ascendente",
+   "speed_limit_kmh": 130,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 9"
   },
   {
    "radar_id": "ansv--34.51430_-58.52030-desc",
-   "name": "Radar autorizado por la ANSV · Panamericana (Colectora oeste) km 16,4",
+   "name": "RN 9 - Radar km 16,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.5143,
    "longitude": -58.5203,
@@ -255,11 +338,16 @@
    "confidence_score": 60,
    "heading_min": 98.7,
    "heading_max": 168.7,
-   "travel_direction": "descendente"
+   "travel_direction": "descendente",
+   "speed_limit_kmh": 130,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 9"
   },
   {
    "radar_id": "ansv--34.48357_-58.62652-asc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 27",
+   "name": "RN 9 - Radar km 27",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.48357,
    "longitude": -58.626517,
@@ -268,11 +356,16 @@
    "source": "ANSV",
    "source_reference": "Series 286, 287; Tigre; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 130,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 9"
   },
   {
    "radar_id": "ansv--34.48357_-58.62652-desc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 27",
+   "name": "RN 9 - Radar km 27",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.48357,
    "longitude": -58.626517,
@@ -281,11 +374,16 @@
    "source": "ANSV",
    "source_reference": "Series 288, 289; Tigre; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 130,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 9"
   },
   {
    "radar_id": "ansv--34.47122_-58.67729-asc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 32",
+   "name": "RN 9 - Radar km 32",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.471221,
    "longitude": -58.677291,
@@ -294,11 +392,16 @@
    "source": "ANSV",
    "source_reference": "Series 290, 291, 292, 293; Tigre; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 100,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 9"
   },
   {
    "radar_id": "ansv--34.44151_-58.70454-asc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 36",
+   "name": "Autopista Panamericana (Ramal Campana) - Radar km 36",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.441512,
    "longitude": -58.704537,
@@ -307,11 +410,16 @@
    "source": "ANSV",
    "source_reference": "Series 294, 295; Tigre; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado A: 120 km/h a 16 m · lado B: 120 km/h a 87 m",
+   "road_label": "Autopista Panamericana (Ramal Campana)"
   },
   {
    "radar_id": "ansv--38.03160_-60.12602-asc",
-   "name": "Radar autorizado por la ANSV · RN 3 km 451,6",
+   "name": "RN 3 - Radar km 451,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.031604,
    "longitude": -60.126015,
@@ -320,11 +428,16 @@
    "source": "ANSV",
    "source_reference": "Serie 192; Adolfo Gonzalez Chávez; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 3"
   },
   {
    "radar_id": "ansv--38.03753_-60.13343-desc",
-   "name": "Radar autorizado por la ANSV · RN 3 km 452,5",
+   "name": "RN 3 - Radar km 452,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.037529,
    "longitude": -60.133429,
@@ -333,11 +446,16 @@
    "source": "ANSV",
    "source_reference": "Serie 193; Adolfo Gonzalez Chávez; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 3"
   },
   {
    "radar_id": "ansv--35.04978_-60.25227-asc",
-   "name": "Radar autorizado por la ANSV · RN 5 km 188,2",
+   "name": "RN 5 - Radar km 188,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.049783,
    "longitude": -60.252268,
@@ -346,11 +464,16 @@
    "source": "ANSV",
    "source_reference": "Serie 214; Alberti; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 5"
   },
   {
    "radar_id": "ansv--35.05547_-60.26826-desc",
-   "name": "Radar autorizado por la ANSV · RN 5 km 189,8",
+   "name": "RN 5 - Radar km 189,8",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.055466,
    "longitude": -60.268262,
@@ -359,11 +482,16 @@
    "source": "ANSV",
    "source_reference": "Serie 215; Alberti; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 5"
   },
   {
    "radar_id": "ansv--33.93229_-59.42036-asc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 127,3",
+   "name": "Autopista Panamericana (Ramal Campana) - Radar km 127,3",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.932288,
    "longitude": -59.420356,
@@ -372,11 +500,16 @@
    "source": "ANSV",
    "source_reference": "Series 64, 125; Baradero; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Panamericana (Ramal Campana)"
   },
   {
    "radar_id": "ansv--33.93229_-59.42036-desc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 127,3",
+   "name": "Autopista Panamericana (Ramal Campana) - Radar km 127,3",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.932288,
    "longitude": -59.420356,
@@ -385,11 +518,16 @@
    "source": "ANSV",
    "source_reference": "Series 115, 128; Baradero; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Panamericana (Ramal Campana)"
   },
   {
    "radar_id": "ansv--35.13236_-60.44732-asc",
-   "name": "Radar autorizado por la ANSV · RN 5 km 209,1",
+   "name": "RN 5 - Radar km 209,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.132362,
    "longitude": -60.447317,
@@ -398,11 +536,16 @@
    "source": "ANSV",
    "source_reference": "Serie 179; Bragado; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/10068195012",
+   "road_label": "RN 5"
   },
   {
    "radar_id": "ansv--35.14256_-60.45892-desc",
-   "name": "Radar autorizado por la ANSV · RN 5 km 210,7",
+   "name": "RN 5 - Radar km 210,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.142558,
    "longitude": -60.458916,
@@ -411,11 +554,16 @@
    "source": "ANSV",
    "source_reference": "Serie 180; Bragado; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 5"
   },
   {
    "radar_id": "ansv--35.44200_-59.52948-asc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 151",
+   "name": "RN 205 - Radar km 151",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.441998,
    "longitude": -59.529477,
@@ -424,11 +572,16 @@
    "source": "ANSV",
    "source_reference": "Serie 95; Roque Perez; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.44200_-59.52948-desc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 151",
+   "name": "RN 205 - Radar km 151",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.441998,
    "longitude": -59.529477,
@@ -437,11 +590,16 @@
    "source": "ANSV",
    "source_reference": "Serie 96; Roque Perez; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.37703_-59.37078-asc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 134,5",
+   "name": "RN 205 - Radar km 134,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.377026,
    "longitude": -59.370776,
@@ -450,11 +608,16 @@
    "source": "ANSV",
    "source_reference": "Serie 135; Roque Perez; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/10573633045",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.39691_-59.40661-asc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 138,4",
+   "name": "RN 205 - Radar km 138,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.396912,
    "longitude": -59.406612,
@@ -463,11 +626,16 @@
    "source": "ANSV",
    "source_reference": "Serie 137; Roque Perez; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.39939_-59.41006-desc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 138,8",
+   "name": "RN 205 - Radar km 138,8",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.399386,
    "longitude": -59.410056,
@@ -476,11 +644,16 @@
    "source": "ANSV",
    "source_reference": "Serie 138; Roque Perez; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.37703_-59.37078-desc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 134,5",
+   "name": "RN 205 - Radar km 134,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.377026,
    "longitude": -59.370776,
@@ -489,11 +662,16 @@
    "source": "ANSV",
    "source_reference": "Serie 139; Roque Perez; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--39.51084_-62.67171-asc",
-   "name": "Radar autorizado por la ANSV · RN 3 km 807,7",
+   "name": "RN 3 - Radar km 807,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -39.510842,
    "longitude": -62.671709,
@@ -502,11 +680,16 @@
    "source": "ANSV",
    "source_reference": "Serie 130; Villarino; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 3"
   },
   {
    "radar_id": "ansv--39.51665_-62.67491-desc",
-   "name": "Radar autorizado por la ANSV · RN 3 km 808,5",
+   "name": "RN 3 - Radar km 808,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -39.51665,
    "longitude": -62.67491,
@@ -515,11 +698,16 @@
    "source": "ANSV",
    "source_reference": "Serie 131; Villarino; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 3"
   },
   {
    "radar_id": "ansv--38.81521_-62.69113-asc",
-   "name": "Radar autorizado por la ANSV · RN 22 km 732",
+   "name": "RN 22 - Radar km 732",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.815211,
    "longitude": -62.691133,
@@ -528,11 +716,16 @@
    "source": "ANSV",
    "source_reference": "Serie 132; Villarino; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 22"
   },
   {
    "radar_id": "ansv--38.82080_-62.69959-desc",
-   "name": "Radar autorizado por la ANSV · RN 22 km 733",
+   "name": "RN 22 - Radar km 733",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.8208,
    "longitude": -62.699595,
@@ -544,11 +737,16 @@
    "confidence_score": 60,
    "heading_min": 31.0,
    "heading_max": 101.0,
-   "travel_direction": "descendente"
+   "travel_direction": "descendente",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 22"
   },
   {
    "radar_id": "ansv--39.25017_-62.59401-asc",
-   "name": "Radar autorizado por la ANSV · RN 3 km 778",
+   "name": "RN 3 - Radar km 778",
    "radar_type": "FIXED_SPEED",
    "latitude": -39.250175,
    "longitude": -62.594005,
@@ -557,11 +755,16 @@
    "source": "ANSV",
    "source_reference": "Serie 438; Villarino; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 3"
   },
   {
    "radar_id": "ansv--39.26343_-62.59848-desc",
-   "name": "Radar autorizado por la ANSV · RN 3 km 779,5",
+   "name": "RN 3 - Radar km 779,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -39.263428,
    "longitude": -62.598479,
@@ -570,11 +773,16 @@
    "source": "ANSV",
    "source_reference": "Serie 449; Villarino; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 3"
   },
   {
    "radar_id": "ansv--34.46959_-59.99866-asc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 157,1",
+   "name": "RN 7 - Radar km 157,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.469586,
    "longitude": -59.998658,
@@ -583,11 +791,16 @@
    "source": "ANSV",
    "source_reference": "Serie 55; Carmen de Areco; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 7"
   },
   {
    "radar_id": "ansv--34.46950_-59.99971-desc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 157,2",
+   "name": "RN 7 - Radar km 157,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.469499,
    "longitude": -59.99971,
@@ -596,11 +809,16 @@
    "source": "ANSV",
    "source_reference": "Serie 61; Carmen de Areco; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 7"
   },
   {
    "radar_id": "ansv--34.43578_-59.91279-asc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 147,7",
+   "name": "RN 7 - Radar km 147,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.435779,
    "longitude": -59.912789,
@@ -609,11 +827,16 @@
    "source": "ANSV",
    "source_reference": "Serie 63; Carmen de Areco; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 7"
   },
   {
    "radar_id": "ansv--34.43714_-59.91583-desc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 148",
+   "name": "RN 7 - Radar km 148",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.437139,
    "longitude": -59.915831,
@@ -622,11 +845,16 @@
    "source": "ANSV",
    "source_reference": "Serie 73; Carmen de Areco; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 7"
   },
   {
    "radar_id": "ansv--34.60961_-60.44365-asc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 204,4",
+   "name": "RN 7 - Radar km 204,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.60961,
    "longitude": -60.44365,
@@ -635,11 +863,16 @@
    "source": "ANSV",
    "source_reference": "Serie 153; Chacabuco; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 7"
   },
   {
    "radar_id": "ansv--34.60771_-60.44610-desc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 204,7",
+   "name": "RN 7 - Radar km 204,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.607711,
    "longitude": -60.446103,
@@ -648,11 +881,16 @@
    "source": "ANSV",
    "source_reference": "Serie 154; Chacabuco; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 7"
   },
   {
    "radar_id": "ansv--35.62002_-59.77205-desc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 181",
+   "name": "RN 205 - Radar km 181",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.620017,
    "longitude": -59.772049,
@@ -661,11 +899,16 @@
    "source": "ANSV",
    "source_reference": "Serie 257; Saladillo; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.62002_-59.77205-asc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 181",
+   "name": "RN 205 - Radar km 181",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.620017,
    "longitude": -59.772049,
@@ -674,11 +917,16 @@
    "source": "ANSV",
    "source_reference": "Serie 258; Saladillo; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.63760_-59.79580-desc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 184",
+   "name": "RN 205 - Radar km 184",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.6376,
    "longitude": -59.7958,
@@ -687,11 +935,16 @@
    "source": "ANSV",
    "source_reference": "Serie 259; Saladillo; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.63760_-59.79580-asc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 184",
+   "name": "RN 205 - Radar km 184",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.6376,
    "longitude": -59.7958,
@@ -700,11 +953,16 @@
    "source": "ANSV",
    "source_reference": "Serie 260; Saladillo; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--34.62816_-58.70896-asc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 29",
+   "name": "Autopista del Oeste - Radar km 29",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.628164,
    "longitude": -58.708957,
@@ -713,11 +971,16 @@
    "source": "ANSV",
    "source_reference": "Series 208, 392; Ituzaingó; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista del Oeste"
   },
   {
    "radar_id": "ansv--34.62816_-58.70896-desc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 29",
+   "name": "Autopista del Oeste - Radar km 29",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.628164,
    "longitude": -58.708957,
@@ -726,11 +989,16 @@
    "source": "ANSV",
    "source_reference": "Series 209, 393; Ituzaingó; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista del Oeste"
   },
   {
    "radar_id": "ansv--34.63273_-58.66601-desc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 25",
+   "name": "Autopista del Oeste - Radar km 25",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.632733,
    "longitude": -58.666008,
@@ -739,11 +1007,16 @@
    "source": "ANSV",
    "source_reference": "Series 210, 211, 394; Ituzaingó; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista del Oeste"
   },
   {
    "radar_id": "ansv--34.63017_-58.74248-asc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 32,1",
+   "name": "Autopista del Oeste - Radar km 32,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.630166,
    "longitude": -58.74248,
@@ -755,11 +1028,16 @@
    "confidence_score": 60,
    "heading_min": 218.0,
    "heading_max": 288.0,
-   "travel_direction": "ascendente"
+   "travel_direction": "ascendente",
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista del Oeste"
   },
   {
    "radar_id": "ansv--34.63017_-58.74248-desc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 32,1",
+   "name": "Autopista del Oeste - Radar km 32,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.630166,
    "longitude": -58.74248,
@@ -771,11 +1049,16 @@
    "confidence_score": 60,
    "heading_min": 38.0,
    "heading_max": 108.0,
-   "travel_direction": "descendente"
+   "travel_direction": "descendente",
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista del Oeste"
   },
   {
    "radar_id": "ansv--34.61378_-58.85735-asc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 43,2",
+   "name": "Autopista del Oeste - Radar km 43,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.613782,
    "longitude": -58.857353,
@@ -784,11 +1067,16 @@
    "source": "ANSV",
    "source_reference": "Series 247, 248, 249; Moreno; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 100,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista del Oeste"
   },
   {
    "radar_id": "ansv--34.61378_-58.85735-desc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 43,2",
+   "name": "Autopista del Oeste - Radar km 43,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.613782,
    "longitude": -58.857353,
@@ -797,11 +1085,16 @@
    "source": "ANSV",
    "source_reference": "Series 250, 251, 252; Moreno; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 100,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista del Oeste"
   },
   {
    "radar_id": "ansv--34.90703_-58.70302-asc",
-   "name": "Radar autorizado por la ANSV · RN 3 km 47,6",
+   "name": "RN 3 - Radar km 47,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.907028,
    "longitude": -58.703024,
@@ -810,11 +1103,16 @@
    "source": "ANSV",
    "source_reference": "Series 253, 254; Marcos Paz; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 40,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 3"
   },
   {
    "radar_id": "ansv--34.90703_-58.70302-desc",
-   "name": "Radar autorizado por la ANSV · RN 3 km 47,6",
+   "name": "RN 3 - Radar km 47,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.907028,
    "longitude": -58.703024,
@@ -823,11 +1121,16 @@
    "source": "ANSV",
    "source_reference": "Series 255, 256; Marcos Paz; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 40,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 3"
   },
   {
    "radar_id": "ansv--34.07681_-58.99488-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 89,7",
+   "name": "RN 12 - Radar km 89,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.076808,
    "longitude": -58.994877,
@@ -836,11 +1139,16 @@
    "source": "ANSV",
    "source_reference": "Series 31, 32; Campana; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--34.07681_-58.99488-desc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 89,7",
+   "name": "RN 12 - Radar km 89,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.076808,
    "longitude": -58.994877,
@@ -849,11 +1157,16 @@
    "source": "ANSV",
    "source_reference": "Series 33, 34; Campana; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--34.17964_-58.96506-asc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 75,4",
+   "name": "Autopista Panamericana (Ramal Campana) - Radar km 75,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.179636,
    "longitude": -58.965064,
@@ -862,11 +1175,16 @@
    "source": "ANSV",
    "source_reference": "Series 216, 217, 218; Campana; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Panamericana (Ramal Campana)"
   },
   {
    "radar_id": "ansv--34.17964_-58.96506-desc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 75,4",
+   "name": "Autopista Panamericana (Ramal Campana) - Radar km 75,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.179636,
    "longitude": -58.965064,
@@ -875,11 +1193,16 @@
    "source": "ANSV",
    "source_reference": "Series 219, 220, 221; Campana; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Panamericana (Ramal Campana)"
   },
   {
    "radar_id": "ansv--33.95842_-58.95771-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 103",
+   "name": "RN 12 - Radar km 103",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.958415,
    "longitude": -58.957714,
@@ -888,11 +1211,16 @@
    "source": "ANSV",
    "source_reference": "Serie 222; Campana; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--33.95842_-58.95771-desc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 103",
+   "name": "RN 12 - Radar km 103",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.958415,
    "longitude": -58.957714,
@@ -901,11 +1229,16 @@
    "source": "ANSV",
    "source_reference": "Serie 223; Campana; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--36.23292_-61.14106-desc",
-   "name": "Radar autorizado por la ANSV · RN 226 km 402",
+   "name": "RN 226 - Radar km 402",
    "radar_type": "FIXED_SPEED",
    "latitude": -36.232919,
    "longitude": -61.141057,
@@ -914,11 +1247,16 @@
    "source": "ANSV",
    "source_reference": "Serie 263; Bolivar; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 226"
   },
   {
    "radar_id": "ansv--36.25022_-61.10377-asc",
-   "name": "Radar autorizado por la ANSV · RN 226 km 398",
+   "name": "RN 226 - Radar km 398",
    "radar_type": "FIXED_SPEED",
    "latitude": -36.25022,
    "longitude": -61.103771,
@@ -927,11 +1265,16 @@
    "source": "ANSV",
    "source_reference": "Serie 264; Bolivar; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 226"
   },
   {
    "radar_id": "ansv--35.09561_-58.92643-ambos",
-   "name": "Radar autorizado por la ANSV · RN 205 km 82",
+   "name": "RN 205 - Radar km 82",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.095612,
    "longitude": -58.926434,
@@ -940,11 +1283,16 @@
    "source": "ANSV",
    "source_reference": "Series 405, 406; Cañuelas; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.05800_-58.79627-ambos",
-   "name": "Radar autorizado por la ANSV · RN 205 km 69,5",
+   "name": "RN 205 - Radar km 69,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.058004,
    "longitude": -58.796271,
@@ -953,11 +1301,16 @@
    "source": "ANSV",
    "source_reference": "Serie 407; Cañuelas; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.04594_-58.76820-ambos",
-   "name": "Radar autorizado por la ANSV · RN 205 km 66,5",
+   "name": "RN 205 - Radar km 66,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.04594,
    "longitude": -58.768202,
@@ -966,11 +1319,16 @@
    "source": "ANSV",
    "source_reference": "Serie 408; Cañuelas; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.00175_-58.72047-ambos",
-   "name": "Radar autorizado por la ANSV · RN 205 km 60",
+   "name": "Autopista Ezeiza - Cañuelas - Radar km 60",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.00175,
    "longitude": -58.720469,
@@ -979,11 +1337,16 @@
    "source": "ANSV",
    "source_reference": "Serie 409; Cañuelas; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Ezeiza - Cañuelas"
   },
   {
    "radar_id": "ansv--34.98049_-58.70038-ambos",
-   "name": "Radar autorizado por la ANSV · RN 205 km 57",
+   "name": "Autopista Ezeiza - Cañuelas - Radar km 57",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.980489,
    "longitude": -58.700378,
@@ -992,11 +1355,16 @@
    "source": "ANSV",
    "source_reference": "Serie 410; Cañuelas; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 130,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Ezeiza - Cañuelas"
   },
   {
    "radar_id": "ansv--38.69032_-62.33518-asc",
-   "name": "Radar autorizado por la ANSV · RN 35 km 8,9",
+   "name": "RN 35 - Radar km 8,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.690323,
    "longitude": -62.335178,
@@ -1005,11 +1373,16 @@
    "source": "ANSV",
    "source_reference": "Serie 147; Bahia Blanca; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 35"
   },
   {
    "radar_id": "ansv--38.69032_-62.33518-desc",
-   "name": "Radar autorizado por la ANSV · RN 35 km 8,9",
+   "name": "RN 35 - Radar km 8,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.690323,
    "longitude": -62.335178,
@@ -1018,11 +1391,16 @@
    "source": "ANSV",
    "source_reference": "Serie 148; Bahia Blanca; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 35"
   },
   {
    "radar_id": "ansv--38.73202_-62.30659-asc",
-   "name": "Radar autorizado por la ANSV · RN 3 km 691,5",
+   "name": "RN 3 - Radar km 691,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.732022,
    "longitude": -62.306586,
@@ -1031,11 +1409,16 @@
    "source": "ANSV",
    "source_reference": "Serie 149; Bahia Blanca; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 3"
   },
   {
    "radar_id": "ansv--38.72789_-62.31201-desc",
-   "name": "Radar autorizado por la ANSV · RN 3 km 692,3",
+   "name": "RN 3 - Radar km 692,3",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.727889,
    "longitude": -62.312011,
@@ -1044,11 +1427,16 @@
    "source": "ANSV",
    "source_reference": "Serie 150; Bahia Blanca; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 3"
   },
   {
    "radar_id": "ansv--35.17116_-59.05649-asc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 97",
+   "name": "RN 205 - Radar km 97",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.171164,
    "longitude": -59.056491,
@@ -1057,11 +1445,16 @@
    "source": "ANSV",
    "source_reference": "Serie 181; Lobos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.17116_-59.05649-desc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 97",
+   "name": "RN 205 - Radar km 97",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.171164,
    "longitude": -59.056491,
@@ -1070,11 +1463,16 @@
    "source": "ANSV",
    "source_reference": "Serie 182; Lobos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.24845_-59.17217-asc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 111",
+   "name": "RN 205 - Radar km 111",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.248455,
    "longitude": -59.172169,
@@ -1083,11 +1481,16 @@
    "source": "ANSV",
    "source_reference": "Lobos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.24845_-59.17217-desc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 111",
+   "name": "RN 205 - Radar km 111",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.248455,
    "longitude": -59.172169,
@@ -1096,11 +1499,16 @@
    "source": "ANSV",
    "source_reference": "Lobos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.10478_-58.95765-asc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 85",
+   "name": "RN 205 - Radar km 85",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.104779,
    "longitude": -58.957651,
@@ -1109,11 +1517,16 @@
    "source": "ANSV",
    "source_reference": "Lobos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--35.10478_-58.95765-desc",
-   "name": "Radar autorizado por la ANSV · RN 205 km 85",
+   "name": "RN 205 - Radar km 85",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.104779,
    "longitude": -58.957651,
@@ -1122,11 +1535,16 @@
    "source": "ANSV",
    "source_reference": "Lobos; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
   },
   {
    "radar_id": "ansv--34.37838_-60.76496-asc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 130,1",
+   "name": "RN 188 - Radar km 130,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.378381,
    "longitude": -60.764963,
@@ -1135,11 +1553,16 @@
    "source": "ANSV",
    "source_reference": "Serie 199; Rojas; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--34.37838_-60.76496-desc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 130,1",
+   "name": "RN 188 - Radar km 130,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.378381,
    "longitude": -60.764963,
@@ -1148,11 +1571,16 @@
    "source": "ANSV",
    "source_reference": "Serie 200; Rojas; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--35.58258_-61.13790-asc",
-   "name": "Radar autorizado por la ANSV · RN 5 km 291,4",
+   "name": "RN 5 - Radar km 291,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.582582,
    "longitude": -61.137905,
@@ -1161,11 +1589,16 @@
    "source": "ANSV",
    "source_reference": "Serie 175; 9 de julio; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 5"
   },
   {
    "radar_id": "ansv--35.58258_-61.13790-desc",
-   "name": "Radar autorizado por la ANSV · RN 5 km 291,4",
+   "name": "RN 5 - Radar km 291,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.582582,
    "longitude": -61.137905,
@@ -1174,11 +1607,16 @@
    "source": "ANSV",
    "source_reference": "Serie 113; 9 de julio; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 5"
   },
   {
    "radar_id": "ansv--35.40208_-60.76655-asc",
-   "name": "Radar autorizado por la ANSV · RN 5 km 253",
+   "name": "RN 5 - Radar km 253",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.40208,
    "longitude": -60.76655,
@@ -1187,11 +1625,16 @@
    "source": "ANSV",
    "source_reference": "Serie 114; 9 de julio; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 5"
   },
   {
    "radar_id": "ansv--35.39740_-60.74790-asc",
-   "name": "Radar autorizado por la ANSV · RN 5 km 251",
+   "name": "RN 5 - Radar km 251",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.397397,
    "longitude": -60.747898,
@@ -1200,11 +1643,16 @@
    "source": "ANSV",
    "source_reference": "Serie 116; 9 de julio; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 5"
   },
   {
    "radar_id": "ansv--34.47441_-60.84273-asc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 143,4",
+   "name": "RN 188 - Radar km 143,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.474412,
    "longitude": -60.842727,
@@ -1213,11 +1661,16 @@
    "source": "ANSV",
    "source_reference": "Serie 153; Junin; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--34.57013_-60.96110-desc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 159",
+   "name": "RN 188 - Radar km 159",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.570134,
    "longitude": -60.961104,
@@ -1226,11 +1679,16 @@
    "source": "ANSV",
    "source_reference": "Serie 154; Junin; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--34.57013_-60.96110-asc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 159",
+   "name": "RN 188 - Radar km 159",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.570134,
    "longitude": -60.961104,
@@ -1239,11 +1697,16 @@
    "source": "ANSV",
    "source_reference": "Serie 155; Junin; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--34.30005_-59.32735-desc",
-   "name": "Radar autorizado por la ANSV · RN 8 km 98",
+   "name": "RN 8 - Radar km 98",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.30005,
    "longitude": -59.32735,
@@ -1252,11 +1715,16 @@
    "source": "ANSV",
    "source_reference": "Series 144, 145; San Andrés de Giles; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 8"
   },
   {
    "radar_id": "ansv--34.30005_-59.32735-asc",
-   "name": "Radar autorizado por la ANSV · RN 8 km 98",
+   "name": "RN 8 - Radar km 98",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.30005,
    "longitude": -59.32735,
@@ -1265,11 +1733,16 @@
    "source": "ANSV",
    "source_reference": "Series 146, 147; San Andrés de Giles; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 8"
   },
   {
    "radar_id": "ansv--34.39399_-59.02637-asc",
-   "name": "Radar autorizado por la ANSV · RN 8 km 67,5",
+   "name": "RN 8 - Radar km 67,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.393985,
    "longitude": -59.02637,
@@ -1278,11 +1751,14 @@
    "source": "ANSV",
    "source_reference": "Series 382, 378; Exaltación de la Cruz; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 8"
   },
   {
    "radar_id": "ansv--34.39399_-59.02637-desc",
-   "name": "Radar autorizado por la ANSV · RN 8 km 67,5",
+   "name": "RN 8 - Radar km 67,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.393985,
    "longitude": -59.02637,
@@ -1291,11 +1767,14 @@
    "source": "ANSV",
    "source_reference": "Series 383, 379; Exaltación de la Cruz; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 8"
   },
   {
    "radar_id": "ansv--33.92779_-60.37736-asc",
-   "name": "Radar autorizado por la ANSV · RN 8 km 206",
+   "name": "Avenida Tucumán - Radar km 206",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.92779,
    "longitude": -60.37736,
@@ -1304,11 +1783,14 @@
    "source": "ANSV",
    "source_reference": "Serie 301; Pergamino; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "Avenida Tucumán"
   },
   {
    "radar_id": "ansv--33.92505_-60.38738-desc",
-   "name": "Radar autorizado por la ANSV · RN 8 km 207",
+   "name": "Avenida Tucumán - Radar km 207",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.92505,
    "longitude": -60.38738,
@@ -1317,11 +1799,14 @@
    "source": "ANSV",
    "source_reference": "Serie 302; Pergamino; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "Avenida Tucumán"
   },
   {
    "radar_id": "ansv--34.08290_-60.64028-asc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 94,7",
+   "name": "RN 188 - Radar km 94,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.082896,
    "longitude": -60.640284,
@@ -1330,11 +1815,16 @@
    "source": "ANSV",
    "source_reference": "Serie 303; Pergamino; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--34.08290_-60.64028-desc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 94,7",
+   "name": "RN 188 - Radar km 94,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.082896,
    "longitude": -60.640284,
@@ -1343,11 +1833,16 @@
    "source": "ANSV",
    "source_reference": "Serie 304; Pergamino; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--33.85947_-60.51198-asc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 66",
+   "name": "RN 188 - Radar km 66",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.85947,
    "longitude": -60.511984,
@@ -1356,11 +1851,16 @@
    "source": "ANSV",
    "source_reference": "Serie 305; Pergamino; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--33.85947_-60.51198-desc",
-   "name": "Radar autorizado por la ANSV · RN 188 km 66",
+   "name": "RN 188 - Radar km 66",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.85947,
    "longitude": -60.511984,
@@ -1369,11 +1869,16 @@
    "source": "ANSV",
    "source_reference": "Serie 306; Pergamino; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 188"
   },
   {
    "radar_id": "ansv--33.93671_-60.66382-asc",
-   "name": "Radar autorizado por la ANSV · RN 8 km 234",
+   "name": "RN 8 - Radar km 234",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.936705,
    "longitude": -60.663822,
@@ -1382,11 +1887,16 @@
    "source": "ANSV",
    "source_reference": "Serie 523; Pergamino; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 8"
   },
   {
    "radar_id": "ansv--33.93671_-60.66382-desc",
-   "name": "Radar autorizado por la ANSV · RN 8 km 234",
+   "name": "RN 8 - Radar km 234",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.936705,
    "longitude": -60.663822,
@@ -1395,11 +1905,16 @@
    "source": "ANSV",
    "source_reference": "Serie 524; Pergamino; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 8"
   },
   {
    "radar_id": "ansv--27.31160_-58.99568-asc",
-   "name": "Radar autorizado por la ANSV · RN 11 km 1019,4",
+   "name": "RN 11 - Radar km 1019,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.311603,
    "longitude": -58.995679,
@@ -1408,11 +1923,16 @@
    "source": "ANSV",
    "source_reference": "Serie 12; Colonia Benitez; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 11"
   },
   {
    "radar_id": "ansv--26.79989_-60.83208-asc",
-   "name": "Radar autorizado por la ANSV · RN 89 km 188,9",
+   "name": "RN 89 - Radar km 188,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.799893,
    "longitude": -60.832084,
@@ -1421,11 +1941,14 @@
    "source": "ANSV",
    "source_reference": "Serie 13; Campo Largo; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 89"
   },
   {
    "radar_id": "ansv--27.31160_-58.99568-desc",
-   "name": "Radar autorizado por la ANSV · RN 11 km 1019,4",
+   "name": "RN 11 - Radar km 1019,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.311603,
    "longitude": -58.995679,
@@ -1434,11 +1957,16 @@
    "source": "ANSV",
    "source_reference": "Serie 14; Colonia Benitez; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 11"
   },
   {
    "radar_id": "ansv--27.36155_-59.06105-asc",
-   "name": "Radar autorizado por la ANSV · RN 16 km 25,7",
+   "name": "RN 16 - Radar km 25,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.361552,
    "longitude": -59.061045,
@@ -1447,11 +1975,14 @@
    "source": "ANSV",
    "source_reference": "Series 17, 32; Puerto Tirol; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_VIA",
+   "speed_limit_detail": "No hay vía de OSM a menos de 40 m",
+   "road_label": "RN 16"
   },
   {
    "radar_id": "ansv--27.16247_-59.38859-asc",
-   "name": "Radar autorizado por la ANSV · RN 16 km 66,7",
+   "name": "RN 16 - Radar km 66,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.162471,
    "longitude": -59.388585,
@@ -1460,11 +1991,16 @@
    "source": "ANSV",
    "source_reference": "Serie 18; Lapachito; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 16"
   },
   {
    "radar_id": "ansv--27.11511_-60.58652-asc",
-   "name": "Radar autorizado por la ANSV · RN 95 km 1074,5",
+   "name": "RN 95 - Radar km 1074,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.115113,
    "longitude": -60.586515,
@@ -1473,11 +2009,14 @@
    "source": "ANSV",
    "source_reference": "Serie 19; La Tigra; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 95"
   },
   {
    "radar_id": "ansv--26.80791_-60.83876-desc",
-   "name": "Radar autorizado por la ANSV · RN 89 km 190",
+   "name": "RN 89 - Radar km 190",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.807905,
    "longitude": -60.838758,
@@ -1486,11 +2025,14 @@
    "source": "ANSV",
    "source_reference": "Serie 20; Campo Largo; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 89"
   },
   {
    "radar_id": "ansv--27.10393_-60.57969-asc",
-   "name": "Radar autorizado por la ANSV · RN 95 km 1075,9",
+   "name": "Formosa Norte - Radar km 1075,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.103934,
    "longitude": -60.579687,
@@ -1499,11 +2041,14 @@
    "source": "ANSV",
    "source_reference": "Serie 26; La Tigra; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "Formosa Norte"
   },
   {
    "radar_id": "ansv--27.41325_-58.97153-desc",
-   "name": "Radar autorizado por la ANSV · RN 16 km 14,3",
+   "name": "RN 16 - Radar km 14,3",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.413252,
    "longitude": -58.971527,
@@ -1512,11 +2057,16 @@
    "source": "ANSV",
    "source_reference": "Series 29, 53; Resistencia; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/10935403499",
+   "road_label": "RN 16"
   },
   {
    "radar_id": "ansv--26.93966_-60.05750-asc",
-   "name": "Radar autorizado por la ANSV · RN 16 km 137,5",
+   "name": "RN 16 - Radar km 137,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.939665,
    "longitude": -60.057497,
@@ -1525,11 +2075,14 @@
    "source": "ANSV",
    "source_reference": "Serie 34; Machagai; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 16"
   },
   {
    "radar_id": "ansv--26.93966_-60.05750-desc",
-   "name": "Radar autorizado por la ANSV · RN 16 km 137,5",
+   "name": "RN 16 - Radar km 137,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.939665,
    "longitude": -60.057497,
@@ -1538,11 +2091,14 @@
    "source": "ANSV",
    "source_reference": "Serie 38; Machagai; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 16"
   },
   {
    "radar_id": "ansv--27.16247_-59.38859-desc",
-   "name": "Radar autorizado por la ANSV · RN 16 km 66,7",
+   "name": "RN 16 - Radar km 66,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.162471,
    "longitude": -59.388585,
@@ -1551,11 +2107,16 @@
    "source": "ANSV",
    "source_reference": "Serie 44; Lapachito; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 16"
   },
   {
    "radar_id": "ansv--27.88426_-59.27831-asc",
-   "name": "Radar autorizado por la ANSV · RN 11 km 946",
+   "name": "RN 11 - Radar km 946",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.884263,
    "longitude": -59.278306,
@@ -1564,11 +2125,16 @@
    "source": "ANSV",
    "source_reference": "Serie 48; Basail; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 11"
   },
   {
    "radar_id": "ansv--27.89307_-59.27559-desc",
-   "name": "Radar autorizado por la ANSV · RN 11 km 945",
+   "name": "RN 11 - Radar km 945",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.893067,
    "longitude": -59.27559,
@@ -1577,11 +2143,16 @@
    "source": "ANSV",
    "source_reference": "Serie 49; Basail; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 11"
   },
   {
    "radar_id": "ansv--27.89307_-59.27559-asc",
-   "name": "Radar autorizado por la ANSV · RN 11 km 945",
+   "name": "RN 11 - Radar km 945",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.893067,
    "longitude": -59.27559,
@@ -1590,11 +2161,16 @@
    "source": "ANSV",
    "source_reference": "Serie 51; Basail; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 11"
   },
   {
    "radar_id": "ansv--27.43068_-58.93265-desc",
-   "name": "Radar autorizado por la ANSV · RN 16 km 10",
+   "name": "RN 16 - Radar km 10",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.430677,
    "longitude": -58.932646,
@@ -1603,11 +2179,16 @@
    "source": "ANSV",
    "source_reference": "Serie 56; Resistencia; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/10939744273",
+   "road_label": "RN 16"
   },
   {
    "radar_id": "ansv--27.11511_-60.58652-desc",
-   "name": "Radar autorizado por la ANSV · RN 95 km 1074,5",
+   "name": "RN 95 - Radar km 1074,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.115113,
    "longitude": -60.586515,
@@ -1616,11 +2197,14 @@
    "source": "ANSV",
    "source_reference": "Serie 58; La Tigra; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 95"
   },
   {
    "radar_id": "ansv--27.31417_-58.99649-asc",
-   "name": "Radar autorizado por la ANSV · RN 11 km 1019,1",
+   "name": "RN 11 - Radar km 1019,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.31417,
    "longitude": -58.996491,
@@ -1629,11 +2213,14 @@
    "source": "ANSV",
    "source_reference": "Serie 62; Colonia Benitez; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 11"
   },
   {
    "radar_id": "ansv--26.96319_-60.95722-desc",
-   "name": "Radar autorizado por la ANSV · RN 89 km 211",
+   "name": "RN 89 - Radar km 211",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.963195,
    "longitude": -60.957218,
@@ -1642,11 +2229,14 @@
    "source": "ANSV",
    "source_reference": "Serie 65; Corzuela; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 89"
   },
   {
    "radar_id": "ansv--27.43068_-58.93265-asc",
-   "name": "Radar autorizado por la ANSV · RN 16 km 10",
+   "name": "Autovía Nicolás Avellaneda - Radar km 10",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.430677,
    "longitude": -58.932646,
@@ -1655,11 +2245,16 @@
    "source": "ANSV",
    "source_reference": "Serie 68; Resistencia; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autovía Nicolás Avellaneda"
   },
   {
    "radar_id": "ansv--27.41133_-58.99390-asc",
-   "name": "Radar autorizado por la ANSV · RN 16 km 16,7",
+   "name": "RN 16 - Radar km 16,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.411328,
    "longitude": -58.9939,
@@ -1668,11 +2263,12 @@
    "source": "ANSV",
    "source_reference": "Series 77, 84; Resistencia; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 16"
   },
   {
    "radar_id": "ansv--27.31417_-58.99649-desc",
-   "name": "Radar autorizado por la ANSV · RN 11 km 1019,1",
+   "name": "RN 11 - Radar km 1019,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.31417,
    "longitude": -58.996491,
@@ -1681,11 +2277,12 @@
    "source": "ANSV",
    "source_reference": "Serie 80; Colonia Benitez; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 11"
   },
   {
    "radar_id": "ansv--27.30069_-59.10986-desc",
-   "name": "Radar autorizado por la ANSV · RN 16 km 34",
+   "name": "RN 16 - Radar km 34",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.300686,
    "longitude": -59.109865,
@@ -1694,11 +2291,12 @@
    "source": "ANSV",
    "source_reference": "Serie 87; Puerto Bastiani; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 16"
   },
   {
    "radar_id": "ansv--27.88426_-59.27831-desc",
-   "name": "Radar autorizado por la ANSV · RN 11 km 946",
+   "name": "RN 11 - Radar km 946",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.884263,
    "longitude": -59.278306,
@@ -1707,11 +2305,12 @@
    "source": "ANSV",
    "source_reference": "Serie 176; Basail; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 11"
   },
   {
    "radar_id": "ansv--26.79989_-60.83208-desc",
-   "name": "Radar autorizado por la ANSV · RN 89 km 188,9",
+   "name": "RN 89 - Radar km 188,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.799893,
    "longitude": -60.832084,
@@ -1720,11 +2319,12 @@
    "source": "ANSV",
    "source_reference": "Serie 185; Campo Largo; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 89"
   },
   {
    "radar_id": "ansv--27.41130_-58.99390-asc",
-   "name": "Radar autorizado por la ANSV · RN 89 km 175,9",
+   "name": "RN 89 - Radar km 175,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.4113,
    "longitude": -58.9939,
@@ -1733,11 +2333,12 @@
    "source": "ANSV",
    "source_reference": "Serie 189; Avia Terai; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 89"
   },
   {
    "radar_id": "ansv--26.88238_-60.22058-asc",
-   "name": "Radar autorizado por la ANSV · RN 16 km 155",
+   "name": "RN 16 - Radar km 155",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.882385,
    "longitude": -60.220581,
@@ -1746,11 +2347,12 @@
    "source": "ANSV",
    "source_reference": "Serie 196; Quitilipi; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 16"
   },
   {
    "radar_id": "ansv--26.88238_-60.22058-desc",
-   "name": "Radar autorizado por la ANSV · RN 16 km 155",
+   "name": "RN 16 - Radar km 155",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.882385,
    "longitude": -60.220581,
@@ -1759,11 +2361,12 @@
    "source": "ANSV",
    "source_reference": "Serie 197; Quitilipi; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 16"
   },
   {
    "radar_id": "ansv--27.58418_-58.74036-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1018",
+   "name": "RN 12 - Radar km 1018",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.584179,
    "longitude": -58.740362,
@@ -1772,11 +2375,16 @@
    "source": "ANSV",
    "source_reference": "Serie 1; Riachuelo; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/12898202787",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.57967_-58.74063-desc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1018,5",
+   "name": "RN 12 - Radar km 1018,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.579665,
    "longitude": -58.740629,
@@ -1785,11 +2393,16 @@
    "source": "ANSV",
    "source_reference": "Serie 2; Riachuelo; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/12896000238",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.57164_-58.74195-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1019,4",
+   "name": "RN 12 - Radar km 1019,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.571642,
    "longitude": -58.741949,
@@ -1798,11 +2411,12 @@
    "source": "ANSV",
    "source_reference": "Serie 3; Riachuelo; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.56725_-58.74327-desc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1019,9",
+   "name": "RN 12 - Radar km 1019,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.567255,
    "longitude": -58.743268,
@@ -1811,11 +2425,12 @@
    "source": "ANSV",
    "source_reference": "Serie 4; Riachuelo; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.55884_-58.74911-desc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1021",
+   "name": "RN 12 - Radar km 1021",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.558841,
    "longitude": -58.749111,
@@ -1824,11 +2439,16 @@
    "source": "ANSV",
    "source_reference": "Serie 5; Riachuelo; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/12894054587",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.96946_-56.01009-asc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 756,3",
+   "name": "RN 14 - Radar km 756,3",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.969462,
    "longitude": -56.010088,
@@ -1840,11 +2460,16 @@
    "confidence_score": 60,
    "heading_min": 359.9,
    "heading_max": 69.9,
-   "travel_direction": "ascendente"
+   "travel_direction": "ascendente",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/11013996536",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--27.96576_-56.00715-desc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 756,8",
+   "name": "RN 14 - Radar km 756,8",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.965759,
    "longitude": -56.007153,
@@ -1856,11 +2481,12 @@
    "confidence_score": 60,
    "heading_min": 179.9,
    "heading_max": 249.9,
-   "travel_direction": "descendente"
+   "travel_direction": "descendente",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--30.58689_-57.97665-desc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 347,9",
+   "name": "RN 14 - Radar km 347,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -30.58689,
    "longitude": -57.976646,
@@ -1869,11 +2495,12 @@
    "source": "ANSV",
    "source_reference": "Series 76, 77; Provincial Corrientes; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--29.72161_-57.15097-asc",
-   "name": "Radar autorizado por la ANSV · RN 117 km 5,9",
+   "name": "RN 117 - Radar km 5,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -29.721607,
    "longitude": -57.150972,
@@ -1882,11 +2509,12 @@
    "source": "ANSV",
    "source_reference": "Series 88, 89; Provincial Corrientes; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 117"
   },
   {
    "radar_id": "ansv--29.72161_-57.15097-desc",
-   "name": "Radar autorizado por la ANSV · RN 117 km 5,9",
+   "name": "RN 117 - Radar km 5,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -29.721607,
    "longitude": -57.150972,
@@ -1895,11 +2523,12 @@
    "source": "ANSV",
    "source_reference": "Series 90, 91; Provincial Corrientes; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 117"
   },
   {
    "radar_id": "ansv--28.27702_-58.14219-asc",
-   "name": "Radar autorizado por la ANSV · RN 118 km 61,2",
+   "name": "RN 118 - Radar km 61,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -28.277016,
    "longitude": -58.142192,
@@ -1908,11 +2537,12 @@
    "source": "ANSV",
    "source_reference": "Serie 100; Santa Rosa; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 118"
   },
   {
    "radar_id": "ansv--28.27187_-58.12985-asc",
-   "name": "Radar autorizado por la ANSV · RN 118 km 62,6",
+   "name": "RN 118 - Radar km 62,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -28.271866,
    "longitude": -58.129846,
@@ -1921,11 +2551,12 @@
    "source": "ANSV",
    "source_reference": "Serie 101; Santa Rosa; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 118"
   },
   {
    "radar_id": "ansv--30.57697_-57.97570-asc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 349",
+   "name": "RN 14 - Radar km 349",
    "radar_type": "FIXED_SPEED",
    "latitude": -30.576966,
    "longitude": -57.975698,
@@ -1934,11 +2565,12 @@
    "source": "ANSV",
    "source_reference": "Series 121, 123; Provincial Corrientes; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--29.89007_-57.58182-asc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 454,3",
+   "name": "RN 14 - Radar km 454,3",
    "radar_type": "FIXED_SPEED",
    "latitude": -29.890068,
    "longitude": -57.581818,
@@ -1947,11 +2579,12 @@
    "source": "ANSV",
    "source_reference": "Series 124, 125; Parada Pucheta; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--29.81526_-57.44873-asc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 470,2",
+   "name": "RN 14 - Radar km 470,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -29.815263,
    "longitude": -57.448733,
@@ -1960,11 +2593,12 @@
    "source": "ANSV",
    "source_reference": "Series 126, 127; Bonpland; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--28.13961_-58.75845-ambos",
-   "name": "Radar autorizado por la ANSV · RN 12 km 954",
+   "name": "RN 12 - Radar km 954",
    "radar_type": "FIXED_SPEED",
    "latitude": -28.139613,
    "longitude": -58.758453,
@@ -1973,11 +2607,12 @@
    "source": "ANSV",
    "source_reference": "Serie 251; Provincial Corrientes; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.55433_-58.75008-ambos",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1021,5",
+   "name": "RN 12 - Radar km 1021,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.554334,
    "longitude": -58.750079,
@@ -1986,11 +2621,14 @@
    "source": "ANSV",
    "source_reference": "Serie 252; Provincial Corrientes; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--28.24122_-58.70689-desc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 941,5",
+   "name": "RN 12 - Radar km 941,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -28.24122,
    "longitude": -58.706886,
@@ -1999,11 +2637,16 @@
    "source": "ANSV",
    "source_reference": "Serie 269; Provincial Corrientes; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado A: 60 km/h a 675 m",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.94559_-58.79196-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 976,7",
+   "name": "RN 12 - Radar km 976,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.945591,
    "longitude": -58.791957,
@@ -2012,11 +2655,16 @@
    "source": "ANSV",
    "source_reference": "Serie 270; Provincial Corrientes; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/11013992643",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.39058_-58.55676-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1056,2",
+   "name": "RN 12 - Radar km 1056,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.390583,
    "longitude": -58.556759,
@@ -2025,11 +2673,16 @@
    "source": "ANSV",
    "source_reference": "Serie 271; Provincial Corrientes; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--28.25993_-58.11164-asc",
-   "name": "Radar autorizado por la ANSV · RN 118 km 64,8",
+   "name": "RN 118 - Radar km 64,8",
    "radar_type": "FIXED_SPEED",
    "latitude": -28.259929,
    "longitude": -58.111636,
@@ -2038,11 +2691,16 @@
    "source": "ANSV",
    "source_reference": "Serie 900; Santa Rosa; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 118"
   },
   {
    "radar_id": "ansv--27.70620_-58.76120-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1004,13",
+   "name": "RN 12 - Radar km 1004,13",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.7062,
    "longitude": -58.761203,
@@ -2051,11 +2709,16 @@
    "source": "ANSV",
    "source_reference": "Serie 3001; El Sombrero; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/12898202788",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.70216_-58.76069-desc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1004,58",
+   "name": "RN 12 - Radar km 1004,58",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.702155,
    "longitude": -58.760695,
@@ -2064,11 +2727,14 @@
    "source": "ANSV",
    "source_reference": "Serie 3002; El Sombrero; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--29.08649_-56.55394-asc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 601",
+   "name": "RN 14 - Radar km 601",
    "radar_type": "FIXED_SPEED",
    "latitude": -29.08649,
    "longitude": -56.553938,
@@ -2077,11 +2743,16 @@
    "source": "ANSV",
    "source_reference": "Alvear; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/11051217628",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--29.08254_-56.54524-desc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 602,2",
+   "name": "RN 14 - Radar km 602,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -29.082537,
    "longitude": -56.545242,
@@ -2090,11 +2761,14 @@
    "source": "ANSV",
    "source_reference": "Alvear; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--30.03762_-59.53010-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 682,6",
+   "name": "RN 12 - Radar km 682,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -30.037617,
    "longitude": -59.5301,
@@ -2103,11 +2777,16 @@
    "source": "ANSV",
    "source_reference": "Esquina; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 40,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado A: 40 km/h a 1620 m",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--29.99499_-59.51837-desc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 688,5",
+   "name": "RN 12 - Radar km 688,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -29.994986,
    "longitude": -59.518372,
@@ -2116,11 +2795,16 @@
    "source": "ANSV",
    "source_reference": "Esquina; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 40,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado B: 40 km/h a 855 m",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.37734_-58.50904-ambos",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1061,2",
+   "name": "RN 12 - Radar km 1061,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.377336,
    "longitude": -58.509038,
@@ -2129,11 +2813,16 @@
    "source": "ANSV",
    "source_reference": "San Cosme; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.36823_-58.41019-ambos",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1071,3",
+   "name": "RN 12 - Radar km 1071,3",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.368234,
    "longitude": -58.410187,
@@ -2142,11 +2831,16 @@
    "source": "ANSV",
    "source_reference": "San Cosme; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--29.18008_-56.67920-asc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 583,3",
+   "name": "RN 14 - Radar km 583,3",
    "radar_type": "FIXED_SPEED",
    "latitude": -29.180076,
    "longitude": -56.679197,
@@ -2155,11 +2849,16 @@
    "source": "ANSV",
    "source_reference": "La Cruz; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/11051198652",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--29.16356_-56.66356-desc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 585,9",
+   "name": "RN 14 - Radar km 585,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -29.163557,
    "longitude": -56.663558,
@@ -2168,11 +2867,14 @@
    "source": "ANSV",
    "source_reference": "La Cruz; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--27.36608_-58.30198-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1082,1",
+   "name": "RN 12 - Radar km 1082,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.366079,
    "longitude": -58.301979,
@@ -2181,11 +2883,16 @@
    "source": "ANSV",
    "source_reference": "Ramada Paso; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.36616_-58.30098-desc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1082,2",
+   "name": "RN 12 - Radar km 1082,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.366164,
    "longitude": -58.300981,
@@ -2194,11 +2901,16 @@
    "source": "ANSV",
    "source_reference": "Ramada Paso; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/5060116784",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--28.55387_-56.07315-desc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 684,8",
+   "name": "RN 14 - Radar km 684,8",
    "radar_type": "FIXED_SPEED",
    "latitude": -28.553872,
    "longitude": -56.07315,
@@ -2207,11 +2919,16 @@
    "source": "ANSV",
    "source_reference": "Santo Tomé; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado A: 40 km/h a 152 m · lado B: 80 km/h a 101 m",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--28.54573_-56.08545-asc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 686,6",
+   "name": "RN 14 - Radar km 686,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -28.545734,
    "longitude": -56.085453,
@@ -2220,11 +2937,16 @@
    "source": "ANSV",
    "source_reference": "Santo Tomé; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--27.62798_-56.91381-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1231,6",
+   "name": "RN 12 - Radar km 1231,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.627982,
    "longitude": -56.913814,
@@ -2233,11 +2955,14 @@
    "source": "ANSV",
    "source_reference": "Villa Olivari; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_VIA",
+   "speed_limit_detail": "No hay vía de OSM a menos de 40 m",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.63252_-56.90181-desc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1232,9",
+   "name": "RN 12 - Radar km 1232,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.632524,
    "longitude": -56.901807,
@@ -2246,11 +2971,14 @@
    "source": "ANSV",
    "source_reference": "Villa Olivari; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--32.54226_-58.34769-asc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 117,5",
+   "name": "RN 14 - Radar km 117,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.542256,
    "longitude": -58.347692,
@@ -2259,11 +2987,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/12971236059",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--31.34618_-58.09153-asc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 261,1",
+   "name": "RN 14 - Radar km 261,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -31.346179,
    "longitude": -58.091535,
@@ -2272,11 +3005,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--30.75698_-58.01936-asc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 328,1",
+   "name": "RN 14 - Radar km 328,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -30.756976,
    "longitude": -58.019362,
@@ -2285,11 +3023,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--30.71358_-58.01013-desc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 333",
+   "name": "RN 14 - Radar km 333",
    "radar_type": "FIXED_SPEED",
    "latitude": -30.71358,
    "longitude": -58.010132,
@@ -2298,11 +3041,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--31.34705_-58.09173-desc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 261",
+   "name": "RN 14 - Radar km 261",
    "radar_type": "FIXED_SPEED",
    "latitude": -31.347054,
    "longitude": -58.091731,
@@ -2311,11 +3059,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--32.47137_-58.30266-desc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 126,6",
+   "name": "RN 14 - Radar km 126,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.471366,
    "longitude": -58.302657,
@@ -2327,11 +3080,16 @@
    "confidence_score": 60,
    "heading_min": 165.5,
    "heading_max": 235.5,
-   "travel_direction": "descendente"
+   "travel_direction": "descendente",
+   "speed_limit_kmh": 100,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/4280782097",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--33.01481_-58.60798-desc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 58,6",
+   "name": "RN 14 - Radar km 58,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.014808,
    "longitude": -58.607985,
@@ -2340,11 +3098,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--31.77583_-60.37087-ambos",
-   "name": "Radar autorizado por la ANSV · RN 18 km 18,1",
+   "name": "RN 18 - Radar km 18,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -31.775834,
    "longitude": -60.370875,
@@ -2353,11 +3116,14 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 18"
   },
   {
    "radar_id": "ansv--31.84081_-59.25944-ambos",
-   "name": "Radar autorizado por la ANSV · RN 18 km 127",
+   "name": "RN 18 - Radar km 127",
    "radar_type": "FIXED_SPEED",
    "latitude": -31.84081,
    "longitude": -59.25944,
@@ -2366,11 +3132,14 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 18"
   },
   {
    "radar_id": "ansv--31.72898_-58.63793-asc",
-   "name": "Radar autorizado por la ANSV · RN 18 km 189,2",
+   "name": "RN 18 - Radar km 189,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -31.72898,
    "longitude": -58.637932,
@@ -2379,11 +3148,14 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 18"
   },
   {
    "radar_id": "ansv--31.72898_-58.63793-desc",
-   "name": "Radar autorizado por la ANSV · RN 18 km 189,2",
+   "name": "RN 18 - Radar km 189,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -31.72898,
    "longitude": -58.637932,
@@ -2392,11 +3164,14 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 18"
   },
   {
    "radar_id": "ansv--31.55074_-58.41315-asc",
-   "name": "Radar autorizado por la ANSV · RN 18 km 220,4",
+   "name": "RN 18 - Radar km 220,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -31.550744,
    "longitude": -58.41315,
@@ -2405,11 +3180,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 18"
   },
   {
    "radar_id": "ansv--31.55074_-58.41315-desc",
-   "name": "Radar autorizado por la ANSV · RN 18 km 220,4",
+   "name": "RN 18 - Radar km 220,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -31.550744,
    "longitude": -58.41315,
@@ -2418,11 +3198,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 18"
   },
   {
    "radar_id": "ansv--32.61774_-60.18722-ambos",
-   "name": "Radar autorizado por la ANSV · RN 174 km 57,2",
+   "name": "RN 174 - Radar km 57,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.617742,
    "longitude": -60.187215,
@@ -2431,11 +3216,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 174"
   },
   {
    "radar_id": "ansv--32.80531_-60.51212-ambos",
-   "name": "Radar autorizado por la ANSV · RN 174 km 20",
+   "name": "RN 174 - Radar km 20",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.805307,
    "longitude": -60.512115,
@@ -2444,11 +3234,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/13313421366",
+   "road_label": "RN 174"
   },
   {
    "radar_id": "ansv--32.85634_-60.61289-ambos",
-   "name": "Radar autorizado por la ANSV · RN 174 km 9",
+   "name": "RN 174 - Radar km 9",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.856337,
    "longitude": -60.61289,
@@ -2457,11 +3252,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/13313421367",
+   "road_label": "RN 174"
   },
   {
    "radar_id": "ansv--33.49889_-58.80091-asc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 0,12",
+   "name": "RN 14 - Radar km 0,12",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.49889,
    "longitude": -58.80091,
@@ -2470,11 +3270,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--32.26071_-58.23816-asc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 151",
+   "name": "RN 14 - Radar km 151",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.260715,
    "longitude": -58.23816,
@@ -2483,11 +3288,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--32.83681_-68.80493-asc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 3304,5",
+   "name": "RN 40 - Radar km 3304,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.836808,
    "longitude": -68.804929,
@@ -2496,11 +3306,16 @@
    "source": "ANSV",
    "source_reference": "Serie 138; Las Heras; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/11076913302",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--32.83681_-68.80493-desc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 3304,5",
+   "name": "RN 40 - Radar km 3304,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.836808,
    "longitude": -68.804929,
@@ -2509,11 +3324,14 @@
    "source": "ANSV",
    "source_reference": "Serie 139; Las Heras; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--32.84949_-68.80408-asc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 3303",
+   "name": "RN 40 - Radar km 3303",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.849495,
    "longitude": -68.804077,
@@ -2522,11 +3340,16 @@
    "source": "ANSV",
    "source_reference": "Serie 140; Las Heras; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/5769347140",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--32.84949_-68.80408-desc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 3303",
+   "name": "RN 40 - Radar km 3303",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.849495,
    "longitude": -68.804077,
@@ -2535,11 +3358,16 @@
    "source": "ANSV",
    "source_reference": "Serie 141; Las Heras; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--32.59639_-68.67176-asc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 3337",
+   "name": "RN 40 - Radar km 3337",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.596388,
    "longitude": -68.671756,
@@ -2548,11 +3376,16 @@
    "source": "ANSV",
    "source_reference": "Serie 142; Las Heras; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--32.59639_-68.67176-desc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 3337",
+   "name": "RN 40 - Radar km 3337",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.596388,
    "longitude": -68.671756,
@@ -2561,11 +3394,16 @@
    "source": "ANSV",
    "source_reference": "Serie 143; Las Heras; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--33.28998_-68.04004-asc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 954",
+   "name": "RN 7 - Radar km 954",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.289976,
    "longitude": -68.040042,
@@ -2574,11 +3412,14 @@
    "source": "ANSV",
    "source_reference": "Santa Rosa; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 7"
   },
   {
    "radar_id": "ansv--33.28998_-68.04004-desc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 954",
+   "name": "RN 7 - Radar km 954",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.289976,
    "longitude": -68.040042,
@@ -2587,11 +3428,14 @@
    "source": "ANSV",
    "source_reference": "Santa Rosa; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 7"
   },
   {
    "radar_id": "ansv--33.23542_-68.14888-asc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 966",
+   "name": "RN 7 - Radar km 966",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.235424,
    "longitude": -68.148879,
@@ -2600,11 +3444,16 @@
    "source": "ANSV",
    "source_reference": "Santa Rosa; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/13276627872",
+   "road_label": "RN 7"
   },
   {
    "radar_id": "ansv--33.33794_-67.91379-asc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 941",
+   "name": "RN 7 - Radar km 941",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.337936,
    "longitude": -67.913789,
@@ -2613,11 +3462,16 @@
    "source": "ANSV",
    "source_reference": "Santa Rosa; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 7"
   },
   {
    "radar_id": "ansv--33.23542_-68.14888-desc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 966",
+   "name": "RN 7 - Radar km 966",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.235424,
    "longitude": -68.148879,
@@ -2626,11 +3480,16 @@
    "source": "ANSV",
    "source_reference": "Santa Rosa; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 7"
   },
   {
    "radar_id": "ansv--33.33794_-67.91379-desc",
-   "name": "Radar autorizado por la ANSV · RN 7 km 941",
+   "name": "RN 7 - Radar km 941",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.337936,
    "longitude": -67.913789,
@@ -2639,11 +3498,16 @@
    "source": "ANSV",
    "source_reference": "Santa Rosa; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 7"
   },
   {
    "radar_id": "ansv--25.63864_-54.53614-desc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1635",
+   "name": "RN 12 - Radar km 1635",
    "radar_type": "FIXED_SPEED",
    "latitude": -25.638645,
    "longitude": -54.536141,
@@ -2655,11 +3519,16 @@
    "confidence_score": 60,
    "heading_min": 100.3,
    "heading_max": 170.3,
-   "travel_direction": "descendente"
+   "travel_direction": "descendente",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.45429_-55.86174-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1350",
+   "name": "RN 12 - Radar km 1350",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.454288,
    "longitude": -55.861743,
@@ -2668,11 +3537,16 @@
    "source": "ANSV",
    "source_reference": "Series 112, 113; Garupá; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--25.63864_-54.53614-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1635",
+   "name": "RN 12 - Radar km 1635",
    "radar_type": "FIXED_SPEED",
    "latitude": -25.638645,
    "longitude": -54.536141,
@@ -2684,11 +3558,16 @@
    "confidence_score": 60,
    "heading_min": 280.3,
    "heading_max": 350.3,
-   "travel_direction": "ascendente"
+   "travel_direction": "ascendente",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--25.74081_-54.53533-desc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1621",
+   "name": "RN 12 - Radar km 1621",
    "radar_type": "FIXED_SPEED",
    "latitude": -25.740808,
    "longitude": -54.535331,
@@ -2700,11 +3579,16 @@
    "confidence_score": 60,
    "heading_min": 169.4,
    "heading_max": 239.4,
-   "travel_direction": "descendente"
+   "travel_direction": "descendente",
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--25.74081_-54.53533-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1621",
+   "name": "RN 12 - Radar km 1621",
    "radar_type": "FIXED_SPEED",
    "latitude": -25.740808,
    "longitude": -54.535331,
@@ -2716,11 +3600,16 @@
    "confidence_score": 60,
    "heading_min": 349.4,
    "heading_max": 59.4,
-   "travel_direction": "ascendente"
+   "travel_direction": "ascendente",
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--25.61822_-54.55563-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1638",
+   "name": "RN 12 - Radar km 1638",
    "radar_type": "FIXED_SPEED",
    "latitude": -25.618218,
    "longitude": -54.555626,
@@ -2732,11 +3621,16 @@
    "confidence_score": 60,
    "heading_min": 284.5,
    "heading_max": 354.5,
-   "travel_direction": "ascendente"
+   "travel_direction": "ascendente",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/13298465101",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--25.61753_-54.55615-desc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1638,1",
+   "name": "RN 12 - Radar km 1638,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -25.617534,
    "longitude": -54.556149,
@@ -2748,11 +3642,16 @@
    "confidence_score": 60,
    "heading_min": 104.5,
    "heading_max": 174.5,
-   "travel_direction": "descendente"
+   "travel_direction": "descendente",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.50431_-55.86171-desc",
-   "name": "Radar autorizado por la ANSV · Acceso Sur Posadas (RN 105) km 6",
+   "name": "RN 105 - Radar km 6",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.504314,
    "longitude": -55.86171,
@@ -2761,11 +3660,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado A: 60 km/h a 1025 m · lado B: 60 km/h a 658 m",
+   "road_label": "RN 105"
   },
   {
    "radar_id": "ansv--27.17326_-55.44987-ambos",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1411,3",
+   "name": "RN 12 - Radar km 1411,3",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.173259,
    "longitude": -55.449868,
@@ -2774,11 +3678,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.50431_-55.86171-asc",
-   "name": "Radar autorizado por la ANSV · Acceso Sur Posadas (RN 105) km 6",
+   "name": "RN 105 - Radar km 6",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.504314,
    "longitude": -55.86171,
@@ -2787,11 +3696,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado A: 60 km/h a 1025 m · lado B: 60 km/h a 658 m",
+   "road_label": "RN 105"
   },
   {
    "radar_id": "ansv--26.44399_-54.64420-ambos",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1538,5",
+   "name": "RN 12 - Radar km 1538,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.443992,
    "longitude": -54.644202,
@@ -2800,11 +3714,16 @@
    "source": "ANSV",
    "source_reference": "Eldorado; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado A: 80 km/h a 194 m · lado B: 60 km/h a 241 m",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--26.81045_-54.92743-ambos",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1483",
+   "name": "RN 12 - Radar km 1483",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.810453,
    "longitude": -54.927427,
@@ -2813,11 +3732,16 @@
    "source": "ANSV",
    "source_reference": "Garuhape; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--26.31772_-54.61565-ambos",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1553,4",
+   "name": "RN 12 - Radar km 1553,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.317721,
    "longitude": -54.615645,
@@ -2826,11 +3750,16 @@
    "source": "ANSV",
    "source_reference": "Garupá; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/12624136001",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--26.53724_-54.72331-ambos",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1524,2",
+   "name": "RN 12 - Radar km 1524,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.537237,
    "longitude": -54.72331,
@@ -2839,11 +3768,16 @@
    "source": "ANSV",
    "source_reference": "Hipolito Yrigoyen (Helvecia); ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--26.28174_-54.61334-ambos",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1557,5",
+   "name": "RN 12 - Radar km 1557,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.281742,
    "longitude": -54.613343,
@@ -2852,11 +3786,16 @@
    "source": "ANSV",
    "source_reference": "Colonia Vctoria; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/10090000260",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--25.63432_-54.54025-ambos",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1635,7",
+   "name": "RN 12 - Radar km 1635,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -25.634321,
    "longitude": -54.540252,
@@ -2865,11 +3804,16 @@
    "source": "ANSV",
    "source_reference": "Parque Nacional Iguazú; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--25.73508_-54.53373-ambos",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1621,6",
+   "name": "RN 12 - Radar km 1621,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -25.735084,
    "longitude": -54.533728,
@@ -2878,11 +3822,16 @@
    "source": "ANSV",
    "source_reference": "Parque Provincial Pto. Península; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/11500016574",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--26.82064_-54.99181-ambos",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1476,3",
+   "name": "RN 12 - Radar km 1476,3",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.820638,
    "longitude": -54.991812,
@@ -2891,11 +3840,16 @@
    "source": "ANSV",
    "source_reference": "Pto. Rico; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--25.98249_-54.58144-ambos",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1591,5",
+   "name": "RN 12 - Radar km 1591,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -25.982493,
    "longitude": -54.58144,
@@ -2904,11 +3858,16 @@
    "source": "ANSV",
    "source_reference": "Colonia Wanda; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado B: 60 km/h a 447 m",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.61720_-55.32593-ambos",
-   "name": "Radar autorizado por la ANSV · RN 14 km 847,6",
+   "name": "RN 14 - Radar km 847,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.617202,
    "longitude": -55.325929,
@@ -2917,11 +3876,14 @@
    "source": "ANSV",
    "source_reference": "Leandro N Alem; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_VIA",
+   "speed_limit_detail": "No hay vía de OSM a menos de 40 m",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--27.50759_-55.12993-ambos",
-   "name": "Radar autorizado por la ANSV · RN 14 km 871,6",
+   "name": "RN 14 - Radar km 871,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.507594,
    "longitude": -55.129928,
@@ -2930,11 +3892,16 @@
    "source": "ANSV",
    "source_reference": "Oberá; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--27.08456_-54.82475-ambos",
-   "name": "Radar autorizado por la ANSV · RN 14 km 937,1",
+   "name": "RN 14 - Radar km 937,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.084565,
    "longitude": -54.824749,
@@ -2943,11 +3910,16 @@
    "source": "ANSV",
    "source_reference": "Salto Encantado; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--26.25325_-53.64460-ambos",
-   "name": "Radar autorizado por la ANSV · RN 101 km 0,17",
+   "name": "RN 101 - Radar km 0,17",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.25325,
    "longitude": -53.6446,
@@ -2956,11 +3928,16 @@
    "source": "ANSV",
    "source_reference": "Acceso a Parque Nacional Pto. Iguazú; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 40,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 101"
   },
   {
    "radar_id": "ansv--26.32488_-54.61540-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1552,6",
+   "name": "RN 12 - Radar km 1552,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.324877,
    "longitude": -54.615399,
@@ -2972,11 +3949,16 @@
    "confidence_score": 60,
    "heading_min": 326.3,
    "heading_max": 36.3,
-   "travel_direction": "ascendente"
+   "travel_direction": "ascendente",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado A: 60 km/h a 549 m · lado B: 60 km/h a 49 m",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--26.32311_-54.61536-desc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1552,8",
+   "name": "RN 12 - Radar km 1552,8",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.323115,
    "longitude": -54.615359,
@@ -2988,11 +3970,16 @@
    "confidence_score": 60,
    "heading_min": 146.3,
    "heading_max": 216.3,
-   "travel_direction": "descendente"
+   "travel_direction": "descendente",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--26.69124_-54.82325-asc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1501,2",
+   "name": "RN 12 - Radar km 1501,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.691237,
    "longitude": -54.823247,
@@ -3004,11 +3991,16 @@
    "confidence_score": 60,
    "heading_min": 40.0,
    "heading_max": 110.0,
-   "travel_direction": "ascendente"
+   "travel_direction": "ascendente",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--26.68939_-54.81472-desc",
-   "name": "Radar autorizado por la ANSV · RN 12 km 1502,1",
+   "name": "RN 12 - Radar km 1502,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -26.689391,
    "longitude": -54.814716,
@@ -3020,11 +4012,16 @@
    "confidence_score": 60,
    "heading_min": 220.0,
    "heading_max": 290.0,
-   "travel_direction": "descendente"
+   "travel_direction": "descendente",
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 12"
   },
   {
    "radar_id": "ansv--27.22682_-54.97482-asc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 913,2",
+   "name": "RN 14 - Radar km 913,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.226824,
    "longitude": -54.974823,
@@ -3033,11 +4030,14 @@
    "source": "ANSV",
    "source_reference": "Campo Grande; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--27.21622_-54.96914-desc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 914,5",
+   "name": "RN 14 - Radar km 914,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.216219,
    "longitude": -54.969136,
@@ -3046,11 +4046,16 @@
    "source": "ANSV",
    "source_reference": "Campo Grande; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--40.79644_-71.59155-desc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 2109",
+   "name": "RN 40 - Radar km 2109",
    "radar_type": "FIXED_SPEED",
    "latitude": -40.796438,
    "longitude": -71.591553,
@@ -3059,11 +4064,16 @@
    "source": "ANSV",
    "source_reference": "Serie 168; Villa la Angostura; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/11656947543",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--40.77483_-71.61605-asc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 2112",
+   "name": "RN 40 - Radar km 2112",
    "radar_type": "FIXED_SPEED",
    "latitude": -40.774831,
    "longitude": -71.616054,
@@ -3072,11 +4082,16 @@
    "source": "ANSV",
    "source_reference": "Serie 169; Villa la Angostura; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/11656882202",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--40.77483_-71.61605-desc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 2112",
+   "name": "RN 40 - Radar km 2112",
    "radar_type": "FIXED_SPEED",
    "latitude": -40.774831,
    "longitude": -71.616054,
@@ -3085,11 +4100,16 @@
    "source": "ANSV",
    "source_reference": "Serie 170; Villa la Angostura; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--40.73064_-71.67988-desc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 2119,5",
+   "name": "RN 40 - Radar km 2119,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -40.730645,
    "longitude": -71.679885,
@@ -3098,11 +4118,16 @@
    "source": "ANSV",
    "source_reference": "Serie 171; Villa la Angostura; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--39.51334_-69.29283-ambos",
-   "name": "Radar autorizado por la ANSV · RN 237 km 1351,4",
+   "name": "RN 237 - Radar km 1351,4",
    "radar_type": "FIXED_SPEED",
    "latitude": -39.513341,
    "longitude": -69.292827,
@@ -3111,11 +4136,16 @@
    "source": "ANSV",
    "source_reference": "Picun Leufu; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 237"
   },
   {
    "radar_id": "ansv--39.52313_-69.29668-asc",
-   "name": "Radar autorizado por la ANSV · RN 237 km 1352,5",
+   "name": "RN 237 - Radar km 1352,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -39.523133,
    "longitude": -69.29668,
@@ -3124,11 +4154,16 @@
    "source": "ANSV",
    "source_reference": "Picun Leufu; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/12270889329",
+   "road_label": "RN 237"
   },
   {
    "radar_id": "ansv--25.50810_-64.98030-ambos",
-   "name": "Radar autorizado por la ANSV · 9 (34) km 1459,2",
+   "name": "RN 9 - Radar km 1459,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -25.5081,
    "longitude": -64.9803,
@@ -3137,11 +4172,16 @@
    "source": "ANSV",
    "source_reference": "Metán; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 9"
   },
   {
    "radar_id": "ansv--25.48920_-64.97860-asc",
-   "name": "Radar autorizado por la ANSV · 9 (34) km 1461,3",
+   "name": "RN 9 - Radar km 1461,3",
    "radar_type": "FIXED_SPEED",
    "latitude": -25.4892,
    "longitude": -64.9786,
@@ -3150,11 +4190,16 @@
    "source": "ANSV",
    "source_reference": "Metán; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 9"
   },
   {
    "radar_id": "ansv--25.49010_-64.97880-desc",
-   "name": "Radar autorizado por la ANSV · 9 (34) km 1461,2",
+   "name": "RN 9 - Radar km 1461,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -25.4901,
    "longitude": -64.9788,
@@ -3163,11 +4208,16 @@
    "source": "ANSV",
    "source_reference": "Metán; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 9"
   },
   {
    "radar_id": "ansv--33.20423_-60.49129-asc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 260",
+   "name": "Autopista Juan José Valle - Radar km 260",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.204234,
    "longitude": -60.491287,
@@ -3176,11 +4226,16 @@
    "source": "ANSV",
    "source_reference": "Serie 36; Fighiera; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Juan José Valle"
   },
   {
    "radar_id": "ansv--33.20423_-60.49129-desc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 260",
+   "name": "Autopista Juan José Valle - Radar km 260",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.204234,
    "longitude": -60.491287,
@@ -3189,11 +4244,16 @@
    "source": "ANSV",
    "source_reference": "Serie 37; Fighiera; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Juan José Valle"
   },
   {
    "radar_id": "ansv--33.23339_-60.45121-asc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 255",
+   "name": "Autopista Juan José Valle - Radar km 255",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.233393,
    "longitude": -60.451207,
@@ -3202,11 +4262,16 @@
    "source": "ANSV",
    "source_reference": "Serie 38; Fighiera; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Juan José Valle"
   },
   {
    "radar_id": "ansv--33.23339_-60.45121-desc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 255",
+   "name": "Autopista Juan José Valle - Radar km 255",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.233393,
    "longitude": -60.451207,
@@ -3215,11 +4280,16 @@
    "source": "ANSV",
    "source_reference": "Serie 39; Fighiera; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Juan José Valle"
   },
   {
    "radar_id": "ansv--33.78461_-61.95092-asc",
-   "name": "Radar autorizado por la ANSV · RN 8 km 362,6",
+   "name": "RN 8 - Radar km 362,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.78461,
    "longitude": -61.950916,
@@ -3228,11 +4298,16 @@
    "source": "ANSV",
    "source_reference": "Serie 96; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 8"
   },
   {
    "radar_id": "ansv--32.77925_-61.78048-desc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 398,3",
+   "name": "Autopista Rosario - Córdoba - Radar km 398,3",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.779251,
    "longitude": -61.780481,
@@ -3241,11 +4316,16 @@
    "source": "ANSV",
    "source_reference": "Serie 101; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 130,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Rosario - Córdoba"
   },
   {
    "radar_id": "ansv--32.84654_-61.39043-asc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 361",
+   "name": "Autopista Rosario - Córdoba - Radar km 361",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.846544,
    "longitude": -61.390427,
@@ -3254,11 +4334,16 @@
    "source": "ANSV",
    "source_reference": "Serie 103; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 130,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Rosario - Córdoba"
   },
   {
    "radar_id": "ansv--32.84654_-61.39043-desc",
-   "name": "Radar autorizado por la ANSV · RN 9 km 361",
+   "name": "Autopista Rosario - Córdoba - Radar km 361",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.846544,
    "longitude": -61.390427,
@@ -3267,11 +4352,16 @@
    "source": "ANSV",
    "source_reference": "Serie 104; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 130,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Autopista Rosario - Córdoba"
   },
   {
    "radar_id": "ansv--29.10611_-59.64908-desc",
-   "name": "Radar autorizado por la ANSV · RN 11 km 793,3",
+   "name": "RN 11 - Radar km 793,3",
    "radar_type": "FIXED_SPEED",
    "latitude": -29.106109,
    "longitude": -59.649082,
@@ -3280,11 +4370,14 @@
    "source": "ANSV",
    "source_reference": "Serie 105; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_VIA",
+   "speed_limit_detail": "No hay vía de OSM a menos de 40 m",
+   "road_label": "RN 11"
   },
   {
    "radar_id": "ansv--31.28868_-61.53032-asc",
-   "name": "Radar autorizado por la ANSV · RN 34 km 216,9",
+   "name": "RN 34 - Radar km 216,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -31.288683,
    "longitude": -61.530315,
@@ -3293,11 +4386,16 @@
    "source": "ANSV",
    "source_reference": "Serie 113; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 130,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 34"
   },
   {
    "radar_id": "ansv--31.62060_-60.72730-desc",
-   "name": "Radar autorizado por la ANSV · RN 11 km 469,8",
+   "name": "RN A7 - Radar km 469,8",
    "radar_type": "FIXED_SPEED",
    "latitude": -31.6206,
    "longitude": -60.7273,
@@ -3306,11 +4404,16 @@
    "source": "ANSV",
    "source_reference": "Series 119, 120; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 130,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN A7"
   },
   {
    "radar_id": "ansv--29.12968_-59.65405-asc",
-   "name": "Radar autorizado por la ANSV · RN 11 km 790,6",
+   "name": "RN 11 - Radar km 790,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -29.129677,
    "longitude": -59.654052,
@@ -3319,11 +4422,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 11"
   },
   {
    "radar_id": "ansv--29.12968_-59.65405-desc",
-   "name": "Radar autorizado por la ANSV · RN 11 km 790,6",
+   "name": "RN 11 - Radar km 790,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -29.129677,
    "longitude": -59.654052,
@@ -3332,11 +4440,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 11"
   },
   {
    "radar_id": "ansv--38.98505_-64.12472-asc",
-   "name": "Radar autorizado por la ANSV · RN 22 km 859",
+   "name": "RN 22 - Radar km 859",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.985046,
    "longitude": -64.124723,
@@ -3345,11 +4458,14 @@
    "source": "ANSV",
    "source_reference": "Serie 87; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_VIA",
+   "speed_limit_detail": "No hay vía de OSM a menos de 40 m",
+   "road_label": "RN 22"
   },
   {
    "radar_id": "ansv--39.41380_-65.69110-desc",
-   "name": "Radar autorizado por la ANSV · RN 250 km 269,9",
+   "name": "RN 250 - Radar km 269,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -39.4138,
    "longitude": -65.6911,
@@ -3358,11 +4474,16 @@
    "source": "ANSV",
    "source_reference": "Serie 97; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 250"
   },
   {
    "radar_id": "ansv--39.41380_-65.69110-asc",
-   "name": "Radar autorizado por la ANSV · RN 250 km 269,9",
+   "name": "RN 250 - Radar km 269,9",
    "radar_type": "FIXED_SPEED",
    "latitude": -39.4138,
    "longitude": -65.6911,
@@ -3371,11 +4492,16 @@
    "source": "ANSV",
    "source_reference": "Serie 98; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 250"
   },
   {
    "radar_id": "ansv--38.90698_-68.02256-asc",
-   "name": "Radar autorizado por la ANSV · RN 151 km 4",
+   "name": "RN 151 - Radar km 4",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.906981,
    "longitude": -68.02256,
@@ -3384,11 +4510,16 @@
    "source": "ANSV",
    "source_reference": "Serie 99; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 151"
   },
   {
    "radar_id": "ansv--38.90698_-68.02256-desc",
-   "name": "Radar autorizado por la ANSV · RN 151 km 4",
+   "name": "RN 151 - Radar km 4",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.906981,
    "longitude": -68.02256,
@@ -3397,11 +4528,16 @@
    "source": "ANSV",
    "source_reference": "Serie 100; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 151"
   },
   {
    "radar_id": "ansv--38.69282_-68.15953-asc",
-   "name": "Radar autorizado por la ANSV · RN 151 km 33",
+   "name": "RN 151 - Radar km 33",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.692819,
    "longitude": -68.159533,
@@ -3410,11 +4546,16 @@
    "source": "ANSV",
    "source_reference": "Serie 436; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/11657337472",
+   "road_label": "RN 151"
   },
   {
    "radar_id": "ansv--38.69282_-68.15953-desc",
-   "name": "Radar autorizado por la ANSV · RN 151 km 33",
+   "name": "RN 151 - Radar km 33",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.692819,
    "longitude": -68.159533,
@@ -3423,11 +4564,16 @@
    "source": "ANSV",
    "source_reference": "Serie 437; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 151"
   },
   {
    "radar_id": "ansv--38.76167_-68.09896-asc",
-   "name": "Radar autorizado por la ANSV · RN 151 km 22",
+   "name": "RN 151 - Radar km 22",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.76167,
    "longitude": -68.09896,
@@ -3436,11 +4582,16 @@
    "source": "ANSV",
    "source_reference": "Serie 606; Contralmirante Cordero; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 151"
   },
   {
    "radar_id": "ansv--38.75080_-68.10710-desc",
-   "name": "Radar autorizado por la ANSV · RN 151 km 23",
+   "name": "RN 151 - Radar km 23",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.7508,
    "longitude": -68.1071,
@@ -3449,11 +4600,16 @@
    "source": "ANSV",
    "source_reference": "Serie 607; Contralmirante Cordero; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 151"
   },
   {
    "radar_id": "ansv--38.72854_-68.14173-asc",
-   "name": "Radar autorizado por la ANSV · RN 151 km 27",
+   "name": "RN 151 - Radar km 27",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.728541,
    "longitude": -68.141734,
@@ -3462,11 +4618,16 @@
    "source": "ANSV",
    "source_reference": "Serie 608; Contralmirante Cordero; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 151"
   },
   {
    "radar_id": "ansv--38.72722_-68.16091-desc",
-   "name": "Radar autorizado por la ANSV · RN 151 km 29",
+   "name": "RN 151 - Radar km 29",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.727221,
    "longitude": -68.160915,
@@ -3475,11 +4636,16 @@
    "source": "ANSV",
    "source_reference": "Serie 609; Contralmirante Cordero; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 40,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 151"
   },
   {
    "radar_id": "ansv--41.17513_-71.34772-asc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 2030,2",
+   "name": "RN 40 - Radar km 2030,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -41.175131,
    "longitude": -71.347722,
@@ -3488,11 +4654,16 @@
    "source": "ANSV",
    "source_reference": "Serie 618; Bariloche; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado A: 40 km/h a 799 m · lado B: 110 km/h a 335 m",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--41.98204_-71.52481-asc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 1913,05",
+   "name": "RN 40 - Radar km 1913,05",
    "radar_type": "FIXED_SPEED",
    "latitude": -41.982043,
    "longitude": -71.524813,
@@ -3501,11 +4672,14 @@
    "source": "ANSV",
    "source_reference": "Serie 619; El Bolson; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--41.94987_-71.53655-desc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 1917,07",
+   "name": "RN 40 - Radar km 1917,07",
    "radar_type": "FIXED_SPEED",
    "latitude": -41.949871,
    "longitude": -71.536546,
@@ -3514,11 +4688,14 @@
    "source": "ANSV",
    "source_reference": "Serie 620; El Bolson; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--41.06310_-71.15729-asc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 2055",
+   "name": "RN 40 - Radar km 2055",
    "radar_type": "FIXED_SPEED",
    "latitude": -41.063103,
    "longitude": -71.157289,
@@ -3527,11 +4704,16 @@
    "source": "ANSV",
    "source_reference": "Serie 621; Dina Huapi; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--41.06310_-71.15729-desc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 2055",
+   "name": "RN 40 - Radar km 2055",
    "radar_type": "FIXED_SPEED",
    "latitude": -41.063103,
    "longitude": -71.157289,
@@ -3540,11 +4722,16 @@
    "source": "ANSV",
    "source_reference": "Serie 622; Dina Huapi; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--41.07264_-71.15115-asc",
-   "name": "Radar autorizado por la ANSV · RN 23 km 604,1",
+   "name": "RN 23 - Radar km 604,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -41.07264,
    "longitude": -71.15115,
@@ -3553,11 +4740,16 @@
    "source": "ANSV",
    "source_reference": "Serie 623; Dina Huapi; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado B: 60 km/h a 1034 m",
+   "road_label": "RN 23"
   },
   {
    "radar_id": "ansv--41.07264_-71.15115-desc",
-   "name": "Radar autorizado por la ANSV · RN 23 km 604,1",
+   "name": "RN 23 - Radar km 604,1",
    "radar_type": "FIXED_SPEED",
    "latitude": -41.07264,
    "longitude": -71.15115,
@@ -3566,11 +4758,16 @@
    "source": "ANSV",
    "source_reference": "Serie 624; Dina Huapi; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado B: 60 km/h a 1034 m",
+   "road_label": "RN 23"
   },
   {
    "radar_id": "ansv--41.17513_-71.34772-desc",
-   "name": "Radar autorizado por la ANSV · RN 40 km 2030,2",
+   "name": "RN 40 - Radar km 2030,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -41.175131,
    "longitude": -71.347722,
@@ -3579,11 +4776,16 @@
    "source": "ANSV",
    "source_reference": "Serie 625; Bariloche; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado A: 40 km/h a 799 m · lado B: 110 km/h a 335 m",
+   "road_label": "RN 40"
   },
   {
    "radar_id": "ansv--39.08625_-67.11555-desc",
-   "name": "Radar autorizado por la ANSV · RN 22 km 1134,8",
+   "name": "RN 22 - Radar km 1134,8",
    "radar_type": "FIXED_SPEED",
    "latitude": -39.086247,
    "longitude": -67.115549,
@@ -3592,11 +4794,14 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_VIA",
+   "speed_limit_detail": "No hay vía de OSM a menos de 40 m",
+   "road_label": "RN 22"
   },
   {
    "radar_id": "ansv--39.10083_-67.04513-asc",
-   "name": "Radar autorizado por la ANSV · RN 22 km 1127,7",
+   "name": "RN 22 - Radar km 1127,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -39.100829,
    "longitude": -67.045129,
@@ -3605,11 +4810,16 @@
    "source": "ANSV",
    "source_reference": "ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado A: 80 km/h a 261 m · lado B: 80 km/h a 40 m",
+   "road_label": "RN 22"
   },
   {
    "radar_id": "ansv--29.98980_-57.70760-asc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 437,6",
+   "name": "RN 14 - Radar km 437,6",
    "radar_type": "FIXED_SPEED",
    "latitude": -29.9898,
    "longitude": -57.7076,
@@ -3618,11 +4828,14 @@
    "source": "ANSV",
    "source_reference": "Curuzú Cuatiá; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--29.98620_-57.70330-desc",
-   "name": "Radar autorizado por la ANSV · RN 14 km 438,2",
+   "name": "RN 14 - Radar km 438,2",
    "radar_type": "FIXED_SPEED",
    "latitude": -29.9862,
    "longitude": -57.7033,
@@ -3631,11 +4844,14 @@
    "source": "ANSV",
    "source_reference": "Curuzú Cuatiá; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 14"
   },
   {
    "radar_id": "ansv--29.80260_-58.08790-ambos",
-   "name": "Radar autorizado por la ANSV · RN 119 km 31,7",
+   "name": "RN 119 - Radar km 31,7",
    "radar_type": "FIXED_SPEED",
    "latitude": -29.8026,
    "longitude": -58.0879,
@@ -3644,11 +4860,14 @@
    "source": "ANSV",
    "source_reference": "Curuzú Cuatiá; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "RN 119"
   },
   {
    "radar_id": "ansv--40.05300_-70.08200-ambos",
-   "name": "Radar autorizado por la ANSV · RN 237 km 1446,5",
+   "name": "RN 237 - Radar km 1446,5",
    "radar_type": "FIXED_SPEED",
    "latitude": -40.053,
    "longitude": -70.082,
@@ -3657,7 +4876,12 @@
    "source": "ANSV",
    "source_reference": "Piedra del Águila; ubicado por planilla",
    "source_version": "ansv-2026-10-29",
-   "confidence_score": 60
+   "confidence_score": 60,
+   "speed_limit_kmh": 40,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 237"
   }
  ]
 }
