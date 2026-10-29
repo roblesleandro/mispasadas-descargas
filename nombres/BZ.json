@@ -1,0 +1,59 @@
+{
+ "version": 2,
+ "pais": "BZ",
+ "moneda": "BZD",
+ "resumen": {
+  "oficial": 0,
+  "osm": 1,
+  "armado": 2,
+  "total": 3,
+  "confianza_baja": 0,
+  "excluidas": 0
+ },
+ "estaciones": [
+  {
+   "lat": 17.070999,
+   "lon": -88.987439,
+   "nombre": "Peaje Caracol Road (A10)",
+   "tipo": "cabina",
+   "via": "Caracol Road",
+   "ref": "A10",
+   "localidad": "San Antonio",
+   "fuente": "armado",
+   "pais": "BZ",
+   "via_visible": "A10",
+   "punto": "San Antonio",
+   "nombre_visible": "A10 - Toll San Antonio",
+   "confianza": "media"
+  },
+  {
+   "lat": 17.159415,
+   "lon": -89.069601,
+   "nombre": "Collection Booth",
+   "tipo": "cabina",
+   "fuente": "osm",
+   "pais": "BZ",
+   "punto": "Collection Booth",
+   "nombre_visible": "Toll Collection Booth",
+   "confianza": "alta"
+  },
+  {
+   "lat": 17.548975,
+   "lon": -88.302755,
+   "nombre": "Pórtico Philip Goldson Highway (AR2)",
+   "tipo": "portico",
+   "via": "Philip Goldson Highway",
+   "ref": "AR2",
+   "localidad": "Ladyville",
+   "fuente": "armado",
+   "pais": "BZ",
+   "via_visible": "AR2",
+   "punto": "Ladyville",
+   "nombre_visible": "AR2 - Toll gantry Ladyville",
+   "confianza": "media"
+  }
+ ],
+ "excluidas": [],
+ "generado": "2026-10-29T22:54Z",
+ "alertas": []
+}
