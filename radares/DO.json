@@ -1,0 +1,63 @@
+{
+ "version": "do-2026-10-29",
+ "pais": "DO",
+ "generado": "2026-10-29T23:03:18+00:00",
+ "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
+ "a_investigar": [
+  "INTRANT anunció fotomultas: sin listado."
+ ],
+ "resumen": {
+  "total": 2,
+  "oficiales": 0,
+  "osm": 2,
+  "por_tipo": {
+   "FIXED_SPEED": 0,
+   "AVERAGE_SPEED_SECTION": 0,
+   "RED_LIGHT_CAMERA": 0,
+   "VEHICLE_CAMERA": 2
+  },
+  "con_limite": 0,
+  "limite_revisar": 0,
+  "limite_desconocido": 2,
+  "revisados_esta_corrida": 2
+ },
+ "alertas": [],
+ "radars": [
+  {
+   "radar_id": "osm-do-n14275404602",
+   "name": "Avenida Gustavo Mejía Ricart - Cámara de tránsito",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": 18.474907,
+   "longitude": -69.935446,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14275404602",
+   "source_version": "do-2026-10-29",
+   "confidence_score": 50,
+   "speed_limit_checked": "2026-10-29",
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "Avenida Gustavo Mejía Ricart",
+   "display_name": "Avenida Gustavo Mejía Ricart - Cámara de tránsito",
+   "country": "DO"
+  },
+  {
+   "radar_id": "osm-do-n14275408201",
+   "name": "Calle Doctor Jacinto Ignacio Mañón - Cámara de tránsito",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": 18.481196,
+   "longitude": -69.938984,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14275408201",
+   "source_version": "do-2026-10-29",
+   "confidence_score": 50,
+   "speed_limit_checked": "2026-10-29",
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "Calle Doctor Jacinto Ignacio Mañón",
+   "display_name": "Calle Doctor Jacinto Ignacio Mañón - Cámara de tránsito",
+   "country": "DO"
+  }
+ ]
+}
