@@ -333,9 +333,9 @@
    "localidad": "General Liber Seregni",
    "fuente": "armado",
    "pais": "UY",
-   "via_visible": "101",
+   "via_visible": "Ruta 101",
    "punto": "General Liber Seregni",
-   "nombre_visible": "101 - Peaje General Liber Seregni",
+   "nombre_visible": "Ruta 101 - Peaje General Liber Seregni",
    "confianza": "media"
   },
   {
@@ -2079,9 +2079,9 @@
    "empresa": "CDLS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "RN 36 – Red de Accesos a Córdoba",
+   "via_visible": "RN 36",
    "punto": "Arroyo Tegua",
-   "nombre_visible": "RN 36 – Red de Accesos a Córdoba - Peaje Arroyo Tegua",
+   "nombre_visible": "RN 36 - Peaje Arroyo Tegua",
    "confianza": "alta",
    "plaza": "Arroyo Tegua (RN 36)"
   },
@@ -2158,9 +2158,9 @@
    "localidad": "Nuevo Paysandú",
    "fuente": "armado",
    "pais": "UY",
-   "via_visible": "5",
+   "via_visible": "Ruta 5",
    "punto": "Nuevo Paysandú",
-   "nombre_visible": "5 - Peaje Nuevo Paysandú",
+   "nombre_visible": "Ruta 5 - Peaje Nuevo Paysandú",
    "confianza": "media"
   },
   {
@@ -2205,9 +2205,9 @@
    "empresa": "CDLS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "RN 36 – Red de Accesos a Córdoba",
+   "via_visible": "RN 36",
    "punto": "Piedras Moras",
-   "nombre_visible": "RN 36 – Red de Accesos a Córdoba - Peaje Piedras Moras",
+   "nombre_visible": "RN 36 - Peaje Piedras Moras",
    "confianza": "alta",
    "plaza": "Piedras Moras (RN 36)"
   },
@@ -2237,9 +2237,9 @@
    "empresa": "CDLS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "RP 5 – Red de Accesos a Córdoba",
+   "via_visible": "RP 5",
    "punto": "Calamuchita",
-   "nombre_visible": "RP 5 – Red de Accesos a Córdoba - Peaje Calamuchita",
+   "nombre_visible": "RP 5 - Peaje Calamuchita",
    "confianza": "alta",
    "plaza": "Calamuchita (RP 5)"
   },
@@ -2252,9 +2252,9 @@
    "empresa": "CDLS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "RP 5 – Red de Accesos a Córdoba",
+   "via_visible": "RP 5",
    "punto": "Calamuchita (acceso)",
-   "nombre_visible": "RP 5 – Red de Accesos a Córdoba - Peaje Calamuchita (acceso)",
+   "nombre_visible": "RP 5 - Peaje Calamuchita (acceso)",
    "confianza": "alta",
    "plaza": "Calamuchita (RP 5, acceso)"
   },
@@ -2362,9 +2362,9 @@
    "empresa": "CDLS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "RN 9 – Red de Accesos a Córdoba",
+   "via_visible": "RN 9",
    "punto": "Toledo (acceso)",
-   "nombre_visible": "RN 9 – Red de Accesos a Córdoba - Peaje Toledo (acceso)",
+   "nombre_visible": "RN 9 - Peaje Toledo (acceso)",
    "confianza": "alta",
    "plaza": "Toledo (RN 9 Sur, acceso)"
   },
@@ -2409,9 +2409,9 @@
    "empresa": "CDLS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "Red de Accesos a Córdoba",
+   "via_visible": "RP 5",
    "punto": "Variante Ruta 5",
-   "nombre_visible": "Red de Accesos a Córdoba - Peaje Variante Ruta 5",
+   "nombre_visible": "RP 5 - Peaje Variante Ruta 5",
    "confianza": "alta",
    "plaza": "Variante Ruta 5 (Red de Accesos a Córdoba)"
   },
@@ -2425,9 +2425,9 @@
    "empresa": "CDLS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "RN 9 – Red de Accesos a Córdoba",
+   "via_visible": "RN 9",
    "punto": "Toledo",
-   "nombre_visible": "RN 9 – Red de Accesos a Córdoba - Peaje Toledo",
+   "nombre_visible": "RN 9 - Peaje Toledo",
    "confianza": "alta",
    "plaza": "Toledo (RN 9 Sur)"
   },
@@ -2441,9 +2441,9 @@
    "empresa": "CDLS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "Red de Accesos a Córdoba",
+   "via_visible": "RN 36",
    "punto": "Camino a 60 Cuadras",
-   "nombre_visible": "Red de Accesos a Córdoba - Peaje Camino a 60 Cuadras",
+   "nombre_visible": "RN 36 - Peaje Camino a 60 Cuadras",
    "confianza": "alta",
    "plaza": "Camino a 60 Cuadras (Red de Accesos a Córdoba)"
   },
@@ -2488,9 +2488,9 @@
    "empresa": "CDLS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "RN 20 – Red de Accesos a Córdoba",
+   "via_visible": "RN 20",
    "punto": "Córdoba–Carlos Paz",
-   "nombre_visible": "RN 20 – Red de Accesos a Córdoba - Peaje Córdoba–Carlos Paz",
+   "nombre_visible": "RN 20 - Peaje Córdoba–Carlos Paz",
    "confianza": "alta",
    "plaza": "Córdoba–Carlos Paz (RN 20)"
   },
@@ -2518,9 +2518,9 @@
    "empresa": "CDLS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "Red de Accesos a Córdoba",
+   "via_visible": "RP E-55",
    "punto": "La Calera",
-   "nombre_visible": "Red de Accesos a Córdoba - Peaje La Calera",
+   "nombre_visible": "RP E-55 - Peaje La Calera",
    "confianza": "alta",
    "plaza": "La Calera (E-55)"
   },
@@ -2549,9 +2549,9 @@
    "empresa": "CDLS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "RN 19 – Red de Accesos a Córdoba",
+   "via_visible": "RN 19",
    "punto": "Monte Cristo",
-   "nombre_visible": "RN 19 – Red de Accesos a Córdoba - Peaje Monte Cristo",
+   "nombre_visible": "RN 19 - Peaje Monte Cristo",
    "confianza": "alta",
    "plaza": "Monte Cristo (RN 19)"
   },
@@ -2565,9 +2565,9 @@
    "empresa": "CDLS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "Red de Accesos a Córdoba",
+   "via_visible": "RP E-53",
    "punto": "Pajas Blancas",
-   "nombre_visible": "Red de Accesos a Córdoba - Peaje Pajas Blancas",
+   "nombre_visible": "RP E-53 - Peaje Pajas Blancas",
    "confianza": "alta",
    "plaza": "Pajas Blancas (E-53)"
   },
@@ -2581,9 +2581,9 @@
    "empresa": "CDLS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "RN 38 – Red de Accesos a Córdoba",
+   "via_visible": "RN 38",
    "punto": "Punilla",
-   "nombre_visible": "RN 38 – Red de Accesos a Córdoba - Peaje Punilla",
+   "nombre_visible": "RN 38 - Peaje Punilla",
    "confianza": "alta",
    "plaza": "Punilla (RN 38)"
   },
@@ -2597,9 +2597,9 @@
    "empresa": "CDLS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "Red de Accesos a Córdoba",
+   "via_visible": "RP C-46",
    "punto": "Juárez Celman",
-   "nombre_visible": "Red de Accesos a Córdoba - Peaje Juárez Celman",
+   "nombre_visible": "RP C-46 - Peaje Juárez Celman",
    "confianza": "alta",
    "plaza": "Juárez Celman (Red de Accesos a Córdoba)"
   },
@@ -2613,9 +2613,9 @@
    "empresa": "CDLS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "RN 9 – Red de Accesos a Córdoba",
+   "via_visible": "RN 9",
    "punto": "Jesús María",
-   "nombre_visible": "RN 9 – Red de Accesos a Córdoba - Peaje Jesús María",
+   "nombre_visible": "RN 9 - Peaje Jesús María",
    "confianza": "alta",
    "plaza": "Jesús María (RN 9 Norte)"
   },
@@ -2913,5 +2913,5 @@
    "confianza": "media"
   }
  ],
- "generado": "2026-10-29T21:43Z"
+ "generado": "2026-10-30T00:40Z"
 }
