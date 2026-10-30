@@ -1,0 +1,28 @@
+{
+ "version": "aw-2026-10-30",
+ "pais": "AW",
+ "generado": "2026-10-30T01:56:55+00:00",
+ "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
+ "a_investigar": [
+  "Sin fuente oficial con ubicaciones."
+ ],
+ "resumen": {
+  "total": 0,
+  "oficiales": 0,
+  "osm": 0,
+  "por_tipo": {
+   "FIXED_SPEED": 0,
+   "AVERAGE_SPEED_SECTION": 0,
+   "RED_LIGHT_CAMERA": 0,
+   "VEHICLE_CAMERA": 0
+  },
+  "con_limite": 0,
+  "limite_revisar": 0,
+  "limite_desconocido": 0,
+  "revisados_esta_corrida": 0,
+  "sin_via": 0,
+  "via_completada_esta_corrida": 0
+ },
+ "alertas": [],
+ "radars": []
+}
