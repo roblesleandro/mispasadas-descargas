@@ -1,7 +1,7 @@
 {
  "version": "cl-2026-10-30",
  "pais": "CL",
- "generado": "2026-10-30T01:18:19+00:00",
+ "generado": "2026-10-30T03:30:43+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Ley CATI (Centro Automatizado de Tratamiento de Infracciones, MTT): al 29/10/2026 no se encontró un listado oficial de cámaras de velocidad en funcionamiento; en 2025 hubo pilotos (Apoquindo con El Bosque en Las Condes, comuna de Santiago y Ruta 5). Revisar mtt.gob.cl cuando arranque.",
@@ -23,7 +23,7 @@
   "limite_desconocido": 11,
   "revisados_esta_corrida": 0,
   "sin_via": 1,
-  "via_completada_esta_corrida": 6
+  "via_completada_esta_corrida": 0
  },
  "alertas": [],
  "radars": [
@@ -684,10 +684,10 @@
    "source_reference": "node/8711359122",
    "source_version": "cl-2026-10-30",
    "confidence_score": 50,
+   "road_label": "Villa Sur",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "road_label": "Villa Sur",
    "display_name": "Villa Sur - Cámara de tránsito",
    "country": "CL"
   },
@@ -1979,10 +1979,10 @@
    "source_reference": "node/7882346962",
    "source_version": "cl-2026-10-30",
    "confidence_score": 50,
+   "road_label": "Avenida Raúl Labbé",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "road_label": "Avenida Raúl Labbé",
    "display_name": "Avenida Raúl Labbé - Cámara de tránsito",
    "country": "CL"
   },
@@ -2099,12 +2099,12 @@
    "source_reference": "node/13837048695",
    "source_version": "cl-2026-10-30",
    "confidence_score": 50,
+   "road_label": "Autopista Los Andes",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "road_label": "Autopista Los Andes",
    "display_name": "Autopista Los Andes - Cámara de tránsito",
    "country": "CL"
   },
