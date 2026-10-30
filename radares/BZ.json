@@ -1,0 +1,49 @@
+{
+ "version": "bz-2026-10-30",
+ "pais": "BZ",
+ "generado": "2026-10-30T01:52:56+00:00",
+ "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
+ "a_investigar": [
+  "Sin fuente oficial con ubicaciones."
+ ],
+ "resumen": {
+  "total": 1,
+  "oficiales": 0,
+  "osm": 1,
+  "por_tipo": {
+   "FIXED_SPEED": 0,
+   "AVERAGE_SPEED_SECTION": 0,
+   "RED_LIGHT_CAMERA": 0,
+   "VEHICLE_CAMERA": 1
+  },
+  "con_limite": 0,
+  "limite_revisar": 0,
+  "limite_desconocido": 1,
+  "revisados_esta_corrida": 1,
+  "sin_via": 0,
+  "via_completada_esta_corrida": 0
+ },
+ "alertas": [],
+ "radars": [
+  {
+   "radar_id": "osm-bz-n10709978063",
+   "name": "F3300 - Traffic camera",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": 17.897852,
+   "longitude": -88.85313,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/10709978063",
+   "source_version": "bz-2026-10-30",
+   "confidence_score": 50,
+   "heading_min": 340.0,
+   "heading_max": 50.0,
+   "speed_limit_checked": "2026-10-30",
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "road_label": "F3300",
+   "display_name": "F3300 - Traffic camera",
+   "country": "BZ"
+  }
+ ]
+}
