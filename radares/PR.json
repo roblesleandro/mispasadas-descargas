@@ -1,7 +1,7 @@
 {
  "version": "pr-2026-10-30",
  "pais": "PR",
- "generado": "2026-10-30T01:48:13+00:00",
+ "generado": "2026-10-30T03:47:10+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "No se conocen fotomultas activas."
