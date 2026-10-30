@@ -1,7 +1,7 @@
 {
  "version": "tt-2026-10-30",
  "pais": "TT",
- "generado": "2026-10-30T01:54:15+00:00",
+ "generado": "2026-10-30T03:52:12+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial con ubicaciones."
@@ -19,9 +19,9 @@
   "con_limite": 2,
   "limite_revisar": 0,
   "limite_desconocido": 2,
-  "revisados_esta_corrida": 3,
+  "revisados_esta_corrida": 0,
   "sin_via": 0,
-  "via_completada_esta_corrida": 1
+  "via_completada_esta_corrida": 0
  },
  "alertas": [],
  "radars": [
@@ -54,12 +54,12 @@
    "source_reference": "node/7616397425",
    "source_version": "tt-2026-10-30",
    "confidence_score": 50,
-   "speed_limit_checked": "2026-10-30",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Valsayn Branch Road",
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_PROPIO",
-   "road_label": "Valsayn Branch Road",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-10-30",
    "display_name": "Valsayn Branch Road - Traffic camera (TrafficTT Curepe Highway Camera)",
    "country": "TT"
   },
@@ -76,10 +76,10 @@
    "confidence_score": 50,
    "heading_min": 145.0,
    "heading_max": 215.0,
-   "speed_limit_checked": "2026-10-30",
+   "road_label": "Carlos Street",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
-   "road_label": "Carlos Street",
+   "speed_limit_checked": "2026-10-30",
    "display_name": "Carlos Street - Traffic camera",
    "country": "TT"
   },
@@ -96,10 +96,10 @@
    "confidence_score": 50,
    "heading_min": 145.0,
    "heading_max": 215.0,
-   "speed_limit_checked": "2026-10-30",
+   "road_label": "Cocorite Terrace",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
-   "road_label": "Cocorite Terrace",
+   "speed_limit_checked": "2026-10-30",
    "display_name": "Cocorite Terrace - Traffic camera",
    "country": "TT"
   }
