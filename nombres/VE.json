@@ -212,8 +212,8 @@
    "confianza": "media"
   },
   {
-   "lat": 9.286624,
-   "lon": -70.896335,
+   "lat": 9.286713,
+   "lon": -70.896409,
    "nombre": "Peaje de Buena Vista",
    "tipo": "cabina",
    "via": "Carretera Panamericana Arapuey - Mendoza",
@@ -671,8 +671,8 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 10.260116,
-   "lon": -67.644189,
+   "lat": 10.260285,
+   "lon": -67.644387,
    "nombre": "Peaje La Cabrera",
    "tipo": "cabina",
    "via": "Carril 1 / Cobro Manual Vehículos Livianos /Peaje La Cabrera",
@@ -755,8 +755,8 @@
    "confianza": "alta"
   },
   {
-   "lat": 10.388981,
-   "lon": -66.889257,
+   "lat": 10.388965,
+   "lon": -66.889251,
    "nombre": "Peaje Tazón",
    "tipo": "cabina",
    "via": "Carril 1 / Cobretag Vehículos Livianos / Peaje Tazón",
@@ -1018,6 +1018,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-29T22:48Z",
+ "generado": "2026-10-30T01:17Z",
  "alertas": []
 }
