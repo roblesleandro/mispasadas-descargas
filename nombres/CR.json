@@ -26,8 +26,8 @@
    "confianza": "media"
   },
   {
-   "lat": 9.154924,
-   "lon": -83.748157,
+   "lat": 9.15494,
+   "lon": -83.748134,
    "nombre": "Peaje Calle Playa Bahía",
    "tipo": "cabina",
    "via": "Calle Playa Bahía",
@@ -261,6 +261,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-10-29T22:29Z",
+ "generado": "2026-10-30T01:04Z",
  "alertas": []
 }
