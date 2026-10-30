@@ -279,9 +279,9 @@
    "ref": "2505B",
    "fuente": "osm",
    "pais": "CO",
-   "via_visible": "2505B",
+   "via_visible": "Ruta 2505B",
    "punto": "Rozo",
-   "nombre_visible": "2505B - Peaje Rozo",
+   "nombre_visible": "Ruta 2505B - Peaje Rozo",
    "confianza": "alta"
   },
   {
@@ -1364,9 +1364,9 @@
    "empresa": "INVIAS",
    "fuente": "oficial",
    "pais": "CO",
-   "via_visible": "5008B",
+   "via_visible": "Ruta 5008B",
    "punto": "El Korán",
-   "nombre_visible": "5008B - Peaje El Korán",
+   "nombre_visible": "Ruta 5008B - Peaje El Korán",
    "confianza": "alta",
    "plaza": "El Korán (El Korán - Guaduas)"
   },
@@ -2941,6 +2941,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-29T22:19Z",
+ "generado": "2026-10-30T00:55Z",
  "alertas": []
 }
