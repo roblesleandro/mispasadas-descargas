@@ -45,12 +45,12 @@
    "tipo": "cabina",
    "via": "Calle Los Volcanes",
    "ref": "LP-209",
-   "localidad": "Mazo",
+   "localidad": "Los Canarios",
    "fuente": "armado",
    "pais": "ES",
    "via_visible": "LP-209",
-   "punto": "Mazo",
-   "nombre_visible": "LP-209 - Peaje Mazo",
+   "punto": "Los Canarios",
+   "nombre_visible": "LP-209 - Peaje Los Canarios",
    "confianza": "media"
   },
   {
@@ -1461,9 +1461,9 @@
   {
    "lat": 41.85035,
    "lon": -1.378525,
-   "nombre": "Peaje Carretera Zaragoza a Portugal (N-122) km 50",
+   "nombre": "Peaje Carretera Zaragoza a Portugal por Zamora (N-122) km 50",
    "tipo": "cabina",
-   "via": "Carretera Zaragoza a Portugal",
+   "via": "Carretera Zaragoza a Portugal por Zamora",
    "ref": "N-122",
    "km": "50",
    "localidad": "Gallur",
@@ -2450,12 +2450,12 @@
    "tipo": "cabina",
    "via": "Carretera Orduña-Bilbao",
    "ref": "BI-625",
-   "localidad": "Arakaldo",
+   "localidad": "Arrankudiaga",
    "fuente": "armado",
    "pais": "ES",
    "via_visible": "BI-625",
-   "punto": "Arakaldo",
-   "nombre_visible": "BI-625 - Peaje Arakaldo",
+   "punto": "Arrankudiaga",
+   "nombre_visible": "BI-625 - Peaje Arrankudiaga",
    "confianza": "media"
   },
   {
@@ -3331,6 +3331,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-29T23:21Z",
+ "generado": "2026-10-30T01:45Z",
  "alertas": []
 }
