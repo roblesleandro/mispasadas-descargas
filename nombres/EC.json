@@ -228,10 +228,9 @@
   {
    "lat": -2.2324,
    "lon": -79.640109,
-   "nombre": "Peaje E25 km 25",
+   "nombre": "Peaje E25",
    "tipo": "cabina",
    "ref": "E25",
-   "km": "25",
    "localidad": "Virgen de Fátima",
    "fuente": "armado",
    "pais": "EC",
@@ -243,11 +242,10 @@
   {
    "lat": -2.222304,
    "lon": -80.08973,
-   "nombre": "Peaje Vía a la Costa (E40) km 24",
+   "nombre": "Peaje Vía a la Costa (E40)",
    "tipo": "cabina",
    "via": "Vía a la Costa",
    "ref": "E40",
-   "km": "24",
    "localidad": "Chongón",
    "fuente": "armado",
    "pais": "EC",
@@ -386,11 +384,10 @@
   {
    "lat": -1.531832,
    "lon": -79.954264,
-   "nombre": "Peaje Vía Palestina - Balzar (E48) km 85",
+   "nombre": "Peaje Vía Palestina - Balzar (E48)",
    "tipo": "cabina",
    "via": "Vía Palestina - Balzar",
    "ref": "E48",
-   "km": "85",
    "localidad": "Colimes",
    "fuente": "armado",
    "pais": "EC",
@@ -431,15 +428,13 @@
   {
    "lat": -1.069051,
    "lon": -80.555534,
-   "nombre": "Peaje E30",
+   "nombre": "Peaje cerca de La Pila",
    "tipo": "cabina",
-   "ref": "E30",
    "localidad": "La Pila",
    "fuente": "armado",
    "pais": "EC",
-   "via_visible": "E30",
    "punto": "La Pila",
-   "nombre_visible": "E30 - Peaje La Pila",
+   "nombre_visible": "Peaje La Pila",
    "confianza": "media"
   },
   {
@@ -606,30 +601,27 @@
   {
    "lat": -0.182305,
    "lon": -78.487857,
-   "nombre": "Pórtico Avenida Atahualpa",
+   "nombre": "Pórtico cerca de Comuna Miraflores",
    "tipo": "portico",
-   "via": "Avenida Atahualpa",
    "localidad": "Comuna Miraflores",
    "fuente": "armado",
    "pais": "EC",
-   "via_visible": "Avenida Atahualpa",
    "punto": "Comuna Miraflores",
-   "nombre_visible": "Avenida Atahualpa - Pórtico Comuna Miraflores",
+   "nombre_visible": "Pórtico Comuna Miraflores",
    "confianza": "media"
   },
   {
    "lat": -0.151066,
    "lon": -78.493143,
-   "nombre": "Peaje Avenida Brasil",
+   "nombre": "Peaje cerca de Atucucho (2)",
    "tipo": "cabina",
-   "via": "Avenida Brasil",
    "localidad": "Atucucho",
    "fuente": "armado",
    "pais": "EC",
-   "via_visible": "Avenida Brasil",
    "punto": "Atucucho",
-   "nombre_visible": "Avenida Brasil - Peaje Atucucho",
-   "confianza": "media"
+   "nombre_visible": "Peaje Atucucho",
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": -0.145024,
@@ -648,16 +640,15 @@
   {
    "lat": -0.141709,
    "lon": -78.49552,
-   "nombre": "Peaje Machala",
+   "nombre": "Peaje cerca de Atucucho",
    "tipo": "cabina",
-   "via": "Machala",
    "localidad": "Atucucho",
    "fuente": "armado",
    "pais": "EC",
-   "via_visible": "Machala",
    "punto": "Atucucho",
-   "nombre_visible": "Machala - Peaje Atucucho",
-   "confianza": "media"
+   "nombre_visible": "Peaje Atucucho",
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": -0.125611,
@@ -825,6 +816,8 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-29T22:38Z",
- "alertas": []
+ "generado": "2026-10-30T01:05Z",
+ "alertas": [
+  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+ ]
 }
