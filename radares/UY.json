@@ -1,7 +1,7 @@
 {
  "version": "uy-2026-10-30",
  "pais": "UY",
- "generado": "2026-10-30T01:06:25+00:00",
+ "generado": "2026-10-30T03:28:52+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Intendencia de Montevideo: equipos de fiscalización fijos (montevideo.gub.uy/areas-tematicas/movilidad/fiscalizacion-de-infracciones/equipos-de-fiscalizacion-fijos). Su robots.txt no permite leerla con robots: cargar a mano o pedir el dato a la IM.",
@@ -24,7 +24,7 @@
   "limite_desconocido": 36,
   "revisados_esta_corrida": 0,
   "sin_via": 0,
-  "via_completada_esta_corrida": 150
+  "via_completada_esta_corrida": 0
  },
  "alertas": [],
  "radars": [
