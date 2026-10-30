@@ -1,7 +1,7 @@
 {
- "version": "cr-2026-10-29",
+ "version": "cr-2026-10-30",
  "pais": "CR",
- "generado": "2026-10-29T22:55:53+00:00",
+ "generado": "2026-10-30T01:40:00+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin listado oficial (COSEVI)."
@@ -19,7 +19,9 @@
   "con_limite": 2,
   "limite_revisar": 0,
   "limite_desconocido": 0,
-  "revisados_esta_corrida": 2
+  "revisados_esta_corrida": 0,
+  "sin_via": 0,
+  "via_completada_esta_corrida": 0
  },
  "alertas": [],
  "radars": [
@@ -32,14 +34,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1234896046",
-   "source_version": "cr-2026-10-29",
+   "source_version": "cr-2026-10-30",
    "confidence_score": 50,
-   "speed_limit_checked": "2026-10-29",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Carretera Pacífica Fernández Oreamuno",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
-   "road_label": "Carretera Pacífica Fernández Oreamuno",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-10-29",
    "display_name": "Carretera Pacífica Fernández Oreamuno - Radar",
    "country": "CR"
   },
@@ -52,14 +54,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12327820501",
-   "source_version": "cr-2026-10-29",
+   "source_version": "cr-2026-10-30",
    "confidence_score": 50,
-   "speed_limit_checked": "2026-10-29",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "Ruta 126",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
-   "road_label": "Ruta 126",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-10-29",
    "display_name": "Ruta 126 - Cámara de tránsito",
    "country": "CR"
   }
