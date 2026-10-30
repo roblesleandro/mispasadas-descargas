@@ -5,8 +5,8 @@
  "resumen": {
   "oficial": 0,
   "osm": 9,
-  "armado": 12,
-  "total": 21,
+  "armado": 11,
+  "total": 20,
   "confianza_baja": 0,
   "excluidas": 1
  },
@@ -182,8 +182,8 @@
    "confianza": "media"
   },
   {
-   "lat": 18.567227,
-   "lon": -70.086938,
+   "lat": 18.567218,
+   "lon": -70.086955,
    "nombre": "Peaje Autopista Duarte (RD-1)",
    "tipo": "cabina",
    "via": "Autopista Duarte",
@@ -194,8 +194,7 @@
    "via_visible": "Autopista Duarte",
    "punto": "Pedro Brand",
    "nombre_visible": "Autopista Duarte - Peaje Pedro Brand",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "confianza": "media"
   },
   {
    "lat": 18.568355,
@@ -213,8 +212,8 @@
    "confianza": "media"
   },
   {
-   "lat": 18.572212,
-   "lon": -69.780194,
+   "lat": 18.572142,
+   "lon": -69.780117,
    "nombre": "Peaje El Cabreto",
    "tipo": "cabina",
    "via": "Circunvalación de Santo Domingo",
@@ -238,22 +237,6 @@
    "punto": "Naranjal",
    "nombre_visible": "Autopista del Nordeste - Peaje Naranjal",
    "confianza": "alta"
-  },
-  {
-   "lat": 18.584849,
-   "lon": -70.117415,
-   "nombre": "Peaje Autopista Duarte (RD-1) (2)",
-   "tipo": "cabina",
-   "via": "Autopista Duarte",
-   "ref": "RD-1",
-   "localidad": "Pedro Brand",
-   "fuente": "armado",
-   "pais": "DO",
-   "via_visible": "Autopista Duarte",
-   "punto": "Pedro Brand",
-   "nombre_visible": "Autopista Duarte - Peaje Pedro Brand",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": 18.590176,
@@ -323,6 +306,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-29T22:45Z",
+ "generado": "2026-10-30T01:11Z",
  "alertas": []
 }
