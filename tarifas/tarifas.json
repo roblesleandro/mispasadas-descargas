@@ -1069,7 +1069,7 @@
      }
     }
    },
-   "desactualizado": true
+   "desactualizado": false
   },
   "AUMESA": {
    "nombre": "Autovía del Mercosur (RN 12 y 14)",
@@ -2137,73 +2137,6844 @@
    "desactualizado": false
   },
   "CVU": {
-   "nombre": "Uruguay – rutas nacionales (Corporación Vial del Uruguay)",
-   "fuente": "https://www.montevideo.com.uy/Noticias/Subieron-los-peajes-en-rutas-nacionales--en-cuanto-quedo-la-tarifa-basica--uc964243",
-   "automatico": false,
-   "vigencia": "1 de junio de 2026",
+   "nombre": "Uruguay – rutas nacionales (MTOP)",
+   "fuente": "https://www.gub.uy/ministerio-transporte-obras-publicas/politicas-y-gestion/tarifas",
+   "automatico": true,
    "moneda": "UYU",
    "pico": {
     "habiles": [],
     "finde": []
    },
-   "nota": "Tarifas en pesos uruguayos con IVA. Con TAG de Telepeaje se paga menos; sin TAG se cobra por matrícula con SUCIVE. Se actualizan el 1 de junio y el 1 de diciembre.",
+   "nota": "Tarifas del MTOP con IVA: con TAG (Telepeaje) y sin TAG (SUCIVE). La básica sin TAG es $196.57 para autos. Se actualizan el 1 de junio y el 1 de diciembre.",
+   "categorias_oficiales": {
+    "1": {
+     "basica": 196.57,
+     "telepeaje": 167.0,
+     "sucive": 214.0
+    },
+    "2": {
+     "basica": 196.57,
+     "telepeaje": 167.0,
+     "sucive": 214.0
+    },
+    "3": {
+     "basica": 258.5,
+     "telepeaje": 220.0,
+     "sucive": 282.0
+    },
+    "4": {
+     "basica": 258.5,
+     "telepeaje": 220.0,
+     "sucive": 282.0
+    },
+    "5": {
+     "basica": 258.5,
+     "telepeaje": 220.0,
+     "sucive": 282.0
+    },
+    "6": {
+     "basica": 527.78,
+     "telepeaje": 449.0,
+     "sucive": 575.0
+    },
+    "7": {
+     "basica": 883.22,
+     "telepeaje": 751.0,
+     "sucive": 963.0
+    }
+   },
    "tramos": {
     "Uruguay": {
      "telepase": {
       "auto": [
-       167,
-       167
+       167.0,
+       167.0
       ],
       "remolque": [
-       220,
-       220
+       220.0,
+       220.0
       ],
       "pesado2": [
-       220,
-       220
+       220.0,
+       220.0
       ],
       "pesado3": [
-       220,
-       220
+       220.0,
+       220.0
       ],
       "pesado4": [
-       449,
-       449
+       449.0,
+       449.0
       ],
       "pesado5": [
-       449,
-       449
+       449.0,
+       449.0
       ]
      },
      "manual": {
       "auto": [
-       214,
-       214
+       214.0,
+       214.0
       ],
       "remolque": [
-       282,
-       282
+       282.0,
+       282.0
       ],
       "pesado2": [
-       282,
-       282
+       282.0,
+       282.0
       ],
       "pesado3": [
-       282,
-       282
+       282.0,
+       282.0
       ],
       "pesado4": [
-       527.78,
-       527.78
+       575.0,
+       575.0
       ],
       "pesado5": [
-       527.78,
-       527.78
+       575.0,
+       575.0
       ]
      }
     }
    },
-   "desactualizado": false
+   "pais": "UY"
+  },
+  "CL-RUTA-INTERPORTUARIA": {
+   "nombre": "Ruta Interportuaria",
+   "fuente": "https://concesiones.mop.gob.cl/uploads/sites/4/2026/01/INTERPORTUARIA.pdf",
+   "automatico": true,
+   "moneda": "CLP",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "Dirección General de Concesiones (MOP). Columnas del PDF: Columna 1, Columna 1. Horario punta: ver el PDF (la app usa la tarifa normal).",
+   "tramos": {
+    "Columna 1": {
+     "telepase": {
+      "auto": [
+       1750.0,
+       1750.0
+      ],
+      "pesado2": [
+       3200.0,
+       3200.0
+      ]
+     },
+     "manual": {
+      "auto": [
+       1750.0,
+       1750.0
+      ],
+      "pesado2": [
+       3200.0,
+       3200.0
+      ]
+     }
+    }
+   },
+   "pais": "CL"
+  },
+  "CO-INVIAS": {
+   "nombre": "INVÍAS (peajes del Instituto Nacional de Vías)",
+   "fuente": "https://www.datos.gov.co/resource/68qj-5xux.json",
+   "automatico": true,
+   "moneda": "COP",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "Tarifa por categoría oficial; «auto» = categoría I.",
+   "tramos": {
+    "Río Frío": {
+     "categorias_oficiales": {
+      "I": 12800,
+      "II": 13700,
+      "III": 29300,
+      "IV": 37200,
+      "V": 41800
+     },
+     "telepase": {
+      "auto": [
+       12800,
+       12800
+      ]
+     },
+     "manual": {
+      "auto": [
+       12800,
+       12800
+      ]
+     }
+    },
+    "San Clemente": {
+     "categorias_oficiales": {
+      "I": 12800,
+      "II": 13700,
+      "III": 29300,
+      "IV": 37200,
+      "V": 41800
+     },
+     "telepase": {
+      "auto": [
+       12800,
+       12800
+      ]
+     },
+     "manual": {
+      "auto": [
+       12800,
+       12800
+      ]
+     }
+    },
+    "Los Curos": {
+     "categorias_oficiales": {
+      "I": 12700,
+      "II": 13600,
+      "III": 35200,
+      "IV": 43600,
+      "V": 51100
+     },
+     "telepase": {
+      "auto": [
+       12700,
+       12700
+      ]
+     },
+     "manual": {
+      "auto": [
+       12700,
+       12700
+      ]
+     }
+    },
+    "Casablanca": {
+     "categorias_oficiales": {
+      "I": 12700,
+      "II": 13600,
+      "III": 35200,
+      "IV": 43600,
+      "V": 51100
+     },
+     "telepase": {
+      "auto": [
+       12700,
+       12700
+      ]
+     },
+     "manual": {
+      "auto": [
+       12700,
+       12700
+      ]
+     }
+    },
+    "Sáchica": {
+     "categorias_oficiales": {
+      "I": 12800,
+      "II": 13700,
+      "III": 29300,
+      "IV": 37200,
+      "V": 41800
+     },
+     "telepase": {
+      "auto": [
+       12800,
+       12800
+      ]
+     },
+     "manual": {
+      "auto": [
+       12800,
+       12800
+      ]
+     }
+    },
+    "Arcabuco": {
+     "categorias_oficiales": {
+      "I": 12800,
+      "II": 13700,
+      "III": 29300,
+      "IV": 37200,
+      "V": 41800
+     },
+     "telepase": {
+      "auto": [
+       12800,
+       12800
+      ]
+     },
+     "manual": {
+      "auto": [
+       12800,
+       12800
+      ]
+     }
+    },
+    "El Crucero": {
+     "categorias_oficiales": {
+      "I": 12800,
+      "II": 13700,
+      "III": 29300,
+      "IV": 37200,
+      "V": 41800
+     },
+     "telepase": {
+      "auto": [
+       12800,
+       12800
+      ]
+     },
+     "manual": {
+      "auto": [
+       12800,
+       12800
+      ]
+     }
+    },
+    "Curití": {
+     "categorias_oficiales": {
+      "I": 12700,
+      "II": 13600,
+      "III": 35200,
+      "IV": 43600,
+      "V": 51100
+     },
+     "telepase": {
+      "auto": [
+       12700,
+       12700
+      ]
+     },
+     "manual": {
+      "auto": [
+       12700,
+       12700
+      ]
+     }
+    },
+    "Oiba": {
+     "categorias_oficiales": {
+      "I": 12700,
+      "II": 13600,
+      "III": 35200,
+      "IV": 43600,
+      "V": 51100
+     },
+     "telepase": {
+      "auto": [
+       12700,
+       12700
+      ]
+     },
+     "manual": {
+      "auto": [
+       12700,
+       12700
+      ]
+     }
+    },
+    "Cocorná": {
+     "categorias_oficiales": {
+      "I": 18800,
+      "II": 29300,
+      "III": 25600,
+      "IV": 31800,
+      "V": 63700,
+      "VI": 90600,
+      "VII": 90600
+     },
+     "telepase": {
+      "auto": [
+       18800,
+       18800
+      ]
+     },
+     "manual": {
+      "auto": [
+       18800,
+       18800
+      ]
+     }
+    },
+    "Puerto Triunfo": {
+     "categorias_oficiales": {
+      "I": 18800,
+      "II": 29300,
+      "III": 25600,
+      "IV": 31800,
+      "V": 63700,
+      "VI": 90600,
+      "VII": 90600
+     },
+     "telepase": {
+      "auto": [
+       18800,
+       18800
+      ]
+     },
+     "manual": {
+      "auto": [
+       18800,
+       18800
+      ]
+     }
+    },
+    "Saboyá": {
+     "categorias_oficiales": {
+      "I": 12700,
+      "II": 13600,
+      "III": 35200,
+      "IV": 43600,
+      "V": 51100
+     },
+     "telepase": {
+      "auto": [
+       12700,
+       12700
+      ]
+     },
+     "manual": {
+      "auto": [
+       12700,
+       12700
+      ]
+     }
+    },
+    "Bicentenario": {
+     "categorias_oficiales": {
+      "I": 13700,
+      "II": 17900,
+      "III": 41600,
+      "IV": 50400,
+      "V": 58500
+     },
+     "telepase": {
+      "auto": [
+       13700,
+       13700
+      ]
+     },
+     "manual": {
+      "auto": [
+       13700,
+       13700
+      ]
+     }
+    },
+    "EL PLACER": {
+     "categorias_oficiales": {
+      "I": 14200,
+      "II": 17200,
+      "III": 33600,
+      "IV": 42000,
+      "V": 45300
+     },
+     "telepase": {
+      "auto": [
+       14200,
+       14200
+      ]
+     },
+     "manual": {
+      "auto": [
+       14200,
+       14200
+      ]
+     }
+    },
+    "ZARAGOZA": {
+     "categorias_oficiales": {
+      "I": 15900,
+      "II": 19700,
+      "III": 19700,
+      "IV": 19700,
+      "V": 46700,
+      "VI": 58600,
+      "VII": 67500
+     },
+     "telepase": {
+      "auto": [
+       15900,
+       15900
+      ]
+     },
+     "manual": {
+      "auto": [
+       15900,
+       15900
+      ]
+     }
+    },
+    "Cerritos II": {
+     "categorias_oficiales": {
+      "I": 18700,
+      "II": 21200,
+      "III": 52100,
+      "IV": 68100,
+      "V": 78000
+     },
+     "telepase": {
+      "auto": [
+       18700,
+       18700
+      ]
+     },
+     "manual": {
+      "auto": [
+       18700,
+       18700
+      ]
+     }
+    },
+    "Toro": {
+     "categorias_oficiales": {
+      "I": 12800,
+      "II": 13700,
+      "III": 29300,
+      "IV": 37200,
+      "V": 41800
+     },
+     "telepase": {
+      "auto": [
+       12800,
+       12800
+      ]
+     },
+     "manual": {
+      "auto": [
+       12800,
+       12800
+      ]
+     }
+    },
+    "Cano": {
+     "categorias_oficiales": {
+      "I": 15600,
+      "II": 16600,
+      "III": 33900,
+      "IV": 44600,
+      "V": 51400
+     },
+     "telepase": {
+      "auto": [
+       15600,
+       15600
+      ]
+     },
+     "manual": {
+      "auto": [
+       15600,
+       15600
+      ]
+     }
+    },
+    "El Bordo": {
+     "categorias_oficiales": {
+      "I": 13000,
+      "II": 14600,
+      "III": 29800,
+      "IV": 37900,
+      "V": 42900
+     },
+     "telepase": {
+      "auto": [
+       13000,
+       13000
+      ]
+     },
+     "manual": {
+      "auto": [
+       13000,
+       13000
+      ]
+     }
+    },
+    "LA PARADA": {
+     "categorias_oficiales": {
+      "I": 2700,
+      "II": 2700,
+      "III": 2700,
+      "IV": 2700,
+      "V": 2700
+     },
+     "telepase": {
+      "auto": [
+       2700,
+       2700
+      ]
+     },
+     "manual": {
+      "auto": [
+       2700,
+       2700
+      ]
+     }
+    },
+    "Platanal": {
+     "categorias_oficiales": {
+      "I": 12400,
+      "II": 13700,
+      "III": 28800,
+      "IV": 36600,
+      "V": 41800
+     },
+     "telepase": {
+      "auto": [
+       12400,
+       12400
+      ]
+     },
+     "manual": {
+      "auto": [
+       12400,
+       12400
+      ]
+     }
+    },
+    "Río Blanco": {
+     "categorias_oficiales": {
+      "I": 13000,
+      "II": 14600,
+      "III": 29800,
+      "IV": 37900,
+      "V": 42900
+     },
+     "telepase": {
+      "auto": [
+       13000,
+       13000
+      ]
+     },
+     "manual": {
+      "auto": [
+       13000,
+       13000
+      ]
+     }
+    },
+    "Los Llanos": {
+     "categorias_oficiales": {
+      "I": 13000,
+      "II": 14600,
+      "III": 29800,
+      "IV": 37900,
+      "V": 42900
+     },
+     "telepase": {
+      "auto": [
+       13000,
+       13000
+      ]
+     },
+     "manual": {
+      "auto": [
+       13000,
+       13000
+      ]
+     }
+    },
+    "Tarazá": {
+     "categorias_oficiales": {
+      "I": 13000,
+      "II": 14600,
+      "III": 29800,
+      "IV": 37900,
+      "V": 42900
+     },
+     "telepase": {
+      "auto": [
+       13000,
+       13000
+      ]
+     },
+     "manual": {
+      "auto": [
+       13000,
+       13000
+      ]
+     }
+    },
+    "Carimagua": {
+     "categorias_oficiales": {
+      "I": 18600,
+      "II": 26600,
+      "III": 26600,
+      "IV": 26600,
+      "V": 48200,
+      "VI": 76500,
+      "VII": 88400
+     },
+     "telepase": {
+      "auto": [
+       18600,
+       18600
+      ]
+     },
+     "manual": {
+      "auto": [
+       18600,
+       18600
+      ]
+     }
+    },
+    "Rincón Hondo": {
+     "categorias_oficiales": {
+      "I": 14700,
+      "II": 15600,
+      "III": 16800,
+      "IV": 17800,
+      "V": 19100,
+      "VI": 54500,
+      "VII": 62500
+     },
+     "telepase": {
+      "auto": [
+       14700,
+       14700
+      ]
+     },
+     "manual": {
+      "auto": [
+       14700,
+       14700
+      ]
+     }
+    },
+    "San Diego": {
+     "categorias_oficiales": {
+      "I": 7400,
+      "II": 8000,
+      "III": 8600,
+      "IV": 9200,
+      "V": 19000,
+      "VI": 54500,
+      "VII": 61900
+     },
+     "telepase": {
+      "auto": [
+       7400,
+       7400
+      ]
+     },
+     "manual": {
+      "auto": [
+       7400,
+       7400
+      ]
+     }
+    },
+    "San Juan": {
+     "categorias_oficiales": {
+      "II": 14700,
+      "III": 30000,
+      "IV": 38000,
+      "V": 43000
+     }
+    },
+    "SUPIA": {
+     "categorias_oficiales": {
+      "I": 10500,
+      "II": 11400,
+      "III": 24200,
+      "IV": 30800,
+      "V": 34700
+     },
+     "telepase": {
+      "auto": [
+       10500,
+       10500
+      ]
+     },
+     "manual": {
+      "auto": [
+       10500,
+       10500
+      ]
+     }
+    },
+    "GUAICO": {
+     "categorias_oficiales": {
+      "I": 21000,
+      "II": 26100,
+      "III": 26100,
+      "IV": 26100,
+      "V": 61400,
+      "VI": 77500,
+      "VII": 89100
+     },
+     "telepase": {
+      "auto": [
+       21000,
+       21000
+      ]
+     },
+     "manual": {
+      "auto": [
+       21000,
+       21000
+      ]
+     }
+    },
+    "ARMERO": {
+     "categorias_oficiales": {
+      "I": 13700,
+      "II": 14800,
+      "III": 15200,
+      "IV": 15800,
+      "V": 33600,
+      "VI": 45900,
+      "VII": 63500
+     },
+     "telepase": {
+      "auto": [
+       13700,
+       13700
+      ]
+     },
+     "manual": {
+      "auto": [
+       13700,
+       13700
+      ]
+     }
+    },
+    "IRRA": {
+     "categorias_oficiales": {
+      "I": 14600,
+      "II": 18000,
+      "III": 18000,
+      "IV": 18000,
+      "V": 42800,
+      "VI": 53700,
+      "VII": 61800
+     },
+     "telepase": {
+      "auto": [
+       14600,
+       14600
+      ]
+     },
+     "manual": {
+      "auto": [
+       14600,
+       14600
+      ]
+     }
+    },
+    "GALAPA 02": {
+     "categorias_oficiales": {
+      "I": 8300,
+      "II": 12300,
+      "III": 9000,
+      "IV": 15400,
+      "V": 47600,
+      "VI": 63300,
+      "VII": 70200
+     },
+     "telepase": {
+      "auto": [
+       8300,
+       8300
+      ]
+     },
+     "manual": {
+      "auto": [
+       8300,
+       8300
+      ]
+     }
+    },
+    "COCORA": {
+     "categorias_oficiales": {
+      "I": 14200,
+      "II": 15500,
+      "III": 35900,
+      "IV": 47800,
+      "V": 52800
+     },
+     "telepase": {
+      "auto": [
+       14200,
+       14200
+      ]
+     },
+     "manual": {
+      "auto": [
+       14200,
+       14200
+      ]
+     }
+    },
+    "LA LIZAMA": {
+     "categorias_oficiales": {
+      "I": 16700,
+      "II": 20400,
+      "III": 25400,
+      "IV": 32100,
+      "V": 48700,
+      "VI": 60800,
+      "VII": 70300
+     },
+     "telepase": {
+      "auto": [
+       16700,
+       16700
+      ]
+     },
+     "manual": {
+      "auto": [
+       16700,
+       16700
+      ]
+     }
+    },
+    "CIRILO": {
+     "categorias_oficiales": {
+      "I": 12100,
+      "II": 13500,
+      "III": 13500,
+      "IV": 13500,
+      "V": 27500,
+      "VI": 35400,
+      "VII": 39700
+     },
+     "telepase": {
+      "auto": [
+       12100,
+       12100
+      ]
+     },
+     "manual": {
+      "auto": [
+       12100,
+       12100
+      ]
+     }
+    },
+    "JUAN MINA": {
+     "categorias_oficiales": {
+      "I": 8300,
+      "II": 12300,
+      "III": 9000,
+      "IV": 15400,
+      "V": 47600,
+      "VI": 63300,
+      "VII": 70200
+     },
+     "telepase": {
+      "auto": [
+       8300,
+       8300
+      ]
+     },
+     "manual": {
+      "auto": [
+       8300,
+       8300
+      ]
+     }
+    },
+    "Sopó": {
+     "categorias_oficiales": {
+      "I": 14800,
+      "II": 23100,
+      "III": 38800,
+      "IV": 57300,
+      "V": 78000,
+      "VI": 78800
+     },
+     "telepase": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "manual": {
+      "auto": [
+       14800,
+       14800
+      ]
+     }
+    },
+    "BRISAS": {
+     "categorias_oficiales": {
+      "I": 6400,
+      "II": 20500,
+      "III": 28000,
+      "IV": 37400,
+      "V": 53200,
+      "VI": 85600,
+      "VII": 97900
+     },
+     "telepase": {
+      "auto": [
+       6400,
+       6400
+      ]
+     },
+     "manual": {
+      "auto": [
+       6400,
+       6400
+      ]
+     }
+    },
+    "LEBRIJA": {
+     "categorias_oficiales": {
+      "I": 7200,
+      "II": 8200,
+      "III": 19600,
+      "IV": 26000,
+      "V": 29800
+     },
+     "telepase": {
+      "auto": [
+       7200,
+       7200
+      ]
+     },
+     "manual": {
+      "auto": [
+       7200,
+       7200
+      ]
+     }
+    },
+    "RÍONEGRO": {
+     "categorias_oficiales": {
+      "I": 7200,
+      "II": 8200,
+      "III": 19600,
+      "IV": 26000,
+      "V": 29800
+     },
+     "telepase": {
+      "auto": [
+       7200,
+       7200
+      ]
+     },
+     "manual": {
+      "auto": [
+       7200,
+       7200
+      ]
+     }
+    },
+    "SAN CARLOS": {
+     "categorias_oficiales": {
+      "I": 15800,
+      "II": 23200,
+      "III": 23200,
+      "IV": 23200,
+      "V": 24700,
+      "VI": 36000,
+      "VII": 36100
+     },
+     "telepase": {
+      "auto": [
+       15800,
+       15800
+      ]
+     },
+     "manual": {
+      "auto": [
+       15800,
+       15800
+      ]
+     }
+    },
+    "GUATAQUÍ": {
+     "categorias_oficiales": {
+      "I": 12800,
+      "II": 17800,
+      "III": 24400,
+      "IV": 32600,
+      "V": 46100,
+      "VI": 74600,
+      "VII": 85200
+     },
+     "telepase": {
+      "auto": [
+       12800,
+       12800
+      ]
+     },
+     "manual": {
+      "auto": [
+       12800,
+       12800
+      ]
+     }
+    },
+    "ROZO": {
+     "categorias_oficiales": {
+      "I": 11000,
+      "II": 13300,
+      "III": 35300,
+      "IV": 46000,
+      "V": 53000
+     },
+     "telepase": {
+      "auto": [
+       11000,
+       11000
+      ]
+     },
+     "manual": {
+      "auto": [
+       11000,
+       11000
+      ]
+     }
+    },
+    "VILLARICA": {
+     "categorias_oficiales": {
+      "I": 11000,
+      "II": 13300,
+      "III": 35300,
+      "IV": 46000,
+      "V": 53000
+     },
+     "telepase": {
+      "auto": [
+       11000,
+       11000
+      ]
+     },
+     "manual": {
+      "auto": [
+       11000,
+       11000
+      ]
+     }
+    },
+    "MEDIACANOA": {
+     "categorias_oficiales": {
+      "I": 11000,
+      "II": 13300,
+      "III": 35300,
+      "IV": 46000,
+      "V": 53000
+     },
+     "telepase": {
+      "auto": [
+       11000,
+       11000
+      ]
+     },
+     "manual": {
+      "auto": [
+       11000,
+       11000
+      ]
+     }
+    },
+    "CERRITO": {
+     "categorias_oficiales": {
+      "I": 11000,
+      "II": 13300,
+      "III": 35300,
+      "IV": 46000,
+      "V": 53000
+     },
+     "telepase": {
+      "auto": [
+       11000,
+       11000
+      ]
+     },
+     "manual": {
+      "auto": [
+       11000,
+       11000
+      ]
+     }
+    },
+    "CENCAR": {
+     "categorias_oficiales": {
+      "I": 11000,
+      "II": 13300,
+      "III": 35300,
+      "IV": 46000,
+      "V": 53000
+     },
+     "telepase": {
+      "auto": [
+       11000,
+       11000
+      ]
+     },
+     "manual": {
+      "auto": [
+       11000,
+       11000
+      ]
+     }
+    },
+    "PASO DE LA TORRE": {
+     "categorias_oficiales": {
+      "I": 11000,
+      "II": 13300,
+      "III": 35300,
+      "IV": 46000,
+      "V": 53000
+     },
+     "telepase": {
+      "auto": [
+       11000,
+       11000
+      ]
+     },
+     "manual": {
+      "auto": [
+       11000,
+       11000
+      ]
+     }
+    },
+    "CIAT": {
+     "categorias_oficiales": {
+      "I": 11100,
+      "II": 13400,
+      "III": 35800,
+      "IV": 46100,
+      "V": 53100
+     },
+     "telepase": {
+      "auto": [
+       11100,
+       11100
+      ]
+     },
+     "manual": {
+      "auto": [
+       11100,
+       11100
+      ]
+     }
+    },
+    "ESTAMBUL": {
+     "categorias_oficiales": {
+      "I": 11100,
+      "II": 13400,
+      "III": 35800,
+      "IV": 46100,
+      "V": 53100
+     },
+     "telepase": {
+      "auto": [
+       11100,
+       11100
+      ]
+     },
+     "manual": {
+      "auto": [
+       11100,
+       11100
+      ]
+     }
+    },
+    "CORREDOR PORTUARIO": {
+     "categorias_oficiales": {
+      "I": 6400,
+      "II": 7100,
+      "IV": 20000,
+      "V": 22200
+     },
+     "telepase": {
+      "auto": [
+       6400,
+       6400
+      ]
+     },
+     "manual": {
+      "auto": [
+       6400,
+       6400
+      ]
+     }
+    },
+    "Pasacaballos": {
+     "categorias_oficiales": {
+      "I": 12800,
+      "II": 13700,
+      "III": 29300,
+      "IV": 37900,
+      "V": 44100,
+      "VI": 44100,
+      "VII": 44100
+     },
+     "telepase": {
+      "auto": [
+       12800,
+       12800
+      ]
+     },
+     "manual": {
+      "auto": [
+       12800,
+       12800
+      ]
+     }
+    },
+    "Los Garzones II": {
+     "categorias_oficiales": {
+      "I": 6400,
+      "II": 16400,
+      "III": 25400,
+      "IV": 32200,
+      "V": 36800
+     },
+     "telepase": {
+      "auto": [
+       6400,
+       6400
+      ]
+     },
+     "manual": {
+      "auto": [
+       6400,
+       6400
+      ]
+     }
+    },
+    "NARANJAL": {
+     "categorias_oficiales": {
+      "I": 14100,
+      "II": 36500,
+      "III": 27500,
+      "IV": 53900,
+      "V": 62700,
+      "VI": 72300,
+      "VII": 80300
+     },
+     "telepase": {
+      "auto": [
+       14100,
+       14100
+      ]
+     },
+     "manual": {
+      "auto": [
+       14100,
+       14100
+      ]
+     }
+    },
+    "MORRISON": {
+     "categorias_oficiales": {
+      "I": 12300,
+      "II": 13300,
+      "III": 27300,
+      "IV": 34800,
+      "V": 39500
+     },
+     "telepase": {
+      "auto": [
+       12300,
+       12300
+      ]
+     },
+     "manual": {
+      "auto": [
+       12300,
+       12300
+      ]
+     }
+    },
+    "CHINAUTA": {
+     "categorias_oficiales": {
+      "I": 13300,
+      "II": 14900,
+      "III": 31500,
+      "IV": 51100,
+      "V": 58600
+     },
+     "telepase": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "manual": {
+      "auto": [
+       13300,
+       13300
+      ]
+     }
+    },
+    "LA URIBE": {
+     "categorias_oficiales": {
+      "I": 8400,
+      "II": 10800,
+      "III": 25300,
+      "IV": 34300,
+      "V": 38000
+     },
+     "telepase": {
+      "auto": [
+       8400,
+       8400
+      ]
+     },
+     "manual": {
+      "auto": [
+       8400,
+       8400
+      ]
+     }
+    },
+    "CAMBAO": {
+     "categorias_oficiales": {
+      "I": 12800,
+      "II": 17800,
+      "III": 24400,
+      "IV": 32600,
+      "V": 46100,
+      "VI": 74600,
+      "VII": 85200
+     },
+     "telepase": {
+      "auto": [
+       12800,
+       12800
+      ]
+     },
+     "manual": {
+      "auto": [
+       12800,
+       12800
+      ]
+     }
+    },
+    "ALVARADO": {
+     "categorias_oficiales": {
+      "I": 13700,
+      "II": 14600,
+      "III": 15200,
+      "IV": 15900,
+      "V": 33500,
+      "VI": 45900,
+      "VII": 49700
+     },
+     "telepase": {
+      "auto": [
+       13700,
+       13700
+      ]
+     },
+     "manual": {
+      "auto": [
+       13700,
+       13700
+      ]
+     }
+    },
+    "LOBOGUERRERO": {
+     "categorias_oficiales": {
+      "I": 10300,
+      "II": 11500,
+      "III": 27400,
+      "IV": 35900,
+      "V": 40700
+     },
+     "telepase": {
+      "auto": [
+       10300,
+       10300
+      ]
+     },
+     "manual": {
+      "auto": [
+       10300,
+       10300
+      ]
+     }
+    },
+    "MANGUITOS": {
+     "categorias_oficiales": {
+      "I": 16100,
+      "II": 23700,
+      "III": 23700,
+      "IV": 23700,
+      "V": 42700,
+      "VI": 67800,
+      "VII": 78000
+     },
+     "telepase": {
+      "auto": [
+       16100,
+       16100
+      ]
+     },
+     "manual": {
+      "auto": [
+       16100,
+       16100
+      ]
+     }
+    },
+    "Río Bogotá": {
+     "categorias_oficiales": {
+      "I": 12400,
+      "II": 18500,
+      "III": 16200,
+      "IV": 21300,
+      "V": 36200,
+      "VI": 48800,
+      "VII": 52800
+     },
+     "telepase": {
+      "auto": [
+       12400,
+       12400
+      ]
+     },
+     "manual": {
+      "auto": [
+       12400,
+       12400
+      ]
+     }
+    },
+    "BOQUERÓN II": {
+     "categorias_oficiales": {
+      "I": 16500,
+      "II": 48500,
+      "III": 24500,
+      "IV": 64100,
+      "V": 72300,
+      "VI": 80300,
+      "VII": 96200
+     },
+     "telepase": {
+      "auto": [
+       16500,
+       16500
+      ]
+     },
+     "manual": {
+      "auto": [
+       16500,
+       16500
+      ]
+     }
+    },
+    "IRACÁ": {
+     "categorias_oficiales": {
+      "I": 13100,
+      "II": 25300,
+      "III": 19200,
+      "IV": 33100,
+      "V": 48800,
+      "VI": 64500,
+      "VII": 70100
+     },
+     "telepase": {
+      "auto": [
+       13100,
+       13100
+      ]
+     },
+     "manual": {
+      "auto": [
+       13100,
+       13100
+      ]
+     }
+    },
+    "Los Garzones I": {
+     "categorias_oficiales": {
+      "I": 6400,
+      "II": 16400,
+      "III": 25400,
+      "IV": 32200,
+      "V": 36800
+     },
+     "telepase": {
+      "auto": [
+       6400,
+       6400
+      ]
+     },
+     "manual": {
+      "auto": [
+       6400,
+       6400
+      ]
+     }
+    },
+    "El Picacho": {
+     "categorias_oficiales": {
+      "I": 13000,
+      "II": 14600,
+      "III": 29800,
+      "IV": 38000,
+      "V": 42800
+     },
+     "telepase": {
+      "auto": [
+       13000,
+       13000
+      ]
+     },
+     "manual": {
+      "auto": [
+       13000,
+       13000
+      ]
+     }
+    },
+    "EL CORZO": {
+     "categorias_oficiales": {
+      "I": 11800,
+      "II": 17600,
+      "III": 15400,
+      "IV": 20300,
+      "V": 34400,
+      "VI": 46400,
+      "VII": 50200
+     },
+     "telepase": {
+      "auto": [
+       11800,
+       11800
+      ]
+     },
+     "manual": {
+      "auto": [
+       11800,
+       11800
+      ]
+     }
+    },
+    "NIQUÍA": {
+     "categorias_oficiales": {
+      "I": 2500,
+      "II": 2500,
+      "III": 3200,
+      "IV": 3400,
+      "V": 3400,
+      "VI": 3400,
+      "VII": 3400
+     },
+     "telepase": {
+      "auto": [
+       2500,
+       2500
+      ]
+     },
+     "manual": {
+      "auto": [
+       2500,
+       2500
+      ]
+     }
+    },
+    "PARAGUACHÓN": {
+     "categorias_oficiales": {
+      "I": 12300,
+      "II": 19000,
+      "III": 15300,
+      "IV": 24100,
+      "V": 35200,
+      "VI": 56600,
+      "VII": 71400
+     },
+     "telepase": {
+      "auto": [
+       12300,
+       12300
+      ]
+     },
+     "manual": {
+      "auto": [
+       12300,
+       12300
+      ]
+     }
+    },
+    "GUAYABAL": {
+     "categorias_oficiales": {
+      "I": 12400,
+      "II": 16800,
+      "III": 14100,
+      "IV": 19600,
+      "V": 35300,
+      "VI": 45700,
+      "VII": 55000
+     },
+     "telepase": {
+      "auto": [
+       12400,
+       12400
+      ]
+     },
+     "manual": {
+      "auto": [
+       12400,
+       12400
+      ]
+     }
+    },
+    "CISNEROS": {
+     "categorias_oficiales": {
+      "I": 18000,
+      "II": 21900,
+      "III": 21900,
+      "IV": 21900,
+      "V": 49000,
+      "VI": 63700,
+      "VII": 71400
+     },
+     "telepase": {
+      "auto": [
+       18000,
+       18000
+      ]
+     },
+     "manual": {
+      "auto": [
+       18000,
+       18000
+      ]
+     }
+    },
+    "PAVAS (TRINIDAD I)": {
+     "categorias_oficiales": {
+      "I": 14600,
+      "II": 17500,
+      "III": 17500,
+      "IV": 17500,
+      "V": 42600,
+      "VI": 53200,
+      "VII": 61600
+     },
+     "telepase": {
+      "auto": [
+       14600,
+       14600
+      ]
+     },
+     "manual": {
+      "auto": [
+       14600,
+       14600
+      ]
+     }
+    },
+    "SAN PEDRO": {
+     "categorias_oficiales": {
+      "I": 10500,
+      "II": 11700,
+      "III": 13500,
+      "IV": 18200,
+      "V": 39200,
+      "VI": 51000,
+      "VII": 58900
+     },
+     "telepase": {
+      "auto": [
+       10500,
+       10500
+      ]
+     },
+     "manual": {
+      "auto": [
+       10500,
+       10500
+      ]
+     }
+    },
+    "PUERTO BERRÍO": {
+     "categorias_oficiales": {
+      "I": 10900,
+      "II": 12100,
+      "III": 12100,
+      "IV": 12100,
+      "V": 24800,
+      "VI": 31500,
+      "VII": 35500
+     },
+     "telepase": {
+      "auto": [
+       10900,
+       10900
+      ]
+     },
+     "manual": {
+      "auto": [
+       10900,
+       10900
+      ]
+     }
+    },
+    "ANDES": {
+     "categorias_oficiales": {
+      "I": 11100,
+      "II": 19200,
+      "III": 12500,
+      "IV": 27800,
+      "V": 42100,
+      "VI": 54000,
+      "VII": 59900
+     },
+     "telepase": {
+      "auto": [
+       11100,
+       11100
+      ]
+     },
+     "manual": {
+      "auto": [
+       11100,
+       11100
+      ]
+     }
+    },
+    "CALAMAR": {
+     "categorias_oficiales": {
+      "I": 16300,
+      "II": 20100,
+      "III": 25000,
+      "IV": 31600,
+      "V": 48200
+     },
+     "telepase": {
+      "auto": [
+       16300,
+       16300
+      ]
+     },
+     "manual": {
+      "auto": [
+       16300,
+       16300
+      ]
+     }
+    },
+    "SUPÍA": {
+     "categorias_oficiales": {
+      "I": 16100,
+      "II": 21300,
+      "III": 21300,
+      "IV": 21300,
+      "V": 47800,
+      "VI": 69600,
+      "VII": 77700
+     },
+     "telepase": {
+      "auto": [
+       16100,
+       16100
+      ]
+     },
+     "manual": {
+      "auto": [
+       16100,
+       16100
+      ]
+     }
+    },
+    "EL PATÁ": {
+     "categorias_oficiales": {
+      "I": 15700,
+      "II": 19400,
+      "III": 23900,
+      "IV": 30300,
+      "V": 46300,
+      "VI": 58000,
+      "VII": 67100
+     },
+     "telepase": {
+      "auto": [
+       15700,
+       15700
+      ]
+     },
+     "manual": {
+      "auto": [
+       15700,
+       15700
+      ]
+     }
+    },
+    "LA APARTADA": {
+     "categorias_oficiales": {
+      "I": 14000,
+      "II": 20700,
+      "III": 20700,
+      "IV": 20700,
+      "V": 37500,
+      "VI": 59700,
+      "VII": 68700
+     },
+     "telepase": {
+      "auto": [
+       14000,
+       14000
+      ]
+     },
+     "manual": {
+      "auto": [
+       14000,
+       14000
+      ]
+     }
+    },
+    "SIBERIA": {
+     "categorias_oficiales": {
+      "I": 13800,
+      "II": 19600,
+      "III": 16500,
+      "IV": 21900,
+      "V": 38300,
+      "VI": 51200,
+      "VII": 56300,
+      "VIII": 5800,
+      "IX": 8000
+     },
+     "telepase": {
+      "auto": [
+       13800,
+       13800
+      ]
+     },
+     "manual": {
+      "auto": [
+       13800,
+       13800
+      ]
+     }
+    },
+    "PUENTE PLATO": {
+     "categorias_oficiales": {
+      "I": 11700,
+      "II": 14600,
+      "III": 30500,
+      "IV": 43200,
+      "V": 46200
+     },
+     "telepase": {
+      "auto": [
+       11700,
+       11700
+      ]
+     },
+     "manual": {
+      "auto": [
+       11700,
+       11700
+      ]
+     }
+    },
+    "HONDA": {
+     "categorias_oficiales": {
+      "I": 13700,
+      "II": 14600,
+      "III": 15200,
+      "IV": 15900,
+      "V": 33500,
+      "VI": 45900,
+      "VII": 49700
+     },
+     "telepase": {
+      "auto": [
+       13700,
+       13700
+      ]
+     },
+     "manual": {
+      "auto": [
+       13700,
+       13700
+      ]
+     }
+    },
+    "PUERTO COLOMBIA": {
+     "categorias_oficiales": {
+      "I": 17200,
+      "II": 25800,
+      "III": 18900,
+      "IV": 32800,
+      "V": 102000,
+      "VI": 135800,
+      "VII": 150700
+     },
+     "telepase": {
+      "auto": [
+       17200,
+       17200
+      ]
+     },
+     "manual": {
+      "auto": [
+       17200,
+       17200
+      ]
+     }
+    },
+    "MATA DE CAÑA": {
+     "categorias_oficiales": {
+      "I": 15800,
+      "II": 23200,
+      "III": 23200,
+      "IV": 23200,
+      "V": 24700,
+      "VI": 36000,
+      "VII": 36100
+     },
+     "telepase": {
+      "auto": [
+       15800,
+       15800
+      ]
+     },
+     "manual": {
+      "auto": [
+       15800,
+       15800
+      ]
+     }
+    },
+    "AGUAS NEGRAS": {
+     "categorias_oficiales": {
+      "I": 13500,
+      "II": 17000,
+      "III": 39500,
+      "IV": 47300,
+      "V": 55600
+     },
+     "telepase": {
+      "auto": [
+       13500,
+       13500
+      ]
+     },
+     "manual": {
+      "auto": [
+       13500,
+       13500
+      ]
+     }
+    },
+    "ALBARRACÍN": {
+     "categorias_oficiales": {
+      "I": 10300,
+      "II": 11400,
+      "III": 29300,
+      "IV": 36200,
+      "V": 42600
+     },
+     "telepase": {
+      "auto": [
+       10300,
+       10300
+      ]
+     },
+     "manual": {
+      "auto": [
+       10300,
+       10300
+      ]
+     }
+    },
+    "CAIMANERA": {
+     "categorias_oficiales": {
+      "I": 15300,
+      "II": 22100,
+      "III": 22100,
+      "IV": 22100,
+      "V": 40000,
+      "VI": 63400,
+      "VII": 73100
+     },
+     "telepase": {
+      "auto": [
+       15300,
+       15300
+      ]
+     },
+     "manual": {
+      "auto": [
+       15300,
+       15300
+      ]
+     }
+    },
+    "QUIEBRA DE VELEZ": {
+     "categorias_oficiales": {
+      "I": 3100,
+      "II": 9600,
+      "IV": 33000,
+      "V": 37600
+     },
+     "telepase": {
+      "auto": [
+       3100,
+       3100
+      ]
+     },
+     "manual": {
+      "auto": [
+       3100,
+       3100
+      ]
+     }
+    },
+    "Las Palmas": {
+     "categorias_oficiales": {
+      "I": 13500,
+      "II": 16200,
+      "III": 16200,
+      "IV": 16200,
+      "V": 35700,
+      "VI": 47900,
+      "VII": 53700
+     },
+     "telepase": {
+      "auto": [
+       13500,
+       13500
+      ]
+     },
+     "manual": {
+      "auto": [
+       13500,
+       13500
+      ]
+     }
+    },
+    "LOS ACACIOS": {
+     "categorias_oficiales": {
+      "I": 7900,
+      "II": 11100,
+      "III": 24700,
+      "IV": 31800,
+      "V": 36200
+     },
+     "telepase": {
+      "auto": [
+       7900,
+       7900
+      ]
+     },
+     "manual": {
+      "auto": [
+       7900,
+       7900
+      ]
+     }
+    },
+    "SANTAGUEDA": {
+     "categorias_oficiales": {
+      "I": 14600,
+      "II": 17500,
+      "III": 17500,
+      "IV": 17500,
+      "V": 42600,
+      "VI": 53200,
+      "VII": 61600
+     },
+     "telepase": {
+      "auto": [
+       14600,
+       14600
+      ]
+     },
+     "manual": {
+      "auto": [
+       14600,
+       14600
+      ]
+     }
+    },
+    "BETANIA": {
+     "categorias_oficiales": {
+      "I": 8200,
+      "II": 10600,
+      "III": 25000,
+      "IV": 34000,
+      "V": 37700
+     },
+     "telepase": {
+      "auto": [
+       8200,
+       8200
+      ]
+     },
+     "manual": {
+      "auto": [
+       8200,
+       8200
+      ]
+     }
+    },
+    "PUENTE AMARILLO": {
+     "categorias_oficiales": {
+      "I": 4800,
+      "II": 16000,
+      "III": 10200,
+      "IV": 16000,
+      "V": 22600,
+      "VI": 30100,
+      "VII": 34100
+     },
+     "telepase": {
+      "auto": [
+       4800,
+       4800
+      ]
+     },
+     "manual": {
+      "auto": [
+       4800,
+       4800
+      ]
+     }
+    },
+    "CHICORAL": {
+     "categorias_oficiales": {
+      "I": 13800,
+      "II": 15100,
+      "III": 13800,
+      "IV": 17900,
+      "V": 36100,
+      "VI": 48000,
+      "VII": 53000
+     },
+     "telepase": {
+      "auto": [
+       13800,
+       13800
+      ]
+     },
+     "manual": {
+      "auto": [
+       13800,
+       13800
+      ]
+     }
+    },
+    "LA LIBERTAD": {
+     "categorias_oficiales": {
+      "I": 16900,
+      "II": 32700,
+      "III": 26200,
+      "IV": 43100,
+      "V": 63700,
+      "VI": 83600,
+      "VII": 95900
+     },
+     "telepase": {
+      "auto": [
+       16900,
+       16900
+      ]
+     },
+     "manual": {
+      "auto": [
+       16900,
+       16900
+      ]
+     }
+    },
+    "PURGATORIO": {
+     "categorias_oficiales": {
+      "I": 16100,
+      "II": 23700,
+      "III": 23700,
+      "IV": 23700,
+      "V": 42700,
+      "VI": 67800,
+      "VII": 78000
+     },
+     "telepase": {
+      "auto": [
+       16100,
+       16100
+      ]
+     },
+     "manual": {
+      "auto": [
+       16100,
+       16100
+      ]
+     }
+    },
+    "ZAMBITO": {
+     "categorias_oficiales": {
+      "I": 13500,
+      "II": 17000,
+      "III": 39500,
+      "IV": 47300,
+      "V": 55600
+     },
+     "telepase": {
+      "auto": [
+       13500,
+       13500
+      ]
+     },
+     "manual": {
+      "auto": [
+       13500,
+       13500
+      ]
+     }
+    },
+    "EL PLACER 2": {
+     "categorias_oficiales": {
+      "I": 12300,
+      "II": 15000,
+      "III": 29500,
+      "IV": 36900,
+      "V": 39800
+     },
+     "telepase": {
+      "auto": [
+       12300,
+       12300
+      ]
+     },
+     "manual": {
+      "auto": [
+       12300,
+       12300
+      ]
+     }
+    },
+    "Gambote": {
+     "categorias_oficiales": {
+      "I": 12600,
+      "II": 13900,
+      "III": 30900,
+      "IV": 41200,
+      "V": 47100
+     },
+     "telepase": {
+      "auto": [
+       12600,
+       12600
+      ]
+     },
+     "manual": {
+      "auto": [
+       12600,
+       12600
+      ]
+     }
+    },
+    "TUCUNICA": {
+     "categorias_oficiales": {
+      "I": 10900,
+      "II": 11900,
+      "III": 27800,
+      "IV": 36400,
+      "V": 42200
+     },
+     "telepase": {
+      "auto": [
+       10900,
+       10900
+      ]
+     },
+     "manual": {
+      "auto": [
+       10900,
+       10900
+      ]
+     }
+    },
+    "PUBENZA": {
+     "categorias_oficiales": {
+      "I": 8500,
+      "II": 9600,
+      "III": 10900,
+      "IV": 14400,
+      "V": 21000,
+      "VI": 28000,
+      "VII": 32200
+     },
+     "telepase": {
+      "auto": [
+       8500,
+       8500
+      ]
+     },
+     "manual": {
+      "auto": [
+       8500,
+       8500
+      ]
+     }
+    },
+    "LA TEBAIDA": {
+     "categorias_oficiales": {
+      "I": 11200,
+      "II": 13500,
+      "III": 13500,
+      "IV": 15600,
+      "V": 34500,
+      "VI": 42400,
+      "VII": 44800
+     },
+     "telepase": {
+      "auto": [
+       11200,
+       11200
+      ]
+     },
+     "manual": {
+      "auto": [
+       11200,
+       11200
+      ]
+     }
+    },
+    "BOQUERÓN I": {
+     "categorias_oficiales": {
+      "I": 16500,
+      "II": 48500,
+      "III": 24500,
+      "IV": 64100,
+      "V": 72300,
+      "VI": 80300,
+      "VII": 96200
+     },
+     "telepase": {
+      "auto": [
+       16500,
+       16500
+      ]
+     },
+     "manual": {
+      "auto": [
+       16500,
+       16500
+      ]
+     }
+    },
+    "LA HEROICA": {
+     "categorias_oficiales": {
+      "I": 2900,
+      "II": 4600,
+      "III": 8200,
+      "IV": 10700,
+      "V": 16400
+     },
+     "telepase": {
+      "auto": [
+       2900,
+       2900
+      ]
+     },
+     "manual": {
+      "auto": [
+       2900,
+       2900
+      ]
+     }
+    },
+    "MARAHUACO": {
+     "categorias_oficiales": {
+      "I": 18400,
+      "II": 27600,
+      "III": 20200,
+      "IV": 35000,
+      "V": 109100,
+      "VI": 145500,
+      "VII": 161600
+     },
+     "telepase": {
+      "auto": [
+       18400,
+       18400
+      ]
+     },
+     "manual": {
+      "auto": [
+       18400,
+       18400
+      ]
+     }
+    },
+    "LA ESTRELLA": {
+     "categorias_oficiales": {
+      "I": 6100,
+      "II": 7100,
+      "IV": 22500,
+      "V": 25300
+     },
+     "telepase": {
+      "auto": [
+       6100,
+       6100
+      ]
+     },
+     "manual": {
+      "auto": [
+       6100,
+       6100
+      ]
+     }
+    },
+    "PAJARITO": {
+     "categorias_oficiales": {
+      "I": 6000,
+      "II": 6800,
+      "IV": 18800,
+      "V": 21600
+     },
+     "telepase": {
+      "auto": [
+       6000,
+       6000
+      ]
+     },
+     "manual": {
+      "auto": [
+       6000,
+       6000
+      ]
+     }
+    },
+    "JALISCO": {
+     "categorias_oficiales": {
+      "I": 12400,
+      "II": 16800,
+      "III": 14100,
+      "IV": 19600,
+      "V": 35300,
+      "VI": 45700,
+      "VII": 55000
+     },
+     "telepase": {
+      "auto": [
+       12400,
+       12400
+      ]
+     },
+     "manual": {
+      "auto": [
+       12400,
+       12400
+      ]
+     }
+    },
+    "TARAPACÁ II": {
+     "categorias_oficiales": {
+      "I": 16100,
+      "II": 21300,
+      "III": 21300,
+      "IV": 21300,
+      "V": 52500,
+      "VI": 69600,
+      "VII": 77700
+     },
+     "telepase": {
+      "auto": [
+       16100,
+       16100
+      ]
+     },
+     "manual": {
+      "auto": [
+       16100,
+       16100
+      ]
+     }
+    },
+    "SAN MIGUEL": {
+     "categorias_oficiales": {
+      "I": 7900,
+      "II": 9800,
+      "III": 26100,
+      "IV": 44900,
+      "V": 47800
+     },
+     "telepase": {
+      "auto": [
+       7900,
+       7900
+      ]
+     },
+     "manual": {
+      "auto": [
+       7900,
+       7900
+      ]
+     }
+    },
+    "NUEVO SALTO": {
+     "categorias_oficiales": {
+      "I": 11700,
+      "II": 14200,
+      "III": 14300,
+      "IV": 16700,
+      "V": 32100,
+      "VI": 49500,
+      "VII": 53700,
+      "VIII": 8500
+     },
+     "telepase": {
+      "auto": [
+       11700,
+       11700
+      ]
+     },
+     "manual": {
+      "auto": [
+       11700,
+       11700
+      ]
+     }
+    },
+    "MONDOÑEDO": {
+     "categorias_oficiales": {
+      "I": 11200,
+      "II": 13500,
+      "III": 13500,
+      "IV": 15600,
+      "V": 44800,
+      "VI": 61600,
+      "VII": 70300
+     },
+     "telepase": {
+      "auto": [
+       11200,
+       11200
+      ]
+     },
+     "manual": {
+      "auto": [
+       11200,
+       11200
+      ]
+     }
+    },
+    "RAMAL": {
+     "categorias_oficiales": {
+      "I": 11200,
+      "II": 13500,
+      "III": 13500,
+      "IV": 15600,
+      "V": 44800,
+      "VI": 61600,
+      "VII": 70300
+     },
+     "telepase": {
+      "auto": [
+       11200,
+       11200
+      ]
+     },
+     "manual": {
+      "auto": [
+       11200,
+       11200
+      ]
+     }
+    },
+    "PIPIRAL": {
+     "categorias_oficiales": {
+      "I": 23000,
+      "II": 45100,
+      "III": 30900,
+      "IV": 53900,
+      "V": 58800,
+      "VI": 89900,
+      "VII": 116200
+     },
+     "telepase": {
+      "auto": [
+       23000,
+       23000
+      ]
+     },
+     "manual": {
+      "auto": [
+       23000,
+       23000
+      ]
+     }
+    },
+    "Turbaco": {
+     "categorias_oficiales": {
+      "III": 15900,
+      "IV": 15900,
+      "V": 15900
+     }
+    },
+    "BAZURTO  (MANGA)": {
+     "categorias_oficiales": {
+      "I": 2300,
+      "II": 4100,
+      "IV": 9600,
+      "V": 14800
+     },
+     "telepase": {
+      "auto": [
+       2300,
+       2300
+      ]
+     },
+     "manual": {
+      "auto": [
+       2300,
+       2300
+      ]
+     }
+    },
+    "CEBALLOS": {
+     "categorias_oficiales": {
+      "I": 2500,
+      "II": 4100,
+      "IV": 9600,
+      "V": 14800
+     },
+     "telepase": {
+      "auto": [
+       2500,
+       2500
+      ]
+     },
+     "manual": {
+      "auto": [
+       2500,
+       2500
+      ]
+     }
+    },
+    "SANTA ELENA": {
+     "categorias_oficiales": {
+      "I": 10000,
+      "II": 12100,
+      "III": 22100,
+      "IV": 24900,
+      "V": 27500
+     },
+     "telepase": {
+      "auto": [
+       10000,
+       10000
+      ]
+     },
+     "manual": {
+      "auto": [
+       10000,
+       10000
+      ]
+     }
+    },
+    "CABILDO": {
+     "categorias_oficiales": {
+      "I": 16700,
+      "II": 18400,
+      "III": 19500,
+      "IV": 28300,
+      "V": 49000,
+      "VI": 61500,
+      "VII": 71000
+     },
+     "telepase": {
+      "auto": [
+       16700,
+       16700
+      ]
+     },
+     "manual": {
+      "auto": [
+       16700,
+       16700
+      ]
+     }
+    },
+    "ABURRA": {
+     "categorias_oficiales": {
+      "I": 20600,
+      "II": 23200,
+      "III": 50400,
+      "IV": 65600,
+      "V": 78400
+     },
+     "telepase": {
+      "auto": [
+       20600,
+       20600
+      ]
+     },
+     "manual": {
+      "auto": [
+       20600,
+       20600
+      ]
+     }
+    },
+    "CASETABLA": {
+     "categorias_oficiales": {
+      "I": 6900,
+      "II": 7400,
+      "III": 8200,
+      "IV": 8200,
+      "V": 30400,
+      "VI": 37600,
+      "VII": 42400
+     },
+     "telepase": {
+      "auto": [
+       6900,
+       6900
+      ]
+     },
+     "manual": {
+      "auto": [
+       6900,
+       6900
+      ]
+     }
+    },
+    "Sabanagrande": {
+     "categorias_oficiales": {
+      "I": 13300,
+      "II": 14400,
+      "III": 31500,
+      "IV": 41200,
+      "V": 47500
+     },
+     "telepase": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "manual": {
+      "auto": [
+       13300,
+       13300
+      ]
+     }
+    },
+    "FUSCA": {
+     "categorias_oficiales": {
+      "I": 11100,
+      "II": 19200,
+      "III": 12500,
+      "IV": 27800,
+      "V": 42100,
+      "VI": 54000,
+      "VII": 59900
+     },
+     "telepase": {
+      "auto": [
+       11100,
+       11100
+      ]
+     },
+     "manual": {
+      "auto": [
+       11100,
+       11100
+      ]
+     }
+    },
+    "TARAPACÁ I": {
+     "categorias_oficiales": {
+      "I": 16100,
+      "II": 21300,
+      "III": 21300,
+      "IV": 21300,
+      "V": 47800,
+      "VI": 69600,
+      "VII": 77700
+     },
+     "telepase": {
+      "auto": [
+       16100,
+       16100
+      ]
+     },
+     "manual": {
+      "auto": [
+       16100,
+       16100
+      ]
+     }
+    },
+    "SAN BERNARDO (TRINIDAD ll)": {
+     "categorias_oficiales": {
+      "I": 14600,
+      "II": 17500,
+      "III": 17500,
+      "IV": 17500,
+      "V": 42600,
+      "VI": 53200,
+      "VII": 61600
+     },
+     "telepase": {
+      "auto": [
+       14600,
+       14600
+      ]
+     },
+     "manual": {
+      "auto": [
+       14600,
+       14600
+      ]
+     }
+    },
+    "CAIQUEROS": {
+     "categorias_oficiales": {
+      "I": 12800,
+      "II": 16600,
+      "III": 40800,
+      "IV": 49200,
+      "V": 56500
+     },
+     "telepase": {
+      "auto": [
+       12800,
+       12800
+      ]
+     },
+     "manual": {
+      "auto": [
+       12800,
+       12800
+      ]
+     }
+    },
+    "Las Flores": {
+     "categorias_oficiales": {
+      "I": 6400,
+      "II": 16400,
+      "III": 25400,
+      "IV": 32200,
+      "V": 36800
+     },
+     "telepase": {
+      "auto": [
+       6400,
+       6400
+      ]
+     },
+     "manual": {
+      "auto": [
+       6400,
+       6400
+      ]
+     }
+    },
+    "CIRCASIA": {
+     "categorias_oficiales": {
+      "I": 19200,
+      "II": 24400,
+      "III": 24400,
+      "IV": 24400,
+      "V": 59200,
+      "VI": 72700,
+      "VII": 80900
+     },
+     "telepase": {
+      "auto": [
+       19200,
+       19200
+      ]
+     },
+     "manual": {
+      "auto": [
+       19200,
+       19200
+      ]
+     }
+    },
+    "NEGUANJE": {
+     "categorias_oficiales": {
+      "I": 12300,
+      "II": 19000,
+      "III": 15300,
+      "IV": 24100,
+      "V": 35200,
+      "VI": 56600,
+      "VII": 71400
+     },
+     "telepase": {
+      "auto": [
+       12300,
+       12300
+      ]
+     },
+     "manual": {
+      "auto": [
+       12300,
+       12300
+      ]
+     }
+    },
+    "UNISABANA": {
+     "categorias_oficiales": {
+      "V": 42100,
+      "VI": 54000,
+      "VII": 59900
+     }
+    },
+    "YUCAO": {
+     "categorias_oficiales": {
+      "I": 6900,
+      "II": 7400,
+      "III": 8200,
+      "IV": 8200,
+      "V": 30400,
+      "VI": 37600,
+      "VII": 42400
+     },
+     "telepase": {
+      "auto": [
+       6900,
+       6900
+      ]
+     },
+     "manual": {
+      "auto": [
+       6900,
+       6900
+      ]
+     }
+    },
+    "Guarne": {
+     "categorias_oficiales": {
+      "I": 18500,
+      "II": 32000,
+      "III": 25700,
+      "IV": 32000,
+      "V": 63400,
+      "VI": 90400,
+      "VII": 90400
+     },
+     "telepase": {
+      "auto": [
+       18500,
+       18500
+      ]
+     },
+     "manual": {
+      "auto": [
+       18500,
+       18500
+      ]
+     }
+    },
+    "LOS CAUCHOS": {
+     "categorias_oficiales": {
+      "I": 9200,
+      "II": 10000,
+      "III": 21300,
+      "IV": 27100,
+      "V": 30500
+     },
+     "telepase": {
+      "auto": [
+       9200,
+       9200
+      ]
+     },
+     "manual": {
+      "auto": [
+       9200,
+       9200
+      ]
+     }
+    },
+    "PRIMAVERA": {
+     "categorias_oficiales": {
+      "I": 10500,
+      "II": 11400,
+      "III": 24200,
+      "IV": 30800,
+      "V": 34600
+     },
+     "telepase": {
+      "auto": [
+       10500,
+       10500
+      ]
+     },
+     "manual": {
+      "auto": [
+       10500,
+       10500
+      ]
+     }
+    },
+    "PAPIROS": {
+     "categorias_oficiales": {
+      "I": 3000,
+      "II": 3000,
+      "III": 9300,
+      "IV": 16100,
+      "V": 50400,
+      "VI": 67600,
+      "VII": 74900
+     },
+     "telepase": {
+      "auto": [
+       3000,
+       3000
+      ]
+     },
+     "manual": {
+      "auto": [
+       3000,
+       3000
+      ]
+     }
+    },
+    "NEIVA": {
+     "categorias_oficiales": {
+      "I": 15700,
+      "II": 19400,
+      "III": 23900,
+      "IV": 30300,
+      "V": 46300,
+      "VI": 58000,
+      "VII": 67100
+     },
+     "telepase": {
+      "auto": [
+       15700,
+       15700
+      ]
+     },
+     "manual": {
+      "auto": [
+       15700,
+       15700
+      ]
+     }
+    },
+    "OCOA": {
+     "categorias_oficiales": {
+      "I": 13100,
+      "II": 25300,
+      "III": 19200,
+      "IV": 33100,
+      "V": 48800,
+      "VI": 64500,
+      "VII": 70100
+     },
+     "telepase": {
+      "auto": [
+       13100,
+       13100
+      ]
+     },
+     "manual": {
+      "auto": [
+       13100,
+       13100
+      ]
+     }
+    },
+    "El Korán": {
+     "categorias_oficiales": {
+      "I": 19900,
+      "II": 27700,
+      "III": 39000,
+      "IV": 81100,
+      "V": 100700,
+      "VI": 119400
+     },
+     "telepase": {
+      "auto": [
+       19900,
+       19900
+      ]
+     },
+     "manual": {
+      "auto": [
+       19900,
+       19900
+      ]
+     }
+    },
+    "Los Patios": {
+     "categorias_oficiales": {
+      "I": 14800,
+      "II": 23100,
+      "III": 35700,
+      "IV": 52300,
+      "V": 71700,
+      "VI": 72100
+     },
+     "telepase": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "manual": {
+      "auto": [
+       14800,
+       14800
+      ]
+     }
+    },
+    "La Cabaña": {
+     "categorias_oficiales": {
+      "I": 14800,
+      "II": 23100,
+      "III": 35700,
+      "IV": 52300,
+      "V": 71700,
+      "VI": 72100
+     },
+     "telepase": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "manual": {
+      "auto": [
+       14800,
+       14800
+      ]
+     }
+    },
+    "EL CARMEN": {
+     "categorias_oficiales": {
+      "I": 11100,
+      "II": 12300,
+      "III": 25400,
+      "IV": 32300,
+      "V": 36400
+     },
+     "telepase": {
+      "auto": [
+       11100,
+       11100
+      ]
+     },
+     "manual": {
+      "auto": [
+       11100,
+       11100
+      ]
+     }
+    },
+    "ACAPULCO": {
+     "categorias_oficiales": {
+      "I": 14600,
+      "II": 17900,
+      "III": 17900,
+      "IV": 17900,
+      "V": 42900,
+      "VI": 53700,
+      "VII": 61900
+     },
+     "telepase": {
+      "auto": [
+       14600,
+       14600
+      ]
+     },
+     "manual": {
+      "auto": [
+       14600,
+       14600
+      ]
+     }
+    },
+    "EL EBANAL": {
+     "categorias_oficiales": {
+      "I": 12300,
+      "II": 19000,
+      "III": 15300,
+      "IV": 24100,
+      "V": 35200,
+      "VI": 56600,
+      "VII": 71400
+     },
+     "telepase": {
+      "auto": [
+       12300,
+       12300
+      ]
+     },
+     "manual": {
+      "auto": [
+       12300,
+       12300
+      ]
+     }
+    },
+    "FLANDES": {
+     "categorias_oficiales": {
+      "I": 15700,
+      "II": 19400,
+      "III": 23900,
+      "IV": 30300,
+      "V": 46300,
+      "VI": 58000,
+      "VII": 67100
+     },
+     "telepase": {
+      "auto": [
+       15700,
+       15700
+      ]
+     },
+     "manual": {
+      "auto": [
+       15700,
+       15700
+      ]
+     }
+    },
+    "LAUREANO GÓMEZ": {
+     "categorias_oficiales": {
+      "I": 10100,
+      "II": 1200,
+      "III": 28100,
+      "IV": 37200,
+      "V": 42100
+     },
+     "telepase": {
+      "auto": [
+       10100,
+       10100
+      ]
+     },
+     "manual": {
+      "auto": [
+       10100,
+       10100
+      ]
+     }
+    },
+    "VERACRUZ": {
+     "categorias_oficiales": {
+      "I": 8600,
+      "II": 17200,
+      "III": 11100,
+      "IV": 17200,
+      "V": 24600,
+      "VI": 33000,
+      "VII": 36900
+     },
+     "telepase": {
+      "auto": [
+       8600,
+       8600
+      ]
+     },
+     "manual": {
+      "auto": [
+       8600,
+       8600
+      ]
+     }
+    },
+    "TASAJERA": {
+     "categorias_oficiales": {
+      "I": 10100,
+      "II": 12000,
+      "III": 28100,
+      "IV": 37200,
+      "V": 42100
+     },
+     "telepase": {
+      "auto": [
+       10100,
+       10100
+      ]
+     },
+     "manual": {
+      "auto": [
+       10100,
+       10100
+      ]
+     }
+    },
+    "COROZAL": {
+     "categorias_oficiales": {
+      "I": 14600,
+      "II": 17500,
+      "III": 17500,
+      "IV": 17500,
+      "V": 42600,
+      "VI": 53200,
+      "VII": 61600
+     },
+     "telepase": {
+      "auto": [
+       14600,
+       14600
+      ]
+     },
+     "manual": {
+      "auto": [
+       14600,
+       14600
+      ]
+     }
+    },
+    "PANDEQUESO": {
+     "categorias_oficiales": {
+      "I": 14600,
+      "II": 16200,
+      "III": 16200,
+      "IV": 16200,
+      "V": 33600,
+      "VI": 45500,
+      "VII": 49500
+     },
+     "telepase": {
+      "auto": [
+       14600,
+       14600
+      ]
+     },
+     "manual": {
+      "auto": [
+       14600,
+       14600
+      ]
+     }
+    },
+    "CEDROS": {
+     "categorias_oficiales": {
+      "I": 16100,
+      "II": 23700,
+      "III": 23700,
+      "IV": 23700,
+      "V": 42700,
+      "VI": 67800,
+      "VII": 78000
+     },
+     "telepase": {
+      "auto": [
+       16100,
+       16100
+      ]
+     },
+     "manual": {
+      "auto": [
+       16100,
+       16100
+      ]
+     }
+    },
+    "EL DIFÍCIL": {
+     "categorias_oficiales": {
+      "I": 11700,
+      "II": 14600,
+      "III": 30500,
+      "IV": 43200,
+      "V": 46200
+     },
+     "telepase": {
+      "auto": [
+       11700,
+       11700
+      ]
+     },
+     "manual": {
+      "auto": [
+       11700,
+       11700
+      ]
+     }
+    },
+    "EL ROBLE": {
+     "categorias_oficiales": {
+      "I": 10300,
+      "II": 11400,
+      "III": 29300,
+      "IV": 36200,
+      "V": 42600
+     },
+     "telepase": {
+      "auto": [
+       10300,
+       10300
+      ]
+     },
+     "manual": {
+      "auto": [
+       10300,
+       10300
+      ]
+     }
+    },
+    "AMAGÁ": {
+     "categorias_oficiales": {
+      "I": 10500,
+      "II": 11400,
+      "III": 24200,
+      "IV": 30800,
+      "V": 34600
+     },
+     "telepase": {
+      "auto": [
+       10500,
+       10500
+      ]
+     },
+     "manual": {
+      "auto": [
+       10500,
+       10500
+      ]
+     }
+    },
+    "SAN ONOFRE": {
+     "categorias_oficiales": {
+      "I": 16100,
+      "II": 23700,
+      "III": 23700,
+      "IV": 23700,
+      "V": 42700,
+      "VI": 67800,
+      "VII": 78000
+     },
+     "telepase": {
+      "auto": [
+       16100,
+       16100
+      ]
+     },
+     "manual": {
+      "auto": [
+       16100,
+       16100
+      ]
+     }
+    },
+    "La Esperanza": {
+     "categorias_oficiales": {
+      "I": 11500,
+      "II": 12400,
+      "III": 26600,
+      "IV": 33400,
+      "V": 37900
+     },
+     "telepase": {
+      "auto": [
+       11500,
+       11500
+      ]
+     },
+     "manual": {
+      "auto": [
+       11500,
+       11500
+      ]
+     }
+    },
+    "ALTO PINO": {
+     "categorias_oficiales": {
+      "I": 12300,
+      "II": 19000,
+      "III": 15300,
+      "IV": 24100,
+      "V": 35200,
+      "VI": 56600,
+      "VII": 71400
+     },
+     "telepase": {
+      "auto": [
+       12300,
+       12300
+      ]
+     },
+     "manual": {
+      "auto": [
+       12300,
+       12300
+      ]
+     }
+    },
+    "ALTAMIRA": {
+     "categorias_oficiales": {
+      "I": 10700,
+      "II": 12000,
+      "III": 24600,
+      "IV": 31300,
+      "V": 35400
+     },
+     "telepase": {
+      "auto": [
+       10700,
+       10700
+      ]
+     },
+     "manual": {
+      "auto": [
+       10700,
+       10700
+      ]
+     }
+    },
+    "CHUSACÁ": {
+     "categorias_oficiales": {
+      "I": 13300,
+      "II": 14900,
+      "III": 31500,
+      "IV": 51100,
+      "V": 58600
+     },
+     "telepase": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "manual": {
+      "auto": [
+       13300,
+       13300
+      ]
+     }
+    },
+    "GUALANDAY": {
+     "categorias_oficiales": {
+      "I": 12700,
+      "II": 14900,
+      "III": 35000,
+      "IV": 47000,
+      "V": 51700
+     },
+     "telepase": {
+      "auto": [
+       12700,
+       12700
+      ]
+     },
+     "manual": {
+      "auto": [
+       12700,
+       12700
+      ]
+     }
+    },
+    "TUTA": {
+     "categorias_oficiales": {
+      "I": 10300,
+      "II": 11400,
+      "III": 29300,
+      "IV": 36200,
+      "V": 42600
+     },
+     "telepase": {
+      "auto": [
+       10300,
+       10300
+      ]
+     },
+     "manual": {
+      "auto": [
+       10300,
+       10300
+      ]
+     }
+    },
+    "TRAPICHE": {
+     "categorias_oficiales": {
+      "I": 16700,
+      "II": 18400,
+      "III": 19500,
+      "IV": 28300,
+      "V": 49000,
+      "VI": 61500,
+      "VII": 71000
+     },
+     "telepase": {
+      "auto": [
+       16700,
+       16700
+      ]
+     },
+     "manual": {
+      "auto": [
+       16700,
+       16700
+      ]
+     }
+    },
+    "PINTADA": {
+     "categorias_oficiales": {
+      "I": 16200,
+      "II": 18900,
+      "III": 18900,
+      "IV": 18900,
+      "V": 42900,
+      "VI": 54100,
+      "VII": 61800
+     },
+     "telepase": {
+      "auto": [
+       16200,
+       16200
+      ]
+     },
+     "manual": {
+      "auto": [
+       16200,
+       16200
+      ]
+     }
+    },
+    "MACHETÁ": {
+     "categorias_oficiales": {
+      "I": 16900,
+      "II": 20500,
+      "III": 11800,
+      "IV": 11800,
+      "V": 24700,
+      "VI": 63600,
+      "VII": 73700
+     },
+     "telepase": {
+      "auto": [
+       16900,
+       16900
+      ]
+     },
+     "manual": {
+      "auto": [
+       16900,
+       16900
+      ]
+     }
+    },
+    "EL COPEY": {
+     "categorias_oficiales": {
+      "I": 10100,
+      "II": 11100,
+      "III": 25800,
+      "IV": 33700,
+      "V": 39100
+     },
+     "telepase": {
+      "auto": [
+       10100,
+       10100
+      ]
+     },
+     "manual": {
+      "auto": [
+       10100,
+       10100
+      ]
+     }
+    },
+    "CORRALITO DE PIEDRA": {
+     "categorias_oficiales": {
+      "I": 7900,
+      "II": 8500,
+      "III": 18100,
+      "IV": 23700,
+      "V": 27400,
+      "VI": 27400,
+      "VII": 27400
+     },
+     "telepase": {
+      "auto": [
+       7900,
+       7900
+      ]
+     },
+     "manual": {
+      "auto": [
+       7900,
+       7900
+      ]
+     }
+    },
+    "Galapa": {
+     "categorias_oficiales": {
+      "I": 13300,
+      "II": 14400,
+      "III": 30700,
+      "IV": 39500,
+      "V": 44500
+     },
+     "telepase": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "manual": {
+      "auto": [
+       13300,
+       13300
+      ]
+     }
+    },
+    "Bayunca": {
+     "categorias_oficiales": {
+      "I": 12600,
+      "II": 13900,
+      "III": 30900,
+      "IV": 41200,
+      "V": 47100
+     },
+     "telepase": {
+      "auto": [
+       12600,
+       12600
+      ]
+     },
+     "manual": {
+      "auto": [
+       12600,
+       12600
+      ]
+     }
+    },
+    "PAILITAS": {
+     "categorias_oficiales": {
+      "I": 12300,
+      "II": 13300,
+      "III": 27300,
+      "IV": 34800,
+      "V": 39500
+     },
+     "telepase": {
+      "auto": [
+       12300,
+       12300
+      ]
+     },
+     "manual": {
+      "auto": [
+       12300,
+       12300
+      ]
+     }
+    },
+    "LA LOMA": {
+     "categorias_oficiales": {
+      "I": 10400,
+      "II": 11400,
+      "III": 24700,
+      "IV": 31800,
+      "V": 36200
+     },
+     "telepase": {
+      "auto": [
+       10400,
+       10400
+      ]
+     },
+     "manual": {
+      "auto": [
+       10400,
+       10400
+      ]
+     }
+    },
+    "LA GÓMEZ": {
+     "categorias_oficiales": {
+      "I": 13500,
+      "II": 17000,
+      "III": 39500,
+      "IV": 47300,
+      "V": 55600
+     },
+     "telepase": {
+      "auto": [
+       13500,
+       13500
+      ]
+     },
+     "manual": {
+      "auto": [
+       13500,
+       13500
+      ]
+     }
+    },
+    "VALENCIA": {
+     "categorias_oficiales": {
+      "I": 10400,
+      "II": 11400,
+      "III": 24700,
+      "IV": 31800,
+      "V": 36200
+     },
+     "telepase": {
+      "auto": [
+       10400,
+       10400
+      ]
+     },
+     "manual": {
+      "auto": [
+       10400,
+       10400
+      ]
+     }
+    }
+   },
+   "pais": "CO"
+  },
+  "CO-ANI": {
+   "nombre": "ANI (peajes concesionados)",
+   "fuente": "https://www.datos.gov.co/resource/7gj8-j6i3.json",
+   "automatico": true,
+   "moneda": "COP",
+   "pico": {
+    "habiles": [],
+    "finde": []
+   },
+   "nota": "Tarifa por categoría oficial; «auto» = categoría I.",
+   "tramos": {
+    "ABURRÁ": {
+     "categorias_oficiales": {
+      "I": 27300,
+      "II": 31700,
+      "III": 31700,
+      "IV": 31700,
+      "V": 71500,
+      "VI": 91600,
+      "VII": 108200
+     },
+     "telepase": {
+      "auto": [
+       27300,
+       27300
+      ]
+     },
+     "manual": {
+      "auto": [
+       27300,
+       27300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "ACAPULCO": {
+     "categorias_oficiales": {
+      "I": 17600,
+      "II": 21500,
+      "III": 21500,
+      "IV": 21500,
+      "V": 51700,
+      "VI": 64700,
+      "VII": 74700
+     },
+     "telepase": {
+      "auto": [
+       17600,
+       17600
+      ]
+     },
+     "manual": {
+      "auto": [
+       17600,
+       17600
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "AGUAS NEGRAS": {
+     "categorias_oficiales": {
+      "I": 16300,
+      "II": 20500,
+      "III": 47600,
+      "IV": 57100,
+      "V": 67200
+     },
+     "telepase": {
+      "auto": [
+       16300,
+       16300
+      ]
+     },
+     "manual": {
+      "auto": [
+       16300,
+       16300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "ALBARRACÍN": {
+     "categorias_oficiales": {
+      "I": 12400,
+      "II": 13700,
+      "III": 35400,
+      "IV": 43700,
+      "V": 51400
+     },
+     "telepase": {
+      "auto": [
+       12400,
+       12400
+      ]
+     },
+     "manual": {
+      "auto": [
+       12400,
+       12400
+      ]
+     },
+     "vigencia": "2026-01-15"
+    },
+    "ALTAMIRA": {
+     "categorias_oficiales": {
+      "I": 12800,
+      "II": 14500,
+      "III": 29600,
+      "IV": 37800,
+      "V": 42700
+     },
+     "telepase": {
+      "auto": [
+       12800,
+       12800
+      ]
+     },
+     "manual": {
+      "auto": [
+       12800,
+       12800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "ALTO PINO": {
+     "categorias_oficiales": {
+      "I": 14800,
+      "II": 22900,
+      "III": 18400,
+      "IV": 29100,
+      "V": 42500,
+      "VI": 68300,
+      "VII": 86200
+     },
+     "telepase": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "manual": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "ALVARADO": {
+     "categorias_oficiales": {
+      "I": 16500,
+      "II": 17600,
+      "III": 18400,
+      "IV": 19100,
+      "V": 40500,
+      "VI": 55400,
+      "VII": 60000
+     },
+     "telepase": {
+      "auto": [
+       16500,
+       16500
+      ]
+     },
+     "manual": {
+      "auto": [
+       16500,
+       16500
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "AMAGÁ": {
+     "categorias_oficiales": {
+      "I": 20600,
+      "II": 24400,
+      "III": 24400,
+      "IV": 24400,
+      "V": 55800,
+      "VI": 70000,
+      "VII": 80500
+     },
+     "telepase": {
+      "auto": [
+       20600,
+       20600
+      ]
+     },
+     "manual": {
+      "auto": [
+       20600,
+       20600
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "ANDES": {
+     "categorias_oficiales": {
+      "I": 15200,
+      "II": 26400,
+      "III": 17500,
+      "IV": 37100,
+      "V": 54500,
+      "VI": 68900,
+      "VII": 75900
+     },
+     "telepase": {
+      "auto": [
+       15200,
+       15200
+      ]
+     },
+     "manual": {
+      "auto": [
+       15200,
+       15200
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "ARMERO": {
+     "categorias_oficiales": {
+      "I": 16500,
+      "II": 17800,
+      "III": 18400,
+      "IV": 19000,
+      "V": 40600,
+      "VI": 55400,
+      "VII": 76600
+     },
+     "telepase": {
+      "auto": [
+       16500,
+       16500
+      ]
+     },
+     "manual": {
+      "auto": [
+       16500,
+       16500
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "ARROYO DE PIEDRA": {
+     "categorias_oficiales": {
+      "I": 17400,
+      "II": 22300,
+      "III": 37400,
+      "IV": 57300,
+      "V": 74700
+     },
+     "telepase": {
+      "auto": [
+       17400,
+       17400
+      ]
+     },
+     "manual": {
+      "auto": [
+       17400,
+       17400
+      ]
+     },
+     "vigencia": "2026-01-10"
+    },
+    "BAYUNCA": {
+     "categorias_oficiales": {
+      "I": 12600,
+      "II": 13900,
+      "III": 30900,
+      "IV": 41200,
+      "V": 47100
+     },
+     "telepase": {
+      "auto": [
+       12600,
+       12600
+      ]
+     },
+     "manual": {
+      "auto": [
+       12600,
+       12600
+      ]
+     },
+     "vigencia": "2026-01-10"
+    },
+    "BOQUERÓN I": {
+     "categorias_oficiales": {
+      "I": 20800,
+      "II": 61400,
+      "III": 30900,
+      "IV": 81000,
+      "V": 91500,
+      "VI": 101600,
+      "VII": 121800
+     },
+     "telepase": {
+      "auto": [
+       20800,
+       20800
+      ]
+     },
+     "manual": {
+      "auto": [
+       20800,
+       20800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "BOQUERÓN II": {
+     "categorias_oficiales": {
+      "I": 20800,
+      "II": 61400,
+      "III": 30900,
+      "IV": 81000,
+      "V": 91500,
+      "VI": 101600,
+      "VII": 121800
+     },
+     "telepase": {
+      "auto": [
+       20800,
+       20800
+      ]
+     },
+     "manual": {
+      "auto": [
+       20800,
+       20800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "BRISAS": {
+     "categorias_oficiales": {
+      "I": 7700,
+      "II": 24800,
+      "III": 33800,
+      "IV": 45100,
+      "V": 64200,
+      "VI": 103400,
+      "VII": 118200
+     },
+     "telepase": {
+      "auto": [
+       7700,
+       7700
+      ]
+     },
+     "manual": {
+      "auto": [
+       7700,
+       7700
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "CABILDO": {
+     "categorias_oficiales": {
+      "I": 20300,
+      "II": 22400,
+      "III": 23800,
+      "IV": 34500,
+      "V": 59800,
+      "VI": 75000,
+      "VII": 86500
+     },
+     "telepase": {
+      "auto": [
+       20300,
+       20300
+      ]
+     },
+     "manual": {
+      "auto": [
+       20300,
+       20300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "CAIMANERA": {
+     "categorias_oficiales": {
+      "I": 18100,
+      "II": 26600,
+      "III": 26600,
+      "IV": 26600,
+      "V": 28300,
+      "VI": 41300,
+      "VII": 41400
+     },
+     "telepase": {
+      "auto": [
+       18100,
+       18100
+      ]
+     },
+     "manual": {
+      "auto": [
+       18100,
+       18100
+      ]
+     },
+     "vigencia": "2025-01-16"
+    },
+    "CAIQUERO": {
+     "categorias_oficiales": {
+      "I": 14200,
+      "II": 18400,
+      "III": 45500,
+      "IV": 54800,
+      "V": 62900
+     },
+     "telepase": {
+      "auto": [
+       14200,
+       14200
+      ]
+     },
+     "manual": {
+      "auto": [
+       14200,
+       14200
+      ]
+     },
+     "vigencia": "2025-09-22"
+    },
+    "CALAMAR": {
+     "categorias_oficiales": {
+      "I": 19700,
+      "II": 24200,
+      "III": 30200,
+      "IV": 38200,
+      "V": 58100
+     },
+     "telepase": {
+      "auto": [
+       19700,
+       19700
+      ]
+     },
+     "manual": {
+      "auto": [
+       19700,
+       19700
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "CAMBAO": {
+     "categorias_oficiales": {
+      "I": 15300,
+      "II": 21400,
+      "III": 29400,
+      "IV": 39400,
+      "V": 55600,
+      "VI": 90100,
+      "VII": 102900
+     },
+     "telepase": {
+      "auto": [
+       15300,
+       15300
+      ]
+     },
+     "manual": {
+      "auto": [
+       15300,
+       15300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "CASETABLA": {
+     "categorias_oficiales": {
+      "I": 8300,
+      "II": 8800,
+      "III": 9900,
+      "IV": 9900,
+      "V": 36700,
+      "VI": 45300,
+      "VII": 51200
+     },
+     "telepase": {
+      "auto": [
+       8300,
+       8300
+      ]
+     },
+     "manual": {
+      "auto": [
+       8300,
+       8300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "CEDROS": {
+     "categorias_oficiales": {
+      "I": 19700,
+      "II": 29100,
+      "III": 29100,
+      "IV": 29100,
+      "V": 52500,
+      "VI": 83400,
+      "VII": 96000
+     },
+     "telepase": {
+      "auto": [
+       19700,
+       19700
+      ]
+     },
+     "manual": {
+      "auto": [
+       19700,
+       19700
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "CENCAR": {
+     "categorias_oficiales": {
+      "I": 13200,
+      "II": 16100,
+      "III": 42600,
+      "IV": 55500,
+      "V": 64000
+     },
+     "telepase": {
+      "auto": [
+       13200,
+       13200
+      ]
+     },
+     "manual": {
+      "auto": [
+       13200,
+       13200
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "CERRITO": {
+     "categorias_oficiales": {
+      "I": 13200,
+      "II": 16100,
+      "III": 42600,
+      "IV": 55500,
+      "V": 64000
+     },
+     "telepase": {
+      "auto": [
+       13200,
+       13200
+      ]
+     },
+     "manual": {
+      "auto": [
+       13200,
+       13200
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "CHAPARRAL": {
+     "categorias_oficiales": {
+      "I": 13300,
+      "II": 14900,
+      "III": 14900,
+      "IV": 14900,
+      "V": 30400,
+      "VI": 39100,
+      "VII": 43900
+     },
+     "telepase": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "manual": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "CHICORAL": {
+     "categorias_oficiales": {
+      "I": 16600,
+      "II": 18300,
+      "III": 16600,
+      "IV": 21500,
+      "V": 43700,
+      "VI": 58000,
+      "VII": 64000
+     },
+     "telepase": {
+      "auto": [
+       16600,
+       16600
+      ]
+     },
+     "manual": {
+      "auto": [
+       16600,
+       16600
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "CHINAUTA": {
+     "categorias_oficiales": {
+      "I": 16100,
+      "II": 17900,
+      "III": 38000,
+      "IV": 61700,
+      "V": 70700
+     },
+     "telepase": {
+      "auto": [
+       16100,
+       16100
+      ]
+     },
+     "manual": {
+      "auto": [
+       16100,
+       16100
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "CHUSACA": {
+     "categorias_oficiales": {
+      "I": 16100,
+      "II": 17900,
+      "III": 38000,
+      "IV": 61700,
+      "V": 70700
+     },
+     "telepase": {
+      "auto": [
+       16100,
+       16100
+      ]
+     },
+     "manual": {
+      "auto": [
+       16100,
+       16100
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "CIAT": {
+     "categorias_oficiales": {
+      "I": 13300,
+      "II": 16200,
+      "III": 43200,
+      "IV": 55600,
+      "V": 64100
+     },
+     "telepase": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "manual": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "CIRCASIA": {
+     "categorias_oficiales": {
+      "I": 21200,
+      "II": 27000,
+      "III": 27000,
+      "IV": 27000,
+      "V": 65500,
+      "VI": 80400,
+      "VII": 89400
+     },
+     "telepase": {
+      "auto": [
+       21200,
+       21200
+      ]
+     },
+     "manual": {
+      "auto": [
+       21200,
+       21200
+      ]
+     },
+     "vigencia": "2026-01-09"
+    },
+    "CIRILO": {
+     "categorias_oficiales": {
+      "I": 13300,
+      "II": 14900,
+      "III": 14900,
+      "IV": 14900,
+      "V": 30400,
+      "VI": 39100,
+      "VII": 43900
+     },
+     "telepase": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "manual": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "CISNEROS": {
+     "categorias_oficiales": {
+      "I": 29400,
+      "II": 35600,
+      "III": 35600,
+      "IV": 35600,
+      "V": 85200,
+      "VI": 107600,
+      "VII": 123700
+     },
+     "telepase": {
+      "auto": [
+       29400,
+       29400
+      ]
+     },
+     "manual": {
+      "auto": [
+       29400,
+       29400
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "COCORA": {
+     "categorias_oficiales": {
+      "I": 17100,
+      "II": 18700,
+      "III": 43300,
+      "IV": 57800,
+      "V": 63800
+     },
+     "telepase": {
+      "auto": [
+       17100,
+       17100
+      ]
+     },
+     "manual": {
+      "auto": [
+       17100,
+       17100
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "COROZAL": {
+     "categorias_oficiales": {
+      "I": 16200,
+      "II": 19300,
+      "III": 19300,
+      "IV": 19300,
+      "V": 47100,
+      "VI": 58900,
+      "VII": 68100
+     },
+     "telepase": {
+      "auto": [
+       16200,
+       16200
+      ]
+     },
+     "manual": {
+      "auto": [
+       16200,
+       16200
+      ]
+     },
+     "vigencia": "2026-01-09"
+    },
+    "EL CARMEN": {
+     "categorias_oficiales": {
+      "I": 15000,
+      "II": 17300,
+      "III": 30600,
+      "IV": 38900,
+      "V": 47600
+     },
+     "telepase": {
+      "auto": [
+       15000,
+       15000
+      ]
+     },
+     "manual": {
+      "auto": [
+       15000,
+       15000
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "EL COPEY": {
+     "categorias_oficiales": {
+      "I": 12200,
+      "II": 13300,
+      "III": 31100,
+      "IV": 40700,
+      "V": 47200
+     },
+     "telepase": {
+      "auto": [
+       12200,
+       12200
+      ]
+     },
+     "manual": {
+      "auto": [
+       12200,
+       12200
+      ]
+     },
+     "vigencia": "2026-01-20"
+    },
+    "EL DIFÍCIL": {
+     "categorias_oficiales": {
+      "I": 14100,
+      "II": 17500,
+      "III": 36800,
+      "IV": 52200,
+      "V": 55700
+     },
+     "telepase": {
+      "auto": [
+       14100,
+       14100
+      ]
+     },
+     "manual": {
+      "auto": [
+       14100,
+       14100
+      ]
+     },
+     "vigencia": "2026-01-20"
+    },
+    "EL EBANAL": {
+     "categorias_oficiales": {
+      "I": 14800,
+      "II": 22900,
+      "III": 18400,
+      "IV": 29100,
+      "V": 42500,
+      "VI": 68300,
+      "VII": 86200
+     },
+     "telepase": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "manual": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "EL PATÁ": {
+     "categorias_oficiales": {
+      "I": 18900,
+      "II": 23400,
+      "III": 28900,
+      "IV": 36600,
+      "V": 55800,
+      "VI": 70000,
+      "VII": 81000
+     },
+     "telepase": {
+      "auto": [
+       18900,
+       18900
+      ]
+     },
+     "manual": {
+      "auto": [
+       18900,
+       18900
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "EL PICACHO": {
+     "categorias_oficiales": {
+      "I": 12400,
+      "II": 13900,
+      "III": 28400,
+      "IV": 36200,
+      "V": 40700
+     },
+     "telepase": {
+      "auto": [
+       12400,
+       12400
+      ]
+     },
+     "manual": {
+      "auto": [
+       12400,
+       12400
+      ]
+     },
+     "vigencia": "2025-04-01"
+    },
+    "EL PLACER": {
+     "categorias_oficiales": {
+      "I": 20900,
+      "II": 24400,
+      "III": 49000,
+      "IV": 58600,
+      "V": 67600
+     },
+     "telepase": {
+      "auto": [
+       20900,
+       20900
+      ]
+     },
+     "manual": {
+      "auto": [
+       20900,
+       20900
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "EL ROBLE": {
+     "categorias_oficiales": {
+      "I": 12400,
+      "II": 13700,
+      "III": 35400,
+      "IV": 43700,
+      "V": 51400
+     },
+     "telepase": {
+      "auto": [
+       12400,
+       12400
+      ]
+     },
+     "manual": {
+      "auto": [
+       12400,
+       12400
+      ]
+     },
+     "vigencia": "2026-01-15"
+    },
+    "ESTAMBUL": {
+     "categorias_oficiales": {
+      "I": 13300,
+      "II": 16200,
+      "III": 43200,
+      "IV": 55600,
+      "V": 64100
+     },
+     "telepase": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "manual": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "FLANDES": {
+     "categorias_oficiales": {
+      "I": 18900,
+      "II": 23400,
+      "III": 28900,
+      "IV": 36600,
+      "V": 55800,
+      "VI": 70000,
+      "VII": 81000
+     },
+     "telepase": {
+      "auto": [
+       18900,
+       18900
+      ]
+     },
+     "manual": {
+      "auto": [
+       18900,
+       18900
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "FRAGUA": {
+     "categorias_oficiales": {
+      "I": 17600,
+      "II": 21900,
+      "III": 21900,
+      "IV": 21900,
+      "V": 51600,
+      "VI": 64700,
+      "VII": 74600
+     },
+     "telepase": {
+      "auto": [
+       17600,
+       17600
+      ]
+     },
+     "manual": {
+      "auto": [
+       17600,
+       17600
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "FUEMIA": {
+     "categorias_oficiales": {
+      "I": 25300,
+      "II": 31400,
+      "III": 31400,
+      "IV": 31400,
+      "V": 74100,
+      "VI": 93000,
+      "VII": 107500
+     },
+     "telepase": {
+      "auto": [
+       25300,
+       25300
+      ]
+     },
+     "manual": {
+      "auto": [
+       25300,
+       25300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "FUSCA": {
+     "categorias_oficiales": {
+      "I": 15200,
+      "II": 26400,
+      "III": 17500,
+      "IV": 37100,
+      "V": 54500,
+      "VI": 68900,
+      "VII": 75900
+     },
+     "telepase": {
+      "auto": [
+       15200,
+       15200
+      ]
+     },
+     "manual": {
+      "auto": [
+       15200,
+       15200
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "GALAPA": {
+     "categorias_oficiales": {
+      "I": 13300,
+      "II": 14400,
+      "III": 30700,
+      "IV": 39500,
+      "V": 44500
+     },
+     "telepase": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "manual": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "vigencia": "2026-01-10"
+    },
+    "GALAPA 02": {
+     "categorias_oficiales": {
+      "I": 10000,
+      "II": 14700,
+      "III": 10800,
+      "IV": 18600,
+      "V": 57500,
+      "VI": 76300,
+      "VII": 84800
+     },
+     "telepase": {
+      "auto": [
+       10000,
+       10000
+      ]
+     },
+     "manual": {
+      "auto": [
+       10000,
+       10000
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "GAMBOTE": {
+     "categorias_oficiales": {
+      "I": 12600,
+      "II": 13900,
+      "III": 30900,
+      "IV": 41200,
+      "V": 47100
+     },
+     "telepase": {
+      "auto": [
+       12600,
+       12600
+      ]
+     },
+     "manual": {
+      "auto": [
+       12600,
+       12600
+      ]
+     },
+     "vigencia": "2026-01-10"
+    },
+    "GUAICO": {
+     "categorias_oficiales": {
+      "I": 25300,
+      "II": 31500,
+      "III": 31500,
+      "IV": 31500,
+      "V": 74100,
+      "VI": 93500,
+      "VII": 107600
+     },
+     "telepase": {
+      "auto": [
+       25300,
+       25300
+      ]
+     },
+     "manual": {
+      "auto": [
+       25300,
+       25300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "GUALANDAY": {
+     "categorias_oficiales": {
+      "I": 15300,
+      "II": 18000,
+      "III": 42400,
+      "IV": 57000,
+      "V": 62500
+     },
+     "telepase": {
+      "auto": [
+       15300,
+       15300
+      ]
+     },
+     "manual": {
+      "auto": [
+       15300,
+       15300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "GUARNE": {
+     "categorias_oficiales": {
+      "I": 18500,
+      "II": 32000,
+      "III": 25700,
+      "IV": 32000,
+      "V": 63400,
+      "VI": 90400,
+      "VII": 90400
+     },
+     "telepase": {
+      "auto": [
+       18500,
+       18500
+      ]
+     },
+     "manual": {
+      "auto": [
+       18500,
+       18500
+      ]
+     },
+     "vigencia": "2026-01-10"
+    },
+    "GUATAQUÍ": {
+     "categorias_oficiales": {
+      "I": 15300,
+      "II": 21400,
+      "III": 29400,
+      "IV": 39400,
+      "V": 55600,
+      "VI": 90100,
+      "VII": 102900
+     },
+     "telepase": {
+      "auto": [
+       15300,
+       15300
+      ]
+     },
+     "manual": {
+      "auto": [
+       15300,
+       15300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "HONDA": {
+     "categorias_oficiales": {
+      "I": 16500,
+      "II": 17600,
+      "III": 18400,
+      "IV": 19100,
+      "V": 40500,
+      "VI": 55400,
+      "VII": 60000
+     },
+     "telepase": {
+      "auto": [
+       16500,
+       16500
+      ]
+     },
+     "manual": {
+      "auto": [
+       16500,
+       16500
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "IRACÁ": {
+     "categorias_oficiales": {
+      "I": 15800,
+      "II": 30500,
+      "III": 23100,
+      "IV": 39900,
+      "V": 59000,
+      "VI": 77900,
+      "VII": 84700
+     },
+     "telepase": {
+      "auto": [
+       15800,
+       15800
+      ]
+     },
+     "manual": {
+      "auto": [
+       15800,
+       15800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "IRRA": {
+     "categorias_oficiales": {
+      "I": 17600,
+      "II": 21700,
+      "III": 21700,
+      "IV": 21700,
+      "V": 51600,
+      "VI": 64700,
+      "VII": 74600
+     },
+     "telepase": {
+      "auto": [
+       17600,
+       17600
+      ]
+     },
+     "manual": {
+      "auto": [
+       17600,
+       17600
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "JUAN MINA": {
+     "categorias_oficiales": {
+      "I": 10000,
+      "II": 14700,
+      "III": 10800,
+      "IV": 18600,
+      "V": 57500,
+      "VI": 76300,
+      "VII": 84800
+     },
+     "telepase": {
+      "auto": [
+       10000,
+       10000
+      ]
+     },
+     "manual": {
+      "auto": [
+       10000,
+       10000
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "LA APARTADA": {
+     "categorias_oficiales": {
+      "I": 19700,
+      "II": 29100,
+      "III": 29100,
+      "IV": 29100,
+      "V": 52500,
+      "VI": 83400,
+      "VII": 96000
+     },
+     "telepase": {
+      "auto": [
+       19700,
+       19700
+      ]
+     },
+     "manual": {
+      "auto": [
+       19700,
+       19700
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "LA CABAÑA": {
+     "categorias_oficiales": {
+      "I": 14800,
+      "II": 23100,
+      "III": 35700,
+      "IV": 52300,
+      "V": 71700,
+      "VI": 72100
+     },
+     "telepase": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "manual": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "LA GÓMEZ": {
+     "categorias_oficiales": {
+      "I": 16300,
+      "II": 20500,
+      "III": 47600,
+      "IV": 57100,
+      "V": 67200
+     },
+     "telepase": {
+      "auto": [
+       16300,
+       16300
+      ]
+     },
+     "manual": {
+      "auto": [
+       16300,
+       16300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "LA LIBERTAD": {
+     "categorias_oficiales": {
+      "I": 20400,
+      "II": 39500,
+      "III": 31600,
+      "IV": 52000,
+      "V": 76900,
+      "VI": 100900,
+      "VII": 115700
+     },
+     "telepase": {
+      "auto": [
+       20400,
+       20400
+      ]
+     },
+     "manual": {
+      "auto": [
+       20400,
+       20400
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "LA LIZAMA": {
+     "categorias_oficiales": {
+      "I": 20100,
+      "II": 24600,
+      "III": 30600,
+      "IV": 38700,
+      "V": 58900,
+      "VI": 73500,
+      "VII": 84900
+     },
+     "telepase": {
+      "auto": [
+       20100,
+       20100
+      ]
+     },
+     "manual": {
+      "auto": [
+       20100,
+       20100
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "LA LOMA": {
+     "categorias_oficiales": {
+      "I": 12500,
+      "II": 13700,
+      "III": 29700,
+      "IV": 38400,
+      "V": 43700
+     },
+     "telepase": {
+      "auto": [
+       12500,
+       12500
+      ]
+     },
+     "manual": {
+      "auto": [
+       12500,
+       12500
+      ]
+     },
+     "vigencia": "2026-01-20"
+    },
+    "LA PAZ": {
+     "categorias_oficiales": {
+      "I": 22000,
+      "II": 27300,
+      "III": 32000,
+      "IV": 45600,
+      "V": 64800,
+      "VI": 81300,
+      "VII": 93800
+     },
+     "telepase": {
+      "auto": [
+       22000,
+       22000
+      ]
+     },
+     "manual": {
+      "auto": [
+       22000,
+       22000
+      ]
+     },
+     "vigencia": "2024-01-16"
+    },
+    "LA PINTADA": {
+     "categorias_oficiales": {
+      "I": 23900,
+      "II": 28600,
+      "III": 28600,
+      "IV": 28600,
+      "V": 66600,
+      "VI": 83800,
+      "VII": 96300
+     },
+     "telepase": {
+      "auto": [
+       23900,
+       23900
+      ]
+     },
+     "manual": {
+      "auto": [
+       23900,
+       23900
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "LA RENTA": {
+     "categorias_oficiales": {
+      "I": 18200,
+      "II": 22200,
+      "III": 27700,
+      "IV": 35000,
+      "V": 53200,
+      "VI": 66500,
+      "VII": 76900
+     },
+     "telepase": {
+      "auto": [
+       18200,
+       18200
+      ]
+     },
+     "manual": {
+      "auto": [
+       18200,
+       18200
+      ]
+     },
+     "vigencia": "2024-01-16"
+    },
+    "LABERINTO": {
+     "categorias_oficiales": {
+      "I": 14700,
+      "II": 16900,
+      "III": 18700,
+      "IV": 24300,
+      "V": 38100,
+      "VI": 53400,
+      "VII": 60700
+     },
+     "telepase": {
+      "auto": [
+       14700,
+       14700
+      ]
+     },
+     "manual": {
+      "auto": [
+       14700,
+       14700
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "LAS PALMAS": {
+     "categorias_oficiales": {
+      "I": 13500,
+      "II": 16200,
+      "III": 16200,
+      "IV": 16200,
+      "V": 35700,
+      "VI": 47900,
+      "VII": 53700
+     },
+     "telepase": {
+      "auto": [
+       13500,
+       13500
+      ]
+     },
+     "manual": {
+      "auto": [
+       13500,
+       13500
+      ]
+     },
+     "vigencia": "2026-01-10"
+    },
+    "LOBOGUERRERO": {
+     "categorias_oficiales": {
+      "I": 12400,
+      "II": 13800,
+      "III": 33100,
+      "IV": 43300,
+      "V": 49100
+     },
+     "telepase": {
+      "auto": [
+       12400,
+       12400
+      ]
+     },
+     "manual": {
+      "auto": [
+       12400,
+       12400
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "LOS ACACIOS": {
+     "categorias_oficiales": {
+      "I": 9500,
+      "II": 13300,
+      "III": 13300,
+      "IV": 13300,
+      "V": 29700,
+      "VI": 38400,
+      "VII": 43700
+     },
+     "telepase": {
+      "auto": [
+       9500,
+       9500
+      ]
+     },
+     "manual": {
+      "auto": [
+       9500,
+       9500
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "LOS CAUCHOS": {
+     "categorias_oficiales": {
+      "I": 12600,
+      "II": 13700,
+      "III": 29200,
+      "IV": 37100,
+      "V": 41800
+     },
+     "telepase": {
+      "auto": [
+       12600,
+       12600
+      ]
+     },
+     "manual": {
+      "auto": [
+       12600,
+       12600
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "LOS PATIOS": {
+     "categorias_oficiales": {
+      "I": 14800,
+      "II": 23100,
+      "III": 35700,
+      "IV": 52300,
+      "V": 71700,
+      "VI": 72100
+     },
+     "telepase": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "manual": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "MACHETÁ": {
+     "categorias_oficiales": {
+      "I": 20400,
+      "II": 24800,
+      "III": 21200,
+      "IV": 24500,
+      "V": 42500,
+      "VI": 76800,
+      "VII": 89000
+     },
+     "telepase": {
+      "auto": [
+       20400,
+       20400
+      ]
+     },
+     "manual": {
+      "auto": [
+       20400,
+       20400
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "MANGUITOS": {
+     "categorias_oficiales": {
+      "I": 19700,
+      "II": 29100,
+      "III": 29100,
+      "IV": 29100,
+      "V": 52500,
+      "VI": 83400,
+      "VII": 96000
+     },
+     "telepase": {
+      "auto": [
+       19700,
+       19700
+      ]
+     },
+     "manual": {
+      "auto": [
+       19700,
+       19700
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "MARAHUACO": {
+     "categorias_oficiales": {
+      "I": 22200,
+      "II": 33300,
+      "III": 24400,
+      "IV": 42200,
+      "V": 131700,
+      "VI": 175900,
+      "VII": 195200
+     },
+     "telepase": {
+      "auto": [
+       22200,
+       22200
+      ]
+     },
+     "manual": {
+      "auto": [
+       22200,
+       22200
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "MATA DE CAÑA": {
+     "categorias_oficiales": {
+      "I": 19400,
+      "II": 28500,
+      "III": 28500,
+      "IV": 28500,
+      "V": 30300,
+      "VI": 44300,
+      "VII": 44400
+     },
+     "telepase": {
+      "auto": [
+       19400,
+       19400
+      ]
+     },
+     "manual": {
+      "auto": [
+       19400,
+       19400
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "MEDIACANOA": {
+     "categorias_oficiales": {
+      "I": 13200,
+      "II": 16100,
+      "III": 42600,
+      "IV": 55500,
+      "V": 64000
+     },
+     "telepase": {
+      "auto": [
+       13200,
+       13200
+      ]
+     },
+     "manual": {
+      "auto": [
+       13200,
+       13200
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "MORRISON": {
+     "categorias_oficiales": {
+      "I": 14800,
+      "II": 16100,
+      "III": 32900,
+      "IV": 42000,
+      "V": 47600
+     },
+     "telepase": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "manual": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "MUTATÁ": {
+     "categorias_oficiales": {
+      "I": 17400,
+      "II": 21800,
+      "III": 21800,
+      "IV": 21800,
+      "V": 51600,
+      "VI": 64600,
+      "VII": 74700
+     },
+     "telepase": {
+      "auto": [
+       17400,
+       17400
+      ]
+     },
+     "manual": {
+      "auto": [
+       17400,
+       17400
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "NARANJAL": {
+     "categorias_oficiales": {
+      "I": 17800,
+      "II": 46100,
+      "III": 34800,
+      "IV": 68300,
+      "V": 79400,
+      "VI": 91500,
+      "VII": 101600
+     },
+     "telepase": {
+      "auto": [
+       17800,
+       17800
+      ]
+     },
+     "manual": {
+      "auto": [
+       17800,
+       17800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "NEGUANJE": {
+     "categorias_oficiales": {
+      "I": 14800,
+      "II": 22900,
+      "III": 18400,
+      "IV": 29100,
+      "V": 42500,
+      "VI": 68300,
+      "VII": 86200
+     },
+     "telepase": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "manual": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "NEIVA": {
+     "categorias_oficiales": {
+      "I": 18900,
+      "II": 23400,
+      "III": 28900,
+      "IV": 36600,
+      "V": 55800,
+      "VI": 70000,
+      "VII": 81000
+     },
+     "telepase": {
+      "auto": [
+       18900,
+       18900
+      ]
+     },
+     "manual": {
+      "auto": [
+       18900,
+       18900
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "OCOA": {
+     "categorias_oficiales": {
+      "I": 15800,
+      "II": 30500,
+      "III": 23100,
+      "IV": 39900,
+      "V": 59000,
+      "VI": 77900,
+      "VII": 84700
+     },
+     "telepase": {
+      "auto": [
+       15800,
+       15800
+      ]
+     },
+     "manual": {
+      "auto": [
+       15800,
+       15800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "PAILITAS": {
+     "categorias_oficiales": {
+      "I": 14800,
+      "II": 16100,
+      "III": 32900,
+      "IV": 42000,
+      "V": 47600
+     },
+     "telepase": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "manual": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "PAMPLONITA": {
+     "categorias_oficiales": {
+      "I": 21800,
+      "II": 27100,
+      "III": 32200,
+      "IV": 45800,
+      "V": 64700,
+      "VI": 81500,
+      "VII": 94400
+     },
+     "telepase": {
+      "auto": [
+       21800,
+       21800
+      ]
+     },
+     "manual": {
+      "auto": [
+       21800,
+       21800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "PANDEQUESO": {
+     "categorias_oficiales": {
+      "I": 17700,
+      "II": 19700,
+      "III": 19700,
+      "IV": 19700,
+      "V": 41000,
+      "VI": 55500,
+      "VII": 60300
+     },
+     "telepase": {
+      "auto": [
+       17700,
+       17700
+      ]
+     },
+     "manual": {
+      "auto": [
+       17700,
+       17700
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "PAPIROS": {
+     "categorias_oficiales": {
+      "III": 11100,
+      "IV": 19500,
+      "V": 60900,
+      "VI": 81500,
+      "VII": 90500
+     },
+     "vigencia": "2026-01-16"
+    },
+    "PARAGUACHÓN": {
+     "categorias_oficiales": {
+      "I": 14800,
+      "II": 22900,
+      "III": 18400,
+      "IV": 29100,
+      "V": 42500,
+      "VI": 68300,
+      "VII": 86200
+     },
+     "telepase": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "manual": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "PASACABALLOS": {
+     "categorias_oficiales": {
+      "I": 12800,
+      "II": 13700,
+      "III": 29300,
+      "IV": 37900,
+      "V": 44100,
+      "VI": 44100,
+      "VII": 44100
+     },
+     "telepase": {
+      "auto": [
+       12800,
+       12800
+      ]
+     },
+     "manual": {
+      "auto": [
+       12800,
+       12800
+      ]
+     },
+     "vigencia": "2026-01-10"
+    },
+    "PASO LA TORRE": {
+     "categorias_oficiales": {
+      "I": 13200,
+      "II": 16100,
+      "III": 42600,
+      "IV": 55500,
+      "V": 64000
+     },
+     "telepase": {
+      "auto": [
+       13200,
+       13200
+      ]
+     },
+     "manual": {
+      "auto": [
+       13200,
+       13200
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "PAVAS": {
+     "categorias_oficiales": {
+      "I": 16200,
+      "II": 19300,
+      "III": 19300,
+      "IV": 19300,
+      "V": 47100,
+      "VI": 58900,
+      "VII": 68100
+     },
+     "telepase": {
+      "auto": [
+       16200,
+       16200
+      ]
+     },
+     "manual": {
+      "auto": [
+       16200,
+       16200
+      ]
+     },
+     "vigencia": "2026-01-09"
+    },
+    "PIPIRAL": {
+     "categorias_oficiales": {
+      "I": 29100,
+      "II": 57000,
+      "III": 39100,
+      "IV": 68300,
+      "V": 74300,
+      "VI": 113800,
+      "VII": 147000
+     },
+     "telepase": {
+      "auto": [
+       29100,
+       29100
+      ]
+     },
+     "manual": {
+      "auto": [
+       29100,
+       29100
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "PRIMAVERA": {
+     "categorias_oficiales": {
+      "I": 12600,
+      "II": 13700,
+      "III": 29200,
+      "IV": 37100,
+      "V": 41800
+     },
+     "telepase": {
+      "auto": [
+       12600,
+       12600
+      ]
+     },
+     "manual": {
+      "auto": [
+       12600,
+       12600
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "PUENTE AMARILLO": {
+     "categorias_oficiales": {
+      "I": 5800,
+      "II": 19200,
+      "III": 12300,
+      "IV": 19200,
+      "V": 27200,
+      "VI": 36300,
+      "VII": 41100
+     },
+     "telepase": {
+      "auto": [
+       5800,
+       5800
+      ]
+     },
+     "manual": {
+      "auto": [
+       5800,
+       5800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "PUENTE PLATO": {
+     "categorias_oficiales": {
+      "I": 14100,
+      "II": 17500,
+      "III": 36800,
+      "IV": 52200,
+      "V": 55700
+     },
+     "telepase": {
+      "auto": [
+       14100,
+       14100
+      ]
+     },
+     "manual": {
+      "auto": [
+       14100,
+       14100
+      ]
+     },
+     "vigencia": "2026-01-20"
+    },
+    "PUERTO BERRÍO": {
+     "categorias_oficiales": {
+      "I": 15000,
+      "II": 17500,
+      "III": 17500,
+      "IV": 17500,
+      "V": 38700,
+      "VI": 48700,
+      "VII": 55600
+     },
+     "telepase": {
+      "auto": [
+       15000,
+       15000
+      ]
+     },
+     "manual": {
+      "auto": [
+       15000,
+       15000
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "PUERTO COLOMBIA": {
+     "categorias_oficiales": {
+      "I": 20700,
+      "II": 31200,
+      "III": 22700,
+      "IV": 39600,
+      "V": 123200,
+      "VI": 164000,
+      "VII": 182200
+     },
+     "telepase": {
+      "auto": [
+       20700,
+       20700
+      ]
+     },
+     "manual": {
+      "auto": [
+       20700,
+       20700
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "PURGATORIO": {
+     "categorias_oficiales": {
+      "I": 19700,
+      "II": 29100,
+      "III": 29100,
+      "IV": 29100,
+      "V": 52500,
+      "VI": 83400,
+      "VII": 96000
+     },
+     "telepase": {
+      "auto": [
+       19700,
+       19700
+      ]
+     },
+     "manual": {
+      "auto": [
+       19700,
+       19700
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "RANCHO CAMACHO": {
+     "categorias_oficiales": {
+      "I": 19074,
+      "II": 23374,
+      "III": 29074,
+      "IV": 36774,
+      "V": 55974,
+      "VI": 69874,
+      "VII": 80774
+     },
+     "telepase": {
+      "auto": [
+       19074,
+       19074
+      ]
+     },
+     "manual": {
+      "auto": [
+       19074,
+       19074
+      ]
+     },
+     "vigencia": "2025-01-16"
+    },
+    "RIO GRANDE": {
+     "categorias_oficiales": {
+      "I": 13300,
+      "II": 14900,
+      "III": 14900,
+      "IV": 14900,
+      "V": 30400,
+      "VI": 39100,
+      "VII": 43900
+     },
+     "telepase": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "manual": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "ROZO": {
+     "categorias_oficiales": {
+      "I": 13200,
+      "II": 16100,
+      "III": 42600,
+      "IV": 55500,
+      "V": 64000
+     },
+     "telepase": {
+      "auto": [
+       13200,
+       13200
+      ]
+     },
+     "manual": {
+      "auto": [
+       13200,
+       13200
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "SABANAGRANDE": {
+     "categorias_oficiales": {
+      "I": 13300,
+      "II": 14400,
+      "III": 31500,
+      "IV": 41200,
+      "V": 47500
+     },
+     "telepase": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "manual": {
+      "auto": [
+       13300,
+       13300
+      ]
+     },
+     "vigencia": "2026-01-10"
+    },
+    "SAN BERNARDO": {
+     "categorias_oficiales": {
+      "I": 16200,
+      "II": 19300,
+      "III": 19300,
+      "IV": 19300,
+      "V": 47100,
+      "VI": 58900,
+      "VII": 68100
+     },
+     "telepase": {
+      "auto": [
+       16200,
+       16200
+      ]
+     },
+     "manual": {
+      "auto": [
+       16200,
+       16200
+      ]
+     },
+     "vigencia": "2026-01-09"
+    },
+    "SAN CARLOS": {
+     "categorias_oficiales": {
+      "I": 19400,
+      "II": 28500,
+      "III": 28500,
+      "IV": 28500,
+      "V": 30300,
+      "VI": 44300,
+      "VII": 44400
+     },
+     "telepase": {
+      "auto": [
+       19400,
+       19400
+      ]
+     },
+     "manual": {
+      "auto": [
+       19400,
+       19400
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "SAN LUIS DE GACENO": {
+     "categorias_oficiales": {
+      "I": 20300,
+      "II": 24900,
+      "III": 31700,
+      "IV": 39900,
+      "V": 61500,
+      "VI": 76600,
+      "VII": 89000
+     },
+     "telepase": {
+      "auto": [
+       20300,
+       20300
+      ]
+     },
+     "manual": {
+      "auto": [
+       20300,
+       20300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "SAN ONOFRE": {
+     "categorias_oficiales": {
+      "I": 19700,
+      "II": 29100,
+      "III": 29100,
+      "IV": 29100,
+      "V": 52500,
+      "VI": 83400,
+      "VII": 96000
+     },
+     "telepase": {
+      "auto": [
+       19700,
+       19700
+      ]
+     },
+     "manual": {
+      "auto": [
+       19700,
+       19700
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "SAN PEDRO": {
+     "categorias_oficiales": {
+      "I": 20300,
+      "II": 24900,
+      "III": 32400,
+      "IV": 40900,
+      "V": 62700,
+      "VI": 78400,
+      "VII": 90900
+     },
+     "telepase": {
+      "auto": [
+       20300,
+       20300
+      ]
+     },
+     "manual": {
+      "auto": [
+       20300,
+       20300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "SANTA ISABEL": {
+     "categorias_oficiales": {
+      "I": 17500,
+      "II": 21800,
+      "III": 21800,
+      "IV": 21800,
+      "V": 51700,
+      "VI": 64700,
+      "VII": 74700
+     },
+     "telepase": {
+      "auto": [
+       17500,
+       17500
+      ]
+     },
+     "manual": {
+      "auto": [
+       17500,
+       17500
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "SANTÁGUEDA": {
+     "categorias_oficiales": {
+      "I": 16200,
+      "II": 19300,
+      "III": 19300,
+      "IV": 19300,
+      "V": 47100,
+      "VI": 58900,
+      "VII": 68100
+     },
+     "telepase": {
+      "auto": [
+       16200,
+       16200
+      ]
+     },
+     "manual": {
+      "auto": [
+       16200,
+       16200
+      ]
+     },
+     "vigencia": "2026-01-09"
+    },
+    "SIBERIA": {
+     "categorias_oficiales": {
+      "I": 15300,
+      "II": 21800,
+      "III": 18300,
+      "IV": 24400,
+      "V": 42600,
+      "VI": 57000,
+      "VII": 62700,
+      "VIII": 8100,
+      "IX": 11100
+     },
+     "telepase": {
+      "auto": [
+       15300,
+       15300
+      ]
+     },
+     "manual": {
+      "auto": [
+       15300,
+       15300
+      ]
+     },
+     "vigencia": "2025-09-22"
+    },
+    "SOPÓ": {
+     "categorias_oficiales": {
+      "I": 14800,
+      "II": 23100,
+      "III": 38800,
+      "IV": 57300,
+      "V": 78000,
+      "VI": 78800
+     },
+     "telepase": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "manual": {
+      "auto": [
+       14800,
+       14800
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "SUPIA": {
+     "categorias_oficiales": {
+      "I": 17500,
+      "II": 21800,
+      "III": 21800,
+      "IV": 21800,
+      "V": 51700,
+      "VI": 64700,
+      "VII": 74700
+     },
+     "telepase": {
+      "auto": [
+       17500,
+       17500
+      ]
+     },
+     "manual": {
+      "auto": [
+       17500,
+       17500
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "TARAPACÁ I": {
+     "categorias_oficiales": {
+      "I": 17800,
+      "II": 23500,
+      "III": 23500,
+      "IV": 23500,
+      "V": 58000,
+      "VI": 76900,
+      "VII": 85900
+     },
+     "telepase": {
+      "auto": [
+       17800,
+       17800
+      ]
+     },
+     "manual": {
+      "auto": [
+       17800,
+       17800
+      ]
+     },
+     "vigencia": "2026-01-09"
+    },
+    "TARAPACÁ II": {
+     "categorias_oficiales": {
+      "I": 17800,
+      "II": 23500,
+      "III": 23500,
+      "IV": 23500,
+      "V": 58000,
+      "VI": 76900,
+      "VII": 85900
+     },
+     "telepase": {
+      "auto": [
+       17800,
+       17800
+      ]
+     },
+     "manual": {
+      "auto": [
+       17800,
+       17800
+      ]
+     },
+     "vigencia": "2026-01-09"
+    },
+    "TRAPICHE": {
+     "categorias_oficiales": {
+      "I": 20300,
+      "II": 22400,
+      "III": 23800,
+      "IV": 34500,
+      "V": 59800,
+      "VI": 75000,
+      "VII": 86500
+     },
+     "telepase": {
+      "auto": [
+       20300,
+       20300
+      ]
+     },
+     "manual": {
+      "auto": [
+       20300,
+       20300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "TUCURINCA": {
+     "categorias_oficiales": {
+      "I": 13100,
+      "II": 14300,
+      "III": 33500,
+      "IV": 43900,
+      "V": 50900
+     },
+     "telepase": {
+      "auto": [
+       13100,
+       13100
+      ]
+     },
+     "manual": {
+      "auto": [
+       13100,
+       13100
+      ]
+     },
+     "vigencia": "2026-01-20"
+    },
+    "TURBACO": {
+     "categorias_oficiales": {
+      "I": 5800,
+      "II": 12900,
+      "III": 15900,
+      "IV": 15900,
+      "V": 15900
+     },
+     "telepase": {
+      "auto": [
+       5800,
+       5800
+      ]
+     },
+     "manual": {
+      "auto": [
+       5800,
+       5800
+      ]
+     },
+     "vigencia": "2026-01-10"
+    },
+    "TUTA": {
+     "categorias_oficiales": {
+      "I": 12400,
+      "II": 13700,
+      "III": 35400,
+      "IV": 43700,
+      "V": 51400
+     },
+     "telepase": {
+      "auto": [
+       12400,
+       12400
+      ]
+     },
+     "manual": {
+      "auto": [
+       12400,
+       12400
+      ]
+     },
+     "vigencia": "2026-01-15"
+    },
+    "UNISABANA": {
+     "categorias_oficiales": {
+      "V": 54500,
+      "VI": 68900,
+      "VII": 75900
+     },
+     "vigencia": "2026-01-16"
+    },
+    "VALENCIA": {
+     "categorias_oficiales": {
+      "I": 12500,
+      "II": 13700,
+      "III": 29700,
+      "IV": 38400,
+      "V": 43700
+     },
+     "telepase": {
+      "auto": [
+       12500,
+       12500
+      ]
+     },
+     "manual": {
+      "auto": [
+       12500,
+       12500
+      ]
+     },
+     "vigencia": "2026-01-20"
+    },
+    "VEGACHÍ": {
+     "categorias_oficiales": {
+      "I": 17500,
+      "II": 21800,
+      "III": 21800,
+      "IV": 21800,
+      "V": 51700,
+      "VI": 64800,
+      "VII": 74700
+     },
+     "telepase": {
+      "auto": [
+       17500,
+       17500
+      ]
+     },
+     "manual": {
+      "auto": [
+       17500,
+       17500
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "VERACRUZ": {
+     "categorias_oficiales": {
+      "I": 10400,
+      "II": 20700,
+      "III": 13300,
+      "IV": 20700,
+      "V": 29600,
+      "VI": 39800,
+      "VII": 44600
+     },
+     "telepase": {
+      "auto": [
+       10400,
+       10400
+      ]
+     },
+     "manual": {
+      "auto": [
+       10400,
+       10400
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "VILLA RICA": {
+     "categorias_oficiales": {
+      "I": 13200,
+      "II": 16100,
+      "III": 42600,
+      "IV": 55500,
+      "V": 64000
+     },
+     "telepase": {
+      "auto": [
+       13200,
+       13200
+      ]
+     },
+     "manual": {
+      "auto": [
+       13200,
+       13200
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "YUCAO": {
+     "categorias_oficiales": {
+      "I": 8300,
+      "II": 8800,
+      "III": 9900,
+      "IV": 9900,
+      "V": 36700,
+      "VI": 45300,
+      "VII": 51200
+     },
+     "telepase": {
+      "auto": [
+       8300,
+       8300
+      ]
+     },
+     "manual": {
+      "auto": [
+       8300,
+       8300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "ZAMBITO": {
+     "categorias_oficiales": {
+      "I": 16300,
+      "II": 20500,
+      "III": 47600,
+      "IV": 57100,
+      "V": 67200
+     },
+     "telepase": {
+      "auto": [
+       16300,
+       16300
+      ]
+     },
+     "manual": {
+      "auto": [
+       16300,
+       16300
+      ]
+     },
+     "vigencia": "2026-01-16"
+    },
+    "ZARAGOZA": {
+     "categorias_oficiales": {
+      "I": 17600,
+      "II": 21800,
+      "III": 21800,
+      "IV": 21800,
+      "V": 51600,
+      "VI": 64700,
+      "VII": 74600
+     },
+     "telepase": {
+      "auto": [
+       17600,
+       17600
+      ]
+     },
+     "manual": {
+      "auto": [
+       17600,
+       17600
+      ]
+     },
+     "vigencia": "2026-01-16"
+    }
+   },
+   "pais": "CO"
   }
  },
  "plazas": [
@@ -3573,7 +10344,2671 @@
    "empresa": "CVU",
    "tramo": "Uruguay",
    "tipo": "cabina"
+  },
+  {
+   "nombre": "Penco",
+   "lat": -36.757901,
+   "lon": -73.011269,
+   "radio": 700,
+   "empresa": "CL-RUTA-INTERPORTUARIA",
+   "tramo": "Columna 1",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Colón",
+   "lat": -36.732743,
+   "lon": -73.088165,
+   "radio": 700,
+   "empresa": "CL-RUTA-INTERPORTUARIA",
+   "tramo": "Columna 1",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Alessandri",
+   "lat": -36.769319,
+   "lon": -73.050679,
+   "radio": 700,
+   "empresa": "CL-RUTA-INTERPORTUARIA",
+   "tramo": "Columna 1",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Río Frío",
+   "lat": 3.995509,
+   "lon": -76.328497,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Río Frío",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "San Clemente",
+   "lat": 5.332438,
+   "lon": -75.775603,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "San Clemente",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Los Curos",
+   "lat": 6.825634,
+   "lon": -72.999482,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Los Curos",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Casablanca",
+   "lat": 5.104394,
+   "lon": -73.912828,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Casablanca",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Sáchica",
+   "lat": 5.557685,
+   "lon": -73.501158,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Sáchica",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Arcabuco",
+   "lat": 5.795025,
+   "lon": -73.47762,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Arcabuco",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "El Crucero",
+   "lat": 5.631279,
+   "lon": -72.921252,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "El Crucero",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Curití",
+   "lat": 6.617696,
+   "lon": -73.080309,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Curití",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Oiba",
+   "lat": 6.178236,
+   "lon": -73.33329,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Oiba",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cocorná",
+   "lat": 6.124607,
+   "lon": -75.24304,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Cocorná",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Puerto Triunfo",
+   "lat": 5.872599,
+   "lon": -74.611395,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Puerto Triunfo",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Saboyá",
+   "lat": 5.727865,
+   "lon": -73.744666,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Saboyá",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Bicentenario",
+   "lat": 5.203103,
+   "lon": -74.684617,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Bicentenario",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "EL PLACER",
+   "lat": 0.0,
+   "lon": 0.0,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "EL PLACER",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "ZARAGOZA",
+   "lat": 0.0,
+   "lon": 0.0,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "ZARAGOZA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cerritos II",
+   "lat": 4.793408,
+   "lon": -75.859963,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Cerritos II",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Toro",
+   "lat": 4.665425,
+   "lon": -76.049532,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Toro",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cano",
+   "lat": 1.425456,
+   "lon": -77.284452,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Cano",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "El Bordo",
+   "lat": 2.188949,
+   "lon": -76.851165,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "El Bordo",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "LA PARADA",
+   "lat": 7.867456,
+   "lon": -72.484165,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "LA PARADA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Platanal",
+   "lat": 8.231238,
+   "lon": -73.498572,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Platanal",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Río Blanco",
+   "lat": 7.554331,
+   "lon": -73.231108,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Río Blanco",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Los Llanos",
+   "lat": 6.830502,
+   "lon": -75.46814,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Los Llanos",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Tarazá",
+   "lat": 7.589189,
+   "lon": -75.393643,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Tarazá",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Carimagua",
+   "lat": 8.604856,
+   "lon": -75.484821,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Carimagua",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Rincón Hondo",
+   "lat": 9.431032,
+   "lon": -73.473552,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Rincón Hondo",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "San Diego",
+   "lat": 10.121726,
+   "lon": -73.238638,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "San Diego",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "San Juan",
+   "lat": 10.800016,
+   "lon": -72.97554,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "San Juan",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "SUPIA",
+   "lat": 0.0,
+   "lon": 0.0,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "SUPIA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "GUAICO",
+   "lat": 5.105675,
+   "lon": 5.105675,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "GUAICO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "ARMERO",
+   "lat": 4.958352,
+   "lon": 4.958352,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "ARMERO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "IRRA",
+   "lat": 5.257732,
+   "lon": 5.257732,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "IRRA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "GALAPA 02",
+   "lat": 10.882175,
+   "lon": 10.882175,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "GALAPA 02",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "COCORA",
+   "lat": 4.405747,
+   "lon": 4.405747,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "COCORA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "LA LIZAMA",
+   "lat": 7.083468,
+   "lon": 7.083468,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "LA LIZAMA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CIRILO",
+   "lat": 8.210028,
+   "lon": 8.210028,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CIRILO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "JUAN MINA",
+   "lat": 10.934382,
+   "lon": 10.934382,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "JUAN MINA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Sopó",
+   "lat": 4.841656,
+   "lon": 4.841656,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Sopó",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "BRISAS",
+   "lat": 5.425929,
+   "lon": 5.425929,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "BRISAS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "LEBRIJA",
+   "lat": 7.103127,
+   "lon": 7.103127,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "LEBRIJA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "RÍONEGRO",
+   "lat": 7.243268,
+   "lon": 7.243268,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "RÍONEGRO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "SAN CARLOS",
+   "lat": 8.77266,
+   "lon": 8.77266,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "SAN CARLOS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "GUATAQUÍ",
+   "lat": 4.563382,
+   "lon": 4.563382,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "GUATAQUÍ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "ROZO",
+   "lat": 3.643852,
+   "lon": 3.643852,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "ROZO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "VILLARICA",
+   "lat": 3.151233,
+   "lon": 3.151233,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "VILLARICA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "MEDIACANOA",
+   "lat": 3.759986,
+   "lon": 3.759986,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "MEDIACANOA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CERRITO",
+   "lat": 3.713096,
+   "lon": 3.713096,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CERRITO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CENCAR",
+   "lat": 3.557383,
+   "lon": 3.557383,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CENCAR",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PASO DE LA TORRE",
+   "lat": 3.627598,
+   "lon": 3.627598,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PASO DE LA TORRE",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CIAT",
+   "lat": 3.52354,
+   "lon": 3.52354,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CIAT",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "ESTAMBUL",
+   "lat": 3.500722,
+   "lon": 3.500722,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "ESTAMBUL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CORREDOR PORTUARIO",
+   "lat": 10.957824,
+   "lon": 10.957824,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CORREDOR PORTUARIO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Pasacaballos",
+   "lat": 10.243425,
+   "lon": 10.243425,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Pasacaballos",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Los Garzones II",
+   "lat": 8.827956,
+   "lon": -75.836952,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Los Garzones II",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "NARANJAL",
+   "lat": 4.285107,
+   "lon": 4.285107,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "NARANJAL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "MORRISON",
+   "lat": 8.092349,
+   "lon": 8.092349,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "MORRISON",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CHINAUTA",
+   "lat": 4.269378,
+   "lon": 4.269378,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CHINAUTA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "LA URIBE",
+   "lat": 4.252468,
+   "lon": 4.252468,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "LA URIBE",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CAMBAO",
+   "lat": 4.94629,
+   "lon": 4.94629,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CAMBAO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "ALVARADO",
+   "lat": 4.503235,
+   "lon": 4.503235,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "ALVARADO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "LOBOGUERRERO",
+   "lat": 3.76297,
+   "lon": 3.76297,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "LOBOGUERRERO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "MANGUITOS",
+   "lat": 8.301572,
+   "lon": 8.301572,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "MANGUITOS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Río Bogotá",
+   "lat": 4.698591,
+   "lon": -74.179112,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Río Bogotá",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "BOQUERÓN II",
+   "lat": 4.454584,
+   "lon": 4.454584,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "BOQUERÓN II",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "IRACÁ",
+   "lat": 3.633043,
+   "lon": 3.633043,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "IRACÁ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Los Garzones I",
+   "lat": 8.84221,
+   "lon": -75.824447,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Los Garzones I",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "El Picacho",
+   "lat": 7.107994,
+   "lon": -72.968984,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "El Picacho",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "EL CORZO",
+   "lat": 4.748679,
+   "lon": -74.291122,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "EL CORZO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "NIQUÍA",
+   "lat": 6.345101,
+   "lon": 6.345101,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "NIQUÍA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PARAGUACHÓN",
+   "lat": 11.367603,
+   "lon": 11.367603,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PARAGUACHÓN",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "GUAYABAL",
+   "lat": 4.883413,
+   "lon": 4.883413,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "GUAYABAL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CISNEROS",
+   "lat": 6.53633,
+   "lon": 6.53633,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CISNEROS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PAVAS (TRINIDAD I)",
+   "lat": 5.027053,
+   "lon": 5.027053,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PAVAS (TRINIDAD I)",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "SAN PEDRO",
+   "lat": 4.678586,
+   "lon": 4.678586,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "SAN PEDRO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PUERTO BERRÍO",
+   "lat": 6.49665,
+   "lon": 6.49665,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PUERTO BERRÍO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "ANDES",
+   "lat": 4.822679,
+   "lon": 4.822679,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "ANDES",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CALAMAR",
+   "lat": 10.208127,
+   "lon": 10.208127,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CALAMAR",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "SUPÍA",
+   "lat": 5.391598,
+   "lon": 5.391598,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "SUPÍA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "EL PATÁ",
+   "lat": 3.39381,
+   "lon": 3.39381,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "EL PATÁ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "LA APARTADA",
+   "lat": 8.031281,
+   "lon": 8.031281,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "LA APARTADA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "SIBERIA",
+   "lat": 4.78036,
+   "lon": 4.78036,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "SIBERIA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PUENTE PLATO",
+   "lat": 9.791366,
+   "lon": 9.791366,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PUENTE PLATO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "HONDA",
+   "lat": 5.201507,
+   "lon": 5.201507,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "HONDA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PUERTO COLOMBIA",
+   "lat": 10.967563,
+   "lon": 10.967563,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PUERTO COLOMBIA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "MATA DE CAÑA",
+   "lat": 9.091426,
+   "lon": 9.091426,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "MATA DE CAÑA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "AGUAS NEGRAS",
+   "lat": 6.645326,
+   "lon": 6.645326,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "AGUAS NEGRAS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "ALBARRACÍN",
+   "lat": 5.290461,
+   "lon": 5.290461,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "ALBARRACÍN",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CAIMANERA",
+   "lat": 9.465624,
+   "lon": 9.465624,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CAIMANERA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "QUIEBRA DE VELEZ",
+   "lat": 5.094251,
+   "lon": 5.094251,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "QUIEBRA DE VELEZ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Las Palmas",
+   "lat": 6.150673,
+   "lon": 6.150673,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Las Palmas",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "LOS ACACIOS",
+   "lat": 7.721382,
+   "lon": 7.721382,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "LOS ACACIOS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "SANTAGUEDA",
+   "lat": 5.048648,
+   "lon": 5.048648,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "SANTAGUEDA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "BETANIA",
+   "lat": 3.972041,
+   "lon": 3.972041,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "BETANIA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PUENTE AMARILLO",
+   "lat": 4.194142,
+   "lon": 4.194142,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PUENTE AMARILLO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CHICORAL",
+   "lat": 4.245454,
+   "lon": 4.245454,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CHICORAL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "LA LIBERTAD",
+   "lat": 4.05686,
+   "lon": 4.05686,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "LA LIBERTAD",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PURGATORIO",
+   "lat": 8.630659,
+   "lon": 8.630659,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PURGATORIO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "ZAMBITO",
+   "lat": 6.294714,
+   "lon": 6.294714,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "ZAMBITO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "EL PLACER 2",
+   "lat": 1.087284,
+   "lon": 1.087284,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "EL PLACER 2",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Gambote",
+   "lat": 10.136133,
+   "lon": 10.136133,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Gambote",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "TUCUNICA",
+   "lat": 10.608947,
+   "lon": 10.608947,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "TUCUNICA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PUBENZA",
+   "lat": 4.403316,
+   "lon": 4.403316,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PUBENZA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "LA TEBAIDA",
+   "lat": 4.744624,
+   "lon": 4.744624,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "LA TEBAIDA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "BOQUERÓN I",
+   "lat": 4.452543,
+   "lon": 4.452543,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "BOQUERÓN I",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "LA HEROICA",
+   "lat": 10.342344,
+   "lon": 10.342344,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "LA HEROICA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "MARAHUACO",
+   "lat": 10.574535,
+   "lon": 10.574535,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "MARAHUACO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "LA ESTRELLA",
+   "lat": 5.125519,
+   "lon": 5.125519,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "LA ESTRELLA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PAJARITO",
+   "lat": 6.331802,
+   "lon": 6.331802,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PAJARITO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "JALISCO",
+   "lat": 4.901356,
+   "lon": 4.901356,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "JALISCO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "TARAPACÁ II",
+   "lat": 4.950099,
+   "lon": 4.950099,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "TARAPACÁ II",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "SAN MIGUEL",
+   "lat": 4.444165,
+   "lon": 4.444165,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "SAN MIGUEL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "NUEVO SALTO",
+   "lat": 4.581542,
+   "lon": 4.581542,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "NUEVO SALTO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "SAN PEDRO",
+   "lat": 4.580989,
+   "lon": 4.580989,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "SAN PEDRO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "MONDOÑEDO",
+   "lat": 4.638242,
+   "lon": 4.638242,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "MONDOÑEDO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "RAMAL",
+   "lat": 4.627165,
+   "lon": 4.627165,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "RAMAL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PIPIRAL",
+   "lat": 4.201095,
+   "lon": 4.201095,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PIPIRAL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Turbaco",
+   "lat": 10.356975,
+   "lon": 10.356975,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Turbaco",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "BAZURTO  (MANGA)",
+   "lat": 10.406785,
+   "lon": 10.406785,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "BAZURTO  (MANGA)",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CEBALLOS",
+   "lat": 10.383016,
+   "lon": 10.383016,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CEBALLOS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "SANTA ELENA",
+   "lat": 6.179659,
+   "lon": 6.179659,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "SANTA ELENA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CABILDO",
+   "lat": 6.395797,
+   "lon": 6.395797,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CABILDO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "ABURRA",
+   "lat": 6.29302,
+   "lon": 6.29302,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "ABURRA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CASETABLA",
+   "lat": 4.112655,
+   "lon": 4.112655,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CASETABLA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Sabanagrande",
+   "lat": 10.799582,
+   "lon": 10.799582,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Sabanagrande",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "FUSCA",
+   "lat": 4.875816,
+   "lon": 4.875816,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "FUSCA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "TARAPACÁ I",
+   "lat": 4.939047,
+   "lon": 4.939047,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "TARAPACÁ I",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "SAN BERNARDO (TRINIDAD ll)",
+   "lat": 5.052206,
+   "lon": 5.052206,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "SAN BERNARDO (TRINIDAD ll)",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CAIQUEROS",
+   "lat": 5.06547,
+   "lon": 5.06547,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CAIQUEROS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Las Flores",
+   "lat": 9.318847,
+   "lon": -75.320036,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Las Flores",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CIRCASIA",
+   "lat": 4.698356,
+   "lon": 4.698356,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CIRCASIA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "NEGUANJE",
+   "lat": 11.253129,
+   "lon": 11.253129,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "NEGUANJE",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "UNISABANA",
+   "lat": 4.863675,
+   "lon": 4.863675,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "UNISABANA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "YUCAO",
+   "lat": 4.351317,
+   "lon": 4.351317,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "YUCAO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Guarne",
+   "lat": 6.327898,
+   "lon": 6.327898,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Guarne",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "LOS CAUCHOS",
+   "lat": 2.785584,
+   "lon": 2.785584,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "LOS CAUCHOS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PRIMAVERA",
+   "lat": 5.968901,
+   "lon": 5.968901,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PRIMAVERA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PAPIROS",
+   "lat": 11.0127,
+   "lon": 11.0127,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PAPIROS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "NEIVA",
+   "lat": 2.977798,
+   "lon": 2.977798,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "NEIVA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "OCOA",
+   "lat": 4.026246,
+   "lon": 4.026246,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "OCOA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "El Korán",
+   "lat": 5.497132,
+   "lon": -74.613481,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "El Korán",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Los Patios",
+   "lat": 4.663725,
+   "lon": 4.663725,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Los Patios",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Cabaña",
+   "lat": 4.809532,
+   "lon": 4.809532,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "La Cabaña",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "EL CARMEN",
+   "lat": 9.6813,
+   "lon": 9.6813,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "EL CARMEN",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "ACAPULCO",
+   "lat": 4.999049,
+   "lon": 4.999049,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "ACAPULCO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "EL EBANAL",
+   "lat": 11.276217,
+   "lon": 11.276217,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "EL EBANAL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "FLANDES",
+   "lat": 4.192173,
+   "lon": 4.192173,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "FLANDES",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "LAUREANO GÓMEZ",
+   "lat": 10.978719,
+   "lon": 10.978719,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "LAUREANO GÓMEZ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "VERACRUZ",
+   "lat": 4.261064,
+   "lon": 4.261064,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "VERACRUZ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "TASAJERA",
+   "lat": 10.977188,
+   "lon": 10.977188,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "TASAJERA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "COROZAL",
+   "lat": 4.40796,
+   "lon": 4.40796,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "COROZAL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PANDEQUESO",
+   "lat": 6.477998,
+   "lon": 6.477998,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PANDEQUESO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CEDROS",
+   "lat": 8.819768,
+   "lon": 8.819768,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CEDROS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "EL DIFÍCIL",
+   "lat": 9.831147,
+   "lon": 9.831147,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "EL DIFÍCIL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "EL ROBLE",
+   "lat": 5.031299,
+   "lon": 5.031299,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "EL ROBLE",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "AMAGÁ",
+   "lat": 6.046954,
+   "lon": 6.046954,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "AMAGÁ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "SAN ONOFRE",
+   "lat": 9.863519,
+   "lon": 9.863519,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "SAN ONOFRE",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Esperanza",
+   "lat": 9.430745,
+   "lon": -75.435839,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "La Esperanza",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "ALTO PINO",
+   "lat": 11.444874,
+   "lon": 11.444874,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "ALTO PINO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "ALTAMIRA",
+   "lat": 2.142914,
+   "lon": 2.142914,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "ALTAMIRA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CHUSACÁ",
+   "lat": 4.547766,
+   "lon": 4.547766,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CHUSACÁ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "GUALANDAY",
+   "lat": 4.300429,
+   "lon": 4.300429,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "GUALANDAY",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "TUTA",
+   "lat": 5.656897,
+   "lon": 5.656897,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "TUTA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "TRAPICHE",
+   "lat": 6.399637,
+   "lon": 6.399637,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "TRAPICHE",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PINTADA",
+   "lat": 5.749465,
+   "lon": 5.749465,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PINTADA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "MACHETÁ",
+   "lat": 5.077263,
+   "lon": 5.077263,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "MACHETÁ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "EL COPEY",
+   "lat": 10.060363,
+   "lon": 10.060363,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "EL COPEY",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "CORRALITO DE PIEDRA",
+   "lat": 10.309659,
+   "lon": 10.309659,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "CORRALITO DE PIEDRA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Galapa",
+   "lat": 10.837545,
+   "lon": 10.837545,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Galapa",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Bayunca",
+   "lat": 10.546969,
+   "lon": 10.546969,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "Bayunca",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "PAILITAS",
+   "lat": 8.852804,
+   "lon": 8.852804,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "PAILITAS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "LA LOMA",
+   "lat": 9.638017,
+   "lon": 9.638017,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "LA LOMA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "LA GÓMEZ",
+   "lat": 7.397176,
+   "lon": 7.397176,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "LA GÓMEZ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "VALENCIA",
+   "lat": 10.259706,
+   "lon": 10.259706,
+   "radio": 700,
+   "empresa": "CO-INVIAS",
+   "tramo": "VALENCIA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Aburrá",
+   "lat": 6.29302,
+   "lon": 6.29302,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "ABURRÁ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Acapulco",
+   "lat": 4.999049,
+   "lon": 4.999049,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "ACAPULCO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Aguas Negras",
+   "lat": 6.645326,
+   "lon": 6.645326,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "AGUAS NEGRAS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Albarracín",
+   "lat": 5.290461,
+   "lon": 5.290461,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "ALBARRACÍN",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Altamira",
+   "lat": 2.142914,
+   "lon": 2.142914,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "ALTAMIRA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Alto Pino",
+   "lat": 11.444874,
+   "lon": 11.444874,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "ALTO PINO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Alvarado",
+   "lat": 4.503235,
+   "lon": 4.503235,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "ALVARADO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Amagá",
+   "lat": 6.046954,
+   "lon": 6.046954,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "AMAGÁ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Andes",
+   "lat": 4.822679,
+   "lon": 4.822679,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "ANDES",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Armero",
+   "lat": 4.958352,
+   "lon": 4.958352,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "ARMERO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Bayunca",
+   "lat": 10.546969,
+   "lon": 10.546969,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "BAYUNCA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Boquerón I",
+   "lat": 4.452543,
+   "lon": 4.452543,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "BOQUERÓN I",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Boquerón Ii",
+   "lat": 4.454584,
+   "lon": 4.454584,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "BOQUERÓN II",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Brisas",
+   "lat": 5.425929,
+   "lon": 5.425929,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "BRISAS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cabildo",
+   "lat": 6.395797,
+   "lon": 6.395797,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CABILDO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Caimanera",
+   "lat": 9.465624,
+   "lon": 9.465624,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CAIMANERA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Caiquero",
+   "lat": 5.065452,
+   "lon": -74.41434,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CAIQUERO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Calamar",
+   "lat": 10.208127,
+   "lon": 10.208127,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CALAMAR",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cambao",
+   "lat": 4.94629,
+   "lon": 4.94629,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CAMBAO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Casetabla",
+   "lat": 4.112655,
+   "lon": 4.112655,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CASETABLA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cedros",
+   "lat": 8.819768,
+   "lon": 8.819768,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CEDROS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cencar",
+   "lat": 3.557383,
+   "lon": 3.557383,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CENCAR",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cerrito",
+   "lat": 3.713096,
+   "lon": 3.713096,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CERRITO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Chaparral",
+   "lat": 7.719625,
+   "lon": -76.66852,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CHAPARRAL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Chicoral",
+   "lat": 4.245454,
+   "lon": 4.245454,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CHICORAL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Chinauta",
+   "lat": 4.269378,
+   "lon": 4.269378,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CHINAUTA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Chusaca",
+   "lat": 4.547766,
+   "lon": 4.547766,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CHUSACA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Ciat",
+   "lat": 3.52354,
+   "lon": 3.52354,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CIAT",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Circasia",
+   "lat": 4.698356,
+   "lon": 4.698356,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CIRCASIA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cirilo",
+   "lat": 8.210028,
+   "lon": 8.210028,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CIRILO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cisneros",
+   "lat": 6.53633,
+   "lon": 6.53633,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "CISNEROS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Cocora",
+   "lat": 4.405747,
+   "lon": 4.405747,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "COCORA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Corozal",
+   "lat": 4.40796,
+   "lon": 4.40796,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "COROZAL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "El Carmen",
+   "lat": 9.6813,
+   "lon": 9.6813,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "EL CARMEN",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "El Copey",
+   "lat": 10.060363,
+   "lon": 10.060363,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "EL COPEY",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "El Difícil",
+   "lat": 9.831147,
+   "lon": 9.831147,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "EL DIFÍCIL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "El Ebanal",
+   "lat": 11.276217,
+   "lon": 11.276217,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "EL EBANAL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "El Patá",
+   "lat": 3.39381,
+   "lon": 3.39381,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "EL PATÁ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "El Picacho",
+   "lat": 7.107994,
+   "lon": -72.968984,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "EL PICACHO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "El Placer",
+   "lat": 0.0,
+   "lon": 0.0,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "EL PLACER",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "El Roble",
+   "lat": 5.031299,
+   "lon": 5.031299,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "EL ROBLE",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Estambul",
+   "lat": 3.500722,
+   "lon": 3.500722,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "ESTAMBUL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Flandes",
+   "lat": 4.192173,
+   "lon": 4.192173,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "FLANDES",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Fragua",
+   "lat": 7.277107,
+   "lon": -74.832073,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "FRAGUA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Fuemia",
+   "lat": 6.953467,
+   "lon": -76.242497,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "FUEMIA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Fusca",
+   "lat": 4.875816,
+   "lon": 4.875816,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "FUSCA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Galapa",
+   "lat": 10.837545,
+   "lon": 10.837545,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "GALAPA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Galapa 02",
+   "lat": 10.882175,
+   "lon": 10.882175,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "GALAPA 02",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Gambote",
+   "lat": 10.136133,
+   "lon": 10.136133,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "GAMBOTE",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Guaico",
+   "lat": 5.105675,
+   "lon": 5.105675,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "GUAICO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Gualanday",
+   "lat": 4.300429,
+   "lon": 4.300429,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "GUALANDAY",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Guarne",
+   "lat": 6.327898,
+   "lon": 6.327898,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "GUARNE",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Guataquí",
+   "lat": 4.563382,
+   "lon": 4.563382,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "GUATAQUÍ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Honda",
+   "lat": 5.201507,
+   "lon": 5.201507,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "HONDA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Iracá",
+   "lat": 3.633043,
+   "lon": 3.633043,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "IRACÁ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Irra",
+   "lat": 5.257732,
+   "lon": 5.257732,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "IRRA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Juan Mina",
+   "lat": 10.934382,
+   "lon": 10.934382,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "JUAN MINA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Apartada",
+   "lat": 8.031281,
+   "lon": 8.031281,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "LA APARTADA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Cabaña",
+   "lat": 4.809532,
+   "lon": 4.809532,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "LA CABAÑA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Gómez",
+   "lat": 7.397176,
+   "lon": 7.397176,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "LA GÓMEZ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Libertad",
+   "lat": 4.05686,
+   "lon": 4.05686,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "LA LIBERTAD",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Lizama",
+   "lat": 7.083468,
+   "lon": 7.083468,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "LA LIZAMA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Loma",
+   "lat": 9.638017,
+   "lon": 9.638017,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "LA LOMA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "La Paz",
+   "lat": 7.145364,
+   "lon": -73.405266,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "LA PAZ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Las Palmas",
+   "lat": 6.150673,
+   "lon": 6.150673,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "LAS PALMAS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Loboguerrero",
+   "lat": 3.76297,
+   "lon": 3.76297,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "LOBOGUERRERO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Los Acacios",
+   "lat": 7.721382,
+   "lon": 7.721382,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "LOS ACACIOS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Los Cauchos",
+   "lat": 2.785584,
+   "lon": 2.785584,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "LOS CAUCHOS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Los Patios",
+   "lat": 4.663725,
+   "lon": 4.663725,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "LOS PATIOS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Machetá",
+   "lat": 5.077263,
+   "lon": 5.077263,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "MACHETÁ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Manguitos",
+   "lat": 8.301572,
+   "lon": 8.301572,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "MANGUITOS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Marahuaco",
+   "lat": 10.574535,
+   "lon": 10.574535,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "MARAHUACO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Mata De Caña",
+   "lat": 9.091426,
+   "lon": 9.091426,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "MATA DE CAÑA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Mediacanoa",
+   "lat": 3.759986,
+   "lon": 3.759986,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "MEDIACANOA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Morrison",
+   "lat": 8.092349,
+   "lon": 8.092349,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "MORRISON",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Mutatá",
+   "lat": 7.222946,
+   "lon": -76.433353,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "MUTATÁ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Naranjal",
+   "lat": 4.285107,
+   "lon": 4.285107,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "NARANJAL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Neguanje",
+   "lat": 11.253129,
+   "lon": 11.253129,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "NEGUANJE",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Neiva",
+   "lat": 2.977798,
+   "lon": 2.977798,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "NEIVA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Ocoa",
+   "lat": 4.026246,
+   "lon": 4.026246,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "OCOA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Pailitas",
+   "lat": 8.852804,
+   "lon": 8.852804,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "PAILITAS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Pamplonita",
+   "lat": 7.42139,
+   "lon": -72.618889,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "PAMPLONITA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Pandequeso",
+   "lat": 6.477998,
+   "lon": 6.477998,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "PANDEQUESO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Papiros",
+   "lat": 11.0127,
+   "lon": 11.0127,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "PAPIROS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Paraguachón",
+   "lat": 11.367603,
+   "lon": 11.367603,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "PARAGUACHÓN",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Pasacaballos",
+   "lat": 10.243425,
+   "lon": 10.243425,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "PASACABALLOS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Pavas",
+   "lat": 5.027079,
+   "lon": -75.58744,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "PAVAS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Pipiral",
+   "lat": 4.201095,
+   "lon": 4.201095,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "PIPIRAL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Primavera",
+   "lat": 5.968901,
+   "lon": 5.968901,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "PRIMAVERA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Puente Amarillo",
+   "lat": 4.194142,
+   "lon": 4.194142,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "PUENTE AMARILLO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Puente Plato",
+   "lat": 9.791366,
+   "lon": 9.791366,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "PUENTE PLATO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Puerto Berrío",
+   "lat": 6.49665,
+   "lon": 6.49665,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "PUERTO BERRÍO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Puerto Colombia",
+   "lat": 10.967563,
+   "lon": 10.967563,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "PUERTO COLOMBIA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Purgatorio",
+   "lat": 8.630659,
+   "lon": 8.630659,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "PURGATORIO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Rozo",
+   "lat": 3.643852,
+   "lon": 3.643852,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "ROZO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Sabanagrande",
+   "lat": 10.799582,
+   "lon": 10.799582,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "SABANAGRANDE",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "San Bernardo",
+   "lat": 5.052203,
+   "lon": -75.594587,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "SAN BERNARDO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "San Carlos",
+   "lat": 8.77266,
+   "lon": 8.77266,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "SAN CARLOS",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "San Luis De Gaceno",
+   "lat": 4.825529,
+   "lon": -73.083408,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "SAN LUIS DE GACENO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "San Onofre",
+   "lat": 9.863519,
+   "lon": 9.863519,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "SAN ONOFRE",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "San Pedro",
+   "lat": 4.580989,
+   "lon": 4.580989,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "SAN PEDRO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Santa Isabel",
+   "lat": 6.953443,
+   "lon": -74.760242,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "SANTA ISABEL",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Santágueda",
+   "lat": 5.048648,
+   "lon": 5.048648,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "SANTÁGUEDA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Siberia",
+   "lat": 4.78036,
+   "lon": 4.78036,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "SIBERIA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Sopó",
+   "lat": 4.841656,
+   "lon": 4.841656,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "SOPÓ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Supia",
+   "lat": 5.391598,
+   "lon": 5.391598,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "SUPIA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Tarapacá I",
+   "lat": 4.939047,
+   "lon": 4.939047,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "TARAPACÁ I",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Tarapacá Ii",
+   "lat": 4.950099,
+   "lon": 4.950099,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "TARAPACÁ II",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Trapiche",
+   "lat": 6.399637,
+   "lon": 6.399637,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "TRAPICHE",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Tucurinca",
+   "lat": 10.60896,
+   "lon": -74.168435,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "TUCURINCA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Turbaco",
+   "lat": 10.356975,
+   "lon": 10.356975,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "TURBACO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Tuta",
+   "lat": 5.656897,
+   "lon": 5.656897,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "TUTA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Unisabana",
+   "lat": 4.863675,
+   "lon": 4.863675,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "UNISABANA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Valencia",
+   "lat": 10.259706,
+   "lon": 10.259706,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "VALENCIA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Vegachí",
+   "lat": 6.626789,
+   "lon": -74.797092,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "VEGACHÍ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Veracruz",
+   "lat": 4.261064,
+   "lon": 4.261064,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "VERACRUZ",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Villa Rica",
+   "lat": 3.151233,
+   "lon": 3.151233,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "VILLA RICA",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Yucao",
+   "lat": 4.351317,
+   "lon": 4.351317,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "YUCAO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Zambito",
+   "lat": 6.294714,
+   "lon": 6.294714,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "ZAMBITO",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Zaragoza",
+   "lat": 0.0,
+   "lon": 0.0,
+   "radio": 700,
+   "empresa": "CO-ANI",
+   "tramo": "ZARAGOZA",
+   "tipo": "cabina"
   }
  ],
- "generado": "2026-10-29T16:56Z"
+ "generado": "2026-10-30T16:44Z"
 }
