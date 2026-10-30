@@ -1,7 +1,7 @@
 {
- "version": "do-2026-10-29",
+ "version": "do-2026-10-30",
  "pais": "DO",
- "generado": "2026-10-29T23:03:18+00:00",
+ "generado": "2026-10-30T01:47:23+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "INTRANT anunció fotomultas: sin listado."
@@ -19,7 +19,9 @@
   "con_limite": 0,
   "limite_revisar": 0,
   "limite_desconocido": 2,
-  "revisados_esta_corrida": 2
+  "revisados_esta_corrida": 0,
+  "sin_via": 0,
+  "via_completada_esta_corrida": 0
  },
  "alertas": [],
  "radars": [
@@ -32,12 +34,12 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14275404602",
-   "source_version": "do-2026-10-29",
+   "source_version": "do-2026-10-30",
    "confidence_score": 50,
-   "speed_limit_checked": "2026-10-29",
+   "road_label": "Avenida Gustavo Mejía Ricart",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
-   "road_label": "Avenida Gustavo Mejía Ricart",
+   "speed_limit_checked": "2026-10-29",
    "display_name": "Avenida Gustavo Mejía Ricart - Cámara de tránsito",
    "country": "DO"
   },
@@ -50,12 +52,12 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14275408201",
-   "source_version": "do-2026-10-29",
+   "source_version": "do-2026-10-30",
    "confidence_score": 50,
-   "speed_limit_checked": "2026-10-29",
+   "road_label": "Calle Doctor Jacinto Ignacio Mañón",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
-   "road_label": "Calle Doctor Jacinto Ignacio Mañón",
+   "speed_limit_checked": "2026-10-29",
    "display_name": "Calle Doctor Jacinto Ignacio Mañón - Cámara de tránsito",
    "country": "DO"
   }
