@@ -22,9 +22,9 @@
    "localidad": "General Liber Seregni",
    "fuente": "armado",
    "pais": "UY",
-   "via_visible": "101",
+   "via_visible": "Ruta 101",
    "punto": "General Liber Seregni",
-   "nombre_visible": "101 - Peaje General Liber Seregni",
+   "nombre_visible": "Ruta 101 - Peaje General Liber Seregni",
    "confianza": "media"
   },
   {
@@ -292,9 +292,9 @@
    "localidad": "Nuevo Paysandú",
    "fuente": "armado",
    "pais": "UY",
-   "via_visible": "5",
+   "via_visible": "Ruta 5",
    "punto": "Nuevo Paysandú",
-   "nombre_visible": "5 - Peaje Nuevo Paysandú",
+   "nombre_visible": "Ruta 5 - Peaje Nuevo Paysandú",
    "confianza": "media"
   },
   {
@@ -344,6 +344,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-10-29T21:43Z",
+ "generado": "2026-10-30T00:40Z",
  "alertas": []
 }
