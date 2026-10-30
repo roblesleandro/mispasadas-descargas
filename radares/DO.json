@@ -1,7 +1,7 @@
 {
  "version": "do-2026-10-30",
  "pais": "DO",
- "generado": "2026-10-30T01:47:23+00:00",
+ "generado": "2026-10-30T03:46:39+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "INTRANT anunció fotomultas: sin listado."
