@@ -1,7 +1,7 @@
 {
  "version": "pe-2026-10-30",
  "pais": "PE",
- "generado": "2026-10-30T01:22:09+00:00",
+ "generado": "2026-10-30T03:37:29+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "SUTRAN – «Excesos de velocidad detectados por cinemómetros» (datosabiertos.gob.pe): lat/lon de cada detección, no de equipos fijos; desactualizado (2023).",
@@ -22,7 +22,7 @@
   "limite_desconocido": 1,
   "revisados_esta_corrida": 0,
   "sin_via": 0,
-  "via_completada_esta_corrida": 29
+  "via_completada_esta_corrida": 0
  },
  "alertas": [],
  "radars": [
