@@ -14,16 +14,15 @@
   {
    "lat": 17.070999,
    "lon": -88.987439,
-   "nombre": "Peaje Caracol Road (A10)",
+   "nombre": "Peaje Caracol Road",
    "tipo": "cabina",
    "via": "Caracol Road",
-   "ref": "A10",
    "localidad": "San Antonio",
    "fuente": "armado",
    "pais": "BZ",
-   "via_visible": "A10",
+   "via_visible": "Caracol Road",
    "punto": "San Antonio",
-   "nombre_visible": "A10 - Toll San Antonio",
+   "nombre_visible": "Caracol Road - Toll San Antonio",
    "confianza": "media"
   },
   {
@@ -54,6 +53,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-10-29T22:54Z",
+ "generado": "2026-10-30T01:20Z",
  "alertas": []
 }
