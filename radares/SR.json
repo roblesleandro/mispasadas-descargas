@@ -1,0 +1,49 @@
+{
+ "version": "sr-2026-10-30",
+ "pais": "SR",
+ "generado": "2026-10-30T01:54:15+00:00",
+ "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
+ "a_investigar": [
+  "Sin fuente oficial con ubicaciones."
+ ],
+ "resumen": {
+  "total": 1,
+  "oficiales": 0,
+  "osm": 1,
+  "por_tipo": {
+   "FIXED_SPEED": 0,
+   "AVERAGE_SPEED_SECTION": 0,
+   "RED_LIGHT_CAMERA": 0,
+   "VEHICLE_CAMERA": 1
+  },
+  "con_limite": 1,
+  "limite_revisar": 0,
+  "limite_desconocido": 0,
+  "revisados_esta_corrida": 1,
+  "sin_via": 0,
+  "via_completada_esta_corrida": 0
+ },
+ "alertas": [],
+ "radars": [
+  {
+   "radar_id": "osm-sr-n6474232444",
+   "name": "Tourtonnelaan - Verkeerscamera",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": 5.839198,
+   "longitude": -55.151331,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/6474232444",
+   "source_version": "sr-2026-10-30",
+   "confidence_score": 50,
+   "speed_limit_checked": "2026-10-30",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_kmh": 40,
+   "speed_limit_source": "OSM_PROPIO",
+   "road_label": "Tourtonnelaan",
+   "display_name": "Tourtonnelaan - Verkeerscamera",
+   "country": "SR"
+  }
+ ]
+}
