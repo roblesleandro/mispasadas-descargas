@@ -5,15 +5,73 @@
  "resumen": {
   "oficial": 0,
   "osm": 0,
-  "armado": 0,
-  "total": 0,
+  "armado": 4,
+  "total": 4,
   "confianza_baja": 0,
   "excluidas": 0
  },
- "estaciones": [],
+ "estaciones": [
+  {
+   "lat": 13.687069,
+   "lon": -89.739864,
+   "nombre": "Peaje Carretera Sonsonate - Acajutla (CA-12)",
+   "tipo": "cabina",
+   "via": "Carretera Sonsonate - Acajutla",
+   "ref": "CA-12",
+   "localidad": "El Guayabo",
+   "fuente": "armado",
+   "pais": "SV",
+   "via_visible": "Carretera Sonsonate - Acajutla",
+   "punto": "El Guayabo",
+   "nombre_visible": "Carretera Sonsonate - Acajutla - Peaje El Guayabo",
+   "confianza": "media"
+  },
+  {
+   "lat": 13.696695,
+   "lon": -89.189984,
+   "nombre": "Peaje 6a Calle Oriente km 0",
+   "tipo": "cabina",
+   "via": "6a Calle Oriente",
+   "km": "0",
+   "localidad": "San Salvador",
+   "fuente": "armado",
+   "pais": "SV",
+   "via_visible": "6a Calle Oriente",
+   "punto": "San Salvador",
+   "nombre_visible": "6a Calle Oriente - Peaje San Salvador",
+   "confianza": "media"
+  },
+  {
+   "lat": 13.710108,
+   "lon": -89.719732,
+   "nombre": "Peaje Carretera Sonsonate - Acajutla (CA-8)",
+   "tipo": "cabina",
+   "via": "Carretera Sonsonate - Acajutla",
+   "ref": "CA-8",
+   "localidad": "Nahulingo",
+   "fuente": "armado",
+   "pais": "SV",
+   "via_visible": "Carretera Sonsonate - Acajutla",
+   "punto": "Nahulingo",
+   "nombre_visible": "Carretera Sonsonate - Acajutla - Peaje Nahulingo",
+   "confianza": "media"
+  },
+  {
+   "lat": 13.710173,
+   "lon": -90.030949,
+   "nombre": "Peaje AHU37S",
+   "tipo": "cabina",
+   "ref": "AHU37S",
+   "localidad": "Faya",
+   "fuente": "armado",
+   "pais": "SV",
+   "via_visible": "AHU37S",
+   "punto": "Faya",
+   "nombre_visible": "AHU37S - Peaje Faya",
+   "confianza": "media"
+  }
+ ],
  "excluidas": [],
- "generado": "2026-10-29T22:45Z",
- "alertas": [
-  "SV: no se pudieron leer los peajes de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
- ]
+ "generado": "2026-10-30T01:07Z",
+ "alertas": []
 }
