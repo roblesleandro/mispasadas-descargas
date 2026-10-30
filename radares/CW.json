@@ -1,7 +1,7 @@
 {
  "version": "cw-2026-10-30",
  "pais": "CW",
- "generado": "2026-10-30T01:56:36+00:00",
+ "generado": "2026-10-30T03:53:37+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial con ubicaciones."
