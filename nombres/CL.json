@@ -21,9 +21,9 @@
    "localidad": "Pargua",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Pargua",
-   "nombre_visible": "Ruta 5 Sur - Peaje Pargua",
+   "nombre_visible": "Ruta 5 - Peaje Pargua",
    "confianza": "media"
   },
   {
@@ -36,9 +36,9 @@
    "localidad": "Texas",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Texas",
-   "nombre_visible": "Ruta 5 Sur - Peaje Texas",
+   "nombre_visible": "Ruta 5 - Peaje Texas",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -52,9 +52,9 @@
    "localidad": "Texas",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Texas",
-   "nombre_visible": "Ruta 5 Sur - Peaje Texas",
+   "nombre_visible": "Ruta 5 - Peaje Texas",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -68,9 +68,9 @@
    "localidad": "El Tepual",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "El Tepual",
-   "nombre_visible": "Ruta 5 Sur - Peaje El Tepual",
+   "nombre_visible": "Ruta 5 - Peaje El Tepual",
    "confianza": "media"
   },
   {
@@ -84,9 +84,9 @@
    "localidad": "Puerto Montt",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Puerto Montt",
-   "nombre_visible": "Ruta 5 Sur - Peaje Puerto Montt",
+   "nombre_visible": "Ruta 5 - Peaje Puerto Montt",
    "confianza": "media"
   },
   {
@@ -113,9 +113,9 @@
    "localidad": "Puerto Varas",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Puerto Varas",
-   "nombre_visible": "Ruta 5 Sur - Peaje Puerto Varas",
+   "nombre_visible": "Ruta 5 - Peaje Puerto Varas",
    "confianza": "media"
   },
   {
@@ -129,9 +129,9 @@
    "localidad": "Llanquihue",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Llanquihue",
-   "nombre_visible": "Ruta 5 Sur - Peaje Llanquihue",
+   "nombre_visible": "Ruta 5 - Peaje Llanquihue",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -146,9 +146,9 @@
    "localidad": "Llanquihue",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Llanquihue",
-   "nombre_visible": "Ruta 5 Sur - Peaje Llanquihue",
+   "nombre_visible": "Ruta 5 - Peaje Llanquihue",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -162,9 +162,9 @@
    "localidad": "Los Pellines",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Los Pellines",
-   "nombre_visible": "Ruta 5 Sur - Peaje Los Pellines",
+   "nombre_visible": "Ruta 5 - Peaje Los Pellines",
    "confianza": "media"
   },
   {
@@ -188,9 +188,9 @@
    "localidad": "Casma",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Casma",
-   "nombre_visible": "Ruta 5 Sur - Peaje Casma",
+   "nombre_visible": "Ruta 5 - Peaje Casma",
    "confianza": "media"
   },
   {
@@ -203,9 +203,9 @@
    "localidad": "Corte Alto",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Corte Alto",
-   "nombre_visible": "Ruta 5 Sur - Peaje Corte Alto",
+   "nombre_visible": "Ruta 5 - Peaje Corte Alto",
    "confianza": "media"
   },
   {
@@ -218,9 +218,9 @@
    "localidad": "Carrasco",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Carrasco",
-   "nombre_visible": "Ruta 5 Sur - Peaje Carrasco",
+   "nombre_visible": "Ruta 5 - Peaje Carrasco",
    "confianza": "media"
   },
   {
@@ -233,9 +233,9 @@
    "localidad": "Río Negro",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Río Negro",
-   "nombre_visible": "Ruta 5 Sur - Peaje Río Negro",
+   "nombre_visible": "Ruta 5 - Peaje Río Negro",
    "confianza": "media"
   },
   {
@@ -248,9 +248,9 @@
    "localidad": "Osorno",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Osorno",
-   "nombre_visible": "Ruta 5 Sur - Peaje Osorno",
+   "nombre_visible": "Ruta 5 - Peaje Osorno",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -264,9 +264,9 @@
    "localidad": "Osorno",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Osorno",
-   "nombre_visible": "Ruta 5 Sur - Peaje Osorno",
+   "nombre_visible": "Ruta 5 - Peaje Osorno",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -295,9 +295,9 @@
    "localidad": "San Pablo",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "San Pablo",
-   "nombre_visible": "Ruta 5 Sur - Peaje San Pablo",
+   "nombre_visible": "Ruta 5 - Peaje San Pablo",
    "confianza": "media"
   },
   {
@@ -320,9 +320,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "de la Unión",
-   "nombre_visible": "Ruta 5 Sur - Peaje de la Unión",
+   "nombre_visible": "Ruta 5 - Peaje de la Unión",
    "confianza": "alta"
   },
   {
@@ -335,9 +335,9 @@
    "localidad": "Paillaco",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Paillaco",
-   "nombre_visible": "Ruta 5 Sur - Peaje Paillaco",
+   "nombre_visible": "Ruta 5 - Peaje Paillaco",
    "confianza": "media"
   },
   {
@@ -350,9 +350,9 @@
    "localidad": "Lanco",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Lanco",
-   "nombre_visible": "Ruta 5 Sur - Peaje Lanco",
+   "nombre_visible": "Ruta 5 - Peaje Lanco",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -367,9 +367,9 @@
    "localidad": "Lanco",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Lanco",
-   "nombre_visible": "Ruta 5 Sur - Peaje Lanco",
+   "nombre_visible": "Ruta 5 - Peaje Lanco",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -383,9 +383,9 @@
    "localidad": "Loncoche",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Loncoche",
-   "nombre_visible": "Ruta 5 Sur - Peaje Loncoche",
+   "nombre_visible": "Ruta 5 - Peaje Loncoche",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -399,9 +399,9 @@
    "localidad": "Loncoche",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Loncoche",
-   "nombre_visible": "Ruta 5 Sur - Peaje Loncoche",
+   "nombre_visible": "Ruta 5 - Peaje Loncoche",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -415,9 +415,9 @@
    "localidad": "Pitrufquén",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Pitrufquén",
-   "nombre_visible": "Ruta 5 Sur - Peaje Pitrufquén",
+   "nombre_visible": "Ruta 5 - Peaje Pitrufquén",
    "confianza": "media"
   },
   {
@@ -429,9 +429,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Troncal Quepe",
-   "nombre_visible": "Ruta 5 Sur - Peaje Troncal Quepe",
+   "nombre_visible": "Ruta 5 - Peaje Troncal Quepe",
    "confianza": "alta"
   },
   {
@@ -458,9 +458,9 @@
    "localidad": "Padre Las Casas",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Padre Las Casas",
-   "nombre_visible": "Ruta 5 Sur - Peaje Padre Las Casas",
+   "nombre_visible": "Ruta 5 - Peaje Padre Las Casas",
    "confianza": "media"
   },
   {
@@ -499,9 +499,9 @@
    "ref": "181",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 181 CH",
+   "via_visible": "Ruta 181",
    "punto": "Troncal Las Raíces",
-   "nombre_visible": "Ruta 181 CH - Peaje Troncal Las Raíces",
+   "nombre_visible": "Ruta 181 - Peaje Troncal Las Raíces",
    "confianza": "alta"
   },
   {
@@ -515,9 +515,9 @@
    "localidad": "Lautaro",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Lautaro",
-   "nombre_visible": "Ruta 5 Sur - Peaje Lautaro",
+   "nombre_visible": "Ruta 5 - Peaje Lautaro",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -531,9 +531,9 @@
    "localidad": "Lautaro",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Lautaro",
-   "nombre_visible": "Ruta 5 Sur - Peaje Lautaro",
+   "nombre_visible": "Ruta 5 - Peaje Lautaro",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -546,9 +546,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Púa",
-   "nombre_visible": "Ruta 5 Sur - Peaje Púa",
+   "nombre_visible": "Ruta 5 - Peaje Púa",
    "confianza": "alta"
   },
   {
@@ -562,9 +562,9 @@
    "localidad": "Victoria",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Victoria",
-   "nombre_visible": "Ruta 5 Sur - Peaje Victoria",
+   "nombre_visible": "Ruta 5 - Peaje Victoria",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -579,9 +579,9 @@
    "localidad": "Victoria",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Victoria",
-   "nombre_visible": "Ruta 5 Sur - Peaje Victoria",
+   "nombre_visible": "Ruta 5 - Peaje Victoria",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -595,9 +595,9 @@
    "localidad": "Mininco",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Mininco",
-   "nombre_visible": "Ruta 5 Sur - Peaje Mininco",
+   "nombre_visible": "Ruta 5 - Peaje Mininco",
    "confianza": "media"
   },
   {
@@ -609,9 +609,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Las Maicas",
-   "nombre_visible": "Ruta 5 Sur - Peaje Las Maicas",
+   "nombre_visible": "Ruta 5 - Peaje Las Maicas",
    "confianza": "alta"
   },
   {
@@ -624,9 +624,9 @@
    "localidad": "Mulchén",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Mulchén",
-   "nombre_visible": "Ruta 5 Sur - Peaje Mulchén",
+   "nombre_visible": "Ruta 5 - Peaje Mulchén",
    "confianza": "media"
   },
   {
@@ -681,9 +681,9 @@
    "localidad": "Las Delicias Alto",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Las Delicias Alto",
-   "nombre_visible": "Ruta 5 Sur - Peaje Las Delicias Alto",
+   "nombre_visible": "Ruta 5 - Peaje Las Delicias Alto",
    "confianza": "media"
   },
   {
@@ -870,9 +870,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Santa Clara",
-   "nombre_visible": "Ruta 5 Sur - Peaje Santa Clara",
+   "nombre_visible": "Ruta 5 - Peaje Santa Clara",
    "confianza": "alta"
   },
   {
@@ -925,9 +925,9 @@
    "localidad": "Bulnes",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Bulnes",
-   "nombre_visible": "Ruta 5 Sur - Peaje Bulnes",
+   "nombre_visible": "Ruta 5 - Peaje Bulnes",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -955,9 +955,9 @@
    "localidad": "Bulnes",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Bulnes",
-   "nombre_visible": "Ruta 5 Sur - Peaje Bulnes",
+   "nombre_visible": "Ruta 5 - Peaje Bulnes",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -998,9 +998,9 @@
    "localidad": "Bulnes",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Bulnes",
-   "nombre_visible": "Ruta 5 Sur - Peaje Bulnes",
+   "nombre_visible": "Ruta 5 - Peaje Bulnes",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -1082,9 +1082,9 @@
    "localidad": "San Carlos",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "San Carlos",
-   "nombre_visible": "Ruta 5 Sur - Peaje San Carlos",
+   "nombre_visible": "Ruta 5 - Peaje San Carlos",
    "confianza": "media"
   },
   {
@@ -1098,9 +1098,9 @@
    "localidad": "Parral",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Parral",
-   "nombre_visible": "Ruta 5 Sur - Peaje Parral",
+   "nombre_visible": "Ruta 5 - Peaje Parral",
    "confianza": "media"
   },
   {
@@ -1113,9 +1113,9 @@
    "localidad": "Paine",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Paine",
-   "nombre_visible": "Ruta 5 Sur - Peaje Paine",
+   "nombre_visible": "Ruta 5 - Peaje Paine",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -1130,9 +1130,9 @@
    "localidad": "Linares",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Linares",
-   "nombre_visible": "Ruta 5 Sur - Peaje Linares",
+   "nombre_visible": "Ruta 5 - Peaje Linares",
    "confianza": "media"
   },
   {
@@ -1145,9 +1145,9 @@
    "localidad": "Estación Villa Alegre",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Estación Villa Alegre",
-   "nombre_visible": "Ruta 5 Sur - Peaje Estación Villa Alegre",
+   "nombre_visible": "Ruta 5 - Peaje Estación Villa Alegre",
    "confianza": "media"
   },
   {
@@ -1188,9 +1188,9 @@
    "localidad": "San Javier",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "San Javier",
-   "nombre_visible": "Ruta 5 Sur - Peaje San Javier",
+   "nombre_visible": "Ruta 5 - Peaje San Javier",
    "confianza": "media"
   },
   {
@@ -1220,9 +1220,9 @@
    "localidad": "Bobadilla",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Bobadilla",
-   "nombre_visible": "Ruta 5 Sur - Peaje Bobadilla",
+   "nombre_visible": "Ruta 5 - Peaje Bobadilla",
    "confianza": "media"
   },
   {
@@ -1235,9 +1235,9 @@
    "localidad": "Maule",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Maule",
-   "nombre_visible": "Ruta 5 Sur - Peaje Maule",
+   "nombre_visible": "Ruta 5 - Peaje Maule",
    "confianza": "media"
   },
   {
@@ -1250,9 +1250,9 @@
    "localidad": "Chacarillas",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Chacarillas",
-   "nombre_visible": "Ruta 5 Sur - Peaje Chacarillas",
+   "nombre_visible": "Ruta 5 - Peaje Chacarillas",
    "confianza": "media"
   },
   {
@@ -1265,9 +1265,9 @@
    "localidad": "Camarico",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Camarico",
-   "nombre_visible": "Ruta 5 Sur - Peaje Camarico",
+   "nombre_visible": "Ruta 5 - Peaje Camarico",
    "confianza": "media"
   },
   {
@@ -1280,9 +1280,9 @@
    "localidad": "Itahue",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Itahue",
-   "nombre_visible": "Ruta 5 Sur - Peaje Itahue",
+   "nombre_visible": "Ruta 5 - Peaje Itahue",
    "confianza": "media"
   },
   {
@@ -1295,9 +1295,9 @@
    "localidad": "Molina",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Molina",
-   "nombre_visible": "Ruta 5 Sur - Peaje Molina",
+   "nombre_visible": "Ruta 5 - Peaje Molina",
    "confianza": "media"
   },
   {
@@ -1310,9 +1310,9 @@
    "localidad": "Lontué",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Lontué",
-   "nombre_visible": "Ruta 5 Sur - Peaje Lontué",
+   "nombre_visible": "Ruta 5 - Peaje Lontué",
    "confianza": "media"
   },
   {
@@ -1326,9 +1326,9 @@
    "localidad": "Curicó",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Curicó",
-   "nombre_visible": "Ruta 5 Sur - Peaje Curicó",
+   "nombre_visible": "Ruta 5 - Peaje Curicó",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -1343,9 +1343,9 @@
    "localidad": "Curicó",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Curicó",
-   "nombre_visible": "Ruta 5 Sur - Peaje Curicó",
+   "nombre_visible": "Ruta 5 - Peaje Curicó",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -1360,9 +1360,9 @@
    "localidad": "Los Cristales",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Los Cristales",
-   "nombre_visible": "Ruta 5 Sur - Peaje Los Cristales",
+   "nombre_visible": "Ruta 5 - Peaje Los Cristales",
    "confianza": "media"
   },
   {
@@ -1375,9 +1375,9 @@
    "localidad": "Viluco",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Viluco",
-   "nombre_visible": "Ruta 5 Sur - Peaje Viluco",
+   "nombre_visible": "Ruta 5 - Peaje Viluco",
    "confianza": "media"
   },
   {
@@ -1390,9 +1390,9 @@
    "localidad": "El Rincón",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "El Rincón",
-   "nombre_visible": "Ruta 5 Sur - Peaje El Rincón",
+   "nombre_visible": "Ruta 5 - Peaje El Rincón",
    "confianza": "media"
   },
   {
@@ -1406,9 +1406,9 @@
    "localidad": "Chimbarongo",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Chimbarongo",
-   "nombre_visible": "Ruta 5 Sur - Peaje Chimbarongo",
+   "nombre_visible": "Ruta 5 - Peaje Chimbarongo",
    "confianza": "media"
   },
   {
@@ -1421,9 +1421,9 @@
    "localidad": "San Fernando",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "San Fernando",
-   "nombre_visible": "Ruta 5 Sur - Peaje San Fernando",
+   "nombre_visible": "Ruta 5 - Peaje San Fernando",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -1437,9 +1437,9 @@
    "localidad": "San Fernando",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "San Fernando",
-   "nombre_visible": "Ruta 5 Sur - Peaje San Fernando",
+   "nombre_visible": "Ruta 5 - Peaje San Fernando",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -1453,9 +1453,9 @@
    "localidad": "San Fernando",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "San Fernando",
-   "nombre_visible": "Ruta 5 Sur - Peaje San Fernando",
+   "nombre_visible": "Ruta 5 - Peaje San Fernando",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -1469,9 +1469,9 @@
    "localidad": "Angostura",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Angostura",
-   "nombre_visible": "Ruta 5 Sur - Peaje Angostura",
+   "nombre_visible": "Ruta 5 - Peaje Angostura",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -1485,9 +1485,9 @@
    "localidad": "Pelequén",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Pelequén",
-   "nombre_visible": "Ruta 5 Sur - Peaje Pelequén",
+   "nombre_visible": "Ruta 5 - Peaje Pelequén",
    "confianza": "media"
   },
   {
@@ -1500,9 +1500,9 @@
    "localidad": "Rengo",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Rengo",
-   "nombre_visible": "Ruta 5 Sur - Peaje Rengo",
+   "nombre_visible": "Ruta 5 - Peaje Rengo",
    "confianza": "media"
   },
   {
@@ -1515,9 +1515,9 @@
    "localidad": "Rosario",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Rosario",
-   "nombre_visible": "Ruta 5 Sur - Peaje Rosario",
+   "nombre_visible": "Ruta 5 - Peaje Rosario",
    "confianza": "media"
   },
   {
@@ -1530,9 +1530,9 @@
    "localidad": "Requínoa",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Requínoa",
-   "nombre_visible": "Ruta 5 Sur - Peaje Requínoa",
+   "nombre_visible": "Ruta 5 - Peaje Requínoa",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -1546,9 +1546,9 @@
    "localidad": "Requínoa",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Requínoa",
-   "nombre_visible": "Ruta 5 Sur - Peaje Requínoa",
+   "nombre_visible": "Ruta 5 - Peaje Requínoa",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -1577,9 +1577,9 @@
    "localidad": "Punta de Cortés",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Punta de Cortés",
-   "nombre_visible": "Ruta 5 Sur - Peaje Punta de Cortés",
+   "nombre_visible": "Ruta 5 - Peaje Punta de Cortés",
    "confianza": "media"
   },
   {
@@ -1606,9 +1606,9 @@
    "localidad": "Graneros",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Graneros",
-   "nombre_visible": "Ruta 5 Sur - Peaje Graneros",
+   "nombre_visible": "Ruta 5 - Peaje Graneros",
    "confianza": "media"
   },
   {
@@ -1620,9 +1620,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Angostura",
-   "nombre_visible": "Ruta 5 Sur - Peaje Angostura",
+   "nombre_visible": "Ruta 5 - Peaje Angostura",
    "confianza": "alta",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -1636,9 +1636,9 @@
    "localidad": "Hospital",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Hospital",
-   "nombre_visible": "Ruta 5 Sur - Peaje Hospital",
+   "nombre_visible": "Ruta 5 - Peaje Hospital",
    "confianza": "media"
   },
   {
@@ -1665,9 +1665,9 @@
    "localidad": "Paine",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Sur",
+   "via_visible": "Ruta 5",
    "punto": "Paine",
-   "nombre_visible": "Ruta 5 Sur - Peaje Paine",
+   "nombre_visible": "Ruta 5 - Peaje Paine",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -2876,9 +2876,9 @@
    "localidad": "Las Canteras",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "Las Canteras",
-   "nombre_visible": "Ruta 5 Norte - Pórtico TAG Las Canteras",
+   "nombre_visible": "Ruta 5 - Pórtico TAG Las Canteras",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -2908,9 +2908,9 @@
    "localidad": "Las Canteras",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "Las Canteras",
-   "nombre_visible": "Ruta 5 Norte - Pórtico TAG Las Canteras",
+   "nombre_visible": "Ruta 5 - Pórtico TAG Las Canteras",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -2950,9 +2950,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "6 - Paso Superior La Montaña",
-   "nombre_visible": "Ruta 5 Norte - Pórtico TAG 6 - Paso Superior La Montaña",
+   "nombre_visible": "Ruta 5 - Pórtico TAG 6 - Paso Superior La Montaña",
    "confianza": "alta"
   },
   {
@@ -3039,9 +3039,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "8 - Enlace Lo Pinto",
-   "nombre_visible": "Ruta 5 Norte - Pórtico TAG 8 - Enlace Lo Pinto",
+   "nombre_visible": "Ruta 5 - Pórtico TAG 8 - Enlace Lo Pinto",
    "confianza": "alta"
   },
   {
@@ -3067,9 +3067,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "Lampa",
-   "nombre_visible": "Ruta 5 Norte - Peaje Lampa",
+   "nombre_visible": "Ruta 5 - Peaje Lampa",
    "confianza": "alta"
   },
   {
@@ -3220,9 +3220,9 @@
    "ref": "60",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 60 CH",
+   "via_visible": "Ruta 60",
    "punto": "Troncal Cristo Redentor",
-   "nombre_visible": "Ruta 60 CH - Peaje Troncal Cristo Redentor",
+   "nombre_visible": "Ruta 60 - Peaje Troncal Cristo Redentor",
    "confianza": "alta"
   },
   {
@@ -3250,9 +3250,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "Llay Llay",
-   "nombre_visible": "Ruta 5 Norte - Peaje Llay Llay",
+   "nombre_visible": "Ruta 5 - Peaje Llay Llay",
    "confianza": "alta"
   },
   {
@@ -3265,9 +3265,9 @@
    "localidad": "Los Pinos",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "Los Pinos",
-   "nombre_visible": "Ruta 5 Norte - Pórtico TAG Los Pinos",
+   "nombre_visible": "Ruta 5 - Pórtico TAG Los Pinos",
    "confianza": "media"
   },
   {
@@ -3352,9 +3352,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "Tunel el Melon",
-   "nombre_visible": "Ruta 5 Norte - Peaje Tunel el Melon",
+   "nombre_visible": "Ruta 5 - Peaje Tunel el Melon",
    "confianza": "alta"
   },
   {
@@ -3366,9 +3366,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "Pichidangui",
-   "nombre_visible": "Ruta 5 Norte - Peaje Pichidangui",
+   "nombre_visible": "Ruta 5 - Peaje Pichidangui",
    "confianza": "alta"
   },
   {
@@ -3395,9 +3395,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "Puerto Oscuro",
-   "nombre_visible": "Ruta 5 Norte - Peaje Puerto Oscuro",
+   "nombre_visible": "Ruta 5 - Peaje Puerto Oscuro",
    "confianza": "alta"
   },
   {
@@ -3425,9 +3425,9 @@
    "localidad": "Tongoy",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "Tongoy",
-   "nombre_visible": "Ruta 5 Norte - Peaje Tongoy",
+   "nombre_visible": "Ruta 5 - Peaje Tongoy",
    "confianza": "media"
   },
   {
@@ -3482,9 +3482,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "Punta Colorada",
-   "nombre_visible": "Ruta 5 Norte - Peaje Punta Colorada",
+   "nombre_visible": "Ruta 5 - Peaje Punta Colorada",
    "confianza": "alta"
   },
   {
@@ -3496,9 +3496,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "Cachiyuyo Troncal",
-   "nombre_visible": "Ruta 5 Norte - Peaje Cachiyuyo Troncal",
+   "nombre_visible": "Ruta 5 - Peaje Cachiyuyo Troncal",
    "confianza": "alta"
   },
   {
@@ -3510,9 +3510,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "Totoral",
-   "nombre_visible": "Ruta 5 Norte - Peaje Totoral",
+   "nombre_visible": "Ruta 5 - Peaje Totoral",
    "confianza": "alta"
   },
   {
@@ -3538,9 +3538,9 @@
    "ref": "5",
    "fuente": "osm",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "Puerto Viejo",
-   "nombre_visible": "Ruta 5 Norte - Peaje Puerto Viejo",
+   "nombre_visible": "Ruta 5 - Peaje Puerto Viejo",
    "confianza": "alta"
   },
   {
@@ -3566,9 +3566,9 @@
    "localidad": "Baquedano",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Ruta 5 Norte",
+   "via_visible": "Ruta 5",
    "punto": "Baquedano",
-   "nombre_visible": "Ruta 5 Norte - Peaje Baquedano",
+   "nombre_visible": "Ruta 5 - Peaje Baquedano",
    "confianza": "media"
   },
   {
@@ -3651,6 +3651,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-29T22:02Z",
+ "generado": "2026-10-30T00:50Z",
  "alertas": []
 }
