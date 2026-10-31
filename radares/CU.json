@@ -1,7 +1,7 @@
 {
- "version": "cu-2026-10-30",
+ "version": "cu-2026-10-31",
  "pais": "CU",
- "generado": "2026-10-30T03:48:23+00:00",
+ "generado": "2026-10-31T13:40:59+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial con ubicaciones."
@@ -21,7 +21,18 @@
   "limite_desconocido": 1,
   "revisados_esta_corrida": 0,
   "sin_via": 0,
-  "via_completada_esta_corrida": 0
+  "via_completada_esta_corrida": 0,
+  "limites_dudosos_sacados": 0,
+  "por_control": {
+   "VELOCIDAD": 12,
+   "VELOCIDAD_PROMEDIO": 0,
+   "SEMAFORO": 1,
+   "CINTURON": 0,
+   "CELULAR": 0,
+   "SENDA": 0,
+   "INFRACCIONES": 0
+  },
+  "monitoreo": 1
  },
  "alertas": [],
  "radars": [
@@ -34,8 +45,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4341061896",
-   "source_version": "cu-2026-10-30",
+   "source_version": "cu-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera de Siboney",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -54,8 +68,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5259008322",
-   "source_version": "cu-2026-10-30",
+   "source_version": "cu-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera de Mar Verde",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -74,8 +91,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4341061012",
-   "source_version": "cu-2026-10-30",
+   "source_version": "cu-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Central",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -94,8 +114,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13177418789",
-   "source_version": "cu-2026-10-30",
+   "source_version": "cu-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Central",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -114,8 +137,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12200101925",
-   "source_version": "cu-2026-10-30",
+   "source_version": "cu-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera de Segundo Frente",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -134,8 +160,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3840563488",
-   "source_version": "cu-2026-10-30",
+   "source_version": "cu-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Gibara",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -154,8 +183,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4341060997",
-   "source_version": "cu-2026-10-30",
+   "source_version": "cu-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "H",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -172,8 +204,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12642217363",
-   "source_version": "cu-2026-10-30",
+   "source_version": "cu-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Holguín - Guardalavaca",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -192,11 +227,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9761023075",
-   "source_version": "cu-2026-10-30",
+   "source_version": "cu-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Central",
    "display_name": "Carretera Central - Radar",
    "country": "CU"
@@ -210,8 +248,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3440273781",
-   "source_version": "cu-2026-10-30",
+   "source_version": "cu-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Máximo Gómez",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -230,8 +271,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2200090977",
-   "source_version": "cu-2026-10-30",
+   "source_version": "cu-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Central",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -250,11 +294,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4439726058",
-   "source_version": "cu-2026-10-30",
+   "source_version": "cu-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Nacional",
    "display_name": "Autopista Nacional - Radar",
    "country": "CU"
@@ -268,8 +315,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2963211915",
-   "source_version": "cu-2026-10-30",
+   "source_version": "cu-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Panamericana",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -288,8 +338,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5923082388",
-   "source_version": "cu-2026-10-30",
+   "source_version": "cu-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "CN",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_TRAMO_VECINO",
