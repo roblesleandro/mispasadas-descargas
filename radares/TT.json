@@ -1,7 +1,7 @@
 {
- "version": "tt-2026-10-30",
+ "version": "tt-2026-10-31",
  "pais": "TT",
- "generado": "2026-10-30T03:52:12+00:00",
+ "generado": "2026-10-31T13:43:58+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial con ubicaciones."
@@ -21,7 +21,18 @@
   "limite_desconocido": 2,
   "revisados_esta_corrida": 0,
   "sin_via": 0,
-  "via_completada_esta_corrida": 0
+  "via_completada_esta_corrida": 0,
+  "limites_dudosos_sacados": 0,
+  "por_control": {
+   "VELOCIDAD": 1,
+   "VELOCIDAD_PROMEDIO": 0,
+   "SEMAFORO": 0,
+   "CINTURON": 0,
+   "CELULAR": 0,
+   "SENDA": 0,
+   "INFRACCIONES": 0
+  },
+  "monitoreo": 3
  },
  "alertas": [],
  "radars": [
@@ -34,11 +45,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7177668106",
-   "source_version": "tt-2026-10-30",
+   "source_version": "tt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Uriah Butler Highway",
    "display_name": "Uriah Butler Highway - Speed camera",
    "country": "TT"
@@ -52,8 +66,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7616397425",
-   "source_version": "tt-2026-10-30",
+   "source_version": "tt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "Valsayn Branch Road",
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_PROPIO",
@@ -72,8 +87,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6594322617",
-   "source_version": "tt-2026-10-30",
+   "source_version": "tt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "Carlos Street",
@@ -92,8 +108,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6575795185",
-   "source_version": "tt-2026-10-30",
+   "source_version": "tt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "Cocorite Terrace",
