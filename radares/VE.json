@@ -1,7 +1,7 @@
 {
- "version": "ve-2026-10-30",
+ "version": "ve-2026-10-31",
  "pais": "VE",
- "generado": "2026-10-30T03:47:31+00:00",
+ "generado": "2026-10-31T13:39:58+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial."
@@ -21,7 +21,18 @@
   "limite_desconocido": 0,
   "revisados_esta_corrida": 0,
   "sin_via": 0,
-  "via_completada_esta_corrida": 0
+  "via_completada_esta_corrida": 0,
+  "limites_dudosos_sacados": 0,
+  "por_control": {
+   "VELOCIDAD": 15,
+   "VELOCIDAD_PROMEDIO": 0,
+   "SEMAFORO": 0,
+   "CINTURON": 0,
+   "CELULAR": 0,
+   "SENDA": 0,
+   "INFRACCIONES": 0
+  },
+  "monitoreo": 1
  },
  "alertas": [],
  "radars": [
@@ -34,11 +45,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921864",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 235.0,
    "heading_max": 305.0,
    "road_label": "Avenida Rotaria",
@@ -54,8 +68,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12219583983",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 45.0,
    "heading_max": 115.0,
    "road_label": "Calle 2",
@@ -76,11 +93,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921862",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 235.0,
    "heading_max": 305.0,
    "road_label": "Calle 2",
@@ -96,8 +116,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921860",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Calle 2",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -116,8 +139,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921858",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Calle 9",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -136,8 +162,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921855",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida 19 de Abril",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -156,8 +185,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921853",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida 19 de Abril",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -176,8 +208,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921848",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Calle Quinimari",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -196,8 +231,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921850",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida 19 de Abril",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -216,11 +254,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1208753545",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 10.0,
    "heading_max": 80.0,
    "road_label": "R-17",
@@ -236,11 +277,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/260454169",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "Autopista Regional del Centro",
@@ -256,8 +300,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14137549002",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Calle Manuel Díaz",
@@ -278,11 +323,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2831839248",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "Autopista Gran Cacique Guaicaipuro",
@@ -298,11 +346,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/315078018",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 235.0,
    "heading_max": 305.0,
    "road_label": "Local 8",
@@ -318,11 +369,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3105400761",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 55.0,
    "heading_max": 125.0,
    "road_label": "Local 8",
@@ -338,11 +392,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6597737933",
-   "source_version": "ve-2026-10-30",
+   "source_version": "ve-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 55.0,
    "heading_max": 125.0,
    "road_label": "Local 8",
