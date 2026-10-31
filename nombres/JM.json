@@ -124,8 +124,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "JM",
+   "via_visible": "T3",
    "punto": "Linstead Toll Plaza",
-   "nombre_visible": "Toll Linstead Toll Plaza",
+   "nombre_visible": "T3 - Toll Linstead Toll Plaza",
    "confianza": "alta"
   },
   {
@@ -147,8 +148,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "JM",
+   "via_visible": "T3",
    "punto": "Moneague Toll Booth",
-   "nombre_visible": "Toll Moneague Toll Booth",
+   "nombre_visible": "T3 - Toll Moneague Toll Booth",
    "confianza": "alta"
   },
   {
@@ -178,6 +180,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-10-29T22:55Z",
+ "generado": "2026-10-31T13:18Z",
  "alertas": []
 }
