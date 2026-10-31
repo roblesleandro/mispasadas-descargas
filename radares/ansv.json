@@ -1094,10 +1094,9 @@
    "source_reference": "Series 253, 254; Marcos Paz; ubicado por planilla",
    "source_version": "ansv-2026-10-31",
    "confidence_score": 60,
-   "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_status": "REVISAR",
+   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
    "road_label": "RN 3"
   },
   {
@@ -1112,10 +1111,9 @@
    "source_reference": "Series 255, 256; Marcos Paz; ubicado por planilla",
    "source_version": "ansv-2026-10-31",
    "confidence_score": 60,
-   "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_status": "REVISAR",
+   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
    "road_label": "RN 3"
   },
   {
@@ -2816,10 +2814,9 @@
    "source_reference": "Esquina; ubicado por planilla",
    "source_version": "ansv-2026-10-31",
    "confidence_score": 60,
-   "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_TRAMO_VECINO",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "lado A: 40 km/h a 1620 m",
+   "speed_limit_status": "REVISAR",
+   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
    "road_label": "RN 12"
   },
   {
@@ -2834,10 +2831,9 @@
    "source_reference": "Esquina; ubicado por planilla",
    "source_version": "ansv-2026-10-31",
    "confidence_score": 60,
-   "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_TRAMO_VECINO",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "lado B: 40 km/h a 855 m",
+   "speed_limit_status": "REVISAR",
+   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
    "road_label": "RN 12"
   },
   {
@@ -3946,10 +3942,9 @@
    "source_reference": "Acceso a Parque Nacional Pto. Iguazú; ubicado por planilla",
    "source_version": "ansv-2026-10-31",
    "confidence_score": 60,
-   "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_status": "REVISAR",
+   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
    "road_label": "RN 101"
   },
   {
@@ -4642,10 +4637,9 @@
    "source_reference": "Serie 609; Contralmirante Cordero; ubicado por planilla",
    "source_version": "ansv-2026-10-31",
    "confidence_score": 60,
-   "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_status": "REVISAR",
+   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
    "road_label": "RN 151"
   },
   {
@@ -4882,10 +4876,9 @@
    "source_reference": "Piedra del Águila; ubicado por planilla",
    "source_version": "ansv-2026-10-31",
    "confidence_score": 60,
-   "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_status": "REVISAR",
+   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
    "road_label": "RN 237"
   }
  ]
