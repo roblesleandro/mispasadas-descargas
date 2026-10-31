@@ -1,7 +1,7 @@
 {
- "version": "mx-2026-10-30",
+ "version": "mx-2026-10-31",
  "pais": "MX",
- "generado": "2026-10-30T03:38:33+00:00",
+ "generado": "2026-10-31T13:22:32+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "CDMX Fotocívicas (SSC): capa geonode «fotocivicas» con x/y EPSG:4326 (dev-sieg.cdmx.gob.mx), desactualizada (2020/2021), sin licencia ni descarga visible.",
@@ -20,9 +20,20 @@
   "con_limite": 114,
   "limite_revisar": 0,
   "limite_desconocido": 27,
-  "revisados_esta_corrida": 0,
+  "revisados_esta_corrida": 1,
   "sin_via": 0,
-  "via_completada_esta_corrida": 0
+  "via_completada_esta_corrida": 0,
+  "limites_dudosos_sacados": 0,
+  "por_control": {
+   "VELOCIDAD": 76,
+   "VELOCIDAD_PROMEDIO": 0,
+   "SEMAFORO": 42,
+   "CINTURON": 0,
+   "CELULAR": 0,
+   "SENDA": 0,
+   "INFRACCIONES": 0
+  },
+  "monitoreo": 23
  },
  "alertas": [],
  "radars": [
@@ -35,8 +46,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4880280443",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Tapanatepec - Talismán",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -55,8 +69,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14245511002",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Avenida Central Poniente",
@@ -75,8 +90,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14028304702",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 324.0,
    "heading_max": 34.0,
    "road_label": "Calle Luis Donaldo Colosio",
@@ -95,8 +111,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14029895201",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Calle Manuel Doblado Oriente",
@@ -115,8 +132,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14029849501",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "Calle Pascual Ortiz Rubio",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -133,8 +151,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5473906469",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Colima - Tecomán",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -153,8 +174,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9238215067",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "MEX-190",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -173,8 +197,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874170098",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Avenida Guadalupe I. Ramírez",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -193,8 +220,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10876296499",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "PERIF",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -213,8 +243,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874120431",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Canal de Garay",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -233,11 +266,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12573223618",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 10.0,
    "heading_max": 80.0,
    "road_label": "Boulevard Adolfo Ruiz Cortines",
@@ -253,11 +289,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10927426696",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 10.0,
    "heading_max": 80.0,
    "road_label": "Periférico Segundo Piso",
@@ -273,8 +312,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874147194",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 1 OTE",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -293,8 +335,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874136160",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 9 SUR",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -313,8 +358,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10877077847",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EJE 8 SUR",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -333,8 +381,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10873882276",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Avenida Universidad",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -353,11 +404,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10927462875",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 160.0,
    "heading_max": 230.0,
    "road_label": "Periférico Segundo Piso",
@@ -373,11 +427,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11515601447",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "RADIAL 3",
    "display_name": "RADIAL 3 - Radar",
    "country": "MX"
@@ -391,8 +448,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5399085832",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 8 SUR",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -411,11 +471,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10927487494",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 195.0,
    "heading_max": 265.0,
    "road_label": "Periférico Segundo Piso",
@@ -431,8 +494,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7249045149",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "CTO INT",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -451,8 +517,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874187382",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 6 SUR",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -471,8 +540,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2834998438",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida José María Castorena",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -491,8 +563,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874191238",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 4 PTE",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -511,8 +586,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13313011813",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida José María Castorena",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -531,11 +609,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10927468614",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 150.0,
    "heading_max": 220.0,
    "road_label": "Periférico Segundo Piso",
@@ -551,11 +632,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11517510602",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Circuito Interior Río Churubusco",
    "display_name": "Circuito Interior Río Churubusco - Radar",
    "country": "MX"
@@ -569,8 +653,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8040155500",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Avenida Marcelino Buendía",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -589,8 +676,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874191438",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 6 SUR",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -609,8 +699,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10873993867",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 4 OTE",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -629,8 +722,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874147928",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 1 OTE",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -649,11 +745,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11520403461",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 170.0,
    "heading_max": 240.0,
    "road_label": "Autopista Urbana Norte",
@@ -669,11 +768,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10877077567",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "CTO INT",
    "display_name": "CTO INT - Radar",
    "country": "MX"
@@ -687,11 +789,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7888428593",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Viaducto Río de la Piedad",
    "display_name": "Viaducto Río de la Piedad - Radar",
    "country": "MX"
@@ -705,11 +810,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10877068588",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EJE CENTRAL",
    "display_name": "EJE CENTRAL - Radar",
    "country": "MX"
@@ -723,11 +831,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10877099741",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "MEX-15",
    "display_name": "MEX-15 - Radar",
    "country": "MX"
@@ -741,8 +852,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10873898049",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 3 SUR",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -761,8 +875,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10875029935",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EJE 3 SUR",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -781,8 +898,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10873875236",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "CTO INT",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -801,8 +921,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2850480910",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 155.0,
    "heading_max": 225.0,
    "road_label": "Autopista Urbana Norte",
@@ -821,8 +944,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874249994",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "MEX-15",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -841,8 +967,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874268050",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Calzada General Ignacio Zaragoza",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -861,8 +990,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874271409",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Calzada General Ignacio Zaragoza",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -881,8 +1013,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14138717801",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Avenida Doctor José María Vértiz",
@@ -903,8 +1036,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10875024440",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EJE 1 SUR",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -923,8 +1059,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12874929854",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "CTO INT",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -943,11 +1080,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10875011768",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Paseo de la Reforma",
    "display_name": "Avenida Paseo de la Reforma - Radar",
    "country": "MX"
@@ -961,8 +1101,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10873839240",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 1 SUR",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -981,11 +1124,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2461438740",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EJE 1 SUR",
    "display_name": "EJE 1 SUR - Radar",
    "country": "MX"
@@ -999,8 +1145,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10873855451",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 1A SUR",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1019,8 +1168,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874208515",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 1A SUR",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1039,11 +1191,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11517228023",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "CTO INT",
    "display_name": "CTO INT - Radar",
    "country": "MX"
@@ -1057,8 +1212,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874171213",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 3 PTE",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1077,8 +1235,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874233827",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Avenida José María Pino Suárez",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -1097,8 +1258,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874244955",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE CENTRAL",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1117,11 +1281,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7869158273",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 115.0,
    "heading_max": 185.0,
    "road_label": "Autopista Urbana Norte",
@@ -1137,8 +1304,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10876656375",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Ejército Nacional Mexicano",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1157,8 +1327,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874170081",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Avenida Ejército Nacional Mexicano",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -1177,8 +1350,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10879160260",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Oceanía",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1197,11 +1373,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10877065884",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Circuito Interior Melchor Ocampo",
    "display_name": "Circuito Interior Melchor Ocampo - Radar",
    "country": "MX"
@@ -1215,8 +1394,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874126062",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 1 NTE",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1235,8 +1417,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/268447438",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE CENTRAL",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1255,11 +1440,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10877036001",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EJE 1 NTE",
    "display_name": "EJE 1 NTE - Radar",
    "country": "MX"
@@ -1273,8 +1461,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10765164482",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "MEX-85",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1293,8 +1484,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10875014311",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Paseo de la Reforma Norte",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1313,8 +1507,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10873839241",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 1 NTE",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1333,11 +1530,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10877098723",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EJE 1 NTE",
    "display_name": "EJE 1 NTE - Radar",
    "country": "MX"
@@ -1351,8 +1551,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874140128",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Avenida Marina Nacional",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1371,8 +1574,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874204622",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE CENTRAL",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1391,11 +1597,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10877069993",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "CTO INT",
    "display_name": "CTO INT - Radar",
    "country": "MX"
@@ -1409,8 +1618,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874208538",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Avenida Marina Nacional",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1429,11 +1641,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12724654414",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida 608",
    "display_name": "Avenida 608 - Radar",
    "country": "MX"
@@ -1447,8 +1662,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874120224",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 2 NTE",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1467,8 +1685,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874125128",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 1 OTE",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1487,11 +1708,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10877113287",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Circuito Interior Instituto Técnico Industrial",
    "display_name": "Circuito Interior Instituto Técnico Industrial - Radar",
    "country": "MX"
@@ -1505,8 +1729,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10879144370",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida 608",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1525,8 +1752,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874169299",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 2 NTE",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1545,8 +1775,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10877064398",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Calle Juan Aldama",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -1563,8 +1796,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874109367",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 1 PTE",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1583,11 +1819,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12724654415",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida 608",
    "display_name": "Avenida 608 - Radar",
    "country": "MX"
@@ -1601,8 +1840,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10873861337",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Calzada de los Misterios",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1621,8 +1863,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5189483777",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Aquiles Serdán",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -1641,8 +1886,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874271774",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 3 NTE",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1661,11 +1909,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10765226077",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "RADIAL 1",
    "display_name": "RADIAL 1 - Radar",
    "country": "MX"
@@ -1679,8 +1930,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874209255",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE 3 OTE",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1699,11 +1953,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10879184412",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "RADIAL 1",
    "display_name": "RADIAL 1 - Radar",
    "country": "MX"
@@ -1717,8 +1974,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10875024441",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EJE CENTRAL",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -1737,8 +1997,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874220292",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Avenida Instituto Politécnico Nacional",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1757,8 +2020,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10876341136",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EJE 5 NTE",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1777,8 +2043,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874247753",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Avenida Aquiles Serdán",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -1797,8 +2066,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10873903684",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Avenida Instituto Politécnico Nacional",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -1817,11 +2089,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10876619843",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EJE 5 NTE",
    "display_name": "EJE 5 NTE - Radar",
    "country": "MX"
@@ -1835,8 +2110,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10874247490",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "EJE CENTRAL",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -1855,11 +2133,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3722472252",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "MEX-140",
    "display_name": "MEX-140 - Radar",
    "country": "MX"
@@ -1873,11 +2154,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3722563218",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "MEX-140",
    "display_name": "MEX-140 - Radar",
    "country": "MX"
@@ -1891,8 +2175,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14098449601",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Calle 13 de Septiembre",
@@ -1913,11 +2198,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3677478461",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "MEX-140",
    "display_name": "MEX-140 - Radar",
    "country": "MX"
@@ -1931,8 +2219,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7012708765",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Pirámides - Texcoco",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -1951,12 +2242,18 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7012708760",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
-   "speed_limit_kmh": 20,
-   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "MEX-132D",
+   "speed_limit_checked": "2026-10-31",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "motorway",
    "display_name": "MEX-132D - Radar",
    "country": "MX"
   },
@@ -1969,8 +2266,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7012708759",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Ecatepec - Pirámides (Cuota)",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -1987,8 +2287,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7012708761",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Ecatepec - Pirámides (Cuota)",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -2007,8 +2310,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7012708762",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Ecatepec - Pirámides (Cuota)",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -2027,8 +2333,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7012708758",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Calzada de Los Agustinos",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -2045,8 +2354,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7012708768",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Ecatepec - Pirámides (Cuota)",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -2065,8 +2377,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7012708757",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Calzada de Los Agustinos",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -2083,8 +2398,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7014958682",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Calzada de Los Agustinos",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -2103,8 +2421,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7012739627",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Calzada de Los Agustinos",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -2123,8 +2444,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7012673592",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Calle República Delsalvador",
    "speed_limit_status": "SIN_VIA",
    "speed_limit_detail": "No hay vía de OSM a menos de 40 m",
@@ -2141,8 +2465,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14143802801",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 324.0,
    "heading_max": 34.0,
    "road_label": "Calle Maximino Ruíz Flores",
@@ -2161,8 +2486,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6835547808",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Privada General Vázquez",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -2179,8 +2507,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14195495602",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Carretera Entronque Tulancingo - Venta Grande",
@@ -2199,8 +2528,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6699228085",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Anillo Periférico Oriente Manuel Gómez Morín",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -2219,8 +2551,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6699223689",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Anillo Periférico Oriente Manuel Gómez Morín",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -2239,8 +2574,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10712829703",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Adolf B. Horn Jr.",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -2257,11 +2595,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10312584255",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Adolf B. Horn Jr.",
    "display_name": "Avenida Adolf B. Horn Jr. - Radar",
    "country": "MX"
@@ -2275,8 +2616,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14138860601",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 68.0,
    "heading_max": 138.0,
    "road_label": "Avenida Constituyentes",
@@ -2297,8 +2639,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14141317801",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Calle Palma Sola",
@@ -2317,11 +2660,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10888095423",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "QRO 40",
    "display_name": "QRO 40 - Radar",
    "country": "MX"
@@ -2335,9 +2681,12 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8266996233",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "road_name": "av. colón",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Cristóbal Colón",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -2356,11 +2705,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7603237216",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 280.0,
    "heading_max": 350.0,
    "road_label": "Avenida Del Bajio",
@@ -2376,8 +2728,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14188571401",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 128.0,
    "heading_max": 198.0,
    "road_label": "Privada Jamaica",
@@ -2396,11 +2749,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13086059233",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida del Servidor Público",
    "display_name": "Avenida del Servidor Público - Radar",
    "country": "MX"
@@ -2414,11 +2770,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13377080887",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 70.0,
    "heading_max": 140.0,
    "road_label": "Anillo Periférico Norte Manuel Gómez Morín",
@@ -2434,8 +2793,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14141035401",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 175.0,
    "heading_max": 245.0,
    "road_label": "Calle Paseo Real",
@@ -2454,8 +2814,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10261353937",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 110.0,
    "heading_max": 180.0,
    "road_label": "Calle 127",
@@ -2474,8 +2837,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14275339001",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Calle José María Coss",
@@ -2494,8 +2858,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14158931501",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "Calle Brisa del Cenit",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -2512,8 +2877,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7388783483",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "Avenida Tecnológico",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -2530,8 +2896,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6757799508",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "Avenida La Luna",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -2548,8 +2915,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7388818485",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "Avenida Nichupté",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -2568,8 +2936,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4614386635",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera San Luis de la Paz - San José Iturbide",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -2588,8 +2959,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2154598938",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "MEX-70",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -2608,8 +2982,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14138412802",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 157.0,
    "heading_max": 227.0,
    "road_label": "Calle Lázaro Cárdenas",
@@ -2628,11 +3003,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8113876720",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 45.0,
    "heading_max": 115.0,
    "road_label": "MEX-57",
@@ -2648,8 +3026,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13800730473",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Anzures",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -2666,8 +3047,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14139601501",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Calle Pitahaya",
@@ -2688,8 +3070,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14138923301",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Calle 31 Norte",
@@ -2708,8 +3091,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14241742501",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 324.0,
    "heading_max": 34.0,
    "road_label": "Calle de la Galera",
@@ -2728,8 +3112,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14241749901",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 116.0,
    "heading_max": 186.0,
    "road_label": "Calle de la Galera",
@@ -2748,11 +3133,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12991942420",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "MEX-15",
    "display_name": "MEX-15 - Radar",
    "country": "MX"
@@ -2766,8 +3154,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3572963807",
-   "source_version": "mx-2026-10-30",
+   "source_version": "mx-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Panamericana",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
