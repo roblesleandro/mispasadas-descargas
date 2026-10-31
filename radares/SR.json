@@ -1,7 +1,7 @@
 {
- "version": "sr-2026-10-30",
+ "version": "sr-2026-10-31",
  "pais": "SR",
- "generado": "2026-10-30T03:51:52+00:00",
+ "generado": "2026-10-31T13:43:15+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial con ubicaciones."
@@ -21,7 +21,18 @@
   "limite_desconocido": 0,
   "revisados_esta_corrida": 0,
   "sin_via": 0,
-  "via_completada_esta_corrida": 0
+  "via_completada_esta_corrida": 0,
+  "limites_dudosos_sacados": 0,
+  "por_control": {
+   "VELOCIDAD": 0,
+   "VELOCIDAD_PROMEDIO": 0,
+   "SEMAFORO": 0,
+   "CINTURON": 0,
+   "CELULAR": 0,
+   "SENDA": 0,
+   "INFRACCIONES": 0
+  },
+  "monitoreo": 1
  },
  "alertas": [],
  "radars": [
@@ -34,8 +45,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6474232444",
-   "source_version": "sr-2026-10-30",
+   "source_version": "sr-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "Tourtonnelaan",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
