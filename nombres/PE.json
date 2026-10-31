@@ -528,8 +528,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PE",
+   "via_visible": "PE-30C",
    "punto": "Entrada para Ausangate",
-   "nombre_visible": "Peaje Entrada para Ausangate",
+   "nombre_visible": "PE-30C - Peaje Entrada para Ausangate",
    "confianza": "alta"
   },
   {
@@ -742,8 +743,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PE",
+   "via_visible": "Carretera Panamericana Sur",
    "punto": "Arica",
-   "nombre_visible": "Peaje Arica",
+   "nombre_visible": "Carretera Panamericana Sur - Peaje Arica",
    "confianza": "alta"
   },
   {
@@ -829,9 +831,9 @@
    "localidad": "Quebrada Verde",
    "fuente": "armado",
    "pais": "PE",
-   "via_visible": "Prolongación Avenida Defensores del Morro",
+   "via_visible": "Carretera Panamericana Sur",
    "punto": "Quebrada Verde",
-   "nombre_visible": "Prolongación Avenida Defensores del Morro - Peaje Quebrada Verde",
+   "nombre_visible": "Carretera Panamericana Sur - Peaje Quebrada Verde",
    "confianza": "media"
   },
   {
@@ -1671,6 +1673,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-29T22:11Z",
+ "generado": "2026-10-31T12:50Z",
  "alertas": []
 }
