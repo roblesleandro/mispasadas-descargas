@@ -1,7 +1,7 @@
 {
- "version": "pr-2026-10-30",
+ "version": "pr-2026-10-31",
  "pais": "PR",
- "generado": "2026-10-30T03:47:10+00:00",
+ "generado": "2026-10-31T13:39:34+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "No se conocen fotomultas activas."
@@ -21,7 +21,18 @@
   "limite_desconocido": 0,
   "revisados_esta_corrida": 0,
   "sin_via": 0,
-  "via_completada_esta_corrida": 0
+  "via_completada_esta_corrida": 0,
+  "limites_dudosos_sacados": 0,
+  "por_control": {
+   "VELOCIDAD": 0,
+   "VELOCIDAD_PROMEDIO": 0,
+   "SEMAFORO": 0,
+   "CINTURON": 0,
+   "CELULAR": 0,
+   "SENDA": 0,
+   "INFRACCIONES": 0
+  },
+  "monitoreo": 0
  },
  "alertas": [],
  "radars": []
