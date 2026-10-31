@@ -1,7 +1,7 @@
 {
- "version": "pa-2026-10-30",
+ "version": "pa-2026-10-31",
  "pais": "PA",
- "generado": "2026-10-30T03:39:54+00:00",
+ "generado": "2026-10-31T13:34:17+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "ATTT – Foto Multa (Indra): sin listado de ubicaciones."
@@ -16,12 +16,23 @@
    "RED_LIGHT_CAMERA": 0,
    "VEHICLE_CAMERA": 0
   },
-  "con_limite": 14,
-  "limite_revisar": 0,
-  "limite_desconocido": 0,
+  "con_limite": 13,
+  "limite_revisar": 1,
+  "limite_desconocido": 1,
   "revisados_esta_corrida": 0,
   "sin_via": 0,
-  "via_completada_esta_corrida": 0
+  "via_completada_esta_corrida": 0,
+  "limites_dudosos_sacados": 1,
+  "por_control": {
+   "VELOCIDAD": 14,
+   "VELOCIDAD_PROMEDIO": 0,
+   "SEMAFORO": 0,
+   "CINTURON": 0,
+   "CELULAR": 0,
+   "SENDA": 0,
+   "INFRACCIONES": 0
+  },
+  "monitoreo": 0
  },
  "alertas": [],
  "radars": [
@@ -34,14 +45,18 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9492826878",
-   "source_version": "pa-2026-10-30",
+   "source_version": "pa-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 468",
-   "speed_limit_kmh": 40,
-   "speed_limit_source": "OSM_PROPIO",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_status": "REVISAR",
+   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
    "speed_limit_checked": "2026-10-29",
+   "speed_limit_candidates": [
+    40
+   ],
    "display_name": "Ruta 468 - Radar",
    "country": "PA"
   },
@@ -54,8 +69,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6236814401",
-   "source_version": "pa-2026-10-30",
+   "source_version": "pa-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Panamericana",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -74,8 +92,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9476607857",
-   "source_version": "pa-2026-10-30",
+   "source_version": "pa-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Panamericana",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -94,8 +115,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9496804101",
-   "source_version": "pa-2026-10-30",
+   "source_version": "pa-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Panamericana",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -114,8 +138,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9492780484",
-   "source_version": "pa-2026-10-30",
+   "source_version": "pa-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Panamericana",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -134,8 +161,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9492792176",
-   "source_version": "pa-2026-10-30",
+   "source_version": "pa-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Panamericana",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -154,11 +184,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/247113336",
-   "source_version": "pa-2026-10-30",
+   "source_version": "pa-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 320.0,
    "heading_max": 30.0,
    "road_label": "Carretera Panamericana",
@@ -174,11 +207,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11922367261",
-   "source_version": "pa-2026-10-30",
+   "source_version": "pa-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 1.0,
    "heading_max": 71.0,
    "road_label": "Carretera Panamericana",
@@ -194,11 +230,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12674400639",
-   "source_version": "pa-2026-10-30",
+   "source_version": "pa-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Arraiján - La Chorrera",
    "display_name": "Autopista Arraiján - La Chorrera - Radar",
    "country": "PA"
@@ -212,8 +251,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2174273056",
-   "source_version": "pa-2026-10-30",
+   "source_version": "pa-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Mariano Rivera",
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_PROPIO",
@@ -232,8 +274,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12674388076",
-   "source_version": "pa-2026-10-30",
+   "source_version": "pa-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Arraiján - La Chorrera",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -252,8 +297,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12674410095",
-   "source_version": "pa-2026-10-30",
+   "source_version": "pa-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Arraiján - La Chorrera",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -272,8 +320,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12674432143",
-   "source_version": "pa-2026-10-30",
+   "source_version": "pa-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Arraiján - La Chorrera",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -292,8 +343,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12674406743",
-   "source_version": "pa-2026-10-30",
+   "source_version": "pa-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Arraiján - La Chorrera",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
