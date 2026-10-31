@@ -1,7 +1,7 @@
 {
- "version": "pe-2026-10-30",
+ "version": "pe-2026-10-31",
  "pais": "PE",
- "generado": "2026-10-30T03:37:29+00:00",
+ "generado": "2026-10-31T13:07:46+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "SUTRAN – «Excesos de velocidad detectados por cinemómetros» (datosabiertos.gob.pe): lat/lon de cada detección, no de equipos fijos; desactualizado (2023).",
@@ -20,9 +20,20 @@
   "con_limite": 57,
   "limite_revisar": 0,
   "limite_desconocido": 1,
-  "revisados_esta_corrida": 0,
+  "revisados_esta_corrida": 3,
   "sin_via": 0,
-  "via_completada_esta_corrida": 0
+  "via_completada_esta_corrida": 0,
+  "limites_dudosos_sacados": 0,
+  "por_control": {
+   "VELOCIDAD": 57,
+   "VELOCIDAD_PROMEDIO": 0,
+   "SEMAFORO": 0,
+   "CINTURON": 0,
+   "CELULAR": 0,
+   "SENDA": 0,
+   "INFRACCIONES": 0
+  },
+  "monitoreo": 1
  },
  "alertas": [],
  "radars": [
@@ -35,11 +46,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14330237167",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Panamericana Sur",
    "display_name": "Carretera Panamericana Sur - Radar",
    "country": "PE"
@@ -53,11 +67,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3708582634",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 100.0,
    "heading_max": 170.0,
    "road_label": "Vía Expresa Luis Fernán Bedoya Reyes",
@@ -73,11 +90,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/263631700",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 129.0,
    "heading_max": 199.0,
    "road_label": "Vía Expresa Luis Fernán Bedoya Reyes",
@@ -93,11 +113,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5873991561",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 152.0,
    "heading_max": 222.0,
    "road_label": "Vía Expresa Luis Fernán Bedoya Reyes",
@@ -113,8 +136,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872093965",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Del Ejército",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -133,8 +159,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/257943385",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 275.0,
    "heading_max": 345.0,
    "road_label": "Circuito de Playas",
@@ -155,11 +184,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9368008281",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Vía Expresa Luis Fernán Bedoya Reyes",
@@ -175,8 +207,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872013158",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 244.0,
    "heading_max": 314.0,
    "road_label": "Avenida General Juan Antonio Pezet",
@@ -197,11 +232,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872013160",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 170.0,
    "heading_max": 240.0,
    "road_label": "Vía Expresa Luis Fernán Bedoya Reyes",
@@ -217,11 +255,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5873968064",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 355.0,
    "heading_max": 65.0,
    "road_label": "Vía Expresa Luis Fernán Bedoya Reyes",
@@ -237,8 +278,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5873968059",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Expresa Luis Fernán Bedoya Reyes",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -257,11 +301,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872013143",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 225.0,
    "heading_max": 295.0,
    "road_label": "Avenida Javier Prado Este",
@@ -277,11 +324,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872438409",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Javier Prado Este",
    "display_name": "Avenida Javier Prado Este - Radar",
    "country": "PE"
@@ -295,8 +345,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1727347001",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 40.0,
    "heading_max": 110.0,
    "road_label": "Avenida Raúl Ferrero",
@@ -317,8 +370,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5873943241",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 45.0,
    "heading_max": 115.0,
    "road_label": "Avenida Javier Prado Este",
@@ -339,8 +395,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2058517409",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 285.0,
    "heading_max": 355.0,
    "road_label": "Avenida de La Marina",
@@ -361,8 +420,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/411672422",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 10.0,
    "heading_max": 80.0,
    "road_label": "Alameda del Corregidor",
@@ -383,11 +445,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13481095297",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 305.0,
    "heading_max": 15.0,
    "road_label": "Avenida Paseo de la República",
@@ -403,8 +468,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6110043470",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 255.0,
    "heading_max": 325.0,
    "road_label": "Avenida de La Marina",
@@ -425,8 +493,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6110037268",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 255.0,
    "heading_max": 325.0,
    "road_label": "Avenida de La Marina",
@@ -447,8 +518,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872388778",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 225.0,
    "heading_max": 295.0,
    "road_label": "Avenida República de Venezuela",
@@ -469,11 +543,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872396529",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 50.0,
    "heading_max": 120.0,
    "road_label": "Avenida República de Venezuela",
@@ -489,8 +566,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6110032458",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 320.0,
    "heading_max": 30.0,
    "road_label": "Avenida Elmer Faucett",
@@ -511,8 +591,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872155399",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Sáenz Peña",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -531,8 +614,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872202180",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 90.0,
    "heading_max": 160.0,
    "road_label": "Avenida Guardia Chalaca",
@@ -553,8 +639,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872285704",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 45.0,
    "heading_max": 115.0,
    "road_label": "Avenida Óscar Raimundo Benavides",
@@ -575,8 +664,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872293661",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 225.0,
    "heading_max": 295.0,
    "road_label": "Avenida Óscar Raimundo Benavides",
@@ -597,8 +689,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3023423293",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 50.0,
    "heading_max": 120.0,
    "road_label": "Avenida República de Venezuela",
@@ -619,8 +714,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872266477",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 220.0,
    "heading_max": 290.0,
    "road_label": "Avenida Óscar Raimundo Benavides",
@@ -641,8 +739,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872328141",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 230.0,
    "heading_max": 300.0,
    "road_label": "Avenida República de Argentina",
@@ -663,8 +764,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872328140",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida República de Argentina",
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_PROPIO",
@@ -683,8 +787,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872155401",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 230.0,
    "heading_max": 300.0,
    "road_label": "Avenida República de Argentina",
@@ -705,8 +812,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872155400",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 50.0,
    "heading_max": 120.0,
    "road_label": "Avenida República de Argentina",
@@ -727,11 +837,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872342295",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Avenida Elmer Faucett",
@@ -747,11 +860,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872155403",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 230.0,
    "heading_max": 300.0,
    "road_label": "Avenida República de Argentina",
@@ -767,11 +883,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6110041742",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 320.0,
    "heading_max": 30.0,
    "road_label": "Avenida Elmer Faucett",
@@ -787,8 +906,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872155404",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 50.0,
    "heading_max": 120.0,
    "road_label": "Avenida República de Argentina",
@@ -809,11 +931,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872369791",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Elmer Faucett",
    "display_name": "Avenida Elmer Faucett - Radar",
    "country": "PE"
@@ -827,11 +952,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872337757",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 120.0,
    "heading_max": 190.0,
    "road_label": "Vía Expresa Elmer Faucett",
@@ -847,11 +975,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872337759",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Expresa Elmer Faucett",
    "display_name": "Vía Expresa Elmer Faucett - Radar",
    "country": "PE"
@@ -865,11 +996,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872337760",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 295.0,
    "heading_max": 5.0,
    "road_label": "Vía Expresa Elmer Faucett",
@@ -885,8 +1019,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2470149905",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 115.0,
    "heading_max": 185.0,
    "road_label": "Avenida Universitaria",
@@ -907,8 +1044,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872409408",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 300.0,
    "heading_max": 10.0,
    "road_label": "Avenida Pacasmayo",
@@ -929,8 +1069,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872350786",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 120.0,
    "heading_max": 190.0,
    "road_label": "Avenida Los Dominicos",
@@ -951,8 +1094,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9811925639",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "PE-20B",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -971,11 +1117,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/273420690",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 265.0,
    "heading_max": 335.0,
    "road_label": "PE-20B",
@@ -991,8 +1140,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5930182044",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 5.0,
    "heading_max": 75.0,
    "road_label": "PE-1N",
@@ -1013,11 +1165,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12681646281",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 35,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Central",
    "display_name": "Carretera Central - Radar",
    "country": "PE"
@@ -1031,11 +1186,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12356887148",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 35,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 265.0,
    "heading_max": 335.0,
    "road_label": "Carretera Central",
@@ -1051,12 +1209,18 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14081004796",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
-   "speed_limit_kmh": 40,
-   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Panamericana Norte",
+   "speed_limit_checked": "2026-10-31",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "trunk",
    "display_name": "Panamericana Norte - Radar",
    "country": "PE"
   },
@@ -1069,12 +1233,18 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14080997926",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
-   "speed_limit_kmh": 40,
-   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Panamericana Norte",
+   "speed_limit_checked": "2026-10-31",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "trunk",
    "display_name": "Panamericana Norte - Radar",
    "country": "PE"
   },
@@ -1087,11 +1257,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3778979788",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Progreso",
    "display_name": "Avenida Progreso - Radar",
    "country": "PE"
@@ -1105,12 +1278,18 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3778979787",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
-   "speed_limit_kmh": 35,
-   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Panamericana Norte",
+   "speed_limit_checked": "2026-10-31",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "secondary",
    "display_name": "Panamericana Norte - Radar",
    "country": "PE"
   },
@@ -1123,11 +1302,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3778979786",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Panamericana Norte",
    "display_name": "Panamericana Norte - Radar",
    "country": "PE"
@@ -1141,11 +1323,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13694493867",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Sánchez Cerro",
    "display_name": "Avenida Sánchez Cerro - Radar",
    "country": "PE"
@@ -1159,11 +1344,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13694493866",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Sánchez Cerro",
    "display_name": "Avenida Sánchez Cerro - Radar",
    "country": "PE"
@@ -1177,11 +1365,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14073021512",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "PE-1N",
    "display_name": "PE-1N - Radar",
    "country": "PE"
@@ -1195,8 +1386,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10554663848",
-   "source_version": "pe-2026-10-30",
+   "source_version": "pe-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "Avenida Principal",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
