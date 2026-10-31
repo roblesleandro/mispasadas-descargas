@@ -170,9 +170,9 @@
    "localidad": "Boyeros",
    "fuente": "armado",
    "pais": "CU",
-   "via_visible": "Parqueo Terminal 3",
+   "via_visible": "Carretera de los Terminales 2 y 3",
    "punto": "Boyeros",
-   "nombre_visible": "Parqueo Terminal 3 - Peaje Boyeros",
+   "nombre_visible": "Carretera de los Terminales 2 y 3 - Peaje Boyeros",
    "confianza": "media"
   },
   {
@@ -213,6 +213,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-29T22:48Z",
+ "generado": "2026-10-31T13:16Z",
  "alertas": []
 }
