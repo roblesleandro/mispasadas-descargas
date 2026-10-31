@@ -5,8 +5,8 @@
  "resumen": {
   "oficial": 0,
   "osm": 99,
-  "armado": 71,
-  "total": 170,
+  "armado": 72,
+  "total": 171,
   "confianza_baja": 0,
   "excluidas": 4
  },
@@ -1566,8 +1566,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "BO",
+   "via_visible": "Ruta 4",
    "punto": "Ichilo",
-   "nombre_visible": "Peaje Ichilo",
+   "nombre_visible": "Ruta 4 - Peaje Ichilo",
    "confianza": "alta"
   },
   {
@@ -2269,6 +2270,20 @@
    "confianza": "alta"
   },
   {
+   "lat": -14.823745,
+   "lon": -64.920464,
+   "nombre": "Peaje Camino Trinidad-Loma Suárez",
+   "tipo": "cabina",
+   "via": "Camino Trinidad-Loma Suárez",
+   "localidad": "Trinidad",
+   "fuente": "armado",
+   "pais": "BO",
+   "via_visible": "Camino Trinidad-Loma Suárez",
+   "punto": "Trinidad",
+   "nombre_visible": "Camino Trinidad-Loma Suárez - Peaje Trinidad",
+   "confianza": "media"
+  },
+  {
    "lat": -14.775609,
    "lon": -64.902692,
    "nombre": "Peaje RN9: Trinidad-San Javier (Beni) (F9)",
@@ -2439,6 +2454,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-29T22:15Z",
+ "generado": "2026-10-31T12:50Z",
  "alertas": []
 }
