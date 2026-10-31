@@ -1,7 +1,7 @@
 {
- "version": "ec-2026-10-30",
+ "version": "ec-2026-10-31",
  "pais": "EC",
- "generado": "2026-10-30T03:38:58+00:00",
+ "generado": "2026-10-31T13:24:05+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Fotorradares de la AMT (Quito): solo prensa.",
@@ -17,12 +17,23 @@
    "RED_LIGHT_CAMERA": 1,
    "VEHICLE_CAMERA": 0
   },
-  "con_limite": 268,
-  "limite_revisar": 1,
-  "limite_desconocido": 30,
+  "con_limite": 266,
+  "limite_revisar": 3,
+  "limite_desconocido": 32,
   "revisados_esta_corrida": 0,
   "sin_via": 0,
-  "via_completada_esta_corrida": 0
+  "via_completada_esta_corrida": 0,
+  "limites_dudosos_sacados": 2,
+  "por_control": {
+   "VELOCIDAD": 297,
+   "VELOCIDAD_PROMEDIO": 0,
+   "SEMAFORO": 2,
+   "CINTURON": 0,
+   "CELULAR": 0,
+   "SENDA": 0,
+   "INFRACCIONES": 0
+  },
+  "monitoreo": 0
  },
  "alertas": [],
  "radars": [
@@ -35,11 +46,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765627675",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 120.0,
    "heading_max": 190.0,
    "road_label": "Avenida 8 de Diciembre",
@@ -55,11 +69,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765627676",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 300.0,
    "heading_max": 10.0,
    "road_label": "Avenida 8 de Diciembre",
@@ -75,11 +92,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6582791650",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 225.0,
    "heading_max": 295.0,
    "road_label": "E45",
@@ -95,8 +115,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7576539679",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E45",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -115,8 +138,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7576555729",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E45",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -135,8 +161,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7576555730",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E45",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -155,8 +184,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7289711352",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E45",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -173,11 +205,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4854495718",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "display_name": "E25 - Radar",
    "country": "EC"
@@ -191,8 +226,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537126",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -209,8 +247,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537125",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -227,8 +268,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537124",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -245,8 +289,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545821",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -263,11 +310,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537132",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "display_name": "E25 - Radar",
    "country": "EC"
@@ -281,11 +331,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5158787272",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "display_name": "E25 - Radar",
    "country": "EC"
@@ -299,8 +352,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537123",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -317,8 +373,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537122",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -335,8 +394,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545727",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Cuenca - Machala",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -355,8 +417,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545826",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Cuenca - Machala",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -375,8 +440,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545921",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Cuenca - Machala",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -395,8 +463,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545728",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Cuenca - Machala",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -415,8 +486,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537127",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Cuenca - Machala",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -435,8 +509,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537129",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Carretera Cuenca - Machala",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -455,11 +532,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3214371257",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "display_name": "E25 - Radar",
    "country": "EC"
@@ -473,8 +553,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545722",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E59",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -493,8 +576,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545723",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E59",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -513,8 +599,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545724",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E59",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -533,8 +622,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545725",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E59",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -553,11 +645,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537130",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -571,11 +666,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545823",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -589,11 +687,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545824",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -607,8 +708,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12468257749",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E594",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -625,11 +729,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11417753902",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -643,8 +750,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537131",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -663,11 +773,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13176118520",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Ricardo Durán",
    "display_name": "Avenida Ricardo Durán - Radar",
    "country": "EC"
@@ -681,11 +794,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6399536858",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -699,11 +815,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2761656079",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -717,11 +836,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7631609857",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida 12 de Octubre",
    "display_name": "Avenida 12 de Octubre - Radar",
    "country": "EC"
@@ -735,11 +857,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7631609858",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida 12 de Octubre",
    "display_name": "Avenida 12 de Octubre - Radar",
    "country": "EC"
@@ -753,11 +878,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10110144091",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -771,11 +899,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7658934120",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -789,8 +920,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12468257750",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E594",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -809,11 +943,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14285179620",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Enrique Arízaga Toral",
    "display_name": "Avenida Enrique Arízaga Toral - Radar",
    "country": "EC"
@@ -827,11 +964,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6031231196",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida González Suárez",
    "display_name": "Avenida González Suárez - Radar",
    "country": "EC"
@@ -845,11 +985,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6135264086",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 118.0,
    "heading_max": 188.0,
    "road_label": "Avenida de las Américas",
@@ -865,11 +1008,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6031231197",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida de las Américas",
    "display_name": "Avenida de las Américas - Radar",
    "country": "EC"
@@ -883,11 +1029,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4023666343",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Enrique Arízaga Toral",
    "display_name": "Avenida Enrique Arízaga Toral - Radar",
    "country": "EC"
@@ -901,11 +1050,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10110144089",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Cuenca Azogues",
    "display_name": "Autopista Cuenca Azogues - Radar",
    "country": "EC"
@@ -919,11 +1071,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11426002835",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 55,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Ordoñez Lasso",
    "display_name": "Avenida Ordoñez Lasso - Radar",
    "country": "EC"
@@ -937,11 +1092,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6382103821",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Cuenca Azogues",
    "display_name": "Autopista Cuenca Azogues - Radar",
    "country": "EC"
@@ -955,11 +1113,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5993564337",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 70.0,
    "heading_max": 140.0,
    "road_label": "Avenida Ordoñez Lasso",
@@ -975,11 +1136,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5993564336",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 65,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 254.0,
    "heading_max": 324.0,
    "road_label": "Avenida Ordoñez Lasso",
@@ -995,11 +1159,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3556484489",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida de las Américas",
    "display_name": "Avenida de las Américas - Radar",
    "country": "EC"
@@ -1013,11 +1180,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9589963977",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 195.0,
    "heading_max": 265.0,
    "road_label": "Avenida de las Américas",
@@ -1033,11 +1203,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6382103711",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Cuenca Azogues",
    "display_name": "Autopista Cuenca Azogues - Radar",
    "country": "EC"
@@ -1051,11 +1224,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12057591693",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Cuenca Azogues",
    "display_name": "Autopista Cuenca Azogues - Radar",
    "country": "EC"
@@ -1069,11 +1245,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9328226440",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E594",
    "display_name": "E594 - Radar",
    "country": "EC"
@@ -1087,11 +1266,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11426087575",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Panamericana",
    "display_name": "Panamericana - Radar",
    "country": "EC"
@@ -1105,8 +1287,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6119575457",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E594",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -1125,11 +1310,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9328226444",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E594",
    "display_name": "E594 - Radar",
    "country": "EC"
@@ -1143,11 +1331,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9328226443",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E594",
    "display_name": "E594 - Radar",
    "country": "EC"
@@ -1161,11 +1352,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3101322806",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Cuenca Azogues",
    "display_name": "Autopista Cuenca Azogues - Radar",
    "country": "EC"
@@ -1179,11 +1373,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3079573440",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Cuenca Azogues",
    "display_name": "Autopista Cuenca Azogues - Radar",
    "country": "EC"
@@ -1197,11 +1394,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3989353457",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Cuenca Azogues",
    "display_name": "Autopista Cuenca Azogues - Radar",
    "country": "EC"
@@ -1215,11 +1415,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11426087574",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Cuenca Azogues",
    "display_name": "Autopista Cuenca Azogues - Radar",
    "country": "EC"
@@ -1233,11 +1436,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6384002047",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E40",
    "display_name": "E40 - Radar",
    "country": "EC"
@@ -1251,11 +1457,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4404490715",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Cuenca Azogues",
    "display_name": "Autopista Cuenca Azogues - Radar",
    "country": "EC"
@@ -1269,11 +1478,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6382103632",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Cuenca Azogues",
    "display_name": "Autopista Cuenca Azogues - Radar",
    "country": "EC"
@@ -1287,11 +1499,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/321424585",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autopista Cuenca Azogues",
    "display_name": "Autopista Cuenca Azogues - Radar",
    "country": "EC"
@@ -1305,11 +1520,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11522995262",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Interoceánica",
    "display_name": "Vía Interoceánica - Radar",
    "country": "EC"
@@ -1323,11 +1541,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614645",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Luis Monsalve Pozo",
    "display_name": "Avenida Luis Monsalve Pozo - Radar",
    "country": "EC"
@@ -1341,11 +1562,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614644",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Luis Monsalve Pozo",
    "display_name": "Avenida Luis Monsalve Pozo - Radar",
    "country": "EC"
@@ -1359,11 +1583,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614643",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Luis Monsalve Pozo",
    "display_name": "Avenida Luis Monsalve Pozo - Radar",
    "country": "EC"
@@ -1377,11 +1604,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545729",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 101.0,
    "heading_max": 171.0,
    "road_label": "Vía Cuenca - Molleturo - Puerto Inca",
@@ -1397,11 +1627,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537133",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 78.0,
    "heading_max": 148.0,
    "road_label": "Vía Cuenca - Molleturo - Puerto Inca",
@@ -1417,11 +1650,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614641",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Luis Monsalve Pozo",
    "display_name": "Avenida Luis Monsalve Pozo - Radar",
    "country": "EC"
@@ -1435,11 +1671,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545731",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 157.0,
    "heading_max": 227.0,
    "road_label": "Vía Cuenca - Molleturo - Puerto Inca",
@@ -1455,11 +1694,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712546021",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 340.0,
    "heading_max": 50.0,
    "road_label": "Vía Cuenca - Molleturo - Puerto Inca",
@@ -1475,11 +1717,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614639",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Rapida a Azogues Biblián",
    "display_name": "Vía Rapida a Azogues Biblián - Radar",
    "country": "EC"
@@ -1493,11 +1738,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614638",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Rapida a Azogues Biblián",
    "display_name": "Vía Rapida a Azogues Biblián - Radar",
    "country": "EC"
@@ -1511,11 +1759,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614637",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Rapida a Azogues Biblián",
    "display_name": "Vía Rapida a Azogues Biblián - Radar",
    "country": "EC"
@@ -1529,8 +1780,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712546125",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Cuenca - Molleturo - Puerto Inca",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -1549,8 +1803,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537134",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -1569,11 +1826,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614627",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -1587,8 +1847,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712546421",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -1607,11 +1870,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12313034344",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 85.0,
    "heading_max": 155.0,
    "road_label": "E25",
@@ -1627,11 +1893,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12313034343",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "E25",
@@ -1647,8 +1916,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537135",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -1667,8 +1939,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4969526900",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -1687,8 +1962,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4969525035",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -1707,11 +1985,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551215511",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía a la Costa",
    "display_name": "Vía a la Costa - Radar",
    "country": "EC"
@@ -1725,11 +2006,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551208587",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía a la Costa",
    "display_name": "Vía a la Costa - Radar",
    "country": "EC"
@@ -1743,11 +2027,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551213775",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía a la Costa",
    "display_name": "Vía a la Costa - Radar",
    "country": "EC"
@@ -1761,11 +2048,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551208588",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía a la Costa",
    "display_name": "Vía a la Costa - Radar",
    "country": "EC"
@@ -1779,11 +2069,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6047520712",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía a la Costa",
    "display_name": "Vía a la Costa - Radar",
    "country": "EC"
@@ -1797,11 +2090,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551208868",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía a la Costa",
    "display_name": "Vía a la Costa - Radar",
    "country": "EC"
@@ -1815,11 +2111,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6047520139",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía a la Costa",
    "display_name": "Vía a la Costa - Radar",
    "country": "EC"
@@ -1833,11 +2132,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551208867",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía a la Costa",
    "display_name": "Vía a la Costa - Radar",
    "country": "EC"
@@ -1851,11 +2153,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545828",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "display_name": "E25 - Radar",
    "country": "EC"
@@ -1869,11 +2174,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4969519401",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "display_name": "E25 - Radar",
    "country": "EC"
@@ -1887,11 +2195,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545830",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "display_name": "E25 - Radar",
    "country": "EC"
@@ -1905,11 +2216,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11417729860",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "display_name": "E25 - Radar",
    "country": "EC"
@@ -1923,11 +2237,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551206068",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía a la Costa",
    "display_name": "Vía a la Costa - Radar",
    "country": "EC"
@@ -1941,11 +2258,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551193591",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía a la Costa",
    "display_name": "Vía a la Costa - Radar",
    "country": "EC"
@@ -1959,11 +2279,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4525146744",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía a la Costa",
    "display_name": "Vía a la Costa - Radar",
    "country": "EC"
@@ -1977,11 +2300,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4529476940",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Eleodoro Solórzano",
    "display_name": "Avenida Eleodoro Solórzano - Radar",
    "country": "EC"
@@ -1995,8 +2321,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712546121",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Vírgen de Fátima - Guayaquil",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -2015,8 +2344,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537136",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Guayaquil - Vírgen de Fátima",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -2035,8 +2367,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545923",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Guayaquil - Vírgen de Fátima",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -2055,8 +2390,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712546124",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Guayaquil - Vírgen de Fátima",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -2075,8 +2413,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12143074759",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Guayaquil - Vírgen de Fátima",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -2095,11 +2436,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6047514823",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Vírgen de Fátima - Guayaquil",
    "display_name": "Vía Vírgen de Fátima - Guayaquil - Radar",
    "country": "EC"
@@ -2113,11 +2457,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6047518806",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía a la Costa",
    "display_name": "Vía a la Costa - Radar",
    "country": "EC"
@@ -2131,8 +2478,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712546122",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Vírgen de Fátima - Guayaquil",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -2151,11 +2501,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6047517464",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Vírgen de Fátima - Guayaquil",
    "display_name": "Vía Vírgen de Fátima - Guayaquil - Radar",
    "country": "EC"
@@ -2169,11 +2522,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6047518035",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E40",
    "display_name": "E40 - Radar",
    "country": "EC"
@@ -2187,11 +2543,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6047521419",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E40",
    "display_name": "E40 - Radar",
    "country": "EC"
@@ -2205,11 +2564,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4525115344",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E15",
    "display_name": "E15 - Radar",
    "country": "EC"
@@ -2223,8 +2585,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545922",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E40",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -2243,11 +2608,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14181715612",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Nicolás Lapentti C.",
    "display_name": "Avenida Nicolás Lapentti C. - Radar",
    "country": "EC"
@@ -2261,11 +2629,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12793452568",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Vial 8",
@@ -2281,11 +2652,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12793542993",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 55.0,
    "heading_max": 125.0,
    "road_label": "Vial 1",
@@ -2301,11 +2675,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12793542995",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 235.0,
    "heading_max": 305.0,
    "road_label": "Vial 1",
@@ -2321,11 +2698,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12793570819",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "Vía a Salitre - T de Daule",
@@ -2341,11 +2721,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12838774903",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "Vía a Daule",
@@ -2361,11 +2744,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12838774904",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "Vía a Daule",
@@ -2381,11 +2767,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12838774929",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "E48",
@@ -2401,11 +2790,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12839000266",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "E48",
@@ -2421,11 +2813,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12839076223",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "E48",
@@ -2441,11 +2836,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12839111449",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "E48",
@@ -2461,11 +2859,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12839172738",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Vía Daule - Santa Lucía",
@@ -2481,11 +2882,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12839172704",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Vía Daule - Santa Lucía",
@@ -2501,11 +2905,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12793699712",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Vía Daule - Santa Lucía",
@@ -2521,8 +2928,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12793689121",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "Vía Daule - Santa Lucía",
@@ -2541,8 +2951,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12793689120",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Vía Daule - Santa Lucía",
@@ -2561,11 +2974,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6704972210",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 125.0,
    "heading_max": 195.0,
    "road_label": "E35",
@@ -2581,8 +2997,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6655915186",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -2601,11 +3020,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740609991",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -2619,11 +3041,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10828217655",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Alberto Zambrano",
    "display_name": "Avenida Alberto Zambrano - Radar",
    "country": "EC"
@@ -2637,11 +3062,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3916881788",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Alberto Zambrano",
    "display_name": "Avenida Alberto Zambrano - Radar",
    "country": "EC"
@@ -2655,8 +3083,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6655911193",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -2675,11 +3106,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740609990",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -2693,8 +3127,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2392884369",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -2713,11 +3150,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740609989",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -2731,11 +3171,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740609988",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -2749,11 +3192,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740609987",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -2767,8 +3213,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4016563957",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida de la Confraternidad",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -2787,8 +3236,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4403580631",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida de la Confraternidad",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -2807,11 +3259,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8082575996",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Bolivariana",
    "display_name": "Avenida Bolivariana - Radar",
    "country": "EC"
@@ -2825,8 +3280,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006291",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -2845,11 +3303,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3646434341",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Manuela Sáenz",
    "display_name": "Avenida Manuela Sáenz - Radar",
    "country": "EC"
@@ -2863,8 +3324,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5597337945",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Victor Hugo",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -2883,8 +3347,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4988812148",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Bolivariana",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -2903,8 +3370,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5597337947",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Galo Vela",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -2923,11 +3393,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3646431085",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Los Guaytambos",
    "display_name": "Avenida Los Guaytambos - Radar",
    "country": "EC"
@@ -2941,8 +3414,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6426109382",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 205.0,
    "heading_max": 275.0,
    "road_label": "Avenida Rodrigo Pachano",
@@ -2963,8 +3439,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4988812147",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Indoamerica",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -2983,8 +3462,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5182861062",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Rodrigo Pachano",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -3003,8 +3485,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5182862521",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Rodrigo Pachano",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -3023,11 +3508,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6426109381",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Rodrigo Pachano",
    "display_name": "Avenida Rodrigo Pachano - Radar",
    "country": "EC"
@@ -3041,11 +3529,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7015776489",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "E35",
@@ -3061,11 +3552,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394839204",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 140.0,
    "heading_max": 210.0,
    "road_label": "E35",
@@ -3081,11 +3575,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394839205",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 320.0,
    "heading_max": 30.0,
    "road_label": "E35",
@@ -3101,11 +3598,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7015776488",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 310.0,
    "heading_max": 20.0,
    "road_label": "E35",
@@ -3121,11 +3621,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394839203",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 140.0,
    "heading_max": 210.0,
    "road_label": "E35",
@@ -3141,11 +3644,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394839202",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 320.0,
    "heading_max": 30.0,
    "road_label": "E35",
@@ -3161,8 +3667,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6773298588",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -3181,8 +3690,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006588",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -3201,11 +3713,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994175",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 55.0,
    "heading_max": 125.0,
    "road_label": "E15",
@@ -3221,8 +3736,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7015776487",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "speed_limit_kmh": 48,
    "speed_limit_source": "OSM_PROPIO",
@@ -3241,11 +3759,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740609986",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -3259,8 +3780,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6981929587",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
@@ -3278,11 +3802,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994184",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 105.0,
    "heading_max": 175.0,
    "road_label": "Avenida Metropolitana",
@@ -3298,8 +3825,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6981929586",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
@@ -3317,11 +3847,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12058037905",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 345.0,
    "heading_max": 55.0,
    "road_label": "Vía Interbarrial",
@@ -3337,11 +3870,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994186",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 80.0,
    "heading_max": 150.0,
    "road_label": "E15",
@@ -3357,11 +3893,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394735113",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 115.0,
    "heading_max": 185.0,
    "road_label": "E35",
@@ -3377,11 +3916,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394735114",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 295.0,
    "heading_max": 5.0,
    "road_label": "E35",
@@ -3397,11 +3939,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740609985",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E35",
    "display_name": "E35 - Radar",
    "country": "EC"
@@ -3415,11 +3960,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994178",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 190.0,
    "heading_max": 260.0,
    "road_label": "Avenida de la Cultura",
@@ -3435,11 +3983,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994188",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 5.0,
    "heading_max": 75.0,
    "road_label": "E38",
@@ -3455,11 +4006,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006591",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "display_name": "E25 - Radar",
    "country": "EC"
@@ -3473,11 +4027,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/360674187",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 220.0,
    "heading_max": 290.0,
    "road_label": "E38",
@@ -3493,11 +4050,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994191",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 25.0,
    "heading_max": 95.0,
    "road_label": "E38",
@@ -3513,11 +4073,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994193",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 340.0,
    "heading_max": 50.0,
    "road_label": "E38",
@@ -3533,11 +4096,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3232361620",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 200.0,
    "heading_max": 270.0,
    "road_label": "E38",
@@ -3553,11 +4119,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994196",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 10.0,
    "heading_max": 80.0,
    "road_label": "E38",
@@ -3573,11 +4142,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006592",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "display_name": "E25 - Radar",
    "country": "EC"
@@ -3591,8 +4163,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6043906885",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Alóag Latacunga",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -3611,8 +4186,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6043906585",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía Alóag Latacunga",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -3631,11 +4209,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006296",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "display_name": "E25 - Radar",
    "country": "EC"
@@ -3649,11 +4230,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394724229",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 170.0,
    "heading_max": 240.0,
    "road_label": "Vía Alóag Latacunga",
@@ -3669,11 +4253,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7015776485",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 345.0,
    "heading_max": 55.0,
    "road_label": "Vía Alóag Latacunga",
@@ -3689,11 +4276,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006298",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "display_name": "E25 - Radar",
    "country": "EC"
@@ -3707,11 +4297,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3690070121",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 175.0,
    "heading_max": 245.0,
    "road_label": "E38",
@@ -3727,11 +4320,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13665750897",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E20",
    "display_name": "E20 - Radar",
    "country": "EC"
@@ -3745,11 +4341,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006604",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "display_name": "E25 - Radar",
    "country": "EC"
@@ -3763,8 +4362,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10152079176",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Via a la Independencia",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -3781,11 +4383,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006608",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E25",
    "display_name": "E25 - Radar",
    "country": "EC"
@@ -3799,11 +4404,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994199",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 5.0,
    "heading_max": 75.0,
    "road_label": "E38",
@@ -3819,8 +4427,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5921647217",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E20",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -3839,11 +4450,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394720022",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 170.0,
    "heading_max": 240.0,
    "road_label": "Avenida Simón Bolívar",
@@ -3859,8 +4473,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4276970164",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Quevedo",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -3879,11 +4496,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3574851715",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Simón Bolívar",
    "display_name": "Avenida Simón Bolívar - Radar",
    "country": "EC"
@@ -3897,8 +4517,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5921648521",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E20",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -3917,11 +4540,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12964551022",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E20",
    "display_name": "E20 - Radar",
    "country": "EC"
@@ -3935,12 +4561,15 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8842199917",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "road_name": "Via Pifo Papallacta",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Via Pifo Papallacta",
    "display_name": "Via Pifo Papallacta - Radar",
    "country": "EC"
@@ -3954,8 +4583,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5921650579",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E20",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -3974,8 +4606,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5921656055",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E20",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -3994,8 +4629,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9727329739",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Napo",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -4014,11 +4652,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006309",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 50.0,
    "heading_max": 120.0,
    "road_label": "Avenida de los Colonos",
@@ -4034,8 +4675,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5921656063",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E20",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -4054,8 +4698,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1785495694",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Avenida de los Colonos",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -4074,14 +4721,18 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9724742144",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Napo",
-   "speed_limit_kmh": 20,
-   "speed_limit_source": "OSM_TRAMO_VECINO",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "lado B: 20 km/h a 24 m",
+   "speed_limit_status": "REVISAR",
+   "speed_limit_detail": "20 km/h no es creíble en esta vía: se publica como límite desconocido",
    "speed_limit_checked": "2026-10-29",
+   "speed_limit_candidates": [
+    20
+   ],
    "display_name": "Avenida Napo - Radar",
    "country": "EC"
   },
@@ -4094,14 +4745,18 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9724742153",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Napo",
-   "speed_limit_kmh": 20,
-   "speed_limit_source": "OSM_TRAMO_VECINO",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "lado A: 20 km/h a 120 m",
+   "speed_limit_status": "REVISAR",
+   "speed_limit_detail": "20 km/h no es creíble en esta vía: se publica como límite desconocido",
    "speed_limit_checked": "2026-10-29",
+   "speed_limit_candidates": [
+    20
+   ],
    "display_name": "Avenida Napo - Radar",
    "country": "EC"
   },
@@ -4114,8 +4769,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9725814376",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Francisco Barba",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -4134,8 +4792,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9771159295",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Pichincha",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -4154,11 +4815,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4334164707",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Viva",
    "display_name": "Ruta Viva - Radar (Foto Radar)",
    "country": "EC"
@@ -4172,8 +4836,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4530364927",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Viva",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -4192,8 +4859,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4530366032",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Viva",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -4212,8 +4882,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9734133949",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Gran Colombia",
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_PROPIO",
@@ -4232,8 +4905,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9731375614",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Luis Vargas",
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -4252,8 +4928,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9419524028",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "José Riofrío",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -4270,8 +4949,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4781516480",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Simón Bolívar",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -4290,8 +4972,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9494307976",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida América",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -4310,8 +4995,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9499104523",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Santiago",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -4328,8 +5016,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9428831179",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Madrid",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -4346,8 +5037,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9731321712",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida América",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -4366,8 +5060,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9147171801",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Manuel Larrea",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -4384,8 +5081,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9787115836",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Reina Victoria",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -4404,8 +5104,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9467583992",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bolivia",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -4422,8 +5125,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9467583975",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Versalles",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -4442,8 +5148,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9731916090",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Alfredo Perez Guerrero",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -4462,8 +5171,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9389479666",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "San Gregorio",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -4480,11 +5192,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9762209485",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 165.0,
    "heading_max": 235.0,
    "road_label": "Avenida 10 de Agosto",
@@ -4500,11 +5215,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9165132625",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Fray Antonio de Marchena",
    "display_name": "Fray Antonio de Marchena - Radar",
    "country": "EC"
@@ -4518,8 +5236,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9771058901",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Juan León Mera",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -4536,8 +5257,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9429844609",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Gaspar de Carvajal",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -4554,8 +5278,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9322475892",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "9 de Octubre",
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -4574,8 +5301,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9397832903",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Antonio de Ulloa",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -4594,11 +5324,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9758444425",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 235.0,
    "heading_max": 305.0,
    "road_label": "Avenida Francisco de Orellana",
@@ -4614,8 +5347,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9395418816",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Antonio de Ulloa",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -4634,8 +5370,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9165875202",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Versalles",
    "speed_limit_status": "REVISAR",
    "speed_limit_detail": "lado A: 50 km/h a 199 m · lado B: 30 km/h a 12 m · el más cercano es el menor",
@@ -4656,8 +5395,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9473153574",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Versalles",
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_PROPIO",
@@ -4676,8 +5418,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9480281289",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Selva Alegre",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -4696,8 +5441,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9170530050",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bartolomé de las Casas",
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_PROPIO",
@@ -4716,8 +5464,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9167740368",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida 10 de Agosto",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -4736,8 +5487,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9170435049",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Toribio Montes",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -4754,11 +5508,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12084034567",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida 6 de Diciembre",
    "display_name": "Avenida 6 de Diciembre - Radar",
    "country": "EC"
@@ -4772,8 +5529,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9170149178",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Cristóbal de Acuña",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -4790,8 +5550,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9173262423",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bartolomé de las Casas",
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_PROPIO",
@@ -4810,8 +5573,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9167740356",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida 10 de Agosto",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -4830,8 +5596,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9172832861",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Antonio de Ulloa",
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_PROPIO",
@@ -4850,8 +5619,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9172832876",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida América",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -4870,8 +5642,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9435109474",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida 10 de Agosto",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -4890,8 +5665,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9094545109",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Cuero y Caicedo",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -4908,8 +5686,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9171898875",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida América",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -4928,8 +5709,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9445191404",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Cuero y Caicedo",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -4946,8 +5730,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9431925291",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida América",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -4966,11 +5753,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4781515459",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 333.0,
    "heading_max": 43.0,
    "road_label": "Avenida Simón Bolívar",
@@ -4986,8 +5776,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9652796618",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Antonio de Ulloa",
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -5006,8 +5799,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9601960939",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida General Eloy Alfaro",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -5026,8 +5822,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9431371340",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida de los Shyris",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -5046,8 +5845,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9728455515",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Nuñez de Vela",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -5064,8 +5866,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9728429451",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Naciones Unidas",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -5084,8 +5889,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9627030145",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "El Telégrafo",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -5102,8 +5910,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9167956657",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "El Telégrafo",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -5120,11 +5931,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12084045101",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Gaspar de Villarroel",
    "display_name": "Avenida Gaspar de Villarroel - Radar",
    "country": "EC"
@@ -5138,8 +5952,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9168371822",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Isla Santa Fe",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -5156,8 +5973,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9718433370",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "De Los Colimes",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -5174,8 +5994,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9731319207",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Brasil",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -5194,8 +6017,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9165947040",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Río Coca",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -5214,11 +6040,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4530353967",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 240.0,
    "heading_max": 310.0,
    "road_label": "Avenida Simón Bolívar",
@@ -5234,8 +6063,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9769892791",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida de la Prensa",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -5254,8 +6086,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9733606917",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "José Rafael Bustamante",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -5272,8 +6107,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4530350708",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 85.0,
    "heading_max": 155.0,
    "road_label": "Avenida Simón Bolívar",
@@ -5294,8 +6132,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4530351275",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 275.0,
    "heading_max": 345.0,
    "road_label": "Avenida Simón Bolívar",
@@ -5316,11 +6157,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4530347312",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 40.0,
    "heading_max": 110.0,
    "road_label": "Avenida Panamericana Norte",
@@ -5336,11 +6180,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4367119918",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 220.0,
    "heading_max": 290.0,
    "road_label": "Avenida Panamericana Norte",
@@ -5356,11 +6203,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6645243778",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 110.0,
    "heading_max": 180.0,
    "road_label": "Avenida Simón Bolívar",
@@ -5376,11 +6226,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765665326",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 355.0,
    "heading_max": 65.0,
    "road_label": "Avenida Mariscal Sucre",
@@ -5396,11 +6249,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3328641762",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 125.0,
    "heading_max": 195.0,
    "road_label": "E28B",
@@ -5416,11 +6272,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9756075832",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 190.0,
    "heading_max": 260.0,
    "road_label": "Vía Quito Guayllabamba",
@@ -5436,8 +6295,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3674257525",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Manuel Córdova Galarza",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -5456,11 +6318,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765665327",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 110.0,
    "heading_max": 180.0,
    "road_label": "E20",
@@ -5476,11 +6341,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765665329",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 130.0,
    "heading_max": 200.0,
    "road_label": "Avenida 5 de Agosto",
@@ -5496,11 +6364,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765665330",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 320.0,
    "heading_max": 30.0,
    "road_label": "Avenida 5 de Agosto",
@@ -5516,11 +6387,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6585455129",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía San Gabriel - Tulcán",
    "display_name": "Vía San Gabriel - Tulcán - Radar",
    "country": "EC"
@@ -5534,11 +6408,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4493495221",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía San Gabriel - Tulcán",
    "display_name": "Vía San Gabriel - Tulcán - Radar (Foto Radar)",
    "country": "EC"
@@ -5552,11 +6429,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6585426174",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Vía San Gabriel - Tulcán",
    "display_name": "Vía San Gabriel - Tulcán - Radar",
    "country": "EC"
@@ -5570,11 +6450,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11071518559",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "E20",
    "display_name": "E20 - Radar",
    "country": "EC"
@@ -5588,11 +6471,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765665331",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 290.0,
    "heading_max": 0.0,
    "road_label": "E15",
@@ -5608,11 +6494,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765665332",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 110.0,
    "heading_max": 180.0,
    "road_label": "E15",
@@ -5628,11 +6517,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7413144393",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 235.0,
    "heading_max": 305.0,
    "road_label": "Avenida Simón Plata Torres",
@@ -5648,12 +6540,15 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7551774333",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "road_name": "Vía a Atacames",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 44.0,
    "heading_max": 114.0,
    "road_label": "Vía a Atacames",
@@ -5669,11 +6564,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7551795332",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 155.0,
    "heading_max": 225.0,
    "road_label": "Avenida Simón Plata Torres",
@@ -5689,11 +6587,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10245949715",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 336.0,
    "heading_max": 46.0,
    "road_label": "Avenida Simón Plata Torres",
@@ -5709,11 +6610,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7551800595",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 135.0,
    "heading_max": 205.0,
    "road_label": "Avenida de los Puentes",
@@ -5729,12 +6633,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7551807458",
-   "source_version": "ec-2026-10-30",
+   "source_version": "ec-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "road_name": "Avenida Bolivar",
+   "controls": [
+    "VELOCIDAD",
+    "SEMAFORO"
+   ],
    "heading_min": 295.0,
    "heading_max": 5.0,
    "road_label": "Avenida Bolivar",
