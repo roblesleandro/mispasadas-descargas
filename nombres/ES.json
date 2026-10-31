@@ -447,8 +447,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "Circunvalación de Alicante",
    "punto": "El Campello",
-   "nombre_visible": "Peaje El Campello",
+   "nombre_visible": "Circunvalación de Alicante - Peaje El Campello",
    "confianza": "alta"
   },
   {
@@ -1628,8 +1629,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "N-552",
    "punto": "Rande",
-   "nombre_visible": "Peaje Rande",
+   "nombre_visible": "N-552 - Peaje Rande",
    "confianza": "alta"
   },
   {
@@ -1639,8 +1641,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "N-554",
    "punto": "Cangas",
-   "nombre_visible": "Peaje Cangas",
+   "nombre_visible": "N-554 - Peaje Cangas",
    "confianza": "alta"
   },
   {
@@ -1751,9 +1754,11 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "N-232",
    "punto": "Agoncillo",
-   "nombre_visible": "Peaje Agoncillo",
-   "confianza": "alta"
+   "nombre_visible": "N-232 - Peaje Agoncillo",
+   "confianza": "alta",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": 42.445533,
@@ -1798,7 +1803,8 @@
    "via_visible": "N-232",
    "punto": "Agoncillo",
    "nombre_visible": "N-232 - Peaje Agoncillo",
-   "confianza": "media"
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": 42.452798,
@@ -1911,8 +1917,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "AP-9",
    "punto": "Caldas",
-   "nombre_visible": "Peaje Caldas",
+   "nombre_visible": "AP-9 - Peaje Caldas",
    "confianza": "alta"
   },
   {
@@ -1922,8 +1929,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "AP-9",
    "punto": "Carracedo",
-   "nombre_visible": "Peaje Carracedo",
+   "nombre_visible": "AP-9 - Peaje Carracedo",
    "confianza": "alta"
   },
   {
@@ -1933,8 +1941,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "N-124",
    "punto": "de Zambrana",
-   "nombre_visible": "Peaje de Zambrana",
+   "nombre_visible": "N-124 - Peaje de Zambrana",
    "confianza": "alta"
   },
   {
@@ -1988,8 +1997,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "AP-53",
    "punto": "Peaxe de Silleda",
-   "nombre_visible": "Peaje Peaxe de Silleda",
+   "nombre_visible": "AP-53 - Peaje Peaxe de Silleda",
    "confianza": "alta"
   },
   {
@@ -2040,8 +2050,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "Autopista Central Galega",
    "punto": "Peaxe de Ribadulla",
-   "nombre_visible": "Peaje Peaxe de Ribadulla",
+   "nombre_visible": "Autopista Central Galega - Peaje Peaxe de Ribadulla",
    "confianza": "alta"
   },
   {
@@ -2122,8 +2133,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "Autopista Ruta de la Plata",
    "punto": "A-66 Salida 93 Villablino",
-   "nombre_visible": "Peaje A-66 Salida 93 Villablino",
+   "nombre_visible": "Autopista Ruta de la Plata - Peaje A-66 Salida 93 Villablino",
    "confianza": "alta"
   },
   {
@@ -2307,8 +2319,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "AC-524",
    "punto": "Ordes",
-   "nombre_visible": "Peaje Ordes",
+   "nombre_visible": "AC-524 - Peaje Ordes",
    "confianza": "alta"
   },
   {
@@ -2332,8 +2345,9 @@
    "tipo": "portico",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "AP-636",
    "punto": "Antzuola",
-   "nombre_visible": "Pórtico Antzuola",
+   "nombre_visible": "AP-636 - Pórtico Antzuola",
    "confianza": "alta"
   },
   {
@@ -2450,12 +2464,12 @@
    "tipo": "cabina",
    "via": "Carretera Orduña-Bilbao",
    "ref": "BI-625",
-   "localidad": "Arrankudiaga",
+   "localidad": "Arakaldo",
    "fuente": "armado",
    "pais": "ES",
    "via_visible": "BI-625",
-   "punto": "Arrankudiaga",
-   "nombre_visible": "BI-625 - Peaje Arrankudiaga",
+   "punto": "Arakaldo",
+   "nombre_visible": "BI-625 - Peaje Arakaldo",
    "confianza": "media"
   },
   {
@@ -2528,9 +2542,9 @@
    "via": "Kantauriko Autobidea",
    "fuente": "osm",
    "pais": "ES",
-   "via_visible": "Kantauriko Autobidea",
+   "via_visible": "AP-8",
    "punto": "Matiena",
-   "nombre_visible": "Kantauriko Autobidea - Peaje Matiena",
+   "nombre_visible": "AP-8 - Peaje Matiena",
    "confianza": "alta"
   },
   {
@@ -2630,8 +2644,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "AP-8",
    "punto": "Eibar-Soraluze",
-   "nombre_visible": "Peaje Eibar-Soraluze",
+   "nombre_visible": "AP-8 - Peaje Eibar-Soraluze",
    "confianza": "alta"
   },
   {
@@ -2684,8 +2699,9 @@
    "tipo": "portico",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "Iparraldeko autobia",
    "punto": "Vehiculos pesados",
-   "nombre_visible": "Pórtico Vehiculos pesados",
+   "nombre_visible": "Iparraldeko autobia - Pórtico Vehiculos pesados",
    "confianza": "alta"
   },
   {
@@ -2740,9 +2756,9 @@
    "via": "Buruntza auzoa",
    "fuente": "osm",
    "pais": "ES",
-   "via_visible": "Buruntza auzoa",
+   "via_visible": "A-15",
    "punto": "Vehiculos pesados",
-   "nombre_visible": "Buruntza auzoa - Pórtico Vehiculos pesados",
+   "nombre_visible": "A-15 - Pórtico Vehiculos pesados",
    "confianza": "alta"
   },
   {
@@ -2782,8 +2798,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "AP-8",
    "punto": "Larraskitu",
-   "nombre_visible": "Peaje Larraskitu",
+   "nombre_visible": "AP-8 - Peaje Larraskitu",
    "confianza": "alta"
   },
   {
@@ -2818,8 +2835,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "BI-636",
    "punto": "del Kadagua",
-   "nombre_visible": "Peaje del Kadagua",
+   "nombre_visible": "BI-636 - Peaje del Kadagua",
    "confianza": "alta"
   },
   {
@@ -2843,8 +2861,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "AG-55",
    "punto": "Paiosaco Salida 17",
-   "nombre_visible": "Peaje Paiosaco Salida 17",
+   "nombre_visible": "AG-55 - Peaje Paiosaco Salida 17",
    "confianza": "alta"
   },
   {
@@ -3024,8 +3043,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "A-8",
    "punto": "de Trapagaran",
-   "nombre_visible": "Peaje de Trapagaran",
+   "nombre_visible": "A-8 - Peaje de Trapagaran",
    "confianza": "alta"
   },
   {
@@ -3091,8 +3111,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "A-8",
    "punto": "de Santurtzi",
-   "nombre_visible": "Peaje de Santurtzi",
+   "nombre_visible": "A-8 - Peaje de Santurtzi",
    "confianza": "alta"
   },
   {
@@ -3214,8 +3235,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "ES",
+   "via_visible": "AP-9F",
    "punto": "Cabanas",
-   "nombre_visible": "Peaje Cabanas",
+   "nombre_visible": "AP-9F - Peaje Cabanas",
    "confianza": "alta"
   },
   {
@@ -3331,6 +3353,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-30T01:45Z",
+ "generado": "2026-10-31T13:41Z",
  "alertas": []
 }
