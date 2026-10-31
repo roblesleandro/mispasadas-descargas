@@ -3,14 +3,134 @@
  "pais": "VE",
  "moneda": "VES",
  "resumen": {
-  "oficial": 0,
+  "oficial": 11,
   "osm": 67,
   "armado": 4,
-  "total": 71,
+  "total": 82,
   "confianza_baja": 0,
   "excluidas": 1
  },
  "estaciones": [
+  {
+   "lat": 4.825529,
+   "lon": -73.083408,
+   "nombre": "San Luis De Gaceno",
+   "tipo": "cabina",
+   "via": "SAN LUIS DE GACENO",
+   "empresa": "CO-ANI",
+   "fuente": "oficial",
+   "pais": "VE",
+   "via_visible": "SAN LUIS DE GACENO",
+   "punto": "San Luis De Gaceno",
+   "nombre_visible": "SAN LUIS DE GACENO - Peaje San Luis De Gaceno",
+   "confianza": "alta",
+   "plaza": "San Luis De Gaceno"
+  },
+  {
+   "lat": 5.631279,
+   "lon": -72.921252,
+   "nombre": "El Crucero",
+   "tipo": "cabina",
+   "via": "El Crucero",
+   "empresa": "CO-INVIAS",
+   "fuente": "oficial",
+   "pais": "VE",
+   "via_visible": "El Crucero",
+   "punto": "El Crucero",
+   "nombre_visible": "El Crucero - Peaje El Crucero",
+   "confianza": "alta",
+   "plaza": "El Crucero"
+  },
+  {
+   "lat": 6.178236,
+   "lon": -73.33329,
+   "nombre": "Oiba",
+   "tipo": "cabina",
+   "via": "Oiba",
+   "empresa": "CO-INVIAS",
+   "fuente": "oficial",
+   "pais": "VE",
+   "via_visible": "Oiba",
+   "punto": "Oiba",
+   "nombre_visible": "Oiba - Peaje Oiba",
+   "confianza": "alta",
+   "plaza": "Oiba"
+  },
+  {
+   "lat": 6.617696,
+   "lon": -73.080309,
+   "nombre": "Curití",
+   "tipo": "cabina",
+   "via": "Curití",
+   "empresa": "CO-INVIAS",
+   "fuente": "oficial",
+   "pais": "VE",
+   "via_visible": "Curití",
+   "punto": "Curití",
+   "nombre_visible": "Curití - Peaje Curití",
+   "confianza": "alta",
+   "plaza": "Curití"
+  },
+  {
+   "lat": 6.825634,
+   "lon": -72.999482,
+   "nombre": "Los Curos",
+   "tipo": "cabina",
+   "via": "Los Curos",
+   "empresa": "CO-INVIAS",
+   "fuente": "oficial",
+   "pais": "VE",
+   "via_visible": "Los Curos",
+   "punto": "Los Curos",
+   "nombre_visible": "Los Curos - Peaje Los Curos",
+   "confianza": "alta",
+   "plaza": "Los Curos"
+  },
+  {
+   "lat": 7.107994,
+   "lon": -72.968984,
+   "nombre": "El Picacho",
+   "tipo": "cabina",
+   "via": "El Picacho",
+   "empresa": "CO-INVIAS",
+   "fuente": "oficial",
+   "pais": "VE",
+   "via_visible": "El Picacho",
+   "punto": "El Picacho",
+   "nombre_visible": "El Picacho - Peaje El Picacho",
+   "confianza": "alta",
+   "plaza": "El Picacho"
+  },
+  {
+   "lat": 7.42139,
+   "lon": -72.618889,
+   "nombre": "Pamplonita",
+   "tipo": "cabina",
+   "via": "PAMPLONITA",
+   "empresa": "CO-ANI",
+   "fuente": "oficial",
+   "pais": "VE",
+   "via_visible": "PAMPLONITA",
+   "punto": "Pamplonita",
+   "nombre_visible": "PAMPLONITA - Peaje Pamplonita",
+   "confianza": "alta",
+   "plaza": "Pamplonita"
+  },
+  {
+   "lat": 7.554331,
+   "lon": -73.231108,
+   "nombre": "Río Blanco",
+   "tipo": "cabina",
+   "via": "Río Blanco",
+   "empresa": "CO-INVIAS",
+   "fuente": "oficial",
+   "pais": "VE",
+   "via_visible": "Río Blanco",
+   "punto": "Río Blanco",
+   "nombre_visible": "Río Blanco - Peaje Río Blanco",
+   "confianza": "alta",
+   "plaza": "Río Blanco"
+  },
   {
    "lat": 7.641056,
    "lon": -72.183475,
@@ -53,6 +173,21 @@
    "punto": "de Santa Bárbara",
    "nombre_visible": "Carretera Nacional Barinas - San Cristóbal - Peaje de Santa Bárbara",
    "confianza": "alta"
+  },
+  {
+   "lat": 7.867456,
+   "lon": -72.484165,
+   "nombre": "LA PARADA",
+   "tipo": "cabina",
+   "via": "LA PARADA",
+   "empresa": "CO-INVIAS",
+   "fuente": "oficial",
+   "pais": "VE",
+   "via_visible": "LA PARADA",
+   "punto": "LA PARADA",
+   "nombre_visible": "LA PARADA - Peaje LA PARADA",
+   "confianza": "alta",
+   "plaza": "LA PARADA"
   },
   {
    "lat": 8.127877,
@@ -212,8 +347,8 @@
    "confianza": "media"
   },
   {
-   "lat": 9.286713,
-   "lon": -70.896409,
+   "lat": 9.286624,
+   "lon": -70.896335,
    "nombre": "Peaje de Buena Vista",
    "tipo": "cabina",
    "via": "Carretera Panamericana Arapuey - Mendoza",
@@ -559,6 +694,21 @@
    "confianza": "alta"
   },
   {
+   "lat": 10.121726,
+   "lon": -73.238638,
+   "nombre": "San Diego",
+   "tipo": "cabina",
+   "via": "San Diego",
+   "empresa": "CO-INVIAS",
+   "fuente": "oficial",
+   "pais": "VE",
+   "via_visible": "San Diego",
+   "punto": "San Diego",
+   "nombre_visible": "San Diego - Peaje San Diego",
+   "confianza": "alta",
+   "plaza": "San Diego"
+  },
+  {
    "lat": 10.13044,
    "lon": -65.435019,
    "nombre": "Peaje de Playa Pintada",
@@ -671,8 +821,8 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 10.260285,
-   "lon": -67.644387,
+   "lat": 10.260116,
+   "lon": -67.644189,
    "nombre": "Peaje La Cabrera",
    "tipo": "cabina",
    "via": "Carril 1 / Cobro Manual Vehículos Livianos /Peaje La Cabrera",
@@ -735,9 +885,9 @@
    "ref": "L-1",
    "fuente": "osm",
    "pais": "VE",
-   "via_visible": "Local 1",
+   "via_visible": "Autopista Valencia - Puerto Cabello",
    "punto": "de Las Trincheras",
-   "nombre_visible": "Local 1 - Peaje de Las Trincheras",
+   "nombre_visible": "Autopista Valencia - Puerto Cabello - Peaje de Las Trincheras",
    "confianza": "alta"
   },
   {
@@ -755,8 +905,8 @@
    "confianza": "alta"
   },
   {
-   "lat": 10.388965,
-   "lon": -66.889251,
+   "lat": 10.388981,
+   "lon": -66.889257,
    "nombre": "Peaje Tazón",
    "tipo": "cabina",
    "via": "Carril 1 / Cobretag Vehículos Livianos / Peaje Tazón",
@@ -954,6 +1104,21 @@
    "confianza": "alta"
   },
   {
+   "lat": 10.800016,
+   "lon": -72.97554,
+   "nombre": "San Juan",
+   "tipo": "cabina",
+   "via": "San Juan",
+   "empresa": "CO-INVIAS",
+   "fuente": "oficial",
+   "pais": "VE",
+   "via_visible": "San Juan",
+   "punto": "San Juan",
+   "nombre_visible": "San Juan - Peaje San Juan",
+   "confianza": "alta",
+   "plaza": "San Juan"
+  },
+  {
    "lat": 10.997084,
    "lon": -71.793486,
    "nombre": "Peaje de Sinamaica",
@@ -988,8 +1153,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "VE",
+   "via_visible": "Carretera Nacional Paraguaipoa - Paraguachón",
    "punto": "de Guarero",
-   "nombre_visible": "Peaje de Guarero",
+   "nombre_visible": "Carretera Nacional Paraguaipoa - Paraguachón - Peaje de Guarero",
    "confianza": "alta"
   },
   {
@@ -1018,6 +1184,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-30T01:17Z",
+ "generado": "2026-10-31T13:14Z",
  "alertas": []
 }
