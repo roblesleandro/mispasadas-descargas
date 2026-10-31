@@ -29,8 +29,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "TT",
+   "via_visible": "Naparima Mayaro Road",
    "punto": "Security Booth",
-   "nombre_visible": "Toll Security Booth",
+   "nombre_visible": "Naparima Mayaro Road - Toll Security Booth",
    "confianza": "alta"
   },
   {
@@ -55,6 +56,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-29T22:58Z",
+ "generado": "2026-10-31T13:25Z",
  "alertas": []
 }
