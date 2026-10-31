@@ -4,9 +4,9 @@
  "moneda": "EUR",
  "resumen": {
   "oficial": 0,
-  "osm": 59,
+  "osm": 60,
   "armado": 152,
-  "total": 211,
+  "total": 212,
   "confianza_baja": 0,
   "excluidas": 0
  },
@@ -720,8 +720,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "Autoestrada do Oeste",
    "punto": "Lousa (A8)",
-   "nombre_visible": "Portagem Lousa (A8)",
+   "nombre_visible": "Autoestrada do Oeste - Portagem Lousa (A8)",
    "confianza": "alta"
   },
   {
@@ -731,8 +732,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "Autoestrada de Mafra",
    "punto": "Nó de Venda do Pinheiro (A21)",
-   "nombre_visible": "Portagem Nó de Venda do Pinheiro (A21)",
+   "nombre_visible": "Autoestrada de Mafra - Portagem Nó de Venda do Pinheiro (A21)",
    "confianza": "alta"
   },
   {
@@ -893,8 +895,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "Autoestrada do Oeste",
    "punto": "Enxara (A8)",
-   "nombre_visible": "Portagem Enxara (A8)",
+   "nombre_visible": "Autoestrada do Oeste - Portagem Enxara (A8)",
    "confianza": "alta"
   },
   {
@@ -912,8 +915,8 @@
    "confianza": "media"
   },
   {
-   "lat": 39.004549,
-   "lon": -8.962764,
+   "lat": 39.004559,
+   "lon": -8.962755,
    "nombre": "Peaje Estrada dos Fidalgos km 27,2",
    "tipo": "cabina",
    "via": "Estrada dos Fidalgos",
@@ -948,8 +951,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "EN 8",
    "punto": "Torres Vedras S (A8)",
-   "nombre_visible": "Portagem Torres Vedras S (A8)",
+   "nombre_visible": "EN 8 - Portagem Torres Vedras S (A8)",
    "confianza": "alta"
   },
   {
@@ -970,8 +974,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "Autoestrada do Oeste",
    "punto": "Ramalhal (A8)",
-   "nombre_visible": "Portagem Ramalhal (A8)",
+   "nombre_visible": "Autoestrada do Oeste - Portagem Ramalhal (A8)",
    "confianza": "alta"
   },
   {
@@ -1023,8 +1028,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "Autoestrada do Oeste",
    "punto": "Campelos (A8)",
-   "nombre_visible": "Portagem Campelos (A8)",
+   "nombre_visible": "Autoestrada do Oeste - Portagem Campelos (A8)",
    "confianza": "alta"
   },
   {
@@ -1225,8 +1231,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "Autoestrada do Oeste",
    "punto": "Pataias (A8)",
-   "nombre_visible": "Portagem Pataias (A8)",
+   "nombre_visible": "Autoestrada do Oeste - Portagem Pataias (A8)",
    "confianza": "alta"
   },
   {
@@ -1341,8 +1348,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "Autoestrada do Oeste",
    "punto": "Marinha Grande Este (A8)",
-   "nombre_visible": "Portagem Marinha Grande Este (A8)",
+   "nombre_visible": "Autoestrada do Oeste - Portagem Marinha Grande Este (A8)",
    "confianza": "alta"
   },
   {
@@ -1352,8 +1360,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "Autoestrada do Litoral Centro",
    "punto": "Leiria Norte (A17)",
-   "nombre_visible": "Portagem Leiria Norte (A17)",
+   "nombre_visible": "Autoestrada do Litoral Centro - Portagem Leiria Norte (A17)",
    "confianza": "alta"
   },
   {
@@ -1408,8 +1417,8 @@
    "confianza": "media"
   },
   {
-   "lat": 39.989375,
-   "lon": -8.79138,
+   "lat": 39.989348,
+   "lon": -8.791389,
    "nombre": "Peaje IC 8",
    "tipo": "cabina",
    "ref": "IC 8",
@@ -1518,8 +1527,8 @@
    "confianza": "media"
   },
   {
-   "lat": 40.220809,
-   "lon": -8.805024,
+   "lat": 40.220783,
+   "lon": -8.80503,
    "nombre": "Peaje EN 109",
    "tipo": "cabina",
    "ref": "EN 109",
@@ -1574,8 +1583,8 @@
    "confianza": "media"
   },
   {
-   "lat": 40.329304,
-   "lon": -8.725162,
+   "lat": 40.329291,
+   "lon": -8.725187,
    "nombre": "Peaje Autoestrada do Litoral Centro (A 17) km 10",
    "tipo": "cabina",
    "via": "Autoestrada do Litoral Centro",
@@ -1661,20 +1670,18 @@
    "confianza": "media"
   },
   {
-   "lat": 40.46108,
-   "lon": -8.693503,
-   "nombre": "Pórtico Autoestrada do Litoral Centro (A 17) km 79",
+   "lat": 40.461333,
+   "lon": -8.693267,
+   "nombre": "0,60",
    "tipo": "portico",
    "via": "Autoestrada do Litoral Centro",
    "ref": "A 17",
-   "km": "79",
-   "localidad": "Calvão",
-   "fuente": "armado",
+   "fuente": "osm",
    "pais": "PT",
    "via_visible": "Autoestrada do Litoral Centro",
-   "punto": "Calvão",
-   "nombre_visible": "Autoestrada do Litoral Centro - Pórtico Calvão",
-   "confianza": "media"
+   "punto": "0,60",
+   "nombre_visible": "Autoestrada do Litoral Centro - Pórtico 0,60",
+   "confianza": "alta"
   },
   {
    "lat": 40.56221,
@@ -1710,8 +1717,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "Autoestrada das Beiras Litoral e Alta",
    "punto": "Serviço Easytoll - Electronic Toll",
-   "nombre_visible": "Portagem Serviço Easytoll - Electronic Toll",
+   "nombre_visible": "Autoestrada das Beiras Litoral e Alta - Portagem Serviço Easytoll - Electronic Toll",
    "confianza": "alta"
   },
   {
@@ -2173,8 +2181,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "Avenida Dom Manuel I",
    "punto": "Nó de acesso Parada/Baltar",
-   "nombre_visible": "Portagem Nó de acesso Parada/Baltar",
+   "nombre_visible": "Avenida Dom Manuel I - Portagem Nó de acesso Parada/Baltar",
    "confianza": "alta"
   },
   {
@@ -2184,8 +2193,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "A41",
    "punto": "Portagem do Nó de Campo",
-   "nombre_visible": "Portagem do Nó de Campo",
+   "nombre_visible": "A41 - Portagem do Nó de Campo",
    "confianza": "alta"
   },
   {
@@ -2486,10 +2496,11 @@
   {
    "lat": 41.256967,
    "lon": -8.214126,
-   "nombre": "Peaje Avenida das Árvores (EN 15)",
+   "nombre": "Peaje Avenida das Árvores (EN 15) km 42",
    "tipo": "cabina",
    "via": "Avenida das Árvores",
    "ref": "EN 15",
+   "km": "42",
    "localidad": "Oliveira",
    "fuente": "armado",
    "pais": "PT",
@@ -2501,7 +2512,7 @@
   {
    "lat": 41.259636,
    "lon": -8.351287,
-   "nombre": "Pórtico Autoestrada do Douro Litoral (A 42) (3)",
+   "nombre": "Pórtico Autoestrada do Douro Litoral (A 42) (4)",
    "tipo": "portico",
    "via": "Autoestrada do Douro Litoral",
    "ref": "A 42",
@@ -2511,6 +2522,21 @@
    "via_visible": "Autoestrada do Douro Litoral",
    "punto": "Ferreira",
    "nombre_visible": "Autoestrada do Douro Litoral - Pórtico Ferreira",
+   "confianza": "media"
+  },
+  {
+   "lat": 41.263853,
+   "lon": -8.331423,
+   "nombre": "Pórtico Autoestrada do Douro Litoral (A 42) (3)",
+   "tipo": "portico",
+   "via": "Autoestrada do Douro Litoral",
+   "ref": "A 42",
+   "localidad": "Nevogilde",
+   "fuente": "armado",
+   "pais": "PT",
+   "via_visible": "Autoestrada do Douro Litoral",
+   "punto": "Nevogilde",
+   "nombre_visible": "Autoestrada do Douro Litoral - Pórtico Nevogilde",
    "confianza": "media"
   },
   {
@@ -2862,8 +2888,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "Autoestrada do Baixo Minho",
    "punto": "Braga Oeste (A3)",
-   "nombre_visible": "Portagem Braga Oeste (A3)",
+   "nombre_visible": "Autoestrada do Baixo Minho - Portagem Braga Oeste (A3)",
    "confianza": "alta"
   },
   {
@@ -2903,8 +2930,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "Autoestrada de Entre-Douro-e-Minho",
    "punto": "Anais - Vila Verde (A3)",
-   "nombre_visible": "Portagem Anais - Vila Verde (A3)",
+   "nombre_visible": "Autoestrada de Entre-Douro-e-Minho - Portagem Anais - Vila Verde (A3)",
    "confianza": "alta"
   },
   {
@@ -2929,13 +2957,14 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "Autoestrada de Entre-Douro-e-Minho",
    "punto": "Ponte de Lima S. Norte (A3)",
-   "nombre_visible": "Portagem Ponte de Lima S. Norte (A3)",
+   "nombre_visible": "Autoestrada de Entre-Douro-e-Minho - Portagem Ponte de Lima S. Norte (A3)",
    "confianza": "alta"
   },
   {
-   "lat": 41.775874,
-   "lon": -8.171641,
+   "lat": 41.77586,
+   "lon": -8.171631,
    "nombre": "Peaje Estradão da Mata da Albergaria",
    "tipo": "cabina",
    "via": "Estradão da Mata da Albergaria",
@@ -2967,8 +2996,9 @@
    "tipo": "portico",
    "fuente": "osm",
    "pais": "PT",
+   "via_visible": "Autoestrada do Interior Norte",
    "punto": "Serviço Easytoll - Electronic Toll",
-   "nombre_visible": "Pórtico Serviço Easytoll - Electronic Toll",
+   "nombre_visible": "Autoestrada do Interior Norte - Pórtico Serviço Easytoll - Electronic Toll",
    "confianza": "alta"
   },
   {
@@ -3017,6 +3047,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-10-29T23:09Z",
+ "generado": "2026-10-31T13:44Z",
  "alertas": []
 }
