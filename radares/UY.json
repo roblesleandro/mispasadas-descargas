@@ -1,7 +1,7 @@
 {
- "version": "uy-2026-10-30",
+ "version": "uy-2026-10-31",
  "pais": "UY",
- "generado": "2026-10-30T03:28:52+00:00",
+ "generado": "2026-10-31T12:54:35+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Intendencia de Montevideo: equipos de fiscalización fijos (montevideo.gub.uy/areas-tematicas/movilidad/fiscalizacion-de-infracciones/equipos-de-fiscalizacion-fijos). Su robots.txt no permite leerla con robots: cargar a mano o pedir el dato a la IM.",
@@ -22,9 +22,20 @@
   "con_limite": 249,
   "limite_revisar": 1,
   "limite_desconocido": 36,
-  "revisados_esta_corrida": 0,
+  "revisados_esta_corrida": 3,
   "sin_via": 0,
-  "via_completada_esta_corrida": 0
+  "via_completada_esta_corrida": 0,
+  "limites_dudosos_sacados": 0,
+  "por_control": {
+   "VELOCIDAD": 280,
+   "VELOCIDAD_PROMEDIO": 0,
+   "SEMAFORO": 3,
+   "CINTURON": 0,
+   "CELULAR": 0,
+   "SENDA": 0,
+   "INFRACCIONES": 0
+  },
+  "monitoreo": 2
  },
  "alertas": [],
  "radars": [
@@ -37,11 +48,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12581377767",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "El Remanso (Calle 20)",
    "display_name": "El Remanso (Calle 20) - Radar",
    "country": "UY"
@@ -55,11 +69,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12479728789",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla Doctor Claudio Williman",
    "display_name": "Rambla Doctor Claudio Williman - Radar",
    "country": "UY"
@@ -73,11 +90,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6289861024",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Chiverta",
    "display_name": "Avenida Chiverta - Radar",
    "country": "UY"
@@ -91,11 +111,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6289877330",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla Lorenzo Batlle Pacheco",
    "display_name": "Rambla Lorenzo Batlle Pacheco - Radar",
    "country": "UY"
@@ -109,11 +132,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6289873017",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Patagonia",
    "display_name": "Patagonia - Radar",
    "country": "UY"
@@ -127,11 +153,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12479762879",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla Doctor Claudio Williman",
    "display_name": "Rambla Doctor Claudio Williman - Radar",
    "country": "UY"
@@ -145,11 +174,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12479769807",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla Doctor Claudio Williman",
    "display_name": "Rambla Doctor Claudio Williman - Radar",
    "country": "UY"
@@ -163,11 +195,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12478345337",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Dr.Roberto San Martin Pereyra",
    "display_name": "Dr.Roberto San Martin Pereyra - Radar",
    "country": "UY"
@@ -181,11 +216,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12577019294",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla Lorenzo Batlle Pacheco",
    "display_name": "Rambla Lorenzo Batlle Pacheco - Radar",
    "country": "UY"
@@ -199,11 +237,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7057140516",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla Wilson",
    "display_name": "Rambla Wilson - Radar",
    "country": "UY"
@@ -217,11 +258,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12478366776",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bulevar General José Gervasio Artigas",
    "display_name": "Bulevar General José Gervasio Artigas - Radar",
    "country": "UY"
@@ -235,8 +279,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4565468443",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Rambla Mahatma Gandhi",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -255,11 +302,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12581402451",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla Doctor Claudio Williman",
    "display_name": "Rambla Doctor Claudio Williman - Radar",
    "country": "UY"
@@ -273,11 +323,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6289891036",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla Doctor Claudio Williman",
    "display_name": "Rambla Doctor Claudio Williman - Radar",
    "country": "UY"
@@ -291,11 +344,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11957114493",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla República Helénica",
    "display_name": "Rambla República Helénica - Radar",
    "country": "UY"
@@ -309,8 +365,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10582749260",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 157.0,
    "heading_max": 227.0,
    "road_label": "Puente Leonel Viera",
@@ -331,11 +390,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12255142953",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bulevar General José Gervasio Artigas",
    "display_name": "Bulevar General José Gervasio Artigas - Radar",
    "country": "UY"
@@ -349,11 +411,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13995465634",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 235.0,
    "heading_max": 305.0,
    "road_label": "Avenida a la Laguna",
@@ -369,8 +434,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10582749259",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 327.0,
    "heading_max": 37.0,
    "road_label": "Avenida Eduardo Víctor Haedo",
@@ -391,8 +459,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4577820006",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Rambla República del Perú",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -411,11 +482,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11055590130",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 10",
    "display_name": "Ruta 10 - Radar",
    "country": "UY"
@@ -429,8 +503,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12478366775",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Aiguá",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -447,8 +524,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12255142952",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Aiguá",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -465,11 +545,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10115070077",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bulevar General Artigas",
    "display_name": "Bulevar General Artigas - Radar",
    "country": "UY"
@@ -483,11 +566,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12478348346",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Interbalnearia",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
@@ -501,11 +587,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4353119937",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida General Rivera",
    "display_name": "Avenida General Rivera - Radar",
    "country": "UY"
@@ -519,7 +608,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Juan Carlos Gomez; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_label": "Franklin Delano Roosevelt",
    "speed_limit_kmh": 60,
@@ -527,6 +616,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Franklin Delano Roosevelt - Radar",
    "country": "UY"
   },
@@ -539,8 +631,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12255142951",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bulevar General José Gervasio Artigas",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -559,11 +654,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11016759043",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Uruguay",
    "display_name": "Avenida Uruguay - Radar",
    "country": "UY"
@@ -577,11 +675,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13354676928",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla República de México",
    "display_name": "Rambla República de México - Radar",
    "country": "UY"
@@ -595,11 +696,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4565562431",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla O'Higgins",
    "display_name": "Rambla O'Higgins - Radar",
    "country": "UY"
@@ -613,11 +717,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11055581778",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 10",
    "display_name": "Ruta 10 - Radar",
    "country": "UY"
@@ -631,11 +738,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5181103589",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Doctor Salvador Ferrer Serra",
    "display_name": "Doctor Salvador Ferrer Serra - Radar",
    "country": "UY"
@@ -649,11 +759,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5002187211",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Coimbra",
    "display_name": "Coimbra - Radar",
    "country": "UY"
@@ -667,11 +780,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6275438945",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida General Rivera",
    "display_name": "Avenida General Rivera - Radar",
    "country": "UY"
@@ -685,11 +801,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12616289515",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Américas Unidas",
    "display_name": "Américas Unidas - Radar",
    "country": "UY"
@@ -703,11 +822,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6275509785",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida General Rondeau",
    "display_name": "Avenida General Rondeau - Radar",
    "country": "UY"
@@ -721,11 +843,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12616315007",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Américas Unidas",
    "display_name": "Américas Unidas - Radar",
    "country": "UY"
@@ -739,8 +864,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4575893135",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "SEMAFORO"
+   ],
    "road_label": "Rambla República de México",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -759,8 +887,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12616248782",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla Costanera",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -779,11 +910,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10187397977",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bulevar General Artigas",
    "display_name": "Bulevar General Artigas - Radar",
    "country": "UY"
@@ -797,11 +931,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13464257237",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 255.0,
    "heading_max": 325.0,
    "road_label": "Nueva Palmira",
@@ -817,11 +954,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10187397978",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bulevar General Artigas",
    "display_name": "Bulevar General Artigas - Radar",
    "country": "UY"
@@ -835,11 +975,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11055552387",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 10",
    "display_name": "Ruta 10 - Radar",
    "country": "UY"
@@ -853,11 +996,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5560079524",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Italia",
    "display_name": "Avenida Italia - Radar",
    "country": "UY"
@@ -871,11 +1017,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4536020729",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Italia",
    "display_name": "Avenida Italia - Radar",
    "country": "UY"
@@ -889,11 +1038,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8808058055",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "General Urquiza",
    "display_name": "General Urquiza - Radar",
    "country": "UY"
@@ -907,8 +1059,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6018626055",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "Avenida Italia",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -927,11 +1080,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5621005684",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bulevar José Batlle y Ordóñez",
    "display_name": "Bulevar José Batlle y Ordóñez - Radar",
    "country": "UY"
@@ -945,11 +1101,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10187103367",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Italia",
    "display_name": "Avenida Italia - Radar",
    "country": "UY"
@@ -963,11 +1122,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10187103368",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Italia",
    "display_name": "Avenida Italia - Radar",
    "country": "UY"
@@ -981,11 +1143,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13464256389",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 295.0,
    "heading_max": 5.0,
    "road_label": "Jujuy",
@@ -1001,11 +1166,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12478366774",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Interbalnearia",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
@@ -1019,11 +1187,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6289899663",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Del Portezuelo",
    "display_name": "Del Portezuelo - Radar",
    "country": "UY"
@@ -1037,11 +1208,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12581367359",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Del Portezuelo",
    "display_name": "Del Portezuelo - Radar",
    "country": "UY"
@@ -1055,11 +1229,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11578306919",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla General Liber Seregni",
    "display_name": "Rambla General Liber Seregni - Radar",
    "country": "UY"
@@ -1073,11 +1250,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13464232336",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 45.0,
    "heading_max": 115.0,
    "road_label": "Juan Jacobo Rousseau",
@@ -1093,11 +1273,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4577933250",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Italia",
    "display_name": "Avenida Italia - Radar",
    "country": "UY"
@@ -1111,11 +1294,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4565452813",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bulevar General Artigas",
    "display_name": "Bulevar General Artigas - Radar",
    "country": "UY"
@@ -1129,11 +1315,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6275263412",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Luis Alberto de Herrera",
    "display_name": "Avenida Luis Alberto de Herrera - Radar",
    "country": "UY"
@@ -1147,11 +1336,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11028616010",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida 8 de Octubre",
    "display_name": "Avenida 8 de Octubre - Radar",
    "country": "UY"
@@ -1165,11 +1357,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11142045606",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla Doctor Baltasar Brum",
    "display_name": "Rambla Doctor Baltasar Brum - Radar",
    "country": "UY"
@@ -1183,13 +1378,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Refineria; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11142001570",
    "road_label": "RN HB",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "RN HB - Radar",
    "country": "UY"
   },
@@ -1202,11 +1400,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6275464421",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bulevar General Artigas",
    "display_name": "Bulevar General Artigas - Radar",
    "country": "UY"
@@ -1220,13 +1421,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Capurro; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11895806257",
    "road_label": "RN HB",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "RN HB - Radar",
    "country": "UY"
   },
@@ -1239,11 +1443,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4577991673",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bulevar General Artigas",
    "display_name": "Bulevar General Artigas - Radar",
    "country": "UY"
@@ -1257,11 +1464,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6275436036",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Carlos María Ramírez",
    "display_name": "Avenida Carlos María Ramírez - Radar",
    "country": "UY"
@@ -1275,8 +1485,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5852414685",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "Avenida Luis Alberto de Herrera",
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_PROPIO",
@@ -1295,13 +1506,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Arrayanes; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 93",
    "road_label": "Ruta 93",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 93 - Radar km 2,552",
    "country": "UY"
   },
@@ -1314,13 +1528,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Pantanoso E; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11142034407",
    "road_label": "RN HB",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "RN HB - Radar km 5,1",
    "country": "UY"
   },
@@ -1333,11 +1550,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4726140491",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Millán",
    "display_name": "Avenida Millán - Radar",
    "country": "UY"
@@ -1351,7 +1571,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "La Capuera; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 93",
    "road_label": "Ruta 93",
@@ -1359,6 +1579,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/2517271318",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 93 - Radar km 109,603",
    "country": "UY"
   },
@@ -1371,11 +1594,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11009944579",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Cibils",
    "display_name": "Avenida Cibils - Radar",
    "country": "UY"
@@ -1389,13 +1615,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Pantanoso S; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11895793240",
    "road_label": "RN HB",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "RN HB - Radar km 5,6",
    "country": "UY"
   },
@@ -1408,7 +1637,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "La Capuera; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 93",
    "road_label": "Ruta 93",
@@ -1416,6 +1645,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/4699631914",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 93 - Radar km 109,9",
    "country": "UY"
   },
@@ -1428,11 +1660,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13783850349",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Dámaso Antonio Larrañaga",
    "display_name": "Avenida Dámaso Antonio Larrañaga - Radar",
    "country": "UY"
@@ -1446,13 +1681,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Santin Carlos Rossi; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11142035953",
    "road_label": "RN HB",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "RN HB - Radar km 5,845",
    "country": "UY"
   },
@@ -1465,11 +1703,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6275466781",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Agraciada",
    "display_name": "Avenida Agraciada - Radar",
    "country": "UY"
@@ -1483,11 +1724,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10187173084",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Burgues",
    "display_name": "Avenida Burgues - Radar",
    "country": "UY"
@@ -1501,11 +1745,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10187177683",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Luis Sacarello",
    "display_name": "Luis Sacarello - Radar",
    "country": "UY"
@@ -1519,11 +1766,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6618136285",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Dámaso Antonio Larrañaga",
    "display_name": "Avenida Dámaso Antonio Larrañaga - Radar",
    "country": "UY"
@@ -1537,11 +1787,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12324809328",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Wilson Ferreira Aldunate",
    "display_name": "Avenida Wilson Ferreira Aldunate - Radar",
    "country": "UY"
@@ -1555,11 +1808,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11010017331",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida José Pedro Varela",
    "display_name": "Avenida José Pedro Varela - Radar",
    "country": "UY"
@@ -1573,11 +1829,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12614579038",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Misiones",
    "display_name": "Misiones - Radar",
    "country": "UY"
@@ -1591,11 +1850,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11045845939",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla General Liber Seregni",
    "display_name": "Rambla General Liber Seregni - Radar",
    "country": "UY"
@@ -1609,8 +1871,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2484187424",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "39",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -1629,11 +1894,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12613917062",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla de Los Argentinos",
    "display_name": "Rambla de Los Argentinos - Radar",
    "country": "UY"
@@ -1647,11 +1915,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12613935348",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla de Los Argentinos",
    "display_name": "Rambla de Los Argentinos - Radar",
    "country": "UY"
@@ -1665,11 +1936,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13743329542",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 37",
    "display_name": "Ruta 37 - Radar",
    "country": "UY"
@@ -1683,11 +1957,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13743349946",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 37",
    "display_name": "Ruta 37 - Radar",
    "country": "UY"
@@ -1701,11 +1978,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8421652257",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bulevar José Batlle y Ordóñez",
    "display_name": "Bulevar José Batlle y Ordóñez - Radar",
    "country": "UY"
@@ -1719,11 +1999,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11010147454",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "José Llupes",
    "display_name": "José Llupes - Radar",
    "country": "UY"
@@ -1737,11 +2020,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12324810712",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Wilson Ferreira Aldunate",
    "display_name": "Avenida Wilson Ferreira Aldunate - Radar",
    "country": "UY"
@@ -1755,11 +2041,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11132865484",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Ingeniero Luis Giannattasio",
    "display_name": "Avenida Ingeniero Luis Giannattasio - Radar",
    "country": "UY"
@@ -1773,11 +2062,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11016885830",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Santa Lucía",
    "display_name": "Santa Lucía - Radar",
    "country": "UY"
@@ -1791,11 +2083,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11009979745",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Cibils",
    "display_name": "Avenida Cibils - Radar",
    "country": "UY"
@@ -1809,11 +2104,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6275427373",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida General Flores",
    "display_name": "Avenida General Flores - Radar",
    "country": "UY"
@@ -1827,11 +2125,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6721989889",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bulevar José Batlle y Ordóñez",
    "display_name": "Bulevar José Batlle y Ordóñez - Radar",
    "country": "UY"
@@ -1845,11 +2146,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12098132961",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Bulevar José Batlle y Ordóñez",
    "display_name": "Bulevar José Batlle y Ordóñez - Radar",
    "country": "UY"
@@ -1863,11 +2167,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12613917839",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 10",
    "display_name": "Ruta 10 - Radar",
    "country": "UY"
@@ -1881,11 +2188,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12337857971",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 10",
    "display_name": "Ruta 10 - Radar",
    "country": "UY"
@@ -1899,11 +2209,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13743078453",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 37",
    "display_name": "Ruta 37 - Radar",
    "country": "UY"
@@ -1917,11 +2230,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6275450615",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Camino Maldonado",
    "display_name": "Camino Maldonado - Radar",
    "country": "UY"
@@ -1935,11 +2251,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11005602964",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rambla General Liber Seregni",
    "display_name": "Rambla General Liber Seregni - Radar",
    "country": "UY"
@@ -1953,11 +2272,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11050165197",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida General San Martín",
    "display_name": "Avenida General San Martín - Radar",
    "country": "UY"
@@ -1971,11 +2293,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11128905329",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Interbalnearia",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
@@ -1989,7 +2314,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Almenara; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 200",
    "road_label": "Ruta 200",
@@ -1998,6 +2323,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 200 - Radar",
    "country": "UY"
   },
@@ -2010,11 +2338,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11128870057",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Interbalnearia",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
@@ -2028,7 +2359,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Punta de Rieles-Barros Blancos; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 8",
    "road_label": "Ruta 8",
@@ -2036,6 +2367,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11932350217",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 8 - Radar km 23,479",
    "country": "UY"
   },
@@ -2048,7 +2382,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Punta de Rieles-Barros Blancos; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 8",
    "road_label": "Ruta 8",
@@ -2056,6 +2390,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11932350216",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
   },
@@ -2068,11 +2405,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11132867088",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Ingeniero Luis Giannattasio",
    "display_name": "Avenida Ingeniero Luis Giannattasio - Radar",
    "country": "UY"
@@ -2086,7 +2426,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Leopolis; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 102",
    "road_label": "Ruta 102",
@@ -2094,6 +2434,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11492204390",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 102 - Radar km 22,9",
    "country": "UY"
   },
@@ -2106,7 +2449,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Parque Martinelli; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 102",
    "road_label": "Ruta 102",
@@ -2114,6 +2457,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11492204389",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 102 - Radar km 24,22",
    "country": "UY"
   },
@@ -2126,11 +2472,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12669414100",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 102",
    "display_name": "Ruta 102 - Radar",
    "country": "UY"
@@ -2144,7 +2493,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Los Paraisos; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 102",
    "road_label": "Ruta 102",
@@ -2152,6 +2501,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11492204391",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 102 - Radar",
    "country": "UY"
   },
@@ -2164,11 +2516,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6275430123",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida General Eugenio Garzón",
    "display_name": "Avenida General Eugenio Garzón - Radar",
    "country": "UY"
@@ -2182,11 +2537,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11005594133",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida José \"Pepe\" D'Elía",
    "display_name": "Avenida José \"Pepe\" D'Elía - Radar",
    "country": "UY"
@@ -2200,11 +2558,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12550770805",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Ingeniero Luis Giannattasio",
    "display_name": "Avenida Ingeniero Luis Giannattasio - Radar",
    "country": "UY"
@@ -2218,7 +2579,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Colinas de Solymar; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 200",
    "road_label": "Ruta 200",
@@ -2226,6 +2587,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11128901699",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 200 - Radar",
    "country": "UY"
   },
@@ -2238,11 +2602,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13589673564",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 305.0,
    "heading_max": 15.0,
    "road_label": "Ruta 5",
@@ -2258,11 +2625,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11050058545",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida José Belloni",
    "display_name": "Avenida José Belloni - Radar",
    "country": "UY"
@@ -2276,11 +2646,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14177968826",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 335.0,
    "heading_max": 45.0,
    "road_label": "Ruta 8",
@@ -2296,11 +2669,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14177922294",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 225.0,
    "heading_max": 295.0,
    "road_label": "Ruta 8",
@@ -2316,11 +2692,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11128870056",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Interbalnearia",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
@@ -2334,7 +2713,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "La Redención; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 5",
    "road_label": "Ruta 5",
@@ -2343,6 +2722,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 5 - Radar",
    "country": "UY"
   },
@@ -2355,7 +2737,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Basilio Muñoz; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 1",
    "road_label": "Ruta 1",
@@ -2364,6 +2746,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 1 - Radar",
    "country": "UY"
   },
@@ -2376,11 +2761,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1759120116",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 125.0,
    "heading_max": 195.0,
    "road_label": "Ruta 5",
@@ -2396,13 +2784,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Campeón del Siglo; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 102",
    "road_label": "Ruta 102",
    "speed_limit_status": "SIN_VIA",
    "speed_limit_detail": "No hay vía de OSM a menos de 40 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 102 - Radar km 27,84",
    "country": "UY"
   },
@@ -2415,7 +2806,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Av de las Instrucciones; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 102",
    "road_label": "Ruta 102",
@@ -2424,6 +2815,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 102 - Radar",
    "country": "UY"
   },
@@ -2436,11 +2830,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11050058546",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta César Mayo Gutiérrez",
    "display_name": "Ruta César Mayo Gutiérrez - Radar",
    "country": "UY"
@@ -2454,7 +2851,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Barrio Aeroparque; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 101",
    "road_label": "Ruta 101",
@@ -2462,6 +2859,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/5355261484",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 101 - Radar km 24,825",
    "country": "UY"
   },
@@ -2474,7 +2874,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Camino Cruz del Sur; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 102",
    "road_label": "Ruta 102",
@@ -2483,6 +2883,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 102 - Radar",
    "country": "UY"
   },
@@ -2495,7 +2898,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Barrio Aeroparque; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 101",
    "road_label": "Ruta 101",
@@ -2503,6 +2906,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11492245485",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 101 - Radar km 25,541",
    "country": "UY"
   },
@@ -2515,14 +2921,20 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14321672655",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
-   "speed_limit_kmh": 20,
-   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_kmh": 75,
+   "speed_limit_source": "OSM_CALZADA_PRINCIPAL",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 10.0,
    "heading_max": 80.0,
    "road_label": "Ruta Interbalnearia",
+   "speed_limit_checked": "2026-10-31",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM · 30 km/h no es creíble en esta vía: se usa 75 km/h de la calzada principal",
+   "speed_limit_road_class": "trunk",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
   },
@@ -2535,12 +2947,18 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10187363939",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
-   "speed_limit_kmh": 30,
-   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Interbalnearia",
+   "speed_limit_checked": "2026-10-31",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "trunk",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
   },
@@ -2553,7 +2971,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Camino Fauquet; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 102",
    "road_label": "Ruta 102",
@@ -2562,6 +2980,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 102 - Radar km 45,9",
    "country": "UY"
   },
@@ -2574,7 +2995,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Neptunia; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 200",
    "road_label": "Ruta 200",
@@ -2583,6 +3004,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 200 - Radar",
    "country": "UY"
   },
@@ -2595,11 +3019,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11073191703",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Interbalnearia",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
@@ -2613,11 +3040,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11048726304",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Aparicio Saravia",
    "display_name": "Avenida Aparicio Saravia - Radar",
    "country": "UY"
@@ -2631,11 +3061,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12601933971",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Interbalnearia",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
@@ -2649,11 +3082,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12884467323",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Juana Tabárez",
    "display_name": "Juana Tabárez - Radar",
    "country": "UY"
@@ -2667,12 +3103,18 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10187380533",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
-   "speed_limit_kmh": 30,
-   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_PROPIO",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Interbalnearia",
+   "speed_limit_checked": "2026-10-31",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "trunk",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
   },
@@ -2685,7 +3127,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Av. Nogueira y Colón; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 200",
    "road_label": "Ruta 200",
@@ -2693,6 +3135,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11073191446",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 200 - Radar",
    "country": "UY"
   },
@@ -2705,11 +3150,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11073148286",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Interbalnearia",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
@@ -2723,11 +3171,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14178103215",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 8",
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
@@ -2741,11 +3192,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14216482159",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 165.0,
    "heading_max": 235.0,
    "road_label": "Ruta 6",
@@ -2761,11 +3215,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14178096844",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 101",
    "display_name": "Ruta 101 - Radar",
    "country": "UY"
@@ -2779,7 +3236,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Marindia; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 200",
    "road_label": "Ruta 200",
@@ -2788,6 +3245,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 200 - Radar",
    "country": "UY"
   },
@@ -2800,11 +3260,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12528963334",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Interbalnearia",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
@@ -2818,11 +3281,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11073179369",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Interbalnearia",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
@@ -2836,7 +3302,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "San Luis; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 200",
    "road_label": "Ruta 200",
@@ -2844,6 +3310,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/450396894",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 200 - Radar km 64",
    "country": "UY"
   },
@@ -2856,11 +3325,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13743078454",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 60",
    "display_name": "Ruta 60 - Radar",
    "country": "UY"
@@ -2874,11 +3346,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13589669671",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 335.0,
    "heading_max": 45.0,
    "road_label": "Ruta 5",
@@ -2894,7 +3369,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Fauquet; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 5",
    "road_label": "Ruta 5",
@@ -2903,6 +3378,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 5 - Radar",
    "country": "UY"
   },
@@ -2915,7 +3393,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Punta de Rieles-Barros Blancos; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 8",
    "road_label": "Ruta 8",
@@ -2923,6 +3401,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/13465113101",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 8 - Radar km 24,41",
    "country": "UY"
   },
@@ -2935,11 +3416,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13589669672",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 155.0,
    "heading_max": 225.0,
    "road_label": "Ruta 5",
@@ -2955,11 +3439,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6812144345",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Interbalnearia",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
@@ -2973,11 +3460,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6812144346",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Interbalnearia",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
@@ -2991,11 +3481,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9695329550",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta Interbalnearia",
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
@@ -3009,11 +3502,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14178068979",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 5.0,
    "heading_max": 75.0,
    "road_label": "Ruta 8",
@@ -3029,7 +3525,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "San Luis; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 200",
    "road_label": "Ruta 200",
@@ -3038,6 +3534,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 60 km/h a 89 m · lado B: 60 km/h a 11 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 200 - Radar km 63",
    "country": "UY"
   },
@@ -3050,11 +3549,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14178117895",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 185.0,
    "heading_max": 255.0,
    "road_label": "Ruta 8",
@@ -3070,11 +3572,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13591428646",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 165.0,
    "heading_max": 235.0,
    "road_label": "Ruta Interbalnearia",
@@ -3090,7 +3595,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Punta de Rieles-Barros Blancos; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 8",
    "road_label": "Ruta 8",
@@ -3098,6 +3603,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11932341385",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 8 - Radar km 25,025",
    "country": "UY"
   },
@@ -3110,11 +3618,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11932349285",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 8",
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
@@ -3128,7 +3639,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Penino a -; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 1",
    "road_label": "Ruta 1",
@@ -3136,6 +3647,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/6283063483",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 1 - Radar km 29,36",
    "country": "UY"
   },
@@ -3148,7 +3662,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Barros Blancos; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 74",
    "road_label": "Ruta 74",
@@ -3156,6 +3670,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/13465169922",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 74 - Radar km 25,135",
    "country": "UY"
   },
@@ -3168,7 +3685,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Penino a +; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 1",
    "road_label": "Ruta 1",
@@ -3176,6 +3693,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12319288892",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 1 - Radar km 29",
    "country": "UY"
   },
@@ -3188,11 +3708,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14178080941",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 331.0,
    "heading_max": 41.0,
    "road_label": "Ruta 6",
@@ -3208,11 +3731,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14178080942",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 165.0,
    "heading_max": 235.0,
    "road_label": "Ruta 6",
@@ -3228,11 +3754,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9892306279",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 8",
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
@@ -3246,13 +3775,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "La Montañesa; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 34",
    "road_label": "Ruta 34",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 34 - Radar km 42,19",
    "country": "UY"
   },
@@ -3265,13 +3797,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "La Montañesa; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 34",
    "road_label": "Ruta 34",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 34 - Radar km 41,09",
    "country": "UY"
   },
@@ -3284,7 +3819,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Ruta 6; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 74",
    "road_label": "Ruta 74",
@@ -3292,6 +3827,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/13589738007",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 74 - Radar km 30,51",
    "country": "UY"
   },
@@ -3304,13 +3842,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Las Piedras N-E; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 67",
    "road_label": "Ruta 67",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 67 - Radar km 24,85",
    "country": "UY"
   },
@@ -3323,7 +3864,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Villa Jardines de Pando; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 75",
    "road_label": "Ruta 75",
@@ -3332,6 +3873,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 75 - Radar km 35,175",
    "country": "UY"
   },
@@ -3344,7 +3888,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Sauce S-O; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 67",
    "road_label": "Ruta 67",
@@ -3352,6 +3896,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/13589701797",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 67 - Radar km 39,395",
    "country": "UY"
   },
@@ -3364,7 +3911,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Paso Mauricio; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 1",
    "road_label": "Ruta 1",
@@ -3372,6 +3919,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12321341557",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 1 - Radar",
    "country": "UY"
   },
@@ -3384,11 +3934,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12321341555",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 1",
    "display_name": "Ruta 1 - Radar",
    "country": "UY"
@@ -3402,7 +3955,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Sauce N-O; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 107",
    "road_label": "Ruta 107",
@@ -3410,6 +3963,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12300408593",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 107 - Radar km 0,394",
    "country": "UY"
   },
@@ -3422,7 +3978,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Juanicó; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 5",
    "road_label": "Ruta 5",
@@ -3431,6 +3987,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 5 - Radar km 37,48",
    "country": "UY"
   },
@@ -3443,11 +4002,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12479622128",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 8",
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
@@ -3461,11 +4023,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12324727457",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 1",
    "display_name": "Ruta 1 - Radar",
    "country": "UY"
@@ -3479,7 +4044,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Juanicó; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 5",
    "road_label": "Ruta 5",
@@ -3488,6 +4053,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 5 - Radar km 38,131",
    "country": "UY"
   },
@@ -3500,7 +4068,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Punta de Valdez; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 1",
    "road_label": "Ruta 1",
@@ -3508,6 +4076,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12324727458",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 1 - Radar",
    "country": "UY"
   },
@@ -3520,7 +4091,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "San Jacinto S-E; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 11",
    "road_label": "Ruta 11",
@@ -3529,6 +4100,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 90 km/h a 1387 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 11 - Radar km 139,39",
    "country": "UY"
   },
@@ -3541,7 +4115,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "San Jacinto S-O; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
@@ -3550,6 +4124,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 45 km/h a 383 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 52,528",
    "country": "UY"
   },
@@ -3562,7 +4139,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "San Jacinto O; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 11",
    "road_label": "Ruta 11",
@@ -3571,6 +4148,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 90 km/h a 387 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 11 - Radar km 138,372",
    "country": "UY"
   },
@@ -3583,7 +4163,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Canelones N-O; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 11",
    "road_label": "Ruta 11",
@@ -3592,6 +4172,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 45 km/h a 58 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 11 - Radar km 96,586",
    "country": "UY"
   },
@@ -3604,7 +4187,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Villa Marí­a Acceso; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 3",
    "road_label": "Ruta 3",
@@ -3612,6 +4195,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12325135804",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 3 - Radar km 71,15",
    "country": "UY"
   },
@@ -3624,7 +4210,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Villa Marí­a Acceso; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 3",
    "road_label": "Ruta 3",
@@ -3632,6 +4218,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12325008075",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 3 - Radar km 71,785",
    "country": "UY"
   },
@@ -3644,7 +4233,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Rocha O; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 9",
    "road_label": "Ruta 9",
@@ -3653,6 +4242,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 60 km/h a 655 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 9 - Radar km 205,38",
    "country": "UY"
   },
@@ -3665,7 +4257,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Rocha S; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 15",
    "road_label": "Ruta 15",
@@ -3673,6 +4265,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12337857973",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 15 - Radar km 27,482",
    "country": "UY"
   },
@@ -3685,7 +4280,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Rocha E; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 9",
    "road_label": "Ruta 9",
@@ -3693,6 +4288,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11048795086",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 9 - Radar km 209,409",
    "country": "UY"
   },
@@ -3705,13 +4303,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Santa Lucí­a S-E; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 11",
    "road_label": "Ruta 11",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 11 - Radar km 86,573",
    "country": "UY"
   },
@@ -3724,7 +4325,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Colonia del Sacramento; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 1",
    "road_label": "Ruta 1",
@@ -3732,6 +4333,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/11048075987",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 1 - Radar km 174,21",
    "country": "UY"
   },
@@ -3744,7 +4348,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Colonia N; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 21",
    "road_label": "Ruta 21",
@@ -3753,6 +4357,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 21 - Radar km 178,5",
    "country": "UY"
   },
@@ -3765,13 +4372,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Paso a Pache O; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 81",
    "road_label": "Ruta 81",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 81 - Radar km 9,815",
    "country": "UY"
   },
@@ -3784,7 +4394,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Paso a Pache E; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 81",
    "road_label": "Ruta 81",
@@ -3793,6 +4403,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 45 km/h a 1863 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 81 - Radar km 10,39",
    "country": "UY"
   },
@@ -3805,11 +4418,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7626331386",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 8",
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
@@ -3823,11 +4439,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12383110908",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 8",
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
@@ -3841,11 +4460,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14177992246",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida José Pedro Varela",
    "display_name": "Avenida José Pedro Varela - Radar",
    "country": "UY"
@@ -3859,11 +4481,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11492268509",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 8",
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
@@ -3877,7 +4502,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Ecilda Paullier S-E; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 1",
    "road_label": "Ruta 1",
@@ -3885,6 +4510,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12331538647",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 1 - Radar km 101,738",
    "country": "UY"
   },
@@ -3897,8 +4525,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14177996789",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "8",
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_PROPIO",
@@ -3917,11 +4548,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7626481566",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida General Flores",
    "display_name": "Avenida General Flores - Radar",
    "country": "UY"
@@ -3935,7 +4569,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Ecilda Paullier N-E; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 11",
    "road_label": "Ruta 11",
@@ -3943,6 +4577,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12331538646",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 11 - Radar km 14,621",
    "country": "UY"
   },
@@ -3955,13 +4592,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Tala S; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 77,785",
    "country": "UY"
   },
@@ -3974,13 +4614,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Tala O; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 12",
    "road_label": "Ruta 12",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 12 - Radar km 78,836",
    "country": "UY"
   },
@@ -3993,13 +4636,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Tala NE; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 79,5",
    "country": "UY"
   },
@@ -4012,7 +4658,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Colonia Valdense; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 1",
    "road_label": "Ruta 1",
@@ -4021,6 +4667,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 1 - Radar km 120,987",
    "country": "UY"
   },
@@ -4033,7 +4682,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "San José-Pque Rodó; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 3",
    "road_label": "Ruta 3",
@@ -4041,6 +4690,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12329058708",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 3 - Radar",
    "country": "UY"
   },
@@ -4053,7 +4705,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Juan Soler; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 11",
    "road_label": "Ruta 11",
@@ -4061,6 +4713,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12328895166",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 11 - Radar km 39,646",
    "country": "UY"
   },
@@ -4073,7 +4728,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Juan Soler; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 11",
    "road_label": "Ruta 11",
@@ -4081,6 +4736,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12328895165",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 11 - Radar km 38,923",
    "country": "UY"
   },
@@ -4093,7 +4751,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Fray Marcos S; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
@@ -4102,6 +4760,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 45 km/h a 887 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 94,61",
    "country": "UY"
   },
@@ -4114,7 +4775,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Castillos; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 9",
    "road_label": "Ruta 9",
@@ -4123,6 +4784,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 9 - Radar km 264,038",
    "country": "UY"
   },
@@ -4135,11 +4799,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11048814806",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 9",
    "display_name": "Ruta 9 - Radar",
    "country": "UY"
@@ -4153,7 +4820,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Fray Marcos NE; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
@@ -4162,6 +4829,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar",
    "country": "UY"
   },
@@ -4174,11 +4844,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14213244859",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Juan Zorrilla de San Martín",
    "display_name": "Juan Zorrilla de San Martín - Radar",
    "country": "UY"
@@ -4192,7 +4865,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Casupá SO; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
@@ -4201,6 +4874,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 110,24",
    "country": "UY"
   },
@@ -4213,7 +4889,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Casupá NE; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
@@ -4222,6 +4898,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 45 km/h a 84 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 111,1",
    "country": "UY"
   },
@@ -4234,7 +4913,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Campana; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 55",
    "road_label": "Ruta 55",
@@ -4242,6 +4921,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12359917992",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 55 - Radar km 13,34",
    "country": "UY"
   },
@@ -4254,8 +4936,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12359889491",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "21",
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -4274,7 +4959,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Ismael Cortinas; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 23",
    "road_label": "Ruta 23",
@@ -4282,6 +4967,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12359968619",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 23 - Radar km 149,485",
    "country": "UY"
   },
@@ -4294,7 +4982,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Florencio Sanchez; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 2",
    "road_label": "Ruta 2",
@@ -4302,6 +4990,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12359908489",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 2 - Radar km 181,957",
    "country": "UY"
   },
@@ -4314,7 +5005,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Alejandro Gallinal SO; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
@@ -4323,6 +5014,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 142,01",
    "country": "UY"
   },
@@ -4335,7 +5029,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Alejandro Gallinal NE; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
@@ -4344,6 +5038,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 45 km/h a 56 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 143,91",
    "country": "UY"
   },
@@ -4356,13 +5053,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Pirarajá / Ruta 8 N; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 8",
    "road_label": "Ruta 8",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 8 - Radar km 217,132",
    "country": "UY"
   },
@@ -4375,11 +5075,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11048814805",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 9",
    "display_name": "Ruta 9 - Radar",
    "country": "UY"
@@ -4393,7 +5096,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Chuy; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 9",
    "road_label": "Ruta 9",
@@ -4402,6 +5105,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 9 - Radar km 338,106",
    "country": "UY"
   },
@@ -4414,7 +5120,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "18 de Julio; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 19",
    "road_label": "Ruta 19",
@@ -4422,6 +5128,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12383101700",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 19 - Radar km 9,97",
    "country": "UY"
   },
@@ -4434,7 +5143,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Trinidad Acceso Sur; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 3",
    "road_label": "Ruta 3",
@@ -4442,6 +5151,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12414127354",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 3 - Radar km 187,09",
    "country": "UY"
   },
@@ -4454,13 +5166,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Puente s/Rio San Salvador; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 21",
    "road_label": "Ruta 21",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 21 - Radar km 322,88",
    "country": "UY"
   },
@@ -4473,7 +5188,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Trinidad Acceso E; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 14",
    "road_label": "Ruta 14",
@@ -4481,6 +5196,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/12414143008",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 14 - Radar km 138,644",
    "country": "UY"
   },
@@ -4493,7 +5211,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Trinidad Acceso N-O; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 3",
    "road_label": "Ruta 3",
@@ -4502,6 +5220,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 3 - Radar km 191,37",
    "country": "UY"
   },
@@ -4514,11 +5235,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12414143007",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 3",
    "display_name": "Ruta 3 - Radar",
    "country": "UY"
@@ -4532,13 +5256,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "José Batlle y Ordoñez Sur; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 204,32",
    "country": "UY"
   },
@@ -4551,13 +5278,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "José Batlle y Ordoñez Norte; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 205,485",
    "country": "UY"
   },
@@ -4570,7 +5300,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Santa Bernardina; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 5",
    "road_label": "Ruta 5",
@@ -4581,6 +5311,9 @@
     90
    ],
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 5 - Radar km 186,392",
    "country": "UY"
   },
@@ -4593,13 +5326,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Treinta y Tres; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 17",
    "road_label": "Ruta 17",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 17 - Radar km 289,35",
    "country": "UY"
   },
@@ -4612,13 +5348,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Treinta y Tres / Ruta 8 N; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 8",
    "road_label": "Ruta 8",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 8 - Radar km 288,645",
    "country": "UY"
   },
@@ -4631,11 +5370,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7629514697",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 3",
    "display_name": "Ruta 3 - Radar",
    "country": "UY"
@@ -4649,11 +5391,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10696266163",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "Ramal 10 de Ruta 2",
@@ -4669,11 +5414,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10110156669",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 55.0,
    "heading_max": 125.0,
    "road_label": "Rincón",
@@ -4689,11 +5437,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10696274238",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 125.0,
    "heading_max": 195.0,
    "road_label": "Rincón",
@@ -4709,11 +5460,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10110172985",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 295.0,
    "heading_max": 5.0,
    "road_label": "Rincón",
@@ -4729,11 +5483,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10110156461",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 305.0,
    "heading_max": 15.0,
    "road_label": "Rincón",
@@ -4749,7 +5506,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Ruta 7 Cerro Chato Sur; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
@@ -4758,6 +5515,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 45 km/h a 115 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 249,96",
    "country": "UY"
   },
@@ -4770,7 +5530,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Santa Clara del Olimar Sur; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
@@ -4779,6 +5539,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 279,88",
    "country": "UY"
   },
@@ -4791,7 +5554,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Santa Clara del Olimar Norte; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
@@ -4800,6 +5563,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 282,53",
    "country": "UY"
   },
@@ -4812,13 +5578,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Tupambae Sur; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 303,455",
    "country": "UY"
   },
@@ -4831,13 +5600,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Tupambae Norte; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 304,835",
    "country": "UY"
   },
@@ -4850,13 +5622,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Pueblo Centenario; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 5",
    "road_label": "Ruta 5",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 5 - Radar km 248",
    "country": "UY"
   },
@@ -4869,13 +5644,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Cerro de las Cuentas; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 337,215",
    "country": "UY"
   },
@@ -4888,8 +5666,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13465119877",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "26",
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -4908,7 +5689,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Río Branco; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 26",
    "road_label": "Ruta 26",
@@ -4917,6 +5698,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 45 km/h a 319 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 26 - Radar km 84,87",
    "country": "UY"
   },
@@ -4929,13 +5713,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Fraile Muerto S; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 350,615",
    "country": "UY"
   },
@@ -4948,13 +5735,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Fraile Muerto N; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 354,415",
    "country": "UY"
   },
@@ -4967,7 +5757,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Melo / Ruta 8 S; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 8",
    "road_label": "Ruta 8",
@@ -4976,6 +5766,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 8 - Radar km 391,991",
    "country": "UY"
   },
@@ -4988,11 +5781,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13465190695",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 8",
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
@@ -5006,8 +5802,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13465205363",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 50.0,
    "heading_max": 120.0,
    "road_label": "26",
@@ -5028,8 +5827,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13465205362",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 225.0,
    "heading_max": 295.0,
    "road_label": "26",
@@ -5050,13 +5852,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Melo / Ruta 26 O; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 26",
    "road_label": "Ruta 26",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 26 - Radar km 430,679",
    "country": "UY"
   },
@@ -5069,13 +5874,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Guichón; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 4",
    "road_label": "Ruta 4",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 4 - Radar km 380,11",
    "country": "UY"
   },
@@ -5088,13 +5896,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Melo / Ruta 7 NE; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 7 - Radar km 1,136",
    "country": "UY"
   },
@@ -5107,8 +5918,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13465203323",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "8",
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -5127,7 +5941,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Melo / Ruta 8 N; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 8",
    "road_label": "Ruta 8",
@@ -5136,6 +5950,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 45 km/h a 610 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 8 - Radar km 401,886",
    "country": "UY"
   },
@@ -5148,13 +5965,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Paysandú; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 90",
    "road_label": "Ruta 90",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 90 - Radar km 5,44",
    "country": "UY"
   },
@@ -5167,7 +5987,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Constancia; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 3",
    "road_label": "Ruta 3",
@@ -5175,6 +5995,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/10577985937",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 3 - Radar km 383,49",
    "country": "UY"
   },
@@ -5187,11 +6010,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10577965057",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 3",
    "display_name": "Ruta 3 - Radar",
    "country": "UY"
@@ -5205,7 +6031,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Termas Guaviyu; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 3",
    "road_label": "Ruta 3",
@@ -5214,6 +6040,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 3 - Radar km 432,005",
    "country": "UY"
   },
@@ -5226,13 +6055,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Paso Bonilla; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 5",
    "road_label": "Ruta 5",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 5 - Radar km 377,354",
    "country": "UY"
   },
@@ -5245,7 +6077,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Tacuarembó / Ruta 26 S; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 5",
    "road_label": "Ruta 5",
@@ -5254,6 +6086,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 60 km/h a 94 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 5 - Radar km 385,972",
    "country": "UY"
   },
@@ -5266,7 +6101,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Tacuerembó / Ruta 26 N a; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 5",
    "road_label": "Ruta 5",
@@ -5275,6 +6110,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 5 - Radar km 393,02",
    "country": "UY"
   },
@@ -5287,7 +6125,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Tacuarembó / Ruta 26 N b; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 5",
    "road_label": "Ruta 5",
@@ -5296,6 +6134,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 90 km/h a 243 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 5 - Radar km 393,605",
    "country": "UY"
   },
@@ -5308,11 +6149,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10584547161",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Ruta 3",
    "display_name": "Ruta 3 - Radar",
    "country": "UY"
@@ -5326,7 +6170,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Chapicuy; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 3",
    "road_label": "Ruta 3",
@@ -5334,6 +6178,9 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/10584547162",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 3 - Radar km 453,11",
    "country": "UY"
   },
@@ -5346,7 +6193,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Termas Dayman Sur; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 3",
    "road_label": "Ruta 3",
@@ -5355,6 +6202,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 45 km/h a 5 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 3 - Radar km 476,98",
    "country": "UY"
   },
@@ -5367,7 +6217,7 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Termas Dayman Norte; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 3",
    "road_label": "Ruta 3",
@@ -5376,6 +6226,9 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 45 km/h a 477 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 3 - Radar km 478,265",
    "country": "UY"
   },
@@ -5388,13 +6241,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Salto Sur; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 3",
    "road_label": "Ruta 3",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 3 - Radar km 482,92",
    "country": "UY"
   },
@@ -5407,13 +6263,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Artigas (Pintado Grande); MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 30",
    "road_label": "Ruta 30",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 30 - Radar km 132,715",
    "country": "UY"
   },
@@ -5426,13 +6285,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Artigas (Bypass O-E); MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 30",
    "road_label": "Ruta 30",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 30 - Radar km 130,89",
    "country": "UY"
   },
@@ -5445,13 +6307,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Artigas (Acceso Ruta 4); MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 30",
    "road_label": "Ruta 30",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 30 - Radar km 128,28",
    "country": "UY"
   },
@@ -5464,13 +6329,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Bella Unión - Barrio las Láminas; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 3",
    "road_label": "Ruta 3",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 3 - Radar km 626,411",
    "country": "UY"
   },
@@ -5483,13 +6351,16 @@
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Bella Unión; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
-   "source_version": "uy-2026-10-30",
+   "source_version": "uy-2026-10-31",
    "confidence_score": 70,
    "road_name": "Ruta 3",
    "road_label": "Ruta 3",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Ruta 3 - Radar km 624,037",
    "country": "UY"
   }
