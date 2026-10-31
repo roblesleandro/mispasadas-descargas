@@ -20,9 +20,9 @@
    "empresa": "SELVA",
    "fuente": "oficial",
    "pais": "PY",
-   "via_visible": "Noreste",
+   "via_visible": "Ruta Nacional 12",
    "punto": "Ituzaingó",
-   "nombre_visible": "Noreste - Peaje Ituzaingó",
+   "nombre_visible": "Ruta Nacional 12 - Peaje Ituzaingó",
    "confianza": "alta",
    "plaza": "Ituzaingó (Noreste)"
   },
@@ -35,9 +35,9 @@
    "empresa": "LITORAL",
    "fuente": "oficial",
    "pais": "PY",
-   "via_visible": "Litoral",
+   "via_visible": "Ruta Nacional 16",
    "punto": "Puente General Belgrano",
-   "nombre_visible": "Litoral - Peaje Puente General Belgrano",
+   "nombre_visible": "Ruta Nacional 16 - Peaje Puente General Belgrano",
    "confianza": "alta",
    "plaza": "Puente General Belgrano (Litoral)"
   },
@@ -50,9 +50,9 @@
    "empresa": "SELVA",
    "fuente": "oficial",
    "pais": "PY",
-   "via_visible": "Noreste",
+   "via_visible": "Ruta Nacional 12",
    "punto": "Santa Ana",
-   "nombre_visible": "Noreste - Peaje Santa Ana",
+   "nombre_visible": "Ruta Nacional 12 - Peaje Santa Ana",
    "confianza": "alta",
    "plaza": "Santa Ana (Noreste)"
   },
@@ -79,9 +79,9 @@
    "empresa": "LITORAL",
    "fuente": "oficial",
    "pais": "PY",
-   "via_visible": "Litoral",
+   "via_visible": "Ruta Nacional 16",
    "punto": "Makallé",
-   "nombre_visible": "Litoral - Peaje Makallé",
+   "nombre_visible": "Ruta Nacional 16 - Peaje Makallé",
    "confianza": "alta",
    "plaza": "Makallé (Litoral)"
   },
@@ -168,9 +168,9 @@
    "empresa": "SELVA",
    "fuente": "oficial",
    "pais": "PY",
-   "via_visible": "Noreste",
+   "via_visible": "Ruta Nacional 12",
    "punto": "Colonia Victoria",
-   "nombre_visible": "Noreste - Peaje Colonia Victoria",
+   "nombre_visible": "Ruta Nacional 12 - Peaje Colonia Victoria",
    "confianza": "alta",
    "plaza": "Colonia Victoria (Noreste)"
   },
@@ -726,6 +726,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-29T21:56Z",
+ "generado": "2026-10-31T12:37Z",
  "alertas": []
 }
