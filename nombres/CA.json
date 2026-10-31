@@ -5,8 +5,8 @@
  "resumen": {
   "oficial": 0,
   "osm": 49,
-  "armado": 263,
-  "total": 312,
+  "armado": 260,
+  "total": 309,
   "confianza_baja": 0,
   "excluidas": 9
  },
@@ -52,8 +52,8 @@
    "confianza": "media"
   },
   {
-   "lat": 42.27332,
-   "lon": -83.086874,
+   "lat": 42.273312,
+   "lon": -83.08688,
    "nombre": "Peaje Rt. Hon. Herb Gray Parkway (401)",
    "tipo": "cabina",
    "via": "Rt. Hon. Herb Gray Parkway",
@@ -139,15 +139,13 @@
   {
    "lat": 43.117144,
    "lon": -79.248564,
-   "nombre": "Peaje Isaac Brock Circle",
+   "nombre": "Peaje cerca de Thorold",
    "tipo": "cabina",
-   "via": "Isaac Brock Circle",
    "localidad": "Thorold",
    "fuente": "armado",
    "pais": "CA",
-   "via_visible": "Isaac Brock Circle",
    "punto": "Thorold",
-   "nombre_visible": "Isaac Brock Circle - Toll Thorold",
+   "nombre_visible": "Toll Thorold",
    "confianza": "media"
   },
   {
@@ -250,7 +248,8 @@
    "pais": "CA",
    "punto": "Oakville",
    "nombre_visible": "Toll Oakville",
-   "confianza": "media"
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": 43.406887,
@@ -280,24 +279,7 @@
    "via_visible": "Highway 407",
    "punto": "Kilbride",
    "nombre_visible": "Highway 407 - Toll gantry Kilbride",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
-  },
-  {
-   "lat": 43.425295,
-   "lon": -79.808341,
-   "nombre": "Pórtico Highway 407 (407 ETR) (47)",
-   "tipo": "portico",
-   "via": "Highway 407",
-   "ref": "407 ETR",
-   "localidad": "Kilbride",
-   "fuente": "armado",
-   "pais": "CA",
-   "via_visible": "Highway 407",
-   "punto": "Kilbride",
-   "nombre_visible": "Highway 407 - Toll gantry Kilbride",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "confianza": "media"
   },
   {
    "lat": 43.44508,
@@ -318,17 +300,15 @@
   {
    "lat": 43.450466,
    "lon": -79.766168,
-   "nombre": "Peaje William Halton Parkway West (40)",
+   "nombre": "Peaje cerca de Oakville (2)",
    "tipo": "cabina",
-   "via": "William Halton Parkway West",
-   "ref": "40",
    "localidad": "Oakville",
    "fuente": "armado",
    "pais": "CA",
-   "via_visible": "Route 40",
    "punto": "Oakville",
-   "nombre_visible": "Route 40 - Toll Oakville",
-   "confianza": "media"
+   "nombre_visible": "Toll Oakville",
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": 43.468142,
@@ -560,7 +540,7 @@
   {
    "lat": 43.640159,
    "lon": -79.388376,
-   "nombre": "Peaje Gardiner Expressway (2)",
+   "nombre": "Peaje Gardiner Expressway",
    "tipo": "cabina",
    "via": "Gardiner Expressway",
    "localidad": "Toronto",
@@ -569,12 +549,11 @@
    "via_visible": "Gardiner Expressway",
    "punto": "Toronto",
    "nombre_visible": "Gardiner Expressway - Toll Toronto",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "confianza": "media"
   },
   {
-   "lat": 43.640984,
-   "lon": -79.374813,
+   "lat": 43.640987,
+   "lon": -79.376382,
    "nombre": "Peaje Queens Quay West",
    "tipo": "cabina",
    "via": "Queens Quay West",
@@ -617,21 +596,6 @@
    "confianza": "media"
   },
   {
-   "lat": 43.642426,
-   "lon": -79.377998,
-   "nombre": "Peaje Gardiner Expressway",
-   "tipo": "cabina",
-   "via": "Gardiner Expressway",
-   "localidad": "Toronto",
-   "fuente": "armado",
-   "pais": "CA",
-   "via_visible": "Gardiner Expressway",
-   "punto": "Toronto",
-   "nombre_visible": "Gardiner Expressway - Toll Toronto",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
-  },
-  {
    "lat": 43.653772,
    "lon": -79.7165,
    "nombre": "Pórtico Highway 407 (407 ETR) (12)",
@@ -646,20 +610,6 @@
    "nombre_visible": "Highway 407 - Toll gantry Brampton",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
-  },
-  {
-   "lat": 43.654677,
-   "lon": -79.404663,
-   "nombre": "Peaje Bathurst Street",
-   "tipo": "cabina",
-   "via": "Bathurst Street",
-   "localidad": "Toronto",
-   "fuente": "armado",
-   "pais": "CA",
-   "via_visible": "Bathurst Street",
-   "punto": "Toronto",
-   "nombre_visible": "Bathurst Street - Toll Toronto",
-   "confianza": "media"
   },
   {
    "lat": 43.663277,
@@ -1109,15 +1059,19 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.840187,
-   "lon": -79.535924,
-   "nombre": "Front Gate",
+   "lat": 43.839775,
+   "lon": -79.535459,
+   "nombre": "Peaje Jane Street (55)",
    "tipo": "cabina",
-   "fuente": "osm",
+   "via": "Jane Street",
+   "ref": "55",
+   "localidad": "Vaughan",
+   "fuente": "armado",
    "pais": "CA",
-   "punto": "Front Gate",
-   "nombre_visible": "Toll Front Gate",
-   "confianza": "alta"
+   "via_visible": "Route 55",
+   "punto": "Vaughan",
+   "nombre_visible": "Route 55 - Toll Vaughan",
+   "confianza": "media"
   },
   {
    "lat": 43.840489,
@@ -1232,20 +1186,19 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.873376,
-   "lon": -78.976693,
-   "nombre": "Pórtico Highway 412",
-   "tipo": "portico",
-   "via": "Highway 412",
-   "ref": "412",
+   "lat": 43.871944,
+   "lon": -78.899402,
+   "nombre": "Peaje Highway 401",
+   "tipo": "cabina",
+   "via": "Highway 401",
+   "ref": "401",
    "localidad": "Whitby",
    "fuente": "armado",
    "pais": "CA",
-   "via_visible": "Highway 412",
+   "via_visible": "Highway 401",
    "punto": "Whitby",
-   "nombre_visible": "Highway 412 - Toll gantry Whitby",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "nombre_visible": "Highway 401 - Toll Whitby",
+   "confianza": "media"
   },
   {
    "lat": 43.874635,
@@ -1279,22 +1232,6 @@
    "confianza": "media"
   },
   {
-   "lat": 43.901923,
-   "lon": -78.756921,
-   "nombre": "Pórtico Highway 418 (2)",
-   "tipo": "portico",
-   "via": "Highway 418",
-   "ref": "418",
-   "localidad": "Courtice",
-   "fuente": "armado",
-   "pais": "CA",
-   "via_visible": "Highway 418",
-   "punto": "Courtice",
-   "nombre_visible": "Highway 418 - Toll gantry Courtice",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
-  },
-  {
    "lat": 43.904937,
    "lon": -79.144463,
    "nombre": "Pórtico Highway 407 (407 ETR) (45)",
@@ -1307,22 +1244,6 @@
    "via_visible": "Highway 407",
    "punto": "Claremont",
    "nombre_visible": "Highway 407 - Toll gantry Claremont",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
-  },
-  {
-   "lat": 43.906395,
-   "lon": -78.996204,
-   "nombre": "Pórtico Highway 412 (2)",
-   "tipo": "portico",
-   "via": "Highway 412",
-   "ref": "412",
-   "localidad": "Whitby",
-   "fuente": "armado",
-   "pais": "CA",
-   "via_visible": "Highway 412",
-   "punto": "Whitby",
-   "nombre_visible": "Highway 412 - Toll gantry Whitby",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -1343,25 +1264,9 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.913583,
-   "lon": -78.763785,
-   "nombre": "Pórtico Highway 418",
-   "tipo": "portico",
-   "via": "Highway 418",
-   "ref": "418",
-   "localidad": "Courtice",
-   "fuente": "armado",
-   "pais": "CA",
-   "via_visible": "Highway 418",
-   "punto": "Courtice",
-   "nombre_visible": "Highway 418 - Toll gantry Courtice",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
-  },
-  {
    "lat": 43.925854,
    "lon": -79.09032,
-   "nombre": "Pórtico Highway 407 (7)",
+   "nombre": "Pórtico Highway 407 (5)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407",
@@ -1375,24 +1280,8 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.940983,
-   "lon": -79.006506,
-   "nombre": "Pórtico Highway 412 (3)",
-   "tipo": "portico",
-   "via": "Highway 412",
-   "ref": "412",
-   "localidad": "Whitby",
-   "fuente": "armado",
-   "pais": "CA",
-   "via_visible": "Highway 412",
-   "punto": "Whitby",
-   "nombre_visible": "Highway 412 - Toll gantry Whitby",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
-  },
-  {
-   "lat": 43.947726,
-   "lon": -78.959985,
+   "lat": 43.947721,
+   "lon": -78.959986,
    "nombre": "Pórtico Highway 407 (3)",
    "tipo": "portico",
    "via": "Highway 407",
@@ -1403,8 +1292,7 @@
    "via_visible": "Highway 407",
    "punto": "Whitby",
    "nombre_visible": "Highway 407 - Toll gantry Whitby",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "confianza": "media"
   },
   {
    "lat": 43.950042,
@@ -1425,49 +1313,26 @@
   {
    "lat": 43.951347,
    "lon": -78.941026,
-   "nombre": "Pórtico Highway 407 (6)",
+   "nombre": "Pórtico Ministry of Transportation of Ontario (2)",
    "tipo": "portico",
-   "via": "Highway 407",
-   "ref": "407",
    "localidad": "Whitby",
    "fuente": "armado",
    "pais": "CA",
-   "via_visible": "Highway 407",
    "punto": "Whitby",
-   "nombre_visible": "Highway 407 - Toll gantry Whitby",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
-  },
-  {
-   "lat": 43.956426,
-   "lon": -78.766103,
-   "nombre": "Pórtico Highway 418 (3)",
-   "tipo": "portico",
-   "via": "Highway 418",
-   "ref": "418",
-   "localidad": "Hampton",
-   "fuente": "armado",
-   "pais": "CA",
-   "via_visible": "Highway 418",
-   "punto": "Hampton",
-   "nombre_visible": "Highway 418 - Toll gantry Hampton",
+   "nombre_visible": "Toll gantry Whitby",
    "confianza": "media"
   },
   {
    "lat": 43.964346,
    "lon": -78.811975,
-   "nombre": "Pórtico Highway 407 (5)",
+   "nombre": "Pórtico Ministry of Transportation of Ontario",
    "tipo": "portico",
-   "via": "Highway 407",
-   "ref": "407",
    "localidad": "Solina",
    "fuente": "armado",
    "pais": "CA",
-   "via_visible": "Highway 407",
    "punto": "Solina",
-   "nombre_visible": "Highway 407 - Toll gantry Solina",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "nombre_visible": "Toll gantry Solina",
+   "confianza": "media"
   },
   {
    "lat": 43.970813,
@@ -1487,16 +1352,13 @@
   {
    "lat": 43.981438,
    "lon": -78.74324,
-   "nombre": "Pórtico Highway 407 (8)",
+   "nombre": "Pórtico Ministry of Transportation of Ontario (3)",
    "tipo": "portico",
-   "via": "Highway 407",
-   "ref": "407",
    "localidad": "Hampton",
    "fuente": "armado",
    "pais": "CA",
-   "via_visible": "Highway 407",
    "punto": "Hampton",
-   "nombre_visible": "Highway 407 - Toll gantry Hampton",
+   "nombre_visible": "Toll gantry Hampton",
    "confianza": "media"
   },
   {
@@ -1512,27 +1374,23 @@
    "via_visible": "Highway 407",
    "punto": "Solina",
    "nombre_visible": "Highway 407 - Toll gantry Solina",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "confianza": "media"
   },
   {
    "lat": 44.000779,
    "lon": -78.666776,
-   "nombre": "Pórtico Highway 407 (9)",
+   "nombre": "Pórtico Ministry of Transportation of Ontario (4)",
    "tipo": "portico",
-   "via": "Highway 407",
-   "ref": "407",
    "localidad": "Tyrone",
    "fuente": "armado",
    "pais": "CA",
-   "via_visible": "Highway 407",
    "punto": "Tyrone",
-   "nombre_visible": "Highway 407 - Toll gantry Tyrone",
+   "nombre_visible": "Toll gantry Tyrone",
    "confianza": "media"
   },
   {
-   "lat": 44.366863,
-   "lon": -75.982473,
+   "lat": 44.366854,
+   "lon": -75.982467,
    "nombre": "Thousand Islands Bridge Toll Booth",
    "tipo": "cabina",
    "via": "Highway 137",
@@ -1786,10 +1644,12 @@
    "lon": -72.183987,
    "nombre": "Boîte de perception SÉPAQ",
    "tipo": "cabina",
+   "via": "Route Verte",
    "fuente": "osm",
    "pais": "CA",
+   "via_visible": "Route Verte",
    "punto": "Boîte de perception SÉPAQ",
-   "nombre_visible": "Toll Boîte de perception SÉPAQ",
+   "nombre_visible": "Route Verte - Toll Boîte de perception SÉPAQ",
    "confianza": "alta"
   },
   {
@@ -2078,7 +1938,7 @@
   {
    "lat": 45.496461,
    "lon": -73.631483,
-   "nombre": "Peaje Chemin de la Côte-Sainte-Catherine (2)",
+   "nombre": "Peaje Chemin de la Côte-Sainte-Catherine",
    "tipo": "cabina",
    "via": "Chemin de la Côte-Sainte-Catherine",
    "localidad": "Hampstead",
@@ -2146,30 +2006,27 @@
   {
    "lat": 45.504773,
    "lon": -73.624613,
-   "nombre": "Peaje Chemin de la Côte-Sainte-Catherine",
+   "nombre": "Peaje cerca de Ville de Mont-Royal",
    "tipo": "cabina",
-   "via": "Chemin de la Côte-Sainte-Catherine",
    "localidad": "Ville de Mont-Royal",
    "fuente": "armado",
    "pais": "CA",
-   "via_visible": "Chemin de la Côte-Sainte-Catherine",
    "punto": "Ville de Mont-Royal",
-   "nombre_visible": "Chemin de la Côte-Sainte-Catherine - Toll Ville de Mont-Royal",
+   "nombre_visible": "Toll Ville de Mont-Royal",
    "confianza": "media"
   },
   {
    "lat": 45.507993,
    "lon": -73.530491,
-   "nombre": "Peaje Avenue Pierre-Dupuy",
+   "nombre": "Peaje cerca de Saint-Lambert (4)",
    "tipo": "cabina",
-   "via": "Avenue Pierre-Dupuy",
    "localidad": "Saint-Lambert",
    "fuente": "armado",
    "pais": "CA",
-   "via_visible": "Avenue Pierre-Dupuy",
    "punto": "Saint-Lambert",
-   "nombre_visible": "Avenue Pierre-Dupuy - Toll Saint-Lambert",
-   "confianza": "media"
+   "nombre_visible": "Toll Saint-Lambert",
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": 45.513798,
@@ -2232,7 +2089,8 @@
    "pais": "CA",
    "punto": "Chute-à-Blondeau",
    "nombre_visible": "Toll Chute-à-Blondeau",
-   "confianza": "media"
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": 45.560601,
@@ -2252,17 +2110,15 @@
   {
    "lat": 45.58526,
    "lon": -74.444666,
-   "nombre": "Peaje Route des Outaouais (344)",
+   "nombre": "Peaje cerca de Chute-à-Blondeau (2)",
    "tipo": "cabina",
-   "via": "Route des Outaouais",
-   "ref": "344",
    "localidad": "Chute-à-Blondeau",
    "fuente": "armado",
    "pais": "CA",
-   "via_visible": "Route 344",
    "punto": "Chute-à-Blondeau",
-   "nombre_visible": "Route 344 - Toll Chute-à-Blondeau",
-   "confianza": "media"
+   "nombre_visible": "Toll Chute-à-Blondeau",
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": 45.587405,
@@ -2449,16 +2305,15 @@
   {
    "lat": 45.931899,
    "lon": -70.445028,
-   "nombre": "Peaje Chemin du Ruisseau-Croche (173)",
+   "nombre": "Peaje Chemin du Ruisseau-Croche",
    "tipo": "cabina",
    "via": "Chemin du Ruisseau-Croche",
-   "ref": "173",
    "localidad": "Saint-Théophile",
    "fuente": "armado",
    "pais": "CA",
-   "via_visible": "Route 173",
+   "via_visible": "Chemin du Ruisseau-Croche",
    "punto": "Saint-Théophile",
-   "nombre_visible": "Route 173 - Toll Saint-Théophile",
+   "nombre_visible": "Chemin du Ruisseau-Croche - Toll Saint-Théophile",
    "confianza": "media"
   },
   {
@@ -2517,15 +2372,13 @@
   {
    "lat": 46.007398,
    "lon": -75.09194,
-   "nombre": "Peaje Chemin du Tour-du-Lac",
+   "nombre": "Peaje cerca de Duhamel",
    "tipo": "cabina",
-   "via": "Chemin du Tour-du-Lac",
    "localidad": "Duhamel",
    "fuente": "armado",
    "pais": "CA",
-   "via_visible": "Chemin du Tour-du-Lac",
    "punto": "Duhamel",
-   "nombre_visible": "Chemin du Tour-du-Lac - Toll Duhamel",
+   "nombre_visible": "Toll Duhamel",
    "confianza": "media"
   },
   {
@@ -2607,8 +2460,8 @@
    "confianza": "media"
   },
   {
-   "lat": 46.212578,
-   "lon": -74.587626,
+   "lat": 46.212575,
+   "lon": -74.587624,
    "nombre": "Peaje cerca de Lac-Supérieur",
    "tipo": "cabina",
    "localidad": "Lac-Supérieur",
@@ -2631,6 +2484,20 @@
    "via_visible": "NS 105",
    "punto": "North Sydney",
    "nombre_visible": "NS 105 - Toll North Sydney",
+   "confianza": "media"
+  },
+  {
+   "lat": 46.235402,
+   "lon": -63.122689,
+   "nombre": "Peaje Prince Street",
+   "tipo": "cabina",
+   "via": "Prince Street",
+   "localidad": "Charlottetown",
+   "fuente": "armado",
+   "pais": "CA",
+   "via_visible": "Prince Street",
+   "punto": "Charlottetown",
+   "nombre_visible": "Prince Street - Toll Charlottetown",
    "confianza": "media"
   },
   {
@@ -2668,12 +2535,12 @@
    "nombre": "Peaje Chemin du Lac-Supérieur",
    "tipo": "cabina",
    "via": "Chemin du Lac-Supérieur",
-   "localidad": "Lac-Supérieur",
+   "localidad": "Lac Supérieur",
    "fuente": "armado",
    "pais": "CA",
    "via_visible": "Chemin du Lac-Supérieur",
-   "punto": "Lac-Supérieur",
-   "nombre_visible": "Chemin du Lac-Supérieur - Toll Lac-Supérieur",
+   "punto": "Lac Supérieur",
+   "nombre_visible": "Chemin du Lac-Supérieur - Toll Lac Supérieur",
    "confianza": "media"
   },
   {
@@ -2809,8 +2676,8 @@
    "confianza": "media"
   },
   {
-   "lat": 46.62901,
-   "lon": -70.466113,
+   "lat": 46.629043,
+   "lon": -70.466109,
    "nombre": "Peaje Route du Massif-du-Sud",
    "tipo": "cabina",
    "via": "Route du Massif-du-Sud",
@@ -2848,6 +2715,21 @@
    "via_visible": "Route Promenade",
    "punto": "Saint-Jean-des-Piles",
    "nombre_visible": "Route Promenade - Toll Saint-Jean-des-Piles",
+   "confianza": "media"
+  },
+  {
+   "lat": 46.737938,
+   "lon": -60.880944,
+   "nombre": "Peaje Cabot Trail (CT)",
+   "tipo": "cabina",
+   "via": "Cabot Trail",
+   "ref": "CT",
+   "localidad": "Pleasant Bay",
+   "fuente": "armado",
+   "pais": "CA",
+   "via_visible": "CT",
+   "punto": "Pleasant Bay",
+   "nombre_visible": "CT - Toll Pleasant Bay",
    "confianza": "media"
   },
   {
@@ -2918,8 +2800,8 @@
    "confianza": "media"
   },
   {
-   "lat": 46.882447,
-   "lon": -71.150246,
+   "lat": 46.882522,
+   "lon": -71.150121,
    "nombre": "Peaje Boulevard Sainte-Anne (138)",
    "tipo": "cabina",
    "via": "Boulevard Sainte-Anne",
@@ -3014,8 +2896,8 @@
    "confianza": "media"
   },
   {
-   "lat": 47.571996,
-   "lon": -52.734692,
+   "lat": 47.572559,
+   "lon": -52.733695,
    "nombre": "Peaje Prince Phillip Drive",
    "tipo": "cabina",
    "via": "Prince Phillip Drive",
@@ -3309,15 +3191,13 @@
   {
    "lat": 48.639601,
    "lon": -123.430911,
-   "nombre": "Peaje Willingdon Road",
+   "nombre": "Peaje cerca de North Saanich",
    "tipo": "cabina",
-   "via": "Willingdon Road",
    "localidad": "North Saanich",
    "fuente": "armado",
    "pais": "CA",
-   "via_visible": "Willingdon Road",
    "punto": "North Saanich",
-   "nombre_visible": "Willingdon Road - Toll North Saanich",
+   "nombre_visible": "Toll North Saanich",
    "confianza": "media"
   },
   {
@@ -3402,8 +3282,8 @@
    "confianza": "alta"
   },
   {
-   "lat": 48.844733,
-   "lon": -123.3222,
+   "lat": 48.844651,
+   "lon": -123.322148,
    "nombre": "Peaje Dalton Drive",
    "tipo": "cabina",
    "via": "Dalton Drive",
@@ -3751,6 +3631,20 @@
    "confianza": "media"
   },
   {
+   "lat": 49.900112,
+   "lon": -119.49476,
+   "nombre": "Peaje Ellis Street",
+   "tipo": "cabina",
+   "via": "Ellis Street",
+   "localidad": "Kelowna",
+   "fuente": "armado",
+   "pais": "CA",
+   "via_visible": "Ellis Street",
+   "punto": "Kelowna",
+   "nombre_visible": "Ellis Street - Toll Kelowna",
+   "confianza": "media"
+  },
+  {
    "lat": 49.90145,
    "lon": -97.222915,
    "nombre": "Peaje Administration Street",
@@ -3774,6 +3668,18 @@
    "pais": "CA",
    "punto": "Cow Head",
    "nombre_visible": "Toll Cow Head",
+   "confianza": "media"
+  },
+  {
+   "lat": 49.94771,
+   "lon": -119.413667,
+   "nombre": "Peaje cerca de Kelowna",
+   "tipo": "cabina",
+   "localidad": "Kelowna",
+   "fuente": "armado",
+   "pais": "CA",
+   "punto": "Kelowna",
+   "nombre_visible": "Toll Kelowna",
    "confianza": "media"
   },
   {
@@ -4007,6 +3913,17 @@
    "pais": "CA",
    "punto": "Yoho National Park Gate",
    "nombre_visible": "Toll Yoho National Park Gate",
+   "confianza": "alta"
+  },
+  {
+   "lat": 51.357813,
+   "lon": -105.21769,
+   "nombre": "Last Mountain Regional Park",
+   "tipo": "cabina",
+   "fuente": "osm",
+   "pais": "CA",
+   "punto": "Last Mountain Regional Park",
+   "nombre_visible": "Toll Last Mountain Regional Park",
    "confianza": "alta"
   },
   {
@@ -4529,6 +4446,8 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-30T01:52Z",
- "alertas": []
+ "generado": "2026-10-31T14:25Z",
+ "alertas": [
+  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+ ]
 }
