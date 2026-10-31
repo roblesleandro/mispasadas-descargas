@@ -93,8 +93,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "GT",
+   "via_visible": "Vía Alterna del Sur",
    "punto": "Zona 4 de Villa Nueva",
-   "nombre_visible": "Peaje Zona 4 de Villa Nueva",
+   "nombre_visible": "Vía Alterna del Sur - Peaje Zona 4 de Villa Nueva",
    "confianza": "alta"
   },
   {
@@ -120,8 +121,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "GT",
+   "via_visible": "Vía Alterna del Sur",
    "punto": "El Carmen Zona 4 de Villa Nueva",
-   "nombre_visible": "Peaje El Carmen Zona 4 de Villa Nueva",
+   "nombre_visible": "Vía Alterna del Sur - Peaje El Carmen Zona 4 de Villa Nueva",
    "confianza": "alta"
   },
   {
@@ -225,6 +227,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-10-29T22:36Z",
+ "generado": "2026-10-31T13:04Z",
  "alertas": []
 }
