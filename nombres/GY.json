@@ -44,8 +44,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "GY",
+   "via_visible": "Soesdyke-Linden Highway",
    "punto": "Mayor & Town Council - Town of Linden",
-   "nombre_visible": "Toll Mayor & Town Council - Town of Linden",
+   "nombre_visible": "Soesdyke-Linden Highway - Toll Mayor & Town Council - Town of Linden",
    "confianza": "alta"
   },
   {
@@ -77,6 +78,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-10-29T22:51Z",
+ "generado": "2026-10-31T13:26Z",
  "alertas": []
 }
