@@ -132,9 +132,9 @@
    "via": "Entrada Vía 27",
    "fuente": "osm",
    "pais": "CR",
-   "via_visible": "Entrada Vía 27",
+   "via_visible": "Autopista José María Castro Madriz",
    "punto": "Ciudad Colón",
-   "nombre_visible": "Entrada Vía 27 - Peaje Ciudad Colón",
+   "nombre_visible": "Autopista José María Castro Madriz - Peaje Ciudad Colón",
    "confianza": "alta"
   },
   {
@@ -215,9 +215,9 @@
    "via": "Entrada Vía 27",
    "fuente": "osm",
    "pais": "CR",
-   "via_visible": "Entrada Vía 27",
+   "via_visible": "Autopista José María Castro Madriz",
    "punto": "La Guácima",
-   "nombre_visible": "Entrada Vía 27 - Peaje La Guácima",
+   "nombre_visible": "Autopista José María Castro Madriz - Peaje La Guácima",
    "confianza": "alta"
   },
   {
@@ -241,8 +241,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CR",
+   "via_visible": "Autopista Braulio Carrillo",
    "punto": "Zurquí",
-   "nombre_visible": "Peaje Zurquí",
+   "nombre_visible": "Autopista Braulio Carrillo - Peaje Zurquí",
    "confianza": "alta"
   },
   {
@@ -261,6 +262,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-10-30T01:04Z",
+ "generado": "2026-10-31T13:01Z",
  "alertas": []
 }
