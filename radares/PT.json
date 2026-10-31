@@ -1,7 +1,7 @@
 {
- "version": "pt-2026-10-30",
+ "version": "pt-2026-10-31",
  "pais": "PT",
- "generado": "2026-10-30T03:54:43+00:00",
+ "generado": "2026-10-31T13:48:52+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "ANSR – SINCRO: sin dataset abierto (mapa radaresavista.pt sin descarga)."
@@ -16,12 +16,23 @@
    "RED_LIGHT_CAMERA": 0,
    "VEHICLE_CAMERA": 31
   },
-  "con_limite": 314,
-  "limite_revisar": 0,
-  "limite_desconocido": 10,
+  "con_limite": 313,
+  "limite_revisar": 1,
+  "limite_desconocido": 11,
   "revisados_esta_corrida": 0,
   "sin_via": 3,
-  "via_completada_esta_corrida": 0
+  "via_completada_esta_corrida": 0,
+  "limites_dudosos_sacados": 1,
+  "por_control": {
+   "VELOCIDAD": 272,
+   "VELOCIDAD_PROMEDIO": 23,
+   "SEMAFORO": 8,
+   "CINTURON": 0,
+   "CELULAR": 0,
+   "SENDA": 0,
+   "INFRACCIONES": 0
+  },
+  "monitoreo": 31
  },
  "alertas": [],
  "radars": [
@@ -34,11 +45,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2432059877",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "VE3",
    "display_name": "VE3 - Radar",
    "country": "PT"
@@ -52,8 +66,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12288702357",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 180.0,
    "heading_max": 250.0,
    "road_label": "VE3",
@@ -74,8 +91,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14177461083",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 255.0,
    "heading_max": 325.0,
    "road_label": "Avenida Cidade de Hayward",
@@ -96,8 +114,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14177461076",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "Avenida Doutor Adelino da Palma Carlos",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -116,11 +135,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11206275253",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN 125-10",
    "display_name": "EN 125-10 - Radar",
    "country": "PT"
@@ -134,11 +156,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6701045442",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "display_name": "Radar",
    "country": "PT"
   },
@@ -151,8 +176,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14177461075",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "EN125",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -171,8 +197,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14177461074",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "EN125",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -191,8 +218,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11518885978",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "EN125",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -211,8 +239,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14177461072",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "IC4",
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_PROPIO",
@@ -231,8 +260,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14177461073",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "IC4",
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_PROPIO",
@@ -251,11 +281,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11206114176",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN125",
    "display_name": "EN125 - Radar",
    "country": "PT"
@@ -269,11 +302,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4311952112",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN125",
    "display_name": "EN125 - Radar",
    "country": "PT"
@@ -287,11 +323,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1226154671",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN125",
    "display_name": "EN125 - Radar",
    "country": "PT"
@@ -305,11 +344,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13370700479",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Sul",
    "display_name": "Autoestrada do Sul - Radar",
    "country": "PT"
@@ -323,11 +365,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8967059347",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 225.0,
    "heading_max": 295.0,
    "road_label": "Rua Primeira Vales",
@@ -343,11 +388,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11379847821",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "IC1",
    "display_name": "IC1 - Radar de velocidade média",
    "country": "PT"
@@ -361,11 +409,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11379847826",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "IC1",
    "display_name": "IC1 - Radar de velocidade média",
    "country": "PT"
@@ -379,11 +430,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11379847822",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "IC1",
    "display_name": "IC1 - Radar de velocidade média",
    "country": "PT"
@@ -397,11 +451,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11379847823",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "IC1",
    "display_name": "IC1 - Radar de velocidade média",
    "country": "PT"
@@ -415,11 +472,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3761891688",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "ER 1-1ª",
    "display_name": "ER 1-1ª - Radar",
    "country": "PT"
@@ -433,11 +493,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11221458631",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "ER 1-1ª",
    "display_name": "ER 1-1ª - Radar",
    "country": "PT"
@@ -451,11 +514,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3761891694",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "ER 1-1ª",
    "display_name": "ER 1-1ª - Radar",
    "country": "PT"
@@ -469,8 +535,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5251586156",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "E-N",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -487,11 +554,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14203602333",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "ER261",
    "display_name": "ER261 - Radar de velocidade média",
    "country": "PT"
@@ -505,11 +575,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14203586721",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "ER261",
    "display_name": "ER261 - Radar de velocidade média",
    "country": "PT"
@@ -523,8 +596,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733825506",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "speed_limit_kmh": 60,
@@ -544,8 +618,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733839461",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "speed_limit_kmh": 50,
@@ -565,8 +640,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733793819",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Autoestrada do Baixo Alentejo",
@@ -587,8 +663,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733795332",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Autoestrada do Baixo Alentejo",
@@ -609,8 +688,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733795331",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Autoestrada do Baixo Alentejo",
@@ -631,8 +713,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5435143127",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Autoestrada do Baixo Alentejo",
@@ -653,8 +738,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5435143128",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Autoestrada do Baixo Alentejo",
@@ -675,8 +763,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733793820",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Autoestrada do Baixo Alentejo",
@@ -697,8 +786,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5435143129",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Autoestrada do Baixo Alentejo",
@@ -719,8 +811,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5435143130",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Autoestrada do Baixo Alentejo",
@@ -741,8 +836,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733795321",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "EM 261-3",
@@ -763,8 +859,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5435143131",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Autoestrada do Baixo Alentejo",
@@ -785,8 +884,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5435143132",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Autoestrada do Baixo Alentejo",
@@ -807,8 +909,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733795322",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "EM 261-3",
@@ -829,8 +932,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5435143133",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Autoestrada do Baixo Alentejo",
@@ -849,8 +955,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5435143134",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "IP8",
@@ -871,8 +980,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733795323",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "IP8",
@@ -893,8 +1003,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733807632",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "A 26-1",
@@ -915,8 +1028,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733807633",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "A 26-1",
@@ -937,8 +1051,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5435143136",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "A 26-1",
@@ -959,11 +1076,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11206114175",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IP8",
    "display_name": "IP8 - Radar",
    "country": "PT"
@@ -977,8 +1097,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5435143137",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "A 26-1",
@@ -999,8 +1122,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733807634",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "ER 261-5",
@@ -1021,8 +1145,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5435143138",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "ER 261-5",
@@ -1043,8 +1170,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5435143139",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "ER 261-5",
@@ -1065,8 +1195,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733807635",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "ER 261-5",
@@ -1087,8 +1218,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5435143140",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "ER 261-5",
@@ -1109,8 +1243,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733807638",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "ER 261-5",
@@ -1131,8 +1266,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733807639",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "ER 261-5",
@@ -1153,8 +1291,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733807641",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "ER 261-5",
@@ -1175,8 +1314,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5435143141",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "ER 261-5",
@@ -1197,8 +1339,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5733807640",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "ER 261-5",
@@ -1219,11 +1364,15 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12052136321",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD",
+    "VELOCIDAD_PROMEDIO"
+   ],
    "heading_min": 330.0,
    "heading_max": 40.0,
    "road_label": "EN378",
@@ -1239,11 +1388,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13519299654",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "IP2",
    "display_name": "IP2 - Radar de velocidade média",
    "country": "PT"
@@ -1257,11 +1409,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11079061131",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC1",
    "display_name": "IC1 - Radar",
    "country": "PT"
@@ -1275,11 +1430,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13519299656",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "IP2",
    "display_name": "IP2 - Radar de velocidade média",
    "country": "PT"
@@ -1293,11 +1451,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11379847824",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "IC1",
    "display_name": "IC1 - Radar de velocidade média",
    "country": "PT"
@@ -1311,11 +1472,15 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12063695058",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD",
+    "VELOCIDAD_PROMEDIO"
+   ],
    "heading_min": 135.0,
    "heading_max": 205.0,
    "road_label": "EN378",
@@ -1331,11 +1496,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6561635959",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "ER 1-1ª",
    "display_name": "ER 1-1ª - Radar",
    "country": "PT"
@@ -1349,11 +1517,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5764699427",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "ER 1-1ª",
    "display_name": "ER 1-1ª - Radar",
    "country": "PT"
@@ -1367,11 +1538,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11192725978",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN10",
    "display_name": "EN10 - Radar",
    "country": "PT"
@@ -1385,11 +1559,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11379847825",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "IC1",
    "display_name": "IC1 - Radar de velocidade média",
    "country": "PT"
@@ -1403,11 +1580,15 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5250359294",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD",
+    "SEMAFORO"
+   ],
    "road_label": "EN378",
    "display_name": "EN378 - Radar",
    "country": "PT"
@@ -1421,11 +1602,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11206313565",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN252",
    "display_name": "EN252 - Radar",
    "country": "PT"
@@ -1439,11 +1623,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4311743347",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Sul",
    "display_name": "Autoestrada do Sul - Radar",
    "country": "PT"
@@ -1457,11 +1644,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13373002437",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN114",
    "display_name": "EN114 - Radar",
    "country": "PT"
@@ -1475,11 +1665,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4311743348",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Sul",
    "display_name": "Autoestrada do Sul - Radar",
    "country": "PT"
@@ -1493,11 +1686,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13373002438",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN252",
    "display_name": "EN252 - Radar",
    "country": "PT"
@@ -1511,11 +1707,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3972490573",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Via Rápida da Caparica",
    "display_name": "Via Rápida da Caparica - Radar",
    "country": "PT"
@@ -1529,11 +1728,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4311743350",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Via Rápida da Caparica",
    "display_name": "Via Rápida da Caparica - Radar",
    "country": "PT"
@@ -1547,11 +1749,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4311743349",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Via Rápida da Caparica",
    "display_name": "Via Rápida da Caparica - Radar",
    "country": "PT"
@@ -1565,11 +1770,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11074036561",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN5",
    "display_name": "EN5 - Radar",
    "country": "PT"
@@ -1583,11 +1791,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4707352314",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN6",
    "display_name": "EN6 - Radar",
    "country": "PT"
@@ -1601,11 +1812,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12377402087",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "EN4",
    "display_name": "EN4 - Radar de velocidade média",
    "country": "PT"
@@ -1619,11 +1833,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1139053291",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN6",
    "display_name": "EN6 - Radar",
    "country": "PT"
@@ -1637,11 +1854,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4294762312",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida de Brasília",
    "display_name": "Avenida de Brasília - Radar",
    "country": "PT"
@@ -1655,11 +1875,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11223504295",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida de Brasília",
    "display_name": "Avenida de Brasília - Radar",
    "country": "PT"
@@ -1673,11 +1896,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14192170536",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN 6-7",
    "display_name": "EN 6-7 - Radar",
    "country": "PT"
@@ -1691,11 +1917,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4708938654",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN 6-3",
    "display_name": "EN 6-3 - Radar",
    "country": "PT"
@@ -1709,11 +1938,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12377365283",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "EN4",
    "display_name": "EN4 - Radar de velocidade média",
    "country": "PT"
@@ -1727,11 +1959,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4707450772",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN 6-3",
    "display_name": "EN 6-3 - Radar",
    "country": "PT"
@@ -1745,11 +1980,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11223504296",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida das Descobertas",
    "display_name": "Avenida das Descobertas - Radar",
    "country": "PT"
@@ -1763,11 +2001,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9795396942",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida das Descobertas",
    "display_name": "Avenida das Descobertas - Radar",
    "country": "PT"
@@ -1781,11 +2022,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4188736369",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada da Costa do Estoril",
    "display_name": "Autoestrada da Costa do Estoril - Radar",
    "country": "PT"
@@ -1799,11 +2043,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14169617188",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "EN10",
    "display_name": "EN10 - Radar de velocidade média",
    "country": "PT"
@@ -1817,11 +2064,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/205329839",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida de Ceuta",
    "display_name": "Avenida de Ceuta - Radar",
    "country": "PT"
@@ -1835,11 +2085,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4311743370",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada da Costa do Estoril",
    "display_name": "Autoestrada da Costa do Estoril - Radar",
    "country": "PT"
@@ -1853,11 +2106,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11120956806",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "PVG",
    "display_name": "PVG - Radar",
    "country": "PT"
@@ -1871,11 +2127,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4311743369",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada da Costa do Estoril",
    "display_name": "Autoestrada da Costa do Estoril - Radar",
    "country": "PT"
@@ -1889,11 +2148,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/82779644",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IP7",
    "display_name": "IP7 - Radar",
    "country": "PT"
@@ -1907,11 +2169,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11223504297",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida de Ceuta",
    "display_name": "Avenida de Ceuta - Radar",
    "country": "PT"
@@ -1925,11 +2190,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11223504298",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Túnel do Marquês",
    "display_name": "Túnel do Marquês - Radar",
    "country": "PT"
@@ -1943,11 +2211,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3511124952",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada da Costa do Estoril",
    "display_name": "Autoestrada da Costa do Estoril - Radar",
    "country": "PT"
@@ -1961,11 +2232,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11225878598",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN 249-3",
    "display_name": "EN 249-3 - Radar",
    "country": "PT"
@@ -1979,11 +2253,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4311743371",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IP7",
    "display_name": "IP7 - Radar",
    "country": "PT"
@@ -1997,11 +2274,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1120362132",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Miguel Torga",
    "display_name": "Avenida Miguel Torga - Radar",
    "country": "PT"
@@ -2015,11 +2295,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12396071949",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Calouste Gulbenkian",
    "display_name": "Avenida Calouste Gulbenkian - Radar",
    "country": "PT"
@@ -2033,11 +2316,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9799243447",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Infante Dom Henrique",
    "display_name": "Avenida Infante Dom Henrique - Radar",
    "country": "PT"
@@ -2051,11 +2337,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14169617189",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "EN10",
    "display_name": "EN10 - Radar de velocidade média",
    "country": "PT"
@@ -2069,11 +2358,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11983575437",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "PVG",
    "display_name": "PVG - Radar",
    "country": "PT"
@@ -2087,11 +2379,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3506676019",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida General Correia Barreto/Radial de Benfica",
    "display_name": "Avenida General Correia Barreto/Radial de Benfica - Radar",
    "country": "PT"
@@ -2105,11 +2400,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4294758626",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Afonso Costa",
    "display_name": "Avenida Afonso Costa - Radar",
    "country": "PT"
@@ -2123,11 +2421,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4294750863",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida João XXI",
    "display_name": "Avenida João XXI - Radar",
    "country": "PT"
@@ -2141,11 +2442,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11223541078",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 130.0,
    "heading_max": 200.0,
    "road_label": "IC17",
@@ -2161,11 +2465,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14192148391",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC17",
    "display_name": "IC17 - Radar",
    "country": "PT"
@@ -2179,11 +2486,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11221471390",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 295.0,
    "heading_max": 5.0,
    "road_label": "Avenida dos Combatentes",
@@ -2199,11 +2509,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4139225820",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida General Correia Barreto/Radial de Benfica",
    "display_name": "Avenida General Correia Barreto/Radial de Benfica - Radar",
    "country": "PT"
@@ -2217,11 +2530,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13378565233",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida dos Combatentes",
    "display_name": "Avenida dos Combatentes - Radar",
    "country": "PT"
@@ -2235,11 +2551,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13373002439",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC17",
    "display_name": "IC17 - Radar",
    "country": "PT"
@@ -2253,11 +2572,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3506676021",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Eusébio da Silva Ferreira/2ª Circular",
    "display_name": "Avenida Eusébio da Silva Ferreira/2ª Circular - Radar",
    "country": "PT"
@@ -2271,11 +2593,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3998579015",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida da República",
    "display_name": "Avenida da República - Radar",
    "country": "PT"
@@ -2289,11 +2614,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4592386394",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC17",
    "display_name": "IC17 - Radar",
    "country": "PT"
@@ -2307,11 +2635,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5248146180",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC19",
    "display_name": "IC19 - Radar",
    "country": "PT"
@@ -2325,11 +2656,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4294758628",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Marechal António de Spínola",
    "display_name": "Avenida Marechal António de Spínola - Radar",
    "country": "PT"
@@ -2343,11 +2677,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11221471392",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Almirante Gago Coutinho",
    "display_name": "Avenida Almirante Gago Coutinho - Radar",
    "country": "PT"
@@ -2361,11 +2698,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4294758627",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Marechal António de Spínola",
    "display_name": "Avenida Marechal António de Spínola - Radar",
    "country": "PT"
@@ -2379,11 +2719,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11223504299",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Eusébio da Silva Ferreira/2ª Circular",
    "display_name": "Avenida Eusébio da Silva Ferreira/2ª Circular - Radar",
    "country": "PT"
@@ -2397,11 +2740,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5248146181",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC19",
    "display_name": "IC19 - Radar",
    "country": "PT"
@@ -2415,11 +2761,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11221471393",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Lusíada",
    "display_name": "Avenida Lusíada - Radar",
    "country": "PT"
@@ -2433,11 +2782,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11221471394",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Lusíada",
    "display_name": "Avenida Lusíada - Radar",
    "country": "PT"
@@ -2451,11 +2803,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9799243458",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Campo Grande",
    "display_name": "Campo Grande - Radar",
    "country": "PT"
@@ -2469,11 +2824,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11673016898",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "IC19",
    "display_name": "IC19 - Radar de velocidade média",
    "country": "PT"
@@ -2487,11 +2845,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4179250153",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC17",
    "display_name": "IC17 - Radar",
    "country": "PT"
@@ -2505,11 +2866,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4294758629",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Almirante Gago Coutinho",
    "display_name": "Avenida Almirante Gago Coutinho - Radar",
    "country": "PT"
@@ -2523,11 +2887,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4592386393",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC17",
    "display_name": "IC17 - Radar",
    "country": "PT"
@@ -2541,11 +2908,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14192250405",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "IC19",
    "display_name": "IC19 - Radar de velocidade média",
    "country": "PT"
@@ -2559,11 +2929,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11223541079",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC17",
    "display_name": "IC17 - Radar",
    "country": "PT"
@@ -2577,11 +2950,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9769720907",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Marechal Gomes da Costa",
    "display_name": "Avenida Marechal Gomes da Costa - Radar",
    "country": "PT"
@@ -2595,11 +2971,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4294750864",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Marechal Craveiro Lopes/2ª Circular",
    "display_name": "Avenida Marechal Craveiro Lopes/2ª Circular - Radar",
    "country": "PT"
@@ -2613,11 +2992,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9799243431",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Marechal Craveiro Lopes/2ª Circular",
    "display_name": "Avenida Marechal Craveiro Lopes/2ª Circular - Radar",
    "country": "PT"
@@ -2631,11 +3013,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/30909607",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC19",
    "display_name": "IC19 - Radar",
    "country": "PT"
@@ -2649,11 +3034,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11221458630",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rua Doutor Luis Zamenhof",
    "display_name": "Rua Doutor Luis Zamenhof - Radar",
    "country": "PT"
@@ -2667,11 +3055,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10882013447",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Padre Cruz",
    "display_name": "Avenida Padre Cruz - Radar",
    "country": "PT"
@@ -2685,11 +3076,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10882013448",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Padre Cruz",
    "display_name": "Avenida Padre Cruz - Radar",
    "country": "PT"
@@ -2703,11 +3097,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11223504290",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Infante Dom Henrique",
    "display_name": "Avenida Infante Dom Henrique - Radar",
    "country": "PT"
@@ -2721,11 +3118,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13378565235",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Santos e Castro",
    "display_name": "Avenida Santos e Castro - Radar",
    "country": "PT"
@@ -2739,11 +3139,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11223504291",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 175.0,
    "heading_max": 245.0,
    "road_label": "Avenida Santos e Castro",
@@ -2759,11 +3162,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11983575438",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 70.0,
    "heading_max": 140.0,
    "road_label": "PVG",
@@ -2779,11 +3185,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11225878597",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Cidade do Porto/2ª Circular",
    "display_name": "Avenida Cidade do Porto/2ª Circular - Radar",
    "country": "PT"
@@ -2797,11 +3206,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11223504293",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 95.0,
    "heading_max": 165.0,
    "road_label": "Avenida Doutor Alfredo Bensaúde",
@@ -2817,11 +3229,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12109290380",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IP7",
    "display_name": "IP7 - Radar",
    "country": "PT"
@@ -2835,11 +3250,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1559131169",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Cidade do Porto/2ª Circular",
    "display_name": "Avenida Cidade do Porto/2ª Circular - Radar",
    "country": "PT"
@@ -2853,11 +3271,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10132412519",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Cidade do Porto/2ª Circular",
    "display_name": "Avenida Cidade do Porto/2ª Circular - Radar",
    "country": "PT"
@@ -2871,11 +3292,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11206091735",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC17",
    "display_name": "IC17 - Radar",
    "country": "PT"
@@ -2889,11 +3313,15 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/888498553",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD",
+    "SEMAFORO"
+   ],
    "road_label": "Rua de Angola",
    "display_name": "Rua de Angola - Radar",
    "country": "PT"
@@ -2907,11 +3335,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11206091734",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A36",
    "display_name": "A36 - Radar",
    "country": "PT"
@@ -2925,11 +3356,15 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5910039074",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD",
+    "SEMAFORO"
+   ],
    "heading_min": 316.0,
    "heading_max": 26.0,
    "road_label": "Avenida das Acácias",
@@ -2945,11 +3380,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10929719916",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN118",
    "display_name": "EN118 - Radar",
    "country": "PT"
@@ -2963,11 +3401,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11206098637",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "PVG",
    "display_name": "PVG - Radar",
    "country": "PT"
@@ -2981,11 +3422,15 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9802436838",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD",
+    "SEMAFORO"
+   ],
    "road_label": "Avenida das Acácias",
    "display_name": "Avenida das Acácias - Radar",
    "country": "PT"
@@ -2999,11 +3444,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4075779230",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Norte",
    "display_name": "Autoestrada do Norte - Radar",
    "country": "PT"
@@ -3017,11 +3465,15 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4087504678",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD",
+    "SEMAFORO"
+   ],
    "road_label": "EN247",
    "display_name": "EN247 - Radar",
    "country": "PT"
@@ -3035,11 +3487,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11206091736",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC17",
    "display_name": "IC17 - Radar",
    "country": "PT"
@@ -3053,11 +3508,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13370654530",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC17",
    "display_name": "IC17 - Radar",
    "country": "PT"
@@ -3071,11 +3529,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9741707044",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN4",
    "display_name": "EN4 - Radar",
    "country": "PT"
@@ -3089,11 +3550,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4311743375",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Norte",
    "display_name": "Autoestrada do Norte - Radar",
    "country": "PT"
@@ -3107,8 +3571,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13521562964",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 155.0,
    "heading_max": 225.0,
    "road_label": "IC2",
@@ -3129,8 +3594,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13521562963",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "heading_min": 45.0,
    "heading_max": 115.0,
    "road_label": "IC2",
@@ -3151,11 +3617,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11478611651",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN119",
    "display_name": "EN119 - Radar",
    "country": "PT"
@@ -3169,11 +3638,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/26203871",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Oeste",
    "display_name": "Autoestrada do Oeste - Radar",
    "country": "PT"
@@ -3187,11 +3659,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11223541080",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN118",
    "display_name": "EN118 - Radar",
    "country": "PT"
@@ -3205,11 +3680,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12110508494",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN119",
    "display_name": "EN119 - Radar",
    "country": "PT"
@@ -3223,11 +3701,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12572339373",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN10",
    "display_name": "EN10 - Radar",
    "country": "PT"
@@ -3241,11 +3722,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12572339374",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN10",
    "display_name": "EN10 - Radar",
    "country": "PT"
@@ -3259,11 +3743,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11478667734",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN251",
    "display_name": "EN251 - Radar",
    "country": "PT"
@@ -3277,11 +3764,15 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2506911981",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD",
+    "SEMAFORO"
+   ],
    "road_label": "ER243",
    "display_name": "ER243 - Radar",
    "country": "PT"
@@ -3295,11 +3786,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4311238914",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Norte",
    "display_name": "Autoestrada do Norte - Radar",
    "country": "PT"
@@ -3313,11 +3807,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10288048525",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN361",
    "display_name": "EN361 - Radar",
    "country": "PT"
@@ -3331,11 +3828,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1106420873",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN361",
    "display_name": "EN361 - Radar",
    "country": "PT"
@@ -3349,11 +3849,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10279141405",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN361",
    "display_name": "EN361 - Radar",
    "country": "PT"
@@ -3367,11 +3870,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10294008604",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN361",
    "display_name": "EN361 - Radar",
    "country": "PT"
@@ -3385,11 +3891,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10290156051",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN361",
    "display_name": "EN361 - Radar",
    "country": "PT"
@@ -3403,11 +3912,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10290156053",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN361",
    "display_name": "EN361 - Radar",
    "country": "PT"
@@ -3421,11 +3933,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10294008605",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN361",
    "display_name": "EN361 - Radar",
    "country": "PT"
@@ -3439,11 +3954,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6555775939",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN361",
    "display_name": "EN361 - Radar",
    "country": "PT"
@@ -3457,11 +3975,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11136761877",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN114",
    "display_name": "EN114 - Radar",
    "country": "PT"
@@ -3475,11 +3996,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3535131574",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN114",
    "display_name": "EN114 - Radar",
    "country": "PT"
@@ -3493,11 +4017,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4466380112",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida João Fragoso",
    "display_name": "Avenida João Fragoso - Radar",
    "country": "PT"
@@ -3511,11 +4038,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4362830626",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Luís Paiva e Sousa",
    "display_name": "Avenida Luís Paiva e Sousa - Radar",
    "country": "PT"
@@ -3529,11 +4059,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4193721648",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 15.0,
    "heading_max": 85.0,
    "road_label": "Avenida Luís Paiva e Sousa",
@@ -3549,8 +4082,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/682302418",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Infante Dom Henrique",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -3569,8 +4105,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4388458815",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Infante Dom Henrique",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -3589,11 +4128,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4424339362",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rua da Palhagueira",
    "display_name": "Rua da Palhagueira - Radar",
    "country": "PT"
@@ -3607,11 +4149,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4424339364",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rua da Palhagueira",
    "display_name": "Rua da Palhagueira - Radar",
    "country": "PT"
@@ -3625,11 +4170,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11381718381",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC2",
    "display_name": "IC2 - Radar",
    "country": "PT"
@@ -3643,11 +4191,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/687581115",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada da Beira Interior",
    "display_name": "Autoestrada da Beira Interior - Radar",
    "country": "PT"
@@ -3661,8 +4212,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5431539851",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 155.0,
    "heading_max": 225.0,
    "road_label": "EN242",
@@ -3683,8 +4237,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5431539852",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "EN242",
@@ -3705,8 +4262,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5431530822",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN242",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -3725,8 +4285,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5431530821",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN242",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -3745,11 +4308,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6122508451",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN1",
    "display_name": "EN1 - Radar",
    "country": "PT"
@@ -3763,11 +4329,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7228501799",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN 356-1",
    "display_name": "EN 356-1 - Radar",
    "country": "PT"
@@ -3781,11 +4350,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12180187439",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN 356-1",
    "display_name": "EN 356-1 - Radar",
    "country": "PT"
@@ -3799,8 +4371,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6946059527",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "Via de Penetração de Leiria",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -3819,11 +4392,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/316516061",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN242",
    "display_name": "EN242 - Radar",
    "country": "PT"
@@ -3837,11 +4413,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10777008219",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN113",
    "display_name": "EN113 - Radar",
    "country": "PT"
@@ -3855,11 +4434,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1279204939",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN350",
    "display_name": "EN350 - Radar",
    "country": "PT"
@@ -3873,8 +4455,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6946059530",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "A 8-1",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -3893,11 +4476,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/456832690",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN350",
    "display_name": "EN350 - Radar",
    "country": "PT"
@@ -3911,11 +4497,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4560270237",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN350",
    "display_name": "EN350 - Radar",
    "country": "PT"
@@ -3929,11 +4518,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10776980944",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN350",
    "display_name": "EN350 - Radar",
    "country": "PT"
@@ -3947,8 +4539,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6946059544",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "A 8-1",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -3967,11 +4560,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4539425170",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC2",
    "display_name": "IC2 - Radar",
    "country": "PT"
@@ -3985,11 +4581,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13375582777",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC8",
    "display_name": "IC8 - Radar",
    "country": "PT"
@@ -4003,11 +4602,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7202168563",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN 349-1",
    "display_name": "EN 349-1 - Radar",
    "country": "PT"
@@ -4021,11 +4623,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9499437126",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN 349-1",
    "display_name": "EN 349-1 - Radar",
    "country": "PT"
@@ -4039,11 +4644,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7650906671",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC2",
    "display_name": "IC2 - Radar",
    "country": "PT"
@@ -4057,11 +4665,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7650917923",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC2",
    "display_name": "IC2 - Radar",
    "country": "PT"
@@ -4075,11 +4686,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11682129740",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN109",
    "display_name": "EN109 - Radar",
    "country": "PT"
@@ -4093,8 +4707,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12834591646",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "IC8",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -4111,11 +4726,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7241285278",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN109",
    "display_name": "EN109 - Radar",
    "country": "PT"
@@ -4129,11 +4747,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3342420338",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rua do Veirigo",
    "display_name": "Rua do Veirigo - Radar",
    "country": "PT"
@@ -4147,11 +4768,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2002662463",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC2",
    "display_name": "IC2 - Radar",
    "country": "PT"
@@ -4165,11 +4789,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6652110926",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC2",
    "display_name": "IC2 - Radar",
    "country": "PT"
@@ -4183,11 +4810,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12029027258",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC2",
    "display_name": "IC2 - Radar",
    "country": "PT"
@@ -4201,11 +4831,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1577395457",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC3",
    "display_name": "IC3 - Radar",
    "country": "PT"
@@ -4219,11 +4852,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6701068725",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Norte",
    "display_name": "Autoestrada do Norte - Radar",
    "country": "PT"
@@ -4237,11 +4873,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10904565094",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN109",
    "display_name": "EN109 - Radar",
    "country": "PT"
@@ -4255,11 +4894,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10635057610",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC2",
    "display_name": "IC2 - Radar",
    "country": "PT"
@@ -4273,11 +4915,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/976512117",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN17",
    "display_name": "EN17 - Radar",
    "country": "PT"
@@ -4291,11 +4936,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5000268579",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN17",
    "display_name": "EN17 - Radar",
    "country": "PT"
@@ -4309,11 +4957,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12826640109",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN17",
    "display_name": "EN17 - Radar",
    "country": "PT"
@@ -4327,11 +4978,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/249866448",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN17",
    "display_name": "EN17 - Radar",
    "country": "PT"
@@ -4345,11 +4999,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9999811730",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IP3",
    "display_name": "IP3 - Radar",
    "country": "PT"
@@ -4363,11 +5020,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13375593333",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN18",
    "display_name": "EN18 - Radar",
    "country": "PT"
@@ -4381,11 +5041,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12243850289",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Norte",
    "display_name": "Autoestrada do Norte - Radar",
    "country": "PT"
@@ -4399,11 +5062,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13378959657",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN234",
    "display_name": "EN234 - Radar",
    "country": "PT"
@@ -4417,11 +5083,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6701068724",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada das Beiras Litoral e Alta",
    "display_name": "Autoestrada das Beiras Litoral e Alta - Radar",
    "country": "PT"
@@ -4435,11 +5104,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/687148729",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "IC2",
    "display_name": "IC2 - Radar",
    "country": "PT"
@@ -4453,11 +5125,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11565772623",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada das Beiras Litoral e Alta",
    "display_name": "Autoestrada das Beiras Litoral e Alta - Radar",
    "country": "PT"
@@ -4471,11 +5146,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6701068723",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada das Beiras Litoral e Alta",
    "display_name": "Autoestrada das Beiras Litoral e Alta - Radar",
    "country": "PT"
@@ -4489,11 +5167,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6701068722",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada das Beiras Litoral e Alta",
    "display_name": "Autoestrada das Beiras Litoral e Alta - Radar",
    "country": "PT"
@@ -4507,11 +5188,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6182588200",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Cidade de São Filipe",
    "display_name": "Avenida Cidade de São Filipe - Radar",
    "country": "PT"
@@ -4525,8 +5209,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6186148575",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN2",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -4545,8 +5232,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6182588201",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Avenida Cidade de São Filipe",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -4565,11 +5255,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12058076332",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada das Beiras Litoral e Alta",
    "display_name": "Autoestrada das Beiras Litoral e Alta - Radar",
    "country": "PT"
@@ -4583,11 +5276,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11196381123",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 65.0,
    "heading_max": 135.0,
    "road_label": "Autoestrada das Beiras Litoral e Alta",
@@ -4603,11 +5299,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11221458629",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada das Beiras Litoral e Alta",
    "display_name": "Autoestrada das Beiras Litoral e Alta - Radar",
    "country": "PT"
@@ -4621,11 +5320,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/265457180",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada das Beiras Litoral e Alta",
    "display_name": "Autoestrada das Beiras Litoral e Alta - Radar",
    "country": "PT"
@@ -4639,11 +5341,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6567832388",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada das Beiras Litoral e Alta",
    "display_name": "Autoestrada das Beiras Litoral e Alta - Radar",
    "country": "PT"
@@ -4657,11 +5362,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6567821207",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada das Beiras Litoral e Alta",
    "display_name": "Autoestrada das Beiras Litoral e Alta - Radar",
    "country": "PT"
@@ -4675,11 +5383,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11452348598",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 355.0,
    "heading_max": 65.0,
    "road_label": "IC2",
@@ -4695,11 +5406,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11452348597",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 95.0,
    "heading_max": 165.0,
    "road_label": "IC2",
@@ -4715,11 +5429,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6568223301",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN223",
    "display_name": "EN223 - Radar",
    "country": "PT"
@@ -4733,8 +5450,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9624120943",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "CM 1076",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -4751,11 +5469,15 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4029561801",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD",
+    "SEMAFORO"
+   ],
    "road_label": "EM 526",
    "display_name": "EM 526 - Radar",
    "country": "PT"
@@ -4769,11 +5491,15 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4029562016",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD",
+    "SEMAFORO"
+   ],
    "road_label": "EM 526",
    "display_name": "EM 526 - Radar",
    "country": "PT"
@@ -4787,8 +5513,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12043334407",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "Autoestrada da Costa de Prata",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -4807,8 +5536,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13415355038",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "Autoestrada da Costa de Prata",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -4827,11 +5559,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/263908735",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada da Costa de Prata",
    "display_name": "Autoestrada da Costa de Prata - Radar",
    "country": "PT"
@@ -4845,11 +5580,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/263908828",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada da Costa de Prata",
    "display_name": "Autoestrada da Costa de Prata - Radar",
    "country": "PT"
@@ -4863,8 +5601,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12043298468",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "Autoestrada da Costa de Prata",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -4883,8 +5624,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12043313717",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "Autoestrada da Costa de Prata",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -4903,11 +5647,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10904565093",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Norte",
    "display_name": "Autoestrada do Norte - Radar",
    "country": "PT"
@@ -4921,8 +5668,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/269389951",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A20",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -4939,11 +5689,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/25507196",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Norte",
    "display_name": "Autoestrada do Norte - Radar",
    "country": "PT"
@@ -4957,8 +5710,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13415369047",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
    "road_label": "Autoestrada da Costa de Prata",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -4977,11 +5733,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4683840053",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada da Costa de Prata",
    "display_name": "Autoestrada da Costa de Prata - Radar",
    "country": "PT"
@@ -4995,11 +5754,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12184423232",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada da Costa de Prata",
    "display_name": "Autoestrada da Costa de Prata - Radar",
    "country": "PT"
@@ -5013,11 +5775,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12184423233",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada da Costa de Prata",
    "display_name": "Autoestrada da Costa de Prata - Radar",
    "country": "PT"
@@ -5031,11 +5796,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12184423231",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada da Costa de Prata",
    "display_name": "Autoestrada da Costa de Prata - Radar",
    "country": "PT"
@@ -5049,11 +5817,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7899035653",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Interior Norte",
    "display_name": "Autoestrada do Interior Norte - Radar",
    "country": "PT"
@@ -5067,11 +5838,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11196333696",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A44",
    "display_name": "A44 - Radar",
    "country": "PT"
@@ -5085,8 +5859,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7837013760",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "A20",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -5105,11 +5880,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6853971853",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Interior Norte",
    "display_name": "Autoestrada do Interior Norte - Radar",
    "country": "PT"
@@ -5123,11 +5901,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6701048079",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A20",
    "display_name": "A20 - Radar",
    "country": "PT"
@@ -5141,8 +5922,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1346416295",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN222",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -5159,11 +5943,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11056291674",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A20",
    "display_name": "A20 - Radar",
    "country": "PT"
@@ -5177,8 +5964,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1346416293",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN222",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -5195,8 +5985,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7274146099",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Rua de Gonçalo Sampaio",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -5213,11 +6006,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11225878596",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A20",
    "display_name": "A20 - Radar",
    "country": "PT"
@@ -5231,11 +6027,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10132681592",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A43",
    "display_name": "A43 - Radar",
    "country": "PT"
@@ -5249,11 +6048,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11059063744",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A43",
    "display_name": "A43 - Radar",
    "country": "PT"
@@ -5267,11 +6069,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3897692231",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A20",
    "display_name": "A20 - Radar",
    "country": "PT"
@@ -5285,11 +6090,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/26015935",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A20",
    "display_name": "A20 - Radar",
    "country": "PT"
@@ -5303,11 +6111,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6701055023",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A20",
    "display_name": "A20 - Radar",
    "country": "PT"
@@ -5321,11 +6132,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/913164431",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A20",
    "display_name": "A20 - Radar",
    "country": "PT"
@@ -5339,8 +6153,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8466431743",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "Rua da Vilarinha",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -5357,11 +6172,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6701069976",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A20",
    "display_name": "A20 - Radar",
    "country": "PT"
@@ -5375,14 +6193,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8473179734",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "Rua de Vila Nova",
-   "speed_limit_kmh": 20,
-   "speed_limit_source": "OSM_PROPIO",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_status": "REVISAR",
+   "speed_limit_detail": "20 km/h no es creíble en esta vía: se publica como límite desconocido",
    "speed_limit_checked": "2026-10-30",
+   "speed_limit_candidates": [
+    20
+   ],
    "display_name": "Rua de Vila Nova - Câmara de trânsito",
    "country": "PT"
   },
@@ -5395,11 +6215,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6701018175",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada de Entre-Douro-e-Minho",
    "display_name": "Autoestrada de Entre-Douro-e-Minho - Radar",
    "country": "PT"
@@ -5413,11 +6236,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6853934577",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada de Trás-os-Montes e Alto Douro",
    "display_name": "Autoestrada de Trás-os-Montes e Alto Douro - Radar",
    "country": "PT"
@@ -5431,11 +6257,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6701073016",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada de Entre-Douro-e-Minho",
    "display_name": "Autoestrada de Entre-Douro-e-Minho - Radar",
    "country": "PT"
@@ -5449,11 +6278,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3714381772",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada de Entre-Douro-e-Minho",
    "display_name": "Autoestrada de Entre-Douro-e-Minho - Radar",
    "country": "PT"
@@ -5467,11 +6299,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4811539900",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada de Trás-os-Montes e Alto Douro",
    "display_name": "Autoestrada de Trás-os-Montes e Alto Douro - Radar",
    "country": "PT"
@@ -5485,11 +6320,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10904551827",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN14",
    "display_name": "EN14 - Radar",
    "country": "PT"
@@ -5503,11 +6341,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13456659847",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A41",
    "display_name": "A41 - Radar",
    "country": "PT"
@@ -5521,11 +6362,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11389676619",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada de Entre-Douro-e-Minho",
    "display_name": "Autoestrada de Entre-Douro-e-Minho - Radar",
    "country": "PT"
@@ -5539,11 +6383,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1516917421",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada de Entre-Douro-e-Minho",
    "display_name": "Autoestrada de Entre-Douro-e-Minho - Radar",
    "country": "PT"
@@ -5557,11 +6404,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/133226951",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Litoral Norte",
    "display_name": "Autoestrada do Litoral Norte - Radar",
    "country": "PT"
@@ -5575,11 +6425,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11196333699",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN105",
    "display_name": "EN105 - Radar",
    "country": "PT"
@@ -5593,11 +6446,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13362341424",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A7",
    "display_name": "A7 - Radar",
    "country": "PT"
@@ -5611,11 +6467,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13370728376",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A7",
    "display_name": "A7 - Radar",
    "country": "PT"
@@ -5629,11 +6488,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/133226825",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Litoral Norte",
    "display_name": "Autoestrada do Litoral Norte - Radar",
    "country": "PT"
@@ -5647,11 +6509,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5199759902",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "A7",
    "display_name": "A7 - Radar",
    "country": "PT"
@@ -5665,11 +6530,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/262728274",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "heading_min": 215.0,
    "heading_max": 285.0,
    "road_label": "EN101",
@@ -5685,11 +6553,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2684228948",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN206",
    "display_name": "EN206 - Radar",
    "country": "PT"
@@ -5703,11 +6574,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4191550480",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN204",
    "display_name": "EN204 - Radar",
    "country": "PT"
@@ -5721,11 +6595,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3854472067",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Gerês",
    "display_name": "Autoestrada do Gerês - Radar",
    "country": "PT"
@@ -5739,8 +6616,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3547441597",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EM 15",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -5759,11 +6639,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13373049603",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN103",
    "display_name": "EN103 - Radar",
    "country": "PT"
@@ -5777,8 +6660,9 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12367812045",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [],
    "road_label": "Rua Doutor Matos Graça",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -5795,8 +6679,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5173046493",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN101",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -5815,11 +6702,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/433164703",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN2",
    "display_name": "EN2 - Radar",
    "country": "PT"
@@ -5833,8 +6723,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3895341424",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN101",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -5853,8 +6746,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4929212006",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN101",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -5873,11 +6769,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8567983296",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN2",
    "display_name": "EN2 - Radar",
    "country": "PT"
@@ -5891,11 +6790,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3620663016",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN13",
    "display_name": "EN13 - Radar",
    "country": "PT"
@@ -5909,8 +6811,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4698880956",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN13",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -5929,11 +6834,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3826747218",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN2",
    "display_name": "EN2 - Radar",
    "country": "PT"
@@ -5947,11 +6855,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/264337800",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Litoral Norte",
    "display_name": "Autoestrada do Litoral Norte - Radar",
    "country": "PT"
@@ -5965,11 +6876,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4951087394",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Litoral Norte",
    "display_name": "Autoestrada do Litoral Norte - Radar",
    "country": "PT"
@@ -5983,11 +6897,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4951074009",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Litoral Norte",
    "display_name": "Autoestrada do Litoral Norte - Radar",
    "country": "PT"
@@ -6001,11 +6918,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/264340623",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 120,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Vale do Lima",
    "display_name": "Autoestrada do Vale do Lima - Radar",
    "country": "PT"
@@ -6019,8 +6939,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/264337457",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Litoral Norte",
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_PROPIO",
@@ -6039,11 +6962,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/264335241",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Litoral Norte",
    "display_name": "Autoestrada do Litoral Norte - Radar",
    "country": "PT"
@@ -6057,11 +6983,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/264335334",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "Autoestrada do Litoral Norte",
    "display_name": "Autoestrada do Litoral Norte - Radar",
    "country": "PT"
@@ -6075,8 +7004,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3928335805",
-   "source_version": "pt-2026-10-30",
+   "source_version": "pt-2026-10-31",
    "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
    "road_label": "EN13",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_TRAMO_VECINO",
