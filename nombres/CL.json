@@ -3,8 +3,8 @@
  "pais": "CL",
  "moneda": "CLP",
  "resumen": {
-  "oficial": 3,
-  "osm": 135,
+  "oficial": 6,
+  "osm": 132,
   "armado": 113,
   "total": 251,
   "confianza_baja": 0,
@@ -174,8 +174,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CL",
+   "via_visible": "Ruta 5",
    "punto": "Toll Booth Frutillar",
-   "nombre_visible": "Peaje Toll Booth Frutillar",
+   "nombre_visible": "Ruta 5 - Peaje Toll Booth Frutillar",
    "confianza": "alta"
   },
   {
@@ -280,10 +281,11 @@
    "localidad": "Osorno",
    "fuente": "armado",
    "pais": "CL",
-   "via_visible": "Pilauco",
+   "via_visible": "Ruta 5",
    "punto": "Osorno",
-   "nombre_visible": "Pilauco - Peaje Osorno",
-   "confianza": "media"
+   "nombre_visible": "Ruta 5 - Peaje Osorno",
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": -40.413107,
@@ -307,8 +309,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CL",
+   "via_visible": "Ruta 5",
    "punto": "Toll Booth Rio Bueno",
-   "nombre_visible": "Peaje Toll Booth Rio Bueno",
+   "nombre_visible": "Ruta 5 - Peaje Toll Booth Rio Bueno",
    "confianza": "alta"
   },
   {
@@ -693,8 +696,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CL",
+   "via_visible": "Ruta 5",
    "punto": "Lateral Los Ángeles",
-   "nombre_visible": "Peaje Lateral Los Ángeles",
+   "nombre_visible": "Ruta 5 - Peaje Lateral Los Ángeles",
    "confianza": "alta"
   },
   {
@@ -718,8 +722,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CL",
+   "via_visible": "Ruta 5",
    "punto": "Lateral María Dolores",
-   "nombre_visible": "Peaje Lateral María Dolores",
+   "nombre_visible": "Ruta 5 - Peaje Lateral María Dolores",
    "confianza": "alta"
   },
   {
@@ -729,8 +734,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CL",
+   "via_visible": "Ruta 5",
    "punto": "Lateral Rarinco",
-   "nombre_visible": "Peaje Lateral Rarinco",
+   "nombre_visible": "Ruta 5 - Peaje Lateral Rarinco",
    "confianza": "alta"
   },
   {
@@ -768,8 +774,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CL",
+   "via_visible": "Ruta 5",
    "punto": "Lateral Lima",
-   "nombre_visible": "Peaje Lateral Lima",
+   "nombre_visible": "Ruta 5 - Peaje Lateral Lima",
    "confianza": "alta"
   },
   {
@@ -779,8 +786,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CL",
+   "via_visible": "Ruta 5",
    "punto": "Lateral Laja",
-   "nombre_visible": "Peaje Lateral Laja",
+   "nombre_visible": "Ruta 5 - Peaje Lateral Laja",
    "confianza": "alta"
   },
   {
@@ -818,8 +826,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CL",
+   "via_visible": "Ruta 5",
    "punto": "Lateral Cabrero",
-   "nombre_visible": "Peaje Lateral Cabrero",
+   "nombre_visible": "Ruta 5 - Peaje Lateral Cabrero",
    "confianza": "alta"
   },
   {
@@ -892,28 +901,32 @@
   {
    "lat": -36.76932,
    "lon": -73.050699,
-   "nombre": "Peaje Ramal Alessandri",
+   "nombre": "Alessandri (Columna 1)",
    "tipo": "cabina",
-   "via": "Avenida Jorge Alessandri",
-   "fuente": "osm",
+   "via": "Columna 1",
+   "empresa": "CL-RUTA-INTERPORTUARIA",
+   "fuente": "oficial",
    "pais": "CL",
    "via_visible": "Avenida Jorge Alessandri",
-   "punto": "Ramal Alessandri",
-   "nombre_visible": "Avenida Jorge Alessandri - Peaje Ramal Alessandri",
-   "confianza": "alta"
+   "punto": "Alessandri",
+   "nombre_visible": "Avenida Jorge Alessandri - Peaje Alessandri",
+   "confianza": "alta",
+   "plaza": "Alessandri (Columna 1)"
   },
   {
    "lat": -36.75793,
    "lon": -73.011316,
-   "nombre": "Peaje Penco",
+   "nombre": "Penco (Columna 1)",
    "tipo": "cabina",
-   "via": "Ruta Interportuaria",
-   "fuente": "osm",
+   "via": "Columna 1",
+   "empresa": "CL-RUTA-INTERPORTUARIA",
+   "fuente": "oficial",
    "pais": "CL",
    "via_visible": "Ruta Interportuaria",
    "punto": "Penco",
    "nombre_visible": "Ruta Interportuaria - Peaje Penco",
-   "confianza": "alta"
+   "confianza": "alta",
+   "plaza": "Penco (Columna 1)"
   },
   {
    "lat": -36.755814,
@@ -964,15 +977,17 @@
   {
    "lat": -36.732714,
    "lon": -73.088227,
-   "nombre": "Peaje Talcahuano",
+   "nombre": "Colón (Columna 1)",
    "tipo": "cabina",
-   "via": "Ruta Interportuaria",
-   "fuente": "osm",
+   "via": "Columna 1",
+   "empresa": "CL-RUTA-INTERPORTUARIA",
+   "fuente": "oficial",
    "pais": "CL",
    "via_visible": "Ruta Interportuaria",
-   "punto": "Talcahuano",
-   "nombre_visible": "Ruta Interportuaria - Peaje Talcahuano",
-   "confianza": "alta"
+   "punto": "Colón",
+   "nombre_visible": "Ruta Interportuaria - Peaje Colón",
+   "confianza": "alta",
+   "plaza": "Colón (Columna 1)"
   },
   {
    "lat": -36.729203,
@@ -1067,8 +1082,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CL",
+   "via_visible": "Ruta 5",
    "punto": "Salida San Carlos",
-   "nombre_visible": "Peaje Salida San Carlos",
+   "nombre_visible": "Ruta 5 - Peaje Salida San Carlos",
    "confianza": "alta"
   },
   {
@@ -1804,8 +1820,9 @@
    "tipo": "portico",
    "fuente": "osm",
    "pais": "CL",
+   "via_visible": "Autopista Acceso Sur",
    "punto": "Tocornal Poniente",
-   "nombre_visible": "Pórtico TAG Tocornal Poniente",
+   "nombre_visible": "Autopista Acceso Sur - Pórtico TAG Tocornal Poniente",
    "confianza": "alta"
   },
   {
@@ -1873,8 +1890,9 @@
    "tipo": "portico",
    "fuente": "osm",
    "pais": "CL",
+   "via_visible": "Autopista Acceso Sur",
    "punto": "Gabriela Poniente",
-   "nombre_visible": "Pórtico TAG Gabriela Poniente",
+   "nombre_visible": "Autopista Acceso Sur - Pórtico TAG Gabriela Poniente",
    "confianza": "alta"
   },
   {
@@ -2343,9 +2361,9 @@
    "empresa": "ACONCAGUA",
    "fuente": "oficial",
    "pais": "CL",
-   "via_visible": "Cuyo",
+   "via_visible": "Ruta Nacional 7",
    "punto": "La Paz",
-   "nombre_visible": "Cuyo - Peaje La Paz",
+   "nombre_visible": "Ruta Nacional 7 - Peaje La Paz",
    "confianza": "alta",
    "plaza": "La Paz (Cuyo)"
   },
@@ -2442,8 +2460,9 @@
    "tipo": "portico",
    "fuente": "osm",
    "pais": "CL",
+   "via_visible": "Autopista Costanera Norte",
    "punto": "SB Salida Bellavista",
-   "nombre_visible": "Pórtico TAG SB Salida Bellavista",
+   "nombre_visible": "Autopista Costanera Norte - Pórtico TAG SB Salida Bellavista",
    "confianza": "alta"
   },
   {
@@ -2512,9 +2531,9 @@
    "empresa": "SLUIS",
    "fuente": "oficial",
    "pais": "CL",
-   "via_visible": "San Luis",
+   "via_visible": "Autopista de las Serranías Puntanas",
    "punto": "Desaguadero",
-   "nombre_visible": "San Luis - Peaje Desaguadero",
+   "nombre_visible": "Autopista de las Serranías Puntanas - Peaje Desaguadero",
    "confianza": "alta",
    "plaza": "Desaguadero (San Luis)"
   },
@@ -2567,8 +2586,9 @@
    "tipo": "portico",
    "fuente": "osm",
    "pais": "CL",
+   "via_visible": "Avenida Presidente Kennedy",
    "punto": "P8.3 Costanera Norte - Las Tranqueras",
-   "nombre_visible": "Pórtico TAG P8.3 Costanera Norte - Las Tranqueras",
+   "nombre_visible": "Avenida Presidente Kennedy - Pórtico TAG P8.3 Costanera Norte - Las Tranqueras",
    "confianza": "alta"
   },
   {
@@ -2937,8 +2957,9 @@
    "tipo": "portico",
    "fuente": "osm",
    "pais": "CL",
+   "via_visible": "Autopista Nororiente",
    "punto": "61 Lateral",
-   "nombre_visible": "Pórtico TAG 61 Lateral",
+   "nombre_visible": "Autopista Nororiente - Pórtico TAG 61 Lateral",
    "confianza": "alta"
   },
   {
@@ -3279,9 +3300,9 @@
    "empresa": "ACONCAGUA",
    "fuente": "oficial",
    "pais": "CL",
-   "via_visible": "Cuyo",
+   "via_visible": "Carretera Libertador General San Martín",
    "punto": "Las Cuevas",
-   "nombre_visible": "Cuyo - Peaje Las Cuevas",
+   "nombre_visible": "Carretera Libertador General San Martín - Peaje Las Cuevas",
    "confianza": "alta",
    "plaza": "Las Cuevas (Cuyo)"
   },
@@ -3651,6 +3672,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-30T00:50Z",
+ "generado": "2026-10-31T12:45Z",
  "alertas": []
 }
