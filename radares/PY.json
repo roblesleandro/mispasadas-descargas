@@ -1,7 +1,7 @@
 {
- "version": "py-2026-10-31",
+ "version": "py-2026-11-01",
  "pais": "PY",
- "generado": "2026-10-31T13:02:02+00:00",
+ "generado": "2026-11-01T12:55:46+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial (Patrulla Caminera, Municipalidad de Asunción)."
@@ -16,13 +16,13 @@
    "RED_LIGHT_CAMERA": 0,
    "VEHICLE_CAMERA": 2
   },
-  "con_limite": 16,
-  "limite_revisar": 3,
-  "limite_desconocido": 5,
-  "revisados_esta_corrida": 0,
+  "con_limite": 12,
+  "limite_revisar": 7,
+  "limite_desconocido": 9,
+  "revisados_esta_corrida": 8,
   "sin_via": 0,
   "via_completada_esta_corrida": 0,
-  "limites_dudosos_sacados": 3,
+  "limites_dudosos_sacados": 4,
   "por_control": {
    "VELOCIDAD": 19,
    "VELOCIDAD_PROMEDIO": 0,
@@ -32,7 +32,23 @@
    "SENDA": 0,
    "INFRACCIONES": 0
   },
-  "monitoreo": 2
+  "monitoreo": 2,
+  "posicion": {
+   "umbral_m": 15.0,
+   "radio_busqueda_m": 150.0,
+   "ok": 21,
+   "corregidas": 0,
+   "sin_referencia": 0,
+   "de_osm": 21,
+   "corrida_anterior": {
+    "umbral_m": 15.0,
+    "radio_busqueda_m": 150.0,
+    "ok": 21,
+    "corregidas": 0,
+    "sin_referencia": 0,
+    "de_osm": 21
+   }
+  }
  },
  "alertas": [],
  "radars": [
@@ -45,18 +61,23 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12539046008",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12539046008"
+   },
    "road_label": "Ruta Nacional Juan León Mallorquín",
    "speed_limit_status": "REVISAR",
    "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
-   "speed_limit_checked": "2026-10-29",
    "speed_limit_candidates": [
     40
    ],
+   "speed_limit_checked": "2026-10-29",
    "display_name": "Ruta Nacional Juan León Mallorquín - Radar",
    "country": "PY"
   },
@@ -69,11 +90,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12539064363",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12539064363"
+   },
    "road_label": "Ruta Nacional Blás Garay",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
@@ -92,11 +118,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13038236260",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13038236260"
+   },
    "road_label": "Ruta Nacional Juan León Mallorquín",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -113,11 +144,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12539043291",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12539043291"
+   },
    "road_label": "Ruta Nacional PY07",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -136,11 +172,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12102956319",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12102956319"
+   },
    "road_label": "Ruta Nacional Las Residentas",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -157,7 +198,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11085765864",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -167,6 +208,11 @@
    ],
    "heading_min": 40.0,
    "heading_max": 110.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11085765864"
+   },
    "road_label": "Ruta Nacional Mariscal Estigarribia",
    "display_name": "Ruta Nacional Mariscal Estigarribia - Radar",
    "country": "PY"
@@ -180,18 +226,23 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12539043068",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12539043068"
+   },
    "road_label": "Ruta Nacional Mariscal López (Acceso Sur)",
    "speed_limit_status": "REVISAR",
    "speed_limit_detail": "20 km/h no es creíble en esta vía: se publica como límite desconocido",
-   "speed_limit_checked": "2026-10-29",
    "speed_limit_candidates": [
     20
    ],
+   "speed_limit_checked": "2026-10-29",
    "display_name": "Ruta Nacional Mariscal López (Acceso Sur) - Radar",
    "country": "PY"
   },
@@ -204,7 +255,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11076036715",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -214,7 +265,15 @@
    ],
    "heading_min": 55.0,
    "heading_max": 125.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11076036715"
+   },
    "road_label": "Ruta Nacional Mariscal Estigarribia",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "Ruta Nacional Mariscal Estigarribia - Radar",
    "country": "PY"
   },
@@ -227,7 +286,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11092019672",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -237,6 +296,11 @@
    ],
    "heading_min": 115.0,
    "heading_max": 185.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11092019672"
+   },
    "road_label": "Av. Paraná",
    "display_name": "Av. Paraná - Radar",
    "country": "PY"
@@ -250,7 +314,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10746736376",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -260,6 +324,11 @@
    ],
    "heading_min": 280.0,
    "heading_max": 350.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10746736376"
+   },
    "road_label": "Av. Paraná",
    "display_name": "Av. Paraná - Radar",
    "country": "PY"
@@ -273,17 +342,27 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10744881061",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_kmh": 60,
-   "speed_limit_source": "OSM_ETIQUETA",
-   "speed_limit_status": "VALIDO",
+   "speed_limit_status": "REVISAR",
    "controls": [
     "VELOCIDAD"
    ],
    "heading_min": 65.0,
    "heading_max": 135.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10744881061"
+   },
    "road_label": "Ruta Nacional Mariscal Estigarribia",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 110,
+   "speed_limit_road_class": "trunk",
+   "speed_limit_candidates": [
+    60
+   ],
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "display_name": "Ruta Nacional Mariscal Estigarribia - Radar",
    "country": "PY"
   },
@@ -296,17 +375,27 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11002046397",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_kmh": 60,
-   "speed_limit_source": "OSM_ETIQUETA",
-   "speed_limit_status": "VALIDO",
+   "speed_limit_status": "REVISAR",
    "controls": [
     "VELOCIDAD"
    ],
    "heading_min": 70.0,
    "heading_max": 140.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11002046397"
+   },
    "road_label": "Ruta Nacional Mariscal Estigarribia",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 110,
+   "speed_limit_road_class": "trunk",
+   "speed_limit_candidates": [
+    60
+   ],
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "display_name": "Ruta Nacional Mariscal Estigarribia - Radar",
    "country": "PY"
   },
@@ -319,17 +408,27 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12468718618",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_kmh": 60,
-   "speed_limit_source": "OSM_ETIQUETA",
-   "speed_limit_status": "VALIDO",
+   "speed_limit_status": "REVISAR",
    "controls": [
     "VELOCIDAD"
    ],
    "heading_min": 70.0,
    "heading_max": 140.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12468718618"
+   },
    "road_label": "Ruta Nacional Mariscal Estigarribia",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 110,
+   "speed_limit_road_class": "trunk",
+   "speed_limit_candidates": [
+    60
+   ],
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "display_name": "Ruta Nacional Mariscal Estigarribia - Radar",
    "country": "PY"
   },
@@ -342,7 +441,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11002105146",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -352,7 +451,14 @@
    ],
    "heading_min": 60.0,
    "heading_max": 130.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11002105146"
+   },
    "road_label": "Ruta Nacional Mariscal Estigarribia",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
    "display_name": "Ruta Nacional Mariscal Estigarribia - Radar",
    "country": "PY"
   },
@@ -365,7 +471,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13663110271",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -375,6 +481,11 @@
    ],
    "heading_min": 215.0,
    "heading_max": 285.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13663110271"
+   },
    "road_label": "Supercarretera Itaipú",
    "display_name": "Supercarretera Itaipú - Radar",
    "country": "PY"
@@ -388,7 +499,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13663110272",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -398,6 +509,11 @@
    ],
    "heading_min": 345.0,
    "heading_max": 55.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13663110272"
+   },
    "road_label": "Supercarretera Itaipú",
    "display_name": "Supercarretera Itaipú - Radar",
    "country": "PY"
@@ -411,7 +527,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11085765866",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -421,7 +537,15 @@
    ],
    "heading_min": 175.0,
    "heading_max": 245.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11085765866"
+   },
    "road_label": "Ruta Nacional Mariscal Estigarribia",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "Ruta Nacional Mariscal Estigarribia - Radar",
    "country": "PY"
   },
@@ -434,7 +558,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11085765865",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -444,7 +568,15 @@
    ],
    "heading_min": 45.0,
    "heading_max": 115.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11085765865"
+   },
    "road_label": "Ruta Nacional Mariscal Estigarribia",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "Ruta Nacional Mariscal Estigarribia - Radar",
    "country": "PY"
   },
@@ -457,17 +589,27 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11002105155",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_kmh": 50,
-   "speed_limit_source": "OSM_ETIQUETA",
-   "speed_limit_status": "VALIDO",
+   "speed_limit_status": "REVISAR",
    "controls": [
     "VELOCIDAD"
    ],
    "heading_min": 235.0,
    "heading_max": 305.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11002105155"
+   },
    "road_label": "Ruta Nacional Mariscal Estigarribia",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 110,
+   "speed_limit_road_class": "trunk",
+   "speed_limit_candidates": [
+    50
+   ],
+   "speed_limit_detail": "50 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "display_name": "Ruta Nacional Mariscal Estigarribia - Radar",
    "country": "PY"
   },
@@ -480,11 +622,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9925887343",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "controls": [],
    "heading_min": 70.0,
    "heading_max": 140.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/9925887343"
+   },
    "road_label": "Austria",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -503,16 +650,21 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10054745781",
-   "source_version": "py-2026-10-31",
+   "source_version": "py-2026-11-01",
    "confidence_score": 50,
    "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10054745781"
+   },
    "road_label": "Avenida España",
    "speed_limit_status": "REVISAR",
    "speed_limit_detail": "20 km/h no es creíble en esta vía: se publica como límite desconocido",
-   "speed_limit_checked": "2026-10-29",
    "speed_limit_candidates": [
     20
    ],
+   "speed_limit_checked": "2026-10-29",
    "display_name": "Avenida España - Cámara de tránsito",
    "country": "PY"
   }
