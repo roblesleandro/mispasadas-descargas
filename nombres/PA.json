@@ -8,7 +8,19 @@
   "armado": 24,
   "total": 25,
   "confianza_baja": 0,
-  "excluidas": 0
+  "excluidas": 0,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 8,
+   "corregidas": 17,
+   "sin_referencia": 0,
+   "corrida_anterior": {
+    "ok": 8,
+    "a_mas_de_15_m": 17,
+    "sin_referencia": 0,
+    "total": 25
+   }
+  }
  },
  "estaciones": [
   {
@@ -20,6 +32,19 @@
    "ref": "40",
    "localidad": "Alto Caballero",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 8.277497,
+     "lon": -81.666656,
+     "n": 1,
+     "rumbo": 206,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PA",
    "via_visible": "Ruta 40",
    "punto": "Alto Caballero",
@@ -33,6 +58,18 @@
    "tipo": "cabina",
    "via": "Paseo María",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 8.643921,
+     "lon": -80.019576,
+     "n": 1,
+     "rumbo": 205
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PA",
    "via_visible": "Paseo María",
    "punto": "Garita de Seguridad Altos del Maria",
@@ -48,6 +85,17 @@
    "ref": "4",
    "localidad": "La Chorrera",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 8.895215,
+     "lon": -79.749894,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PA",
    "via_visible": "Autopista Arraiján - La Chorrera",
    "punto": "La Chorrera",
@@ -63,6 +111,17 @@
    "ref": "6",
    "localidad": "Panamá",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 8.965194,
+     "lon": -79.553947,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PA",
    "via_visible": "Corredor Norte",
    "punto": "Panamá",
@@ -71,14 +130,48 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 8.97975,
-   "lon": -79.540952,
+   "lat": 8.979759,
+   "lon": -79.542405,
    "nombre": "Peaje Corredor Norte (6)",
    "tipo": "cabina",
    "via": "Corredor Norte",
    "ref": "6",
    "localidad": "Panamá",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 8.979562,
+     "lon": -79.53951,
+     "n": 1,
+     "rumbo": 114
+    },
+    {
+     "lat": 8.979759,
+     "lon": -79.542405,
+     "n": 1,
+     "rumbo": 53
+    },
+    {
+     "lat": 8.979769,
+     "lon": -79.539397,
+     "n": 1,
+     "rumbo": 315
+    },
+    {
+     "lat": 8.979908,
+     "lon": -79.542497,
+     "n": 1,
+     "rumbo": 238
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 160,
+    "centro_plaza": [
+     8.97975,
+     -79.540952
+    ]
+   },
    "pais": "PA",
    "via_visible": "Corredor Norte",
    "punto": "Panamá",
@@ -87,13 +180,36 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 8.980645,
-   "lon": -79.508249,
+   "lat": 8.981116,
+   "lon": -79.508348,
    "nombre": "Peaje Calle Coronado",
    "tipo": "cabina",
    "via": "Calle Coronado",
    "localidad": "Panamá",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 8.980173,
+     "lon": -79.508149,
+     "n": 1,
+     "rumbo": 106
+    },
+    {
+     "lat": 8.981116,
+     "lon": -79.508348,
+     "n": 1,
+     "rumbo": 56,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 53,
+    "centro_plaza": [
+     8.980645,
+     -79.508249
+    ]
+   },
    "pais": "PA",
    "via_visible": "Calle Coronado",
    "punto": "Panamá",
@@ -101,13 +217,47 @@
    "confianza": "media"
   },
   {
-   "lat": 8.987612,
-   "lon": -79.499212,
+   "lat": 8.986769,
+   "lon": -79.499556,
    "nombre": "Peaje Corredor Sur",
    "tipo": "cabina",
    "via": "Corredor Sur",
    "localidad": "Panamá",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 8.986755,
+     "lon": -79.500566,
+     "n": 1,
+     "rumbo": 217
+    },
+    {
+     "lat": 8.986769,
+     "lon": -79.499556,
+     "n": 2,
+     "rumbo": 50
+    },
+    {
+     "lat": 8.987119,
+     "lon": -79.499869,
+     "n": 1,
+     "rumbo": 222
+    },
+    {
+     "lat": 8.990649,
+     "lon": -79.496513,
+     "n": 1,
+     "rumbo": 221
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 90,
+    "centro_plaza": [
+     8.987612,
+     -79.499212
+    ]
+   },
    "pais": "PA",
    "via_visible": "Corredor Sur",
    "punto": "Panamá",
@@ -123,6 +273,18 @@
    "via": "Corredor Sur",
    "localidad": "Panamá",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 8.990901,
+     "lon": -79.495758,
+     "n": 1,
+     "rumbo": 37
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PA",
    "via_visible": "Corredor Sur",
    "punto": "Panamá",
@@ -131,14 +293,48 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 8.993657,
-   "lon": -79.540979,
+   "lat": 8.993717,
+   "lon": -79.540398,
    "nombre": "Peaje Corredor Norte (6) (4)",
    "tipo": "cabina",
    "via": "Corredor Norte",
    "ref": "6",
    "localidad": "Panamá",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 8.992156,
+     "lon": -79.541095,
+     "n": 1,
+     "rumbo": 177
+    },
+    {
+     "lat": 8.992166,
+     "lon": -79.541011,
+     "n": 1,
+     "rumbo": 358
+    },
+    {
+     "lat": 8.993717,
+     "lon": -79.540398,
+     "n": 1,
+     "rumbo": 341
+    },
+    {
+     "lat": 8.99659,
+     "lon": -79.541414,
+     "n": 1,
+     "rumbo": 312
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 64,
+    "centro_plaza": [
+     8.993657,
+     -79.540979
+    ]
+   },
    "pais": "PA",
    "via_visible": "Corredor Norte",
    "punto": "Panamá",
@@ -147,14 +343,42 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 9.004978,
-   "lon": -79.541858,
+   "lat": 9.005043,
+   "lon": -79.542252,
    "nombre": "Peaje Corredor Norte (6) (3)",
    "tipo": "cabina",
    "via": "Corredor Norte",
    "ref": "6",
    "localidad": "Panamá",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.004856,
+     "lon": -79.540999,
+     "n": 1,
+     "rumbo": 0
+    },
+    {
+     "lat": 9.005034,
+     "lon": -79.542323,
+     "n": 1,
+     "rumbo": 171
+    },
+    {
+     "lat": 9.005043,
+     "lon": -79.542252,
+     "n": 1,
+     "rumbo": 352
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 44,
+    "centro_plaza": [
+     9.004978,
+     -79.541858
+    ]
+   },
    "pais": "PA",
    "via_visible": "Corredor Norte",
    "punto": "Panamá",
@@ -163,13 +387,35 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 9.011006,
-   "lon": -79.477475,
+   "lat": 9.012321,
+   "lon": -79.477196,
    "nombre": "Peaje Corredor Sur (2)",
    "tipo": "cabina",
    "via": "Corredor Sur",
    "localidad": "San Antonio",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.009691,
+     "lon": -79.477755,
+     "n": 1,
+     "rumbo": 304
+    },
+    {
+     "lat": 9.012321,
+     "lon": -79.477196,
+     "n": 1,
+     "rumbo": 210
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 149,
+    "centro_plaza": [
+     9.011006,
+     -79.477475
+    ]
+   },
    "pais": "PA",
    "via_visible": "Corredor Sur",
    "punto": "San Antonio",
@@ -178,7 +424,7 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 9.011431,
+   "lat": 9.010775,
    "lon": -79.543096,
    "nombre": "Peaje Corredor Norte (6) (6)",
    "tipo": "cabina",
@@ -186,6 +432,28 @@
    "ref": "6",
    "localidad": "Panamá",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.010775,
+     "lon": -79.543096,
+     "n": 1,
+     "rumbo": 111
+    },
+    {
+     "lat": 9.012087,
+     "lon": -79.543095,
+     "n": 1,
+     "rumbo": 341
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 73,
+    "centro_plaza": [
+     9.011431,
+     -79.543096
+    ]
+   },
    "pais": "PA",
    "via_visible": "Corredor Norte",
    "punto": "Panamá",
@@ -194,13 +462,35 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 9.026249,
-   "lon": -79.46584,
+   "lat": 9.025866,
+   "lon": -79.465649,
    "nombre": "Peaje Corredor Sur (4)",
    "tipo": "cabina",
    "via": "Corredor Sur",
    "localidad": "San Antonio",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.025866,
+     "lon": -79.465649,
+     "n": 1,
+     "rumbo": 50
+    },
+    {
+     "lat": 9.026632,
+     "lon": -79.466032,
+     "n": 1,
+     "rumbo": 262
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 47,
+    "centro_plaza": [
+     9.026249,
+     -79.46584
+    ]
+   },
    "pais": "PA",
    "via_visible": "Corredor Sur",
    "punto": "San Antonio",
@@ -209,14 +499,66 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 9.036092,
-   "lon": -79.535183,
+   "lat": 9.034655,
+   "lon": -79.536018,
    "nombre": "Peaje Corredor Norte (6) (2)",
    "tipo": "cabina",
    "via": "Corredor Norte",
    "ref": "6",
    "localidad": "Valle de San Francisco",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.032319,
+     "lon": -79.535889,
+     "n": 1,
+     "rumbo": 93
+    },
+    {
+     "lat": 9.032587,
+     "lon": -79.537637,
+     "n": 1,
+     "rumbo": 130
+    },
+    {
+     "lat": 9.033655,
+     "lon": -79.535554,
+     "n": 1,
+     "rumbo": 174
+    },
+    {
+     "lat": 9.034655,
+     "lon": -79.536018,
+     "n": 2,
+     "rumbo": 165
+    },
+    {
+     "lat": 9.036811,
+     "lon": -79.534358,
+     "n": 1,
+     "rumbo": 209
+    },
+    {
+     "lat": 9.039963,
+     "lon": -79.53379,
+     "n": 1,
+     "rumbo": 129
+    },
+    {
+     "lat": 9.04009,
+     "lon": -79.533693,
+     "n": 2,
+     "rumbo": 298
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 121,
+    "centro_plaza": [
+     9.036092,
+     -79.535183
+    ]
+   },
    "pais": "PA",
    "via_visible": "Corredor Norte",
    "punto": "Valle de San Francisco",
@@ -225,13 +567,47 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 9.036967,
-   "lon": -79.422317,
+   "lat": 9.037032,
+   "lon": -79.422515,
    "nombre": "Peaje Corredor Sur (5)",
    "tipo": "cabina",
    "via": "Corredor Sur",
    "localidad": "San Antonio",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.035884,
+     "lon": -79.422077,
+     "n": 1,
+     "rumbo": 143
+    },
+    {
+     "lat": 9.036834,
+     "lon": -79.42248,
+     "n": 1,
+     "rumbo": 79
+    },
+    {
+     "lat": 9.037032,
+     "lon": -79.422515,
+     "n": 1,
+     "rumbo": 259
+    },
+    {
+     "lat": 9.03812,
+     "lon": -79.422196,
+     "n": 1,
+     "rumbo": 211
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 23,
+    "centro_plaza": [
+     9.036967,
+     -79.422317
+    ]
+   },
    "pais": "PA",
    "via_visible": "Corredor Sur",
    "punto": "San Antonio",
@@ -240,14 +616,36 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 9.048596,
-   "lon": -79.528441,
+   "lat": 9.048657,
+   "lon": -79.528563,
    "nombre": "Peaje Corredor Norte (6) (8)",
    "tipo": "cabina",
    "via": "Corredor Norte",
    "ref": "6",
    "localidad": "Valle de San Francisco",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.048534,
+     "lon": -79.528318,
+     "n": 1,
+     "rumbo": 27
+    },
+    {
+     "lat": 9.048657,
+     "lon": -79.528563,
+     "n": 1,
+     "rumbo": 206
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 15,
+    "centro_plaza": [
+     9.048596,
+     -79.528441
+    ]
+   },
    "pais": "PA",
    "via_visible": "Corredor Norte",
    "punto": "Valle de San Francisco",
@@ -256,14 +654,48 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 9.059483,
-   "lon": -79.509565,
+   "lat": 9.059711,
+   "lon": -79.510582,
    "nombre": "Peaje Corredor Norte (6) (5)",
    "tipo": "cabina",
    "via": "Corredor Norte",
    "ref": "6",
    "localidad": "Las Lajas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.057711,
+     "lon": -79.511285,
+     "n": 1,
+     "rumbo": 231
+    },
+    {
+     "lat": 9.059711,
+     "lon": -79.510582,
+     "n": 1,
+     "rumbo": 37
+    },
+    {
+     "lat": 9.06005,
+     "lon": -79.507663,
+     "n": 1,
+     "rumbo": 81
+    },
+    {
+     "lat": 9.060462,
+     "lon": -79.508732,
+     "n": 1,
+     "rumbo": 299
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 115,
+    "centro_plaza": [
+     9.059483,
+     -79.509565
+    ]
+   },
    "pais": "PA",
    "via_visible": "Corredor Norte",
    "punto": "Las Lajas",
@@ -271,13 +703,35 @@
    "confianza": "media"
   },
   {
-   "lat": 9.07214,
-   "lon": -79.479658,
+   "lat": 9.072986,
+   "lon": -79.480198,
    "nombre": "Peaje Avenida Rafael E. Alemán",
    "tipo": "cabina",
    "via": "Avenida Rafael E. Alemán",
    "localidad": "San Antonio",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.071293,
+     "lon": -79.479118,
+     "n": 1,
+     "rumbo": 141
+    },
+    {
+     "lat": 9.072986,
+     "lon": -79.480198,
+     "n": 1,
+     "rumbo": 323
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 111,
+    "centro_plaza": [
+     9.07214,
+     -79.479658
+    ]
+   },
    "pais": "PA",
    "via_visible": "Avenida Rafael E. Alemán",
    "punto": "San Antonio",
@@ -285,13 +739,47 @@
    "confianza": "media"
   },
   {
-   "lat": 9.079744,
-   "lon": -79.461959,
+   "lat": 9.082373,
+   "lon": -79.461758,
    "nombre": "Peaje Avenida Manuel Fernando Zárate",
    "tipo": "cabina",
    "via": "Avenida Manuel Fernando Zárate",
    "localidad": "San Antonio",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.076507,
+     "lon": -79.462866,
+     "n": 1,
+     "rumbo": 177
+    },
+    {
+     "lat": 9.076516,
+     "lon": -79.462536,
+     "n": 1,
+     "rumbo": 357
+    },
+    {
+     "lat": 9.08095,
+     "lon": -79.46088,
+     "n": 1,
+     "rumbo": 140
+    },
+    {
+     "lat": 9.082373,
+     "lon": -79.461758,
+     "n": 2,
+     "rumbo": 298
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 178,
+    "centro_plaza": [
+     9.079744,
+     -79.461959
+    ]
+   },
    "pais": "PA",
    "via_visible": "Avenida Manuel Fernando Zárate",
    "punto": "San Antonio",
@@ -307,6 +795,24 @@
    "ref": "6",
    "localidad": "Pedregal",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.085544,
+     "lon": -79.44294,
+     "n": 1,
+     "rumbo": 39
+    },
+    {
+     "lat": 9.085579,
+     "lon": -79.442983,
+     "n": 1,
+     "rumbo": 216
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.0
+   },
    "pais": "PA",
    "via_visible": "Corredor Norte",
    "punto": "Pedregal",
@@ -314,14 +820,36 @@
    "confianza": "media"
   },
   {
-   "lat": 9.090822,
-   "lon": -79.43211,
+   "lat": 9.090424,
+   "lon": -79.432204,
    "nombre": "Pórtico Corredor Norte (6)",
    "tipo": "portico",
    "via": "Corredor Norte",
    "ref": "6",
    "localidad": "Pedregal",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.090424,
+     "lon": -79.432204,
+     "n": 1,
+     "rumbo": 115
+    },
+    {
+     "lat": 9.09122,
+     "lon": -79.432015,
+     "n": 1,
+     "rumbo": 256
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 45,
+    "centro_plaza": [
+     9.090822,
+     -79.43211
+    ]
+   },
    "pais": "PA",
    "via_visible": "Corredor Norte",
    "punto": "Pedregal",
@@ -337,6 +865,24 @@
    "ref": "6",
    "localidad": "Las Mañanitas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.101969,
+     "lon": -79.393264,
+     "n": 1,
+     "rumbo": 144
+    },
+    {
+     "lat": 9.102032,
+     "lon": -79.393174,
+     "n": 1,
+     "rumbo": 322
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.0
+   },
    "pais": "PA",
    "via_visible": "Corredor Norte",
    "punto": "Las Mañanitas",
@@ -344,14 +890,36 @@
    "confianza": "media"
   },
   {
-   "lat": 9.263033,
-   "lon": -79.700274,
+   "lat": 9.263159,
+   "lon": -79.700195,
    "nombre": "Peaje Autopista Panamá–Colón (9)",
    "tipo": "cabina",
    "via": "Autopista Panamá–Colón",
    "ref": "9",
    "localidad": "Buena Vista",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.262907,
+     "lon": -79.700353,
+     "n": 1,
+     "rumbo": 123
+    },
+    {
+     "lat": 9.263159,
+     "lon": -79.700195,
+     "n": 1,
+     "rumbo": 303
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 16,
+    "centro_plaza": [
+     9.263033,
+     -79.700274
+    ]
+   },
    "pais": "PA",
    "via_visible": "Autopista Panamá–Colón",
    "punto": "Buena Vista",
@@ -366,6 +934,17 @@
    "via": "Vía Nusagandi",
    "localidad": "El Llano",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.293278,
+     "lon": -78.981914,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PA",
    "via_visible": "Vía Nusagandi",
    "punto": "El Llano",
@@ -373,14 +952,36 @@
    "confianza": "media"
   },
   {
-   "lat": 9.318925,
-   "lon": -79.801395,
+   "lat": 9.318887,
+   "lon": -79.801064,
    "nombre": "Peaje Autopista Panamá–Colón (9) (2)",
    "tipo": "cabina",
    "via": "Autopista Panamá–Colón",
    "ref": "9",
    "localidad": "Nueva Italia",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.318887,
+     "lon": -79.801064,
+     "n": 1,
+     "rumbo": 345
+    },
+    {
+     "lat": 9.318963,
+     "lon": -79.801726,
+     "n": 1,
+     "rumbo": 165
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 37,
+    "centro_plaza": [
+     9.318925,
+     -79.801395
+    ]
+   },
    "pais": "PA",
    "via_visible": "Autopista Panamá–Colón",
    "punto": "Nueva Italia",
@@ -389,6 +990,10 @@
   }
  ],
  "excluidas": [],
+<<<<<<< HEAD
  "generado": "2026-10-29T22:23Z",
+=======
+ "generado": "2026-11-01T15:59Z",
+>>>>>>> 629ebbc (Nombres de estaciones (PA) actualizados automáticamente)
  "alertas": []
 }
