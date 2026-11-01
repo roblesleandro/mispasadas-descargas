@@ -1,7 +1,7 @@
 {
- "version": "tt-2026-10-31",
+ "version": "tt-2026-11-01",
  "pais": "TT",
- "generado": "2026-10-31T13:43:58+00:00",
+ "generado": "2026-11-01T14:03:06+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial con ubicaciones."
@@ -32,7 +32,23 @@
    "SENDA": 0,
    "INFRACCIONES": 0
   },
-  "monitoreo": 3
+  "monitoreo": 3,
+  "posicion": {
+   "umbral_m": 15.0,
+   "radio_busqueda_m": 150.0,
+   "ok": 4,
+   "corregidas": 0,
+   "sin_referencia": 0,
+   "de_osm": 4,
+   "corrida_anterior": {
+    "umbral_m": 15.0,
+    "radio_busqueda_m": 150.0,
+    "ok": 4,
+    "corregidas": 0,
+    "sin_referencia": 0,
+    "de_osm": 4
+   }
+  }
  },
  "alertas": [],
  "radars": [
@@ -45,7 +61,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7177668106",
-   "source_version": "tt-2026-10-31",
+   "source_version": "tt-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -53,6 +69,11 @@
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/7177668106"
+   },
    "road_label": "Uriah Butler Highway",
    "display_name": "Uriah Butler Highway - Speed camera",
    "country": "TT"
@@ -66,9 +87,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7616397425",
-   "source_version": "tt-2026-10-31",
+   "source_version": "tt-2026-11-01",
    "confidence_score": 50,
    "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/7616397425"
+   },
    "road_label": "Valsayn Branch Road",
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_PROPIO",
@@ -87,11 +113,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6594322617",
-   "source_version": "tt-2026-10-31",
+   "source_version": "tt-2026-11-01",
    "confidence_score": 50,
    "controls": [],
    "heading_min": 145.0,
    "heading_max": 215.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/6594322617"
+   },
    "road_label": "Carlos Street",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -108,11 +139,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6575795185",
-   "source_version": "tt-2026-10-31",
+   "source_version": "tt-2026-11-01",
    "confidence_score": 50,
    "controls": [],
    "heading_min": 145.0,
    "heading_max": 215.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/6575795185"
+   },
    "road_label": "Cocorite Terrace",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
