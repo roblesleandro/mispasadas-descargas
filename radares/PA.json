@@ -1,7 +1,7 @@
 {
  "version": "pa-2026-11-01",
  "pais": "PA",
- "generado": "2026-11-01T13:29:19+00:00",
+ "generado": "2026-11-01T15:45:38+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "ATTT – Foto Multa (Indra): sin listado de ubicaciones."
@@ -19,7 +19,7 @@
   "con_limite": 13,
   "limite_revisar": 1,
   "limite_desconocido": 1,
-  "revisados_esta_corrida": 1,
+  "revisados_esta_corrida": 0,
   "sin_via": 0,
   "via_completada_esta_corrida": 0,
   "limites_dudosos_sacados": 0,
@@ -301,8 +301,8 @@
    },
    "road_label": "Autopista Arraiján - La Chorrera",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista Arraiján - La Chorrera - Radar",
    "country": "PA"
   },
