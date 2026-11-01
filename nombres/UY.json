@@ -26,8 +26,11 @@
   {
    "lat": -34.83952,
    "lon": -56.014056,
-   "nombre": "Peaje cerca de General Liber Seregni",
+   "nombre": "Peaje Ruta 101 Capitán Juan Antonio Artigas km 19",
    "tipo": "cabina",
+   "via": "Ruta 101 Capitán Juan Antonio Artigas",
+   "ref": "101",
+   "km": "19",
    "localidad": "General Liber Seregni",
    "fuente": "armado",
    "cabinas": [
@@ -49,8 +52,9 @@
     "distancia_m": 6.9
    },
    "pais": "UY",
+   "via_visible": "Ruta 101",
    "punto": "General Liber Seregni",
-   "nombre_visible": "Peaje General Liber Seregni",
+   "nombre_visible": "Ruta 101 - Peaje General Liber Seregni",
    "confianza": "media"
   },
   {
@@ -278,8 +282,8 @@
    "plaza": "Garzón (Ruta 9)"
   },
   {
-   "lat": -34.443283,
-   "lon": -56.421472,
+   "lat": -34.443338,
+   "lon": -56.421479,
    "nombre": "Santa Lucía (Ruta 11)",
    "tipo": "cabina",
    "via": "Uruguay",
@@ -288,7 +292,6 @@
    "fuente": "oficial",
    "cabinas": [
     {
-<<<<<<< HEAD
      "lat": -34.443384,
      "lon": -56.421485,
      "n": 2,
@@ -299,22 +302,11 @@
      "lon": -56.421472,
      "n": 2,
      "rumbo": 280
-=======
-     "lat": -34.443283,
-     "lon": -56.421472,
-     "n": 1,
-     "rumbo": 99,
-     "doble": true
->>>>>>> 58f8f22 (Nombres de estaciones (UY) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
-<<<<<<< HEAD
     "distancia_m": 5.0
-=======
-    "distancia_m": 0.0
->>>>>>> 58f8f22 (Nombres de estaciones (UY) actualizados automáticamente)
    },
    "pais": "UY",
    "via_visible": "Ruta 11",
@@ -687,13 +679,6 @@
   }
  ],
  "excluidas": [],
-<<<<<<< HEAD
- "generado": "2026-11-01T14:42Z",
- "alertas": [
-  "Alrededores: falló un lote de 2 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
- ]
-=======
- "generado": "2026-11-01T15:18Z",
+ "generado": "2026-11-01T18:15Z",
  "alertas": []
->>>>>>> 58f8f22 (Nombres de estaciones (UY) actualizados automáticamente)
 }
