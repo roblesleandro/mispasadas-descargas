@@ -7,7 +7,7 @@
   "osm": 99,
   "armado": 72,
   "total": 171,
-  "confianza_baja": 0,
+  "confianza_baja": 1,
   "excluidas": 4,
   "posicion": {
    "umbral_m": 15.0,
@@ -29,7 +29,6 @@
    "nombre": "Peaje Camino Hito Cajón-Laguna Colorada",
    "tipo": "cabina",
    "via": "Camino Hito Cajón-Laguna Colorada",
-   "localidad": "Quetena Grande",
    "fuente": "armado",
    "cabinas": [
     {
@@ -46,9 +45,10 @@
    },
    "pais": "BO",
    "via_visible": "Camino Hito Cajón-Laguna Colorada",
-   "punto": "Quetena Grande",
-   "nombre_visible": "Camino Hito Cajón-Laguna Colorada - Peaje Quetena Grande",
-   "confianza": "media"
+   "punto": "(sin nombre)",
+   "nombre_visible": "Camino Hito Cajón-Laguna Colorada - Peaje (sin nombre)",
+   "confianza": "baja",
+   "nota": "El robot no encontró ruta ni localidad: completar a mano."
   },
   {
    "lat": -22.170514,
@@ -212,9 +212,9 @@
   {
    "lat": -21.545968,
    "lon": -64.709622,
-   "nombre": "Peaje Rotonda Héroes del Chaco (F1)",
+   "nombre": "Peaje Avenida Jaime Paz Zamora (F1)",
    "tipo": "cabina",
-   "via": "Rotonda Héroes del Chaco",
+   "via": "Avenida Jaime Paz Zamora",
    "ref": "F1",
    "localidad": "Tarija",
    "fuente": "armado",
@@ -1017,9 +1017,9 @@
   {
    "lat": -19.044708,
    "lon": -65.435089,
-   "nombre": "Peaje cerca de Chaunaca (2)",
+   "nombre": "Peaje cerca de Maragua",
    "tipo": "cabina",
-   "localidad": "Chaunaca",
+   "localidad": "Maragua",
    "fuente": "armado",
    "cabinas": [
     {
@@ -1035,17 +1035,16 @@
     "distancia_m": 0.0
    },
    "pais": "BO",
-   "punto": "Chaunaca",
-   "nombre_visible": "Peaje Chaunaca",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "punto": "Maragua",
+   "nombre_visible": "Peaje Maragua",
+   "confianza": "media"
   },
   {
    "lat": -19.029986,
    "lon": -65.434498,
-   "nombre": "Peaje cerca de Chaunaca",
+   "nombre": "Peaje cerca de Socapampa",
    "tipo": "cabina",
-   "localidad": "Chaunaca",
+   "localidad": "Socapampa",
    "fuente": "armado",
    "cabinas": [
     {
@@ -1061,10 +1060,9 @@
     "distancia_m": 0.0
    },
    "pais": "BO",
-   "punto": "Chaunaca",
-   "nombre_visible": "Peaje Chaunaca",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "punto": "Socapampa",
+   "nombre_visible": "Peaje Socapampa",
+   "confianza": "media"
   },
   {
    "lat": -19.018348,
@@ -2955,10 +2953,9 @@
   {
    "lat": -17.368461,
    "lon": -66.319494,
-   "nombre": "Peaje Avenida Pairumani (D4142)",
+   "nombre": "Peaje Avenida Pairumani",
    "tipo": "cabina",
    "via": "Avenida Pairumani",
-   "ref": "D4142",
    "localidad": "Tajra",
    "fuente": "armado",
    "cabinas": [
@@ -2975,9 +2972,9 @@
     "distancia_m": 0.0
    },
    "pais": "BO",
-   "via_visible": "D4142",
+   "via_visible": "Avenida Pairumani",
    "punto": "Tajra",
-   "nombre_visible": "D4142 - Peaje Tajra",
+   "nombre_visible": "Avenida Pairumani - Peaje Tajra",
    "confianza": "media"
   },
   {
@@ -3493,10 +3490,9 @@
   {
    "lat": -16.610421,
    "lon": -68.062715,
-   "nombre": "Peaje Carretera Principal Río Abajo (F62)",
+   "nombre": "Peaje Carretera Principal Río Abajo",
    "tipo": "cabina",
    "via": "Carretera Principal Río Abajo",
-   "ref": "F62",
    "localidad": "Lipari Alto",
    "fuente": "armado",
    "cabinas": [
@@ -4243,9 +4239,10 @@
   {
    "lat": -15.59263,
    "lon": -67.230834,
-   "nombre": "Peaje Camino Palos Blancos-Covendo",
+   "nombre": "Peaje Camino Palos Blancos-Covendo (F50)",
    "tipo": "cabina",
    "via": "Camino Palos Blancos-Covendo",
+   "ref": "F50",
    "localidad": "Palos Blancos",
    "fuente": "armado",
    "cabinas": [
@@ -4262,17 +4259,19 @@
     "distancia_m": 0.0
    },
    "pais": "BO",
-   "via_visible": "Camino Palos Blancos-Covendo",
+   "via_visible": "Ruta 50",
    "punto": "Palos Blancos",
-   "nombre_visible": "Camino Palos Blancos-Covendo - Peaje Palos Blancos",
-   "confianza": "media"
+   "nombre_visible": "Ruta 50 - Peaje Palos Blancos",
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": -15.572491,
    "lon": -67.267302,
-   "nombre": "Peaje Camino Sapecho-Palos Blancos",
+   "nombre": "Peaje Camino Sapecho-Palos Blancos (F50)",
    "tipo": "cabina",
    "via": "Camino Sapecho-Palos Blancos",
+   "ref": "F50",
    "localidad": "Palos Blancos",
    "fuente": "armado",
    "cabinas": [
@@ -4289,10 +4288,11 @@
     "distancia_m": 0.0
    },
    "pais": "BO",
-   "via_visible": "Camino Sapecho-Palos Blancos",
+   "via_visible": "Ruta 50",
    "punto": "Palos Blancos",
-   "nombre_visible": "Camino Sapecho-Palos Blancos - Peaje Palos Blancos",
-   "confianza": "media"
+   "nombre_visible": "Ruta 50 - Peaje Palos Blancos",
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": -15.556315,
@@ -4917,10 +4917,8 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
-<<<<<<< HEAD
- "generado": "2026-11-01T12:38Z",
-=======
- "generado": "2026-11-01T15:45Z",
->>>>>>> dd25b85 (Nombres de estaciones (BO) actualizados automáticamente)
- "alertas": []
+ "generado": "2026-11-01T18:49Z",
+ "alertas": [
+  "Alrededores: falló un lote de 1 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+ ]
 }
