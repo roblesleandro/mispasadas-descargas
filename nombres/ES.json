@@ -114,8 +114,10 @@
   {
    "lat": 28.488011,
    "lon": -16.34482,
-   "nombre": "Peaje cerca de El Portezuelo Alto",
+   "nombre": "Peaje Autopista del Norte (TF-5)",
    "tipo": "cabina",
+   "via": "Autopista del Norte",
+   "ref": "TF-5",
    "localidad": "El Portezuelo Alto",
    "fuente": "armado",
    "cabinas": [
@@ -429,8 +431,10 @@
   {
    "lat": 36.822766,
    "lon": -3.699618,
-   "nombre": "Peaje cerca de Otívar",
+   "nombre": "Peaje Carretera de la Cabra (A-4050)",
    "tipo": "cabina",
+   "via": "Carretera de la Cabra",
+   "ref": "A-4050",
    "localidad": "Otívar",
    "fuente": "armado",
    "cabinas": [
@@ -447,8 +451,9 @@
     "distancia_m": 0.0
    },
    "pais": "ES",
+   "via_visible": "A-4050",
    "punto": "Otívar",
-   "nombre_visible": "Peaje Otívar",
+   "nombre_visible": "A-4050 - Peaje Otívar",
    "confianza": "media"
   },
   {
@@ -502,18 +507,13 @@
    "confianza": "media"
   },
   {
-<<<<<<< HEAD
-   "lat": 36.90258,
-   "lon": -4.457906,
-   "nombre": "Peaje Autopista de las Pedrizas (AP-46)",
-=======
    "lat": 36.902488,
    "lon": -4.457711,
    "nombre": "Peaje Autopista de las Pedrizas (AP-46) km 0",
->>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
    "tipo": "cabina",
    "via": "Autopista de las Pedrizas",
    "ref": "AP-46",
+   "km": "0",
    "localidad": "Casabermeja",
    "fuente": "armado",
    "cabinas": [
@@ -580,8 +580,10 @@
   {
    "lat": 37.305576,
    "lon": -1.799702,
-   "nombre": "Peaje cerca de Palomares",
+   "nombre": "Peaje Autopista del Mediterráneo (AP-7) (9)",
    "tipo": "cabina",
+   "via": "Autopista del Mediterráneo",
+   "ref": "AP-7",
    "localidad": "Palomares",
    "fuente": "armado",
    "cabinas": [
@@ -603,15 +605,18 @@
     "distancia_m": 6.6
    },
    "pais": "ES",
+   "via_visible": "Autopista del Mediterráneo",
    "punto": "Palomares",
-   "nombre_visible": "Peaje Palomares",
+   "nombre_visible": "Autopista del Mediterráneo - Peaje Palomares",
    "confianza": "media"
   },
   {
    "lat": 37.390629,
    "lon": -1.727303,
-   "nombre": "Peaje cerca de La Fuente",
+   "nombre": "Peaje Autopista del Mediterráneo (AP-7) (8)",
    "tipo": "cabina",
+   "via": "Autopista del Mediterráneo",
+   "ref": "AP-7",
    "localidad": "La Fuente",
    "fuente": "armado",
    "cabinas": [
@@ -673,8 +678,10 @@
   {
    "lat": 37.492385,
    "lon": -1.50688,
-   "nombre": "Peaje cerca de Águilas",
+   "nombre": "Peaje Autopista del Mediterráneo (AP-7) (7)",
    "tipo": "cabina",
+   "via": "Autopista del Mediterráneo",
+   "ref": "AP-7",
    "localidad": "Águilas",
    "fuente": "armado",
    "cabinas": [
@@ -696,15 +703,17 @@
     "distancia_m": 6.4
    },
    "pais": "ES",
+   "via_visible": "Autopista del Mediterráneo",
    "punto": "Águilas",
-   "nombre_visible": "Peaje Águilas",
+   "nombre_visible": "Autopista del Mediterráneo - Peaje Águilas",
    "confianza": "media"
   },
   {
    "lat": 37.546935,
    "lon": -1.43589,
-   "nombre": "Peaje cerca de Mazarrón",
+   "nombre": "Peaje RM-332",
    "tipo": "cabina",
+   "ref": "RM-332",
    "localidad": "Mazarrón",
    "fuente": "armado",
    "cabinas": [
@@ -2174,16 +2183,12 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-<<<<<<< HEAD
-   "lat": 40.475793,
-   "lon": -3.701663,
-   "nombre": "Peaje cerca de Madrid (2)",
-=======
    "lat": 40.476661,
    "lon": -3.701477,
    "nombre": "Peaje Calle de Sinesio Delgado km 29,2",
->>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
    "tipo": "cabina",
+   "via": "Calle de Sinesio Delgado",
+   "km": "29,2",
    "localidad": "Madrid",
    "fuente": "armado",
    "cabinas": [
@@ -2211,8 +2216,9 @@
     ]
    },
    "pais": "ES",
+   "via_visible": "Calle de Sinesio Delgado",
    "punto": "Madrid",
-   "nombre_visible": "Peaje Madrid",
+   "nombre_visible": "Calle de Sinesio Delgado - Peaje Madrid",
    "confianza": "media"
   },
   {
@@ -2252,16 +2258,13 @@
    "confianza": "media"
   },
   {
-<<<<<<< HEAD
-   "lat": 40.482457,
-   "lon": -3.687139,
-   "nombre": "Peaje cerca de Madrid",
-=======
    "lat": 40.482554,
    "lon": -3.687446,
    "nombre": "Peaje Calle 30 (M-30) km 29,2",
->>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
    "tipo": "cabina",
+   "via": "Calle 30",
+   "ref": "M-30",
+   "km": "29,2",
    "localidad": "Madrid",
    "fuente": "armado",
    "cabinas": [
@@ -2289,16 +2292,19 @@
     ]
    },
    "pais": "ES",
-   "via_visible": "Calle 30",
+   "via_visible": "M-30",
    "punto": "Madrid",
-   "nombre_visible": "Calle 30 - Peaje Madrid",
+   "nombre_visible": "M-30 - Peaje Madrid",
    "confianza": "media"
   },
   {
    "lat": 40.488168,
    "lon": -3.695569,
-   "nombre": "Peaje cerca de Alcobendas",
+   "nombre": "Peaje Autovía de Colmenar (M-607) km 29,2",
    "tipo": "cabina",
+   "via": "Autovía de Colmenar",
+   "ref": "M-607",
+   "km": "29,2",
    "localidad": "Alcobendas",
    "fuente": "armado",
    "cabinas": [
@@ -2483,9 +2489,10 @@
   {
    "lat": 40.521762,
    "lon": -3.883242,
-   "nombre": "Peaje Avenida de los Bomberos",
+   "nombre": "Peaje Avenida de los Bomberos (A-6)",
    "tipo": "cabina",
    "via": "Avenida de los Bomberos",
+   "ref": "A-6",
    "localidad": "Las Rozas de Madrid",
    "fuente": "armado",
    "cabinas": [
@@ -2507,9 +2514,9 @@
     "distancia_m": 5.8
    },
    "pais": "ES",
-   "via_visible": "Avenida de los Bomberos",
+   "via_visible": "A-6",
    "punto": "Las Rozas de Madrid",
-   "nombre_visible": "Avenida de los Bomberos - Peaje Las Rozas de Madrid",
+   "nombre_visible": "A-6 - Peaje Las Rozas de Madrid",
    "confianza": "media"
   },
   {
@@ -2648,8 +2655,10 @@
   {
    "lat": 40.666154,
    "lon": -2.019552,
-   "nombre": "Peaje cerca de Poveda de la Sierra",
+   "nombre": "Peaje Puente de Poveda (CM-210)",
    "tipo": "cabina",
+   "via": "Puente de Poveda",
+   "ref": "CM-210",
    "localidad": "Poveda de la Sierra",
    "fuente": "armado",
    "cabinas": [
@@ -2666,9 +2675,9 @@
     "distancia_m": 0.0
    },
    "pais": "ES",
-   "via_visible": "Puente de Poveda",
+   "via_visible": "CM-210",
    "punto": "Poveda de la Sierra",
-   "nombre_visible": "Puente de Poveda - Peaje Poveda de la Sierra",
+   "nombre_visible": "CM-210 - Peaje Poveda de la Sierra",
    "confianza": "media"
   },
   {
@@ -2796,16 +2805,11 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-<<<<<<< HEAD
-   "lat": 40.772964,
-   "lon": -4.424573,
-   "nombre": "Peaje cerca de Villacastín",
-=======
    "lat": 40.772646,
    "lon": -4.424145,
    "nombre": "Peaje N-110",
->>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
    "tipo": "cabina",
+   "ref": "N-110",
    "localidad": "Villacastín",
    "fuente": "armado",
    "cabinas": [
@@ -2845,8 +2849,9 @@
   {
    "lat": 40.773451,
    "lon": -4.420813,
-   "nombre": "Peaje cerca de Villacastín (2)",
+   "nombre": "Peaje AP-51 (2)",
    "tipo": "cabina",
+   "ref": "AP-51",
    "localidad": "Villacastín",
    "fuente": "armado",
    "cabinas": [
@@ -3035,8 +3040,10 @@
   {
    "lat": 40.948167,
    "lon": -4.116267,
-   "nombre": "Peaje cerca de Segovia",
+   "nombre": "Peaje Avenida Padre Claret km 0",
    "tipo": "cabina",
+   "via": "Avenida Padre Claret",
+   "km": "0",
    "localidad": "Segovia",
    "fuente": "armado",
    "cabinas": [
@@ -3092,18 +3099,13 @@
    "confianza": "media"
   },
   {
-<<<<<<< HEAD
-   "lat": 41.208137,
-   "lon": 1.65172,
-   "nombre": "Peaje Peatge de Cubelles (C-32)",
-=======
    "lat": 41.207923,
    "lon": 1.651695,
    "nombre": "Peaje Peatge de Cubelles (C-32) km 13",
->>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
    "tipo": "cabina",
    "via": "Peatge de Cubelles",
    "ref": "C-32",
+   "km": "13",
    "localidad": "Cubelles",
    "fuente": "armado",
    "cabinas": [
@@ -3837,8 +3839,9 @@
   {
    "lat": 42.158314,
    "lon": -8.674642,
-   "nombre": "Peaje cerca de A Ribeira",
+   "nombre": "Peaje Estrada de San Cosme",
    "tipo": "cabina",
+   "via": "Estrada de San Cosme",
    "localidad": "A Ribeira",
    "fuente": "armado",
    "cabinas": [
@@ -3855,8 +3858,9 @@
     "distancia_m": 0.0
    },
    "pais": "ES",
+   "via_visible": "Estrada de San Cosme",
    "punto": "A Ribeira",
-   "nombre_visible": "Peaje A Ribeira",
+   "nombre_visible": "Estrada de San Cosme - Peaje A Ribeira",
    "confianza": "media"
   },
   {
@@ -4130,8 +4134,10 @@
   {
    "lat": 42.375937,
    "lon": -3.59098,
-   "nombre": "Peaje cerca de Orbaneja Riopico",
+   "nombre": "Peaje Carretera de Madrid a Irún (N-I)",
    "tipo": "cabina",
+   "via": "Carretera de Madrid a Irún",
+   "ref": "N-I",
    "localidad": "Orbaneja Riopico",
    "fuente": "armado",
    "cabinas": [
@@ -4147,9 +4153,9 @@
     "distancia_m": 0.0
    },
    "pais": "ES",
-   "via_visible": "Carretera de Madrid a Irún",
+   "via_visible": "N-I",
    "punto": "Orbaneja Riopico",
-   "nombre_visible": "Carretera de Madrid a Irún - Peaje Orbaneja Riopico",
+   "nombre_visible": "N-I - Peaje Orbaneja Riopico",
    "confianza": "media"
   },
   {
@@ -4296,8 +4302,11 @@
   {
    "lat": 42.448795,
    "lon": -2.347204,
-   "nombre": "Peaje cerca de Agoncillo",
+   "nombre": "Peaje Vinaròs a Santander (N-232) km 0",
    "tipo": "cabina",
+   "via": "Vinaròs a Santander",
+   "ref": "N-232",
+   "km": "0",
    "localidad": "Agoncillo",
    "fuente": "armado",
    "cabinas": [
@@ -4428,8 +4437,9 @@
   {
    "lat": 42.503944,
    "lon": 0.155205,
-   "nombre": "Peaje cerca de Laspuña",
+   "nombre": "Peaje HU-V-6401",
    "tipo": "cabina",
+   "ref": "HU-V-6401",
    "localidad": "Laspuña",
    "fuente": "armado",
    "cabinas": [
@@ -4446,8 +4456,9 @@
     "distancia_m": 0.0
    },
    "pais": "ES",
+   "via_visible": "HU-V-6401",
    "punto": "Laspuña",
-   "nombre_visible": "Peaje Laspuña",
+   "nombre_visible": "HU-V-6401 - Peaje Laspuña",
    "confianza": "media"
   },
   {
@@ -4645,8 +4656,9 @@
   {
    "lat": 42.707474,
    "lon": -2.907543,
-   "nombre": "Peaje cerca de Ribabellosa",
+   "nombre": "Peaje A-1",
    "tipo": "cabina",
+   "ref": "A-1",
    "localidad": "Ribabellosa",
    "fuente": "armado",
    "cabinas": [
@@ -4698,7 +4710,8 @@
    "via_visible": "AP-53",
    "punto": "Silleda",
    "nombre_visible": "AP-53 - Peaje Silleda",
-   "confianza": "media"
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": 42.709978,
@@ -4796,8 +4809,10 @@
   {
    "lat": 42.731896,
    "lon": -8.337834,
-   "nombre": "Peaje cerca de Silleda",
+   "nombre": "Peaje Autoestrada Central Galega (AP-53) (3)",
    "tipo": "cabina",
+   "via": "Autoestrada Central Galega",
+   "ref": "AP-53",
    "localidad": "Silleda",
    "fuente": "armado",
    "cabinas": [
@@ -4819,9 +4834,11 @@
     "distancia_m": 5.7
    },
    "pais": "ES",
+   "via_visible": "AP-53",
    "punto": "Silleda",
-   "nombre_visible": "Peaje Silleda",
-   "confianza": "media"
+   "nombre_visible": "AP-53 - Peaje Silleda",
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": 42.732478,
@@ -5125,8 +5142,9 @@
   {
    "lat": 42.928584,
    "lon": -2.64734,
-   "nombre": "Peaje cerca de Durana",
+   "nombre": "Peaje N-240",
    "tipo": "cabina",
+   "ref": "N-240",
    "localidad": "Durana",
    "fuente": "armado",
    "cabinas": [
@@ -5143,8 +5161,9 @@
     "distancia_m": 0.0
    },
    "pais": "ES",
+   "via_visible": "N-240",
    "punto": "Durana",
-   "nombre_visible": "Peaje Durana",
+   "nombre_visible": "N-240 - Peaje Durana",
    "confianza": "media"
   },
   {
@@ -5247,8 +5266,9 @@
   {
    "lat": 43.01578,
    "lon": -2.909211,
-   "nombre": "Peaje cerca de Izarra",
+   "nombre": "Peaje A-624",
    "tipo": "cabina",
+   "ref": "A-624",
    "localidad": "Izarra",
    "fuente": "armado",
    "cabinas": [
@@ -5265,9 +5285,9 @@
     "distancia_m": 0.0
    },
    "pais": "ES",
-   "via_visible": "AP-68",
+   "via_visible": "A-624",
    "punto": "Izarra",
-   "nombre_visible": "AP-68 - Peaje Izarra",
+   "nombre_visible": "A-624 - Peaje Izarra",
    "confianza": "media"
   },
   {
@@ -5560,8 +5580,9 @@
   {
    "lat": 43.093544,
    "lon": -2.430706,
-   "nombre": "Peaje cerca de Bergara",
+   "nombre": "Peaje AP-636",
    "tipo": "cabina",
+   "ref": "AP-636",
    "localidad": "Bergara",
    "fuente": "armado",
    "cabinas": [
@@ -5724,7 +5745,7 @@
    "nombre": "Peaje AP-68",
    "tipo": "cabina",
    "ref": "AP-68",
-   "localidad": "Laudio / Llodio",
+   "localidad": "Arakaldo",
    "fuente": "armado",
    "cabinas": [
     {
@@ -5762,17 +5783,18 @@
    },
    "pais": "ES",
    "via_visible": "AP-68",
-   "punto": "Laudio / Llodio",
-   "nombre_visible": "AP-68 - Peaje Laudio / Llodio",
+   "punto": "Arakaldo",
+   "nombre_visible": "AP-68 - Peaje Arakaldo",
    "confianza": "media"
   },
   {
    "lat": 43.147025,
    "lon": -2.788546,
-   "nombre": "Pórtico Bildosola auzoa (N-240)",
+   "nombre": "Pórtico Bildosola auzoa (N-240) km 26",
    "tipo": "portico",
    "via": "Bildosola auzoa",
    "ref": "N-240",
+   "km": "26",
    "localidad": "Artea",
    "fuente": "armado",
    "cabinas": [
@@ -5859,8 +5881,9 @@
   {
    "lat": 43.158803,
    "lon": -2.771628,
-   "nombre": "Pórtico BI-3543",
+   "nombre": "Pórtico Tarragona-Bilbo errepidea (BI-3543)",
    "tipo": "portico",
+   "via": "Tarragona-Bilbo errepidea",
    "ref": "BI-3543",
    "localidad": "Igorre",
    "fuente": "armado",
@@ -5886,9 +5909,11 @@
   {
    "lat": 43.167533,
    "lon": -2.595448,
-   "nombre": "Peaje Gerediaga - Elorrio Autobidea",
+   "nombre": "Peaje Gerediaga - Elorrio Autobidea (AP-8) km 39",
    "tipo": "cabina",
    "via": "Gerediaga - Elorrio Autobidea",
+   "ref": "AP-8",
+   "km": "39",
    "localidad": "Berriz",
    "fuente": "armado",
    "cabinas": [
@@ -6015,8 +6040,10 @@
   {
    "lat": 43.176258,
    "lon": -2.514121,
-   "nombre": "Peaje cerca de Ermua",
+   "nombre": "Peaje Bizkaiko Golkoko Autobidea (AP-8) (2)",
    "tipo": "cabina",
+   "via": "Bizkaiko Golkoko Autobidea",
+   "ref": "AP-8",
    "localidad": "Ermua",
    "fuente": "armado",
    "cabinas": [
@@ -6162,8 +6189,9 @@
   {
    "lat": 43.190275,
    "lon": -2.89658,
-   "nombre": "Peaje cerca de Ugao-Miraballes",
+   "nombre": "Peaje AP-68 (3)",
    "tipo": "cabina",
+   "ref": "AP-68",
    "localidad": "Ugao-Miraballes",
    "fuente": "armado",
    "cabinas": [
@@ -6636,8 +6664,9 @@
   {
    "lat": 43.257933,
    "lon": -2.928821,
-   "nombre": "Peaje cerca de Bilbao",
+   "nombre": "Peaje Mesedeetako kaia",
    "tipo": "cabina",
+   "via": "Mesedeetako kaia",
    "localidad": "Bilbao",
    "fuente": "armado",
    "cabinas": [
@@ -6654,8 +6683,9 @@
     "distancia_m": 0.0
    },
    "pais": "ES",
+   "via_visible": "Mesedeetako kaia",
    "punto": "Bilbao",
-   "nombre_visible": "Peaje Bilbao",
+   "nombre_visible": "Mesedeetako kaia - Peaje Bilbao",
    "confianza": "media"
   },
   {
@@ -6724,8 +6754,11 @@
   {
    "lat": 43.269427,
    "lon": -5.800263,
-   "nombre": "Peaje cerca de Mieres del Camín",
+   "nombre": "Peaje Carretera Gijón a Puerto de Sevilla (N-630) km 45",
    "tipo": "cabina",
+   "via": "Carretera Gijón a Puerto de Sevilla",
+   "ref": "N-630",
+   "km": "45",
    "localidad": "Mieres del Camín",
    "fuente": "armado",
    "cabinas": [
@@ -6740,9 +6773,9 @@
     "distancia_m": 0.0
    },
    "pais": "ES",
-   "via_visible": "Carretera Gijón a Puerto de Sevilla",
+   "via_visible": "N-630",
    "punto": "Mieres del Camín",
-   "nombre_visible": "Carretera Gijón a Puerto de Sevilla - Peaje Mieres del Camín",
+   "nombre_visible": "N-630 - Peaje Mieres del Camín",
    "confianza": "media"
   },
   {
@@ -7216,16 +7249,13 @@
    "confianza": "media"
   },
   {
-<<<<<<< HEAD
-   "lat": 43.306462,
-   "lon": -1.883657,
-   "nombre": "Peaje cerca de Errenteria",
-=======
    "lat": 43.306596,
    "lon": -1.883715,
    "nombre": "Peaje AP-1 / AP-8 km 5",
->>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
    "tipo": "cabina",
+   "via": "AP-1 / AP-8",
+   "ref": "AP-1;AP-8",
+   "km": "5",
    "localidad": "Errenteria",
    "fuente": "armado",
    "cabinas": [
@@ -7251,9 +7281,9 @@
     ]
    },
    "pais": "ES",
-   "via_visible": "AP-1 / AP-8",
+   "via_visible": "AP-1",
    "punto": "Errenteria",
-   "nombre_visible": "AP-1 / AP-8 - Peaje Errenteria",
+   "nombre_visible": "AP-1 - Peaje Errenteria",
    "confianza": "media"
   },
   {
@@ -7519,16 +7549,12 @@
    "confianza": "alta"
   },
   {
-<<<<<<< HEAD
-   "lat": 43.358694,
-   "lon": -3.820744,
-   "nombre": "Peaje cerca de La Helguera",
-=======
    "lat": 43.358768,
    "lon": -3.819915,
    "nombre": "Peaje Calle Vía (CA-408)",
->>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
    "tipo": "cabina",
+   "via": "Calle Vía",
+   "ref": "CA-408",
    "localidad": "La Helguera",
    "fuente": "armado",
    "cabinas": [
@@ -7554,8 +7580,9 @@
     ]
    },
    "pais": "ES",
+   "via_visible": "CA-408",
    "punto": "La Helguera",
-   "nombre_visible": "Peaje La Helguera",
+   "nombre_visible": "CA-408 - Peaje La Helguera",
    "confianza": "media"
   },
   {
@@ -7644,8 +7671,10 @@
   {
    "lat": 43.440796,
    "lon": -3.865448,
-   "nombre": "Peaje cerca de Peñacastillo",
+   "nombre": "Peaje Calle de Joaquín Salas (CA-306)",
    "tipo": "cabina",
+   "via": "Calle de Joaquín Salas",
+   "ref": "CA-306",
    "localidad": "Peñacastillo",
    "fuente": "armado",
    "cabinas": [
@@ -7667,8 +7696,9 @@
     "distancia_m": 6.4
    },
    "pais": "ES",
+   "via_visible": "CA-306",
    "punto": "Peñacastillo",
-   "nombre_visible": "Peaje Peñacastillo",
+   "nombre_visible": "CA-306 - Peaje Peñacastillo",
    "confianza": "media"
   },
   {
@@ -7771,9 +7801,10 @@
   {
    "lat": 36.506616,
    "lon": -4.676411,
-   "nombre": "Peaje Mercadona parking",
+   "nombre": "Peaje Mercadona parking (A-7)",
    "tipo": "cabina",
    "via": "Mercadona parking",
+   "ref": "A-7",
    "localidad": "La Cala",
    "fuente": "armado",
    "cabinas": [
@@ -7895,14 +7926,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
-<<<<<<< HEAD
- "generado": "2026-11-01T14:12Z",
- "alertas": [
-  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
-  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
- ]
-=======
- "generado": "2026-11-01T17:02Z",
+ "generado": "2026-11-01T20:05Z",
  "alertas": []
->>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
 }
