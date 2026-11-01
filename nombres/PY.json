@@ -15,8 +15,13 @@
    "corregidas": 7,
    "sin_referencia": 5,
    "corrida_anterior": {
+<<<<<<< HEAD
     "ok": 42,
     "a_mas_de_15_m": 1,
+=======
+    "ok": 43,
+    "a_mas_de_15_m": 0,
+>>>>>>> 18c809f (Nombres de estaciones (PY) actualizados automáticamente)
     "sin_referencia": 5,
     "total": 48
    }
@@ -1596,6 +1601,10 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
+<<<<<<< HEAD
  "generado": "2026-11-01T18:24Z",
+=======
+ "generado": "2026-11-01T21:40Z",
+>>>>>>> 18c809f (Nombres de estaciones (PY) actualizados automáticamente)
  "alertas": []
 }
