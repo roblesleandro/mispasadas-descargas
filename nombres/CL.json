@@ -8018,6 +8018,10 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
+<<<<<<< HEAD
  "generado": "2026-11-01T18:28Z",
+=======
+ "generado": "2026-11-01T21:54Z",
+>>>>>>> dfd1803 (Nombres de estaciones (CL) actualizados automáticamente)
  "alertas": []
 }
