@@ -72,14 +72,8 @@
     ]
    },
    "pais": "TT",
-<<<<<<< HEAD
-   "via_visible": "Manzanilla Mayaro Road",
-   "punto": "Security Booth",
-   "nombre_visible": "Manzanilla Mayaro Road - Toll Security Booth",
-=======
    "punto": "Security Booth",
    "nombre_visible": "Toll Security Booth",
->>>>>>> e37b89c (Nombres de estaciones (TT) actualizados automáticamente)
    "confianza": "alta"
   },
   {
@@ -135,10 +129,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
-<<<<<<< HEAD
- "generado": "2026-11-01T13:30Z",
-=======
- "generado": "2026-11-01T16:33Z",
->>>>>>> e37b89c (Nombres de estaciones (TT) actualizados automáticamente)
+ "generado": "2026-11-01T19:47Z",
  "alertas": []
 }
