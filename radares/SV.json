@@ -1,7 +1,7 @@
 {
- "version": "sv-2026-10-31",
+ "version": "sv-2026-11-01",
  "pais": "SV",
- "generado": "2026-10-31T13:37:14+00:00",
+ "generado": "2026-11-01T13:39:34+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Viceministerio de Transporte: fotomultas en autopistas (prensa), sin listado."
@@ -32,7 +32,23 @@
    "SENDA": 0,
    "INFRACCIONES": 0
   },
-  "monitoreo": 4
+  "monitoreo": 4,
+  "posicion": {
+   "umbral_m": 15.0,
+   "radio_busqueda_m": 150.0,
+   "ok": 52,
+   "corregidas": 0,
+   "sin_referencia": 0,
+   "de_osm": 52,
+   "corrida_anterior": {
+    "umbral_m": 15.0,
+    "radio_busqueda_m": 150.0,
+    "ok": 52,
+    "corregidas": 0,
+    "sin_referencia": 0,
+    "de_osm": 52
+   }
+  }
  },
  "alertas": [],
  "radars": [
@@ -45,7 +61,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12093590588",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -55,6 +71,11 @@
    ],
    "heading_min": 55.0,
    "heading_max": 125.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12093590588"
+   },
    "road_label": "Bulevar Luis Poma",
    "display_name": "Bulevar Luis Poma - Radar",
    "country": "SV"
@@ -68,13 +89,18 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14212878093",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
    "heading_min": 70.0,
    "heading_max": 140.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14212878093"
+   },
    "road_label": "Carretera Panamericana",
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -93,7 +119,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11905494716",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -103,6 +129,11 @@
    ],
    "heading_min": 240.0,
    "heading_max": 310.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11905494716"
+   },
    "road_label": "Carretera Panamericana",
    "display_name": "Carretera Panamericana - Radar",
    "country": "SV"
@@ -116,7 +147,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11929991824",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -126,7 +157,15 @@
    ],
    "heading_min": 40.0,
    "heading_max": 110.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11929991824"
+   },
    "road_label": "Autopista Comalapa",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "Autopista Comalapa - Radar",
    "country": "SV"
   },
@@ -139,7 +178,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11929994076",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -149,6 +188,11 @@
    ],
    "heading_min": 230.0,
    "heading_max": 300.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11929994076"
+   },
    "road_label": "SAL93W",
    "display_name": "SAL93W - Radar",
    "country": "SV"
@@ -162,7 +206,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12360007244",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -172,6 +216,11 @@
    ],
    "heading_min": 15.0,
    "heading_max": 85.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12360007244"
+   },
    "road_label": "CA-1",
    "display_name": "CA-1 - Radar",
    "country": "SV"
@@ -185,7 +234,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11908323158",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -195,6 +244,11 @@
    ],
    "heading_min": 165.0,
    "heading_max": 235.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11908323158"
+   },
    "road_label": "Avenida Cuba",
    "display_name": "Avenida Cuba - Radar",
    "country": "SV"
@@ -208,7 +262,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12191858462",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -218,6 +272,11 @@
    ],
    "heading_min": 330.0,
    "heading_max": 40.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12191858462"
+   },
    "road_label": "Avenida Jerusalén",
    "display_name": "Avenida Jerusalén - Radar",
    "country": "SV"
@@ -231,7 +290,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12024915650",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -241,6 +300,11 @@
    ],
    "heading_min": 65.0,
    "heading_max": 135.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12024915650"
+   },
    "road_label": "CA-1",
    "display_name": "CA-1 - Radar",
    "country": "SV"
@@ -254,7 +318,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12191904604",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -264,6 +328,11 @@
    ],
    "heading_min": 330.0,
    "heading_max": 40.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12191904604"
+   },
    "road_label": "Avenida Jerusalén",
    "display_name": "Avenida Jerusalén - Radar",
    "country": "SV"
@@ -277,11 +346,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8914850562",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8914850562"
+   },
    "road_label": "Carretera Panamericana",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -300,11 +374,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13547409501",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "controls": [],
    "heading_min": 59.0,
    "heading_max": 129.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13547409501"
+   },
    "road_label": "CA-1",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -323,7 +402,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12093633333",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -333,6 +412,11 @@
    ],
    "heading_min": 65.0,
    "heading_max": 135.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12093633333"
+   },
    "road_label": "CA-1",
    "display_name": "CA-1 - Radar",
    "country": "SV"
@@ -346,11 +430,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13547447301",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "controls": [],
    "heading_min": 207.0,
    "heading_max": 277.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13547447301"
+   },
    "road_label": "CA-1",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -369,13 +458,18 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12024715356",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
    "heading_min": 220.0,
    "heading_max": 290.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12024715356"
+   },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
@@ -393,11 +487,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13547043802",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "controls": [],
    "heading_min": 29.0,
    "heading_max": 99.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13547043802"
+   },
    "road_label": "CA-1",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -416,7 +515,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11905488711",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -426,6 +525,11 @@
    ],
    "heading_min": 40.0,
    "heading_max": 110.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11905488711"
+   },
    "road_label": "CA-1",
    "display_name": "CA-1 - Radar",
    "country": "SV"
@@ -439,7 +543,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12058622158",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -449,6 +553,11 @@
    ],
    "heading_min": 335.0,
    "heading_max": 45.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12058622158"
+   },
    "road_label": "Avenida España",
    "display_name": "Avenida España - Radar",
    "country": "SV"
@@ -462,7 +571,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11905521269",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -472,6 +581,11 @@
    ],
    "heading_min": 60.0,
    "heading_max": 130.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11905521269"
+   },
    "road_label": "Alameda Franklin Delano Roosevelt",
    "display_name": "Alameda Franklin Delano Roosevelt - Radar",
    "country": "SV"
@@ -485,7 +599,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11908198716",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -495,6 +609,11 @@
    ],
    "heading_min": 60.0,
    "heading_max": 130.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11908198716"
+   },
    "road_label": "1a Calle Poniente",
    "display_name": "1a Calle Poniente - Radar",
    "country": "SV"
@@ -508,11 +627,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13547329902",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "controls": [],
    "heading_min": 247.0,
    "heading_max": 317.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13547329902"
+   },
    "road_label": "1a Calle Poniente",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -531,7 +655,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12359964954",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -541,6 +665,11 @@
    ],
    "heading_min": 150.0,
    "heading_max": 220.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12359964954"
+   },
    "road_label": "75 Avenida Sur",
    "display_name": "75 Avenida Sur - Radar",
    "country": "SV"
@@ -554,7 +683,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12030169272",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -564,6 +693,11 @@
    ],
    "heading_min": 55.0,
    "heading_max": 125.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12030169272"
+   },
    "road_label": "Paseo General Escalón",
    "display_name": "Paseo General Escalón - Radar",
    "country": "SV"
@@ -577,7 +711,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12058639197",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -587,6 +721,11 @@
    ],
    "heading_min": 60.0,
    "heading_max": 130.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12058639197"
+   },
    "road_label": "Alameda Juan Pablo II",
    "display_name": "Alameda Juan Pablo II - Radar",
    "country": "SV"
@@ -600,7 +739,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11772721546",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -608,6 +747,11 @@
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11772721546"
+   },
    "road_label": "25 Avenida Norte",
    "display_name": "25 Avenida Norte - Radar",
    "country": "SV"
@@ -621,7 +765,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11908323904",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -631,6 +775,11 @@
    ],
    "heading_min": 200.0,
    "heading_max": 270.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11908323904"
+   },
    "road_label": "SAL91N",
    "display_name": "SAL91N - Radar",
    "country": "SV"
@@ -644,7 +793,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12191895454",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -654,6 +803,11 @@
    ],
    "heading_min": 335.0,
    "heading_max": 45.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12191895454"
+   },
    "road_label": "Avenida Alberto Masferrer Norte",
    "display_name": "Avenida Alberto Masferrer Norte - Radar",
    "country": "SV"
@@ -667,13 +821,18 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12190181978",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
    "heading_min": 85.0,
    "heading_max": 155.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12190181978"
+   },
    "road_label": "Calle Acaxual",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -690,7 +849,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12093669270",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -700,6 +859,11 @@
    ],
    "heading_min": 335.0,
    "heading_max": 45.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12093669270"
+   },
    "road_label": "75 Avenida Norte",
    "display_name": "75 Avenida Norte - Radar",
    "country": "SV"
@@ -713,7 +877,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11927217507",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -723,6 +887,11 @@
    ],
    "heading_min": 5.0,
    "heading_max": 75.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11927217507"
+   },
    "road_label": "SAL91N",
    "display_name": "SAL91N - Radar",
    "country": "SV"
@@ -736,7 +905,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11927217509",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_CALZADA_PRINCIPAL",
@@ -746,9 +915,14 @@
    ],
    "heading_min": 195.0,
    "heading_max": 265.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11927217509"
+   },
    "road_label": "Autopista Norte",
-   "speed_limit_checked": "2026-10-31",
    "speed_limit_detail": "La vía del radar tiene límite en OSM · 40 km/h no es creíble en esta vía: se usa 60 km/h de la calzada principal",
+   "speed_limit_checked": "2026-10-31",
    "speed_limit_road_class": "primary",
    "display_name": "Autopista Norte - Radar",
    "country": "SV"
@@ -762,7 +936,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12093637424",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -770,6 +944,11 @@
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12093637424"
+   },
    "road_label": "Avenida Bernal",
    "display_name": "Avenida Bernal - Radar",
    "country": "SV"
@@ -783,7 +962,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11905489620",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -793,6 +972,11 @@
    ],
    "heading_min": 20.0,
    "heading_max": 90.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11905489620"
+   },
    "road_label": "Carretera Panamericana",
    "display_name": "Carretera Panamericana - Radar",
    "country": "SV"
@@ -806,7 +990,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12191875560",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -816,6 +1000,11 @@
    ],
    "heading_min": 320.0,
    "heading_max": 30.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12191875560"
+   },
    "road_label": "SAL 37N",
    "display_name": "SAL 37N - Radar",
    "country": "SV"
@@ -829,7 +1018,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12464811325",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -839,6 +1028,11 @@
    ],
    "heading_min": 145.0,
    "heading_max": 215.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12464811325"
+   },
    "road_label": "SAL 37N",
    "display_name": "SAL 37N - Radar",
    "country": "SV"
@@ -852,7 +1046,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12099710070",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -862,6 +1056,11 @@
    ],
    "heading_min": 125.0,
    "heading_max": 195.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12099710070"
+   },
    "road_label": "Carretera Panamericana",
    "display_name": "Carretera Panamericana - Radar",
    "country": "SV"
@@ -875,7 +1074,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5490166780",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -885,6 +1084,11 @@
    ],
    "heading_min": 10.0,
    "heading_max": 80.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/5490166780"
+   },
    "road_label": "Carretera Troncal del Norte",
    "display_name": "Carretera Troncal del Norte - Radar",
    "country": "SV"
@@ -898,7 +1102,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11938521794",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -906,6 +1110,11 @@
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11938521794"
+   },
    "road_label": "29 Avenida Norte",
    "display_name": "29 Avenida Norte - Radar",
    "country": "SV"
@@ -919,7 +1128,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11905533435",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -929,6 +1138,11 @@
    ],
    "heading_min": 225.0,
    "heading_max": 295.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11905533435"
+   },
    "road_label": "Carretera de Oro",
    "display_name": "Carretera de Oro - Radar",
    "country": "SV"
@@ -942,7 +1156,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12099710072",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -952,6 +1166,11 @@
    ],
    "heading_min": 310.0,
    "heading_max": 20.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12099710072"
+   },
    "road_label": "Carretera Panamericana",
    "display_name": "Carretera Panamericana - Radar",
    "country": "SV"
@@ -965,7 +1184,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11905437367",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -975,6 +1194,11 @@
    ],
    "heading_min": 225.0,
    "heading_max": 295.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11905437367"
+   },
    "road_label": "Carretera de Oro",
    "display_name": "Carretera de Oro - Radar",
    "country": "SV"
@@ -988,7 +1212,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12111653718",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -996,6 +1220,11 @@
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12111653718"
+   },
    "road_label": "SAL 9",
    "display_name": "SAL 9 - Radar",
    "country": "SV"
@@ -1009,7 +1238,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11905511151",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1017,6 +1246,11 @@
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11905511151"
+   },
    "road_label": "Carretera a Sonsonate",
    "display_name": "Carretera a Sonsonate - Radar",
    "country": "SV"
@@ -1030,7 +1264,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/413135748",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1040,6 +1274,11 @@
    ],
    "heading_min": 165.0,
    "heading_max": 235.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/413135748"
+   },
    "road_label": "SAL 37N",
    "display_name": "SAL 37N - Radar",
    "country": "SV"
@@ -1053,7 +1292,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12464827469",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1063,6 +1302,11 @@
    ],
    "heading_min": 120.0,
    "heading_max": 190.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12464827469"
+   },
    "road_label": "Carretera Troncal del Norte",
    "display_name": "Carretera Troncal del Norte - Radar",
    "country": "SV"
@@ -1076,7 +1320,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11938530573",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1086,6 +1330,11 @@
    ],
    "heading_min": 245.0,
    "heading_max": 315.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11938530573"
+   },
    "road_label": "Carretera Panamericana",
    "display_name": "Carretera Panamericana - Radar",
    "country": "SV"
@@ -1099,7 +1348,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11905490766",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1107,6 +1356,11 @@
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11905490766"
+   },
    "road_label": "Carretera a Quezaltepeque",
    "display_name": "Carretera a Quezaltepeque - Radar",
    "country": "SV"
@@ -1120,7 +1374,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12191889784",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1130,6 +1384,11 @@
    ],
    "heading_min": 20.0,
    "heading_max": 90.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12191889784"
+   },
    "road_label": "Carretera a Quezaltepeque",
    "display_name": "Carretera a Quezaltepeque - Radar",
    "country": "SV"
@@ -1143,7 +1402,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12798640522",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1153,6 +1412,11 @@
    ],
    "heading_min": 295.0,
    "heading_max": 5.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12798640522"
+   },
    "road_label": "Carretera Panamericana",
    "display_name": "Carretera Panamericana - Radar",
    "country": "SV"
@@ -1166,7 +1430,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11905511153",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1176,6 +1440,11 @@
    ],
    "heading_min": 265.0,
    "heading_max": 335.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11905511153"
+   },
    "road_label": "Carretera a Quezaltepeque",
    "display_name": "Carretera a Quezaltepeque - Radar",
    "country": "SV"
@@ -1189,7 +1458,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1543793694",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1197,6 +1466,11 @@
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/1543793694"
+   },
    "road_label": "Carretera a Quezaltepeque",
    "display_name": "Carretera a Quezaltepeque - Radar",
    "country": "SV"
@@ -1210,7 +1484,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12798719210",
-   "source_version": "sv-2026-10-31",
+   "source_version": "sv-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1220,6 +1494,11 @@
    ],
    "heading_min": 100.0,
    "heading_max": 170.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12798719210"
+   },
    "road_label": "Carretera Panamericana",
    "display_name": "Carretera Panamericana - Radar",
    "country": "SV"
