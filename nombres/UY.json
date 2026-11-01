@@ -15,10 +15,10 @@
    "corregidas": 2,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 21,
+    "ok": 19,
     "a_mas_de_15_m": 0,
     "sin_referencia": 0,
-    "total": 21
+    "total": 19
    }
   }
  },
@@ -641,6 +641,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-11-01T21:31Z",
+ "generado": "2026-11-01T23:58Z",
  "alertas": []
 }
