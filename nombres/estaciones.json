@@ -5,10 +5,10 @@
   "UY"
  ],
  "resumen": {
-  "oficial": 155,
+  "oficial": 153,
   "osm": 8,
   "armado": 22,
-  "total": 185,
+  "total": 183,
   "sin_ruta": 2
  },
  "alertas": [],
@@ -906,35 +906,6 @@
    "plaza": "Buena Esperanza (San Luis)"
   },
   {
-   "lat": -34.780417,
-   "lon": -56.355435,
-   "nombre": "Barra de Santa Lucía (Ruta 1)",
-   "tipo": "cabina",
-   "via": "Uruguay",
-   "empresa": "CVU",
-   "fuente": "oficial",
-   "cabinas": [
-    {
-     "lat": -34.780417,
-     "lon": -56.355435,
-     "n": 1,
-     "rumbo": 160,
-     "doble": true
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "pais": "UY",
-   "via_visible": "Ruta 1",
-   "punto": "Barra de Santa Lucía",
-   "nombre_visible": "Ruta 1 - Peaje Barra de Santa Lucía",
-   "confianza": "alta",
-   "plaza": "Barra de Santa Lucía (Ruta 1)",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
-  },
-  {
    "lat": -34.777512,
    "lon": -55.39245,
    "nombre": "Solís (Interbalnearia)",
@@ -969,8 +940,8 @@
    "plaza": "Solís (Interbalnearia)"
   },
   {
-   "lat": -34.77639,
-   "lon": -56.366203,
+   "lat": -34.776489,
+   "lon": -56.366213,
    "nombre": "Barra de Santa Lucía (Ruta 1)",
    "tipo": "cabina",
    "via": "Uruguay",
@@ -978,6 +949,13 @@
    "empresa": "CVU",
    "fuente": "oficial",
    "cabinas": [
+    {
+     "lat": -34.780417,
+     "lon": -56.355435,
+     "n": 1,
+     "rumbo": 160,
+     "doble": true
+    },
     {
      "lat": -34.776489,
      "lon": -56.366213,
@@ -992,16 +970,19 @@
     }
    ],
    "posicion": {
-    "estado": "ok",
-    "distancia_m": 11.0
+    "estado": "corregida",
+    "antes_m": 357,
+    "centro_plaza": [
+     -34.777733,
+     -56.362614
+    ]
    },
    "pais": "UY",
    "via_visible": "Ruta 1",
    "punto": "Barra de Santa Lucía",
    "nombre_visible": "Ruta 1 - Peaje Barra de Santa Lucía",
    "confianza": "alta",
-   "plaza": "Barra de Santa Lucía (Ruta 1)",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "plaza": "Barra de Santa Lucía (Ruta 1)"
   },
   {
    "lat": -34.774341,
@@ -4235,35 +4216,6 @@
    "plaza": "Puente Rosario–Victoria"
   },
   {
-   "lat": -32.840684,
-   "lon": -56.482138,
-   "nombre": "Centenario (Ruta 5)",
-   "tipo": "cabina",
-   "via": "Uruguay",
-   "empresa": "CVU",
-   "fuente": "oficial",
-   "cabinas": [
-    {
-     "lat": -32.840684,
-     "lon": -56.482138,
-     "n": 1,
-     "rumbo": 10,
-     "doble": true
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "pais": "UY",
-   "via_visible": "Ruta 5",
-   "punto": "Centenario",
-   "nombre_visible": "Ruta 5 - Peaje Centenario",
-   "confianza": "alta",
-   "plaza": "Centenario (Ruta 5)",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
-  },
-  {
    "lat": -32.839941,
    "lon": -56.493546,
    "nombre": "Centenario (Ruta 5)",
@@ -4274,6 +4226,13 @@
    "fuente": "oficial",
    "cabinas": [
     {
+     "lat": -32.840684,
+     "lon": -56.482138,
+     "n": 1,
+     "rumbo": 10,
+     "doble": true
+    },
+    {
      "lat": -32.839941,
      "lon": -56.493546,
      "n": 1,
@@ -4282,16 +4241,19 @@
     }
    ],
    "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
+    "estado": "corregida",
+    "antes_m": 535,
+    "centro_plaza": [
+     -32.840312,
+     -56.487842
+    ]
    },
    "pais": "UY",
    "via_visible": "Ruta 5",
    "punto": "Centenario",
    "nombre_visible": "Ruta 5 - Peaje Centenario",
    "confianza": "alta",
-   "plaza": "Centenario (Ruta 5)",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "plaza": "Centenario (Ruta 5)"
   },
   {
    "lat": -32.806321,
@@ -6195,5 +6157,5 @@
    "confianza": "media"
   }
  ],
- "generado": "2026-11-01T18:16Z"
+ "generado": "2026-11-01T21:31Z"
 }
