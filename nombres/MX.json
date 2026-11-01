@@ -5445,9 +5445,8 @@
   {
    "lat": 19.294969,
    "lon": -99.213029,
-   "nombre": "Peaje Boulevard Picacho Ajusco",
+   "nombre": "Peaje cerca de Ciudad Universitaria",
    "tipo": "cabina",
-   "via": "Boulevard Picacho Ajusco",
    "localidad": "Ciudad Universitaria",
    "fuente": "armado",
    "cabinas": [
@@ -5474,9 +5473,8 @@
     ]
    },
    "pais": "MX",
-   "via_visible": "Boulevard Picacho Ajusco",
    "punto": "Ciudad Universitaria",
-   "nombre_visible": "Boulevard Picacho Ajusco - Caseta Ciudad Universitaria",
+   "nombre_visible": "Caseta Ciudad Universitaria",
    "confianza": "media"
   },
   {
@@ -5913,9 +5911,8 @@
   {
    "lat": 19.305514,
    "lon": -99.061925,
-   "nombre": "Peaje Avenida Tláhuac",
+   "nombre": "Peaje cerca de La Ciénega",
    "tipo": "cabina",
-   "via": "Avenida Tláhuac",
    "localidad": "La Ciénega",
    "fuente": "armado",
    "cabinas": [
@@ -5941,9 +5938,8 @@
     ]
    },
    "pais": "MX",
-   "via_visible": "Avenida Tláhuac",
    "punto": "La Ciénega",
-   "nombre_visible": "Avenida Tláhuac - Caseta La Ciénega",
+   "nombre_visible": "Caseta La Ciénega",
    "confianza": "media"
   },
   {
@@ -7384,11 +7380,8 @@
   {
    "lat": 19.371566,
    "lon": -99.265428,
-   "nombre": "Pórtico Carretera México - Toluca (Cuota) (MEX 15D) km 0",
+   "nombre": "Pórtico cerca de Santa Lucía Xantepec",
    "tipo": "portico",
-   "via": "Carretera México - Toluca (Cuota)",
-   "ref": "MEX 15D",
-   "km": "0",
    "localidad": "Santa Lucía Xantepec",
    "fuente": "armado",
    "cabinas": [
@@ -7404,9 +7397,9 @@
     "distancia_m": 0.0
    },
    "pais": "MX",
-   "via_visible": "MEX-15D",
+   "via_visible": "Carretera México - Toluca (Cuota)",
    "punto": "Santa Lucía Xantepec",
-   "nombre_visible": "MEX-15D - Pórtico Santa Lucía Xantepec",
+   "nombre_visible": "Carretera México - Toluca (Cuota) - Pórtico Santa Lucía Xantepec",
    "confianza": "media"
   },
   {
@@ -7530,9 +7523,8 @@
   {
    "lat": 19.379576,
    "lon": -99.176752,
-   "nombre": "Peaje Avenida Insurgentes Sur",
+   "nombre": "Peaje cerca de Axotla",
    "tipo": "cabina",
-   "via": "Avenida Insurgentes Sur",
    "localidad": "Axotla",
    "fuente": "armado",
    "cabinas": [
@@ -7548,9 +7540,8 @@
     "distancia_m": 0.0
    },
    "pais": "MX",
-   "via_visible": "Avenida Insurgentes Sur",
    "punto": "Axotla",
-   "nombre_visible": "Avenida Insurgentes Sur - Caseta Axotla",
+   "nombre_visible": "Caseta Axotla",
    "confianza": "media"
   },
   {
@@ -7575,9 +7566,9 @@
     "distancia_m": 0.0
    },
    "pais": "MX",
-   "via_visible": "Periférico Segundo Piso",
+   "via_visible": "Autopista Urbana Norte",
    "punto": "San Antonio Poniente",
-   "nombre_visible": "Periférico Segundo Piso - Caseta San Antonio Poniente",
+   "nombre_visible": "Autopista Urbana Norte - Caseta San Antonio Poniente",
    "confianza": "alta",
    "plaza": "San Antonio Poniente"
   },
@@ -7816,7 +7807,7 @@
    "nombre_visible": "Autopista Urbana Norte - Caseta San Antonio Oriente",
    "confianza": "alta",
    "plaza": "San Antonio Oriente (Autopista Urbana Norte)",
-   "nota": "Posible duplicado de «Periférico Segundo Piso - Caseta San Antonio Poniente»."
+   "nota": "Posible duplicado de «Autopista Urbana Norte - Caseta San Antonio Poniente»."
   },
   {
    "lat": 19.394849,
@@ -20480,10 +20471,8 @@
   {
    "lat": 22.072542,
    "lon": -100.638009,
-   "nombre": "Peaje Carretera San Luis Potosí-Ciudad Valles (MEX 70)",
+   "nombre": "Peaje cerca de Villa de Zaragoza",
    "tipo": "cabina",
-   "via": "Carretera San Luis Potosí-Ciudad Valles",
-   "ref": "MEX 70",
    "localidad": "Villa de Zaragoza",
    "fuente": "armado",
    "cabinas": [
@@ -20500,9 +20489,8 @@
     "distancia_m": 0.0
    },
    "pais": "MX",
-   "via_visible": "MEX-70",
    "punto": "Villa de Zaragoza",
-   "nombre_visible": "MEX-70 - Caseta Villa de Zaragoza",
+   "nombre_visible": "Caseta Villa de Zaragoza",
    "confianza": "media"
   },
   {
@@ -21118,10 +21106,8 @@
   {
    "lat": 22.476101,
    "lon": -100.386245,
-   "nombre": "Peaje Supercarretera Cerritos-Rioverde (SLP 75D)",
+   "nombre": "Peaje cerca de Montaña",
    "tipo": "cabina",
-   "via": "Supercarretera Cerritos-Rioverde",
-   "ref": "SLP 75D",
    "localidad": "Montaña",
    "fuente": "armado",
    "cabinas": [
@@ -26953,10 +26939,8 @@
   {
    "lat": 32.508411,
    "lon": -116.983943,
-   "nombre": "Peaje Boulevard Gustavo Díaz Ordaz (MEX 2)",
+   "nombre": "Peaje cerca de Tijuana",
    "tipo": "cabina",
-   "via": "Boulevard Gustavo Díaz Ordaz",
-   "ref": "MEX 2",
    "localidad": "Tijuana",
    "fuente": "armado",
    "cabinas": [
@@ -27003,9 +26987,9 @@
     ]
    },
    "pais": "MX",
-   "via_visible": "MEX-2",
+   "via_visible": "Boulevard Gustavo Díaz Ordaz",
    "punto": "Tijuana",
-   "nombre_visible": "MEX-2 - Caseta Tijuana",
+   "nombre_visible": "Boulevard Gustavo Díaz Ordaz - Caseta Tijuana",
    "confianza": "media"
   },
   {
@@ -27292,16 +27276,14 @@
    "via_visible": "MEX-1D",
    "punto": "Tijuana",
    "nombre_visible": "MEX-1D - Caseta Tijuana",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "confianza": "media"
   },
   {
    "lat": 32.539873,
    "lon": -117.029004,
-   "nombre": "Peaje Paseo Tijuana (MEX 1D)",
+   "nombre": "Peaje Paseo Tijuana",
    "tipo": "cabina",
    "via": "Paseo Tijuana",
-   "ref": "MEX 1D",
    "localidad": "Tijuana",
    "fuente": "armado",
    "cabinas": [
@@ -27329,11 +27311,10 @@
     ]
    },
    "pais": "MX",
-   "via_visible": "MEX-1D",
+   "via_visible": "Paseo Tijuana",
    "punto": "Tijuana",
-   "nombre_visible": "MEX-1D - Caseta Tijuana",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "nombre_visible": "Paseo Tijuana - Caseta Tijuana",
+   "confianza": "media"
   },
   {
    "lat": 32.542976,
@@ -27395,10 +27376,8 @@
   {
    "lat": 32.546551,
    "lon": -116.937606,
-   "nombre": "Peaje Boulevard Garita de Otay (MEX 2D Spur)",
+   "nombre": "Peaje cerca de Tijuana (2)",
    "tipo": "cabina",
-   "via": "Boulevard Garita de Otay",
-   "ref": "MEX 2D Spur",
    "localidad": "Tijuana",
    "fuente": "armado",
    "cabinas": [
@@ -27414,9 +27393,9 @@
     "distancia_m": 0.0
    },
    "pais": "MX",
-   "via_visible": "MEX-2D",
+   "via_visible": "Boulevard Garita de Otay",
    "punto": "Tijuana",
-   "nombre_visible": "MEX-2D - Caseta Tijuana",
+   "nombre_visible": "Boulevard Garita de Otay - Caseta Tijuana",
    "confianza": "media"
   },
   {
@@ -27633,10 +27612,8 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
-<<<<<<< HEAD
- "generado": "2026-11-01T12:47Z",
-=======
- "generado": "2026-11-01T15:54Z",
->>>>>>> 544044a (Nombres de estaciones (MX) actualizados automáticamente)
- "alertas": []
+ "generado": "2026-11-01T18:58Z",
+ "alertas": [
+  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+ ]
 }
