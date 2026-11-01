@@ -8,7 +8,19 @@
   "armado": 2,
   "total": 2,
   "confianza_baja": 0,
-  "excluidas": 0
+  "excluidas": 0,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 2,
+   "corregidas": 0,
+   "sin_referencia": 0,
+   "corrida_anterior": {
+    "ok": 2,
+    "a_mas_de_15_m": 0,
+    "sin_referencia": 0,
+    "total": 2
+   }
+  }
  },
  "estaciones": [
   {
@@ -18,6 +30,19 @@
    "tipo": "cabina",
    "localidad": "Rota",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 12.493871,
+     "lon": -86.731332,
+     "n": 1,
+     "rumbo": 82,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "NI",
    "punto": "Rota",
    "nombre_visible": "Peaje Rota",
@@ -32,6 +57,19 @@
    "ref": "NIC-17",
    "localidad": "Villa Siquia",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 12.736753,
+     "lon": -85.013951,
+     "n": 1,
+     "rumbo": 65,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "NI",
    "via_visible": "NIC-17",
    "punto": "Villa Siquia",
@@ -40,6 +78,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-10-29T22:48Z",
+ "generado": "2026-11-01T16:17Z",
  "alertas": []
 }
