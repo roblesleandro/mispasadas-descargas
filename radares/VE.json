@@ -1,25 +1,25 @@
 {
  "version": "ve-2026-11-01",
  "pais": "VE",
- "generado": "2026-11-01T13:55:32+00:00",
+ "generado": "2026-11-01T15:53:45+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial."
  ],
  "resumen": {
-  "total": 15,
+  "total": 16,
   "oficiales": 0,
-  "osm": 15,
+  "osm": 16,
   "por_tipo": {
    "FIXED_SPEED": 15,
    "AVERAGE_SPEED_SECTION": 0,
    "RED_LIGHT_CAMERA": 0,
-   "VEHICLE_CAMERA": 0
+   "VEHICLE_CAMERA": 1
   },
-  "con_limite": 15,
+  "con_limite": 16,
   "limite_revisar": 0,
   "limite_desconocido": 0,
-  "revisados_esta_corrida": 0,
+  "revisados_esta_corrida": 1,
   "sin_via": 0,
   "via_completada_esta_corrida": 0,
   "limites_dudosos_sacados": 0,
@@ -32,21 +32,21 @@
    "SENDA": 0,
    "INFRACCIONES": 0
   },
-  "monitoreo": 0,
+  "monitoreo": 1,
   "posicion": {
    "umbral_m": 15.0,
    "radio_busqueda_m": 150.0,
-   "ok": 15,
+   "ok": 16,
    "corregidas": 0,
    "sin_referencia": 0,
-   "de_osm": 15,
+   "de_osm": 16,
    "corrida_anterior": {
     "umbral_m": 15.0,
     "radio_busqueda_m": 150.0,
-    "ok": 16,
+    "ok": 15,
     "corregidas": 0,
     "sin_referencia": 0,
-    "de_osm": 16
+    "de_osm": 15
    }
   }
  },
@@ -360,6 +360,35 @@
    },
    "road_label": "Autopista Regional del Centro",
    "display_name": "Autopista Regional del Centro - Radar",
+   "country": "VE"
+  },
+  {
+   "radar_id": "osm-ve-n14137549002",
+   "name": "Calle Manuel Díaz - Cámara de tránsito",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": 10.476035,
+   "longitude": -66.89326,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14137549002",
+   "source_version": "ve-2026-11-01",
+   "confidence_score": 50,
+   "controls": [],
+   "heading_min": 325.0,
+   "heading_max": 35.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14137549002"
+   },
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "secondary",
+   "speed_limit_kmh": 50,
+   "speed_limit_source": "OSM_PROPIO",
+   "road_label": "Calle Manuel Díaz",
+   "display_name": "Calle Manuel Díaz - Cámara de tránsito",
    "country": "VE"
   },
   {
