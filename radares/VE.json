@@ -1,22 +1,22 @@
 {
- "version": "ve-2026-10-31",
+ "version": "ve-2026-11-01",
  "pais": "VE",
- "generado": "2026-10-31T13:39:58+00:00",
+ "generado": "2026-11-01T13:55:32+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial."
  ],
  "resumen": {
-  "total": 16,
+  "total": 15,
   "oficiales": 0,
-  "osm": 16,
+  "osm": 15,
   "por_tipo": {
    "FIXED_SPEED": 15,
    "AVERAGE_SPEED_SECTION": 0,
    "RED_LIGHT_CAMERA": 0,
-   "VEHICLE_CAMERA": 1
+   "VEHICLE_CAMERA": 0
   },
-  "con_limite": 16,
+  "con_limite": 15,
   "limite_revisar": 0,
   "limite_desconocido": 0,
   "revisados_esta_corrida": 0,
@@ -32,7 +32,23 @@
    "SENDA": 0,
    "INFRACCIONES": 0
   },
-  "monitoreo": 1
+  "monitoreo": 0,
+  "posicion": {
+   "umbral_m": 15.0,
+   "radio_busqueda_m": 150.0,
+   "ok": 15,
+   "corregidas": 0,
+   "sin_referencia": 0,
+   "de_osm": 15,
+   "corrida_anterior": {
+    "umbral_m": 15.0,
+    "radio_busqueda_m": 150.0,
+    "ok": 16,
+    "corregidas": 0,
+    "sin_referencia": 0,
+    "de_osm": 16
+   }
+  }
  },
  "alertas": [],
  "radars": [
@@ -45,7 +61,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921864",
-   "source_version": "ve-2026-10-31",
+   "source_version": "ve-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -55,6 +71,11 @@
    ],
    "heading_min": 235.0,
    "heading_max": 305.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11742921864"
+   },
    "road_label": "Avenida Rotaria",
    "display_name": "Avenida Rotaria - Radar",
    "country": "VE"
@@ -68,13 +89,18 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12219583983",
-   "source_version": "ve-2026-10-31",
+   "source_version": "ve-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
    "heading_min": 45.0,
    "heading_max": 115.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12219583983"
+   },
    "road_label": "Calle 2",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -93,7 +119,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921862",
-   "source_version": "ve-2026-10-31",
+   "source_version": "ve-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -103,6 +129,11 @@
    ],
    "heading_min": 235.0,
    "heading_max": 305.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11742921862"
+   },
    "road_label": "Calle 2",
    "display_name": "Calle 2 - Radar",
    "country": "VE"
@@ -116,11 +147,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921860",
-   "source_version": "ve-2026-10-31",
+   "source_version": "ve-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11742921860"
+   },
    "road_label": "Calle 2",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -139,11 +175,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921858",
-   "source_version": "ve-2026-10-31",
+   "source_version": "ve-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11742921858"
+   },
    "road_label": "Calle 9",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -162,11 +203,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921855",
-   "source_version": "ve-2026-10-31",
+   "source_version": "ve-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11742921855"
+   },
    "road_label": "Avenida 19 de Abril",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -185,11 +231,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921853",
-   "source_version": "ve-2026-10-31",
+   "source_version": "ve-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11742921853"
+   },
    "road_label": "Avenida 19 de Abril",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -208,11 +259,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921848",
-   "source_version": "ve-2026-10-31",
+   "source_version": "ve-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11742921848"
+   },
    "road_label": "Calle Quinimari",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -231,11 +287,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921850",
-   "source_version": "ve-2026-10-31",
+   "source_version": "ve-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11742921850"
+   },
    "road_label": "Avenida 19 de Abril",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
@@ -254,7 +315,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1208753545",
-   "source_version": "ve-2026-10-31",
+   "source_version": "ve-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -264,6 +325,11 @@
    ],
    "heading_min": 10.0,
    "heading_max": 80.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/1208753545"
+   },
    "road_label": "R-17",
    "display_name": "R-17 - Radar",
    "country": "VE"
@@ -277,7 +343,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/260454169",
-   "source_version": "ve-2026-10-31",
+   "source_version": "ve-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -287,31 +353,13 @@
    ],
    "heading_min": 145.0,
    "heading_max": 215.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/260454169"
+   },
    "road_label": "Autopista Regional del Centro",
    "display_name": "Autopista Regional del Centro - Radar",
-   "country": "VE"
-  },
-  {
-   "radar_id": "osm-ve-n14137549002",
-   "name": "Calle Manuel Díaz - Cámara de tránsito",
-   "radar_type": "VEHICLE_CAMERA",
-   "latitude": 10.476035,
-   "longitude": -66.89326,
-   "status": "UNVERIFIED",
-   "source": "OSM",
-   "source_reference": "node/14137549002",
-   "source_version": "ve-2026-10-31",
-   "confidence_score": 50,
-   "controls": [],
-   "heading_min": 325.0,
-   "heading_max": 35.0,
-   "road_label": "Calle Manuel Díaz",
-   "speed_limit_kmh": 50,
-   "speed_limit_source": "OSM_PROPIO",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
-   "speed_limit_checked": "2026-10-30",
-   "display_name": "Calle Manuel Díaz - Cámara de tránsito",
    "country": "VE"
   },
   {
@@ -323,7 +371,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2831839248",
-   "source_version": "ve-2026-10-31",
+   "source_version": "ve-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -333,6 +381,11 @@
    ],
    "heading_min": 145.0,
    "heading_max": 215.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/2831839248"
+   },
    "road_label": "Autopista Gran Cacique Guaicaipuro",
    "display_name": "Autopista Gran Cacique Guaicaipuro - Radar",
    "country": "VE"
@@ -346,7 +399,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/315078018",
-   "source_version": "ve-2026-10-31",
+   "source_version": "ve-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -356,6 +409,11 @@
    ],
    "heading_min": 235.0,
    "heading_max": 305.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/315078018"
+   },
    "road_label": "Local 8",
    "display_name": "Local 8 - Radar",
    "country": "VE"
@@ -369,7 +427,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3105400761",
-   "source_version": "ve-2026-10-31",
+   "source_version": "ve-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -379,6 +437,11 @@
    ],
    "heading_min": 55.0,
    "heading_max": 125.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/3105400761"
+   },
    "road_label": "Local 8",
    "display_name": "Local 8 - Radar",
    "country": "VE"
@@ -392,7 +455,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6597737933",
-   "source_version": "ve-2026-10-31",
+   "source_version": "ve-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -402,6 +465,11 @@
    ],
    "heading_min": 55.0,
    "heading_max": 125.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/6597737933"
+   },
    "road_label": "Local 8",
    "display_name": "Local 8 - Radar",
    "country": "VE"
