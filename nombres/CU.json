@@ -456,6 +456,10 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
+<<<<<<< HEAD
  "generado": "2026-11-01T16:30Z",
+=======
+ "generado": "2026-11-01T19:39Z",
+>>>>>>> 340395c (Nombres de estaciones (CU) actualizados automáticamente)
  "alertas": []
 }
