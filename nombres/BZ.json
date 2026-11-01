@@ -8,7 +8,19 @@
   "armado": 2,
   "total": 3,
   "confianza_baja": 0,
-  "excluidas": 0
+  "excluidas": 0,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 3,
+   "corregidas": 0,
+   "sin_referencia": 0,
+   "corrida_anterior": {
+    "ok": 3,
+    "a_mas_de_15_m": 0,
+    "sin_referencia": 0,
+    "total": 3
+   }
+  }
  },
  "estaciones": [
   {
@@ -19,6 +31,19 @@
    "via": "Caracol Road",
    "localidad": "San Antonio",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 17.070999,
+     "lon": -88.987439,
+     "n": 1,
+     "rumbo": 3,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "BZ",
    "via_visible": "Caracol Road",
    "punto": "San Antonio",
@@ -31,6 +56,17 @@
    "nombre": "Collection Booth",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 17.159415,
+     "lon": -89.069601,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "BZ",
    "punto": "Collection Booth",
    "nombre_visible": "Toll Collection Booth",
@@ -45,6 +81,19 @@
    "ref": "AR2",
    "localidad": "Ladyville",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 17.548975,
+     "lon": -88.302755,
+     "n": 1,
+     "rumbo": 13,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "BZ",
    "via_visible": "AR2",
    "punto": "Ladyville",
@@ -53,6 +102,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-10-30T01:20Z",
+ "generado": "2026-11-01T16:29Z",
  "alertas": []
 }
