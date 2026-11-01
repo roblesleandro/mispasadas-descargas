@@ -8,12 +8,24 @@
   "armado": 152,
   "total": 212,
   "confianza_baja": 0,
-  "excluidas": 0
+  "excluidas": 0,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 164,
+   "corregidas": 48,
+   "sin_referencia": 0,
+   "corrida_anterior": {
+    "ok": 164,
+    "a_mas_de_15_m": 48,
+    "sin_referencia": 0,
+    "total": 212
+   }
+  }
  },
  "estaciones": [
   {
-   "lat": 37.195891,
-   "lon": -8.227202,
+   "lat": 37.195771,
+   "lon": -8.22741,
    "nombre": "Peaje Autoestrada do Sul (A 2) km 235",
    "tipo": "cabina",
    "via": "Autoestrada do Sul",
@@ -21,6 +33,28 @@
    "km": "235",
    "localidad": "Paderne",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 37.195771,
+     "lon": -8.22741,
+     "n": 4,
+     "rumbo": 144
+    },
+    {
+     "lat": 37.19601,
+     "lon": -8.226993,
+     "n": 4,
+     "rumbo": 324
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 23,
+    "centro_plaza": [
+     37.195891,
+     -8.227202
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Sul",
    "punto": "Paderne",
@@ -34,6 +68,24 @@
    "tipo": "cabina",
    "localidad": "São Bartolomeu de Messines",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 37.253489,
+     "lon": -8.259391,
+     "n": 2,
+     "rumbo": 100
+    },
+    {
+     "lat": 37.253641,
+     "lon": -8.259361,
+     "n": 2,
+     "rumbo": 279
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.5
+   },
    "pais": "PT",
    "punto": "São Bartolomeu de Messines",
    "nombre_visible": "Portagem São Bartolomeu de Messines",
@@ -46,6 +98,24 @@
    "tipo": "cabina",
    "localidad": "Gomes Aires",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 37.520712,
+     "lon": -8.175414,
+     "n": 2,
+     "rumbo": 96
+    },
+    {
+     "lat": 37.520843,
+     "lon": -8.17539,
+     "n": 2,
+     "rumbo": 277
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.3
+   },
    "pais": "PT",
    "punto": "Gomes Aires",
    "nombre_visible": "Portagem Gomes Aires",
@@ -57,6 +127,24 @@
    "nombre": "Portagem de Castro Verde - Ourique",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 37.667632,
+     "lon": -8.154583,
+     "n": 2,
+     "rumbo": 33
+    },
+    {
+     "lat": 37.667716,
+     "lon": -8.154782,
+     "n": 2,
+     "rumbo": 214
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.9
+   },
    "pais": "PT",
    "punto": "Portagem de Castro Verde - Ourique",
    "nombre_visible": "Portagem de Castro Verde - Ourique",
@@ -70,6 +158,24 @@
    "ref": "ER 261",
    "localidad": "Rio de Moinhos",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 37.895428,
+     "lon": -8.235922,
+     "n": 2,
+     "rumbo": 359
+    },
+    {
+     "lat": 37.89543,
+     "lon": -8.236054,
+     "n": 2,
+     "rumbo": 179
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.8
+   },
    "pais": "PT",
    "via_visible": "ER261",
    "punto": "Rio de Moinhos",
@@ -86,6 +192,24 @@
    "km": "20",
    "localidad": "Azinheira dos Barros",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.119386,
+     "lon": -8.414542,
+     "n": 4,
+     "rumbo": 171
+    },
+    {
+     "lat": 38.119422,
+     "lon": -8.414206,
+     "n": 4,
+     "rumbo": 350
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 14.8
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Baixo Alentejo",
    "punto": "Azinheira dos Barros",
@@ -95,15 +219,33 @@
   {
    "lat": 38.223177,
    "lon": -8.525157,
-   "nombre": "Peaje IC 33",
+   "nombre": "Peaje IP 8",
    "tipo": "cabina",
-   "ref": "IC 33;IP 8",
+   "ref": "IP 8;IC 33",
    "localidad": "Grândola",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.22311,
+     "lon": -8.525125,
+     "n": 3,
+     "rumbo": 70
+    },
+    {
+     "lat": 38.223244,
+     "lon": -8.525189,
+     "n": 3,
+     "rumbo": 250
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.9
+   },
    "pais": "PT",
-   "via_visible": "IC33",
+   "via_visible": "IP8",
    "punto": "Grândola",
-   "nombre_visible": "IC33 - Portagem Grândola",
+   "nombre_visible": "IP8 - Portagem Grândola",
    "confianza": "media"
   },
   {
@@ -115,6 +257,29 @@
    "ref": "A 2",
    "localidad": "Alcácer do Sal",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.416166,
+     "lon": -8.514023,
+     "n": 2,
+     "rumbo": 45
+    },
+    {
+     "lat": 38.416235,
+     "lon": -8.514105,
+     "n": 1
+    },
+    {
+     "lat": 38.41627,
+     "lon": -8.514148,
+     "n": 2,
+     "rumbo": 226
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.9
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Sul",
    "punto": "Alcácer do Sal",
@@ -129,6 +294,18 @@
    "via": "Avenida Jaime Rebelo",
    "localidad": "Setúbal",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.521809,
+     "lon": -8.88721,
+     "n": 1,
+     "rumbo": 56
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "Avenida Jaime Rebelo",
    "punto": "Setúbal",
@@ -143,6 +320,29 @@
    "via": "Autoestrada do Sul do Tejo",
    "ref": "A 12",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.56855,
+     "lon": -8.866554,
+     "n": 1
+    },
+    {
+     "lat": 38.568553,
+     "lon": -8.866238,
+     "n": 4,
+     "rumbo": 2
+    },
+    {
+     "lat": 38.568555,
+     "lon": -8.866714,
+     "n": 4,
+     "rumbo": 182
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.1
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Sul do Tejo",
    "punto": "Setúbal",
@@ -150,14 +350,48 @@
    "confianza": "alta"
   },
   {
-   "lat": 38.581009,
-   "lon": -9.015399,
+   "lat": 38.579282,
+   "lon": -9.013367,
    "nombre": "Peaje Autoestrada do Sul (A 2)",
    "tipo": "cabina",
    "via": "Autoestrada do Sul",
    "ref": "A 2",
    "localidad": "Coina",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.579045,
+     "lon": -9.013306,
+     "n": 2,
+     "rumbo": 82
+    },
+    {
+     "lat": 38.579282,
+     "lon": -9.013367,
+     "n": 2,
+     "rumbo": 261
+    },
+    {
+     "lat": 38.582835,
+     "lon": -9.017619,
+     "n": 2,
+     "rumbo": 171
+    },
+    {
+     "lat": 38.582874,
+     "lon": -9.017305,
+     "n": 2,
+     "rumbo": 354
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 260,
+    "centro_plaza": [
+     38.581009,
+     -9.015399
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Sul",
    "punto": "Coina",
@@ -174,6 +408,24 @@
    "km": "11",
    "localidad": "Aires",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.584388,
+     "lon": -8.888617,
+     "n": 2,
+     "rumbo": 112
+    },
+    {
+     "lat": 38.584493,
+     "lon": -8.888557,
+     "n": 2,
+     "rumbo": 292
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.3
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Sul",
    "punto": "Aires",
@@ -187,6 +439,29 @@
    "tipo": "cabina",
    "localidad": "Landeira",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.597745,
+     "lon": -8.673739,
+     "n": 2,
+     "rumbo": 175
+    },
+    {
+     "lat": 38.597746,
+     "lon": -8.673646,
+     "n": 1
+    },
+    {
+     "lat": 38.597752,
+     "lon": -8.673542,
+     "n": 2,
+     "rumbo": 355
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.4
+   },
    "pais": "PT",
    "punto": "Landeira",
    "nombre_visible": "Portagem Landeira",
@@ -202,6 +477,24 @@
    "km": "0",
    "localidad": "Coina",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.598569,
+     "lon": -9.040216,
+     "n": 1,
+     "rumbo": 86
+    },
+    {
+     "lat": 38.5987,
+     "lon": -9.040245,
+     "n": 1,
+     "rumbo": 267
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.3
+   },
    "pais": "PT",
    "via_visible": "A33",
    "punto": "Coina",
@@ -215,6 +508,24 @@
    "tipo": "cabina",
    "localidad": "Guadalupe",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.598772,
+     "lon": -8.023241,
+     "n": 2,
+     "rumbo": 162
+    },
+    {
+     "lat": 38.59882,
+     "lon": -8.023024,
+     "n": 2,
+     "rumbo": 343
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.8
+   },
    "pais": "PT",
    "punto": "Guadalupe",
    "nombre_visible": "Portagem Guadalupe",
@@ -230,6 +541,24 @@
    "km": "10",
    "localidad": "Amora",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.60274,
+     "lon": -9.120709,
+     "n": 1,
+     "rumbo": 86
+    },
+    {
+     "lat": 38.602857,
+     "lon": -9.120717,
+     "n": 1,
+     "rumbo": 266
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.4
+   },
    "pais": "PT",
    "via_visible": "A33",
    "punto": "Amora",
@@ -245,6 +574,24 @@
    "ref": "A 33",
    "localidad": "Charneca de Caparica",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.620663,
+     "lon": -9.182408,
+     "n": 1,
+     "rumbo": 128
+    },
+    {
+     "lat": 38.620746,
+     "lon": -9.182304,
+     "n": 1,
+     "rumbo": 310
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.4
+   },
    "pais": "PT",
    "via_visible": "A33",
    "punto": "Charneca de Caparica",
@@ -260,6 +607,24 @@
    "ref": "IP 2",
    "localidad": "Canaviais",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.643503,
+     "lon": -7.855352,
+     "n": 2,
+     "rumbo": 154
+    },
+    {
+     "lat": 38.643563,
+     "lon": -7.855197,
+     "n": 2,
+     "rumbo": 335
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.5
+   },
    "pais": "PT",
    "via_visible": "IP2",
    "punto": "Canaviais",
@@ -273,18 +638,58 @@
    "tipo": "cabina",
    "localidad": "Vendas Novas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.652423,
+     "lon": -8.433053,
+     "n": 2,
+     "rumbo": 2
+    },
+    {
+     "lat": 38.652431,
+     "lon": -8.433203,
+     "n": 2,
+     "rumbo": 183
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.5
+   },
    "pais": "PT",
    "punto": "Vendas Novas",
    "nombre_visible": "Portagem Vendas Novas",
    "confianza": "media"
   },
   {
-   "lat": 38.655675,
-   "lon": -8.897511,
+   "lat": 38.655801,
+   "lon": -8.897605,
    "nombre": "Peaje cerca de Pinhal Novo",
    "tipo": "cabina",
    "localidad": "Pinhal Novo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.655549,
+     "lon": -8.897417,
+     "n": 4,
+     "rumbo": 62
+    },
+    {
+     "lat": 38.655801,
+     "lon": -8.897605,
+     "n": 4,
+     "rumbo": 242
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 16,
+    "centro_plaza": [
+     38.655675,
+     -8.897511
+    ]
+   },
    "pais": "PT",
    "punto": "Pinhal Novo",
    "nombre_visible": "Portagem Pinhal Novo",
@@ -299,6 +704,17 @@
    "ref": "EM 1008",
    "localidad": "Costa da Caparica",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.656624,
+     "lon": -9.221143,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "EM 1008",
    "punto": "Costa da Caparica",
@@ -313,6 +729,24 @@
    "via": "Autoestrada do Sul do Tejo",
    "ref": "A 12",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.66196,
+     "lon": -8.894843,
+     "n": 2,
+     "rumbo": 173
+    },
+    {
+     "lat": 38.661993,
+     "lon": -8.894544,
+     "n": 2,
+     "rumbo": 353
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.1
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Sul do Tejo",
    "punto": "Pinhal Novo",
@@ -327,6 +761,24 @@
    "ref": "EN 114",
    "localidad": "Montemor-o-Novo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.664416,
+     "lon": -8.231199,
+     "n": 3,
+     "rumbo": 143
+    },
+    {
+     "lat": 38.664485,
+     "lon": -8.23109,
+     "n": 2,
+     "rumbo": 325
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.9
+   },
    "pais": "PT",
    "via_visible": "EN114",
    "punto": "Montemor-o-Novo",
@@ -340,6 +792,24 @@
    "tipo": "cabina",
    "localidad": "Montemor-o-Novo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.665164,
+     "lon": -8.166939,
+     "n": 2,
+     "rumbo": 115
+    },
+    {
+     "lat": 38.665259,
+     "lon": -8.166851,
+     "n": 2,
+     "rumbo": 294
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.5
+   },
    "pais": "PT",
    "punto": "Montemor-o-Novo",
    "nombre_visible": "Portagem Montemor-o-Novo",
@@ -353,6 +823,18 @@
    "via": "Embarque de veículos",
    "localidad": "Trafaria",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.674303,
+     "lon": -9.23075,
+     "n": 1,
+     "rumbo": 341
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "Embarque de veículos",
    "punto": "Trafaria",
@@ -367,6 +849,23 @@
    "via": "Via Verde",
    "ref": "A 2",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.675973,
+     "lon": -9.173922,
+     "n": 4,
+     "rumbo": 350
+    },
+    {
+     "lat": 38.675975,
+     "lon": -9.173962,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.7
+   },
    "pais": "PT",
    "via_visible": "A2",
    "punto": "Portagem da Ponte 25 de Abril",
@@ -381,6 +880,24 @@
    "ref": "A 13",
    "localidad": "Pegões",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.685987,
+     "lon": -8.636337,
+     "n": 3,
+     "rumbo": 51
+    },
+    {
+     "lat": 38.686081,
+     "lon": -8.636439,
+     "n": 2,
+     "rumbo": 231
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.4
+   },
    "pais": "PT",
    "via_visible": "A13",
    "punto": "Pegões",
@@ -395,6 +912,17 @@
    "via": "Avenida de Ceuta",
    "localidad": "Alcântara",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.706322,
+     "lon": -9.171898,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "Avenida de Ceuta",
    "punto": "Alcântara",
@@ -402,13 +930,57 @@
    "confianza": "media"
   },
   {
-   "lat": 38.707326,
-   "lon": -9.336055,
+   "lat": 38.707751,
+   "lon": -9.334492,
    "nombre": "Portagem de Carcavelos",
    "tipo": "cabina",
    "via": "Autoestrada da Costa do Estoril",
    "ref": "A 5",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.705445,
+     "lon": -9.340747,
+     "n": 1
+    },
+    {
+     "lat": 38.70545,
+     "lon": -9.340833,
+     "n": 1,
+     "rumbo": 183
+    },
+    {
+     "lat": 38.70545,
+     "lon": -9.340666,
+     "n": 1,
+     "rumbo": 2
+    },
+    {
+     "lat": 38.707751,
+     "lon": -9.334492,
+     "n": 4,
+     "rumbo": 89
+    },
+    {
+     "lat": 38.707934,
+     "lon": -9.334493,
+     "n": 1
+    },
+    {
+     "lat": 38.708159,
+     "lon": -9.334489,
+     "n": 4,
+     "rumbo": 269
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 144,
+    "centro_plaza": [
+     38.707326,
+     -9.336055
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada da Costa do Estoril",
    "punto": "Portagem de Carcavelos",
@@ -424,6 +996,24 @@
    "ref": "A 5",
    "localidad": "Porto Salvo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.711679,
+     "lon": -9.301615,
+     "n": 1,
+     "rumbo": 3
+    },
+    {
+     "lat": 38.711687,
+     "lon": -9.301818,
+     "n": 1,
+     "rumbo": 182
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.8
+   },
    "pais": "PT",
    "via_visible": "Autoestrada da Costa do Estoril",
    "punto": "Porto Salvo",
@@ -440,6 +1030,18 @@
    "ref": "A 5",
    "localidad": "Porto Salvo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.71358,
+     "lon": -9.292745,
+     "n": 2,
+     "rumbo": 270
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "Autoestrada da Costa do Estoril",
    "punto": "Porto Salvo",
@@ -456,6 +1058,24 @@
    "ref": "A 5;IC 15",
    "localidad": "Estoril",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.716274,
+     "lon": -9.38957,
+     "n": 1,
+     "rumbo": 189
+    },
+    {
+     "lat": 38.716431,
+     "lon": -9.389356,
+     "n": 1,
+     "rumbo": 9
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.7
+   },
    "pais": "PT",
    "via_visible": "Autoestrada da Costa do Estoril",
    "punto": "Estoril",
@@ -471,6 +1091,18 @@
    "ref": "PVG",
    "localidad": "São Francisco",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.720102,
+     "lon": -8.958642,
+     "n": 3,
+     "rumbo": 293
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "PVG",
    "punto": "São Francisco",
@@ -478,14 +1110,48 @@
    "confianza": "media"
   },
   {
-   "lat": 38.744755,
-   "lon": -9.275048,
+   "lat": 38.745606,
+   "lon": -9.274386,
    "nombre": "Peaje Circular Regional Exterior de Lisboa (CREL) (A 9)",
    "tipo": "cabina",
    "via": "Circular Regional Exterior de Lisboa (CREL)",
    "ref": "A 9",
    "localidad": "Barcarena",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.742865,
+     "lon": -9.276516,
+     "n": 1,
+     "rumbo": 161
+    },
+    {
+     "lat": 38.742869,
+     "lon": -9.275338,
+     "n": 1,
+     "rumbo": 26
+    },
+    {
+     "lat": 38.745606,
+     "lon": -9.274386,
+     "n": 2,
+     "rumbo": 28
+    },
+    {
+     "lat": 38.745793,
+     "lon": -9.274831,
+     "n": 2,
+     "rumbo": 206
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 110,
+    "centro_plaza": [
+     38.744755,
+     -9.275048
+    ]
+   },
    "pais": "PT",
    "via_visible": "A9",
    "punto": "Barcarena",
@@ -500,6 +1166,23 @@
    "via": "Avenida Santos e Castro",
    "localidad": "Ameixoeira",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.76768,
+     "lon": -9.146731,
+     "n": 1,
+     "rumbo": 163
+    },
+    {
+     "lat": 38.767796,
+     "lon": -9.146869,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.8
+   },
    "pais": "PT",
    "via_visible": "Avenida Santos e Castro",
    "punto": "Ameixoeira",
@@ -507,8 +1190,8 @@
    "confianza": "media"
   },
   {
-   "lat": 38.771202,
-   "lon": -9.275016,
+   "lat": 38.771437,
+   "lon": -9.274878,
    "nombre": "Peaje Circular Exterior da Área Metropolitana de Lisboa (A 16) km 7",
    "tipo": "cabina",
    "via": "Circular Exterior da Área Metropolitana de Lisboa",
@@ -516,6 +1199,28 @@
    "km": "7",
    "localidad": "Belas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.770967,
+     "lon": -9.275154,
+     "n": 2,
+     "rumbo": 114
+    },
+    {
+     "lat": 38.771437,
+     "lon": -9.274878,
+     "n": 2,
+     "rumbo": 294
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 29,
+    "centro_plaza": [
+     38.771202,
+     -9.275016
+    ]
+   },
    "pais": "PT",
    "via_visible": "A16",
    "punto": "Belas",
@@ -523,8 +1228,8 @@
    "confianza": "media"
   },
   {
-   "lat": 38.778611,
-   "lon": -9.364281,
+   "lat": 38.778564,
+   "lon": -9.364115,
    "nombre": "Peaje Circular Exterior da Área Metropolitana de Lisboa (A 16) km 1",
    "tipo": "cabina",
    "via": "Circular Exterior da Área Metropolitana de Lisboa",
@@ -532,6 +1237,28 @@
    "km": "1",
    "localidad": "Sintra",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.778564,
+     "lon": -9.364115,
+     "n": 1,
+     "rumbo": 17
+    },
+    {
+     "lat": 38.778658,
+     "lon": -9.364447,
+     "n": 1,
+     "rumbo": 199
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 15,
+    "centro_plaza": [
+     38.778611,
+     -9.364281
+    ]
+   },
    "pais": "PT",
    "via_visible": "A16",
    "punto": "Sintra",
@@ -547,6 +1274,24 @@
    "ref": "A 9",
    "localidad": "A-da-Beja",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.788762,
+     "lon": -9.240088,
+     "n": 2,
+     "rumbo": 13
+    },
+    {
+     "lat": 38.788807,
+     "lon": -9.240344,
+     "n": 2,
+     "rumbo": 194
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.4
+   },
    "pais": "PT",
    "via_visible": "A9",
    "punto": "A-da-Beja",
@@ -562,6 +1307,24 @@
    "ref": "A 6;IP 7",
    "localidad": "Borba",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.81545,
+     "lon": -7.474433,
+     "n": 2,
+     "rumbo": 171
+    },
+    {
+     "lat": 38.815468,
+     "lon": -7.474264,
+     "n": 2,
+     "rumbo": 351
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.4
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Alentejo Central",
    "punto": "Borba",
@@ -577,6 +1340,24 @@
    "ref": "A 16",
    "localidad": "Algueirão-Mem Martins",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.817912,
+     "lon": -9.331674,
+     "n": 1,
+     "rumbo": 78
+    },
+    {
+     "lat": 38.818115,
+     "lon": -9.331733,
+     "n": 1,
+     "rumbo": 258
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.5
+   },
    "pais": "PT",
    "via_visible": "A16",
    "punto": "Algueirão-Mem Martins",
@@ -593,6 +1374,24 @@
    "km": "7",
    "localidad": "Ramada",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.819776,
+     "lon": -9.187399,
+     "n": 1,
+     "rumbo": 147
+    },
+    {
+     "lat": 38.819932,
+     "lon": -9.187122,
+     "n": 1,
+     "rumbo": 328
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 14.8
+   },
    "pais": "PT",
    "via_visible": "A40",
    "punto": "Ramada",
@@ -606,6 +1405,24 @@
    "tipo": "cabina",
    "ref": "IP 2",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.823608,
+     "lon": -7.608542,
+     "n": 2,
+     "rumbo": 153
+    },
+    {
+     "lat": 38.823654,
+     "lon": -7.608387,
+     "n": 2,
+     "rumbo": 333
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.1
+   },
    "pais": "PT",
    "via_visible": "IP2",
    "punto": "Portagem de Estremoz",
@@ -618,6 +1435,24 @@
    "nombre": "Santo Estevão (A13)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.84074,
+     "lon": -8.727837,
+     "n": 2,
+     "rumbo": 143
+    },
+    {
+     "lat": 38.840823,
+     "lon": -8.727721,
+     "n": 3,
+     "rumbo": 322
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.5
+   },
    "pais": "PT",
    "punto": "Santo Estevão (A13)",
    "nombre_visible": "Portagem Santo Estevão (A13)",
@@ -631,6 +1466,29 @@
    "via": "Autoestrada do Oeste",
    "ref": "A 8",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.843118,
+     "lon": -9.16825,
+     "n": 2,
+     "rumbo": 147
+    },
+    {
+     "lat": 38.84323,
+     "lon": -9.167999,
+     "n": 1
+    },
+    {
+     "lat": 38.843275,
+     "lon": -9.167901,
+     "n": 1,
+     "rumbo": 331
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.1
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Oeste",
    "punto": "Loures (A8)",
@@ -645,6 +1503,17 @@
    "ref": "EN 115-5;ER 19",
    "localidad": "São Julião do Tojal",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.86409,
+     "lon": -9.110124,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "EN 115-5",
    "punto": "São Julião do Tojal",
@@ -661,6 +1530,24 @@
    "km": "24,8",
    "localidad": "São Julião do Tojal",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.866146,
+     "lon": -9.138539,
+     "n": 1,
+     "rumbo": 91
+    },
+    {
+     "lat": 38.866298,
+     "lon": -9.138529,
+     "n": 1,
+     "rumbo": 269
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.4
+   },
    "pais": "PT",
    "via_visible": "A9",
    "punto": "São Julião do Tojal",
@@ -676,6 +1563,29 @@
    "ref": "A 6",
    "localidad": "Vila Boim",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.878369,
+     "lon": -7.258136,
+     "n": 5,
+     "rumbo": 73
+    },
+    {
+     "lat": 38.87846,
+     "lon": -7.258176,
+     "n": 1
+    },
+    {
+     "lat": 38.878571,
+     "lon": -7.258218,
+     "n": 4,
+     "rumbo": 253
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.3
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Alentejo Central",
    "punto": "Vila Boim",
@@ -683,14 +1593,36 @@
    "confianza": "media"
   },
   {
-   "lat": 38.887667,
-   "lon": -9.054669,
+   "lat": 38.887499,
+   "lon": -9.054464,
    "nombre": "Peaje Autoestrada do Norte (A 1)",
    "tipo": "cabina",
    "via": "Autoestrada do Norte",
    "ref": "A 1",
    "localidad": "Alverca do Ribatejo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.887499,
+     "lon": -9.054464,
+     "n": 3,
+     "rumbo": 50
+    },
+    {
+     "lat": 38.887836,
+     "lon": -9.054874,
+     "n": 3,
+     "rumbo": 227
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 26,
+    "centro_plaza": [
+     38.887667,
+     -9.054669
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Norte",
    "punto": "Alverca do Ribatejo",
@@ -698,8 +1630,8 @@
    "confianza": "media"
   },
   {
-   "lat": 38.892363,
-   "lon": -9.048065,
+   "lat": 38.892194,
+   "lon": -9.048222,
    "nombre": "Peaje Circular Regional Exterior de Lisboa (CREL) (A 9) km 0",
    "tipo": "cabina",
    "via": "Circular Regional Exterior de Lisboa (CREL)",
@@ -707,6 +1639,28 @@
    "km": "0",
    "localidad": "Alverca do Ribatejo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.892194,
+     "lon": -9.048222,
+     "n": 4,
+     "rumbo": 173
+    },
+    {
+     "lat": 38.892533,
+     "lon": -9.047909,
+     "n": 4,
+     "rumbo": 355
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 23,
+    "centro_plaza": [
+     38.892363,
+     -9.048065
+    ]
+   },
    "pais": "PT",
    "via_visible": "A9",
    "punto": "Alverca do Ribatejo",
@@ -719,6 +1673,24 @@
    "nombre": "Lousa (A8)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.904081,
+     "lon": -9.206051,
+     "n": 2,
+     "rumbo": 159
+    },
+    {
+     "lat": 38.904155,
+     "lon": -9.205846,
+     "n": 2,
+     "rumbo": 336
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.7
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Oeste",
    "punto": "Lousa (A8)",
@@ -731,6 +1703,24 @@
    "nombre": "Nó de Venda do Pinheiro (A21)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.928386,
+     "lon": -9.219915,
+     "n": 2,
+     "rumbo": 154
+    },
+    {
+     "lat": 38.928443,
+     "lon": -9.219786,
+     "n": 2,
+     "rumbo": 332
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.4
+   },
    "pais": "PT",
    "via_visible": "Autoestrada de Mafra",
    "punto": "Nó de Venda do Pinheiro (A21)",
@@ -744,6 +1734,24 @@
    "tipo": "cabina",
    "ref": "A 21",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.936622,
+     "lon": -9.304629,
+     "n": 2,
+     "rumbo": 160
+    },
+    {
+     "lat": 38.936657,
+     "lon": -9.30446,
+     "n": 2,
+     "rumbo": 339
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.5
+   },
    "pais": "PT",
    "via_visible": "A21",
    "punto": "Mafra Nascente",
@@ -760,6 +1768,18 @@
    "km": "20,3",
    "localidad": "Alhandra",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.938787,
+     "lon": -9.001986,
+     "n": 1,
+     "rumbo": 28
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Norte",
    "punto": "Alhandra",
@@ -775,6 +1795,24 @@
    "ref": "CRIMA",
    "localidad": "Mafra",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.94258,
+     "lon": -9.353053,
+     "n": 2,
+     "rumbo": 65
+    },
+    {
+     "lat": 38.942685,
+     "lon": -9.353126,
+     "n": 2,
+     "rumbo": 245
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.5
+   },
    "pais": "PT",
    "via_visible": "CRIMA",
    "punto": "Mafra",
@@ -790,6 +1828,24 @@
    "ref": "A 21",
    "localidad": "Malveira",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.943203,
+     "lon": -9.248121,
+     "n": 2,
+     "rumbo": 98
+    },
+    {
+     "lat": 38.94332,
+     "lon": -9.248095,
+     "n": 2,
+     "rumbo": 278
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.5
+   },
    "pais": "PT",
    "via_visible": "Autoestrada de Mafra",
    "punto": "Malveira",
@@ -806,6 +1862,24 @@
    "km": "21,7",
    "localidad": "Vila Franca de Xira",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.944857,
+     "lon": -8.997981,
+     "n": 2,
+     "rumbo": 47
+    },
+    {
+     "lat": 38.944946,
+     "lon": -8.998095,
+     "n": 3,
+     "rumbo": 228
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.5
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Norte",
    "punto": "Vila Franca de Xira",
@@ -819,6 +1893,24 @@
    "nombre": "Benavente No (A10)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.958509,
+     "lon": -8.824563,
+     "n": 2,
+     "rumbo": 26
+    },
+    {
+     "lat": 38.958576,
+     "lon": -8.824755,
+     "n": 2,
+     "rumbo": 209
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.1
+   },
    "pais": "PT",
    "punto": "Benavente No (A10)",
    "nombre_visible": "Portagem Benavente No (A10)",
@@ -834,6 +1926,18 @@
    "km": "23,9",
    "localidad": "Vila Franca de Xira",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.962434,
+     "lon": -8.986214,
+     "n": 5,
+     "rumbo": 24
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Norte",
    "punto": "Vila Franca de Xira",
@@ -849,6 +1953,24 @@
    "via": "Autoestrada de Mafra",
    "ref": "A 21",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.96289,
+     "lon": -9.403825,
+     "n": 1,
+     "rumbo": 148
+    },
+    {
+     "lat": 38.963009,
+     "lon": -9.403589,
+     "n": 1,
+     "rumbo": 329
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.1
+   },
    "pais": "PT",
    "via_visible": "Autoestrada de Mafra",
    "punto": "Ericeira",
@@ -865,6 +1987,24 @@
    "km": "5,8",
    "localidad": "Cardosas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.964671,
+     "lon": -9.060595,
+     "n": 2,
+     "rumbo": 22
+    },
+    {
+     "lat": 38.96472,
+     "lon": -9.060742,
+     "n": 2,
+     "rumbo": 202
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.9
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Ribatejo",
    "punto": "Cardosas",
@@ -881,6 +2021,24 @@
    "km": "26",
    "localidad": "Vila Franca de Xira",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.969758,
+     "lon": -8.980007,
+     "n": 2,
+     "rumbo": 40
+    },
+    {
+     "lat": 38.969876,
+     "lon": -8.980184,
+     "n": 2,
+     "rumbo": 219
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.0
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Norte",
    "punto": "Vila Franca de Xira",
@@ -894,6 +2052,24 @@
    "nombre": "Enxara (A8)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.988203,
+     "lon": -9.213718,
+     "n": 2,
+     "rumbo": 139
+    },
+    {
+     "lat": 38.988281,
+     "lon": -9.213606,
+     "n": 2,
+     "rumbo": 315
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.5
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Oeste",
    "punto": "Enxara (A8)",
@@ -908,6 +2084,24 @@
    "ref": "EN 114-3",
    "localidad": "Foros de Salvaterra",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.99542,
+     "lon": -8.716757,
+     "n": 2,
+     "rumbo": 28
+    },
+    {
+     "lat": 38.995476,
+     "lon": -8.716889,
+     "n": 2,
+     "rumbo": 208
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.5
+   },
    "pais": "PT",
    "via_visible": "EN 114-3",
    "punto": "Foros de Salvaterra",
@@ -923,6 +2117,24 @@
    "km": "27,2",
    "localidad": "Castanheira do Ribatejo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.004517,
+     "lon": -8.962817,
+     "n": 2,
+     "rumbo": 139
+    },
+    {
+     "lat": 39.004602,
+     "lon": -8.962692,
+     "n": 2,
+     "rumbo": 319
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.1
+   },
    "pais": "PT",
    "via_visible": "Estrada dos Fidalgos",
    "punto": "Castanheira do Ribatejo",
@@ -938,6 +2150,24 @@
    "km": "31,9",
    "localidad": "Carregado",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.025339,
+     "lon": -8.967176,
+     "n": 2,
+     "rumbo": 92
+    },
+    {
+     "lat": 39.02554,
+     "lon": -8.967176,
+     "n": 3,
+     "rumbo": 273
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.8
+   },
    "pais": "PT",
    "via_visible": "IC2",
    "punto": "Carregado",
@@ -950,6 +2180,24 @@
    "nombre": "Torres Vedras S (A8)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 39.06168,
+     "lon": -9.242596,
+     "n": 2,
+     "rumbo": 173
+    },
+    {
+     "lat": 39.06169,
+     "lon": -9.242407,
+     "n": 2,
+     "rumbo": 352
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.1
+   },
    "pais": "PT",
    "via_visible": "EN 8",
    "punto": "Torres Vedras S (A8)",
@@ -962,6 +2210,24 @@
    "nombre": "Torres Vedras N (A8)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 39.107846,
+     "lon": -9.246106,
+     "n": 2,
+     "rumbo": 26
+    },
+    {
+     "lat": 39.1079,
+     "lon": -9.246246,
+     "n": 2,
+     "rumbo": 203
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.7
+   },
    "pais": "PT",
    "punto": "Torres Vedras N (A8)",
    "nombre_visible": "Portagem Torres Vedras N (A8)",
@@ -973,6 +2239,24 @@
    "nombre": "Ramalhal (A8)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 39.128055,
+     "lon": -9.251969,
+     "n": 2,
+     "rumbo": 22
+    },
+    {
+     "lat": 39.128099,
+     "lon": -9.252135,
+     "n": 2,
+     "rumbo": 204
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.6
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Oeste",
    "punto": "Ramalhal (A8)",
@@ -982,12 +2266,22 @@
   {
    "lat": 39.134051,
    "lon": -9.374809,
-   "nombre": "Peaje Avenida António Carlos Nunes Carneiro (ER 247)",
+   "nombre": "Peaje ER 247",
    "tipo": "cabina",
-   "via": "Avenida António Carlos Nunes Carneiro",
    "ref": "ER 247",
    "localidad": "Silveira",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.134051,
+     "lon": -9.374809,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "ER247",
    "punto": "Silveira",
@@ -1002,19 +2296,59 @@
    "km": "46,3",
    "localidad": "Aveiras de Cima",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.143051,
+     "lon": -8.892197,
+     "n": 2,
+     "rumbo": 115
+    },
+    {
+     "lat": 39.14326,
+     "lon": -8.892092,
+     "n": 2,
+     "rumbo": 294
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.3
+   },
    "pais": "PT",
    "punto": "Aveiras de Cima",
    "nombre_visible": "Portagem Aveiras de Cima",
    "confianza": "media"
   },
   {
-   "lat": 39.169034,
-   "lon": -8.626415,
+   "lat": 39.169044,
+   "lon": -8.626169,
    "nombre": "Peaje A 13",
    "tipo": "cabina",
    "ref": "A 13",
    "localidad": "Fazendas de Almeirim",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.169023,
+     "lon": -8.626661,
+     "n": 1,
+     "rumbo": 181
+    },
+    {
+     "lat": 39.169044,
+     "lon": -8.626169,
+     "n": 1,
+     "rumbo": 351
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 21,
+    "centro_plaza": [
+     39.169034,
+     -8.626415
+    ]
+   },
    "pais": "PT",
    "via_visible": "A13",
    "punto": "Fazendas de Almeirim",
@@ -1027,6 +2361,24 @@
    "nombre": "Campelos (A8)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 39.197311,
+     "lon": -9.200072,
+     "n": 2,
+     "rumbo": 53
+    },
+    {
+     "lat": 39.197395,
+     "lon": -9.200151,
+     "n": 2,
+     "rumbo": 236
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.7
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Oeste",
    "punto": "Campelos (A8)",
@@ -1043,6 +2395,24 @@
    "km": "57,4",
    "localidad": "Vila Chã de Ourique",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.201981,
+     "lon": -8.791136,
+     "n": 2,
+     "rumbo": 58
+    },
+    {
+     "lat": 39.202086,
+     "lon": -8.791224,
+     "n": 2,
+     "rumbo": 238
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.9
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Norte",
    "punto": "Vila Chã de Ourique",
@@ -1059,6 +2429,24 @@
    "km": "67",
    "localidad": "Outeiro da Cabeça",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.22095,
+     "lon": -9.186609,
+     "n": 2,
+     "rumbo": 4
+    },
+    {
+     "lat": 39.22097,
+     "lon": -9.186797,
+     "n": 2,
+     "rumbo": 186
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.2
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Oeste",
    "punto": "Outeiro da Cabeça",
@@ -1074,6 +2462,24 @@
    "ref": "A 1",
    "localidad": "Várzea",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.260559,
+     "lon": -8.730769,
+     "n": 4,
+     "rumbo": 27
+    },
+    {
+     "lat": 39.260642,
+     "lon": -8.73097,
+     "n": 2,
+     "rumbo": 205
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.6
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Norte",
    "punto": "Várzea",
@@ -1089,6 +2495,24 @@
    "ref": "A 15;IP 6",
    "localidad": "Malaqueijo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.297496,
+     "lon": -8.829287,
+     "n": 2,
+     "rumbo": 58
+    },
+    {
+     "lat": 39.297585,
+     "lon": -8.829357,
+     "n": 2,
+     "rumbo": 238
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.7
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Atlântico",
    "punto": "Malaqueijo",
@@ -1103,6 +2527,24 @@
    "ref": "EN 114",
    "localidad": "Anteporta",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.307373,
+     "lon": -8.913406,
+     "n": 2,
+     "rumbo": 85
+    },
+    {
+     "lat": 39.307477,
+     "lon": -8.913421,
+     "n": 2,
+     "rumbo": 266
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.8
+   },
    "pais": "PT",
    "via_visible": "EN114",
    "punto": "Anteporta",
@@ -1118,6 +2560,24 @@
    "ref": "A 15;IP 6",
    "localidad": "Asseiceira",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.309305,
+     "lon": -8.943755,
+     "n": 2,
+     "rumbo": 117
+    },
+    {
+     "lat": 39.309392,
+     "lon": -8.943708,
+     "n": 2,
+     "rumbo": 298
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.2
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Atlântico",
    "punto": "Asseiceira",
@@ -1134,6 +2594,24 @@
    "km": "32",
    "localidad": "Landal",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.332599,
+     "lon": -9.001789,
+     "n": 2,
+     "rumbo": 117
+    },
+    {
+     "lat": 39.332688,
+     "lon": -9.001725,
+     "n": 2,
+     "rumbo": 297
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.6
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Atlântico",
    "punto": "Landal",
@@ -1141,14 +2619,36 @@
    "confianza": "media"
   },
   {
-   "lat": 39.365279,
-   "lon": -9.088392,
+   "lat": 39.365409,
+   "lon": -9.088312,
    "nombre": "Peaje Autoestrada do Atlântico (A 15)",
    "tipo": "cabina",
    "via": "Autoestrada do Atlântico",
    "ref": "A 15",
    "localidad": "A-dos-Negros",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.365148,
+     "lon": -9.088473,
+     "n": 4,
+     "rumbo": 117
+    },
+    {
+     "lat": 39.365409,
+     "lon": -9.088312,
+     "n": 4,
+     "rumbo": 298
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 16,
+    "centro_plaza": [
+     39.365279,
+     -9.088392
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Atlântico",
    "punto": "A-dos-Negros",
@@ -1156,14 +2656,36 @@
    "confianza": "media"
   },
   {
-   "lat": 39.443795,
-   "lon": -9.123473,
+   "lat": 39.443889,
+   "lon": -9.123706,
    "nombre": "Peaje Autoestrada do Oeste (A 8)",
    "tipo": "cabina",
    "via": "Autoestrada do Oeste",
    "ref": "A 8",
    "localidad": "Tornada",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.443701,
+     "lon": -9.12324,
+     "n": 2,
+     "rumbo": 26
+    },
+    {
+     "lat": 39.443889,
+     "lon": -9.123706,
+     "n": 2,
+     "rumbo": 207
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 23,
+    "centro_plaza": [
+     39.443795,
+     -9.123473
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Oeste",
    "punto": "Tornada",
@@ -1178,6 +2700,24 @@
    "via": "Autoestrada da Beira Interior",
    "ref": "A 23",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 39.478666,
+     "lon": -8.627205,
+     "n": 1,
+     "rumbo": 60
+    },
+    {
+     "lat": 39.47887,
+     "lon": -8.627379,
+     "n": 1,
+     "rumbo": 235
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.5
+   },
    "pais": "PT",
    "via_visible": "Autoestrada da Beira Interior",
    "punto": "Torres Novas",
@@ -1193,6 +2733,24 @@
    "ref": "A 8",
    "localidad": "Alfeizerão",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.500579,
+     "lon": -9.092109,
+     "n": 1,
+     "rumbo": 173
+    },
+    {
+     "lat": 39.50058,
+     "lon": -9.091967,
+     "n": 1,
+     "rumbo": 354
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.1
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Oeste",
    "punto": "Alfeizerão",
@@ -1207,6 +2765,24 @@
    "ref": "IC 9",
    "localidad": "Valado dos Frades",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.584339,
+     "lon": -9.008675,
+     "n": 1,
+     "rumbo": 2
+    },
+    {
+     "lat": 39.584343,
+     "lon": -9.008885,
+     "n": 1,
+     "rumbo": 181
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.0
+   },
    "pais": "PT",
    "via_visible": "IC9",
    "punto": "Valado dos Frades",
@@ -1219,6 +2795,24 @@
    "nombre": "Fátima",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 39.627665,
+     "lon": -8.687492,
+     "n": 1,
+     "rumbo": 57
+    },
+    {
+     "lat": 39.627816,
+     "lon": -8.687625,
+     "n": 1,
+     "rumbo": 237
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.0
+   },
    "pais": "PT",
    "punto": "Fátima",
    "nombre_visible": "Portagem Fátima",
@@ -1230,6 +2824,24 @@
    "nombre": "Pataias (A8)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 39.640583,
+     "lon": -8.966691,
+     "n": 1,
+     "rumbo": 21
+    },
+    {
+     "lat": 39.640629,
+     "lon": -8.966824,
+     "n": 1,
+     "rumbo": 202
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.2
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Oeste",
    "punto": "Pataias (A8)",
@@ -1244,6 +2856,24 @@
    "via": "Variante da Batalha",
    "ref": "A 19",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 39.657816,
+     "lon": -8.847117,
+     "n": 1,
+     "rumbo": 175
+    },
+    {
+     "lat": 39.657826,
+     "lon": -8.84699,
+     "n": 1,
+     "rumbo": 355
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.4
+   },
    "pais": "PT",
    "via_visible": "A19",
    "punto": "São Jorge",
@@ -1258,6 +2888,24 @@
    "via": "Variante da Batalha",
    "ref": "A 19",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 39.691338,
+     "lon": -8.847463,
+     "n": 1,
+     "rumbo": 2
+    },
+    {
+     "lat": 39.691343,
+     "lon": -8.847579,
+     "n": 1,
+     "rumbo": 183
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.0
+   },
    "pais": "PT",
    "via_visible": "A19",
    "punto": "Batalha",
@@ -1273,6 +2921,24 @@
    "ref": "A 8",
    "localidad": "Moita",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.714206,
+     "lon": -8.918473,
+     "n": 2,
+     "rumbo": 114
+    },
+    {
+     "lat": 39.714299,
+     "lon": -8.918418,
+     "n": 2,
+     "rumbo": 294
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.6
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Oeste",
    "punto": "Moita",
@@ -1289,6 +2955,24 @@
    "km": "1",
    "localidad": "Parceiros",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.723928,
+     "lon": -8.816544,
+     "n": 1,
+     "rumbo": 138
+    },
+    {
+     "lat": 39.724,
+     "lon": -8.81647,
+     "n": 1,
+     "rumbo": 317
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.1
+   },
    "pais": "PT",
    "via_visible": "A8",
    "punto": "Parceiros",
@@ -1305,6 +2989,24 @@
    "km": "0",
    "localidad": "Pousos",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.727548,
+     "lon": -8.783036,
+     "n": 1,
+     "rumbo": 72
+    },
+    {
+     "lat": 39.727633,
+     "lon": -8.783078,
+     "n": 1,
+     "rumbo": 252
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.0
+   },
    "pais": "PT",
    "via_visible": "A8",
    "punto": "Pousos",
@@ -1320,6 +3022,24 @@
    "km": "0",
    "localidad": "Santa Eufémia",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.737889,
+     "lon": -8.745544,
+     "n": 1,
+     "rumbo": 67
+    },
+    {
+     "lat": 39.738009,
+     "lon": -8.74559,
+     "n": 1,
+     "rumbo": 249
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.9
+   },
    "pais": "PT",
    "via_visible": "IC36",
    "punto": "Santa Eufémia",
@@ -1335,6 +3055,24 @@
    "ref": "A 8",
    "localidad": "Parceiros",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.737988,
+     "lon": -8.857615,
+     "n": 2,
+     "rumbo": 141
+    },
+    {
+     "lat": 39.738151,
+     "lon": -8.857335,
+     "n": 2,
+     "rumbo": 320
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 15.0
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Oeste",
    "punto": "Parceiros",
@@ -1347,6 +3085,24 @@
    "nombre": "Marinha Grande Este (A8)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 39.744292,
+     "lon": -8.87569,
+     "n": 1,
+     "rumbo": 100
+    },
+    {
+     "lat": 39.744422,
+     "lon": -8.875673,
+     "n": 1,
+     "rumbo": 278
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.2
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Oeste",
    "punto": "Marinha Grande Este (A8)",
@@ -1359,6 +3115,24 @@
    "nombre": "Leiria Norte (A17)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 39.811615,
+     "lon": -8.842113,
+     "n": 1,
+     "rumbo": 18
+    },
+    {
+     "lat": 39.811645,
+     "lon": -8.842259,
+     "n": 1,
+     "rumbo": 198
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.5
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Litoral Centro",
    "punto": "Leiria Norte (A17)",
@@ -1371,6 +3145,24 @@
    "nombre": "Monte Real (A17)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 39.85295,
+     "lon": -8.832951,
+     "n": 1,
+     "rumbo": 110
+    },
+    {
+     "lat": 39.853052,
+     "lon": -8.832907,
+     "n": 1,
+     "rumbo": 292
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.9
+   },
    "pais": "PT",
    "punto": "Monte Real (A17)",
    "nombre_visible": "Portagem Monte Real (A17)",
@@ -1382,6 +3174,24 @@
    "nombre": "Monte Redondo (A17)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 39.893206,
+     "lon": -8.810726,
+     "n": 1,
+     "rumbo": 21
+    },
+    {
+     "lat": 39.893258,
+     "lon": -8.810905,
+     "n": 1,
+     "rumbo": 201
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.1
+   },
    "pais": "PT",
    "punto": "Monte Redondo (A17)",
    "nombre_visible": "Portagem Monte Redondo (A17)",
@@ -1395,6 +3205,24 @@
    "ref": "IC 8",
    "localidad": "Pombal",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.94004,
+     "lon": -8.674653,
+     "n": 2,
+     "rumbo": 48
+    },
+    {
+     "lat": 39.940118,
+     "lon": -8.674761,
+     "n": 2,
+     "rumbo": 226
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.3
+   },
    "pais": "PT",
    "via_visible": "IC8",
    "punto": "Pombal",
@@ -1410,6 +3238,24 @@
    "ref": "EN 237-1",
    "localidad": "Guia",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.942744,
+     "lon": -8.77437,
+     "n": 1,
+     "rumbo": 34
+    },
+    {
+     "lat": 39.942811,
+     "lon": -8.774529,
+     "n": 1,
+     "rumbo": 215
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.7
+   },
    "pais": "PT",
    "via_visible": "EN 237-1",
    "punto": "Guia",
@@ -1424,6 +3270,24 @@
    "ref": "IC 8",
    "localidad": "Carriço",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.989285,
+     "lon": -8.79143,
+     "n": 1,
+     "rumbo": 114
+    },
+    {
+     "lat": 39.989412,
+     "lon": -8.791348,
+     "n": 1,
+     "rumbo": 297
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.8
+   },
    "pais": "PT",
    "via_visible": "IC8",
    "punto": "Carriço",
@@ -1439,6 +3303,24 @@
    "ref": "A 1",
    "localidad": "Tapéus",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.039093,
+     "lon": -8.577111,
+     "n": 2,
+     "rumbo": 51
+    },
+    {
+     "lat": 40.039181,
+     "lon": -8.577234,
+     "n": 2,
+     "rumbo": 227
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.1
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Norte",
    "punto": "Tapéus",
@@ -1453,6 +3335,24 @@
    "via": "Rua dos Alentejeiros",
    "localidad": "Marinha das Ondas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.047456,
+     "lon": -8.814462,
+     "n": 2,
+     "rumbo": 2
+    },
+    {
+     "lat": 40.047458,
+     "lon": -8.814609,
+     "n": 2,
+     "rumbo": 185
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.2
+   },
    "pais": "PT",
    "via_visible": "Rua dos Alentejeiros",
    "punto": "Marinha das Ondas",
@@ -1467,6 +3367,24 @@
    "via": "Radial de Coimbra",
    "ref": "A 13-1",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 40.131109,
+     "lon": -8.492387,
+     "n": 2,
+     "rumbo": 133
+    },
+    {
+     "lat": 40.131203,
+     "lon": -8.492272,
+     "n": 2,
+     "rumbo": 309
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.1
+   },
    "pais": "PT",
    "via_visible": "A 13-1",
    "punto": "Condeixa (A1)",
@@ -1480,6 +3398,24 @@
    "tipo": "cabina",
    "localidad": "Vila Verde",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.156407,
+     "lon": -8.779108,
+     "n": 1,
+     "rumbo": 46
+    },
+    {
+     "lat": 40.156492,
+     "lon": -8.779264,
+     "n": 1,
+     "rumbo": 226
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.1
+   },
    "pais": "PT",
    "punto": "Vila Verde",
    "nombre_visible": "Portagem Vila Verde",
@@ -1494,6 +3430,24 @@
    "ref": "A 14",
    "localidad": "Montemor-o-Velho",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.19138,
+     "lon": -8.695398,
+     "n": 1,
+     "rumbo": 56
+    },
+    {
+     "lat": 40.191476,
+     "lon": -8.695497,
+     "n": 1,
+     "rumbo": 243
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.7
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Baixo Mondego",
    "punto": "Montemor-o-Velho",
@@ -1507,19 +3461,65 @@
    "tipo": "cabina",
    "localidad": "Carapinheira",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.20052,
+     "lon": -8.671574,
+     "n": 2,
+     "rumbo": 147
+    },
+    {
+     "lat": 40.200575,
+     "lon": -8.671456,
+     "n": 2,
+     "rumbo": 328
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.8
+   },
    "pais": "PT",
    "punto": "Carapinheira",
    "nombre_visible": "Portagem Carapinheira",
    "confianza": "media"
   },
   {
-   "lat": 40.200875,
-   "lon": -8.489447,
+   "lat": 40.200307,
+   "lon": -8.489654,
    "nombre": "Peaje EN 341",
    "tipo": "cabina",
    "ref": "EN 341",
    "localidad": "Ribeira de Frades",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.200259,
+     "lon": -8.489887,
+     "n": 3,
+     "rumbo": 163
+    },
+    {
+     "lat": 40.200307,
+     "lon": -8.489654,
+     "n": 3,
+     "rumbo": 343
+    },
+    {
+     "lat": 40.20265,
+     "lon": -8.488477,
+     "n": 2,
+     "rumbo": 354
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 65,
+    "centro_plaza": [
+     40.200875,
+     -8.489447
+    ]
+   },
    "pais": "PT",
    "via_visible": "EN341",
    "punto": "Ribeira de Frades",
@@ -1534,6 +3534,24 @@
    "ref": "EN 109",
    "localidad": "Moinhos da Gândara",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.220744,
+     "lon": -8.805003,
+     "n": 1,
+     "rumbo": 63
+    },
+    {
+     "lat": 40.220821,
+     "lon": -8.805057,
+     "n": 1,
+     "rumbo": 242
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.8
+   },
    "pais": "PT",
    "via_visible": "EN109",
    "punto": "Moinhos da Gândara",
@@ -1548,6 +3566,24 @@
    "ref": "EN 335",
    "localidad": "Arazede",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.260967,
+     "lon": -8.633184,
+     "n": 2,
+     "rumbo": 76
+    },
+    {
+     "lat": 40.26108,
+     "lon": -8.633231,
+     "n": 2,
+     "rumbo": 256
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.5
+   },
    "pais": "PT",
    "via_visible": "EN335",
    "punto": "Arazede",
@@ -1562,6 +3598,24 @@
    "via": "Autoestrada do Baixo Mondego",
    "ref": "A 14",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 40.270906,
+     "lon": -8.473384,
+     "n": 4,
+     "rumbo": 105
+    },
+    {
+     "lat": 40.271148,
+     "lon": -8.473306,
+     "n": 2,
+     "rumbo": 287
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.2
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Baixo Mondego",
    "punto": "Coimbra Norte",
@@ -1576,6 +3630,24 @@
    "ref": "EN 234-1",
    "localidad": "Ançã",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.282593,
+     "lon": -8.525575,
+     "n": 1,
+     "rumbo": 183
+    },
+    {
+     "lat": 40.282599,
+     "lon": -8.525443,
+     "n": 1,
+     "rumbo": 359
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.6
+   },
    "pais": "PT",
    "via_visible": "EN 234-1",
    "punto": "Ançã",
@@ -1592,6 +3664,24 @@
    "km": "10",
    "localidad": "Sanguinheira",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.32928,
+     "lon": -8.725277,
+     "n": 1,
+     "rumbo": 173
+    },
+    {
+     "lat": 40.329302,
+     "lon": -8.725098,
+     "n": 1,
+     "rumbo": 352
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.7
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Litoral Centro",
    "punto": "Sanguinheira",
@@ -1605,6 +3695,24 @@
    "tipo": "cabina",
    "localidad": "Antes",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.373763,
+     "lon": -8.487569,
+     "n": 2,
+     "rumbo": 93
+    },
+    {
+     "lat": 40.37388,
+     "lon": -8.487562,
+     "n": 2,
+     "rumbo": 275
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.4
+   },
    "pais": "PT",
    "punto": "Antes",
    "nombre_visible": "Portagem Antes",
@@ -1619,6 +3727,19 @@
    "ref": "EN 234",
    "localidad": "Luso",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.377686,
+     "lon": -8.361218,
+     "n": 1,
+     "rumbo": 178,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "EN234",
    "punto": "Luso",
@@ -1626,14 +3747,38 @@
    "confianza": "media"
   },
   {
-   "lat": 40.380114,
-   "lon": -8.373605,
+   "lat": 40.380412,
+   "lon": -8.371342,
    "nombre": "Peaje Rua de Balancho (EM 234-3)",
    "tipo": "cabina",
    "via": "Rua de Balancho",
    "ref": "EM 234-3",
    "localidad": "Luso",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.379816,
+     "lon": -8.375868,
+     "n": 1,
+     "rumbo": 18,
+     "doble": true
+    },
+    {
+     "lat": 40.380412,
+     "lon": -8.371342,
+     "n": 1,
+     "rumbo": 217,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 195,
+    "centro_plaza": [
+     40.380114,
+     -8.373605
+    ]
+   },
    "pais": "PT",
    "via_visible": "EM 234-3",
    "punto": "Luso",
@@ -1648,6 +3793,24 @@
    "ref": "EN 234",
    "localidad": "Corticeiro de Cima",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.41391,
+     "lon": -8.705198,
+     "n": 1,
+     "rumbo": 28
+    },
+    {
+     "lat": 40.413985,
+     "lon": -8.705347,
+     "n": 1,
+     "rumbo": 210
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.5
+   },
    "pais": "PT",
    "via_visible": "EN234",
    "punto": "Corticeiro de Cima",
@@ -1655,14 +3818,36 @@
    "confianza": "media"
   },
   {
-   "lat": 40.442101,
-   "lon": -8.702476,
+   "lat": 40.442026,
+   "lon": -8.702727,
    "nombre": "Peaje Autoestrada do Litoral Centro (A 17)",
    "tipo": "cabina",
    "via": "Autoestrada do Litoral Centro",
    "ref": "A 17",
    "localidad": "Carapelhos",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.442026,
+     "lon": -8.702727,
+     "n": 2,
+     "rumbo": 191
+    },
+    {
+     "lat": 40.442176,
+     "lon": -8.702224,
+     "n": 2,
+     "rumbo": 11
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 23,
+    "centro_plaza": [
+     40.442101,
+     -8.702476
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Litoral Centro",
    "punto": "Carapelhos",
@@ -1670,13 +3855,40 @@
    "confianza": "media"
   },
   {
-   "lat": 40.461333,
-   "lon": -8.693267,
+   "lat": 40.461228,
+   "lon": -8.693449,
    "nombre": "0,60",
    "tipo": "portico",
    "via": "Autoestrada do Litoral Centro",
    "ref": "A 17",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 40.460932,
+     "lon": -8.693557,
+     "n": 1,
+     "rumbo": 39
+    },
+    {
+     "lat": 40.461228,
+     "lon": -8.693449,
+     "n": 1,
+     "rumbo": 220
+    },
+    {
+     "lat": 40.46184,
+     "lon": -8.692795,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 19,
+    "centro_plaza": [
+     40.461333,
+     -8.693267
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Litoral Centro",
    "punto": "0,60",
@@ -1684,14 +3896,36 @@
    "confianza": "alta"
   },
   {
-   "lat": 40.56221,
-   "lon": -8.615096,
+   "lat": 40.562057,
+   "lon": -8.615063,
    "nombre": "Pórtico Autoestrada do Litoral Centro (A 17)",
    "tipo": "portico",
    "via": "Autoestrada do Litoral Centro",
    "ref": "A 17",
    "localidad": "Nariz",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.562057,
+     "lon": -8.615063,
+     "n": 1,
+     "rumbo": 13
+    },
+    {
+     "lat": 40.562364,
+     "lon": -8.61513,
+     "n": 1,
+     "rumbo": 193
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 17,
+    "centro_plaza": [
+     40.56221,
+     -8.615096
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Litoral Centro",
    "punto": "Nariz",
@@ -1705,6 +3939,24 @@
    "tipo": "cabina",
    "localidad": "Nossa Senhora de Fátima",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.570396,
+     "lon": -8.564836,
+     "n": 2,
+     "rumbo": 86
+    },
+    {
+     "lat": 40.570507,
+     "lon": -8.564827,
+     "n": 2,
+     "rumbo": 266
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.1
+   },
    "pais": "PT",
    "punto": "Nossa Senhora de Fátima",
    "nombre_visible": "Portagem Nossa Senhora de Fátima",
@@ -1716,6 +3968,18 @@
    "nombre": "Serviço Easytoll - Electronic Toll",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 40.604667,
+     "lon": -6.952389,
+     "n": 1,
+     "rumbo": 269
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "Autoestrada das Beiras Litoral e Alta",
    "punto": "Serviço Easytoll - Electronic Toll",
@@ -1723,14 +3987,36 @@
    "confianza": "alta"
   },
   {
-   "lat": 40.618484,
-   "lon": -8.590699,
+   "lat": 40.619433,
+   "lon": -8.592299,
    "nombre": "Pórtico Autoestrada do Litoral Centro (A 17) (2)",
    "tipo": "portico",
    "via": "Autoestrada do Litoral Centro",
    "ref": "A 17",
    "localidad": "Oliveirinha",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.617535,
+     "lon": -8.589098,
+     "n": 1,
+     "rumbo": 310
+    },
+    {
+     "lat": 40.619433,
+     "lon": -8.592299,
+     "n": 1,
+     "rumbo": 130
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 171,
+    "centro_plaza": [
+     40.618484,
+     -8.590699
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Litoral Centro",
    "punto": "Oliveirinha",
@@ -1738,8 +4024,8 @@
    "confianza": "media"
   },
   {
-   "lat": 40.645973,
-   "lon": -8.611425,
+   "lat": 40.645921,
+   "lon": -8.611224,
    "nombre": "Pórtico Autoestrada das Beiras Litoral e Alta (A 25) km 12",
    "tipo": "portico",
    "via": "Autoestrada das Beiras Litoral e Alta",
@@ -1747,6 +4033,28 @@
    "km": "12",
    "localidad": "Esgueira",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.645921,
+     "lon": -8.611224,
+     "n": 1,
+     "rumbo": 313
+    },
+    {
+     "lat": 40.646025,
+     "lon": -8.611626,
+     "n": 1,
+     "rumbo": 134
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 18,
+    "centro_plaza": [
+     40.645973,
+     -8.611425
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada das Beiras Litoral e Alta",
    "punto": "Esgueira",
@@ -1754,8 +4062,8 @@
    "confianza": "media"
   },
   {
-   "lat": 40.684599,
-   "lon": -8.537901,
+   "lat": 40.684661,
+   "lon": -8.538128,
    "nombre": "Pórtico Autoestrada das Beiras Litoral e Alta (A 25) km 0",
    "tipo": "portico",
    "via": "Autoestrada das Beiras Litoral e Alta",
@@ -1763,6 +4071,28 @@
    "km": "0",
    "localidad": "Angeja",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.684537,
+     "lon": -8.537673,
+     "n": 1,
+     "rumbo": 308
+    },
+    {
+     "lat": 40.684661,
+     "lon": -8.538128,
+     "n": 1,
+     "rumbo": 128
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 20,
+    "centro_plaza": [
+     40.684599,
+     -8.537901
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada das Beiras Litoral e Alta",
    "punto": "Angeja",
@@ -1771,8 +4101,8 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 40.684753,
-   "lon": -8.56492,
+   "lat": 40.684596,
+   "lon": -8.564948,
    "nombre": "Pórtico Autoestrada das Beiras Litoral e Alta (A 25) km 20",
    "tipo": "portico",
    "via": "Autoestrada das Beiras Litoral e Alta",
@@ -1780,6 +4110,28 @@
    "km": "20",
    "localidad": "Angeja",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.684596,
+     "lon": -8.564948,
+     "n": 1,
+     "rumbo": 34
+    },
+    {
+     "lat": 40.68491,
+     "lon": -8.564892,
+     "n": 1,
+     "rumbo": 214
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 18,
+    "centro_plaza": [
+     40.684753,
+     -8.56492
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada das Beiras Litoral e Alta",
    "punto": "Angeja",
@@ -1788,14 +4140,36 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 40.686702,
-   "lon": -8.509055,
+   "lat": 40.686713,
+   "lon": -8.508857,
    "nombre": "Pórtico Autoestrada das Beiras Litoral e Alta (A 25)",
    "tipo": "portico",
    "via": "Autoestrada das Beiras Litoral e Alta",
    "ref": "A 25",
    "localidad": "Albergaria-a-Velha",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.686692,
+     "lon": -8.509254,
+     "n": 1,
+     "rumbo": 103
+    },
+    {
+     "lat": 40.686713,
+     "lon": -8.508857,
+     "n": 1,
+     "rumbo": 283
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 17,
+    "centro_plaza": [
+     40.686702,
+     -8.509055
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada das Beiras Litoral e Alta",
    "punto": "Albergaria-a-Velha",
@@ -1811,6 +4185,24 @@
    "km": "1",
    "localidad": "Fermelã",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.689095,
+     "lon": -8.524627,
+     "n": 2,
+     "rumbo": 14
+    },
+    {
+     "lat": 40.68914,
+     "lon": -8.524859,
+     "n": 2,
+     "rumbo": 194
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.1
+   },
    "pais": "PT",
    "via_visible": "Via Verde",
    "punto": "Fermelã",
@@ -1826,6 +4218,19 @@
    "ref": "EN 328",
    "localidad": "Sever do Vouga",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.728538,
+     "lon": -8.364983,
+     "n": 1,
+     "rumbo": 220,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "EN328",
    "punto": "Sever do Vouga",
@@ -1833,13 +4238,35 @@
    "confianza": "media"
   },
   {
-   "lat": 40.753924,
-   "lon": -8.5421,
+   "lat": 40.753629,
+   "lon": -8.541998,
    "nombre": "Pórtico de Portagem de Estarreja",
    "tipo": "portico",
    "via": "Autoestrada da Costa de Prata",
    "ref": "A 29",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 40.753629,
+     "lon": -8.541998,
+     "n": 1,
+     "rumbo": 357
+    },
+    {
+     "lat": 40.754219,
+     "lon": -8.542202,
+     "n": 1,
+     "rumbo": 176
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 34,
+    "centro_plaza": [
+     40.753924,
+     -8.5421
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada da Costa de Prata",
    "punto": "de Portagem de Estarreja",
@@ -1855,6 +4282,24 @@
    "km": "12",
    "localidad": "Beduído",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.782528,
+     "lon": -8.5481,
+     "n": 2,
+     "rumbo": 119
+    },
+    {
+     "lat": 40.782666,
+     "lon": -8.548023,
+     "n": 2,
+     "rumbo": 299
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.3
+   },
    "pais": "PT",
    "via_visible": "A 1 - Estarreja",
    "punto": "Beduído",
@@ -1862,13 +4307,35 @@
    "confianza": "media"
   },
   {
-   "lat": 40.838156,
-   "lon": -8.564802,
+   "lat": 40.838499,
+   "lon": -8.565032,
    "nombre": "Pórtico de Portagem de Ovar",
    "tipo": "portico",
    "via": "Autoestrada da Costa de Prata",
    "ref": "A 29",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 40.837812,
+     "lon": -8.564572,
+     "n": 1,
+     "rumbo": 342
+    },
+    {
+     "lat": 40.838499,
+     "lon": -8.565032,
+     "n": 1,
+     "rumbo": 162
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 43,
+    "centro_plaza": [
+     40.838156,
+     -8.564802
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada da Costa de Prata",
    "punto": "de Portagem de Ovar",
@@ -1884,6 +4351,29 @@
    "km": "2",
    "localidad": "Pindelo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.856032,
+     "lon": -8.445138,
+     "n": 2,
+     "rumbo": 16
+    },
+    {
+     "lat": 40.856061,
+     "lon": -8.445294,
+     "n": 3,
+     "rumbo": 196
+    },
+    {
+     "lat": 40.856111,
+     "lon": -8.44521,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.6
+   },
    "pais": "PT",
    "via_visible": "A32",
    "punto": "Pindelo",
@@ -1900,6 +4390,24 @@
    "km": "4",
    "localidad": "Pindelo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.876862,
+     "lon": -8.429335,
+     "n": 3,
+     "rumbo": 359
+    },
+    {
+     "lat": 40.876867,
+     "lon": -8.429503,
+     "n": 2,
+     "rumbo": 180
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.6
+   },
    "pais": "PT",
    "via_visible": "A32",
    "punto": "Pindelo",
@@ -1908,13 +4416,35 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 40.908354,
-   "lon": -8.606042,
+   "lat": 40.90847,
+   "lon": -8.60618,
    "nombre": "Pórtico de Portagem de Arada",
    "tipo": "portico",
    "via": "Autoestrada da Costa de Prata",
    "ref": "A 29",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 40.908237,
+     "lon": -8.605903,
+     "n": 1,
+     "rumbo": 341
+    },
+    {
+     "lat": 40.90847,
+     "lon": -8.60618,
+     "n": 1,
+     "rumbo": 161
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 17,
+    "centro_plaza": [
+     40.908354,
+     -8.606042
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada da Costa de Prata",
    "punto": "de Portagem de Arada",
@@ -1930,6 +4460,29 @@
    "km": "275",
    "localidad": "Espargo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.927434,
+     "lon": -8.565344,
+     "n": 4,
+     "rumbo": 148
+    },
+    {
+     "lat": 40.927471,
+     "lon": -8.565263,
+     "n": 1
+    },
+    {
+     "lat": 40.927529,
+     "lon": -8.565143,
+     "n": 4,
+     "rumbo": 328
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.7
+   },
    "pais": "PT",
    "via_visible": "EN223",
    "punto": "Espargo",
@@ -1945,6 +4498,29 @@
    "km": "12",
    "localidad": "Pigeiros",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.940779,
+     "lon": -8.473827,
+     "n": 3,
+     "rumbo": 166
+    },
+    {
+     "lat": 40.940785,
+     "lon": -8.473772,
+     "n": 1
+    },
+    {
+     "lat": 40.940812,
+     "lon": -8.473684,
+     "n": 2,
+     "rumbo": 346
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.7
+   },
    "pais": "PT",
    "via_visible": "A32",
    "punto": "Pigeiros",
@@ -1959,6 +4535,19 @@
    "via": "Passadiços do Paiva",
    "localidad": "Alvarenga",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.96065,
+     "lon": -8.175245,
+     "n": 1,
+     "rumbo": 199,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "Passadiços do Paiva",
    "punto": "Alvarenga",
@@ -1974,6 +4563,24 @@
    "km": "18",
    "localidad": "Gião",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.989318,
+     "lon": -8.466678,
+     "n": 2,
+     "rumbo": 96
+    },
+    {
+     "lat": 40.989442,
+     "lon": -8.466661,
+     "n": 3,
+     "rumbo": 276
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.6
+   },
    "pais": "PT",
    "via_visible": "A32",
    "punto": "Gião",
@@ -1989,6 +4596,19 @@
    "ref": "EM 505",
    "localidad": "Espiunca",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.99279,
+     "lon": -8.211346,
+     "n": 1,
+     "rumbo": 98,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "EM 505",
    "punto": "Espiunca",
@@ -1996,8 +4616,8 @@
    "confianza": "media"
   },
   {
-   "lat": 41.007613,
-   "lon": -8.582367,
+   "lat": 41.007601,
+   "lon": -8.58264,
    "nombre": "Peaje Via Verde (A 1) km 59",
    "tipo": "cabina",
    "via": "Via Verde",
@@ -2005,6 +4625,28 @@
    "km": "59",
    "localidad": "Nogueira da Regedoura",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.007601,
+     "lon": -8.58264,
+     "n": 2,
+     "rumbo": 177
+    },
+    {
+     "lat": 41.007626,
+     "lon": -8.582094,
+     "n": 2,
+     "rumbo": 356
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 23,
+    "centro_plaza": [
+     41.007613,
+     -8.582367
+    ]
+   },
    "pais": "PT",
    "via_visible": "A1",
    "punto": "Nogueira da Regedoura",
@@ -2019,6 +4661,24 @@
    "via": "Circular Regional Exterior do Porto (CREP)",
    "ref": "A 41",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.014517,
+     "lon": -8.529168,
+     "n": 2,
+     "rumbo": 16
+    },
+    {
+     "lat": 41.014542,
+     "lon": -8.529325,
+     "n": 3,
+     "rumbo": 196
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.4
+   },
    "pais": "PT",
    "via_visible": "A41",
    "punto": "Praça de Portagem de Argoncilhe",
@@ -2034,6 +4694,24 @@
    "km": "21",
    "localidad": "Vila Maior",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.014665,
+     "lon": -8.474038,
+     "n": 3,
+     "rumbo": 109
+    },
+    {
+     "lat": 41.014775,
+     "lon": -8.473995,
+     "n": 2,
+     "rumbo": 288
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.1
+   },
    "pais": "PT",
    "via_visible": "A32",
    "punto": "Vila Maior",
@@ -2041,8 +4719,8 @@
    "confianza": "media"
   },
   {
-   "lat": 41.017061,
-   "lon": -8.581809,
+   "lat": 41.017151,
+   "lon": -8.582306,
    "nombre": "Peaje Autoestrada do Norte (A 1) km 285",
    "tipo": "cabina",
    "via": "Autoestrada do Norte",
@@ -2050,6 +4728,28 @@
    "km": "285",
    "localidad": "Nogueira da Regedoura",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.01697,
+     "lon": -8.581312,
+     "n": 4,
+     "rumbo": 14
+    },
+    {
+     "lat": 41.017151,
+     "lon": -8.582306,
+     "n": 4,
+     "rumbo": 195
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 43,
+    "centro_plaza": [
+     41.017061,
+     -8.581809
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Norte",
    "punto": "Nogueira da Regedoura",
@@ -2065,6 +4765,24 @@
    "km": "24",
    "localidad": "Sandim",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.029898,
+     "lon": -8.49966,
+     "n": 2,
+     "rumbo": 144
+    },
+    {
+     "lat": 41.029971,
+     "lon": -8.499534,
+     "n": 3,
+     "rumbo": 323
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.3
+   },
    "pais": "PT",
    "via_visible": "Via Verde",
    "punto": "Sandim",
@@ -2081,6 +4799,24 @@
    "km": "1",
    "localidad": "Sandim",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.047688,
+     "lon": -8.503973,
+     "n": 2,
+     "rumbo": 105
+    },
+    {
+     "lat": 41.047806,
+     "lon": -8.503936,
+     "n": 3,
+     "rumbo": 284
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.3
+   },
    "pais": "PT",
    "via_visible": "Autoestrada de Entre Douro-e-Vouga",
    "punto": "Sandim",
@@ -2096,6 +4832,24 @@
    "km": "28",
    "localidad": "Olival",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.057579,
+     "lon": -8.525828,
+     "n": 3,
+     "rumbo": 137
+    },
+    {
+     "lat": 41.057724,
+     "lon": -8.525623,
+     "n": 3,
+     "rumbo": 318
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.8
+   },
    "pais": "PT",
    "via_visible": "A32",
    "punto": "Olival",
@@ -2112,6 +4866,24 @@
    "km": "18",
    "localidad": "Lever",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.070974,
+     "lon": -8.453078,
+     "n": 2,
+     "rumbo": 181
+    },
+    {
+     "lat": 41.070979,
+     "lon": -8.452928,
+     "n": 2,
+     "rumbo": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.3
+   },
    "pais": "PT",
    "via_visible": "A41",
    "punto": "Lever",
@@ -2119,13 +4891,35 @@
    "confianza": "media"
   },
   {
-   "lat": 41.079222,
-   "lon": -8.634696,
+   "lat": 41.079362,
+   "lon": -8.634522,
    "nombre": "Pórtico de Portagem de Gulpilhares",
    "tipo": "portico",
    "via": "Autoestrada da Costa de Prata",
    "ref": "A 29",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.079081,
+     "lon": -8.63487,
+     "n": 1,
+     "rumbo": 67
+    },
+    {
+     "lat": 41.079362,
+     "lon": -8.634522,
+     "n": 1,
+     "rumbo": 247
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 21,
+    "centro_plaza": [
+     41.079222,
+     -8.634696
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada da Costa de Prata",
    "punto": "de Portagem de Gulpilhares",
@@ -2142,6 +4936,24 @@
    "km": "14",
    "localidad": "Covelo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.098237,
+     "lon": -8.475479,
+     "n": 2,
+     "rumbo": 149
+    },
+    {
+     "lat": 41.0983,
+     "lon": -8.47534,
+     "n": 3,
+     "rumbo": 329
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.4
+   },
    "pais": "PT",
    "via_visible": "A43",
    "punto": "Covelo",
@@ -2155,6 +4967,24 @@
    "tipo": "cabina",
    "ref": "A 41",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.135989,
+     "lon": -8.42239,
+     "n": 2,
+     "rumbo": 151
+    },
+    {
+     "lat": 41.136032,
+     "lon": -8.42226,
+     "n": 2,
+     "rumbo": 333
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.9
+   },
    "pais": "PT",
    "via_visible": "A41",
    "punto": "Portagem de Aguiar de Sousa",
@@ -2168,6 +4998,24 @@
    "tipo": "cabina",
    "ref": "A 41",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.165242,
+     "lon": -8.444012,
+     "n": 3,
+     "rumbo": 66
+    },
+    {
+     "lat": 41.165346,
+     "lon": -8.444074,
+     "n": 2,
+     "rumbo": 246
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.1
+   },
    "pais": "PT",
    "via_visible": "A41",
    "punto": "Portagem do Nó de Campo / Recarei / Gandra",
@@ -2180,6 +5028,24 @@
    "nombre": "Nó de acesso Parada/Baltar",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.171644,
+     "lon": -8.38829,
+     "n": 2,
+     "rumbo": 32
+    },
+    {
+     "lat": 41.17168,
+     "lon": -8.388411,
+     "n": 2,
+     "rumbo": 206
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.4
+   },
    "pais": "PT",
    "via_visible": "Avenida Dom Manuel I",
    "punto": "Nó de acesso Parada/Baltar",
@@ -2192,6 +5058,24 @@
    "nombre": "Portagem do Nó de Campo",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.183696,
+     "lon": -8.454826,
+     "n": 2,
+     "rumbo": 175
+    },
+    {
+     "lat": 41.183702,
+     "lon": -8.45469,
+     "n": 2,
+     "rumbo": 356
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.7
+   },
    "pais": "PT",
    "via_visible": "A41",
    "punto": "Portagem do Nó de Campo",
@@ -2199,14 +5083,36 @@
    "confianza": "alta"
   },
   {
-   "lat": 41.194454,
-   "lon": -8.504528,
+   "lat": 41.194799,
+   "lon": -8.504657,
    "nombre": "Peaje Rua Doutor Mário Cal Brandão km 14",
    "tipo": "cabina",
    "via": "Rua Doutor Mário Cal Brandão",
    "km": "14",
    "localidad": "Valongo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.194108,
+     "lon": -8.5044,
+     "n": 1,
+     "rumbo": 349
+    },
+    {
+     "lat": 41.194799,
+     "lon": -8.504657,
+     "n": 1,
+     "rumbo": 171
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 40,
+    "centro_plaza": [
+     41.194454,
+     -8.504528
+    ]
+   },
    "pais": "PT",
    "via_visible": "Rua Doutor Mário Cal Brandão",
    "punto": "Valongo",
@@ -2214,8 +5120,8 @@
    "confianza": "media"
   },
   {
-   "lat": 41.201122,
-   "lon": -8.550845,
+   "lat": 41.200939,
+   "lon": -8.550631,
    "nombre": "Peaje Autoestrada de Trás-os-Montes e Alto Douro (A 4) km 13",
    "tipo": "cabina",
    "via": "Autoestrada de Trás-os-Montes e Alto Douro",
@@ -2223,6 +5129,34 @@
    "km": "13",
    "localidad": "Ermesinde",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.200939,
+     "lon": -8.550631,
+     "n": 4,
+     "rumbo": 81
+    },
+    {
+     "lat": 41.20115,
+     "lon": -8.551714,
+     "n": 2,
+     "rumbo": 266
+    },
+    {
+     "lat": 41.20146,
+     "lon": -8.550403,
+     "n": 2,
+     "rumbo": 269
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 27,
+    "centro_plaza": [
+     41.201122,
+     -8.550845
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada de Trás-os-Montes e Alto Douro",
    "punto": "Ermesinde",
@@ -2237,6 +5171,24 @@
    "via": "Circular Regional Exterior do Porto (CREP)",
    "ref": "A 41",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.201616,
+     "lon": -8.449519,
+     "n": 2,
+     "rumbo": 177
+    },
+    {
+     "lat": 41.201618,
+     "lon": -8.449362,
+     "n": 3,
+     "rumbo": 357
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.3
+   },
    "pais": "PT",
    "via_visible": "A41",
    "punto": "Portagem de Gandra",
@@ -2252,6 +5204,24 @@
    "ref": "A 4;IP 4",
    "localidad": "Paredes",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.20164,
+     "lon": -8.337691,
+     "n": 2,
+     "rumbo": 17
+    },
+    {
+     "lat": 41.201666,
+     "lon": -8.337808,
+     "n": 2,
+     "rumbo": 197
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.1
+   },
    "pais": "PT",
    "via_visible": "Autoestrada de Trás-os-Montes e Alto Douro",
    "punto": "Paredes",
@@ -2259,8 +5229,8 @@
    "confianza": "media"
   },
   {
-   "lat": 41.202048,
-   "lon": -8.616165,
+   "lat": 41.202381,
+   "lon": -8.617506,
    "nombre": "Pórtico Autoestrada de Trás-os-Montes e Alto Douro (A 4) km 6",
    "tipo": "portico",
    "via": "Autoestrada de Trás-os-Montes e Alto Douro",
@@ -2268,6 +5238,28 @@
    "km": "6",
    "localidad": "São Mamede de Infesta",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.201716,
+     "lon": -8.614823,
+     "n": 1,
+     "rumbo": 290
+    },
+    {
+     "lat": 41.202381,
+     "lon": -8.617506,
+     "n": 1,
+     "rumbo": 119
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 118,
+    "centro_plaza": [
+     41.202048,
+     -8.616165
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada de Trás-os-Montes e Alto Douro",
    "punto": "São Mamede de Infesta",
@@ -2283,6 +5275,24 @@
    "ref": "A 4;IP 4",
    "localidad": "Guilhufe",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.202269,
+     "lon": -8.314374,
+     "n": 2,
+     "rumbo": 85
+    },
+    {
+     "lat": 41.202346,
+     "lon": -8.314378,
+     "n": 2,
+     "rumbo": 266
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.2
+   },
    "pais": "PT",
    "via_visible": "Autoestrada de Trás-os-Montes e Alto Douro",
    "punto": "Guilhufe",
@@ -2290,8 +5300,8 @@
    "confianza": "media"
   },
   {
-   "lat": 41.207055,
-   "lon": -8.628922,
+   "lat": 41.207113,
+   "lon": -8.62871,
    "nombre": "Pórtico Autoestrada de Trás-os-Montes e Alto Douro (A 4) km 6 (2)",
    "tipo": "portico",
    "via": "Autoestrada de Trás-os-Montes e Alto Douro",
@@ -2299,6 +5309,28 @@
    "km": "6",
    "localidad": "Leça do Balio",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.206997,
+     "lon": -8.629135,
+     "n": 1,
+     "rumbo": 101
+    },
+    {
+     "lat": 41.207113,
+     "lon": -8.62871,
+     "n": 1,
+     "rumbo": 284
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 19,
+    "centro_plaza": [
+     41.207055,
+     -8.628922
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada de Trás-os-Montes e Alto Douro",
    "punto": "Leça do Balio",
@@ -2313,6 +5345,29 @@
    "ref": "EN 106",
    "localidad": "Penafiel",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.214008,
+     "lon": -8.287572,
+     "n": 2,
+     "rumbo": 33
+    },
+    {
+     "lat": 41.214029,
+     "lon": -8.287607,
+     "n": 1
+    },
+    {
+     "lat": 41.21404,
+     "lon": -8.287641,
+     "n": 1,
+     "rumbo": 213
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.2
+   },
    "pais": "PT",
    "via_visible": "EN106",
    "punto": "Penafiel",
@@ -2328,6 +5383,24 @@
    "ref": "A 4",
    "localidad": "Toutosa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.224502,
+     "lon": -8.139841,
+     "n": 1,
+     "rumbo": 101
+    },
+    {
+     "lat": 41.224705,
+     "lon": -8.139798,
+     "n": 1,
+     "rumbo": 281
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.3
+   },
    "pais": "PT",
    "via_visible": "Autoestrada de Trás-os-Montes e Alto Douro",
    "punto": "Toutosa",
@@ -2335,13 +5408,35 @@
    "confianza": "media"
   },
   {
-   "lat": 41.23184,
-   "lon": -8.684686,
+   "lat": 41.231788,
+   "lon": -8.684905,
    "nombre": "Pórtico de Portagem da Freixieiro",
    "tipo": "portico",
    "via": "Circular Regional Exterior do Porto (CREP)",
    "ref": "A 41",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.231788,
+     "lon": -8.684905,
+     "n": 1,
+     "rumbo": 95
+    },
+    {
+     "lat": 41.231892,
+     "lon": -8.684467,
+     "n": 1,
+     "rumbo": 276
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 19,
+    "centro_plaza": [
+     41.23184,
+     -8.684686
+    ]
+   },
    "pais": "PT",
    "via_visible": "A41",
    "punto": "de Portagem da Freixieiro",
@@ -2349,13 +5444,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 41.232073,
-   "lon": -8.464472,
+   "lat": 41.232132,
+   "lon": -8.465189,
    "nombre": "Pórtico de Portagem de Sobrado",
    "tipo": "portico",
    "via": "Circular Regional Exterior do Porto (CREP)",
    "ref": "A 41",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.232013,
+     "lon": -8.463755,
+     "n": 1,
+     "rumbo": 286
+    },
+    {
+     "lat": 41.232132,
+     "lon": -8.465189,
+     "n": 1,
+     "rumbo": 107
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 60,
+    "centro_plaza": [
+     41.232073,
+     -8.464472
+    ]
+   },
    "pais": "PT",
    "via_visible": "A41",
    "punto": "de Portagem de Sobrado",
@@ -2363,13 +5480,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 41.235833,
-   "lon": -8.513912,
+   "lat": 41.236218,
+   "lon": -8.514003,
    "nombre": "Pórtico de Portagem de Alfena Este",
    "tipo": "portico",
    "via": "Circular Regional Exterior do Porto (CREP)",
    "ref": "A 41",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.235447,
+     "lon": -8.51382,
+     "n": 1,
+     "rumbo": 357
+    },
+    {
+     "lat": 41.236218,
+     "lon": -8.514003,
+     "n": 1,
+     "rumbo": 181
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 43,
+    "centro_plaza": [
+     41.235833,
+     -8.513912
+    ]
+   },
    "pais": "PT",
    "via_visible": "A41",
    "punto": "de Portagem de Alfena Este",
@@ -2386,6 +5525,24 @@
    "km": "1",
    "localidad": "Recezinhos (São Mamede)",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.237036,
+     "lon": -8.203027,
+     "n": 2,
+     "rumbo": 107
+    },
+    {
+     "lat": 41.237153,
+     "lon": -8.202981,
+     "n": 2,
+     "rumbo": 287
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.7
+   },
    "pais": "PT",
    "via_visible": "EN211",
    "punto": "Recezinhos (São Mamede)",
@@ -2393,13 +5550,35 @@
    "confianza": "media"
   },
   {
-   "lat": 41.238318,
-   "lon": -8.651725,
+   "lat": 41.238141,
+   "lon": -8.651791,
    "nombre": "Pórtico de Portagem de Gandra",
    "tipo": "portico",
    "via": "Circular Regional Exterior do Porto (CREP)",
    "ref": "A 41",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.238141,
+     "lon": -8.651791,
+     "n": 1,
+     "rumbo": 45
+    },
+    {
+     "lat": 41.238495,
+     "lon": -8.651658,
+     "n": 1,
+     "rumbo": 225
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 20,
+    "centro_plaza": [
+     41.238318,
+     -8.651725
+    ]
+   },
    "pais": "PT",
    "via_visible": "A41",
    "punto": "de Portagem de Gandra",
@@ -2407,13 +5586,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 41.239187,
-   "lon": -8.548955,
+   "lat": 41.239233,
+   "lon": -8.548747,
    "nombre": "Pórtico de Portagem de Alfena Oeste",
    "tipo": "portico",
    "via": "Circular Regional Exterior do Porto (CREP)",
    "ref": "A 41",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.23914,
+     "lon": -8.549163,
+     "n": 1,
+     "rumbo": 103
+    },
+    {
+     "lat": 41.239233,
+     "lon": -8.548747,
+     "n": 1,
+     "rumbo": 283
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 18,
+    "centro_plaza": [
+     41.239187,
+     -8.548955
+    ]
+   },
    "pais": "PT",
    "via_visible": "A41",
    "punto": "de Portagem de Alfena Oeste",
@@ -2421,13 +5622,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 41.239472,
-   "lon": -8.637706,
+   "lat": 41.239373,
+   "lon": -8.637897,
    "nombre": "Pórtico de Portagem da Maia",
    "tipo": "portico",
    "via": "Circular Regional Exterior do Porto (CREP)",
    "ref": "A 41",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.239373,
+     "lon": -8.637897,
+     "n": 1,
+     "rumbo": 89
+    },
+    {
+     "lat": 41.23957,
+     "lon": -8.637514,
+     "n": 1,
+     "rumbo": 265
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 19,
+    "centro_plaza": [
+     41.239472,
+     -8.637706
+    ]
+   },
    "pais": "PT",
    "via_visible": "A41",
    "punto": "de Portagem da Maia",
@@ -2442,6 +5665,18 @@
    "via": "Circular Regional Exterior do Porto (CREP)",
    "ref": "A 41",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.239666,
+     "lon": -8.618172,
+     "n": 1,
+     "rumbo": 111
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "A41",
    "punto": "de Portagem de Vermoim",
@@ -2457,6 +5692,18 @@
    "via": "Circular Regional Exterior do Porto (CREP)",
    "ref": "A 41",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.239804,
+     "lon": -8.610412,
+     "n": 1,
+     "rumbo": 263
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "A41",
    "punto": "de Portagem de Vermoim",
@@ -2465,14 +5712,36 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 41.244309,
-   "lon": -8.435647,
+   "lat": 41.244129,
+   "lon": -8.435559,
    "nombre": "Pórtico Autoestrada do Douro Litoral (A 42)",
    "tipo": "portico",
    "via": "Autoestrada do Douro Litoral",
    "ref": "A 42",
    "localidad": "Lordelo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.244129,
+     "lon": -8.435559,
+     "n": 1,
+     "rumbo": 0
+    },
+    {
+     "lat": 41.244489,
+     "lon": -8.435735,
+     "n": 1,
+     "rumbo": 180
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 21,
+    "centro_plaza": [
+     41.244309,
+     -8.435647
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Douro Litoral",
    "punto": "Lordelo",
@@ -2480,13 +5749,35 @@
    "confianza": "media"
   },
   {
-   "lat": 41.244911,
-   "lon": -8.565624,
+   "lat": 41.244982,
+   "lon": -8.565327,
    "nombre": "Maia",
    "tipo": "cabina",
    "via": "Autoestrada de Entre-Douro-e-Minho (Via Verde)",
    "ref": "A 3",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.244839,
+     "lon": -8.565922,
+     "n": 3,
+     "rumbo": 159
+    },
+    {
+     "lat": 41.244982,
+     "lon": -8.565327,
+     "n": 3,
+     "rumbo": 339
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 26,
+    "centro_plaza": [
+     41.244911,
+     -8.565624
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada de Entre-Douro-e-Minho (Via Verde)",
    "punto": "Maia",
@@ -2503,6 +5794,24 @@
    "km": "42",
    "localidad": "Oliveira",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.256932,
+     "lon": -8.214082,
+     "n": 2,
+     "rumbo": 46
+    },
+    {
+     "lat": 41.257002,
+     "lon": -8.214171,
+     "n": 2,
+     "rumbo": 225
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.3
+   },
    "pais": "PT",
    "via_visible": "EN15",
    "punto": "Oliveira",
@@ -2510,14 +5819,36 @@
    "confianza": "media"
   },
   {
-   "lat": 41.259636,
-   "lon": -8.351287,
+   "lat": 41.259586,
+   "lon": -8.351489,
    "nombre": "Pórtico Autoestrada do Douro Litoral (A 42) (4)",
    "tipo": "portico",
    "via": "Autoestrada do Douro Litoral",
    "ref": "A 42",
    "localidad": "Ferreira",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.259586,
+     "lon": -8.351489,
+     "n": 1,
+     "rumbo": 100
+    },
+    {
+     "lat": 41.259687,
+     "lon": -8.351085,
+     "n": 1,
+     "rumbo": 280
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 18,
+    "centro_plaza": [
+     41.259636,
+     -8.351287
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Douro Litoral",
    "punto": "Ferreira",
@@ -2525,14 +5856,36 @@
    "confianza": "media"
   },
   {
-   "lat": 41.263853,
-   "lon": -8.331423,
+   "lat": 41.263651,
+   "lon": -8.331473,
    "nombre": "Pórtico Autoestrada do Douro Litoral (A 42) (3)",
    "tipo": "portico",
    "via": "Autoestrada do Douro Litoral",
    "ref": "A 42",
    "localidad": "Nevogilde",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.263651,
+     "lon": -8.331473,
+     "n": 1,
+     "rumbo": 39
+    },
+    {
+     "lat": 41.264055,
+     "lon": -8.331372,
+     "n": 1,
+     "rumbo": 218
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 23,
+    "centro_plaza": [
+     41.263853,
+     -8.331423
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Douro Litoral",
    "punto": "Nevogilde",
@@ -2548,6 +5901,24 @@
    "ref": "A 28",
    "localidad": "Aveleda",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.266196,
+     "lon": -8.701703,
+     "n": 1,
+     "rumbo": 355
+    },
+    {
+     "lat": 41.266371,
+     "lon": -8.701923,
+     "n": 1,
+     "rumbo": 175
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.3
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Litoral Norte",
    "punto": "Aveleda",
@@ -2555,14 +5926,36 @@
    "confianza": "media"
   },
   {
-   "lat": 41.288874,
-   "lon": -8.313863,
+   "lat": 41.288721,
+   "lon": -8.313897,
    "nombre": "Pórtico Autoestrada do Douro Litoral (A 42) (2)",
    "tipo": "portico",
    "via": "Autoestrada do Douro Litoral",
    "ref": "A 42",
    "localidad": "Covas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.288721,
+     "lon": -8.313897,
+     "n": 1,
+     "rumbo": 30
+    },
+    {
+     "lat": 41.289028,
+     "lon": -8.313829,
+     "n": 1,
+     "rumbo": 211
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 17,
+    "centro_plaza": [
+     41.288874,
+     -8.313863
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Douro Litoral",
    "punto": "Covas",
@@ -2578,6 +5971,24 @@
    "ref": "A 42",
    "localidad": "Alvarenga",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.292319,
+     "lon": -8.269494,
+     "n": 1,
+     "rumbo": 83
+    },
+    {
+     "lat": 41.292517,
+     "lon": -8.26952,
+     "n": 1,
+     "rumbo": 263
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.0
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Douro Litoral",
    "punto": "Alvarenga",
@@ -2593,6 +6004,24 @@
    "ref": "A 42",
    "localidad": "Rande",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.334753,
+     "lon": -8.234439,
+     "n": 1,
+     "rumbo": 13
+    },
+    {
+     "lat": 41.334789,
+     "lon": -8.234663,
+     "n": 1,
+     "rumbo": 192
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.6
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Douro Litoral",
    "punto": "Rande",
@@ -2608,6 +6037,24 @@
    "ref": "A 3;IP 1",
    "localidad": "Santo Tirso",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.337641,
+     "lon": -8.506488,
+     "n": 2,
+     "rumbo": 8
+    },
+    {
+     "lat": 41.337656,
+     "lon": -8.50661,
+     "n": 2,
+     "rumbo": 189
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.2
+   },
    "pais": "PT",
    "via_visible": "Autoestrada de Entre-Douro-e-Minho",
    "punto": "Santo Tirso",
@@ -2622,6 +6069,24 @@
    "ref": "A 11",
    "localidad": "Revinhade",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.351011,
+     "lon": -8.262759,
+     "n": 1,
+     "rumbo": 45
+    },
+    {
+     "lat": 41.351079,
+     "lon": -8.26284,
+     "n": 1,
+     "rumbo": 225
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.0
+   },
    "pais": "PT",
    "via_visible": "A11",
    "punto": "Revinhade",
@@ -2629,8 +6094,8 @@
    "confianza": "media"
   },
   {
-   "lat": 41.388063,
-   "lon": -8.518197,
+   "lat": 41.388085,
+   "lon": -8.518006,
    "nombre": "Peaje Variante Nascente de Famalicão (EN 14) km 20",
    "tipo": "cabina",
    "via": "Variante Nascente de Famalicão",
@@ -2638,6 +6103,28 @@
    "km": "20",
    "localidad": "Esmeriz",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.388041,
+     "lon": -8.518389,
+     "n": 1,
+     "rumbo": 171
+    },
+    {
+     "lat": 41.388085,
+     "lon": -8.518006,
+     "n": 1,
+     "rumbo": 351
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 16,
+    "centro_plaza": [
+     41.388063,
+     -8.518197
+    ]
+   },
    "pais": "PT",
    "via_visible": "EN14",
    "punto": "Esmeriz",
@@ -2645,14 +6132,48 @@
    "confianza": "media"
   },
   {
-   "lat": 41.388171,
-   "lon": -8.699414,
+   "lat": 41.389702,
+   "lon": -8.698548,
    "nombre": "Peaje A 7 km 3",
    "tipo": "cabina",
    "ref": "A 7",
    "km": "3",
    "localidad": "Touguinhó",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.386515,
+     "lon": -8.70033,
+     "n": 1,
+     "rumbo": 68
+    },
+    {
+     "lat": 41.386682,
+     "lon": -8.700425,
+     "n": 1,
+     "rumbo": 248
+    },
+    {
+     "lat": 41.389702,
+     "lon": -8.698548,
+     "n": 1,
+     "rumbo": 152
+    },
+    {
+     "lat": 41.389784,
+     "lon": -8.698353,
+     "n": 1,
+     "rumbo": 331
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 184,
+    "centro_plaza": [
+     41.388171,
+     -8.699414
+    ]
+   },
    "pais": "PT",
    "via_visible": "A7",
    "punto": "Touguinhó",
@@ -2667,6 +6188,24 @@
    "ref": "A 7",
    "localidad": "Seide (São Miguel)",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.400261,
+     "lon": -8.457986,
+     "n": 1,
+     "rumbo": 92
+    },
+    {
+     "lat": 41.400374,
+     "lon": -8.45798,
+     "n": 1,
+     "rumbo": 271
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.2
+   },
    "pais": "PT",
    "via_visible": "A7",
    "punto": "Seide (São Miguel)",
@@ -2681,6 +6220,24 @@
    "ref": "A 7",
    "localidad": "Serzedelo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.406559,
+     "lon": -8.37396,
+     "n": 1,
+     "rumbo": 151
+    },
+    {
+     "lat": 41.406617,
+     "lon": -8.373839,
+     "n": 1,
+     "rumbo": 332
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.9
+   },
    "pais": "PT",
    "via_visible": "A7",
    "punto": "Serzedelo",
@@ -2695,6 +6252,24 @@
    "via": "Rua da Breia",
    "localidad": "Pinheiro",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.417621,
+     "lon": -8.294901,
+     "n": 1,
+     "rumbo": 49
+    },
+    {
+     "lat": 41.417713,
+     "lon": -8.295031,
+     "n": 1,
+     "rumbo": 229
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.4
+   },
    "pais": "PT",
    "via_visible": "Rua da Breia",
    "punto": "Pinheiro",
@@ -2710,6 +6285,24 @@
    "ref": "A 28",
    "localidad": "Navais",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.43045,
+     "lon": -8.744652,
+     "n": 1,
+     "rumbo": 21
+    },
+    {
+     "lat": 41.430688,
+     "lon": -8.744756,
+     "n": 1,
+     "rumbo": 201
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.9
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Litoral Norte",
    "punto": "Navais",
@@ -2724,6 +6317,24 @@
    "ref": "A 7",
    "localidad": "Antime",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.441607,
+     "lon": -8.163633,
+     "n": 1,
+     "rumbo": 36
+    },
+    {
+     "lat": 41.441675,
+     "lon": -8.163787,
+     "n": 1,
+     "rumbo": 216
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.4
+   },
    "pais": "PT",
    "via_visible": "A7",
    "punto": "Antime",
@@ -2738,6 +6349,24 @@
    "ref": "A 11",
    "localidad": "Silvares",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.444013,
+     "lon": -8.332484,
+     "n": 1,
+     "rumbo": 114
+    },
+    {
+     "lat": 41.444204,
+     "lon": -8.332396,
+     "n": 1,
+     "rumbo": 293
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.1
+   },
    "pais": "PT",
    "via_visible": "A11",
    "punto": "Silvares",
@@ -2753,6 +6382,18 @@
    "ref": "ER 206",
    "localidad": "Silvares",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.447469,
+     "lon": -8.341213,
+     "n": 2,
+     "rumbo": 63
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "ER206",
    "punto": "Silvares",
@@ -2765,6 +6406,24 @@
    "nombre": "Cruz (A3)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.456415,
+     "lon": -8.491027,
+     "n": 1,
+     "rumbo": 123
+    },
+    {
+     "lat": 41.456507,
+     "lon": -8.490947,
+     "n": 1,
+     "rumbo": 302
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.1
+   },
    "pais": "PT",
    "punto": "Cruz (A3)",
    "nombre_visible": "Portagem Cruz (A3)",
@@ -2778,6 +6437,24 @@
    "ref": "A 7",
    "localidad": "Arco de Baúlhe",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.476042,
+     "lon": -7.948829,
+     "n": 1,
+     "rumbo": 137
+    },
+    {
+     "lat": 41.476123,
+     "lon": -7.948695,
+     "n": 1,
+     "rumbo": 317
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.1
+   },
    "pais": "PT",
    "via_visible": "A7",
    "punto": "Arco de Baúlhe",
@@ -2793,6 +6470,24 @@
    "ref": "A 11",
    "localidad": "Fonte Boa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.492156,
+     "lon": -8.736448,
+     "n": 1,
+     "rumbo": 49
+    },
+    {
+     "lat": 41.492253,
+     "lon": -8.73658,
+     "n": 1,
+     "rumbo": 228
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.6
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Baixo Minho",
    "punto": "Fonte Boa",
@@ -2807,6 +6502,24 @@
    "ref": "EN 205",
    "localidad": "Rio Tinto",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.492591,
+     "lon": -8.701945,
+     "n": 1,
+     "rumbo": 146
+    },
+    {
+     "lat": 41.492641,
+     "lon": -8.70187,
+     "n": 1,
+     "rumbo": 327
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.1
+   },
    "pais": "PT",
    "via_visible": "EN205",
    "punto": "Rio Tinto",
@@ -2814,13 +6527,47 @@
    "confianza": "media"
   },
   {
-   "lat": 41.498597,
-   "lon": -7.80092,
+   "lat": 41.497,
+   "lon": -7.79906,
    "nombre": "Peaje A 7 (5)",
    "tipo": "cabina",
    "ref": "A 7",
    "localidad": "Ribeira de Pena",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.496857,
+     "lon": -7.799032,
+     "n": 1,
+     "rumbo": 83
+    },
+    {
+     "lat": 41.497,
+     "lon": -7.79906,
+     "n": 1,
+     "rumbo": 259
+    },
+    {
+     "lat": 41.500261,
+     "lon": -7.802883,
+     "n": 1,
+     "rumbo": 175
+    },
+    {
+     "lat": 41.500271,
+     "lon": -7.802706,
+     "n": 1,
+     "rumbo": 357
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 235,
+    "centro_plaza": [
+     41.498597,
+     -7.80092
+    ]
+   },
    "pais": "PT",
    "via_visible": "A7",
    "punto": "Ribeira de Pena",
@@ -2836,6 +6583,24 @@
    "ref": "A 11",
    "localidad": "Figueiredo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.503102,
+     "lon": -8.441172,
+     "n": 4,
+     "rumbo": 127
+    },
+    {
+     "lat": 41.503292,
+     "lon": -8.440958,
+     "n": 4,
+     "rumbo": 308
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.8
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Baixo Minho",
    "punto": "Figueiredo",
@@ -2848,6 +6613,24 @@
    "nombre": "Braga Sul (A3)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.507832,
+     "lon": -8.463725,
+     "n": 2,
+     "rumbo": 92
+    },
+    {
+     "lat": 41.507957,
+     "lon": -8.463738,
+     "n": 2,
+     "rumbo": 273
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.9
+   },
    "pais": "PT",
    "punto": "Braga Sul (A3)",
    "nombre_visible": "Portagem Braga Sul (A3)",
@@ -2861,6 +6644,24 @@
    "ref": "EN 103",
    "localidad": "Alvelos",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.515693,
+     "lon": -8.612634,
+     "n": 4,
+     "rumbo": 67
+    },
+    {
+     "lat": 41.515923,
+     "lon": -8.612773,
+     "n": 4,
+     "rumbo": 247
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 14.0
+   },
    "pais": "PT",
    "via_visible": "EN103",
    "punto": "Alvelos",
@@ -2875,6 +6676,24 @@
    "via": "Autoestrada do Baixo Minho",
    "ref": "A 11",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.531447,
+     "lon": -8.46793,
+     "n": 2,
+     "rumbo": 74
+    },
+    {
+     "lat": 41.531641,
+     "lon": -8.468001,
+     "n": 3,
+     "rumbo": 254
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.0
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Baixo Minho",
    "punto": "Ferreiros (A11)",
@@ -2887,6 +6706,24 @@
    "nombre": "Braga Oeste (A3)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.537565,
+     "lon": -8.497982,
+     "n": 2,
+     "rumbo": 19
+    },
+    {
+     "lat": 41.537597,
+     "lon": -8.498129,
+     "n": 2,
+     "rumbo": 199
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.3
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Baixo Minho",
    "punto": "Braga Oeste (A3)",
@@ -2902,6 +6739,17 @@
    "ref": "EN 205-4",
    "localidad": "Dume",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.566052,
+     "lon": -8.430222,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "EN 205-4",
    "punto": "Dume",
@@ -2909,14 +6757,36 @@
    "confianza": "media"
   },
   {
-   "lat": 41.579584,
-   "lon": -7.64175,
+   "lat": 41.579412,
+   "lon": -7.641725,
    "nombre": "Pórtico Autoestrada do Interior Norte (A 24)",
    "tipo": "portico",
    "via": "Autoestrada do Interior Norte",
    "ref": "A 24",
    "localidad": "Bragado",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.579412,
+     "lon": -7.641725,
+     "n": 1,
+     "rumbo": 12
+    },
+    {
+     "lat": 41.579756,
+     "lon": -7.641775,
+     "n": 1,
+     "rumbo": 193
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 19,
+    "centro_plaza": [
+     41.579584,
+     -7.64175
+    ]
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Interior Norte",
    "punto": "Bragado",
@@ -2929,6 +6799,24 @@
    "nombre": "Anais - Vila Verde (A3)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.690668,
+     "lon": -8.5346,
+     "n": 2,
+     "rumbo": 7
+    },
+    {
+     "lat": 41.69068,
+     "lon": -8.534716,
+     "n": 2,
+     "rumbo": 187
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.9
+   },
    "pais": "PT",
    "via_visible": "Autoestrada de Entre-Douro-e-Minho",
    "punto": "Anais - Vila Verde (A3)",
@@ -2943,6 +6831,19 @@
    "via": "Estrada Florestal da Mata de Albergaria",
    "ref": "EM 308-1",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.767274,
+     "lon": -8.146778,
+     "n": 1,
+     "rumbo": 15,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "EM 308-1",
    "punto": "Portagem de acesso à Mata de Albergaria",
@@ -2951,15 +6852,49 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 41.770736,
-   "lon": -8.55913,
+   "lat": 41.769742,
+   "lon": -8.561685,
    "nombre": "Ponte de Lima S. Norte (A3)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.769688,
+     "lon": -8.561761,
+     "n": 2,
+     "rumbo": 146
+    },
+    {
+     "lat": 41.769742,
+     "lon": -8.561685,
+     "n": 2,
+     "rumbo": 326
+    },
+    {
+     "lat": 41.771707,
+     "lon": -8.556544,
+     "n": 2,
+     "rumbo": 107
+    },
+    {
+     "lat": 41.771807,
+     "lon": -8.556532,
+     "n": 2,
+     "rumbo": 287
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 239,
+    "centro_plaza": [
+     41.770736,
+     -8.55913
+    ]
+   },
    "pais": "PT",
-   "via_visible": "Autoestrada de Entre-Douro-e-Minho",
+   "via_visible": "EN 203",
    "punto": "Ponte de Lima S. Norte (A3)",
-   "nombre_visible": "Autoestrada de Entre-Douro-e-Minho - Portagem Ponte de Lima S. Norte (A3)",
+   "nombre_visible": "EN 203 - Portagem Ponte de Lima S. Norte (A3)",
    "confianza": "alta"
   },
   {
@@ -2970,6 +6905,19 @@
    "via": "Estradão da Mata da Albergaria",
    "localidad": "Campo do Gerês",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.77586,
+     "lon": -8.171631,
+     "n": 1,
+     "rumbo": 20,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "Estradão da Mata da Albergaria",
    "punto": "Campo do Gerês",
@@ -2983,6 +6931,24 @@
    "tipo": "cabina",
    "ref": "A 3",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.779369,
+     "lon": -8.557272,
+     "n": 2,
+     "rumbo": 57
+    },
+    {
+     "lat": 41.779482,
+     "lon": -8.557388,
+     "n": 2,
+     "rumbo": 238
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.8
+   },
    "pais": "PT",
    "via_visible": "A3",
    "punto": "Ponte de Lima Norte (A3)",
@@ -2995,6 +6961,17 @@
    "nombre": "Serviço Easytoll - Electronic Toll",
    "tipo": "portico",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.795161,
+     "lon": -7.436604,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "Autoestrada do Interior Norte",
    "punto": "Serviço Easytoll - Electronic Toll",
@@ -3009,6 +6986,19 @@
    "via": "Estrada Florestal da Mata de Albergaria",
    "ref": "EM 308-1",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.807855,
+     "lon": -8.130583,
+     "n": 1,
+     "rumbo": 13,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PT",
    "via_visible": "EM 308-1",
    "punto": "Portagem de acesso à Mata de Albergaria",
@@ -3024,6 +7014,24 @@
    "via": "Via Verde",
    "localidad": "Sapardos",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.924669,
+     "lon": -8.654935,
+     "n": 3,
+     "rumbo": 179
+    },
+    {
+     "lat": 41.924673,
+     "lon": -8.654785,
+     "n": 2,
+     "rumbo": 359
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.0
+   },
    "pais": "PT",
    "via_visible": "Via Verde",
    "punto": "Sapardos",
@@ -3039,6 +7047,24 @@
    "ref": "A 3",
    "localidad": "São Pedro da Torre",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.978725,
+     "lon": -8.654263,
+     "n": 2,
+     "rumbo": 46
+    },
+    {
+     "lat": 41.978791,
+     "lon": -8.654344,
+     "n": 2,
+     "rumbo": 227
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.9
+   },
    "pais": "PT",
    "via_visible": "Autoestrada de Entre-Douro-e-Minho",
    "punto": "São Pedro da Torre",
@@ -3047,9 +7073,14 @@
   }
  ],
  "excluidas": [],
+<<<<<<< HEAD
  "generado": "2026-10-31T13:44Z",
  "alertas": [
   "PT: no se pudieron leer los peajes de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
   "PT: Salieron 0 y antes había 212: se mantiene lo anterior."
  ]
+=======
+ "generado": "2026-11-01T17:26Z",
+ "alertas": []
+>>>>>>> f7d7899 (Nombres de estaciones (PT) actualizados automáticamente)
 }
