@@ -5,20 +5,20 @@
  "resumen": {
   "oficial": 0,
   "osm": 4,
-  "armado": 8,
-  "total": 12,
+  "armado": 7,
+  "total": 11,
   "confianza_baja": 0,
-  "excluidas": 0,
+  "excluidas": 1,
   "posicion": {
    "umbral_m": 15.0,
    "ok": 12,
    "corregidas": 0,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 11,
+    "ok": 12,
     "a_mas_de_15_m": 0,
     "sin_referencia": 0,
-    "total": 11
+    "total": 12
    }
   }
  },
@@ -56,9 +56,7 @@
     {
      "lat": 14.215124,
      "lon": -88.058329,
-     "n": 1,
-     "rumbo": 5,
-     "doble": true
+     "n": 1
     }
    ],
    "posicion": {
@@ -80,21 +78,14 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": 14.291621,
-     "lon": -87.433529,
-     "n": 1,
-     "rumbo": 72
-    },
-    {
-     "lat": 14.291691,
-     "lon": -87.433554,
-     "n": 1,
-     "rumbo": 253
+     "lat": 14.291656,
+     "lon": -87.433542,
+     "n": 2
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 4.1
+    "distancia_m": 0.0
    },
    "pais": "HN",
    "via_visible": "Carretera CA-5",
@@ -105,16 +96,17 @@
   {
    "lat": 14.391822,
    "lon": -87.615168,
-   "nombre": "Peaje cerca de Palmerola",
+   "nombre": "Peaje Carretera CA-5",
    "tipo": "cabina",
+   "via": "Carretera CA-5",
+   "ref": "CA-5",
    "localidad": "Palmerola",
    "fuente": "armado",
    "cabinas": [
     {
      "lat": 14.391822,
      "lon": -87.615168,
-     "n": 1,
-     "rumbo": 83
+     "n": 1
     }
    ],
    "posicion": {
@@ -139,9 +131,7 @@
     {
      "lat": 14.563208,
      "lon": -87.827961,
-     "n": 1,
-     "rumbo": 307,
-     "doble": true
+     "n": 1
     }
    ],
    "posicion": {
@@ -166,8 +156,7 @@
     {
      "lat": 15.030637,
      "lon": -87.927935,
-     "n": 1,
-     "rumbo": 178
+     "n": 1
     }
    ],
    "posicion": {
@@ -191,9 +180,7 @@
     {
      "lat": 15.317763,
      "lon": -87.947519,
-     "n": 1,
-     "rumbo": 62,
-     "doble": true
+     "n": 1
     }
    ],
    "posicion": {
@@ -218,8 +205,7 @@
     {
      "lat": 15.437223,
      "lon": -88.020978,
-     "n": 1,
-     "rumbo": 181
+     "n": 1
     }
    ],
    "posicion": {
@@ -230,29 +216,6 @@
    "via_visible": "Carretera del Norte",
    "punto": "Búfalo",
    "nombre_visible": "Carretera del Norte - Peaje Búfalo",
-   "confianza": "media"
-  },
-  {
-   "lat": 15.456613,
-   "lon": -87.929466,
-   "nombre": "Peaje cerca de La Lima",
-   "tipo": "cabina",
-   "localidad": "La Lima",
-   "fuente": "armado",
-   "cabinas": [
-    {
-     "lat": 15.456613,
-     "lon": -87.929466,
-     "n": 1
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "pais": "HN",
-   "punto": "La Lima",
-   "nombre_visible": "Peaje La Lima",
    "confianza": "media"
   },
   {
@@ -268,8 +231,7 @@
     {
      "lat": 15.463211,
      "lon": -87.960457,
-     "n": 1,
-     "rumbo": 128
+     "n": 1
     }
    ],
    "posicion": {
@@ -295,8 +257,7 @@
     {
      "lat": 15.559777,
      "lon": -87.984901,
-     "n": 1,
-     "rumbo": 62
+     "n": 1
     }
    ],
    "posicion": {
@@ -322,8 +283,7 @@
     {
      "lat": 15.823729,
      "lon": -87.899386,
-     "n": 1,
-     "rumbo": 99
+     "n": 1
     }
    ],
    "posicion": {
@@ -337,9 +297,32 @@
    "confianza": "media"
   }
  ],
- "excluidas": [],
- "generado": "2026-11-01T16:21Z",
+ "excluidas": [
+  {
+   "lat": 15.456613,
+   "lon": -87.929466,
+   "nombre": "Peaje Boulevard Aeropuerto (RN-19)",
+   "tipo": "cabina",
+   "via": "Boulevard Aeropuerto",
+   "ref": "RN-19",
+   "localidad": "La Lima",
+   "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 15.456613,
+     "lon": -87.929466,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
+   "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
+  }
+ ],
+ "generado": "2026-11-01T17:54Z",
  "alertas": [
-  "Alrededores: falló un lote de 8 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+  "HN: OpenStreetMap no devolvió la geometría de las calles (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las cabinas salen sin sentido."
  ]
 }
