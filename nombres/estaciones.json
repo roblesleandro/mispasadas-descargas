@@ -9,9 +9,11 @@
   "osm": 8,
   "armado": 22,
   "total": 185,
-  "sin_ruta": 2
+  "sin_ruta": 3
  },
- "alertas": [],
+ "alertas": [
+  "Alrededores: falló un lote de 2 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+ ],
  "estaciones": [
   {
    "lat": -50.025179,
@@ -680,17 +682,31 @@
   {
    "lat": -34.83952,
    "lon": -56.014056,
-   "nombre": "Peaje Ruta 101 Capitán Juan Antonio Artigas km 19",
+   "nombre": "Peaje cerca de General Liber Seregni",
    "tipo": "cabina",
-   "via": "Ruta 101 Capitán Juan Antonio Artigas",
-   "ref": "101",
-   "km": "19",
    "localidad": "General Liber Seregni",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -34.839556,
+     "lon": -56.014118,
+     "n": 1,
+     "rumbo": 141
+    },
+    {
+     "lat": -34.839484,
+     "lon": -56.013994,
+     "n": 1,
+     "rumbo": 327
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.9
+   },
    "pais": "UY",
-   "via_visible": "Ruta 101",
    "punto": "General Liber Seregni",
-   "nombre_visible": "Ruta 101 - Peaje General Liber Seregni",
+   "nombre_visible": "Peaje General Liber Seregni",
    "confianza": "media"
   },
   {
@@ -795,6 +811,24 @@
    "ref": "IB",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.784916,
+     "lon": -55.888453,
+     "n": 1,
+     "rumbo": 52
+    },
+    {
+     "lat": -34.784726,
+     "lon": -55.888607,
+     "n": 1,
+     "rumbo": 226
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.6
+   },
    "pais": "UY",
    "via_visible": "Ruta Interbalnearia",
    "punto": "Pando",
@@ -877,6 +911,19 @@
    "via": "Uruguay",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.780417,
+     "lon": -56.355435,
+     "n": 1,
+     "rumbo": 160,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "UY",
    "via_visible": "Ruta 1",
    "punto": "Barra de Santa Lucía",
@@ -894,6 +941,24 @@
    "ref": "IB",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.777612,
+     "lon": -55.392393,
+     "n": 1,
+     "rumbo": 68
+    },
+    {
+     "lat": -34.777412,
+     "lon": -55.392507,
+     "n": 1,
+     "rumbo": 247
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.2
+   },
    "pais": "UY",
    "via_visible": "Ruta Interbalnearia",
    "punto": "Solís",
@@ -910,6 +975,24 @@
    "ref": "1",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.776489,
+     "lon": -56.366213,
+     "n": 1,
+     "rumbo": 96
+    },
+    {
+     "lat": -34.776291,
+     "lon": -56.366194,
+     "n": 1,
+     "rumbo": 275
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.0
+   },
    "pais": "UY",
    "via_visible": "Ruta 1",
    "punto": "Barra de Santa Lucía",
@@ -1101,6 +1184,19 @@
    "ref": "9",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.706404,
+     "lon": -55.466127,
+     "n": 1,
+     "rumbo": 91,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "UY",
    "via_visible": "Ruta 9",
    "punto": "Capilla de Cella",
@@ -1210,6 +1306,19 @@
    "ref": "8",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.672288,
+     "lon": -55.765381,
+     "n": 2,
+     "rumbo": 85,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "UY",
    "via_visible": "Ruta 8",
    "punto": "Soca",
@@ -1926,6 +2035,24 @@
    "ref": "9",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.602797,
+     "lon": -54.426493,
+     "n": 1,
+     "rumbo": 49
+    },
+    {
+     "lat": -34.602701,
+     "lon": -54.426585,
+     "n": 1,
+     "rumbo": 230
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.8
+   },
    "pais": "UY",
    "via_visible": "Ruta 9",
    "punto": "Garzón",
@@ -3026,6 +3153,24 @@
    "ref": "11",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.443384,
+     "lon": -56.421485,
+     "n": 2,
+     "rumbo": 98
+    },
+    {
+     "lat": -34.443293,
+     "lon": -56.421472,
+     "n": 2,
+     "rumbo": 280
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.0
+   },
    "pais": "UY",
    "via_visible": "Ruta 11",
    "punto": "Santa Lucía",
@@ -3080,6 +3225,24 @@
    "ref": "1",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.355039,
+     "lon": -57.113498,
+     "n": 1,
+     "rumbo": 98
+    },
+    {
+     "lat": -34.354931,
+     "lon": -57.113486,
+     "n": 1,
+     "rumbo": 280
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.0
+   },
    "pais": "UY",
    "via_visible": "Ruta 1",
    "punto": "Cufré",
@@ -3096,6 +3259,24 @@
    "ref": "5",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.33483,
+     "lon": -56.245035,
+     "n": 1,
+     "rumbo": 7
+    },
+    {
+     "lat": -34.334819,
+     "lon": -56.245094,
+     "n": 1,
+     "rumbo": 188
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.7
+   },
    "pais": "UY",
    "via_visible": "Ruta 5",
    "punto": "Mendoza",
@@ -3360,6 +3541,19 @@
    "ref": "8",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.837556,
+     "lon": -54.766413,
+     "n": 1,
+     "rumbo": 356,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "UY",
    "via_visible": "Ruta 8",
    "punto": "Cebollatí",
@@ -3723,6 +3917,19 @@
    "ref": "5",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.21196,
+     "lon": -58.047951,
+     "n": 1,
+     "rumbo": 302,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "UY",
    "via_visible": "Ruta 2",
    "punto": "Mercedes",
@@ -3771,6 +3978,19 @@
    "ref": "5",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.128973,
+     "lon": -57.172657,
+     "n": 1,
+     "rumbo": 292,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "UY",
    "via_visible": "Ruta 3",
    "punto": "Paso del Puerto",
@@ -3887,6 +4107,24 @@
    "tipo": "cabina",
    "via": "Acceso a Puente Internacional",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -33.109662,
+     "lon": -58.246569,
+     "n": 1,
+     "rumbo": 176
+    },
+    {
+     "lat": -33.109631,
+     "lon": -58.246326,
+     "n": 1,
+     "rumbo": 344
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.4
+   },
    "pais": "UY",
    "via_visible": "Acceso a Puente Internacional",
    "punto": "CARU",
@@ -4002,6 +4240,19 @@
    "via": "Uruguay",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.840684,
+     "lon": -56.482138,
+     "n": 1,
+     "rumbo": 10,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "UY",
    "via_visible": "Ruta 5",
    "punto": "Centenario",
@@ -4019,6 +4270,19 @@
    "ref": "5",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.839941,
+     "lon": -56.493546,
+     "n": 1,
+     "rumbo": 344,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "UY",
    "via_visible": "Ruta 5",
    "punto": "Centenario",
@@ -4371,6 +4635,24 @@
    "ref": "5",
    "localidad": "Nuevo Paysandú",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -32.265923,
+     "lon": -58.093423,
+     "n": 1,
+     "rumbo": 107
+    },
+    {
+     "lat": -32.265838,
+     "lon": -58.093386,
+     "n": 1,
+     "rumbo": 292
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.0
+   },
    "pais": "UY",
    "via_visible": "Ruta 5",
    "punto": "Nuevo Paysandú",
@@ -4420,6 +4702,19 @@
    "ref": "5",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.145537,
+     "lon": -57.938691,
+     "n": 1,
+     "rumbo": 29,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "UY",
    "via_visible": "Ruta 3",
    "punto": "Queguay",
@@ -4817,6 +5112,19 @@
    "ref": "5",
    "empresa": "CVU",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.546738,
+     "lon": -55.698775,
+     "n": 1,
+     "rumbo": 60,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "UY",
    "via_visible": "Ruta 5",
    "punto": "Manuel Díaz",
@@ -5316,6 +5624,19 @@
    "tipo": "cabina",
    "via": "Camino Raúl Gaudín",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -30.936476,
+     "lon": -57.534102,
+     "n": 1,
+     "rumbo": 331,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "UY",
    "via_visible": "Camino Raúl Gaudín",
    "punto": "Control de Acceso a Termas del Arapey",
@@ -5872,5 +6193,5 @@
    "confianza": "media"
   }
  ],
- "generado": "2026-11-01T14:22Z"
+ "generado": "2026-11-01T14:42Z"
 }
