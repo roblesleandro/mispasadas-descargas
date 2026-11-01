@@ -1,7 +1,7 @@
 {
  "version": "co-2026-11-01",
  "pais": "CO",
- "generado": "2026-11-01T13:20:27+00:00",
+ "generado": "2026-11-01T15:42:44+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "ANSV – ubicaciones aprobadas de fotodetección (SAST): https://fotodeteccion.ansv.gov.co/ubicaciones-aprobadas.html (app web; ver si tiene descarga). Otra página de la ANSV no permite robots.",
@@ -21,7 +21,7 @@
   "con_limite": 319,
   "limite_revisar": 15,
   "limite_desconocido": 107,
-  "revisados_esta_corrida": 28,
+  "revisados_esta_corrida": 0,
   "sin_via": 0,
   "via_completada_esta_corrida": 0,
   "limites_dudosos_sacados": 1,
@@ -2046,8 +2046,8 @@
    },
    "road_label": "Autopista Girardot-Ibagué",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista Girardot-Ibagué - Radar",
    "country": "CO"
   },
@@ -2103,8 +2103,8 @@
    },
    "road_label": "Ruta 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Ruta 40 - Radar",
    "country": "CO"
   },
@@ -4562,8 +4562,8 @@
    },
    "road_label": "Ruta 55",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 55 - Radar",
    "country": "CO"
   },
@@ -4731,8 +4731,8 @@
    },
    "road_label": "Autopista Medellin - Siberia - La Punta",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Autopista Medellin - Siberia - La Punta - Radar (Cámara de velocidad)",
    "country": "CO"
   },
@@ -5802,8 +5802,8 @@
    },
    "road_label": "Autopista Sur",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista Sur - Radar (Fotodetección)",
    "country": "CO"
   },
@@ -5831,8 +5831,8 @@
    },
    "road_label": "Ruta 25",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Ruta 25 - Radar (Fotodetección)",
    "country": "CO"
   },
@@ -6050,8 +6050,8 @@
    },
    "road_label": "Ruta 25",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Ruta 25 - Radar (Fotodetección)",
    "country": "CO"
   },
@@ -6214,8 +6214,8 @@
    },
    "road_label": "Autopista Sur",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista Sur - Radar (Fotodetección)",
    "country": "CO"
   },
@@ -6559,8 +6559,8 @@
    },
    "road_label": "Autopista Sur",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista Sur - Radar (Fotodetección)",
    "country": "CO"
   },
@@ -6614,8 +6614,8 @@
    },
    "road_label": "Ruta 56",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 56 - Radar (Cámaras Chuscalito)",
    "country": "CO"
   },
@@ -6643,8 +6643,8 @@
    },
    "road_label": "Ruta 56",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 56 - Radar (Fotodetección)",
    "country": "CO"
   },
@@ -6780,8 +6780,8 @@
    },
    "road_label": "Autopista Sur",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista Sur - Radar (Fotodetección)",
    "country": "CO"
   },
@@ -6811,8 +6811,8 @@
    },
    "road_label": "Ruta 25",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Ruta 25 - Radar (Fotodetección)",
    "country": "CO"
   },
@@ -6840,8 +6840,8 @@
    },
    "road_label": "Ruta 56",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 56 - Radar",
    "country": "CO"
   },
@@ -7735,8 +7735,8 @@
    },
    "road_label": "Ruta 62",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 62 - Radar",
    "country": "CO"
   },
@@ -7870,8 +7870,8 @@
    },
    "road_label": "Ruta 25",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Ruta 25 - Radar",
    "country": "CO"
   },
@@ -7927,8 +7927,8 @@
    },
    "road_label": "Ruta 25",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Ruta 25 - Radar",
    "country": "CO"
   },
@@ -8090,8 +8090,8 @@
    },
    "road_label": "Ruta 62",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 62 - Radar",
    "country": "CO"
   },
@@ -8225,8 +8225,8 @@
    },
    "road_label": "Ruta 25",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 25 - Radar",
    "country": "CO"
   },
@@ -8438,8 +8438,8 @@
    },
    "road_label": "Ruta 25",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Ruta 25 - Radar",
    "country": "CO"
   },
