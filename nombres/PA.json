@@ -390,8 +390,5 @@
  ],
  "excluidas": [],
  "generado": "2026-10-29T22:23Z",
- "alertas": [
-  "PA: no se pudieron leer los peajes de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
-  "PA: Salieron 0 y antes había 25: se mantiene lo anterior."
- ]
+ "alertas": []
 }
