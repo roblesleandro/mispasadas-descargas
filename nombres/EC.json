@@ -8,7 +8,19 @@
   "armado": 33,
   "total": 58,
   "confianza_baja": 0,
-  "excluidas": 1
+  "excluidas": 1,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 55,
+   "corregidas": 3,
+   "sin_referencia": 1,
+   "corrida_anterior": {
+    "ok": 55,
+    "a_mas_de_15_m": 2,
+    "sin_referencia": 1,
+    "total": 58
+   }
+  }
  },
  "estaciones": [
   {
@@ -20,6 +32,17 @@
    "ref": "E35;E50",
    "localidad": "Loja",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -3.978075,
+     "lon": -79.205609,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E35",
    "punto": "Loja",
@@ -34,6 +57,17 @@
    "via": "Carretera La Ramada Nabón",
    "localidad": "Shiña",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -3.272282,
+     "lon": -79.063306,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Carretera La Ramada Nabón",
    "punto": "Shiña",
@@ -47,6 +81,17 @@
    "tipo": "cabina",
    "via": "García Moreno",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -3.156588,
+     "lon": -79.154269,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "García Moreno",
    "punto": "de El Chorro",
@@ -62,6 +107,17 @@
    "ref": "E25",
    "localidad": "Rio Bonito",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -3.124981,
+     "lon": -79.77587,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E25",
    "punto": "Rio Bonito",
@@ -76,6 +132,17 @@
    "via": "Vía a Tutupali",
    "localidad": "Guagua Tarqui",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -2.974771,
+     "lon": -79.061452,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía a Tutupali",
    "punto": "Guagua Tarqui",
@@ -89,6 +156,17 @@
    "tipo": "cabina",
    "via": "Vía Tarqui - Gullanzhapa - Turi",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -2.967024,
+     "lon": -79.003951,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía Tarqui - Gullanzhapa - Turi",
    "punto": "El verde",
@@ -103,6 +181,17 @@
    "via": "Vía a Tutupali",
    "localidad": "Nero",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -2.962182,
+     "lon": -79.051474,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía a Tutupali",
    "punto": "Nero",
@@ -118,6 +207,17 @@
    "ref": "E25",
    "localidad": "Jaime Roldos",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -2.790261,
+     "lon": -79.70378,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E25",
    "punto": "Jaime Roldos",
@@ -132,6 +232,17 @@
    "via": "Vía Cuenca - Molleturo - Puerto Inca",
    "ref": "E582",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -2.784652,
+     "lon": -79.193002,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía Cuenca - Molleturo - Puerto Inca",
    "punto": "Control Integrado",
@@ -147,6 +258,17 @@
    "via": "Vía Cuenca - Molleturo - Puerto Inca",
    "ref": "E582",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -2.784636,
+     "lon": -79.270388,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía Cuenca - Molleturo - Puerto Inca",
    "punto": "Control Integrado",
@@ -163,6 +285,17 @@
    "ref": "E582",
    "localidad": "San Rafael",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -2.614388,
+     "lon": -79.470162,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía Cuenca - Molleturo - Puerto Inca",
    "punto": "San Rafael",
@@ -177,6 +310,17 @@
    "via": "Troncal de la Costa",
    "ref": "E25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -2.553934,
+     "lon": -79.550825,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E25",
    "punto": "Puerto Inca",
@@ -191,6 +335,17 @@
    "via": "Vía a la Costa",
    "ref": "E40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -2.391786,
+     "lon": -80.435275,
+     "n": 3
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía a la Costa",
    "punto": "Olmedo",
@@ -205,6 +360,17 @@
    "ref": "E45",
    "localidad": "Rio Blanco",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -2.347659,
+     "lon": -78.146407,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E45",
    "punto": "Rio Blanco",
@@ -219,6 +385,17 @@
    "via": "Balbanera - Pallatanga - Cumandá",
    "ref": "E487",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -2.302651,
+     "lon": -79.238692,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E487",
    "punto": "El Triunfo",
@@ -234,6 +411,17 @@
    "km": "25",
    "localidad": "Virgen de Fátima",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -2.2324,
+     "lon": -79.640109,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E25",
    "punto": "Virgen de Fátima",
@@ -250,6 +438,17 @@
    "km": "24",
    "localidad": "Chongón",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -2.222304,
+     "lon": -80.08973,
+     "n": 4
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía a la Costa",
    "punto": "Chongón",
@@ -265,6 +464,17 @@
    "ref": "E49A",
    "localidad": "Santay",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -2.218796,
+     "lon": -79.774963,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía Durán - Vírgen de Fátima",
    "punto": "Santay",
@@ -279,6 +489,17 @@
    "via": "Vía Guayaquil - Vírgen de Fátima",
    "ref": "E40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -2.202231,
+     "lon": -79.753464,
+     "n": 9
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía Guayaquil - Vírgen de Fátima",
    "punto": "Boliche",
@@ -293,6 +514,17 @@
    "via": "Vía San Jacinto de Yaguachi - Durán",
    "ref": "E49",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -2.12788,
+     "lon": -79.745128,
+     "n": 6
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía San Jacinto de Yaguachi - Durán",
    "punto": "Yaguachi",
@@ -307,6 +539,17 @@
    "via": "Vía San Jacinto de Yaguachi - Samborondón",
    "ref": "Guayas 7",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -2.046248,
+     "lon": -79.797214,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía San Jacinto de Yaguachi - Samborondón",
    "punto": "El P. A. N.",
@@ -320,6 +563,17 @@
    "tipo": "cabina",
    "via": "Vía Samborondon - Guayaquil",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -2.036138,
+     "lon": -79.827619,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía Samborondon - Guayaquil",
    "punto": "Samborondón",
@@ -333,6 +587,17 @@
    "tipo": "cabina",
    "ref": "E48",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -1.948007,
+     "lon": -80.01217,
+     "n": 9
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E48",
    "punto": "Chivería",
@@ -349,6 +614,17 @@
    "km": "14",
    "localidad": "El Naranjo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -1.941229,
+     "lon": -79.887583,
+     "n": 5
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía a Salitre",
    "punto": "El Naranjo",
@@ -364,6 +640,17 @@
    "km": "74",
    "localidad": "Potrerillo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -1.778629,
+     "lon": -80.294407,
+     "n": 5
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E482",
    "punto": "Potrerillo",
@@ -378,6 +665,17 @@
    "via": "Panamericana Sur",
    "ref": "E35",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -1.574828,
+     "lon": -78.716155,
+     "n": 5
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E35",
    "punto": "San Andres",
@@ -394,6 +692,17 @@
    "km": "85",
    "localidad": "Colimes",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -1.531832,
+     "lon": -79.954264,
+     "n": 4
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía Palestina - Balzar",
    "punto": "Colimes",
@@ -408,6 +717,17 @@
    "via": "Vía Balzar - El Empalme",
    "ref": "E48",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -1.162175,
+     "lon": -79.725894,
+     "n": 4
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía Balzar - El Empalme",
    "punto": "Guayas Norte",
@@ -423,6 +743,17 @@
    "ref": "E35",
    "localidad": "Panzaleo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -1.074082,
+     "lon": -78.596253,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E35",
    "punto": "Panzaleo",
@@ -437,6 +768,17 @@
    "ref": "E30",
    "localidad": "La Pila",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -1.069051,
+     "lon": -80.555534,
+     "n": 9
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E30",
    "punto": "La Pila",
@@ -450,6 +792,17 @@
    "tipo": "cabina",
    "via": "Av. Zumbahua Quilotoa",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -0.868989,
+     "lon": -78.916583,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Av. Zumbahua Quilotoa",
    "punto": "Control Quilotoa",
@@ -462,6 +815,17 @@
    "nombre": "PEAJE \"LOS ANGELES\"",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -0.689754,
+     "lon": -79.462484,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Troncal de la Costa",
    "punto": "LOS ANGELES",
@@ -475,6 +839,17 @@
    "tipo": "cabina",
    "localidad": "Santa María",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -0.683916,
+     "lon": -79.649023,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "punto": "Santa María",
    "nombre_visible": "Peaje Santa María",
@@ -488,6 +863,17 @@
    "via": "Vía Alóag Latacunga",
    "ref": "E35",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -0.545835,
+     "lon": -78.585238,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía Alóag Latacunga",
    "punto": "Machachi",
@@ -502,6 +888,17 @@
    "via": "Avenida Quito",
    "ref": "E20",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -0.444576,
+     "lon": -78.603784,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Avenida Quito",
    "punto": "Aloag oeste",
@@ -514,6 +911,17 @@
    "nombre": "PEAJE \"CONGOMA\"",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -0.359722,
+     "lon": -79.257006,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E25",
    "punto": "CONGOMA",
@@ -529,6 +937,17 @@
    "ref": "E20",
    "localidad": "Manuel Cornejo Astorga Tandapi",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -0.352886,
+     "lon": -78.841301,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Avenida Quito",
    "punto": "Manuel Cornejo Astorga Tandapi",
@@ -544,6 +963,17 @@
    "ref": "E35",
    "localidad": "La Merced",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -0.316295,
+     "lon": -78.367868,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E35",
    "punto": "La Merced",
@@ -558,6 +988,17 @@
    "via": "Vía Quito",
    "ref": "E20",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -0.275385,
+     "lon": -79.078162,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía Quito",
    "punto": "de Santo Domingo",
@@ -572,6 +1013,17 @@
    "via": "Avenida 2 de Agosto",
    "localidad": "Lumbisí",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -0.245774,
+     "lon": -78.442006,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Avenida 2 de Agosto",
    "punto": "Lumbisí",
@@ -585,6 +1037,17 @@
    "tipo": "cabina",
    "via": "Autopista General Rumiñahui",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -0.243571,
+     "lon": -78.485377,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Autopista General Rumiñahui",
    "punto": "RUMIÑAHUI",
@@ -600,6 +1063,17 @@
    "ref": "E28C",
    "localidad": "Miravalle",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -0.19225,
+     "lon": -78.460392,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía Interoceánica",
    "punto": "Miravalle",
@@ -614,6 +1088,17 @@
    "via": "Avenida Atahualpa",
    "localidad": "Comuna Miraflores",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -0.182305,
+     "lon": -78.487857,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Avenida Atahualpa",
    "punto": "Comuna Miraflores",
@@ -628,6 +1113,17 @@
    "via": "Avenida Brasil",
    "localidad": "Atucucho",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -0.151066,
+     "lon": -78.493143,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Avenida Brasil",
    "punto": "Atucucho",
@@ -642,34 +1138,87 @@
    "via": "Avenida de la Prensa",
    "localidad": "Atucucho",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -0.145024,
+     "lon": -78.490681,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Avenida de la Prensa",
    "punto": "Atucucho",
    "nombre_visible": "Avenida de la Prensa - Peaje Atucucho",
-   "confianza": "media"
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": -0.141709,
-   "lon": -78.49552,
+   "lat": -0.142424,
+   "lon": -78.493448,
    "nombre": "Peaje Machala",
    "tipo": "cabina",
    "via": "Machala",
    "localidad": "Atucucho",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -0.142424,
+     "lon": -78.493448,
+     "n": 1
+    },
+    {
+     "lat": -0.140994,
+     "lon": -78.497592,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 244,
+    "centro_plaza": [
+     -0.141709,
+     -78.49552
+    ]
+   },
    "pais": "EC",
-   "via_visible": "Machala",
+   "via_visible": "Avenida de la Prensa",
    "punto": "Atucucho",
-   "nombre_visible": "Machala - Peaje Atucucho",
-   "confianza": "media"
+   "nombre_visible": "Avenida de la Prensa - Peaje Atucucho",
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": -0.125611,
-   "lon": -78.471919,
+   "lat": -0.12728,
+   "lon": -78.471649,
    "nombre": "Peaje Avenida General Eloy Alfaro",
    "tipo": "cabina",
    "via": "Avenida General Eloy Alfaro",
    "localidad": "Puertas del Sol",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -0.12728,
+     "lon": -78.471649,
+     "n": 1
+    },
+    {
+     "lat": -0.123942,
+     "lon": -78.472189,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 187,
+    "centro_plaza": [
+     -0.125611,
+     -78.471919
+    ]
+   },
    "pais": "EC",
    "via_visible": "Avenida General Eloy Alfaro",
    "punto": "Puertas del Sol",
@@ -685,6 +1234,17 @@
    "ref": "E28B",
    "localidad": "San Miguel del Común",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -0.099271,
+     "lon": -78.407084,
+     "n": 3
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Avenida Panamericana Norte",
    "punto": "San Miguel del Común",
@@ -698,6 +1258,17 @@
    "tipo": "cabina",
    "localidad": "Mindo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -0.077187,
+     "lon": -78.754638,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "punto": "Mindo",
    "nombre_visible": "Peaje Mindo",
@@ -711,6 +1282,17 @@
    "via": "Via a la Hacienda San Vicente",
    "localidad": "Mindo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -0.051036,
+     "lon": -78.771906,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Via a la Hacienda San Vicente",
    "punto": "Mindo",
@@ -726,6 +1308,17 @@
    "ref": "E35",
    "localidad": "Guachala",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 0.004641,
+     "lon": -78.201202,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía Cayambe Cusubamba",
    "punto": "Guachala",
@@ -741,6 +1334,17 @@
    "ref": "E28B",
    "localidad": "Hacienda Chimburlo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 0.004858,
+     "lon": -78.292773,
+     "n": 6
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía Guayllabamba Tabacundo",
    "punto": "Hacienda Chimburlo",
@@ -755,6 +1359,17 @@
    "via": "Peaje San Roque",
    "ref": "E35",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 0.289264,
+     "lon": -78.236286,
+     "n": 6
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E35",
    "punto": "San Roque",
@@ -768,6 +1383,17 @@
    "tipo": "cabina",
    "via": "Entrada a Yahuarcocha",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 0.376516,
+     "lon": -78.111163,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "E35",
    "punto": "Laguna de Yahuarcocha",
@@ -782,6 +1408,17 @@
    "via": "Vía El Juncal Ibarra",
    "ref": "E35",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 0.468895,
+     "lon": -78.041316,
+     "n": 4
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía El Juncal Ibarra",
    "punto": "Control de Mascarilla",
@@ -797,6 +1434,17 @@
    "ref": "E35",
    "localidad": "Cristóbal Colón",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 0.604651,
+     "lon": -77.800584,
+     "n": 4
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "via_visible": "Vía San Gabriel Tulcán",
    "punto": "Cristóbal Colón",
@@ -810,6 +1458,17 @@
    "tipo": "cabina",
    "localidad": "La Libertad",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 0.644648,
+     "lon": -77.896259,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "EC",
    "punto": "La Libertad",
    "nombre_visible": "Peaje La Libertad",
@@ -823,6 +1482,9 @@
    "via": "Cano",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "posicion": {
+    "estado": "sin_referencia"
+   },
    "pais": "EC",
    "via_visible": "Cano",
    "punto": "Cano",
@@ -833,16 +1495,38 @@
  ],
  "excluidas": [
   {
-   "lat": -2.145765,
-   "lon": -79.883644,
+   "lat": -2.145588,
+   "lon": -79.883236,
    "nombre": "Peaje Salida del Aeropuerto",
    "tipo": "cabina",
    "via": "Salida del Aeropuerto",
    "localidad": "Guayaquil",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -2.146119,
+     "lon": -79.884458,
+     "n": 1
+    },
+    {
+     "lat": -2.145588,
+     "lon": -79.883236,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 49,
+    "centro_plaza": [
+     -2.145765,
+     -79.883644
+    ]
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-31T12:59Z",
- "alertas": []
+ "generado": "2026-11-01T16:11Z",
+ "alertas": [
+  "EC: OpenStreetMap no devolvió la geometría de las calles (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las cabinas salen sin sentido."
+ ]
 }
