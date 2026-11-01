@@ -129,6 +129,10 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
+<<<<<<< HEAD
  "generado": "2026-11-01T19:47Z",
+=======
+ "generado": "2026-11-01T22:51Z",
+>>>>>>> bdf020e (Nombres de estaciones (TT) actualizados automáticamente)
  "alertas": []
 }
