@@ -1,7 +1,7 @@
 {
- "version": "bo-2026-10-31",
+ "version": "bo-2026-11-01",
  "pais": "BO",
- "generado": "2026-10-31T13:06:22+00:00",
+ "generado": "2026-11-01T13:08:43+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial."
@@ -32,7 +32,23 @@
    "SENDA": 0,
    "INFRACCIONES": 0
   },
-  "monitoreo": 8
+  "monitoreo": 8,
+  "posicion": {
+   "umbral_m": 15.0,
+   "radio_busqueda_m": 150.0,
+   "ok": 40,
+   "corregidas": 0,
+   "sin_referencia": 0,
+   "de_osm": 40,
+   "corrida_anterior": {
+    "umbral_m": 15.0,
+    "radio_busqueda_m": 150.0,
+    "ok": 40,
+    "corregidas": 0,
+    "sin_referencia": 0,
+    "de_osm": 40
+   }
+  }
  },
  "alertas": [],
  "radars": [
@@ -45,9 +61,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8294632364",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8294632364"
+   },
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
@@ -63,9 +84,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4471877476",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/4471877476"
+   },
    "speed_limit_status": "SIN_VIA",
    "speed_limit_detail": "No hay vía de OSM a menos de 40 m",
    "speed_limit_checked": "2026-10-29",
@@ -81,7 +107,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275445003",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -91,6 +117,11 @@
    ],
    "heading_min": 10.0,
    "heading_max": 80.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275445003"
+   },
    "road_label": "Avenida Irala",
    "display_name": "Avenida Irala - Radar",
    "country": "BO"
@@ -104,7 +135,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444997",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -114,6 +145,11 @@
    ],
    "heading_min": 30.0,
    "heading_max": 100.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444997"
+   },
    "road_label": "Avenida Irala",
    "display_name": "Avenida Irala - Radar",
    "country": "BO"
@@ -127,7 +163,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444995",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -137,6 +173,11 @@
    ],
    "heading_min": 15.0,
    "heading_max": 85.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444995"
+   },
    "road_label": "Avenida Irala",
    "display_name": "Avenida Irala - Radar",
    "country": "BO"
@@ -150,7 +191,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444991",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -160,6 +201,11 @@
    ],
    "heading_min": 15.0,
    "heading_max": 85.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444991"
+   },
    "road_label": "Avenida Irala",
    "display_name": "Avenida Irala - Radar",
    "country": "BO"
@@ -173,7 +219,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275445002",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -183,6 +229,11 @@
    ],
    "heading_min": 315.0,
    "heading_max": 25.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275445002"
+   },
    "road_label": "Calle Independencia",
    "display_name": "Calle Independencia - Radar",
    "country": "BO"
@@ -196,7 +247,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444988",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -206,6 +257,11 @@
    ],
    "heading_min": 40.0,
    "heading_max": 110.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444988"
+   },
    "road_label": "Calle Cochabamba",
    "display_name": "Calle Cochabamba - Radar",
    "country": "BO"
@@ -219,7 +275,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444987",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -229,6 +285,11 @@
    ],
    "heading_min": 250.0,
    "heading_max": 320.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444987"
+   },
    "road_label": "Avenida Irala",
    "display_name": "Avenida Irala - Radar",
    "country": "BO"
@@ -242,7 +303,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444990",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -252,6 +313,11 @@
    ],
    "heading_min": 325.0,
    "heading_max": 35.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444990"
+   },
    "road_label": "Calle Cochabamba",
    "display_name": "Calle Cochabamba - Radar",
    "country": "BO"
@@ -265,7 +331,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444986",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -275,6 +341,11 @@
    ],
    "heading_min": 10.0,
    "heading_max": 80.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444986"
+   },
    "road_label": "Avenida Viedma",
    "display_name": "Avenida Viedma - Radar",
    "country": "BO"
@@ -288,7 +359,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444934",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -298,6 +369,11 @@
    ],
    "heading_min": 265.0,
    "heading_max": 335.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444934"
+   },
    "road_label": "Calle M. Montero",
    "display_name": "Calle M. Montero - Radar",
    "country": "BO"
@@ -311,13 +387,18 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444937",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
    "heading_min": 355.0,
    "heading_max": 65.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444937"
+   },
    "road_label": "Calle Isabel La Católica",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -334,7 +415,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444985",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -344,6 +425,11 @@
    ],
    "heading_min": 305.0,
    "heading_max": 15.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444985"
+   },
    "road_label": "Avenida Viedma",
    "display_name": "Avenida Viedma - Radar",
    "country": "BO"
@@ -357,7 +443,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444984",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -367,6 +453,11 @@
    ],
    "heading_min": 65.0,
    "heading_max": 135.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444984"
+   },
    "road_label": "Avenida Brasil",
    "display_name": "Avenida Brasil - Radar",
    "country": "BO"
@@ -380,7 +471,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444981",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -390,6 +481,11 @@
    ],
    "heading_min": 295.0,
    "heading_max": 5.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444981"
+   },
    "road_label": "Avenida Viedma",
    "display_name": "Avenida Viedma - Radar",
    "country": "BO"
@@ -403,7 +499,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444940",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -413,6 +509,11 @@
    ],
    "heading_min": 125.0,
    "heading_max": 195.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444940"
+   },
    "road_label": "Avenida Cañoto",
    "display_name": "Avenida Cañoto - Radar",
    "country": "BO"
@@ -426,7 +527,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444978",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -436,6 +537,11 @@
    ],
    "heading_min": 305.0,
    "heading_max": 15.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444978"
+   },
    "road_label": "Avenida Viedma",
    "display_name": "Avenida Viedma - Radar",
    "country": "BO"
@@ -449,7 +555,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444977",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -459,6 +565,11 @@
    ],
    "heading_min": 125.0,
    "heading_max": 195.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444977"
+   },
    "road_label": "Avenida Viedma",
    "display_name": "Avenida Viedma - Radar",
    "country": "BO"
@@ -472,7 +583,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444976",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -482,6 +593,11 @@
    ],
    "heading_min": 315.0,
    "heading_max": 25.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444976"
+   },
    "road_label": "Avenida Argomosa",
    "display_name": "Avenida Argomosa - Radar",
    "country": "BO"
@@ -495,9 +611,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8294631750",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8294631750"
+   },
    "road_label": "Avenida San Francisco",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -514,7 +635,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444975",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -524,6 +645,11 @@
    ],
    "heading_min": 245.0,
    "heading_max": 315.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444975"
+   },
    "road_label": "Calle Arenales",
    "display_name": "Calle Arenales - Radar",
    "country": "BO"
@@ -537,7 +663,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444973",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -547,6 +673,11 @@
    ],
    "heading_min": 305.0,
    "heading_max": 15.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444973"
+   },
    "road_label": "Avenida Argomosa",
    "display_name": "Avenida Argomosa - Radar",
    "country": "BO"
@@ -560,9 +691,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1536183912",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/1536183912"
+   },
    "road_label": "Calle 2",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -579,7 +715,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444972",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -589,6 +725,11 @@
    ],
    "heading_min": 155.0,
    "heading_max": 225.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444972"
+   },
    "road_label": "Avenida Argomosa",
    "display_name": "Avenida Argomosa - Radar",
    "country": "BO"
@@ -602,9 +743,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8294631747",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8294631747"
+   },
    "road_label": "Calle Gilberto Ro",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -621,7 +767,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444969",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -631,6 +777,11 @@
    ],
    "heading_min": 295.0,
    "heading_max": 5.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444969"
+   },
    "road_label": "Avenida Argomosa",
    "display_name": "Avenida Argomosa - Radar",
    "country": "BO"
@@ -644,9 +795,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8294631746",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8294631746"
+   },
    "road_label": "Avenida Jenecherú",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -663,7 +819,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444967",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -673,6 +829,11 @@
    ],
    "heading_min": 295.0,
    "heading_max": 5.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444967"
+   },
    "road_label": "Avenida Uruguay",
    "display_name": "Avenida Uruguay - Radar",
    "country": "BO"
@@ -686,7 +847,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444951",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -696,6 +857,11 @@
    ],
    "heading_min": 130.0,
    "heading_max": 200.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444951"
+   },
    "road_label": "Calle 21 de Mayo",
    "display_name": "Calle 21 de Mayo - Radar",
    "country": "BO"
@@ -709,7 +875,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444958",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -719,6 +885,11 @@
    ],
    "heading_min": 145.0,
    "heading_max": 215.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444958"
+   },
    "road_label": "Calle 24 de Septiembre",
    "display_name": "Calle 24 de Septiembre - Radar",
    "country": "BO"
@@ -732,7 +903,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444965",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -742,6 +913,11 @@
    ],
    "heading_min": 65.0,
    "heading_max": 135.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444965"
+   },
    "road_label": "Avenida Uruguay",
    "display_name": "Avenida Uruguay - Radar",
    "country": "BO"
@@ -755,7 +931,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444964",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -765,6 +941,11 @@
    ],
    "heading_min": 250.0,
    "heading_max": 320.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444964"
+   },
    "road_label": "Avenida Uruguay",
    "display_name": "Avenida Uruguay - Radar",
    "country": "BO"
@@ -778,7 +959,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444953",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -788,6 +969,11 @@
    ],
    "heading_min": 225.0,
    "heading_max": 295.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444953"
+   },
    "road_label": "Calle Libertad",
    "display_name": "Calle Libertad - Radar",
    "country": "BO"
@@ -801,7 +987,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444956",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -811,6 +997,11 @@
    ],
    "heading_min": 210.0,
    "heading_max": 280.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444956"
+   },
    "road_label": "Avenida Cañoto",
    "display_name": "Avenida Cañoto - Radar",
    "country": "BO"
@@ -824,7 +1015,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444959",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -834,6 +1025,11 @@
    ],
    "heading_min": 220.0,
    "heading_max": 290.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444959"
+   },
    "road_label": "Avenida Uruguay",
    "display_name": "Avenida Uruguay - Radar",
    "country": "BO"
@@ -847,7 +1043,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8275444962",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -857,6 +1053,11 @@
    ],
    "heading_min": 245.0,
    "heading_max": 315.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/8275444962"
+   },
    "road_label": "Avenida Uruguay",
    "display_name": "Avenida Uruguay - Radar",
    "country": "BO"
@@ -870,11 +1071,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10213726234",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "controls": [],
    "heading_min": 145.0,
    "heading_max": 215.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10213726234"
+   },
    "road_label": "Avenida Ayacucho",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
@@ -893,11 +1099,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10227715213",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "controls": [],
    "heading_min": 225.0,
    "heading_max": 295.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10227715213"
+   },
    "road_label": "Calle Simón Bolívar",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
@@ -914,11 +1125,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13317313737",
-   "source_version": "bo-2026-10-31",
+   "source_version": "bo-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13317313737"
+   },
    "road_label": "Avenida Naciones Unidas",
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_PROPIO",
