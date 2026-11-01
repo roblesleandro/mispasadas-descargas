@@ -1,7 +1,7 @@
 {
  "version": "cu-2026-11-01",
  "pais": "CU",
- "generado": "2026-11-01T13:55:54+00:00",
+ "generado": "2026-11-01T15:55:35+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial con ubicaciones."
@@ -19,7 +19,7 @@
   "con_limite": 12,
   "limite_revisar": 1,
   "limite_desconocido": 2,
-  "revisados_esta_corrida": 1,
+  "revisados_esta_corrida": 0,
   "sin_via": 0,
   "via_completada_esta_corrida": 0,
   "limites_dudosos_sacados": 1,
@@ -377,13 +377,13 @@
     "reference": "node/4439726058"
    },
    "road_label": "Autopista Nacional",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 100,
-   "speed_limit_road_class": "motorway",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 100 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 100 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 100,
    "display_name": "Autopista Nacional - Radar",
    "country": "CU"
   },
