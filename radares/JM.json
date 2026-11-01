@@ -1,7 +1,7 @@
 {
- "version": "jm-2026-10-31",
+ "version": "jm-2026-11-01",
  "pais": "JM",
- "generado": "2026-10-31T13:41:58+00:00",
+ "generado": "2026-11-01T13:58:20+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial con ubicaciones."
@@ -32,7 +32,23 @@
    "SENDA": 0,
    "INFRACCIONES": 0
   },
-  "monitoreo": 1
+  "monitoreo": 1,
+  "posicion": {
+   "umbral_m": 15.0,
+   "radio_busqueda_m": 150.0,
+   "ok": 1,
+   "corregidas": 0,
+   "sin_referencia": 0,
+   "de_osm": 1,
+   "corrida_anterior": {
+    "umbral_m": 15.0,
+    "radio_busqueda_m": 150.0,
+    "ok": 1,
+    "corregidas": 0,
+    "sin_referencia": 0,
+    "de_osm": 1
+   }
+  }
  },
  "alertas": [],
  "radars": [
@@ -45,9 +61,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9900011970",
-   "source_version": "jm-2026-10-31",
+   "source_version": "jm-2026-11-01",
    "confidence_score": 50,
    "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/9900011970"
+   },
    "road_label": "Port Henderson Road",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
