@@ -1,7 +1,7 @@
 {
  "version": "ca-2026-11-01",
  "pais": "CA",
- "generado": "2026-11-01T14:29:50+00:00",
+ "generado": "2026-11-01T16:17:19+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Cámaras municipales y provinciales."
@@ -19,7 +19,7 @@
   "con_limite": 1298,
   "limite_revisar": 6,
   "limite_desconocido": 254,
-  "revisados_esta_corrida": 10,
+  "revisados_esta_corrida": 0,
   "sin_via": 107,
   "via_completada_esta_corrida": 0,
   "limites_dudosos_sacados": 0,
@@ -43,10 +43,10 @@
    "corrida_anterior": {
     "umbral_m": 15.0,
     "radio_busqueda_m": 150.0,
-    "ok": 1542,
+    "ok": 1552,
     "corregidas": 0,
     "sin_referencia": 0,
-    "de_osm": 1542
+    "de_osm": 1552
    }
   }
  },
@@ -22627,9 +22627,9 @@
     "offset_m": 0.0,
     "reference": "node/14337831687"
    },
-   "speed_limit_checked": "2026-11-01",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "motorway_link",
    "display_name": "Traffic camera",
    "country": "CA"
@@ -22707,14 +22707,14 @@
     "offset_m": 0.0,
     "reference": "node/14337831689"
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
-   "speed_limit_road_class": "secondary",
+   "road_label": "Route 49",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
-   "road_label": "Route 49",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "Route 49 - Traffic camera",
    "country": "CA"
   },
@@ -23096,14 +23096,14 @@
     "offset_m": 0.0,
     "reference": "node/14337831695"
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
-   "speed_limit_road_class": "secondary",
+   "road_label": "Route 49",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
-   "road_label": "Route 49",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 80,
    "display_name": "Route 49 - Traffic camera",
    "country": "CA"
   },
@@ -23872,13 +23872,13 @@
     "offset_m": 0.0,
     "reference": "node/14337831694"
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
-   "speed_limit_road_class": "secondary",
+   "road_label": "Route 36",
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_PROPIO",
-   "road_label": "Route 36",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "secondary",
    "display_name": "Route 36 - Traffic camera",
    "country": "CA"
   },
@@ -24011,11 +24011,11 @@
     "offset_m": 0.0,
     "reference": "node/14337831686"
    },
-   "speed_limit_checked": "2026-11-01",
+   "road_label": "Highway 417",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "motorway_link",
-   "road_label": "Highway 417",
    "display_name": "Highway 417 - Traffic camera",
    "country": "CA"
   },
@@ -24476,11 +24476,11 @@
     "offset_m": 0.0,
     "reference": "node/14337831691"
    },
-   "speed_limit_checked": "2026-11-01",
+   "road_label": "Metcalfe Street",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "motorway_link",
-   "road_label": "Metcalfe Street",
    "display_name": "Metcalfe Street - Traffic camera",
    "country": "CA"
   },
@@ -24585,11 +24585,11 @@
     "offset_m": 0.0,
     "reference": "node/14337831690"
    },
-   "speed_limit_checked": "2026-11-01",
+   "road_label": "Route 30",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "motorway_link",
-   "road_label": "Route 30",
    "display_name": "Route 30 - Traffic camera",
    "country": "CA"
   },
@@ -24831,14 +24831,14 @@
     "offset_m": 0.0,
     "reference": "node/14337831696"
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
-   "speed_limit_road_class": "secondary",
+   "road_label": "Route 26",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
-   "road_label": "Route 26",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "Route 26 - Traffic camera",
    "country": "CA"
   },
@@ -25521,14 +25521,14 @@
     "offset_m": 0.0,
     "reference": "node/14337831688"
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
-   "speed_limit_road_class": "primary",
+   "road_label": "Route 34",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
-   "road_label": "Route 34",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "Route 34 - Traffic camera",
    "country": "CA"
   },
@@ -34762,9 +34762,9 @@
     "offset_m": 0.0,
     "reference": "node/14337516501"
    },
-   "speed_limit_checked": "2026-11-01",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "secondary",
    "display_name": "Traffic camera",
    "country": "CA"
