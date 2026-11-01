@@ -1,7 +1,7 @@
 {
- "version": "ec-2026-10-31",
+ "version": "ec-2026-11-01",
  "pais": "EC",
- "generado": "2026-10-31T13:24:05+00:00",
+ "generado": "2026-11-01T13:26:33+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Fotorradares de la AMT (Quito): solo prensa.",
@@ -20,10 +20,10 @@
   "con_limite": 266,
   "limite_revisar": 3,
   "limite_desconocido": 32,
-  "revisados_esta_corrida": 0,
+  "revisados_esta_corrida": 1,
   "sin_via": 0,
   "via_completada_esta_corrida": 0,
-  "limites_dudosos_sacados": 2,
+  "limites_dudosos_sacados": 0,
   "por_control": {
    "VELOCIDAD": 297,
    "VELOCIDAD_PROMEDIO": 0,
@@ -33,13 +33,32 @@
    "SENDA": 0,
    "INFRACCIONES": 0
   },
-  "monitoreo": 0
+  "monitoreo": 0,
+  "posicion": {
+   "umbral_m": 15.0,
+   "radio_busqueda_m": 150.0,
+   "ok": 298,
+   "corregidas": 0,
+   "sin_referencia": 0,
+   "de_osm": 298,
+   "corrida_anterior": {
+    "umbral_m": 15.0,
+    "radio_busqueda_m": 150.0,
+    "ok": 298,
+    "corregidas": 0,
+    "sin_referencia": 0,
+    "de_osm": 298
+   }
+  }
  },
- "alertas": [],
+ "alertas": [
+  "EC: no se pudieron leer radares/cámaras de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
+  "EC: Salieron 0 y antes había 298: se mantiene lo anterior."
+ ],
  "radars": [
   {
    "radar_id": "osm-ec-n9765627675",
-   "name": "Avenida 8 de Diciembre - Radar",
+   "name": "Avenida 8 de Diciembre - Radar (Avenida 8 de Diciembre - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.974046,
    "longitude": -79.205302,
@@ -57,12 +76,12 @@
    "heading_min": 120.0,
    "heading_max": 190.0,
    "road_label": "Avenida 8 de Diciembre",
-   "display_name": "Avenida 8 de Diciembre - Radar",
+   "display_name": "Avenida 8 de Diciembre - Radar (Avenida 8 de Diciembre - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9765627676",
-   "name": "Avenida 8 de Diciembre - Radar",
+   "name": "Avenida 8 de Diciembre - Radar (Avenida 8 de Diciembre - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.972675,
    "longitude": -79.206187,
@@ -80,12 +99,12 @@
    "heading_min": 300.0,
    "heading_max": 10.0,
    "road_label": "Avenida 8 de Diciembre",
-   "display_name": "Avenida 8 de Diciembre - Radar",
+   "display_name": "Avenida 8 de Diciembre - Radar (Avenida 8 de Diciembre - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6582791650",
-   "name": "E45 - Radar",
+   "name": "E45 - Radar (E45 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.903724,
    "longitude": -78.816185,
@@ -103,12 +122,12 @@
    "heading_min": 225.0,
    "heading_max": 295.0,
    "road_label": "E45",
-   "display_name": "E45 - Radar",
+   "display_name": "E45 - Radar (E45 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7576539679",
-   "name": "E45 - Radar",
+   "name": "E45 - Radar (E45 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.901566,
    "longitude": -78.810431,
@@ -126,12 +145,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E45 - Radar",
+   "display_name": "E45 - Radar (E45 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7576555729",
-   "name": "E45 - Radar",
+   "name": "E45 - Radar (E45 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.892567,
    "longitude": -78.785566,
@@ -149,12 +168,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E45 - Radar",
+   "display_name": "E45 - Radar (E45 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7576555730",
-   "name": "E45 - Radar",
+   "name": "E45 - Radar (E45 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.889759,
    "longitude": -78.782595,
@@ -172,12 +191,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E45 - Radar",
+   "display_name": "E45 - Radar (E45 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7289711352",
-   "name": "E45 - Radar",
+   "name": "E45 - Radar (E45 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.607881,
    "longitude": -78.577561,
@@ -193,12 +212,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E45 - Radar",
+   "display_name": "E45 - Radar (E45 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4854495718",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.585915,
    "longitude": -80.060776,
@@ -214,12 +233,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712537126",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.466065,
    "longitude": -79.159593,
@@ -235,12 +254,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712537125",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.460219,
    "longitude": -79.161888,
@@ -256,12 +275,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712537124",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.40485,
    "longitude": -79.173111,
@@ -277,12 +296,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545821",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.397665,
    "longitude": -79.171106,
@@ -298,12 +317,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712537132",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.388825,
    "longitude": -79.924948,
@@ -319,12 +338,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5158787272",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.377728,
    "longitude": -79.906509,
@@ -340,12 +359,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712537123",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.323471,
    "longitude": -79.165411,
@@ -361,12 +380,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712537122",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.321361,
    "longitude": -79.159254,
@@ -382,12 +401,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545727",
-   "name": "Carretera Cuenca - Machala - Radar",
+   "name": "Carretera Cuenca - Machala - Radar (Carretera Cuenca - Machala - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.316397,
    "longitude": -79.588941,
@@ -405,12 +424,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Cuenca - Machala - Radar",
+   "display_name": "Carretera Cuenca - Machala - Radar (Carretera Cuenca - Machala - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545826",
-   "name": "Carretera Cuenca - Machala - Radar",
+   "name": "Carretera Cuenca - Machala - Radar (Carretera Cuenca - Machala - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.31614,
    "longitude": -79.476492,
@@ -428,12 +447,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Cuenca - Machala - Radar",
+   "display_name": "Carretera Cuenca - Machala - Radar (Carretera Cuenca - Machala - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545921",
-   "name": "Carretera Cuenca - Machala - Radar",
+   "name": "Carretera Cuenca - Machala - Radar (Carretera Cuenca - Machala - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.314633,
    "longitude": -79.57467,
@@ -451,12 +470,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Cuenca - Machala - Radar",
+   "display_name": "Carretera Cuenca - Machala - Radar (Carretera Cuenca - Machala - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545728",
-   "name": "Carretera Cuenca - Machala - Radar",
+   "name": "Carretera Cuenca - Machala - Radar (Carretera Cuenca - Machala - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.314603,
    "longitude": -79.477594,
@@ -474,12 +493,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Cuenca - Machala - Radar",
+   "display_name": "Carretera Cuenca - Machala - Radar (Carretera Cuenca - Machala - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712537127",
-   "name": "Carretera Cuenca - Machala - Radar",
+   "name": "Carretera Cuenca - Machala - Radar (Carretera Cuenca - Machala - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.284685,
    "longitude": -79.315223,
@@ -497,12 +516,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Cuenca - Machala - Radar",
+   "display_name": "Carretera Cuenca - Machala - Radar (Carretera Cuenca - Machala - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712537129",
-   "name": "Carretera Cuenca - Machala - Radar",
+   "name": "Carretera Cuenca - Machala - Radar (Carretera Cuenca - Machala - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.26517,
    "longitude": -79.283448,
@@ -520,12 +539,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Cuenca - Machala - Radar",
+   "display_name": "Carretera Cuenca - Machala - Radar (Carretera Cuenca - Machala - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n3214371257",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.20632,
    "longitude": -79.788009,
@@ -541,12 +560,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545722",
-   "name": "E59 - Radar",
+   "name": "E59 - Radar (E59 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.13767,
    "longitude": -79.135029,
@@ -564,12 +583,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E59 - Radar",
+   "display_name": "E59 - Radar (E59 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545723",
-   "name": "E59 - Radar",
+   "name": "E59 - Radar (E59 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.13348,
    "longitude": -79.130566,
@@ -587,12 +606,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E59 - Radar",
+   "display_name": "E59 - Radar (E59 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545724",
-   "name": "E59 - Radar",
+   "name": "E59 - Radar (E59 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.066725,
    "longitude": -79.05607,
@@ -610,12 +629,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E59 - Radar",
+   "display_name": "E59 - Radar (E59 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545725",
-   "name": "E59 - Radar",
+   "name": "E59 - Radar (E59 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -3.064159,
    "longitude": -79.052885,
@@ -633,12 +652,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E59 - Radar",
+   "display_name": "E59 - Radar (E59 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712537130",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.975511,
    "longitude": -79.047414,
@@ -654,12 +673,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545823",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.972196,
    "longitude": -79.04676,
@@ -675,12 +694,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545824",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.968873,
    "longitude": -79.048865,
@@ -696,12 +715,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12468257749",
-   "name": "E594 - Radar",
+   "name": "E594 - Radar (E594 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.965157,
    "longitude": -78.797552,
@@ -717,12 +736,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E594 - Radar",
+   "display_name": "E594 - Radar (E594 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11417753902",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.964223,
    "longitude": -79.049665,
@@ -738,12 +757,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712537131",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.959288,
    "longitude": -79.048366,
@@ -761,12 +780,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n13176118520",
-   "name": "Avenida Ricardo Durán - Radar",
+   "name": "Avenida Ricardo Durán - Radar (Avenida Ricardo Durán - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.922776,
    "longitude": -79.04211,
@@ -782,12 +801,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Ricardo Durán",
-   "display_name": "Avenida Ricardo Durán - Radar",
+   "display_name": "Avenida Ricardo Durán - Radar (Avenida Ricardo Durán - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6399536858",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.92101,
    "longitude": -79.020878,
@@ -803,12 +822,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n2761656079",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.920926,
    "longitude": -79.019557,
@@ -824,12 +843,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7631609857",
-   "name": "Avenida 12 de Octubre - Radar",
+   "name": "Avenida 12 de Octubre - Radar (Avenida 12 de Octubre - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.920079,
    "longitude": -79.026935,
@@ -845,12 +864,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida 12 de Octubre",
-   "display_name": "Avenida 12 de Octubre - Radar",
+   "display_name": "Avenida 12 de Octubre - Radar (Avenida 12 de Octubre - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7631609858",
-   "name": "Avenida 12 de Octubre - Radar",
+   "name": "Avenida 12 de Octubre - Radar (Avenida 12 de Octubre - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.919106,
    "longitude": -79.024671,
@@ -866,12 +885,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida 12 de Octubre",
-   "display_name": "Avenida 12 de Octubre - Radar",
+   "display_name": "Avenida 12 de Octubre - Radar (Avenida 12 de Octubre - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n10110144091",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.911734,
    "longitude": -78.984031,
@@ -887,12 +906,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7658934120",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.909964,
    "longitude": -78.982064,
@@ -908,12 +927,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12468257750",
-   "name": "E594 - Radar",
+   "name": "E594 - Radar (E594 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.90298,
    "longitude": -78.776351,
@@ -931,12 +950,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E594 - Radar",
+   "display_name": "E594 - Radar (E594 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n14285179620",
-   "name": "Avenida Enrique Arízaga Toral - Radar",
+   "name": "Avenida Enrique Arízaga Toral - Radar (Avenida Enrique Arízaga Toral - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.900364,
    "longitude": -79.046174,
@@ -952,12 +971,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Enrique Arízaga Toral",
-   "display_name": "Avenida Enrique Arízaga Toral - Radar",
+   "display_name": "Avenida Enrique Arízaga Toral - Radar (Avenida Enrique Arízaga Toral - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6031231196",
-   "name": "Avenida González Suárez - Radar",
+   "name": "Avenida González Suárez - Radar (Avenida González Suárez - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.894929,
    "longitude": -78.972419,
@@ -973,12 +992,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida González Suárez",
-   "display_name": "Avenida González Suárez - Radar",
+   "display_name": "Avenida González Suárez - Radar (Avenida González Suárez - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6135264086",
-   "name": "Avenida de las Américas - Radar",
+   "name": "Avenida de las Américas - Radar (Avenida de las Américas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.892981,
    "longitude": -78.962011,
@@ -996,12 +1015,12 @@
    "heading_min": 118.0,
    "heading_max": 188.0,
    "road_label": "Avenida de las Américas",
-   "display_name": "Avenida de las Américas - Radar",
+   "display_name": "Avenida de las Américas - Radar (Avenida de las Américas - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6031231197",
-   "name": "Avenida de las Américas - Radar",
+   "name": "Avenida de las Américas - Radar (Avenida de las Américas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.891273,
    "longitude": -78.963126,
@@ -1017,12 +1036,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida de las Américas",
-   "display_name": "Avenida de las Américas - Radar",
+   "display_name": "Avenida de las Américas - Radar (Avenida de las Américas - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4023666343",
-   "name": "Avenida Enrique Arízaga Toral - Radar",
+   "name": "Avenida Enrique Arízaga Toral - Radar (Avenida Enrique Arízaga Toral - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.890791,
    "longitude": -79.059203,
@@ -1038,12 +1057,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Enrique Arízaga Toral",
-   "display_name": "Avenida Enrique Arízaga Toral - Radar",
+   "display_name": "Avenida Enrique Arízaga Toral - Radar (Avenida Enrique Arízaga Toral - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n10110144089",
-   "name": "Autopista Cuenca Azogues - Radar",
+   "name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.890385,
    "longitude": -78.955446,
@@ -1059,12 +1078,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Autopista Cuenca Azogues",
-   "display_name": "Autopista Cuenca Azogues - Radar",
+   "display_name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11426002835",
-   "name": "Avenida Ordoñez Lasso - Radar",
+   "name": "Avenida Ordoñez Lasso - Radar (Avenida Ordoñez Lasso - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.890282,
    "longitude": -79.029061,
@@ -1080,12 +1099,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Ordoñez Lasso",
-   "display_name": "Avenida Ordoñez Lasso - Radar",
+   "display_name": "Avenida Ordoñez Lasso - Radar (Avenida Ordoñez Lasso - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6382103821",
-   "name": "Autopista Cuenca Azogues - Radar",
+   "name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.889833,
    "longitude": -78.955043,
@@ -1101,12 +1120,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Autopista Cuenca Azogues",
-   "display_name": "Autopista Cuenca Azogues - Radar",
+   "display_name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5993564337",
-   "name": "Avenida Ordoñez Lasso - Radar",
+   "name": "Avenida Ordoñez Lasso - Radar (Avenida Ordoñez Lasso - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.889488,
    "longitude": -79.031997,
@@ -1124,12 +1143,12 @@
    "heading_min": 70.0,
    "heading_max": 140.0,
    "road_label": "Avenida Ordoñez Lasso",
-   "display_name": "Avenida Ordoñez Lasso - Radar",
+   "display_name": "Avenida Ordoñez Lasso - Radar (Avenida Ordoñez Lasso - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5993564336",
-   "name": "Avenida Ordoñez Lasso - Radar",
+   "name": "Avenida Ordoñez Lasso - Radar (Avenida Ordoñez Lasso - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.881901,
    "longitude": -79.060239,
@@ -1147,12 +1166,12 @@
    "heading_min": 254.0,
    "heading_max": 324.0,
    "road_label": "Avenida Ordoñez Lasso",
-   "display_name": "Avenida Ordoñez Lasso - Radar",
+   "display_name": "Avenida Ordoñez Lasso - Radar (Avenida Ordoñez Lasso - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n3556484489",
-   "name": "Avenida de las Américas - Radar",
+   "name": "Avenida de las Américas - Radar (Avenida de las Américas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.881414,
    "longitude": -78.984152,
@@ -1168,12 +1187,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida de las Américas",
-   "display_name": "Avenida de las Américas - Radar",
+   "display_name": "Avenida de las Américas - Radar (Avenida de las Américas - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9589963977",
-   "name": "Avenida de las Américas - Radar",
+   "name": "Avenida de las Américas - Radar (Avenida de las Américas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.87975,
    "longitude": -78.982047,
@@ -1191,12 +1210,12 @@
    "heading_min": 195.0,
    "heading_max": 265.0,
    "road_label": "Avenida de las Américas",
-   "display_name": "Avenida de las Américas - Radar",
+   "display_name": "Avenida de las Américas - Radar (Avenida de las Américas - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6382103711",
-   "name": "Autopista Cuenca Azogues - Radar",
+   "name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.875157,
    "longitude": -78.940039,
@@ -1212,12 +1231,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Autopista Cuenca Azogues",
-   "display_name": "Autopista Cuenca Azogues - Radar",
+   "display_name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12057591693",
-   "name": "Autopista Cuenca Azogues - Radar",
+   "name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.874489,
    "longitude": -78.939784,
@@ -1233,12 +1252,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Autopista Cuenca Azogues",
-   "display_name": "Autopista Cuenca Azogues - Radar",
+   "display_name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9328226440",
-   "name": "E594 - Radar",
+   "name": "E594 - Radar (E594 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.867822,
    "longitude": -78.776684,
@@ -1254,12 +1273,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E594",
-   "display_name": "E594 - Radar",
+   "display_name": "E594 - Radar (E594 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11426087575",
-   "name": "Panamericana - Radar",
+   "name": "Panamericana - Radar (Panamericana - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.86635,
    "longitude": -78.941575,
@@ -1275,12 +1294,14 @@
     "VELOCIDAD"
    ],
    "road_label": "Panamericana",
-   "display_name": "Panamericana - Radar",
-   "country": "EC"
+   "display_name": "Panamericana - Radar (Panamericana - Radar)",
+   "country": "EC",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "secondary"
   },
   {
    "radar_id": "osm-ec-n6119575457",
-   "name": "E594 - Radar",
+   "name": "E594 - Radar (E594 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.865735,
    "longitude": -78.791162,
@@ -1298,12 +1319,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E594 - Radar",
+   "display_name": "E594 - Radar (E594 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9328226444",
-   "name": "E594 - Radar",
+   "name": "E594 - Radar (E594 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.865729,
    "longitude": -78.790519,
@@ -1319,12 +1340,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E594",
-   "display_name": "E594 - Radar",
+   "display_name": "E594 - Radar (E594 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9328226443",
-   "name": "E594 - Radar",
+   "name": "E594 - Radar (E594 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.865661,
    "longitude": -78.787254,
@@ -1340,12 +1361,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E594",
-   "display_name": "E594 - Radar",
+   "display_name": "E594 - Radar (E594 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n3101322806",
-   "name": "Autopista Cuenca Azogues - Radar",
+   "name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.863837,
    "longitude": -78.931365,
@@ -1361,12 +1382,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Autopista Cuenca Azogues",
-   "display_name": "Autopista Cuenca Azogues - Radar",
+   "display_name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n3079573440",
-   "name": "Autopista Cuenca Azogues - Radar",
+   "name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.862768,
    "longitude": -78.929058,
@@ -1382,12 +1403,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Autopista Cuenca Azogues",
-   "display_name": "Autopista Cuenca Azogues - Radar",
+   "display_name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n3989353457",
-   "name": "Autopista Cuenca Azogues - Radar",
+   "name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.854702,
    "longitude": -78.917048,
@@ -1403,12 +1424,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Autopista Cuenca Azogues",
-   "display_name": "Autopista Cuenca Azogues - Radar",
+   "display_name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11426087574",
-   "name": "Autopista Cuenca Azogues - Radar",
+   "name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.854525,
    "longitude": -78.916164,
@@ -1424,12 +1445,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Autopista Cuenca Azogues",
-   "display_name": "Autopista Cuenca Azogues - Radar",
+   "display_name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6384002047",
-   "name": "E40 - Radar",
+   "name": "E40 - Radar (E40 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.853832,
    "longitude": -78.837923,
@@ -1445,12 +1466,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E40",
-   "display_name": "E40 - Radar",
+   "display_name": "E40 - Radar (E40 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4404490715",
-   "name": "Autopista Cuenca Azogues - Radar",
+   "name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.84909,
    "longitude": -78.897023,
@@ -1466,12 +1487,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Autopista Cuenca Azogues",
-   "display_name": "Autopista Cuenca Azogues - Radar",
+   "display_name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6382103632",
-   "name": "Autopista Cuenca Azogues - Radar",
+   "name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.848644,
    "longitude": -78.896128,
@@ -1487,12 +1508,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Autopista Cuenca Azogues",
-   "display_name": "Autopista Cuenca Azogues - Radar",
+   "display_name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n321424585",
-   "name": "Autopista Cuenca Azogues - Radar",
+   "name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.844383,
    "longitude": -78.883467,
@@ -1508,12 +1529,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Autopista Cuenca Azogues",
-   "display_name": "Autopista Cuenca Azogues - Radar",
+   "display_name": "Autopista Cuenca Azogues - Radar (Autopista Cuenca Azogues - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11522995262",
-   "name": "Vía Interoceánica - Radar",
+   "name": "Vía Interoceánica - Radar (Vía Interoceánica - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.833841,
    "longitude": -78.772192,
@@ -1529,12 +1550,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía Interoceánica",
-   "display_name": "Vía Interoceánica - Radar",
+   "display_name": "Vía Interoceánica - Radar (Vía Interoceánica - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9740614645",
-   "name": "Avenida Luis Monsalve Pozo - Radar",
+   "name": "Avenida Luis Monsalve Pozo - Radar (Avenida Luis Monsalve Pozo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.822284,
    "longitude": -78.884312,
@@ -1550,12 +1571,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Luis Monsalve Pozo",
-   "display_name": "Avenida Luis Monsalve Pozo - Radar",
+   "display_name": "Avenida Luis Monsalve Pozo - Radar (Avenida Luis Monsalve Pozo - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9740614644",
-   "name": "Avenida Luis Monsalve Pozo - Radar",
+   "name": "Avenida Luis Monsalve Pozo - Radar (Avenida Luis Monsalve Pozo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.805965,
    "longitude": -78.881865,
@@ -1571,12 +1592,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Luis Monsalve Pozo",
-   "display_name": "Avenida Luis Monsalve Pozo - Radar",
+   "display_name": "Avenida Luis Monsalve Pozo - Radar (Avenida Luis Monsalve Pozo - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9740614643",
-   "name": "Avenida Luis Monsalve Pozo - Radar",
+   "name": "Avenida Luis Monsalve Pozo - Radar (Avenida Luis Monsalve Pozo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.805181,
    "longitude": -78.881771,
@@ -1592,12 +1613,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Luis Monsalve Pozo",
-   "display_name": "Avenida Luis Monsalve Pozo - Radar",
+   "display_name": "Avenida Luis Monsalve Pozo - Radar (Avenida Luis Monsalve Pozo - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545729",
-   "name": "Vía Cuenca - Molleturo - Puerto Inca - Radar",
+   "name": "Vía Cuenca - Molleturo - Puerto Inca - Radar (Vía Cuenca - Molleturo - Puerto Inca - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.801878,
    "longitude": -79.303087,
@@ -1615,12 +1636,12 @@
    "heading_min": 101.0,
    "heading_max": 171.0,
    "road_label": "Vía Cuenca - Molleturo - Puerto Inca",
-   "display_name": "Vía Cuenca - Molleturo - Puerto Inca - Radar",
+   "display_name": "Vía Cuenca - Molleturo - Puerto Inca - Radar (Vía Cuenca - Molleturo - Puerto Inca - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712537133",
-   "name": "Vía Cuenca - Molleturo - Puerto Inca - Radar",
+   "name": "Vía Cuenca - Molleturo - Puerto Inca - Radar (Vía Cuenca - Molleturo - Puerto Inca - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.80131,
    "longitude": -79.34425,
@@ -1638,12 +1659,12 @@
    "heading_min": 78.0,
    "heading_max": 148.0,
    "road_label": "Vía Cuenca - Molleturo - Puerto Inca",
-   "display_name": "Vía Cuenca - Molleturo - Puerto Inca - Radar",
+   "display_name": "Vía Cuenca - Molleturo - Puerto Inca - Radar (Vía Cuenca - Molleturo - Puerto Inca - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9740614641",
-   "name": "Avenida Luis Monsalve Pozo - Radar",
+   "name": "Avenida Luis Monsalve Pozo - Radar (Avenida Luis Monsalve Pozo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.794472,
    "longitude": -78.875012,
@@ -1659,12 +1680,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Luis Monsalve Pozo",
-   "display_name": "Avenida Luis Monsalve Pozo - Radar",
+   "display_name": "Avenida Luis Monsalve Pozo - Radar (Avenida Luis Monsalve Pozo - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545731",
-   "name": "Vía Cuenca - Molleturo - Puerto Inca - Radar",
+   "name": "Vía Cuenca - Molleturo - Puerto Inca - Radar (Vía Cuenca - Molleturo - Puerto Inca - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.74712,
    "longitude": -79.415692,
@@ -1682,12 +1703,12 @@
    "heading_min": 157.0,
    "heading_max": 227.0,
    "road_label": "Vía Cuenca - Molleturo - Puerto Inca",
-   "display_name": "Vía Cuenca - Molleturo - Puerto Inca - Radar",
+   "display_name": "Vía Cuenca - Molleturo - Puerto Inca - Radar (Vía Cuenca - Molleturo - Puerto Inca - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712546021",
-   "name": "Vía Cuenca - Molleturo - Puerto Inca - Radar",
+   "name": "Vía Cuenca - Molleturo - Puerto Inca - Radar (Vía Cuenca - Molleturo - Puerto Inca - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.745655,
    "longitude": -79.415491,
@@ -1705,12 +1726,12 @@
    "heading_min": 340.0,
    "heading_max": 50.0,
    "road_label": "Vía Cuenca - Molleturo - Puerto Inca",
-   "display_name": "Vía Cuenca - Molleturo - Puerto Inca - Radar",
+   "display_name": "Vía Cuenca - Molleturo - Puerto Inca - Radar (Vía Cuenca - Molleturo - Puerto Inca - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9740614639",
-   "name": "Vía Rapida a Azogues Biblián - Radar",
+   "name": "Vía Rapida a Azogues Biblián - Radar (Vía Rapida a Azogues Biblián - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.72193,
    "longitude": -78.889132,
@@ -1726,12 +1747,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía Rapida a Azogues Biblián",
-   "display_name": "Vía Rapida a Azogues Biblián - Radar",
+   "display_name": "Vía Rapida a Azogues Biblián - Radar (Vía Rapida a Azogues Biblián - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9740614638",
-   "name": "Vía Rapida a Azogues Biblián - Radar",
+   "name": "Vía Rapida a Azogues Biblián - Radar (Vía Rapida a Azogues Biblián - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.720209,
    "longitude": -78.889878,
@@ -1747,12 +1768,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía Rapida a Azogues Biblián",
-   "display_name": "Vía Rapida a Azogues Biblián - Radar",
+   "display_name": "Vía Rapida a Azogues Biblián - Radar (Vía Rapida a Azogues Biblián - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9740614637",
-   "name": "Vía Rapida a Azogues Biblián - Radar",
+   "name": "Vía Rapida a Azogues Biblián - Radar (Vía Rapida a Azogues Biblián - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.70697,
    "longitude": -78.897512,
@@ -1768,12 +1789,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía Rapida a Azogues Biblián",
-   "display_name": "Vía Rapida a Azogues Biblián - Radar",
+   "display_name": "Vía Rapida a Azogues Biblián - Radar (Vía Rapida a Azogues Biblián - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712546125",
-   "name": "Vía Cuenca - Molleturo - Puerto Inca - Radar",
+   "name": "Vía Cuenca - Molleturo - Puerto Inca - Radar (Vía Cuenca - Molleturo - Puerto Inca - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.600195,
    "longitude": -79.478014,
@@ -1791,12 +1812,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Vía Cuenca - Molleturo - Puerto Inca - Radar",
+   "display_name": "Vía Cuenca - Molleturo - Puerto Inca - Radar (Vía Cuenca - Molleturo - Puerto Inca - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712537134",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.521713,
    "longitude": -79.569302,
@@ -1814,12 +1835,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9740614627",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.52109,
    "longitude": -78.927338,
@@ -1835,12 +1856,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712546421",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.519973,
    "longitude": -79.571569,
@@ -1858,12 +1879,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12313034344",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.494799,
    "longitude": -79.602113,
@@ -1881,12 +1902,12 @@
    "heading_min": 85.0,
    "heading_max": 155.0,
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12313034343",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.42541,
    "longitude": -79.625375,
@@ -1904,12 +1925,12 @@
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712537135",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.358049,
    "longitude": -79.633365,
@@ -1927,12 +1948,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4969526900",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.356645,
    "longitude": -79.633491,
@@ -1950,12 +1971,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4969525035",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.3314,
    "longitude": -79.63577,
@@ -1973,12 +1994,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4551215511",
-   "name": "Vía a la Costa - Radar",
+   "name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.321785,
    "longitude": -80.554423,
@@ -1994,12 +2015,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía a la Costa",
-   "display_name": "Vía a la Costa - Radar",
+   "display_name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4551208587",
-   "name": "Vía a la Costa - Radar",
+   "name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.320887,
    "longitude": -80.606016,
@@ -2015,12 +2036,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía a la Costa",
-   "display_name": "Vía a la Costa - Radar",
+   "display_name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4551213775",
-   "name": "Vía a la Costa - Radar",
+   "name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.320414,
    "longitude": -80.563865,
@@ -2036,12 +2057,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía a la Costa",
-   "display_name": "Vía a la Costa - Radar",
+   "display_name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4551208588",
-   "name": "Vía a la Costa - Radar",
+   "name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.314169,
    "longitude": -80.580938,
@@ -2057,12 +2078,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía a la Costa",
-   "display_name": "Vía a la Costa - Radar",
+   "display_name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6047520712",
-   "name": "Vía a la Costa - Radar",
+   "name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.313215,
    "longitude": -80.246157,
@@ -2078,12 +2099,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía a la Costa",
-   "display_name": "Vía a la Costa - Radar",
+   "display_name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4551208868",
-   "name": "Vía a la Costa - Radar",
+   "name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.308842,
    "longitude": -80.685363,
@@ -2099,12 +2120,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía a la Costa",
-   "display_name": "Vía a la Costa - Radar",
+   "display_name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6047520139",
-   "name": "Vía a la Costa - Radar",
+   "name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.292902,
    "longitude": -80.215502,
@@ -2120,12 +2141,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía a la Costa",
-   "display_name": "Vía a la Costa - Radar",
+   "display_name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4551208867",
-   "name": "Vía a la Costa - Radar",
+   "name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.282624,
    "longitude": -80.725252,
@@ -2141,12 +2162,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía a la Costa",
-   "display_name": "Vía a la Costa - Radar",
+   "display_name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545828",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.280533,
    "longitude": -79.639156,
@@ -2162,12 +2183,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4969519401",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.275858,
    "longitude": -79.638609,
@@ -2183,12 +2204,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545830",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.272737,
    "longitude": -79.638235,
@@ -2204,12 +2225,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11417729860",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.266821,
    "longitude": -79.637448,
@@ -2225,12 +2246,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4551206068",
-   "name": "Vía a la Costa - Radar",
+   "name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.263666,
    "longitude": -80.76592,
@@ -2246,12 +2267,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía a la Costa",
-   "display_name": "Vía a la Costa - Radar",
+   "display_name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4551193591",
-   "name": "Vía a la Costa - Radar",
+   "name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.248638,
    "longitude": -80.799813,
@@ -2267,12 +2288,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía a la Costa",
-   "display_name": "Vía a la Costa - Radar",
+   "display_name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4525146744",
-   "name": "Vía a la Costa - Radar",
+   "name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.229238,
    "longitude": -80.847142,
@@ -2288,12 +2309,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía a la Costa",
-   "display_name": "Vía a la Costa - Radar",
+   "display_name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4529476940",
-   "name": "Avenida Eleodoro Solórzano - Radar",
+   "name": "Avenida Eleodoro Solórzano - Radar (Avenida Eleodoro Solórzano - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.227032,
    "longitude": -80.91776,
@@ -2309,12 +2330,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Eleodoro Solórzano",
-   "display_name": "Avenida Eleodoro Solórzano - Radar",
+   "display_name": "Avenida Eleodoro Solórzano - Radar (Avenida Eleodoro Solórzano - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712546121",
-   "name": "Vía Vírgen de Fátima - Guayaquil - Radar",
+   "name": "Vía Vírgen de Fátima - Guayaquil - Radar (Vía Vírgen de Fátima - Guayaquil - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.22465,
    "longitude": -79.674795,
@@ -2332,12 +2353,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Vía Vírgen de Fátima - Guayaquil - Radar",
+   "display_name": "Vía Vírgen de Fátima - Guayaquil - Radar (Vía Vírgen de Fátima - Guayaquil - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712537136",
-   "name": "Vía Guayaquil - Vírgen de Fátima - Radar",
+   "name": "Vía Guayaquil - Vírgen de Fátima - Radar (Vía Guayaquil - Vírgen de Fátima - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.2245,
    "longitude": -79.676036,
@@ -2355,12 +2376,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Vía Guayaquil - Vírgen de Fátima - Radar",
+   "display_name": "Vía Guayaquil - Vírgen de Fátima - Radar (Vía Guayaquil - Vírgen de Fátima - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545923",
-   "name": "Vía Guayaquil - Vírgen de Fátima - Radar",
+   "name": "Vía Guayaquil - Vírgen de Fátima - Radar (Vía Guayaquil - Vírgen de Fátima - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.222376,
    "longitude": -79.680467,
@@ -2378,12 +2399,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Vía Guayaquil - Vírgen de Fátima - Radar",
+   "display_name": "Vía Guayaquil - Vírgen de Fátima - Radar (Vía Guayaquil - Vírgen de Fátima - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712546124",
-   "name": "Vía Guayaquil - Vírgen de Fátima - Radar",
+   "name": "Vía Guayaquil - Vírgen de Fátima - Radar (Vía Guayaquil - Vírgen de Fátima - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.219738,
    "longitude": -79.692118,
@@ -2401,12 +2422,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Vía Guayaquil - Vírgen de Fátima - Radar",
+   "display_name": "Vía Guayaquil - Vírgen de Fátima - Radar (Vía Guayaquil - Vírgen de Fátima - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12143074759",
-   "name": "Vía Guayaquil - Vírgen de Fátima - Radar",
+   "name": "Vía Guayaquil - Vírgen de Fátima - Radar (Vía Guayaquil - Vírgen de Fátima - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.218268,
    "longitude": -79.697918,
@@ -2424,12 +2445,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Vía Guayaquil - Vírgen de Fátima - Radar",
+   "display_name": "Vía Guayaquil - Vírgen de Fátima - Radar (Vía Guayaquil - Vírgen de Fátima - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6047514823",
-   "name": "Vía Vírgen de Fátima - Guayaquil - Radar",
+   "name": "Vía Vírgen de Fátima - Guayaquil - Radar (Vía Vírgen de Fátima - Guayaquil - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.214734,
    "longitude": -79.706046,
@@ -2445,12 +2466,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía Vírgen de Fátima - Guayaquil",
-   "display_name": "Vía Vírgen de Fátima - Guayaquil - Radar",
+   "display_name": "Vía Vírgen de Fátima - Guayaquil - Radar (Vía Vírgen de Fátima - Guayaquil - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6047518806",
-   "name": "Vía a la Costa - Radar",
+   "name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.214609,
    "longitude": -80.078194,
@@ -2466,12 +2487,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía a la Costa",
-   "display_name": "Vía a la Costa - Radar",
+   "display_name": "Vía a la Costa - Radar (Vía a la Costa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712546122",
-   "name": "Vía Vírgen de Fátima - Guayaquil - Radar",
+   "name": "Vía Vírgen de Fátima - Guayaquil - Radar (Vía Vírgen de Fátima - Guayaquil - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.213996,
    "longitude": -79.707982,
@@ -2489,12 +2510,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Vía Vírgen de Fátima - Guayaquil - Radar",
+   "display_name": "Vía Vírgen de Fátima - Guayaquil - Radar (Vía Vírgen de Fátima - Guayaquil - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6047517464",
-   "name": "Vía Vírgen de Fátima - Guayaquil - Radar",
+   "name": "Vía Vírgen de Fátima - Guayaquil - Radar (Vía Vírgen de Fátima - Guayaquil - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.207166,
    "longitude": -79.742289,
@@ -2510,12 +2531,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía Vírgen de Fátima - Guayaquil",
-   "display_name": "Vía Vírgen de Fátima - Guayaquil - Radar",
+   "display_name": "Vía Vírgen de Fátima - Guayaquil - Radar (Vía Vírgen de Fátima - Guayaquil - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6047518035",
-   "name": "E40 - Radar",
+   "name": "E40 - Radar (E40 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.199118,
    "longitude": -79.77196,
@@ -2531,12 +2552,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E40",
-   "display_name": "E40 - Radar",
+   "display_name": "E40 - Radar (E40 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6047521419",
-   "name": "E40 - Radar",
+   "name": "E40 - Radar (E40 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.198992,
    "longitude": -79.774868,
@@ -2552,12 +2573,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E40",
-   "display_name": "E40 - Radar",
+   "display_name": "E40 - Radar (E40 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4525115344",
-   "name": "E15 - Radar",
+   "name": "E15 - Radar (E15 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.193292,
    "longitude": -80.848247,
@@ -2573,12 +2594,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E15",
-   "display_name": "E15 - Radar",
+   "display_name": "E15 - Radar (E15 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5712545922",
-   "name": "E40 - Radar",
+   "name": "E40 - Radar (E40 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.186699,
    "longitude": -79.805635,
@@ -2596,12 +2617,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E40 - Radar",
+   "display_name": "E40 - Radar (E40 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n14181715612",
-   "name": "Avenida Nicolás Lapentti C. - Radar",
+   "name": "Avenida Nicolás Lapentti C. - Radar (Avenida Nicolás Lapentti C. - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.174638,
    "longitude": -79.831126,
@@ -2617,12 +2638,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Nicolás Lapentti C.",
-   "display_name": "Avenida Nicolás Lapentti C. - Radar",
+   "display_name": "Avenida Nicolás Lapentti C. - Radar (Avenida Nicolás Lapentti C. - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12793452568",
-   "name": "Vial 8 - Radar",
+   "name": "Vial 8 - Radar (Vial 8 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.04547,
    "longitude": -79.915211,
@@ -2640,12 +2661,12 @@
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Vial 8",
-   "display_name": "Vial 8 - Radar",
+   "display_name": "Vial 8 - Radar (Vial 8 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12793542993",
-   "name": "Vial 1 - Radar",
+   "name": "Vial 1 - Radar (Vial 1 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.03378,
    "longitude": -79.895081,
@@ -2663,12 +2684,12 @@
    "heading_min": 55.0,
    "heading_max": 125.0,
    "road_label": "Vial 1",
-   "display_name": "Vial 1 - Radar",
+   "display_name": "Vial 1 - Radar (Vial 1 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12793542995",
-   "name": "Vial 1 - Radar",
+   "name": "Vial 1 - Radar (Vial 1 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -2.032336,
    "longitude": -79.874123,
@@ -2686,12 +2707,12 @@
    "heading_min": 235.0,
    "heading_max": 305.0,
    "road_label": "Vial 1",
-   "display_name": "Vial 1 - Radar",
+   "display_name": "Vial 1 - Radar (Vial 1 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12793570819",
-   "name": "Vía a Salitre - T de Daule - Radar",
+   "name": "Vía a Salitre - T de Daule - Radar (Vía a Salitre - T de Daule - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.991643,
    "longitude": -79.868547,
@@ -2709,12 +2730,12 @@
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "Vía a Salitre - T de Daule",
-   "display_name": "Vía a Salitre - T de Daule - Radar",
+   "display_name": "Vía a Salitre - T de Daule - Radar (Vía a Salitre - T de Daule - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12838774903",
-   "name": "Vía a Daule - Radar",
+   "name": "Vía a Daule - Radar (Vía a Daule - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.976077,
    "longitude": -80.006054,
@@ -2732,12 +2753,12 @@
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "Vía a Daule",
-   "display_name": "Vía a Daule - Radar",
+   "display_name": "Vía a Daule - Radar (Vía a Daule - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12838774904",
-   "name": "Vía a Daule - Radar",
+   "name": "Vía a Daule - Radar (Vía a Daule - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.97252,
    "longitude": -80.008742,
@@ -2755,12 +2776,12 @@
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "Vía a Daule",
-   "display_name": "Vía a Daule - Radar",
+   "display_name": "Vía a Daule - Radar (Vía a Daule - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12838774929",
-   "name": "E48 - Radar",
+   "name": "E48 - Radar (E48 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.959346,
    "longitude": -80.011504,
@@ -2778,12 +2799,12 @@
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "E48",
-   "display_name": "E48 - Radar",
+   "display_name": "E48 - Radar (E48 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12839000266",
-   "name": "E48 - Radar",
+   "name": "E48 - Radar (E48 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.943829,
    "longitude": -80.012071,
@@ -2801,12 +2822,12 @@
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "E48",
-   "display_name": "E48 - Radar",
+   "display_name": "E48 - Radar (E48 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12839076223",
-   "name": "E48 - Radar",
+   "name": "E48 - Radar (E48 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.922248,
    "longitude": -80.011496,
@@ -2824,12 +2845,12 @@
    "heading_min": 145.0,
    "heading_max": 215.0,
    "road_label": "E48",
-   "display_name": "E48 - Radar",
+   "display_name": "E48 - Radar (E48 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12839111449",
-   "name": "E48 - Radar",
+   "name": "E48 - Radar (E48 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.906993,
    "longitude": -80.010772,
@@ -2847,12 +2868,12 @@
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "E48",
-   "display_name": "E48 - Radar",
+   "display_name": "E48 - Radar (E48 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12839172738",
-   "name": "Vía Daule - Santa Lucía - Radar",
+   "name": "Vía Daule - Santa Lucía - Radar (Vía Daule - Santa Lucía - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.788288,
    "longitude": -79.997646,
@@ -2870,12 +2891,12 @@
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Vía Daule - Santa Lucía",
-   "display_name": "Vía Daule - Santa Lucía - Radar",
+   "display_name": "Vía Daule - Santa Lucía - Radar (Vía Daule - Santa Lucía - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12839172704",
-   "name": "Vía Daule - Santa Lucía - Radar",
+   "name": "Vía Daule - Santa Lucía - Radar (Vía Daule - Santa Lucía - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.77543,
    "longitude": -79.99441,
@@ -2893,12 +2914,12 @@
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Vía Daule - Santa Lucía",
-   "display_name": "Vía Daule - Santa Lucía - Radar",
+   "display_name": "Vía Daule - Santa Lucía - Radar (Vía Daule - Santa Lucía - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12793699712",
-   "name": "Vía Daule - Santa Lucía - Radar",
+   "name": "Vía Daule - Santa Lucía - Radar (Vía Daule - Santa Lucía - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.761467,
    "longitude": -79.990387,
@@ -2916,12 +2937,12 @@
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "Vía Daule - Santa Lucía",
-   "display_name": "Vía Daule - Santa Lucía - Radar",
+   "display_name": "Vía Daule - Santa Lucía - Radar (Vía Daule - Santa Lucía - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12793689121",
-   "name": "Vía Daule - Santa Lucía - Radar",
+   "name": "Vía Daule - Santa Lucía - Radar (Vía Daule - Santa Lucía - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.732048,
    "longitude": -79.983493,
@@ -2939,12 +2960,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Vía Daule - Santa Lucía - Radar",
+   "display_name": "Vía Daule - Santa Lucía - Radar (Vía Daule - Santa Lucía - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12793689120",
-   "name": "Vía Daule - Santa Lucía - Radar",
+   "name": "Vía Daule - Santa Lucía - Radar (Vía Daule - Santa Lucía - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.731238,
    "longitude": -79.983524,
@@ -2962,12 +2983,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Vía Daule - Santa Lucía - Radar",
+   "display_name": "Vía Daule - Santa Lucía - Radar (Vía Daule - Santa Lucía - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6704972210",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.585018,
    "longitude": -78.712213,
@@ -2985,12 +3006,12 @@
    "heading_min": 125.0,
    "heading_max": 195.0,
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6655915186",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.576636,
    "longitude": -79.536158,
@@ -3008,12 +3029,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9740609991",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.526636,
    "longitude": -78.720761,
@@ -3029,12 +3050,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n10828217655",
-   "name": "Avenida Alberto Zambrano - Radar",
+   "name": "Avenida Alberto Zambrano - Radar (Avenida Alberto Zambrano - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.499901,
    "longitude": -78.023152,
@@ -3050,12 +3071,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Alberto Zambrano",
-   "display_name": "Avenida Alberto Zambrano - Radar",
+   "display_name": "Avenida Alberto Zambrano - Radar (Avenida Alberto Zambrano - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n3916881788",
-   "name": "Avenida Alberto Zambrano - Radar",
+   "name": "Avenida Alberto Zambrano - Radar (Avenida Alberto Zambrano - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.492736,
    "longitude": -77.997929,
@@ -3071,12 +3092,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Alberto Zambrano",
-   "display_name": "Avenida Alberto Zambrano - Radar",
+   "display_name": "Avenida Alberto Zambrano - Radar (Avenida Alberto Zambrano - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6655911193",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.386178,
    "longitude": -79.43816,
@@ -3094,12 +3115,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9740609990",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.373838,
    "longitude": -78.651137,
@@ -3115,12 +3136,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n2392884369",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.348903,
    "longitude": -78.644363,
@@ -3138,12 +3159,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9740609989",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.344052,
    "longitude": -78.647452,
@@ -3159,12 +3180,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9740609988",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.343646,
    "longitude": -78.647077,
@@ -3180,12 +3201,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9740609987",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.332625,
    "longitude": -78.642643,
@@ -3201,12 +3222,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4016563957",
-   "name": "Avenida de la Confraternidad - Radar",
+   "name": "Avenida de la Confraternidad - Radar (Avenida de la Confraternidad - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.303487,
    "longitude": -78.60176,
@@ -3224,12 +3245,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida de la Confraternidad - Radar",
+   "display_name": "Avenida de la Confraternidad - Radar (Avenida de la Confraternidad - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4403580631",
-   "name": "Avenida de la Confraternidad - Radar (Foto Radar)",
+   "name": "Avenida de la Confraternidad - Radar (Avenida de la Confraternidad - Radar (Foto Radar))",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.297354,
    "longitude": -78.603509,
@@ -3247,12 +3268,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida de la Confraternidad - Radar (Foto Radar)",
+   "display_name": "Avenida de la Confraternidad - Radar (Avenida de la Confraternidad - Radar (Foto Radar))",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n8082575996",
-   "name": "Avenida Bolivariana - Radar",
+   "name": "Avenida Bolivariana - Radar (Avenida Bolivariana - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.287154,
    "longitude": -78.606993,
@@ -3268,12 +3289,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Bolivariana",
-   "display_name": "Avenida Bolivariana - Radar",
+   "display_name": "Avenida Bolivariana - Radar (Avenida Bolivariana - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6659006291",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.287027,
    "longitude": -79.425107,
@@ -3291,12 +3312,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n3646434341",
-   "name": "Avenida Manuela Sáenz - Radar",
+   "name": "Avenida Manuela Sáenz - Radar (Avenida Manuela Sáenz - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.269992,
    "longitude": -78.637925,
@@ -3312,12 +3333,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Manuela Sáenz",
-   "display_name": "Avenida Manuela Sáenz - Radar",
+   "display_name": "Avenida Manuela Sáenz - Radar (Avenida Manuela Sáenz - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5597337945",
-   "name": "Avenida Victor Hugo - Radar",
+   "name": "Avenida Victor Hugo - Radar (Avenida Victor Hugo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.269119,
    "longitude": -78.635338,
@@ -3335,12 +3356,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Victor Hugo - Radar",
+   "display_name": "Avenida Victor Hugo - Radar (Avenida Victor Hugo - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4988812148",
-   "name": "Avenida Bolivariana - Radar",
+   "name": "Avenida Bolivariana - Radar (Avenida Bolivariana - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.263671,
    "longitude": -78.61279,
@@ -3358,12 +3379,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Bolivariana - Radar",
+   "display_name": "Avenida Bolivariana - Radar (Avenida Bolivariana - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5597337947",
-   "name": "Avenida Galo Vela - Radar",
+   "name": "Avenida Galo Vela - Radar (Avenida Galo Vela - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.262212,
    "longitude": -78.608716,
@@ -3381,12 +3402,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Galo Vela - Radar",
+   "display_name": "Avenida Galo Vela - Radar (Avenida Galo Vela - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n3646431085",
-   "name": "Avenida Los Guaytambos - Radar",
+   "name": "Avenida Los Guaytambos - Radar (Avenida Los Guaytambos - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.252141,
    "longitude": -78.646303,
@@ -3402,12 +3423,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Los Guaytambos",
-   "display_name": "Avenida Los Guaytambos - Radar",
+   "display_name": "Avenida Los Guaytambos - Radar (Avenida Los Guaytambos - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6426109382",
-   "name": "Avenida Rodrigo Pachano - Radar",
+   "name": "Avenida Rodrigo Pachano - Radar (Avenida Rodrigo Pachano - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.247588,
    "longitude": -78.639762,
@@ -3427,12 +3448,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 1732 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Rodrigo Pachano - Radar",
+   "display_name": "Avenida Rodrigo Pachano - Radar (Avenida Rodrigo Pachano - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4988812147",
-   "name": "Avenida Indoamerica - Radar",
+   "name": "Avenida Indoamerica - Radar (Avenida Indoamerica - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.232653,
    "longitude": -78.601386,
@@ -3450,12 +3471,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Indoamerica - Radar",
+   "display_name": "Avenida Indoamerica - Radar (Avenida Indoamerica - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5182861062",
-   "name": "Avenida Rodrigo Pachano - Radar",
+   "name": "Avenida Rodrigo Pachano - Radar (Avenida Rodrigo Pachano - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.227541,
    "longitude": -78.614421,
@@ -3473,12 +3494,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Rodrigo Pachano - Radar",
+   "display_name": "Avenida Rodrigo Pachano - Radar (Avenida Rodrigo Pachano - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5182862521",
-   "name": "Avenida Rodrigo Pachano - Radar",
+   "name": "Avenida Rodrigo Pachano - Radar (Avenida Rodrigo Pachano - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.227231,
    "longitude": -78.61561,
@@ -3496,12 +3517,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Rodrigo Pachano - Radar",
+   "display_name": "Avenida Rodrigo Pachano - Radar (Avenida Rodrigo Pachano - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6426109381",
-   "name": "Avenida Rodrigo Pachano - Radar",
+   "name": "Avenida Rodrigo Pachano - Radar (Avenida Rodrigo Pachano - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.226799,
    "longitude": -78.618744,
@@ -3517,12 +3538,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Rodrigo Pachano",
-   "display_name": "Avenida Rodrigo Pachano - Radar",
+   "display_name": "Avenida Rodrigo Pachano - Radar (Avenida Rodrigo Pachano - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7015776489",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.148137,
    "longitude": -78.586405,
@@ -3540,12 +3561,12 @@
    "heading_min": 325.0,
    "heading_max": 35.0,
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9394839204",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.144555,
    "longitude": -78.586844,
@@ -3563,12 +3584,12 @@
    "heading_min": 140.0,
    "heading_max": 210.0,
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9394839205",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.143568,
    "longitude": -78.58697,
@@ -3586,12 +3607,12 @@
    "heading_min": 320.0,
    "heading_max": 30.0,
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7015776488",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.139669,
    "longitude": -78.587484,
@@ -3609,12 +3630,12 @@
    "heading_min": 310.0,
    "heading_max": 20.0,
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9394839203",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.12243,
    "longitude": -78.589784,
@@ -3632,12 +3653,12 @@
    "heading_min": 140.0,
    "heading_max": 210.0,
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9394839202",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.121693,
    "longitude": -78.589848,
@@ -3655,12 +3676,12 @@
    "heading_min": 320.0,
    "heading_max": 30.0,
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6773298588",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.103928,
    "longitude": -78.592268,
@@ -3678,12 +3699,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6659006588",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.072056,
    "longitude": -79.507516,
@@ -3701,12 +3722,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11069994175",
-   "name": "E15 - Radar",
+   "name": "E15 - Radar (E15 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.068559,
    "longitude": -80.864789,
@@ -3724,12 +3745,12 @@
    "heading_min": 55.0,
    "heading_max": 125.0,
    "road_label": "E15",
-   "display_name": "E15 - Radar",
+   "display_name": "E15 - Radar (E15 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7015776487",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.056834,
    "longitude": -78.603269,
@@ -3747,12 +3768,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9740609986",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.047442,
    "longitude": -78.602239,
@@ -3768,12 +3789,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6981929587",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.043,
    "longitude": -78.602548,
@@ -3790,12 +3811,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/9394705311",
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11069994184",
-   "name": "Avenida Metropolitana - Radar",
+   "name": "Avenida Metropolitana - Radar (Avenida Metropolitana - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.034519,
    "longitude": -80.669812,
@@ -3813,12 +3834,12 @@
    "heading_min": 105.0,
    "heading_max": 175.0,
    "road_label": "Avenida Metropolitana",
-   "display_name": "Avenida Metropolitana - Radar",
+   "display_name": "Avenida Metropolitana - Radar (Avenida Metropolitana - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6981929586",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -1.01753,
    "longitude": -78.608862,
@@ -3835,12 +3856,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "Límite del radar de OSM node/9394705309",
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12058037905",
-   "name": "Vía Interbarrial - Radar",
+   "name": "Vía Interbarrial - Radar (Vía Interbarrial - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.980126,
    "longitude": -80.710567,
@@ -3858,12 +3879,12 @@
    "heading_min": 345.0,
    "heading_max": 55.0,
    "road_label": "Vía Interbarrial",
-   "display_name": "Vía Interbarrial - Radar",
+   "display_name": "Vía Interbarrial - Radar (Vía Interbarrial - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11069994186",
-   "name": "E15 - Radar",
+   "name": "E15 - Radar (E15 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.96761,
    "longitude": -80.66292,
@@ -3881,12 +3902,12 @@
    "heading_min": 80.0,
    "heading_max": 150.0,
    "road_label": "E15",
-   "display_name": "E15 - Radar",
+   "display_name": "E15 - Radar (E15 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9394735113",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.967497,
    "longitude": -78.643205,
@@ -3904,12 +3925,12 @@
    "heading_min": 115.0,
    "heading_max": 185.0,
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9394735114",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.966461,
    "longitude": -78.643896,
@@ -3927,12 +3948,12 @@
    "heading_min": 295.0,
    "heading_max": 5.0,
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9740609985",
-   "name": "E35 - Radar",
+   "name": "E35 - Radar (E35 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.964028,
    "longitude": -78.645509,
@@ -3948,12 +3969,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E35",
-   "display_name": "E35 - Radar",
+   "display_name": "E35 - Radar (E35 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11069994178",
-   "name": "Avenida de la Cultura - Radar",
+   "name": "Avenida de la Cultura - Radar (Avenida de la Cultura - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.960743,
    "longitude": -80.732422,
@@ -3971,12 +3992,12 @@
    "heading_min": 190.0,
    "heading_max": 260.0,
    "road_label": "Avenida de la Cultura",
-   "display_name": "Avenida de la Cultura - Radar",
+   "display_name": "Avenida de la Cultura - Radar (Avenida de la Cultura - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11069994188",
-   "name": "E38 - Radar",
+   "name": "E38 - Radar (E38 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.904734,
    "longitude": -80.416777,
@@ -3994,12 +4015,12 @@
    "heading_min": 5.0,
    "heading_max": 75.0,
    "road_label": "E38",
-   "display_name": "E38 - Radar",
+   "display_name": "E38 - Radar (E38 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6659006591",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.835625,
    "longitude": -79.485375,
@@ -4015,12 +4036,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n360674187",
-   "name": "E38 - Radar",
+   "name": "E38 - Radar (E38 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.817071,
    "longitude": -80.295072,
@@ -4038,12 +4059,12 @@
    "heading_min": 220.0,
    "heading_max": 290.0,
    "road_label": "E38",
-   "display_name": "E38 - Radar",
+   "display_name": "E38 - Radar (E38 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11069994191",
-   "name": "E38 - Radar",
+   "name": "E38 - Radar (E38 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.810968,
    "longitude": -80.264154,
@@ -4061,12 +4082,12 @@
    "heading_min": 25.0,
    "heading_max": 95.0,
    "road_label": "E38",
-   "display_name": "E38 - Radar",
+   "display_name": "E38 - Radar (E38 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11069994193",
-   "name": "E38 - Radar",
+   "name": "E38 - Radar (E38 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.719979,
    "longitude": -80.170708,
@@ -4084,12 +4105,12 @@
    "heading_min": 340.0,
    "heading_max": 50.0,
    "road_label": "E38",
-   "display_name": "E38 - Radar",
+   "display_name": "E38 - Radar (E38 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n3232361620",
-   "name": "E38 - Radar",
+   "name": "E38 - Radar (E38 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.711514,
    "longitude": -80.163406,
@@ -4107,12 +4128,12 @@
    "heading_min": 200.0,
    "heading_max": 270.0,
    "road_label": "E38",
-   "display_name": "E38 - Radar",
+   "display_name": "E38 - Radar (E38 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11069994196",
-   "name": "E38 - Radar",
+   "name": "E38 - Radar (E38 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.680747,
    "longitude": -80.058997,
@@ -4130,12 +4151,12 @@
    "heading_min": 10.0,
    "heading_max": 80.0,
    "road_label": "E38",
-   "display_name": "E38 - Radar",
+   "display_name": "E38 - Radar (E38 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6659006592",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.645888,
    "longitude": -79.443451,
@@ -4151,12 +4172,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6043906885",
-   "name": "Vía Alóag Latacunga - Radar",
+   "name": "Vía Alóag Latacunga - Radar (Vía Alóag Latacunga - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.620783,
    "longitude": -78.595254,
@@ -4174,12 +4195,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Vía Alóag Latacunga - Radar",
+   "display_name": "Vía Alóag Latacunga - Radar (Vía Alóag Latacunga - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6043906585",
-   "name": "Vía Alóag Latacunga - Radar",
+   "name": "Vía Alóag Latacunga - Radar (Vía Alóag Latacunga - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.600929,
    "longitude": -78.601284,
@@ -4197,12 +4218,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Vía Alóag Latacunga - Radar",
+   "display_name": "Vía Alóag Latacunga - Radar (Vía Alóag Latacunga - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6659006296",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.591696,
    "longitude": -79.378261,
@@ -4218,12 +4239,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9394724229",
-   "name": "Vía Alóag Latacunga - Radar",
+   "name": "Vía Alóag Latacunga - Radar (Vía Alóag Latacunga - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.569357,
    "longitude": -78.592822,
@@ -4241,12 +4262,12 @@
    "heading_min": 170.0,
    "heading_max": 240.0,
    "road_label": "Vía Alóag Latacunga",
-   "display_name": "Vía Alóag Latacunga - Radar",
+   "display_name": "Vía Alóag Latacunga - Radar (Vía Alóag Latacunga - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7015776485",
-   "name": "Vía Alóag Latacunga - Radar",
+   "name": "Vía Alóag Latacunga - Radar (Vía Alóag Latacunga - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.568427,
    "longitude": -78.592531,
@@ -4264,12 +4285,12 @@
    "heading_min": 345.0,
    "heading_max": 55.0,
    "road_label": "Vía Alóag Latacunga",
-   "display_name": "Vía Alóag Latacunga - Radar",
+   "display_name": "Vía Alóag Latacunga - Radar (Vía Alóag Latacunga - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6659006298",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.433587,
    "longitude": -79.320679,
@@ -4285,12 +4306,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n3690070121",
-   "name": "E38 - Radar",
+   "name": "E38 - Radar (E38 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.426692,
    "longitude": -79.944233,
@@ -4308,12 +4329,12 @@
    "heading_min": 175.0,
    "heading_max": 245.0,
    "road_label": "E38",
-   "display_name": "E38 - Radar",
+   "display_name": "E38 - Radar (E38 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n13665750897",
-   "name": "E20 - Radar",
+   "name": "E20 - Radar (E20 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.414119,
    "longitude": -78.026372,
@@ -4329,12 +4350,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E20",
-   "display_name": "E20 - Radar",
+   "display_name": "E20 - Radar (E20 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6659006604",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.373659,
    "longitude": -79.267223,
@@ -4350,12 +4371,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n10152079176",
-   "name": "Via a la Independencia - Radar",
+   "name": "Via a la Independencia - Radar (Via a la Independencia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.371049,
    "longitude": -79.371087,
@@ -4371,12 +4392,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Via a la Independencia - Radar",
+   "display_name": "Via a la Independencia - Radar (Via a la Independencia - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6659006608",
-   "name": "E25 - Radar",
+   "name": "E25 - Radar (E25 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.352222,
    "longitude": -79.25149,
@@ -4392,12 +4413,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E25",
-   "display_name": "E25 - Radar",
+   "display_name": "E25 - Radar (E25 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11069994199",
-   "name": "E38 - Radar",
+   "name": "E38 - Radar (E38 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.336914,
    "longitude": -79.841825,
@@ -4415,12 +4436,12 @@
    "heading_min": 5.0,
    "heading_max": 75.0,
    "road_label": "E38",
-   "display_name": "E38 - Radar",
+   "display_name": "E38 - Radar (E38 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5921647217",
-   "name": "E20 - Radar",
+   "name": "E20 - Radar (E20 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.292332,
    "longitude": -78.248129,
@@ -4438,12 +4459,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E20 - Radar",
+   "display_name": "E20 - Radar (E20 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9394720022",
-   "name": "Avenida Simón Bolívar - Radar",
+   "name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.285575,
    "longitude": -78.518768,
@@ -4461,12 +4482,12 @@
    "heading_min": 170.0,
    "heading_max": 240.0,
    "road_label": "Avenida Simón Bolívar",
-   "display_name": "Avenida Simón Bolívar - Radar",
+   "display_name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4276970164",
-   "name": "Avenida Quevedo - Radar",
+   "name": "Avenida Quevedo - Radar (Avenida Quevedo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.284504,
    "longitude": -79.211398,
@@ -4484,12 +4505,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Quevedo - Radar",
+   "display_name": "Avenida Quevedo - Radar (Avenida Quevedo - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n3574851715",
-   "name": "Avenida Simón Bolívar - Radar",
+   "name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.282674,
    "longitude": -78.517161,
@@ -4505,12 +4526,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Simón Bolívar",
-   "display_name": "Avenida Simón Bolívar - Radar",
+   "display_name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5921648521",
-   "name": "E20 - Radar",
+   "name": "E20 - Radar (E20 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.268411,
    "longitude": -78.276162,
@@ -4528,12 +4549,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E20 - Radar",
+   "display_name": "E20 - Radar (E20 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12964551022",
-   "name": "E20 - Radar",
+   "name": "E20 - Radar (E20 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.268166,
    "longitude": -78.277114,
@@ -4549,12 +4570,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E20",
-   "display_name": "E20 - Radar",
+   "display_name": "E20 - Radar (E20 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n8842199917",
-   "name": "Via Pifo Papallacta - Radar",
+   "name": "Via Pifo Papallacta - Radar (Via Pifo Papallacta - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.261782,
    "longitude": -78.292721,
@@ -4571,12 +4592,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Via Pifo Papallacta",
-   "display_name": "Via Pifo Papallacta - Radar",
+   "display_name": "Via Pifo Papallacta - Radar (Via Pifo Papallacta - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5921650579",
-   "name": "E20 - Radar",
+   "name": "E20 - Radar (E20 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.261371,
    "longitude": -78.293871,
@@ -4594,12 +4615,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E20 - Radar",
+   "display_name": "E20 - Radar (E20 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5921656055",
-   "name": "E20 - Radar",
+   "name": "E20 - Radar (E20 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.250123,
    "longitude": -78.300307,
@@ -4617,12 +4638,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E20 - Radar",
+   "display_name": "E20 - Radar (E20 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9727329739",
-   "name": "Avenida Napo - Radar",
+   "name": "Avenida Napo - Radar (Avenida Napo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.245694,
    "longitude": -78.51618,
@@ -4640,12 +4661,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 9 m · lado B: 50 km/h a 13 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Napo - Radar",
+   "display_name": "Avenida Napo - Radar (Avenida Napo - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6659006309",
-   "name": "Avenida de los Colonos - Radar",
+   "name": "Avenida de los Colonos - Radar (Avenida de los Colonos - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.24233,
    "longitude": -79.19578,
@@ -4663,12 +4684,12 @@
    "heading_min": 50.0,
    "heading_max": 120.0,
    "road_label": "Avenida de los Colonos",
-   "display_name": "Avenida de los Colonos - Radar",
+   "display_name": "Avenida de los Colonos - Radar (Avenida de los Colonos - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n5921656063",
-   "name": "E20 - Radar",
+   "name": "E20 - Radar (E20 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.241903,
    "longitude": -78.324835,
@@ -4686,12 +4707,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "E20 - Radar",
+   "display_name": "E20 - Radar (E20 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n1785495694",
-   "name": "Avenida de los Colonos - Cámara de semáforo",
+   "name": "Avenida de los Colonos - Cámara de semáforo (Avenida de los Colonos - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": -0.238037,
    "longitude": -79.181952,
@@ -4709,12 +4730,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida de los Colonos - Cámara de semáforo",
+   "display_name": "Avenida de los Colonos - Cámara de semáforo (Avenida de los Colonos - Cámara de semáforo)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9724742144",
-   "name": "Avenida Napo - Radar",
+   "name": "Avenida Napo - Radar (Avenida Napo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.23749,
    "longitude": -78.508845,
@@ -4733,12 +4754,12 @@
    "speed_limit_candidates": [
     20
    ],
-   "display_name": "Avenida Napo - Radar",
+   "display_name": "Avenida Napo - Radar (Avenida Napo - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9724742153",
-   "name": "Avenida Napo - Radar",
+   "name": "Avenida Napo - Radar (Avenida Napo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.236787,
    "longitude": -78.508335,
@@ -4757,12 +4778,12 @@
    "speed_limit_candidates": [
     20
    ],
-   "display_name": "Avenida Napo - Radar",
+   "display_name": "Avenida Napo - Radar (Avenida Napo - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9725814376",
-   "name": "Francisco Barba - Radar",
+   "name": "Francisco Barba - Radar (Francisco Barba - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.234014,
    "longitude": -78.523865,
@@ -4780,12 +4801,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Francisco Barba - Radar",
+   "display_name": "Francisco Barba - Radar (Francisco Barba - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9771159295",
-   "name": "Avenida Pichincha - Radar",
+   "name": "Avenida Pichincha - Radar (Avenida Pichincha - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.229705,
    "longitude": -78.506806,
@@ -4803,12 +4824,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Pichincha - Radar",
+   "display_name": "Avenida Pichincha - Radar (Avenida Pichincha - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4334164707",
-   "name": "Ruta Viva - Radar (Foto Radar)",
+   "name": "Ruta Viva - Radar (Ruta Viva - Radar (Foto Radar))",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.216846,
    "longitude": -78.437847,
@@ -4824,12 +4845,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Ruta Viva",
-   "display_name": "Ruta Viva - Radar (Foto Radar)",
+   "display_name": "Ruta Viva - Radar (Ruta Viva - Radar (Foto Radar))",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4530364927",
-   "name": "Ruta Viva - Radar (Foto Radar)",
+   "name": "Ruta Viva - Radar (Ruta Viva - Radar (Foto Radar))",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.216182,
    "longitude": -78.381183,
@@ -4847,12 +4868,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Ruta Viva - Radar (Foto Radar)",
+   "display_name": "Ruta Viva - Radar (Ruta Viva - Radar (Foto Radar))",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4530366032",
-   "name": "Ruta Viva - Radar (Foto Radar)",
+   "name": "Ruta Viva - Radar (Ruta Viva - Radar (Foto Radar))",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.21549,
    "longitude": -78.379767,
@@ -4870,12 +4891,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Ruta Viva - Radar (Foto Radar)",
+   "display_name": "Ruta Viva - Radar (Ruta Viva - Radar (Foto Radar))",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9734133949",
-   "name": "Avenida Gran Colombia - Radar",
+   "name": "Avenida Gran Colombia - Radar (Avenida Gran Colombia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.215321,
    "longitude": -78.501407,
@@ -4893,12 +4914,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Gran Colombia - Radar",
+   "display_name": "Avenida Gran Colombia - Radar (Avenida Gran Colombia - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9731375614",
-   "name": "Luis Vargas - Radar",
+   "name": "Luis Vargas - Radar (Luis Vargas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.214416,
    "longitude": -78.505562,
@@ -4916,12 +4937,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 30 km/h a 142 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Luis Vargas - Radar",
+   "display_name": "Luis Vargas - Radar (Luis Vargas - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9419524028",
-   "name": "José Riofrío - Radar",
+   "name": "José Riofrío - Radar (José Riofrío - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.210665,
    "longitude": -78.503498,
@@ -4937,12 +4958,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "José Riofrío - Radar",
+   "display_name": "José Riofrío - Radar (José Riofrío - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4781516480",
-   "name": "Avenida Simón Bolívar - Radar (Foto Radar)",
+   "name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar (Foto Radar))",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.208456,
    "longitude": -78.461503,
@@ -4960,12 +4981,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Simón Bolívar - Radar (Foto Radar)",
+   "display_name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar (Foto Radar))",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9494307976",
-   "name": "Avenida América - Radar",
+   "name": "Avenida América - Radar (Avenida América - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.207697,
    "longitude": -78.503196,
@@ -4983,12 +5004,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 347 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida América - Radar",
+   "display_name": "Avenida América - Radar (Avenida América - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9499104523",
-   "name": "Santiago - Radar",
+   "name": "Santiago - Radar (Santiago - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.207125,
    "longitude": -78.50227,
@@ -5004,12 +5025,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Santiago - Radar",
+   "display_name": "Santiago - Radar (Santiago - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9428831179",
-   "name": "Madrid - Radar",
+   "name": "Madrid - Radar (Madrid - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.206757,
    "longitude": -78.487912,
@@ -5025,12 +5046,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Madrid - Radar",
+   "display_name": "Madrid - Radar (Madrid - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9731321712",
-   "name": "Avenida América - Radar",
+   "name": "Avenida América - Radar (Avenida América - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.205391,
    "longitude": -78.502538,
@@ -5048,12 +5069,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 82 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida América - Radar",
+   "display_name": "Avenida América - Radar (Avenida América - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9147171801",
-   "name": "Manuel Larrea - Radar",
+   "name": "Manuel Larrea - Radar (Manuel Larrea - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.204888,
    "longitude": -78.50028,
@@ -5069,12 +5090,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Manuel Larrea - Radar",
+   "display_name": "Manuel Larrea - Radar (Manuel Larrea - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9787115836",
-   "name": "Reina Victoria - Radar",
+   "name": "Reina Victoria - Radar (Reina Victoria - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.204649,
    "longitude": -78.492831,
@@ -5092,12 +5113,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 50 km/h a 501 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Reina Victoria - Radar",
+   "display_name": "Reina Victoria - Radar (Reina Victoria - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9467583992",
-   "name": "Bolivia - Radar",
+   "name": "Bolivia - Radar (Bolivia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.204381,
    "longitude": -78.500519,
@@ -5113,12 +5134,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Bolivia - Radar",
+   "display_name": "Bolivia - Radar (Bolivia - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9467583975",
-   "name": "Versalles - Radar",
+   "name": "Versalles - Radar (Versalles - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.204229,
    "longitude": -78.501106,
@@ -5136,12 +5157,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Versalles - Radar",
+   "display_name": "Versalles - Radar (Versalles - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9731916090",
-   "name": "Alfredo Perez Guerrero - Radar",
+   "name": "Alfredo Perez Guerrero - Radar (Alfredo Perez Guerrero - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.203832,
    "longitude": -78.500631,
@@ -5159,12 +5180,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Alfredo Perez Guerrero - Radar",
+   "display_name": "Alfredo Perez Guerrero - Radar (Alfredo Perez Guerrero - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9389479666",
-   "name": "San Gregorio - Radar",
+   "name": "San Gregorio - Radar (San Gregorio - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.203026,
    "longitude": -78.499013,
@@ -5180,12 +5201,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "San Gregorio - Radar",
+   "display_name": "San Gregorio - Radar (San Gregorio - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9762209485",
-   "name": "Avenida 10 de Agosto - Radar",
+   "name": "Avenida 10 de Agosto - Radar (Avenida 10 de Agosto - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.199357,
    "longitude": -78.496384,
@@ -5203,12 +5224,12 @@
    "heading_min": 165.0,
    "heading_max": 235.0,
    "road_label": "Avenida 10 de Agosto",
-   "display_name": "Avenida 10 de Agosto - Radar",
+   "display_name": "Avenida 10 de Agosto - Radar (Avenida 10 de Agosto - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9165132625",
-   "name": "Fray Antonio de Marchena - Radar",
+   "name": "Fray Antonio de Marchena - Radar (Fray Antonio de Marchena - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.199341,
    "longitude": -78.499604,
@@ -5224,12 +5245,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Fray Antonio de Marchena",
-   "display_name": "Fray Antonio de Marchena - Radar",
+   "display_name": "Fray Antonio de Marchena - Radar (Fray Antonio de Marchena - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9771058901",
-   "name": "Juan León Mera - Radar",
+   "name": "Juan León Mera - Radar (Juan León Mera - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.198478,
    "longitude": -78.48932,
@@ -5245,12 +5266,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Juan León Mera - Radar",
+   "display_name": "Juan León Mera - Radar (Juan León Mera - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9429844609",
-   "name": "Gaspar de Carvajal - Radar",
+   "name": "Gaspar de Carvajal - Radar (Gaspar de Carvajal - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.197704,
    "longitude": -78.502173,
@@ -5266,12 +5287,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Gaspar de Carvajal - Radar",
+   "display_name": "Gaspar de Carvajal - Radar (Gaspar de Carvajal - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9322475892",
-   "name": "9 de Octubre - Radar",
+   "name": "9 de Octubre - Radar (9 de Octubre - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.197061,
    "longitude": -78.493344,
@@ -5289,12 +5310,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 30 km/h a 90 m · lado B: 30 km/h a 332 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "9 de Octubre - Radar",
+   "display_name": "9 de Octubre - Radar (9 de Octubre - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9397832903",
-   "name": "Antonio de Ulloa - Radar",
+   "name": "Antonio de Ulloa - Radar (Antonio de Ulloa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.196492,
    "longitude": -78.498691,
@@ -5312,12 +5333,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Antonio de Ulloa - Radar",
+   "display_name": "Antonio de Ulloa - Radar (Antonio de Ulloa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9758444425",
-   "name": "Avenida Francisco de Orellana - Radar",
+   "name": "Avenida Francisco de Orellana - Radar (Avenida Francisco de Orellana - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.19614,
    "longitude": -78.494327,
@@ -5335,12 +5356,12 @@
    "heading_min": 235.0,
    "heading_max": 305.0,
    "road_label": "Avenida Francisco de Orellana",
-   "display_name": "Avenida Francisco de Orellana - Radar",
+   "display_name": "Avenida Francisco de Orellana - Radar (Avenida Francisco de Orellana - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9395418816",
-   "name": "Antonio de Ulloa - Radar",
+   "name": "Antonio de Ulloa - Radar (Antonio de Ulloa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.195829,
    "longitude": -78.498395,
@@ -5358,12 +5379,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Antonio de Ulloa - Radar",
+   "display_name": "Antonio de Ulloa - Radar (Antonio de Ulloa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9165875202",
-   "name": "Versalles - Radar",
+   "name": "Versalles - Radar (Versalles - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.195474,
    "longitude": -78.497324,
@@ -5383,12 +5404,12 @@
     50
    ],
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Versalles - Radar",
+   "display_name": "Versalles - Radar (Versalles - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9473153574",
-   "name": "Versalles - Radar",
+   "name": "Versalles - Radar (Versalles - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.19469,
    "longitude": -78.496923,
@@ -5406,12 +5427,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Versalles - Radar",
+   "display_name": "Versalles - Radar (Versalles - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9480281289",
-   "name": "Selva Alegre - Radar",
+   "name": "Selva Alegre - Radar (Selva Alegre - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.193573,
    "longitude": -78.496536,
@@ -5429,12 +5450,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 40 km/h a 1688 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Selva Alegre - Radar",
+   "display_name": "Selva Alegre - Radar (Selva Alegre - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9170530050",
-   "name": "Bartolomé de las Casas - Radar",
+   "name": "Bartolomé de las Casas - Radar (Bartolomé de las Casas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.193291,
    "longitude": -78.494971,
@@ -5452,12 +5473,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Bartolomé de las Casas - Radar",
+   "display_name": "Bartolomé de las Casas - Radar (Bartolomé de las Casas - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9167740368",
-   "name": "Avenida 10 de Agosto - Radar",
+   "name": "Avenida 10 de Agosto - Radar (Avenida 10 de Agosto - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.192992,
    "longitude": -78.493749,
@@ -5475,12 +5496,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 40 m · lado B: 50 km/h a 11 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida 10 de Agosto - Radar",
+   "display_name": "Avenida 10 de Agosto - Radar (Avenida 10 de Agosto - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9170435049",
-   "name": "Toribio Montes - Radar",
+   "name": "Toribio Montes - Radar (Toribio Montes - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.192563,
    "longitude": -78.495057,
@@ -5496,12 +5517,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Toribio Montes - Radar",
+   "display_name": "Toribio Montes - Radar (Toribio Montes - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12084034567",
-   "name": "Avenida 6 de Diciembre - Radar",
+   "name": "Avenida 6 de Diciembre - Radar (Avenida 6 de Diciembre - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.192272,
    "longitude": -78.481347,
@@ -5517,12 +5538,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida 6 de Diciembre",
-   "display_name": "Avenida 6 de Diciembre - Radar",
+   "display_name": "Avenida 6 de Diciembre - Radar (Avenida 6 de Diciembre - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9170149178",
-   "name": "Cristóbal de Acuña - Radar",
+   "name": "Cristóbal de Acuña - Radar (Cristóbal de Acuña - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.192028,
    "longitude": -78.49574,
@@ -5538,12 +5559,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Cristóbal de Acuña - Radar",
+   "display_name": "Cristóbal de Acuña - Radar (Cristóbal de Acuña - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9173262423",
-   "name": "Bartolomé de las Casas - Radar",
+   "name": "Bartolomé de las Casas - Radar (Bartolomé de las Casas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.191979,
    "longitude": -78.497231,
@@ -5561,12 +5582,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Bartolomé de las Casas - Radar",
+   "display_name": "Bartolomé de las Casas - Radar (Bartolomé de las Casas - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9167740356",
-   "name": "Avenida 10 de Agosto - Radar",
+   "name": "Avenida 10 de Agosto - Radar (Avenida 10 de Agosto - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.191848,
    "longitude": -78.493224,
@@ -5584,12 +5605,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 26 m · lado B: 50 km/h a 111 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida 10 de Agosto - Radar",
+   "display_name": "Avenida 10 de Agosto - Radar (Avenida 10 de Agosto - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9172832861",
-   "name": "Antonio de Ulloa - Radar",
+   "name": "Antonio de Ulloa - Radar (Antonio de Ulloa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.191607,
    "longitude": -78.496417,
@@ -5607,12 +5628,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Antonio de Ulloa - Radar",
+   "display_name": "Antonio de Ulloa - Radar (Antonio de Ulloa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9172832876",
-   "name": "Avenida América - Radar",
+   "name": "Avenida América - Radar (Avenida América - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.191172,
    "longitude": -78.497273,
@@ -5630,12 +5651,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida América - Radar",
+   "display_name": "Avenida América - Radar (Avenida América - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9435109474",
-   "name": "Avenida 10 de Agosto - Radar",
+   "name": "Avenida 10 de Agosto - Radar (Avenida 10 de Agosto - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.190917,
    "longitude": -78.493162,
@@ -5653,12 +5674,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida 10 de Agosto - Radar",
+   "display_name": "Avenida 10 de Agosto - Radar (Avenida 10 de Agosto - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9094545109",
-   "name": "Cuero y Caicedo - Radar",
+   "name": "Cuero y Caicedo - Radar (Cuero y Caicedo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.190528,
    "longitude": -78.495746,
@@ -5674,12 +5695,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Cuero y Caicedo - Radar",
+   "display_name": "Cuero y Caicedo - Radar (Cuero y Caicedo - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9171898875",
-   "name": "Avenida América - Radar",
+   "name": "Avenida América - Radar (Avenida América - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.190034,
    "longitude": -78.496768,
@@ -5697,12 +5718,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida América - Radar",
+   "display_name": "Avenida América - Radar (Avenida América - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9445191404",
-   "name": "Cuero y Caicedo - Radar",
+   "name": "Cuero y Caicedo - Radar (Cuero y Caicedo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.189495,
    "longitude": -78.497779,
@@ -5718,12 +5739,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Cuero y Caicedo - Radar",
+   "display_name": "Cuero y Caicedo - Radar (Cuero y Caicedo - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9431925291",
-   "name": "Avenida América - Radar",
+   "name": "Avenida América - Radar (Avenida América - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.187757,
    "longitude": -78.495801,
@@ -5741,12 +5762,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida América - Radar",
+   "display_name": "Avenida América - Radar (Avenida América - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4781515459",
-   "name": "Avenida Simón Bolívar - Radar (Foto Radar)",
+   "name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar (Foto Radar))",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.1873,
    "longitude": -78.454177,
@@ -5764,12 +5785,12 @@
    "heading_min": 333.0,
    "heading_max": 43.0,
    "road_label": "Avenida Simón Bolívar",
-   "display_name": "Avenida Simón Bolívar - Radar (Foto Radar)",
+   "display_name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar (Foto Radar))",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9652796618",
-   "name": "Antonio de Ulloa - Radar",
+   "name": "Antonio de Ulloa - Radar (Antonio de Ulloa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.186662,
    "longitude": -78.494058,
@@ -5787,12 +5808,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 30 km/h a 47 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Antonio de Ulloa - Radar",
+   "display_name": "Antonio de Ulloa - Radar (Antonio de Ulloa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9601960939",
-   "name": "Avenida General Eloy Alfaro - Radar",
+   "name": "Avenida General Eloy Alfaro - Radar (Avenida General Eloy Alfaro - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.185968,
    "longitude": -78.47822,
@@ -5810,12 +5831,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida General Eloy Alfaro - Radar",
+   "display_name": "Avenida General Eloy Alfaro - Radar (Avenida General Eloy Alfaro - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9431371340",
-   "name": "Avenida de los Shyris - Radar",
+   "name": "Avenida de los Shyris - Radar (Avenida de los Shyris - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.183151,
    "longitude": -78.482006,
@@ -5833,12 +5854,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida de los Shyris - Radar",
+   "display_name": "Avenida de los Shyris - Radar (Avenida de los Shyris - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9728455515",
-   "name": "Nuñez de Vela - Radar",
+   "name": "Nuñez de Vela - Radar (Nuñez de Vela - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.182813,
    "longitude": -78.486798,
@@ -5854,12 +5875,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Nuñez de Vela - Radar",
+   "display_name": "Nuñez de Vela - Radar (Nuñez de Vela - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9728429451",
-   "name": "Avenida Naciones Unidas - Radar",
+   "name": "Avenida Naciones Unidas - Radar (Avenida Naciones Unidas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.17566,
    "longitude": -78.486698,
@@ -5877,12 +5898,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Naciones Unidas - Radar",
+   "display_name": "Avenida Naciones Unidas - Radar (Avenida Naciones Unidas - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9627030145",
-   "name": "El Telégrafo - Radar",
+   "name": "El Telégrafo - Radar (El Telégrafo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.173041,
    "longitude": -78.479555,
@@ -5898,12 +5919,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "El Telégrafo - Radar",
+   "display_name": "El Telégrafo - Radar (El Telégrafo - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9167956657",
-   "name": "El Telégrafo - Radar",
+   "name": "El Telégrafo - Radar (El Telégrafo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.172865,
    "longitude": -78.480564,
@@ -5919,12 +5940,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "El Telégrafo - Radar",
+   "display_name": "El Telégrafo - Radar (El Telégrafo - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n12084045101",
-   "name": "Avenida Gaspar de Villarroel - Radar",
+   "name": "Avenida Gaspar de Villarroel - Radar (Avenida Gaspar de Villarroel - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.171003,
    "longitude": -78.476216,
@@ -5940,12 +5961,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Avenida Gaspar de Villarroel",
-   "display_name": "Avenida Gaspar de Villarroel - Radar",
+   "display_name": "Avenida Gaspar de Villarroel - Radar (Avenida Gaspar de Villarroel - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9168371822",
-   "name": "Isla Santa Fe - Radar",
+   "name": "Isla Santa Fe - Radar (Isla Santa Fe - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.166186,
    "longitude": -78.480518,
@@ -5961,12 +5982,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Isla Santa Fe - Radar",
+   "display_name": "Isla Santa Fe - Radar (Isla Santa Fe - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9718433370",
-   "name": "De Los Colimes - Radar",
+   "name": "De Los Colimes - Radar (De Los Colimes - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.164035,
    "longitude": -78.47262,
@@ -5982,12 +6003,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "De Los Colimes - Radar",
+   "display_name": "De Los Colimes - Radar (De Los Colimes - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9731319207",
-   "name": "Avenida Brasil - Radar",
+   "name": "Avenida Brasil - Radar (Avenida Brasil - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.16394,
    "longitude": -78.489529,
@@ -6005,12 +6026,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Brasil - Radar",
+   "display_name": "Avenida Brasil - Radar (Avenida Brasil - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9165947040",
-   "name": "Avenida Río Coca - Radar",
+   "name": "Avenida Río Coca - Radar (Avenida Río Coca - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.162587,
    "longitude": -78.47996,
@@ -6028,12 +6049,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Río Coca - Radar",
+   "display_name": "Avenida Río Coca - Radar (Avenida Río Coca - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4530353967",
-   "name": "Avenida Simón Bolívar - Radar (Foto Radar)",
+   "name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar (Foto Radar))",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.152363,
    "longitude": -78.450233,
@@ -6051,12 +6072,12 @@
    "heading_min": 240.0,
    "heading_max": 310.0,
    "road_label": "Avenida Simón Bolívar",
-   "display_name": "Avenida Simón Bolívar - Radar (Foto Radar)",
+   "display_name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar (Foto Radar))",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9769892791",
-   "name": "Avenida de la Prensa - Radar",
+   "name": "Avenida de la Prensa - Radar (Avenida de la Prensa - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.144489,
    "longitude": -78.492051,
@@ -6074,12 +6095,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida de la Prensa - Radar",
+   "display_name": "Avenida de la Prensa - Radar (Avenida de la Prensa - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9733606917",
-   "name": "José Rafael Bustamante - Radar",
+   "name": "José Rafael Bustamante - Radar (José Rafael Bustamante - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.144435,
    "longitude": -78.482259,
@@ -6095,12 +6116,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "José Rafael Bustamante - Radar",
+   "display_name": "José Rafael Bustamante - Radar (José Rafael Bustamante - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4530350708",
-   "name": "Avenida Simón Bolívar - Radar (Foto Radar)",
+   "name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar (Foto Radar))",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.116566,
    "longitude": -78.453068,
@@ -6120,12 +6141,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Simón Bolívar - Radar (Foto Radar)",
+   "display_name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar (Foto Radar))",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4530351275",
-   "name": "Avenida Simón Bolívar - Radar (Foto Radar)",
+   "name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar (Foto Radar))",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.1161,
    "longitude": -78.453825,
@@ -6145,12 +6166,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Simón Bolívar - Radar (Foto Radar)",
+   "display_name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar (Foto Radar))",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4530347312",
-   "name": "Avenida Panamericana Norte - Radar (Foto Radar)",
+   "name": "Avenida Panamericana Norte - Radar (Avenida Panamericana Norte - Radar (Foto Radar))",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.107505,
    "longitude": -78.447191,
@@ -6168,12 +6189,12 @@
    "heading_min": 40.0,
    "heading_max": 110.0,
    "road_label": "Avenida Panamericana Norte",
-   "display_name": "Avenida Panamericana Norte - Radar (Foto Radar)",
+   "display_name": "Avenida Panamericana Norte - Radar (Avenida Panamericana Norte - Radar (Foto Radar))",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4367119918",
-   "name": "Avenida Panamericana Norte - Radar (Foto Radar)",
+   "name": "Avenida Panamericana Norte - Radar (Avenida Panamericana Norte - Radar (Foto Radar))",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.106493,
    "longitude": -78.439539,
@@ -6191,12 +6212,12 @@
    "heading_min": 220.0,
    "heading_max": 290.0,
    "road_label": "Avenida Panamericana Norte",
-   "display_name": "Avenida Panamericana Norte - Radar (Foto Radar)",
+   "display_name": "Avenida Panamericana Norte - Radar (Avenida Panamericana Norte - Radar (Foto Radar))",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6645243778",
-   "name": "Avenida Simón Bolívar - Radar",
+   "name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.099876,
    "longitude": -78.460354,
@@ -6214,12 +6235,12 @@
    "heading_min": 110.0,
    "heading_max": 180.0,
    "road_label": "Avenida Simón Bolívar",
-   "display_name": "Avenida Simón Bolívar - Radar",
+   "display_name": "Avenida Simón Bolívar - Radar (Avenida Simón Bolívar - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9765665326",
-   "name": "Avenida Mariscal Sucre - Radar",
+   "name": "Avenida Mariscal Sucre - Radar (Avenida Mariscal Sucre - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.096692,
    "longitude": -78.484582,
@@ -6237,12 +6258,12 @@
    "heading_min": 355.0,
    "heading_max": 65.0,
    "road_label": "Avenida Mariscal Sucre",
-   "display_name": "Avenida Mariscal Sucre - Radar",
+   "display_name": "Avenida Mariscal Sucre - Radar (Avenida Mariscal Sucre - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n3328641762",
-   "name": "E28B - Radar",
+   "name": "E28B - Radar (E28B - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.096006,
    "longitude": -78.404657,
@@ -6260,12 +6281,12 @@
    "heading_min": 125.0,
    "heading_max": 195.0,
    "road_label": "E28B",
-   "display_name": "E28B - Radar",
+   "display_name": "E28B - Radar (E28B - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9756075832",
-   "name": "Vía Quito Guayllabamba - Radar",
+   "name": "Vía Quito Guayllabamba - Radar (Vía Quito Guayllabamba - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.087337,
    "longitude": -78.400521,
@@ -6283,12 +6304,12 @@
    "heading_min": 190.0,
    "heading_max": 260.0,
    "road_label": "Vía Quito Guayllabamba",
-   "display_name": "Vía Quito Guayllabamba - Radar",
+   "display_name": "Vía Quito Guayllabamba - Radar (Vía Quito Guayllabamba - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n3674257525",
-   "name": "Avenida Manuel Córdova Galarza - Radar",
+   "name": "Avenida Manuel Córdova Galarza - Radar (Avenida Manuel Córdova Galarza - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -0.025805,
    "longitude": -78.451875,
@@ -6306,12 +6327,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Manuel Córdova Galarza - Radar",
+   "display_name": "Avenida Manuel Córdova Galarza - Radar (Avenida Manuel Córdova Galarza - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9765665327",
-   "name": "E20 - Radar",
+   "name": "E20 - Radar (E20 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 0.319873,
    "longitude": -79.47071,
@@ -6329,12 +6350,12 @@
    "heading_min": 110.0,
    "heading_max": 180.0,
    "road_label": "E20",
-   "display_name": "E20 - Radar",
+   "display_name": "E20 - Radar (E20 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9765665329",
-   "name": "Avenida 5 de Agosto - Radar",
+   "name": "Avenida 5 de Agosto - Radar (Avenida 5 de Agosto - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 0.325286,
    "longitude": -79.474842,
@@ -6352,12 +6373,12 @@
    "heading_min": 130.0,
    "heading_max": 200.0,
    "road_label": "Avenida 5 de Agosto",
-   "display_name": "Avenida 5 de Agosto - Radar",
+   "display_name": "Avenida 5 de Agosto - Radar (Avenida 5 de Agosto - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9765665330",
-   "name": "Avenida 5 de Agosto - Radar",
+   "name": "Avenida 5 de Agosto - Radar (Avenida 5 de Agosto - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 0.326072,
    "longitude": -79.475006,
@@ -6375,12 +6396,12 @@
    "heading_min": 320.0,
    "heading_max": 30.0,
    "road_label": "Avenida 5 de Agosto",
-   "display_name": "Avenida 5 de Agosto - Radar",
+   "display_name": "Avenida 5 de Agosto - Radar (Avenida 5 de Agosto - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6585455129",
-   "name": "Vía San Gabriel - Tulcán - Radar",
+   "name": "Vía San Gabriel - Tulcán - Radar (Vía San Gabriel - Tulcán - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 0.619718,
    "longitude": -77.739643,
@@ -6396,12 +6417,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía San Gabriel - Tulcán",
-   "display_name": "Vía San Gabriel - Tulcán - Radar",
+   "display_name": "Vía San Gabriel - Tulcán - Radar (Vía San Gabriel - Tulcán - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n4493495221",
-   "name": "Vía San Gabriel - Tulcán - Radar (Foto Radar)",
+   "name": "Vía San Gabriel - Tulcán - Radar (Vía San Gabriel - Tulcán - Radar (Foto Radar))",
    "radar_type": "FIXED_SPEED",
    "latitude": 0.652925,
    "longitude": -77.722539,
@@ -6417,12 +6438,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía San Gabriel - Tulcán",
-   "display_name": "Vía San Gabriel - Tulcán - Radar (Foto Radar)",
+   "display_name": "Vía San Gabriel - Tulcán - Radar (Vía San Gabriel - Tulcán - Radar (Foto Radar))",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n6585426174",
-   "name": "Vía San Gabriel - Tulcán - Radar",
+   "name": "Vía San Gabriel - Tulcán - Radar (Vía San Gabriel - Tulcán - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 0.675101,
    "longitude": -77.712343,
@@ -6438,12 +6459,12 @@
     "VELOCIDAD"
    ],
    "road_label": "Vía San Gabriel - Tulcán",
-   "display_name": "Vía San Gabriel - Tulcán - Radar",
+   "display_name": "Vía San Gabriel - Tulcán - Radar (Vía San Gabriel - Tulcán - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n11071518559",
-   "name": "E20 - Radar",
+   "name": "E20 - Radar (E20 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 0.814569,
    "longitude": -79.602821,
@@ -6459,12 +6480,12 @@
     "VELOCIDAD"
    ],
    "road_label": "E20",
-   "display_name": "E20 - Radar",
+   "display_name": "E20 - Radar (E20 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9765665331",
-   "name": "E15 - Radar",
+   "name": "E15 - Radar (E15 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 0.891477,
    "longitude": -79.663097,
@@ -6482,12 +6503,12 @@
    "heading_min": 290.0,
    "heading_max": 0.0,
    "road_label": "E15",
-   "display_name": "E15 - Radar",
+   "display_name": "E15 - Radar (E15 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n9765665332",
-   "name": "E15 - Radar",
+   "name": "E15 - Radar (E15 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 0.895969,
    "longitude": -79.66617,
@@ -6505,12 +6526,12 @@
    "heading_min": 110.0,
    "heading_max": 180.0,
    "road_label": "E15",
-   "display_name": "E15 - Radar",
+   "display_name": "E15 - Radar (E15 - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7413144393",
-   "name": "Avenida Simón Plata Torres - Radar",
+   "name": "Avenida Simón Plata Torres - Radar (Avenida Simón Plata Torres - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 0.920922,
    "longitude": -79.66654,
@@ -6528,12 +6549,12 @@
    "heading_min": 235.0,
    "heading_max": 305.0,
    "road_label": "Avenida Simón Plata Torres",
-   "display_name": "Avenida Simón Plata Torres - Radar",
+   "display_name": "Avenida Simón Plata Torres - Radar (Avenida Simón Plata Torres - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7551774333",
-   "name": "Vía a Atacames - Radar",
+   "name": "Vía a Atacames - Radar (Vía a Atacames - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 0.927345,
    "longitude": -79.687718,
@@ -6552,12 +6573,12 @@
    "heading_min": 44.0,
    "heading_max": 114.0,
    "road_label": "Vía a Atacames",
-   "display_name": "Vía a Atacames - Radar",
+   "display_name": "Vía a Atacames - Radar (Vía a Atacames - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7551795332",
-   "name": "Avenida Simón Plata Torres - Radar",
+   "name": "Avenida Simón Plata Torres - Radar (Avenida Simón Plata Torres - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 0.927685,
    "longitude": -79.662449,
@@ -6575,12 +6596,12 @@
    "heading_min": 155.0,
    "heading_max": 225.0,
    "road_label": "Avenida Simón Plata Torres",
-   "display_name": "Avenida Simón Plata Torres - Radar",
+   "display_name": "Avenida Simón Plata Torres - Radar (Avenida Simón Plata Torres - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n10245949715",
-   "name": "Avenida Simón Plata Torres - Radar",
+   "name": "Avenida Simón Plata Torres - Radar (Avenida Simón Plata Torres - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 0.928362,
    "longitude": -79.66242,
@@ -6598,12 +6619,12 @@
    "heading_min": 336.0,
    "heading_max": 46.0,
    "road_label": "Avenida Simón Plata Torres",
-   "display_name": "Avenida Simón Plata Torres - Radar",
+   "display_name": "Avenida Simón Plata Torres - Radar (Avenida Simón Plata Torres - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7551800595",
-   "name": "Avenida de los Puentes - Radar",
+   "name": "Avenida de los Puentes - Radar (Avenida de los Puentes - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 0.947753,
    "longitude": -79.644303,
@@ -6621,12 +6642,12 @@
    "heading_min": 135.0,
    "heading_max": 205.0,
    "road_label": "Avenida de los Puentes",
-   "display_name": "Avenida de los Puentes - Radar",
+   "display_name": "Avenida de los Puentes - Radar (Avenida de los Puentes - Radar)",
    "country": "EC"
   },
   {
    "radar_id": "osm-ec-n7551807458",
-   "name": "Avenida Bolivar - Radar",
+   "name": "Avenida Bolivar - Radar (Avenida Bolivar - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 0.969097,
    "longitude": -79.652581,
@@ -6646,7 +6667,7 @@
    "heading_min": 295.0,
    "heading_max": 5.0,
    "road_label": "Avenida Bolivar",
-   "display_name": "Avenida Bolivar - Radar",
+   "display_name": "Avenida Bolivar - Radar (Avenida Bolivar - Radar)",
    "country": "EC"
   }
  ]
