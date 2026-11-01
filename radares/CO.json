@@ -1,7 +1,7 @@
 {
  "version": "co-2026-11-01",
  "pais": "CO",
- "generado": "2026-11-01T18:05:46+00:00",
+ "generado": "2026-11-01T23:33:11+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "ANSV – ubicaciones aprobadas de fotodetección (SAST): https://fotodeteccion.ansv.gov.co/ubicaciones-aprobadas.html (app web; ver si tiene descarga). Otra página de la ANSV no permite robots.",
