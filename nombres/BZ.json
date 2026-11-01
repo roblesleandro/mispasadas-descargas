@@ -26,9 +26,10 @@
   {
    "lat": 17.070999,
    "lon": -88.987439,
-   "nombre": "Peaje Caracol Road",
+   "nombre": "Peaje Chiquibul Road (A10)",
    "tipo": "cabina",
-   "via": "Caracol Road",
+   "via": "Chiquibul Road",
+   "ref": "A10",
    "localidad": "San Antonio",
    "fuente": "armado",
    "cabinas": [
@@ -45,9 +46,9 @@
     "distancia_m": 0.0
    },
    "pais": "BZ",
-   "via_visible": "Caracol Road",
+   "via_visible": "A10",
    "punto": "San Antonio",
-   "nombre_visible": "Caracol Road - Toll San Antonio",
+   "nombre_visible": "A10 - Toll San Antonio",
    "confianza": "media"
   },
   {
@@ -102,6 +103,10 @@
   }
  ],
  "excluidas": [],
+<<<<<<< HEAD
  "generado": "2026-11-01T16:29Z",
+=======
+ "generado": "2026-11-01T19:54Z",
+>>>>>>> 2a7a32d (Nombres de estaciones (BZ) actualizados automáticamente)
  "alertas": []
 }
