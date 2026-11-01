@@ -1,7 +1,7 @@
 {
  "version": "cl-2026-11-01",
  "pais": "CL",
- "generado": "2026-11-01T13:03:56+00:00",
+ "generado": "2026-11-01T15:36:44+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Ley CATI (Centro Automatizado de Tratamiento de Infracciones, MTT): al 29/10/2026 no se encontró un listado oficial de cámaras de velocidad en funcionamiento; en 2025 hubo pilotos (Apoquindo con El Bosque en Las Condes, comuna de Santiago y Ruta 5). Revisar mtt.gob.cl cuando arranque.",
@@ -21,7 +21,7 @@
   "con_limite": 107,
   "limite_revisar": 2,
   "limite_desconocido": 13,
-  "revisados_esta_corrida": 3,
+  "revisados_esta_corrida": 0,
   "sin_via": 1,
   "via_completada_esta_corrida": 0,
   "limites_dudosos_sacados": 0,
@@ -216,8 +216,8 @@
    },
    "road_label": "Ruta S-40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "Ruta S-40 - Radar",
    "country": "CL"
   },
@@ -245,8 +245,8 @@
    },
    "road_label": "Ruta S-40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta S-40 - Radar",
    "country": "CL"
   },
@@ -274,8 +274,8 @@
    },
    "road_label": "Ruta S-40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "Ruta S-40 - Radar",
    "country": "CL"
   },
