@@ -73,8 +73,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CA",
+   "via_visible": "Nexus Only",
    "punto": "Detroit-Windsor tunnel",
-   "nombre_visible": "Toll Detroit-Windsor tunnel",
+   "nombre_visible": "Nexus Only - Toll Detroit-Windsor tunnel",
    "confianza": "alta"
   },
   {
@@ -139,13 +140,15 @@
   {
    "lat": 43.117144,
    "lon": -79.248564,
-   "nombre": "Peaje cerca de Thorold",
+   "nombre": "Peaje Isaac Brock Circle",
    "tipo": "cabina",
+   "via": "Isaac Brock Circle",
    "localidad": "Thorold",
    "fuente": "armado",
    "pais": "CA",
+   "via_visible": "Isaac Brock Circle",
    "punto": "Thorold",
-   "nombre_visible": "Toll Thorold",
+   "nombre_visible": "Isaac Brock Circle - Toll Thorold",
    "confianza": "media"
   },
   {
@@ -248,8 +251,7 @@
    "pais": "CA",
    "punto": "Oakville",
    "nombre_visible": "Toll Oakville",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "confianza": "media"
   },
   {
    "lat": 43.406887,
@@ -300,15 +302,17 @@
   {
    "lat": 43.450466,
    "lon": -79.766168,
-   "nombre": "Peaje cerca de Oakville (2)",
+   "nombre": "Peaje William Halton Parkway West (40)",
    "tipo": "cabina",
+   "via": "William Halton Parkway West",
+   "ref": "40",
    "localidad": "Oakville",
    "fuente": "armado",
    "pais": "CA",
+   "via_visible": "Route 40",
    "punto": "Oakville",
-   "nombre_visible": "Toll Oakville",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "nombre_visible": "Route 40 - Toll Oakville",
+   "confianza": "media"
   },
   {
    "lat": 43.468142,
@@ -1266,7 +1270,7 @@
   {
    "lat": 43.925854,
    "lon": -79.09032,
-   "nombre": "Pórtico Highway 407 (5)",
+   "nombre": "Pórtico Highway 407 (7)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407",
@@ -1292,7 +1296,8 @@
    "via_visible": "Highway 407",
    "punto": "Whitby",
    "nombre_visible": "Highway 407 - Toll gantry Whitby",
-   "confianza": "media"
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": 43.950042,
@@ -1313,26 +1318,34 @@
   {
    "lat": 43.951347,
    "lon": -78.941026,
-   "nombre": "Pórtico Ministry of Transportation of Ontario (2)",
+   "nombre": "Pórtico Highway 407 (6)",
    "tipo": "portico",
+   "via": "Highway 407",
+   "ref": "407",
    "localidad": "Whitby",
    "fuente": "armado",
    "pais": "CA",
+   "via_visible": "Highway 407",
    "punto": "Whitby",
-   "nombre_visible": "Toll gantry Whitby",
-   "confianza": "media"
+   "nombre_visible": "Highway 407 - Toll gantry Whitby",
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": 43.964346,
    "lon": -78.811975,
-   "nombre": "Pórtico Ministry of Transportation of Ontario",
+   "nombre": "Pórtico Highway 407 (5)",
    "tipo": "portico",
+   "via": "Highway 407",
+   "ref": "407",
    "localidad": "Solina",
    "fuente": "armado",
    "pais": "CA",
+   "via_visible": "Highway 407",
    "punto": "Solina",
-   "nombre_visible": "Toll gantry Solina",
-   "confianza": "media"
+   "nombre_visible": "Highway 407 - Toll gantry Solina",
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": 43.970813,
@@ -1352,13 +1365,16 @@
   {
    "lat": 43.981438,
    "lon": -78.74324,
-   "nombre": "Pórtico Ministry of Transportation of Ontario (3)",
+   "nombre": "Pórtico Highway 407 (8)",
    "tipo": "portico",
+   "via": "Highway 407",
+   "ref": "407",
    "localidad": "Hampton",
    "fuente": "armado",
    "pais": "CA",
+   "via_visible": "Highway 407",
    "punto": "Hampton",
-   "nombre_visible": "Toll gantry Hampton",
+   "nombre_visible": "Highway 407 - Toll gantry Hampton",
    "confianza": "media"
   },
   {
@@ -1374,18 +1390,22 @@
    "via_visible": "Highway 407",
    "punto": "Solina",
    "nombre_visible": "Highway 407 - Toll gantry Solina",
-   "confianza": "media"
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": 44.000779,
    "lon": -78.666776,
-   "nombre": "Pórtico Ministry of Transportation of Ontario (4)",
+   "nombre": "Pórtico Highway 407 (9)",
    "tipo": "portico",
+   "via": "Highway 407",
+   "ref": "407",
    "localidad": "Tyrone",
    "fuente": "armado",
    "pais": "CA",
+   "via_visible": "Highway 407",
    "punto": "Tyrone",
-   "nombre_visible": "Toll gantry Tyrone",
+   "nombre_visible": "Highway 407 - Toll gantry Tyrone",
    "confianza": "media"
   },
   {
@@ -1938,7 +1958,7 @@
   {
    "lat": 45.496461,
    "lon": -73.631483,
-   "nombre": "Peaje Chemin de la Côte-Sainte-Catherine",
+   "nombre": "Peaje Chemin de la Côte-Sainte-Catherine (2)",
    "tipo": "cabina",
    "via": "Chemin de la Côte-Sainte-Catherine",
    "localidad": "Hampstead",
@@ -2006,27 +2026,30 @@
   {
    "lat": 45.504773,
    "lon": -73.624613,
-   "nombre": "Peaje cerca de Ville de Mont-Royal",
+   "nombre": "Peaje Chemin de la Côte-Sainte-Catherine",
    "tipo": "cabina",
+   "via": "Chemin de la Côte-Sainte-Catherine",
    "localidad": "Ville de Mont-Royal",
    "fuente": "armado",
    "pais": "CA",
+   "via_visible": "Chemin de la Côte-Sainte-Catherine",
    "punto": "Ville de Mont-Royal",
-   "nombre_visible": "Toll Ville de Mont-Royal",
+   "nombre_visible": "Chemin de la Côte-Sainte-Catherine - Toll Ville de Mont-Royal",
    "confianza": "media"
   },
   {
    "lat": 45.507993,
    "lon": -73.530491,
-   "nombre": "Peaje cerca de Saint-Lambert (4)",
+   "nombre": "Peaje Avenue Pierre-Dupuy",
    "tipo": "cabina",
+   "via": "Avenue Pierre-Dupuy",
    "localidad": "Saint-Lambert",
    "fuente": "armado",
    "pais": "CA",
+   "via_visible": "Avenue Pierre-Dupuy",
    "punto": "Saint-Lambert",
-   "nombre_visible": "Toll Saint-Lambert",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "nombre_visible": "Avenue Pierre-Dupuy - Toll Saint-Lambert",
+   "confianza": "media"
   },
   {
    "lat": 45.513798,
@@ -2089,8 +2112,7 @@
    "pais": "CA",
    "punto": "Chute-à-Blondeau",
    "nombre_visible": "Toll Chute-à-Blondeau",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "confianza": "media"
   },
   {
    "lat": 45.560601,
@@ -2110,15 +2132,17 @@
   {
    "lat": 45.58526,
    "lon": -74.444666,
-   "nombre": "Peaje cerca de Chute-à-Blondeau (2)",
+   "nombre": "Peaje Route des Outaouais (344)",
    "tipo": "cabina",
+   "via": "Route des Outaouais",
+   "ref": "344",
    "localidad": "Chute-à-Blondeau",
    "fuente": "armado",
    "pais": "CA",
+   "via_visible": "Route 344",
    "punto": "Chute-à-Blondeau",
-   "nombre_visible": "Toll Chute-à-Blondeau",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "nombre_visible": "Route 344 - Toll Chute-à-Blondeau",
+   "confianza": "media"
   },
   {
    "lat": 45.587405,
@@ -2165,8 +2189,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CA",
+   "via_visible": "Route 114",
    "punto": "Fundy National Park",
-   "nombre_visible": "Toll Fundy National Park",
+   "nombre_visible": "Route 114 - Toll Fundy National Park",
    "confianza": "alta",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -2242,8 +2267,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CA",
+   "via_visible": "Route 114",
    "punto": "Fundy National Park",
-   "nombre_visible": "Toll Fundy National Park",
+   "nombre_visible": "Route 114 - Toll Fundy National Park",
    "confianza": "alta",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -2305,15 +2331,16 @@
   {
    "lat": 45.931899,
    "lon": -70.445028,
-   "nombre": "Peaje Chemin du Ruisseau-Croche",
+   "nombre": "Peaje Chemin du Ruisseau-Croche (173)",
    "tipo": "cabina",
    "via": "Chemin du Ruisseau-Croche",
+   "ref": "173",
    "localidad": "Saint-Théophile",
    "fuente": "armado",
    "pais": "CA",
-   "via_visible": "Chemin du Ruisseau-Croche",
+   "via_visible": "Route 173",
    "punto": "Saint-Théophile",
-   "nombre_visible": "Chemin du Ruisseau-Croche - Toll Saint-Théophile",
+   "nombre_visible": "Route 173 - Toll Saint-Théophile",
    "confianza": "media"
   },
   {
@@ -2372,13 +2399,15 @@
   {
    "lat": 46.007398,
    "lon": -75.09194,
-   "nombre": "Peaje cerca de Duhamel",
+   "nombre": "Peaje Chemin du Tour-du-Lac",
    "tipo": "cabina",
+   "via": "Chemin du Tour-du-Lac",
    "localidad": "Duhamel",
    "fuente": "armado",
    "pais": "CA",
+   "via_visible": "Chemin du Tour-du-Lac",
    "punto": "Duhamel",
-   "nombre_visible": "Toll Duhamel",
+   "nombre_visible": "Chemin du Tour-du-Lac - Toll Duhamel",
    "confianza": "media"
   },
   {
@@ -2413,8 +2442,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CA",
+   "via_visible": "Route 158",
    "punto": "Traverse Sorel-St-Ignace-de-Loyola",
-   "nombre_visible": "Toll Traverse Sorel-St-Ignace-de-Loyola",
+   "nombre_visible": "Route 158 - Toll Traverse Sorel-St-Ignace-de-Loyola",
    "confianza": "alta"
   },
   {
@@ -2768,9 +2798,9 @@
    "localidad": "Québec",
    "fuente": "armado",
    "pais": "CA",
-   "via_visible": "Rue des Traversiers",
+   "via_visible": "Boulevard Champlain",
    "punto": "Québec",
-   "nombre_visible": "Rue des Traversiers - Toll Québec",
+   "nombre_visible": "Boulevard Champlain - Toll Québec",
    "confianza": "media"
   },
   {
@@ -2847,9 +2877,9 @@
    "via": "Chemin du Parc National",
    "fuente": "osm",
    "pais": "CA",
-   "via_visible": "Chemin du Parc National",
+   "via_visible": "Route 175",
    "punto": "Parc national de la Jaques-Cartier",
-   "nombre_visible": "Chemin du Parc National - Toll Parc national de la Jaques-Cartier",
+   "nombre_visible": "Route 175 - Toll Parc national de la Jaques-Cartier",
    "confianza": "alta"
   },
   {
@@ -2975,9 +3005,9 @@
    "via": "Sentier Le Fjord",
    "fuente": "osm",
    "pais": "CA",
-   "via_visible": "Sentier Le Fjord",
+   "via_visible": "Route 138",
    "punto": "Parc national du Fjord Saguenay",
-   "nombre_visible": "Sentier Le Fjord - Toll Parc national du Fjord Saguenay",
+   "nombre_visible": "Route 138 - Toll Parc national du Fjord Saguenay",
    "confianza": "alta"
   },
   {
@@ -3191,13 +3221,15 @@
   {
    "lat": 48.639601,
    "lon": -123.430911,
-   "nombre": "Peaje cerca de North Saanich",
+   "nombre": "Peaje Willingdon Road",
    "tipo": "cabina",
+   "via": "Willingdon Road",
    "localidad": "North Saanich",
    "fuente": "armado",
    "pais": "CA",
+   "via_visible": "Willingdon Road",
    "punto": "North Saanich",
-   "nombre_visible": "Toll North Saanich",
+   "nombre_visible": "Willingdon Road - Toll North Saanich",
    "confianza": "media"
   },
   {
@@ -3544,8 +3576,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CA",
+   "via_visible": "TCH 1",
    "punto": "Vehicle Check-in Booths",
-   "nombre_visible": "Toll Vehicle Check-in Booths",
+   "nombre_visible": "TCH 1 - Toll Vehicle Check-in Booths",
    "confianza": "alta"
   },
   {
@@ -3747,8 +3780,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CA",
+   "via_visible": "Highway 97A",
    "punto": "Tickets",
-   "nombre_visible": "Toll Tickets",
+   "nombre_visible": "Highway 97A - Toll Tickets",
    "confianza": "alta"
   },
   {
@@ -3911,8 +3945,9 @@
    "tipo": "cabina",
    "fuente": "osm",
    "pais": "CA",
+   "via_visible": "TCH 1",
    "punto": "Yoho National Park Gate",
-   "nombre_visible": "Toll Yoho National Park Gate",
+   "nombre_visible": "TCH 1 - Toll Yoho National Park Gate",
    "confianza": "alta"
   },
   {
@@ -4446,8 +4481,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-31T14:25Z",
- "alertas": [
-  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
- ]
+ "generado": "2026-11-01T14:27Z",
+ "alertas": []
 }
