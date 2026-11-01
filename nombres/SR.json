@@ -24,6 +24,10 @@
  },
  "estaciones": [],
  "excluidas": [],
+<<<<<<< HEAD
  "generado": "2026-11-01T16:37Z",
+=======
+ "generado": "2026-11-01T19:47Z",
+>>>>>>> 642c28c (Nombres de estaciones (SR) actualizados automáticamente)
  "alertas": []
 }
