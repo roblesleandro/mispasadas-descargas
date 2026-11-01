@@ -1,6 +1,10 @@
 {
  "version": "ansv-2026-11-01",
+<<<<<<< HEAD
  "generado": "2026-11-01T12:45:58+00:00",
+=======
+ "generado": "2026-11-01T15:32:10+00:00",
+>>>>>>> ad2984a (Radares de la ANSV actualizados automáticamente)
  "fuente": "https://docs.google.com/spreadsheets/d/1qKy9Ok4BSOkuFpmeTvLMsre6ZkHGZRY7aYwmnUbpTwE/gviz/tq?tqx=out:csv&sheet=fijo",
  "aviso": "Radares fijos autorizados por la ANSV en rutas nacionales, con la ubicación que publica la ANSV (o, si falta, por ruta y km con mojones de OpenStreetMap). Sin límite de velocidad; que estén autorizados no garantiza que estén funcionando.",
  "resumen": {
@@ -12,10 +16,21 @@
   "sin_ubicar": 0
  },
  "alertas": [
+<<<<<<< HEAD
   "Overpass no respondió para AR-B RN 12.",
   "Overpass no respondió para AR-B RN 35.",
   "Overpass no respondió para AR-H RN 16.",
   "Overpass no respondió para AR-W RN 12."
+=======
+  "Overpass no respondió para AR-B RN 9.",
+  "Overpass no respondió para AR-B RN 5.",
+  "Overpass no respondió para AR-B RN 9, RN 8.",
+  "Overpass no respondió para AR-B RN 22.",
+  "Overpass no respondió para AR-B RN 12.",
+  "Overpass no respondió para AR-B RN 35.",
+  "Overpass no respondió para AR-H RN 11.",
+  "Overpass no respondió para AR-H RN 16."
+>>>>>>> ad2984a (Radares de la ANSV actualizados automáticamente)
  ],
  "radars": [
   {
@@ -750,6 +765,27 @@
    "source": "ANSV",
    "source_reference": "Serie 137; Roque Perez; ubicado por planilla",
    "source_version": "ansv-2026-11-01",
+<<<<<<< HEAD
+=======
+   "confidence_score": 60,
+   "speed_limit_kmh": 110,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "road_label": "RN 205"
+  },
+  {
+   "radar_id": "ansv--35.39939_-59.41006-desc",
+   "name": "RN 205 - Radar km 138,8",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -35.399386,
+   "longitude": -59.410056,
+   "road_name": "RN 205",
+   "status": "UNVERIFIED",
+   "source": "ANSV",
+   "source_reference": "Serie 138; Roque Perez; ubicado por planilla",
+   "source_version": "ansv-2026-11-01",
+>>>>>>> ad2984a (Radares de la ANSV actualizados automáticamente)
    "confidence_score": 60,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
