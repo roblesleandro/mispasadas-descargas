@@ -1,7 +1,7 @@
 {
  "version": "sv-2026-11-01",
  "pais": "SV",
- "generado": "2026-11-01T13:39:34+00:00",
+ "generado": "2026-11-01T15:50:33+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Viceministerio de Transporte: fotomultas en autopistas (prensa), sin listado."
@@ -19,7 +19,7 @@
   "con_limite": 51,
   "limite_revisar": 0,
   "limite_desconocido": 1,
-  "revisados_esta_corrida": 1,
+  "revisados_esta_corrida": 0,
   "sin_via": 0,
   "via_completada_esta_corrida": 0,
   "limites_dudosos_sacados": 0,
@@ -164,8 +164,8 @@
    },
    "road_label": "Autopista Comalapa",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Autopista Comalapa - Radar",
    "country": "SV"
   },
