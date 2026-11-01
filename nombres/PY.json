@@ -8,7 +8,19 @@
   "armado": 26,
   "total": 48,
   "confianza_baja": 0,
-  "excluidas": 2
+  "excluidas": 2,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 38,
+   "corregidas": 7,
+   "sin_referencia": 5,
+   "corrida_anterior": {
+    "ok": 36,
+    "a_mas_de_15_m": 7,
+    "sin_referencia": 5,
+    "total": 48
+   }
+  }
  },
  "estaciones": [
   {
@@ -19,6 +31,9 @@
    "via": "Noreste",
    "empresa": "SELVA",
    "fuente": "oficial",
+   "posicion": {
+    "estado": "sin_referencia"
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional 12",
    "punto": "Ituzaingó",
@@ -34,6 +49,9 @@
    "via": "Litoral",
    "empresa": "LITORAL",
    "fuente": "oficial",
+   "posicion": {
+    "estado": "sin_referencia"
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional 16",
    "punto": "Puente General Belgrano",
@@ -49,6 +67,9 @@
    "via": "Noreste",
    "empresa": "SELVA",
    "fuente": "oficial",
+   "posicion": {
+    "estado": "sin_referencia"
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional 12",
    "punto": "Santa Ana",
@@ -64,6 +85,24 @@
    "via": "Ruta Nacional Mariscal López",
    "ref": "PY01",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -27.193511,
+     "lon": -56.191894,
+     "n": 1,
+     "rumbo": 110
+    },
+    {
+     "lat": -27.193391,
+     "lon": -56.191851,
+     "n": 1,
+     "rumbo": 288
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.0
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional Mariscal López",
    "punto": "Coronel Bogado",
@@ -78,6 +117,9 @@
    "via": "Litoral",
    "empresa": "LITORAL",
    "fuente": "oficial",
+   "posicion": {
+    "estado": "sin_referencia"
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional 16",
    "punto": "Makallé",
@@ -94,6 +136,17 @@
    "ref": "PY01",
    "localidad": "Coronel Bogado",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -27.175937,
+     "lon": -56.225729,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PY",
    "via_visible": "Ruta PY01",
    "punto": "Coronel Bogado",
@@ -109,6 +162,19 @@
    "ref": "PY06",
    "localidad": "Picada Boca",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -27.140621,
+     "lon": -55.740511,
+     "n": 1,
+     "rumbo": 236,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PY",
    "via_visible": "Ruta PY06",
    "punto": "Picada Boca",
@@ -116,12 +182,32 @@
    "confianza": "media"
   },
   {
-   "lat": -27.065412,
-   "lon": -55.633305,
+   "lat": -27.065406,
+   "lon": -55.633807,
    "nombre": "Peaje cerca de Hohenau",
    "tipo": "cabina",
    "localidad": "Hohenau",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -27.065418,
+     "lon": -55.632803,
+     "n": 1
+    },
+    {
+     "lat": -27.065406,
+     "lon": -55.633807,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 50,
+    "centro_plaza": [
+     -27.065412,
+     -55.633305
+    ]
+   },
    "pais": "PY",
    "punto": "Hohenau",
    "nombre_visible": "Peaje Hohenau",
@@ -136,6 +222,24 @@
    "ref": "PY01",
    "localidad": "Villa Florida",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -26.406274,
+     "lon": -57.129569,
+     "n": 1,
+     "rumbo": 171
+    },
+    {
+     "lat": -26.406259,
+     "lon": -57.129486,
+     "n": 1,
+     "rumbo": 350
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.2
+   },
    "pais": "PY",
    "via_visible": "Ruta PY01",
    "punto": "Villa Florida",
@@ -152,6 +256,24 @@
    "ref": "PY01",
    "localidad": "Villa Florida",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -26.376287,
+     "lon": -57.130883,
+     "n": 1,
+     "rumbo": 159
+    },
+    {
+     "lat": -26.376251,
+     "lon": -57.130775,
+     "n": 1,
+     "rumbo": 338
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.7
+   },
    "pais": "PY",
    "via_visible": "Ruta PY01",
    "punto": "Villa Florida",
@@ -167,6 +289,9 @@
    "via": "Noreste",
    "empresa": "SELVA",
    "fuente": "oficial",
+   "posicion": {
+    "estado": "sin_referencia"
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional 12",
    "punto": "Colonia Victoria",
@@ -183,6 +308,24 @@
    "ref": "PY07",
    "localidad": "Mayor Julio Dionisio Otaño",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -26.273417,
+     "lon": -54.730208,
+     "n": 1,
+     "rumbo": 178,
+     "doble": true
+    },
+    {
+     "lat": -26.273315,
+     "lon": -54.730234,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.8
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional PY07",
    "punto": "Mayor Julio Dionisio Otaño",
@@ -198,6 +341,19 @@
    "ref": "PY06",
    "localidad": "Nueva Jerusalén Tres",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -26.109519,
+     "lon": -55.156628,
+     "n": 1,
+     "rumbo": 206,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PY",
    "via_visible": "Ruta PY06",
    "punto": "Nueva Jerusalén Tres",
@@ -211,6 +367,29 @@
    "tipo": "cabina",
    "localidad": "San Juan Nepomuceno",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -26.102672,
+     "lon": -55.942228,
+     "n": 1,
+     "rumbo": 187
+    },
+    {
+     "lat": -26.102667,
+     "lon": -55.942367,
+     "n": 1
+    },
+    {
+     "lat": -26.102646,
+     "lon": -55.942489,
+     "n": 1,
+     "rumbo": 6
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.8
+   },
    "pais": "PY",
    "punto": "San Juan Nepomuceno",
    "nombre_visible": "Peaje San Juan Nepomuceno",
@@ -224,6 +403,24 @@
    "via": "Sendero Tupãsy Ykuá",
    "localidad": "Valle Pe",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -26.012979,
+     "lon": -56.65719,
+     "n": 1,
+     "rumbo": 263,
+     "doble": true
+    },
+    {
+     "lat": -26.012932,
+     "lon": -56.657158,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.0
+   },
    "pais": "PY",
    "via_visible": "Sendero Tupãsy Ykuá",
    "punto": "Valle Pe",
@@ -238,6 +435,24 @@
    "via": "Corredor Metropolitano del Este - Acceso al Puente de la Integración (en construcción)",
    "localidad": "Puerto Iguazú",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -25.610024,
+     "lon": -54.611689,
+     "n": 1,
+     "rumbo": 36
+    },
+    {
+     "lat": -25.609921,
+     "lon": -54.611863,
+     "n": 1,
+     "rumbo": 217
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.4
+   },
    "pais": "PY",
    "via_visible": "Corredor Metropolitano del Este - Acceso al Puente de la Integración (en construcción)",
    "punto": "Puerto Iguazú",
@@ -245,12 +460,36 @@
    "confianza": "media"
   },
   {
-   "lat": -25.604841,
-   "lon": -56.160572,
+   "lat": -25.604796,
+   "lon": -56.16257,
    "nombre": "Peaje cerca de Itacurubí",
    "tipo": "cabina",
    "localidad": "Itacurubí",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -25.604885,
+     "lon": -56.158573,
+     "n": 1,
+     "rumbo": 52,
+     "doble": true
+    },
+    {
+     "lat": -25.604796,
+     "lon": -56.16257,
+     "n": 1,
+     "rumbo": 30,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 201,
+    "centro_plaza": [
+     -25.604841,
+     -56.160572
+    ]
+   },
    "pais": "PY",
    "punto": "Itacurubí",
    "nombre_visible": "Peaje Itacurubí",
@@ -264,6 +503,29 @@
    "via": "Ruta Nacional Mariscal López",
    "ref": "PY01",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -25.530933,
+     "lon": -57.333459,
+     "n": 3,
+     "rumbo": 127
+    },
+    {
+     "lat": -25.530875,
+     "lon": -57.333413,
+     "n": 1
+    },
+    {
+     "lat": -25.53082,
+     "lon": -57.33337,
+     "n": 3,
+     "rumbo": 307
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.2
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional Mariscal López",
    "punto": "Itá",
@@ -271,13 +533,33 @@
    "confianza": "alta"
   },
   {
-   "lat": -25.515156,
-   "lon": -54.613038,
+   "lat": -25.514571,
+   "lon": -54.613332,
    "nombre": "Peaje Alejo García",
    "tipo": "cabina",
    "via": "Alejo García",
    "localidad": "Ciudad del Este",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -25.515741,
+     "lon": -54.612743,
+     "n": 1
+    },
+    {
+     "lat": -25.514571,
+     "lon": -54.613332,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 71,
+    "centro_plaza": [
+     -25.515156,
+     -54.613038
+    ]
+   },
    "pais": "PY",
    "via_visible": "Alejo García",
    "punto": "Ciudad del Este",
@@ -292,6 +574,29 @@
    "via": "Ruta Nacional Mariscal Estigarribia",
    "ref": "PY02",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -25.486998,
+     "lon": -54.854228,
+     "n": 1,
+     "rumbo": 94
+    },
+    {
+     "lat": -25.486891,
+     "lon": -54.854228,
+     "n": 1
+    },
+    {
+     "lat": -25.486786,
+     "lon": -54.854238,
+     "n": 1,
+     "rumbo": 273
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.3
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional Mariscal Estigarribia",
    "punto": "Minga Guazú",
@@ -306,6 +611,29 @@
    "via": "Ruta Nacional Mariscal Estigarribia",
    "ref": "PY02",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -25.477428,
+     "lon": -56.543133,
+     "n": 3,
+     "rumbo": 73
+    },
+    {
+     "lat": -25.477346,
+     "lon": -56.543165,
+     "n": 1
+    },
+    {
+     "lat": -25.477259,
+     "lon": -56.543196,
+     "n": 3,
+     "rumbo": 251
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.2
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional Mariscal Estigarribia",
    "punto": "Nueva Londres",
@@ -321,6 +649,17 @@
    "ref": "D027",
    "localidad": "Julián Augusto Saldívar",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -25.420866,
+     "lon": -57.454473,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PY",
    "via_visible": "Ruta Departamental 027",
    "punto": "Julián Augusto Saldívar",
@@ -335,6 +674,29 @@
    "via": "Ruta Nacional Mariscal Estigarribia",
    "ref": "PY02",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -25.402817,
+     "lon": -55.814077,
+     "n": 4,
+     "rumbo": 56
+    },
+    {
+     "lat": -25.402739,
+     "lon": -55.814132,
+     "n": 1
+    },
+    {
+     "lat": -25.402659,
+     "lon": -55.81419,
+     "n": 4,
+     "rumbo": 236
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.1
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional Mariscal Estigarribia",
    "punto": "Juan Manuel Frutos",
@@ -349,6 +711,29 @@
    "via": "Ruta Nacional Mariscal Estigarribia",
    "ref": "PY02",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -25.389419,
+     "lon": -57.271248,
+     "n": 4,
+     "rumbo": 70
+    },
+    {
+     "lat": -25.389324,
+     "lon": -57.271287,
+     "n": 1
+    },
+    {
+     "lat": -25.389211,
+     "lon": -57.271327,
+     "n": 4,
+     "rumbo": 250
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.9
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional Mariscal Estigarribia",
    "punto": "Ypacaraí",
@@ -363,6 +748,29 @@
    "via": "Ruta Departamental D075",
    "ref": "D075",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -25.226058,
+     "lon": -57.609724,
+     "n": 4,
+     "rumbo": 137
+    },
+    {
+     "lat": -25.225935,
+     "lon": -57.609563,
+     "n": 1
+    },
+    {
+     "lat": -25.225778,
+     "lon": -57.609397,
+     "n": 4,
+     "rumbo": 315
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.7
+   },
    "pais": "PY",
    "via_visible": "Ruta Departamental D075",
    "punto": "Héroes del Chaco",
@@ -377,6 +785,29 @@
    "via": "Vergel Luqueño",
    "ref": "D012",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -25.208178,
+     "lon": -57.384981,
+     "n": 1,
+     "rumbo": 87
+    },
+    {
+     "lat": -25.208141,
+     "lon": -57.385073,
+     "n": 1
+    },
+    {
+     "lat": -25.208119,
+     "lon": -57.385164,
+     "n": 1,
+     "rumbo": 265
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.6
+   },
    "pais": "PY",
    "via_visible": "D012",
    "punto": "Ecovía",
@@ -391,6 +822,29 @@
    "via": "Ruta Departamental 025",
    "ref": "D025",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -25.177261,
+     "lon": -57.55515,
+     "n": 3,
+     "rumbo": 133
+    },
+    {
+     "lat": -25.177213,
+     "lon": -57.555099,
+     "n": 1
+    },
+    {
+     "lat": -25.177154,
+     "lon": -57.555042,
+     "n": 3,
+     "rumbo": 312
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.6
+   },
    "pais": "PY",
    "via_visible": "Ruta Departamental 025",
    "punto": "Remanso",
@@ -406,6 +860,17 @@
    "ref": "PY03",
    "localidad": "Limpio",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -25.176572,
+     "lon": -57.484773,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PY",
    "via_visible": "Ruta PY03",
    "punto": "Limpio",
@@ -420,6 +885,29 @@
    "via": "Ruta Nacional General Elizardo Aquino",
    "ref": "PY03",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -25.118214,
+     "lon": -57.429427,
+     "n": 1,
+     "rumbo": 52
+    },
+    {
+     "lat": -25.118201,
+     "lon": -57.429465,
+     "n": 1
+    },
+    {
+     "lat": -25.118145,
+     "lon": -57.429515,
+     "n": 1,
+     "rumbo": 231
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.6
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional General Elizardo Aquino",
    "punto": "de Emboscada",
@@ -434,6 +922,29 @@
    "via": "Ruta Nacional Presidente Carlos Antonio López",
    "ref": "PY09",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -24.945243,
+     "lon": -57.55297,
+     "n": 1,
+     "rumbo": 163
+    },
+    {
+     "lat": -24.945221,
+     "lon": -57.55291,
+     "n": 1
+    },
+    {
+     "lat": -24.945212,
+     "lon": -57.552867,
+     "n": 1,
+     "rumbo": 338
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.7
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional Presidente Carlos Antonio López",
    "punto": "Cerrito",
@@ -449,6 +960,24 @@
    "ref": "PY03",
    "localidad": "25 de Diciembre",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -24.818871,
+     "lon": -56.740423,
+     "n": 1,
+     "rumbo": 81
+    },
+    {
+     "lat": -24.818749,
+     "lon": -56.740643,
+     "n": 1,
+     "rumbo": 264
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.0
+   },
    "pais": "PY",
    "via_visible": "Ruta PY03",
    "punto": "25 de Diciembre",
@@ -464,6 +993,24 @@
    "ref": "PY08",
    "localidad": "Arroyo Moroti",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -24.697535,
+     "lon": -56.382538,
+     "n": 1,
+     "rumbo": 147
+    },
+    {
+     "lat": -24.697507,
+     "lon": -56.382492,
+     "n": 1,
+     "rumbo": 328
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.8
+   },
    "pais": "PY",
    "via_visible": "Ruta PY08",
    "punto": "Arroyo Moroti",
@@ -478,6 +1025,29 @@
    "via": "Ruta Nacional General Aquino",
    "ref": "PY03",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -24.567,
+     "lon": -56.296483,
+     "n": 1,
+     "rumbo": 41
+    },
+    {
+     "lat": -24.566956,
+     "lon": -56.296529,
+     "n": 1
+    },
+    {
+     "lat": -24.56691,
+     "lon": -56.296587,
+     "n": 1,
+     "rumbo": 220
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.4
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional General Aquino",
    "punto": "Guayaybí",
@@ -492,6 +1062,29 @@
    "via": "Ruta Nacional Blás Garay",
    "ref": "PY08",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -23.640532,
+     "lon": -56.470028,
+     "n": 1
+    },
+    {
+     "lat": -23.640524,
+     "lon": -56.470009,
+     "n": 1,
+     "rumbo": 10
+    },
+    {
+     "lat": -23.640511,
+     "lon": -56.470091,
+     "n": 1,
+     "rumbo": 192
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.9
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional Blás Garay",
    "punto": "Río Verde",
@@ -499,13 +1092,57 @@
    "confianza": "alta"
   },
   {
-   "lat": -23.503667,
-   "lon": -58.787131,
+   "lat": -23.504424,
+   "lon": -58.786618,
    "nombre": "Peaje Pozo Colorado",
    "tipo": "cabina",
    "via": "Ruta Nacional Presidente Carlos Antonio López",
    "ref": "PY09",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -23.504488,
+     "lon": -58.786728,
+     "n": 2,
+     "rumbo": 148
+    },
+    {
+     "lat": -23.504452,
+     "lon": -58.786679,
+     "n": 1
+    },
+    {
+     "lat": -23.504424,
+     "lon": -58.786618,
+     "n": 2,
+     "rumbo": 326
+    },
+    {
+     "lat": -23.502383,
+     "lon": -58.787944,
+     "n": 1,
+     "rumbo": 147
+    },
+    {
+     "lat": -23.502354,
+     "lon": -58.78789,
+     "n": 1
+    },
+    {
+     "lat": -23.502323,
+     "lon": -58.787844,
+     "n": 1,
+     "rumbo": 326
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 98,
+    "centro_plaza": [
+     -23.503667,
+     -58.787131
+    ]
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional Presidente Carlos Antonio López",
    "punto": "Pozo Colorado",
@@ -513,14 +1150,38 @@
    "confianza": "alta"
   },
   {
-   "lat": -23.472107,
-   "lon": -60.069717,
+   "lat": -23.472426,
+   "lon": -60.069755,
    "nombre": "Peaje Ruta Nacional 16 (PY16) (3)",
    "tipo": "cabina",
    "via": "Ruta Nacional 16",
    "ref": "PY16",
    "localidad": "Novoctas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -23.472426,
+     "lon": -60.069755,
+     "n": 1,
+     "rumbo": 46,
+     "doble": true
+    },
+    {
+     "lat": -23.471788,
+     "lon": -60.069679,
+     "n": 1,
+     "rumbo": 334,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 35,
+    "centro_plaza": [
+     -23.472107,
+     -60.069717
+    ]
+   },
    "pais": "PY",
    "via_visible": "Ruta PY16",
    "punto": "Novoctas",
@@ -528,13 +1189,35 @@
    "confianza": "media"
   },
   {
-   "lat": -23.454615,
-   "lon": -59.5457,
+   "lat": -23.455143,
+   "lon": -59.545024,
    "nombre": "Cruce Douglas",
    "tipo": "cabina",
    "via": "Ruta Nacional General Caballero",
    "ref": "PY05",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -23.455143,
+     "lon": -59.545024,
+     "n": 1
+    },
+    {
+     "lat": -23.454087,
+     "lon": -59.546376,
+     "n": 1,
+     "rumbo": 91,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 90,
+    "centro_plaza": [
+     -23.454615,
+     -59.5457
+    ]
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional General Caballero",
    "punto": "Cruce Douglas",
@@ -550,6 +1233,19 @@
    "ref": "PY05",
    "localidad": "Pozo Colorado",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -23.444464,
+     "lon": -58.897931,
+     "n": 1,
+     "rumbo": 85,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PY",
    "via_visible": "Ruta PY05",
    "punto": "Pozo Colorado",
@@ -564,6 +1260,29 @@
    "via": "Ruta Nacional General Caballero",
    "ref": "PY05",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -23.146111,
+     "lon": -56.73066,
+     "n": 1,
+     "rumbo": 50
+    },
+    {
+     "lat": -23.146099,
+     "lon": -56.730671,
+     "n": 1
+    },
+    {
+     "lat": -23.146067,
+     "lon": -56.730705,
+     "n": 1,
+     "rumbo": 230
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.1
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional General Caballero",
    "punto": "Horqueta",
@@ -579,6 +1298,19 @@
    "ref": "D089",
    "localidad": "Río Verde",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -23.080643,
+     "lon": -59.233254,
+     "n": 1,
+     "rumbo": 278,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PY",
    "via_visible": "Ruta de la Amistad",
    "punto": "Río Verde",
@@ -593,6 +1325,19 @@
    "via": "Linea 11",
    "localidad": "Yacacvash",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -22.697688,
+     "lon": -60.536808,
+     "n": 1,
+     "rumbo": 269,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PY",
    "via_visible": "Linea 11",
    "punto": "Yacacvash",
@@ -607,6 +1352,24 @@
    "via": "Ruta Nacional Presidente Carlos Antonio López",
    "ref": "PY09",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -22.328216,
+     "lon": -60.274281,
+     "n": 2,
+     "rumbo": 129
+    },
+    {
+     "lat": -22.328125,
+     "lon": -60.274197,
+     "n": 2,
+     "rumbo": 309
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.6
+   },
    "pais": "PY",
    "via_visible": "Ruta Nacional Presidente Carlos Antonio López",
    "punto": "Cruce Toledo",
@@ -622,6 +1385,19 @@
    "ref": "PY15",
    "localidad": "Rosaleda",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -22.077056,
+     "lon": -60.832735,
+     "n": 1,
+     "rumbo": 216,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PY",
    "via_visible": "Ruta PY15",
    "punto": "Rosaleda",
@@ -637,6 +1413,19 @@
    "ref": "PY16",
    "localidad": "Comunidad Indigena La Esquina",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -22.054196,
+     "lon": -59.952377,
+     "n": 1,
+     "rumbo": 0,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PY",
    "via_visible": "Ruta PY16",
    "punto": "Comunidad Indigena La Esquina",
@@ -652,6 +1441,19 @@
    "ref": "PY09",
    "localidad": "Rosaleda",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -21.83598,
+     "lon": -60.855831,
+     "n": 1,
+     "rumbo": 0,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PY",
    "via_visible": "Ruta PY09",
    "punto": "Rosaleda",
@@ -666,6 +1468,19 @@
    "via": "Picada Michel",
    "localidad": "Comunidad Indigena Cuyabia",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -21.648293,
+     "lon": -61.092042,
+     "n": 1,
+     "rumbo": 355,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PY",
    "via_visible": "Picada Michel",
    "punto": "Comunidad Indigena Cuyabia",
@@ -673,14 +1488,38 @@
    "confianza": "media"
   },
   {
-   "lat": -21.294075,
-   "lon": -61.133035,
+   "lat": -21.294207,
+   "lon": -61.132864,
    "nombre": "Peaje Picada Michel (D092)",
    "tipo": "cabina",
    "via": "Picada Michel",
    "ref": "D092",
    "localidad": "Monte Claro",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -21.294207,
+     "lon": -61.132864,
+     "n": 1,
+     "rumbo": 355,
+     "doble": true
+    },
+    {
+     "lat": -21.293943,
+     "lon": -61.133206,
+     "n": 1,
+     "rumbo": 66,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 23,
+    "centro_plaza": [
+     -21.294075,
+     -61.133035
+    ]
+   },
    "pais": "PY",
    "via_visible": "D092",
    "punto": "Monte Claro",
@@ -696,6 +1535,19 @@
    "ref": "PY16",
    "localidad": "Teniente Martínez",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -20.914587,
+     "lon": -59.833559,
+     "n": 1,
+     "rumbo": 332,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PY",
    "via_visible": "Ruta PY16",
    "punto": "Teniente Martínez",
@@ -712,6 +1564,19 @@
    "via": "Acceso al Aeropuerto",
    "localidad": "Capitán Miranda",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -27.221484,
+     "lon": -55.833176,
+     "n": 1,
+     "rumbo": 89,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
   {
@@ -723,9 +1588,20 @@
    "ref": "D025",
    "localidad": "Luque",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -25.243197,
+     "lon": -57.511273,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-31T12:37Z",
+ "generado": "2026-11-01T15:32Z",
  "alertas": []
 }
