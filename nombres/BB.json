@@ -24,6 +24,10 @@
  },
  "estaciones": [],
  "excluidas": [],
+<<<<<<< HEAD
  "generado": "2026-11-01T16:35Z",
+=======
+ "generado": "2026-11-01T19:49Z",
+>>>>>>> 8eb8e2d (Nombres de estaciones (BB) actualizados automáticamente)
  "alertas": []
 }
