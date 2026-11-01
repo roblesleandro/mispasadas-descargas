@@ -7,7 +7,7 @@
   "osm": 6,
   "armado": 20,
   "total": 164,
-  "confianza_baja": 2,
+  "confianza_baja": 4,
   "excluidas": 4
  },
  "estaciones": [
@@ -853,12 +853,11 @@
    "fuente": "oficial",
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
-   "punto": "Doctor Luis Leloir",
-   "nombre_visible": "Autopista del Oeste - Peaje Doctor Luis Leloir",
-   "confianza": "alta",
+   "punto": "General Rodríguez 3",
+   "nombre_visible": "Autopista del Oeste - Peaje General Rodríguez 3",
+   "confianza": "baja",
    "plaza": "General Rodríguez 3 (Acceso Oeste)",
-   "calle": "Doctor Luis Leloir",
-   "nota": "Rampa: calle que cruza a 86 m (código oficial «General Rodríguez 3»)."
+   "nota": "Rampa numerada sin calle clara en OSM: cargar el nombre a mano."
   },
   {
    "lat": -34.593563,
@@ -870,12 +869,11 @@
    "fuente": "oficial",
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
-   "punto": "Avenida Italia",
-   "nombre_visible": "Autopista del Oeste - Peaje Avenida Italia",
-   "confianza": "alta",
+   "punto": "General Rodríguez 1",
+   "nombre_visible": "Autopista del Oeste - Peaje General Rodríguez 1",
+   "confianza": "baja",
    "plaza": "General Rodríguez 1 (Acceso Oeste)",
-   "calle": "Avenida Italia",
-   "nota": "Rampa: calle que cruza a 65 m (código oficial «General Rodríguez 1»)."
+   "nota": "Rampa numerada sin calle clara en OSM: cargar el nombre a mano."
   },
   {
    "lat": -34.588416,
@@ -1588,9 +1586,9 @@
    "empresa": "SLUIS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "Autopista Los Puquios",
+   "via_visible": "RP 20",
    "punto": "Los Puquios",
-   "nombre_visible": "Autopista Los Puquios - Peaje Los Puquios",
+   "nombre_visible": "RP 20 - Peaje Los Puquios",
    "confianza": "alta",
    "plaza": "Los Puquios (San Luis)"
   },
@@ -1650,9 +1648,9 @@
    "empresa": "SLUIS",
    "fuente": "oficial",
    "pais": "AR",
-   "via_visible": "Autopista El Saladillo",
+   "via_visible": "RP 20",
    "punto": "La Toma",
-   "nombre_visible": "Autopista El Saladillo - Peaje La Toma",
+   "nombre_visible": "RP 20 - Peaje La Toma",
    "confianza": "alta",
    "plaza": "La Toma (Saladillo)"
   },
@@ -2624,6 +2622,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-30T00:39Z",
+ "generado": "2026-11-01T12:19Z",
  "alertas": []
 }
