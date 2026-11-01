@@ -15,8 +15,8 @@
    "corregidas": 1,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 12,
-    "a_mas_de_15_m": 1,
+    "ok": 13,
+    "a_mas_de_15_m": 0,
     "sin_referencia": 0,
     "total": 13
    }
@@ -431,10 +431,6 @@
   }
  ],
  "excluidas": [],
-<<<<<<< HEAD
- "generado": "2026-11-01T16:30Z",
-=======
- "generado": "2026-11-01T19:45Z",
->>>>>>> e5568ce (Nombres de estaciones (JM) actualizados automáticamente)
+ "generado": "2026-11-01T22:48Z",
  "alertas": []
 }
