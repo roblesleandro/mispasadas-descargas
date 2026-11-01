@@ -8,7 +8,19 @@
   "armado": 164,
   "total": 232,
   "confianza_baja": 0,
-  "excluidas": 4
+  "excluidas": 4,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 170,
+   "corregidas": 66,
+   "sin_referencia": 0,
+   "corrida_anterior": {
+    "ok": 168,
+    "a_mas_de_15_m": 64,
+    "sin_referencia": 0,
+    "total": 232
+   }
+  }
  },
  "estaciones": [
   {
@@ -18,20 +30,54 @@
    "tipo": "cabina",
    "localidad": "La Mareta",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 28.049494,
+     "lon": -16.574584,
+     "n": 1,
+     "rumbo": 68
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "punto": "La Mareta",
    "nombre_visible": "Peaje La Mareta",
    "confianza": "media"
   },
   {
-   "lat": 28.077582,
-   "lon": -16.735354,
+   "lat": 28.076727,
+   "lon": -16.735125,
    "nombre": "Peaje TF-481 km 76",
    "tipo": "cabina",
    "ref": "TF-481",
    "km": "76",
    "localidad": "Miraverde",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 28.076727,
+     "lon": -16.735125,
+     "n": 1,
+     "rumbo": 163
+    },
+    {
+     "lat": 28.078437,
+     "lon": -16.735583,
+     "n": 1,
+     "rumbo": 208
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 97,
+    "centro_plaza": [
+     28.077582,
+     -16.735354
+    ]
+   },
    "pais": "ES",
    "via_visible": "TF-481",
    "punto": "Miraverde",
@@ -47,6 +93,18 @@
    "ref": "LP-209",
    "localidad": "Los Canarios",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 28.486934,
+     "lon": -17.848032,
+     "n": 1,
+     "rumbo": 225
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "LP-209",
    "punto": "Los Canarios",
@@ -60,6 +118,18 @@
    "tipo": "cabina",
    "localidad": "El Portezuelo Alto",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 28.488011,
+     "lon": -16.34482,
+     "n": 2,
+     "rumbo": 143
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Autopista del Norte",
    "punto": "El Portezuelo Alto",
@@ -74,6 +144,18 @@
    "ref": "M-3404",
    "localidad": "Yaiza",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 28.86948,
+     "lon": -13.79369,
+     "n": 1,
+     "rumbo": 121
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "M-3404",
    "punto": "Yaiza",
@@ -87,6 +169,24 @@
    "tipo": "cabina",
    "ref": "LZ-602",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 29.010056,
+     "lon": -13.734657,
+     "n": 1,
+     "rumbo": 115
+    },
+    {
+     "lat": 29.010155,
+     "lon": -13.734653,
+     "n": 1,
+     "rumbo": 262
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.4
+   },
    "pais": "ES",
    "via_visible": "LZ-602",
    "punto": "Control de Acceso al Parque Nacional Timanfaya",
@@ -94,14 +194,75 @@
    "confianza": "alta"
   },
   {
-   "lat": 36.37804,
-   "lon": -5.265126,
+   "lat": 36.376547,
+   "lon": -5.264862,
    "nombre": "Peaje Autopista del Mediterráneo (AP-7) (2)",
    "tipo": "cabina",
    "via": "Autopista del Mediterráneo",
    "ref": "AP-7",
    "localidad": "Manilva",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 36.375329,
+     "lon": -5.265443,
+     "n": 1,
+     "rumbo": 42
+    },
+    {
+     "lat": 36.376041,
+     "lon": -5.265009,
+     "n": 2
+    },
+    {
+     "lat": 36.376203,
+     "lon": -5.264847,
+     "n": 5,
+     "rumbo": 35
+    },
+    {
+     "lat": 36.376547,
+     "lon": -5.264862,
+     "n": 5,
+     "rumbo": 214
+    },
+    {
+     "lat": 36.377014,
+     "lon": -5.264567,
+     "n": 1
+    },
+    {
+     "lat": 36.377443,
+     "lon": -5.264329,
+     "n": 1,
+     "rumbo": 216
+    },
+    {
+     "lat": 36.380075,
+     "lon": -5.265507,
+     "n": 4,
+     "rumbo": 19
+    },
+    {
+     "lat": 36.380323,
+     "lon": -5.265478,
+     "n": 3
+    },
+    {
+     "lat": 36.38054,
+     "lon": -5.265477,
+     "n": 4,
+     "rumbo": 212
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 97,
+    "centro_plaza": [
+     36.37804,
+     -5.265126
+    ]
+   },
    "pais": "ES",
    "via_visible": "Autopista del Mediterráneo",
    "punto": "Manilva",
@@ -118,6 +279,18 @@
    "km": "48",
    "localidad": "San Pedro Alcántara",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 36.498872,
+     "lon": -5.00165,
+     "n": 3,
+     "rumbo": 258
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Autopista del Mediterráneo",
    "punto": "San Pedro Alcántara",
@@ -126,29 +299,102 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 36.499081,
-   "lon": -5.006618,
+   "lat": 36.498485,
+   "lon": -5.002386,
    "nombre": "Peaje Autopista del Mediterráneo (AP-7)",
    "tipo": "cabina",
    "via": "Autopista del Mediterráneo",
    "ref": "AP-7",
    "localidad": "San Pedro Alcántara",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 36.498485,
+     "lon": -5.002386,
+     "n": 3,
+     "rumbo": 79
+    },
+    {
+     "lat": 36.499133,
+     "lon": -5.010096,
+     "n": 1,
+     "rumbo": 92
+    },
+    {
+     "lat": 36.49925,
+     "lon": -5.009126,
+     "n": 2,
+     "rumbo": 90
+    },
+    {
+     "lat": 36.499519,
+     "lon": -5.008349,
+     "n": 2,
+     "rumbo": 270
+    },
+    {
+     "lat": 36.499605,
+     "lon": -5.007362,
+     "n": 1,
+     "rumbo": 275
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 88,
+    "centro_plaza": [
+     36.499081,
+     -5.006618
+    ]
+   },
    "pais": "ES",
    "via_visible": "Autopista del Mediterráneo",
    "punto": "San Pedro Alcántara",
    "nombre_visible": "Autopista del Mediterráneo - Peaje San Pedro Alcántara",
    "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?). Posible duplicado de «Autopista del Mediterráneo - Peaje San Pedro Alcántara»."
   },
   {
-   "lat": 36.504052,
-   "lon": -4.718677,
+   "lat": 36.502579,
+   "lon": -4.719557,
    "nombre": "Peaje AP7",
    "tipo": "cabina",
    "via": "Autopista del Mediterráneo",
    "ref": "AP-7",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 36.502164,
+     "lon": -4.719436,
+     "n": 1
+    },
+    {
+     "lat": 36.502579,
+     "lon": -4.719557,
+     "n": 1,
+     "rumbo": 183
+    },
+    {
+     "lat": 36.505648,
+     "lon": -4.717882,
+     "n": 1,
+     "rumbo": 108
+    },
+    {
+     "lat": 36.505817,
+     "lon": -4.717833,
+     "n": 1,
+     "rumbo": 288
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 181,
+    "centro_plaza": [
+     36.504052,
+     -4.718677
+    ]
+   },
    "pais": "ES",
    "via_visible": "Autopista del Mediterráneo",
    "punto": "AP7",
@@ -163,6 +409,17 @@
    "via": "Avenida Doctor Gómez Ulla",
    "localidad": "Cádiz",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 36.534545,
+     "lon": -6.306793,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Avenida Doctor Gómez Ulla",
    "punto": "Cádiz",
@@ -176,6 +433,19 @@
    "tipo": "cabina",
    "localidad": "Otívar",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 36.822766,
+     "lon": -3.699618,
+     "n": 1,
+     "rumbo": 178,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "punto": "Otívar",
    "nombre_visible": "Peaje Otívar",
@@ -189,6 +459,17 @@
    "via": "Carretera de Ronda",
    "localidad": "Almería",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 36.834845,
+     "lon": -2.456654,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Carretera de Ronda",
    "punto": "Almería",
@@ -202,20 +483,61 @@
    "tipo": "cabina",
    "localidad": "Carratraca",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 36.899866,
+     "lon": -4.780464,
+     "n": 1,
+     "rumbo": 253,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "punto": "Carratraca",
    "nombre_visible": "Peaje Carratraca",
    "confianza": "media"
   },
   {
+<<<<<<< HEAD
    "lat": 36.90258,
    "lon": -4.457906,
    "nombre": "Peaje Autopista de las Pedrizas (AP-46)",
+=======
+   "lat": 36.902488,
+   "lon": -4.457711,
+   "nombre": "Peaje Autopista de las Pedrizas (AP-46) km 0",
+>>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
    "tipo": "cabina",
    "via": "Autopista de las Pedrizas",
    "ref": "AP-46",
    "localidad": "Casabermeja",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 36.902488,
+     "lon": -4.457711,
+     "n": 7,
+     "rumbo": 47
+    },
+    {
+     "lat": 36.902672,
+     "lon": -4.458102,
+     "n": 7,
+     "rumbo": 228
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 20,
+    "centro_plaza": [
+     36.90258,
+     -4.457906
+    ]
+   },
    "pais": "ES",
    "via_visible": "Autopista de las Pedrizas",
    "punto": "Casabermeja",
@@ -231,6 +553,24 @@
    "ref": "AP-7",
    "localidad": "Vera",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 37.261578,
+     "lon": -1.880354,
+     "n": 1,
+     "rumbo": 76
+    },
+    {
+     "lat": 37.261766,
+     "lon": -1.880415,
+     "n": 1,
+     "rumbo": 257
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.7
+   },
    "pais": "ES",
    "via_visible": "Autopista del Mediterráneo",
    "punto": "Vera",
@@ -244,6 +584,24 @@
    "tipo": "cabina",
    "localidad": "Palomares",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 37.305546,
+     "lon": -1.799638,
+     "n": 1,
+     "rumbo": 38
+    },
+    {
+     "lat": 37.305606,
+     "lon": -1.799766,
+     "n": 1,
+     "rumbo": 216
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.6
+   },
    "pais": "ES",
    "punto": "Palomares",
    "nombre_visible": "Peaje Palomares",
@@ -256,6 +614,24 @@
    "tipo": "cabina",
    "localidad": "La Fuente",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 37.390601,
+     "lon": -1.727226,
+     "n": 1,
+     "rumbo": 26
+    },
+    {
+     "lat": 37.390658,
+     "lon": -1.727379,
+     "n": 1,
+     "rumbo": 207
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.4
+   },
    "pais": "ES",
    "via_visible": "Autopista del Mediterráneo",
    "punto": "La Fuente",
@@ -270,6 +646,24 @@
    "ref": "AP-7",
    "localidad": "Águilas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 37.436241,
+     "lon": -1.620125,
+     "n": 1,
+     "rumbo": 44
+    },
+    {
+     "lat": 37.436322,
+     "lon": -1.620227,
+     "n": 1,
+     "rumbo": 224
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.3
+   },
    "pais": "ES",
    "via_visible": "AP-7",
    "punto": "Águilas",
@@ -283,6 +677,24 @@
    "tipo": "cabina",
    "localidad": "Águilas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 37.492336,
+     "lon": -1.506919,
+     "n": 1,
+     "rumbo": 122
+    },
+    {
+     "lat": 37.492434,
+     "lon": -1.50684,
+     "n": 1,
+     "rumbo": 301
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.4
+   },
    "pais": "ES",
    "punto": "Águilas",
    "nombre_visible": "Peaje Águilas",
@@ -295,6 +707,24 @@
    "tipo": "cabina",
    "localidad": "Mazarrón",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 37.546862,
+     "lon": -1.435878,
+     "n": 1,
+     "rumbo": 81
+    },
+    {
+     "lat": 37.547009,
+     "lon": -1.435903,
+     "n": 1,
+     "rumbo": 263
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.1
+   },
    "pais": "ES",
    "via_visible": "RM-332",
    "punto": "Mazarrón",
@@ -310,6 +740,24 @@
    "ref": "RM-3",
    "localidad": "Mazarrón",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 37.599808,
+     "lon": -1.335896,
+     "n": 1,
+     "rumbo": 22
+    },
+    {
+     "lat": 37.599864,
+     "lon": -1.336067,
+     "n": 1,
+     "rumbo": 201
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.1
+   },
    "pais": "ES",
    "via_visible": "Autovía Totana - Mazarrón",
    "punto": "Mazarrón",
@@ -325,6 +773,24 @@
    "ref": "AP-7",
    "localidad": "Cartagena",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 37.641866,
+     "lon": -1.041845,
+     "n": 1,
+     "rumbo": 104
+    },
+    {
+     "lat": 37.642069,
+     "lon": -1.041795,
+     "n": 1,
+     "rumbo": 283
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.4
+   },
    "pais": "ES",
    "via_visible": "Autopista del Mediterráneo",
    "punto": "Cartagena",
@@ -339,6 +805,24 @@
    "ref": "AP-7",
    "localidad": "Fuente Álamo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 37.647672,
+     "lon": -1.178284,
+     "n": 1,
+     "rumbo": 90
+    },
+    {
+     "lat": 37.647793,
+     "lon": -1.178289,
+     "n": 1,
+     "rumbo": 271
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.6
+   },
    "pais": "ES",
    "via_visible": "AP-7",
    "punto": "Fuente Álamo",
@@ -354,6 +838,24 @@
    "ref": "AP-7",
    "localidad": "Dehesa de Campoamor",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 37.920505,
+     "lon": -0.7416,
+     "n": 1,
+     "rumbo": 31
+    },
+    {
+     "lat": 37.920625,
+     "lon": -0.741822,
+     "n": 1,
+     "rumbo": 211
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.8
+   },
    "pais": "ES",
    "via_visible": "Autopista del Mediterráneo",
    "punto": "Dehesa de Campoamor",
@@ -368,6 +870,24 @@
    "ref": "AP-7",
    "localidad": "Dehesa de Campoamor",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 37.925888,
+     "lon": -0.737334,
+     "n": 1,
+     "rumbo": 51
+    },
+    {
+     "lat": 37.925983,
+     "lon": -0.737429,
+     "n": 1,
+     "rumbo": 228
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.7
+   },
    "pais": "ES",
    "via_visible": "AP-7",
    "punto": "Dehesa de Campoamor",
@@ -383,6 +903,24 @@
    "ref": "AP-7",
    "localidad": "San Miguel de Salinas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.008566,
+     "lon": -0.782737,
+     "n": 1,
+     "rumbo": 150
+    },
+    {
+     "lat": 38.008645,
+     "lon": -0.782507,
+     "n": 1,
+     "rumbo": 330
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.0
+   },
    "pais": "ES",
    "via_visible": "Autopista del Mediterráneo",
    "punto": "San Miguel de Salinas",
@@ -390,13 +928,35 @@
    "confianza": "media"
   },
   {
-   "lat": 38.360121,
-   "lon": -0.651016,
+   "lat": 38.359878,
+   "lon": -0.650862,
    "nombre": "Monforte del Cid",
    "tipo": "cabina",
    "via": "Circunvalación de Alicante",
    "ref": "AP-7",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.359878,
+     "lon": -0.650862,
+     "n": 1,
+     "rumbo": 58
+    },
+    {
+     "lat": 38.360365,
+     "lon": -0.65117,
+     "n": 1,
+     "rumbo": 239
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 30,
+    "centro_plaza": [
+     38.360121,
+     -0.651016
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-7",
    "punto": "Monforte del Cid",
@@ -409,6 +969,19 @@
    "nombre": "Sant Vicent del Raspeig / San Vicente del Raspeig",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.427091,
+     "lon": -0.551083,
+     "n": 1,
+     "rumbo": 280,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "punto": "Sant Vicent del Raspeig / San Vicente del Raspeig",
    "nombre_visible": "Peaje Sant Vicent del Raspeig / San Vicente del Raspeig",
@@ -420,6 +993,24 @@
    "nombre": "Mutxamel",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.439726,
+     "lon": -0.455013,
+     "n": 1,
+     "rumbo": 112
+    },
+    {
+     "lat": 38.439851,
+     "lon": -0.454944,
+     "n": 1,
+     "rumbo": 292
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.5
+   },
    "pais": "ES",
    "punto": "Mutxamel",
    "nombre_visible": "Peaje Mutxamel",
@@ -431,6 +1022,24 @@
    "nombre": "El Campello",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 38.440607,
+     "lon": -0.400418,
+     "n": 1,
+     "rumbo": 55
+    },
+    {
+     "lat": 38.440714,
+     "lon": -0.400533,
+     "n": 1,
+     "rumbo": 234
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.7
+   },
    "pais": "ES",
    "via_visible": "Circunvalación de Alicante",
    "punto": "El Campello",
@@ -446,6 +1055,19 @@
    "ref": "PMV-820.2",
    "localidad": "Sant Ferran de ses Roques",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.734341,
+     "lon": 1.442789,
+     "n": 1,
+     "rumbo": 0,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "PMV-820.2",
    "punto": "Sant Ferran de ses Roques",
@@ -460,6 +1082,19 @@
    "via": "Camí de Ses Illetes",
    "localidad": "Sant Francesc de Formentera",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.742584,
+     "lon": 1.433599,
+     "n": 1,
+     "rumbo": 338,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Camí de Ses Illetes",
    "punto": "Sant Francesc de Formentera",
@@ -475,6 +1110,17 @@
    "ref": "BA-20",
    "localidad": "Badajoz",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 38.872022,
+     "lon": -6.979308,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "BA-20",
    "punto": "Badajoz",
@@ -490,6 +1136,29 @@
    "ref": "AP-36",
    "localidad": "San Clemente",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.362081,
+     "lon": -2.452955,
+     "n": 1,
+     "rumbo": 141
+    },
+    {
+     "lat": 39.362183,
+     "lon": -2.452845,
+     "n": 1
+    },
+    {
+     "lat": 39.362316,
+     "lon": -2.45264,
+     "n": 1,
+     "rumbo": 320
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.0
+   },
    "pais": "ES",
    "via_visible": "Autopista Madrid - Levante",
    "punto": "San Clemente",
@@ -504,6 +1173,24 @@
    "ref": "AP-36",
    "localidad": "El Pedernoso",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.474381,
+     "lon": -2.718178,
+     "n": 1,
+     "rumbo": 97
+    },
+    {
+     "lat": 39.474469,
+     "lon": -2.718161,
+     "n": 1,
+     "rumbo": 277
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.9
+   },
    "pais": "ES",
    "via_visible": "AP-36",
    "punto": "El Pedernoso",
@@ -517,6 +1204,19 @@
    "tipo": "cabina",
    "localidad": "Mota del Cuervo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.51967,
+     "lon": -2.916739,
+     "n": 1,
+     "rumbo": 215,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "punto": "Mota del Cuervo",
    "nombre_visible": "Peaje Mota del Cuervo",
@@ -530,6 +1230,24 @@
    "ref": "AP-36",
    "localidad": "Quintanar de la Orden",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.630588,
+     "lon": -3.073759,
+     "n": 1,
+     "rumbo": 143
+    },
+    {
+     "lat": 39.630626,
+     "lon": -3.073665,
+     "n": 1,
+     "rumbo": 327
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.5
+   },
    "pais": "ES",
    "via_visible": "AP-36",
    "punto": "Quintanar de la Orden",
@@ -544,6 +1262,24 @@
    "ref": "AP-36",
    "localidad": "Corral de Almaguer",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.795024,
+     "lon": -3.208835,
+     "n": 1,
+     "rumbo": 134
+    },
+    {
+     "lat": 39.795106,
+     "lon": -3.208752,
+     "n": 1,
+     "rumbo": 315
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.7
+   },
    "pais": "ES",
    "via_visible": "AP-36",
    "punto": "Corral de Almaguer",
@@ -552,13 +1288,35 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 39.80041,
-   "lon": -3.212945,
+   "lat": 39.800317,
+   "lon": -3.213087,
    "nombre": "Peaje AP-36",
    "tipo": "cabina",
    "ref": "AP-36",
    "localidad": "Corral de Almaguer",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.800317,
+     "lon": -3.213087,
+     "n": 1,
+     "rumbo": 138
+    },
+    {
+     "lat": 39.800503,
+     "lon": -3.212803,
+     "n": 1,
+     "rumbo": 315
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 16,
+    "centro_plaza": [
+     39.80041,
+     -3.212945
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-36",
    "punto": "Corral de Almaguer",
@@ -575,6 +1333,19 @@
    "ref": "Cf-2",
    "localidad": "es Castell",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.868315,
+     "lon": 4.299561,
+     "n": 1,
+     "rumbo": 286,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Cf-2",
    "punto": "es Castell",
@@ -589,6 +1360,18 @@
    "ref": "AP-41",
    "localidad": "Villaseca de la Sagra",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.943417,
+     "lon": -3.878227,
+     "n": 1,
+     "rumbo": 220
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AP-41",
    "punto": "Villaseca de la Sagra",
@@ -604,6 +1387,24 @@
    "ref": "AP-41",
    "localidad": "Villaseca de la Sagra",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.956523,
+     "lon": -3.867566,
+     "n": 1,
+     "rumbo": 126
+    },
+    {
+     "lat": 39.956532,
+     "lon": -3.867411,
+     "n": 1,
+     "rumbo": 308
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.6
+   },
    "pais": "ES",
    "via_visible": "AP-41",
    "punto": "Villaseca de la Sagra",
@@ -620,6 +1421,19 @@
    "ref": "R-4",
    "localidad": "Ontígola",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 39.992762,
+     "lon": -3.605571,
+     "n": 1,
+     "rumbo": 147,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "R-4",
    "punto": "Ontígola",
@@ -627,14 +1441,48 @@
    "confianza": "media"
   },
   {
-   "lat": 40.023218,
-   "lon": -3.652049,
+   "lat": 40.024605,
+   "lon": -3.653911,
    "nombre": "Peaje Radial 4 (R-4) (2)",
    "tipo": "cabina",
    "via": "Radial 4",
    "ref": "R-4",
    "localidad": "Aranjuez",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.021855,
+     "lon": -3.65015,
+     "n": 1,
+     "rumbo": 137
+    },
+    {
+     "lat": 40.021917,
+     "lon": -3.650004,
+     "n": 1,
+     "rumbo": 319
+    },
+    {
+     "lat": 40.024497,
+     "lon": -3.65413,
+     "n": 1,
+     "rumbo": 150
+    },
+    {
+     "lat": 40.024605,
+     "lon": -3.653911,
+     "n": 1,
+     "rumbo": 329
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 221,
+    "centro_plaza": [
+     40.023218,
+     -3.652049
+    ]
+   },
    "pais": "ES",
    "via_visible": "R-4",
    "punto": "Aranjuez",
@@ -650,6 +1498,19 @@
    "ref": "AP-41",
    "localidad": "Yuncler",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.029351,
+     "lon": -3.888873,
+     "n": 1,
+     "rumbo": 36,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AP-41",
    "punto": "Yuncler",
@@ -665,6 +1526,19 @@
    "ref": "R-4",
    "localidad": "Aranjuez",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.041873,
+     "lon": -3.66792,
+     "n": 1,
+     "rumbo": 338,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "R-4",
    "punto": "Aranjuez",
@@ -680,6 +1554,24 @@
    "ref": "AP-41",
    "localidad": "Numancia de la Sagra",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.074789,
+     "lon": -3.846033,
+     "n": 1,
+     "rumbo": 75
+    },
+    {
+     "lat": 40.074864,
+     "lon": -3.846069,
+     "n": 1,
+     "rumbo": 254
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.4
+   },
    "pais": "ES",
    "via_visible": "AP-41",
    "punto": "Numancia de la Sagra",
@@ -694,6 +1586,24 @@
    "ref": "AP-41",
    "localidad": "Yuncos",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.102888,
+     "lon": -3.860599,
+     "n": 1,
+     "rumbo": 120
+    },
+    {
+     "lat": 40.103027,
+     "lon": -3.860494,
+     "n": 1,
+     "rumbo": 300
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.9
+   },
    "pais": "ES",
    "via_visible": "AP-41",
    "punto": "Yuncos",
@@ -701,14 +1611,36 @@
    "confianza": "media"
   },
   {
-   "lat": 40.106056,
-   "lon": -3.66668,
+   "lat": 40.105799,
+   "lon": -3.666426,
    "nombre": "Peaje R-4",
    "tipo": "cabina",
    "via": "R-4",
    "ref": "R-4",
    "localidad": "Seseña",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.105799,
+     "lon": -3.666426,
+     "n": 2,
+     "rumbo": 341
+    },
+    {
+     "lat": 40.106314,
+     "lon": -3.666934,
+     "n": 2,
+     "rumbo": 157
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 36,
+    "centro_plaza": [
+     40.106056,
+     -3.66668
+    ]
+   },
    "pais": "ES",
    "via_visible": "R-4",
    "punto": "Seseña",
@@ -723,6 +1655,19 @@
    "ref": "AP-41",
    "localidad": "Carranque",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.157945,
+     "lon": -3.904456,
+     "n": 1,
+     "rumbo": 224,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AP-41",
    "punto": "Carranque",
@@ -737,6 +1682,24 @@
    "ref": "AP-41",
    "localidad": "Serranillos del Valle",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.211972,
+     "lon": -3.893951,
+     "n": 1,
+     "rumbo": 21
+    },
+    {
+     "lat": 40.21203,
+     "lon": -3.894118,
+     "n": 1,
+     "rumbo": 200
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.7
+   },
    "pais": "ES",
    "via_visible": "AP-41",
    "punto": "Serranillos del Valle",
@@ -751,6 +1714,18 @@
    "ref": "AP-41",
    "localidad": "Griñón",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.228655,
+     "lon": -3.881358,
+     "n": 1,
+     "rumbo": 21
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AP-41",
    "punto": "Griñón",
@@ -765,6 +1740,18 @@
    "via": "Camino de la Warner",
    "localidad": "San Martín de la Vega",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.234522,
+     "lon": -3.597491,
+     "n": 1,
+     "rumbo": 78
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Camino de la Warner",
    "punto": "San Martín de la Vega",
@@ -772,14 +1759,60 @@
    "confianza": "media"
   },
   {
-   "lat": 40.23623,
-   "lon": -3.735777,
+   "lat": 40.236852,
+   "lon": -3.734599,
    "nombre": "Peaje Radial 4 (R-4)",
    "tipo": "cabina",
    "via": "Radial 4",
    "ref": "R-4",
    "localidad": "Pinto",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.233543,
+     "lon": -3.738698,
+     "n": 1,
+     "rumbo": 23
+    },
+    {
+     "lat": 40.234363,
+     "lon": -3.738551,
+     "n": 1,
+     "rumbo": 18
+    },
+    {
+     "lat": 40.23446,
+     "lon": -3.738955,
+     "n": 1,
+     "rumbo": 198
+    },
+    {
+     "lat": 40.235245,
+     "lon": -3.738876,
+     "n": 1,
+     "rumbo": 202
+    },
+    {
+     "lat": 40.236852,
+     "lon": -3.734599,
+     "n": 5,
+     "rumbo": 99
+    },
+    {
+     "lat": 40.237068,
+     "lon": -3.734561,
+     "n": 5,
+     "rumbo": 278
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 121,
+    "centro_plaza": [
+     40.23623,
+     -3.735777
+    ]
+   },
    "pais": "ES",
    "via_visible": "R-4",
    "punto": "Pinto",
@@ -794,6 +1827,36 @@
    "ref": "R-5",
    "localidad": "Arroyomolinos",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.256828,
+     "lon": -3.908933,
+     "n": 1,
+     "rumbo": 33
+    },
+    {
+     "lat": 40.256914,
+     "lon": -3.909054,
+     "n": 1,
+     "rumbo": 212
+    },
+    {
+     "lat": 40.257333,
+     "lon": -3.910103,
+     "n": 9,
+     "rumbo": 55
+    },
+    {
+     "lat": 40.257687,
+     "lon": -3.910439,
+     "n": 9,
+     "rumbo": 234
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.9
+   },
    "pais": "ES",
    "via_visible": "R-5",
    "punto": "Arroyomolinos",
@@ -806,19 +1869,54 @@
    "nombre": "Peaje Plataforma de Gredos",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 40.3054,
+     "lon": -5.206075,
+     "n": 1,
+     "rumbo": 263,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "punto": "Plataforma de Gredos",
    "nombre_visible": "Peaje Plataforma de Gredos",
    "confianza": "alta"
   },
   {
-   "lat": 40.328862,
-   "lon": -3.446954,
+   "lat": 40.328639,
+   "lon": -3.447333,
    "nombre": "Peaje R-3",
    "tipo": "cabina",
    "ref": "R-3",
    "localidad": "Arganda del Rey",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.328639,
+     "lon": -3.447333,
+     "n": 2,
+     "rumbo": 146
+    },
+    {
+     "lat": 40.329086,
+     "lon": -3.446575,
+     "n": 2,
+     "rumbo": 323
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 41,
+    "centro_plaza": [
+     40.328862,
+     -3.446954
+    ]
+   },
    "pais": "ES",
    "via_visible": "R-3",
    "punto": "Arganda del Rey",
@@ -826,13 +1924,35 @@
    "confianza": "media"
   },
   {
-   "lat": 40.350103,
-   "lon": -3.781025,
+   "lat": 40.349885,
+   "lon": -3.780848,
    "nombre": "Peaje R-5",
    "tipo": "cabina",
    "ref": "R-5",
    "localidad": "Leganés",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.349885,
+     "lon": -3.780848,
+     "n": 11,
+     "rumbo": 57
+    },
+    {
+     "lat": 40.350321,
+     "lon": -3.781202,
+     "n": 11,
+     "rumbo": 238
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 28,
+    "centro_plaza": [
+     40.350103,
+     -3.781025
+    ]
+   },
    "pais": "ES",
    "via_visible": "R-5",
    "punto": "Leganés",
@@ -840,14 +1960,48 @@
    "confianza": "media"
   },
   {
-   "lat": 40.360922,
-   "lon": -3.666505,
+   "lat": 40.361301,
+   "lon": -3.664073,
    "nombre": "Peaje Avenida Arganzuela Mercamadrid (M-40)",
    "tipo": "cabina",
    "via": "Avenida Arganzuela Mercamadrid",
    "ref": "M-40",
    "localidad": "Madrid",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.360457,
+     "lon": -3.669123,
+     "n": 1,
+     "rumbo": 154
+    },
+    {
+     "lat": 40.360492,
+     "lon": -3.668992,
+     "n": 1,
+     "rumbo": 337
+    },
+    {
+     "lat": 40.361301,
+     "lon": -3.664073,
+     "n": 1,
+     "rumbo": 143
+    },
+    {
+     "lat": 40.361439,
+     "lon": -3.66383,
+     "n": 1,
+     "rumbo": 324
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 211,
+    "centro_plaza": [
+     40.360922,
+     -3.666505
+    ]
+   },
    "pais": "ES",
    "via_visible": "M-40",
    "punto": "Madrid",
@@ -855,14 +2009,55 @@
    "confianza": "media"
   },
   {
-   "lat": 40.365018,
-   "lon": -3.656374,
+   "lat": 40.365873,
+   "lon": -3.656172,
    "nombre": "Peaje Calle 40 (M-602)",
    "tipo": "cabina",
    "via": "Calle 40",
    "ref": "M-602",
    "localidad": "Madrid",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.363543,
+     "lon": -3.656189,
+     "n": 1,
+     "rumbo": 52
+    },
+    {
+     "lat": 40.363644,
+     "lon": -3.656295,
+     "n": 1,
+     "rumbo": 234
+    },
+    {
+     "lat": 40.365852,
+     "lon": -3.656008,
+     "n": 1,
+     "rumbo": 10
+    },
+    {
+     "lat": 40.365873,
+     "lon": -3.656172,
+     "n": 1,
+     "rumbo": 190
+    },
+    {
+     "lat": 40.366177,
+     "lon": -3.657206,
+     "n": 1,
+     "rumbo": 280,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 96,
+    "centro_plaza": [
+     40.365018,
+     -3.656374
+    ]
+   },
    "pais": "ES",
    "via_visible": "M-602",
    "punto": "Madrid",
@@ -878,6 +2073,24 @@
    "ref": "MP-203",
    "localidad": "Mejorada del Campo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.386979,
+     "lon": -3.468566,
+     "n": 1,
+     "rumbo": 35
+    },
+    {
+     "lat": 40.387075,
+     "lon": -3.468759,
+     "n": 1,
+     "rumbo": 215
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.7
+   },
    "pais": "ES",
    "via_visible": "MP-203",
    "punto": "Mejorada del Campo",
@@ -885,14 +2098,36 @@
    "confianza": "media"
   },
   {
-   "lat": 40.398504,
-   "lon": -3.566599,
+   "lat": 40.398145,
+   "lon": -3.566846,
    "nombre": "Peaje Radial 3 (R-3) (2)",
    "tipo": "cabina",
    "via": "Radial 3",
    "ref": "R-3",
    "localidad": "Coslada",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.398145,
+     "lon": -3.566846,
+     "n": 2,
+     "rumbo": 121
+    },
+    {
+     "lat": 40.398863,
+     "lon": -3.566351,
+     "n": 2,
+     "rumbo": 302
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 45,
+    "centro_plaza": [
+     40.398504,
+     -3.566599
+    ]
+   },
    "pais": "ES",
    "via_visible": "R-3",
    "punto": "Coslada",
@@ -901,14 +2136,36 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 40.403661,
-   "lon": -3.577966,
+   "lat": 40.402678,
+   "lon": -3.577085,
    "nombre": "Peaje Radial 3 (R-3)",
    "tipo": "cabina",
    "via": "Radial 3",
    "ref": "R-3",
    "localidad": "Coslada",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.402678,
+     "lon": -3.577085,
+     "n": 1,
+     "rumbo": 149
+    },
+    {
+     "lat": 40.404644,
+     "lon": -3.578847,
+     "n": 1,
+     "rumbo": 300
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 132,
+    "centro_plaza": [
+     40.403661,
+     -3.577966
+    ]
+   },
    "pais": "ES",
    "via_visible": "R-3",
    "punto": "Coslada",
@@ -917,25 +2174,77 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
+<<<<<<< HEAD
    "lat": 40.475793,
    "lon": -3.701663,
    "nombre": "Peaje cerca de Madrid (2)",
+=======
+   "lat": 40.476661,
+   "lon": -3.701477,
+   "nombre": "Peaje Calle de Sinesio Delgado km 29,2",
+>>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
    "tipo": "cabina",
    "localidad": "Madrid",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.474924,
+     "lon": -3.701849,
+     "n": 1,
+     "rumbo": 182,
+     "doble": true
+    },
+    {
+     "lat": 40.476661,
+     "lon": -3.701477,
+     "n": 1,
+     "rumbo": 240,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 97,
+    "centro_plaza": [
+     40.475793,
+     -3.701663
+    ]
+   },
    "pais": "ES",
    "punto": "Madrid",
    "nombre_visible": "Peaje Madrid",
    "confianza": "media"
   },
   {
-   "lat": 40.475936,
-   "lon": -3.60162,
+   "lat": 40.474421,
+   "lon": -3.601966,
    "nombre": "Peaje M-12 (2)",
    "tipo": "cabina",
    "ref": "M-12",
    "localidad": "Paracuellos de Jarama",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.474421,
+     "lon": -3.601966,
+     "n": 1,
+     "rumbo": 182
+    },
+    {
+     "lat": 40.477451,
+     "lon": -3.601273,
+     "n": 1,
+     "rumbo": 358
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 170,
+    "centro_plaza": [
+     40.475936,
+     -3.60162
+    ]
+   },
    "pais": "ES",
    "via_visible": "M-12",
    "punto": "Paracuellos de Jarama",
@@ -943,12 +2252,42 @@
    "confianza": "media"
   },
   {
+<<<<<<< HEAD
    "lat": 40.482457,
    "lon": -3.687139,
    "nombre": "Peaje cerca de Madrid",
+=======
+   "lat": 40.482554,
+   "lon": -3.687446,
+   "nombre": "Peaje Calle 30 (M-30) km 29,2",
+>>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
    "tipo": "cabina",
    "localidad": "Madrid",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.482169,
+     "lon": -3.68622,
+     "n": 1,
+     "rumbo": 222,
+     "doble": true
+    },
+    {
+     "lat": 40.482554,
+     "lon": -3.687446,
+     "n": 3,
+     "rumbo": 181,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 28,
+    "centro_plaza": [
+     40.482457,
+     -3.687139
+    ]
+   },
    "pais": "ES",
    "via_visible": "Calle 30",
    "punto": "Madrid",
@@ -962,6 +2301,19 @@
    "tipo": "cabina",
    "localidad": "Alcobendas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.488168,
+     "lon": -3.695569,
+     "n": 1,
+     "rumbo": 42,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Autovía de Colmenar",
    "punto": "Alcobendas",
@@ -977,6 +2329,18 @@
    "ref": "M-110",
    "localidad": "Paracuellos de Jarama",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.494461,
+     "lon": -3.595596,
+     "n": 1,
+     "rumbo": 359
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "M-110",
    "punto": "Paracuellos de Jarama",
@@ -991,6 +2355,29 @@
    "via": "Autopista Radial R-2",
    "ref": "R-2",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 40.503243,
+     "lon": -3.606318,
+     "n": 1,
+     "rumbo": 66
+    },
+    {
+     "lat": 40.503551,
+     "lon": -3.606355,
+     "n": 1
+    },
+    {
+     "lat": 40.503741,
+     "lon": -3.606565,
+     "n": 1,
+     "rumbo": 249
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.5
+   },
    "pais": "ES",
    "via_visible": "Autopista Radial R-2",
    "punto": "R-2",
@@ -998,8 +2385,8 @@
    "confianza": "alta"
   },
   {
-   "lat": 40.507687,
-   "lon": -3.485235,
+   "lat": 40.507454,
+   "lon": -3.485281,
    "nombre": "Peaje Autopista Radial R-2 km 5",
    "tipo": "cabina",
    "via": "Autopista Radial R-2",
@@ -1007,6 +2394,28 @@
    "km": "5",
    "localidad": "Ajalvir",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.507454,
+     "lon": -3.485281,
+     "n": 2,
+     "rumbo": 102
+    },
+    {
+     "lat": 40.507921,
+     "lon": -3.485189,
+     "n": 2,
+     "rumbo": 281
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 26,
+    "centro_plaza": [
+     40.507687,
+     -3.485235
+    ]
+   },
    "pais": "ES",
    "via_visible": "Autopista Radial R-2",
    "punto": "Ajalvir",
@@ -1021,6 +2430,18 @@
    "ref": "M-12",
    "localidad": "Alcobendas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.509685,
+     "lon": -3.603276,
+     "n": 1,
+     "rumbo": 196
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "M-12",
    "punto": "Alcobendas",
@@ -1035,6 +2456,24 @@
    "ref": "M-100",
    "localidad": "Camarma de Esteruelas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.519419,
+     "lon": -3.413663,
+     "n": 1,
+     "rumbo": 108
+    },
+    {
+     "lat": 40.519602,
+     "lon": -3.413588,
+     "n": 1,
+     "rumbo": 283
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.5
+   },
    "pais": "ES",
    "via_visible": "M-100",
    "punto": "Camarma de Esteruelas",
@@ -1049,6 +2488,24 @@
    "via": "Avenida de los Bomberos",
    "localidad": "Las Rozas de Madrid",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.521721,
+     "lon": -3.883285,
+     "n": 1,
+     "rumbo": 70
+    },
+    {
+     "lat": 40.521803,
+     "lon": -3.883198,
+     "n": 1,
+     "rumbo": 249
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.8
+   },
    "pais": "ES",
    "via_visible": "Avenida de los Bomberos",
    "punto": "Las Rozas de Madrid",
@@ -1063,6 +2520,29 @@
    "ref": "R-2",
    "localidad": "San Sebastián de los Reyes",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.531355,
+     "lon": -3.586467,
+     "n": 1,
+     "rumbo": 58
+    },
+    {
+     "lat": 40.531664,
+     "lon": -3.58673,
+     "n": 1
+    },
+    {
+     "lat": 40.531821,
+     "lon": -3.586907,
+     "n": 1,
+     "rumbo": 239
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.1
+   },
    "pais": "ES",
    "via_visible": "R-2",
    "punto": "San Sebastián de los Reyes",
@@ -1070,13 +2550,35 @@
    "confianza": "media"
   },
   {
-   "lat": 40.53831,
-   "lon": -3.309464,
+   "lat": 40.538198,
+   "lon": -3.309358,
    "nombre": "Peaje R-2 (3)",
    "tipo": "cabina",
    "ref": "R-2",
    "localidad": "Meco",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.538198,
+     "lon": -3.309358,
+     "n": 1,
+     "rumbo": 53
+    },
+    {
+     "lat": 40.538422,
+     "lon": -3.309571,
+     "n": 1,
+     "rumbo": 232
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 15,
+    "centro_plaza": [
+     40.53831,
+     -3.309464
+    ]
+   },
    "pais": "ES",
    "via_visible": "R-2",
    "punto": "Meco",
@@ -1084,12 +2586,34 @@
    "confianza": "media"
   },
   {
-   "lat": 40.619654,
-   "lon": -3.245685,
+   "lat": 40.619491,
+   "lon": -3.245655,
    "nombre": "Peaje cerca de Cabanillas del Campo",
    "tipo": "cabina",
    "localidad": "Cabanillas del Campo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.619491,
+     "lon": -3.245655,
+     "n": 1,
+     "rumbo": 88
+    },
+    {
+     "lat": 40.619818,
+     "lon": -3.245715,
+     "n": 1,
+     "rumbo": 265
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 18,
+    "centro_plaza": [
+     40.619654,
+     -3.245685
+    ]
+   },
    "pais": "ES",
    "punto": "Cabanillas del Campo",
    "nombre_visible": "Peaje Cabanillas del Campo",
@@ -1103,6 +2627,18 @@
    "ref": "M-600",
    "localidad": "Guadarrama",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.650571,
+     "lon": -4.102167,
+     "n": 1,
+     "rumbo": 308
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "M-600",
    "punto": "Guadarrama",
@@ -1116,6 +2652,19 @@
    "tipo": "cabina",
    "localidad": "Poveda de la Sierra",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.666154,
+     "lon": -2.019552,
+     "n": 1,
+     "rumbo": 334,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Puente de Poveda",
    "punto": "Poveda de la Sierra",
@@ -1123,14 +2672,48 @@
    "confianza": "media"
   },
   {
-   "lat": 40.674746,
-   "lon": -3.179982,
+   "lat": 40.674476,
+   "lon": -3.177481,
    "nombre": "Peaje Autopista Radial R-2",
    "tipo": "cabina",
    "via": "Autopista Radial R-2",
    "ref": "R-2",
    "localidad": "Marchamalo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.674323,
+     "lon": -3.177501,
+     "n": 1,
+     "rumbo": 93
+    },
+    {
+     "lat": 40.674476,
+     "lon": -3.177481,
+     "n": 2,
+     "rumbo": 275
+    },
+    {
+     "lat": 40.675095,
+     "lon": -3.183819,
+     "n": 1,
+     "rumbo": 117
+    },
+    {
+     "lat": 40.675359,
+     "lon": -3.183627,
+     "n": 1,
+     "rumbo": 295
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 213,
+    "centro_plaza": [
+     40.674746,
+     -3.179982
+    ]
+   },
    "pais": "ES",
    "via_visible": "Autopista Radial R-2",
    "punto": "Marchamalo",
@@ -1138,13 +2721,41 @@
    "confianza": "media"
   },
   {
-   "lat": 40.726206,
-   "lon": -4.193798,
+   "lat": 40.725685,
+   "lon": -4.193061,
    "nombre": "Peaje de San Rafael",
    "tipo": "cabina",
    "via": "Autopista del Noroeste",
    "ref": "AP-6",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 40.725685,
+     "lon": -4.193061,
+     "n": 23,
+     "rumbo": 163
+    },
+    {
+     "lat": 40.727624,
+     "lon": -4.195853,
+     "n": 4,
+     "rumbo": 59
+    },
+    {
+     "lat": 40.727781,
+     "lon": -4.195976,
+     "n": 4,
+     "rumbo": 238
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 85,
+    "centro_plaza": [
+     40.726206,
+     -4.193798
+    ]
+   },
    "pais": "ES",
    "via_visible": "Autopista del Noroeste",
    "punto": "de San Rafael",
@@ -1159,6 +2770,24 @@
    "ref": "AP-51",
    "localidad": "Villacastín",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.769139,
+     "lon": -4.430555,
+     "n": 5,
+     "rumbo": 65
+    },
+    {
+     "lat": 40.769433,
+     "lon": -4.430735,
+     "n": 9,
+     "rumbo": 245
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.8
+   },
    "pais": "ES",
    "via_visible": "AP-51",
    "punto": "Villacastín",
@@ -1167,12 +2796,46 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
+<<<<<<< HEAD
    "lat": 40.772964,
    "lon": -4.424573,
    "nombre": "Peaje cerca de Villacastín",
+=======
+   "lat": 40.772646,
+   "lon": -4.424145,
+   "nombre": "Peaje N-110",
+>>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
    "tipo": "cabina",
    "localidad": "Villacastín",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.772482,
+     "lon": -4.424262,
+     "n": 4,
+     "rumbo": 121
+    },
+    {
+     "lat": 40.772646,
+     "lon": -4.424145,
+     "n": 4,
+     "rumbo": 300
+    },
+    {
+     "lat": 40.776168,
+     "lon": -4.427529,
+     "n": 1,
+     "rumbo": 292
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 50,
+    "centro_plaza": [
+     40.772964,
+     -4.424573
+    ]
+   },
    "pais": "ES",
    "via_visible": "N-110",
    "punto": "Villacastín",
@@ -1186,12 +2849,24 @@
    "tipo": "cabina",
    "localidad": "Villacastín",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.773451,
+     "lon": -4.420813,
+     "n": 1,
+     "rumbo": 202
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AP-51",
    "punto": "Villacastín",
    "nombre_visible": "AP-51 - Peaje Villacastín",
    "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?). Posible duplicado de «N-110 - Peaje Villacastín»."
   },
   {
    "lat": 40.789564,
@@ -1202,6 +2877,24 @@
    "ref": "N-603",
    "localidad": "Los Ángeles de San Rafael",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.789546,
+     "lon": -4.215717,
+     "n": 2,
+     "rumbo": 160
+    },
+    {
+     "lat": 40.789582,
+     "lon": -4.215558,
+     "n": 2,
+     "rumbo": 342
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.9
+   },
    "pais": "ES",
    "via_visible": "N-603",
    "punto": "Los Ángeles de San Rafael",
@@ -1209,14 +2902,54 @@
    "confianza": "media"
   },
   {
-   "lat": 40.822946,
-   "lon": -4.177093,
+   "lat": 40.822446,
+   "lon": -4.176872,
    "nombre": "Peaje Autopista Segovia-San Rafael (AP-61)",
    "tipo": "cabina",
    "via": "Autopista Segovia-San Rafael",
    "ref": "AP-61",
    "localidad": "Ortigosa del Monte",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.822446,
+     "lon": -4.176872,
+     "n": 9,
+     "rumbo": 77
+    },
+    {
+     "lat": 40.822757,
+     "lon": -4.176966,
+     "n": 5,
+     "rumbo": 257
+    },
+    {
+     "lat": 40.822862,
+     "lon": -4.178185,
+     "n": 1,
+     "rumbo": 258
+    },
+    {
+     "lat": 40.824274,
+     "lon": -4.177432,
+     "n": 2,
+     "rumbo": 61
+    },
+    {
+     "lat": 40.824379,
+     "lon": -4.177518,
+     "n": 2,
+     "rumbo": 241
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 23,
+    "centro_plaza": [
+     40.822946,
+     -4.177093
+    ]
+   },
    "pais": "ES",
    "via_visible": "Autopista Segovia-San Rafael",
    "punto": "Ortigosa del Monte",
@@ -1229,6 +2962,17 @@
    "nombre": "Oficina de seguridad y peaje de la Puerta de madrid",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 40.869814,
+     "lon": -4.149638,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "punto": "Oficina de seguridad y peaje de la Puerta de madrid",
    "nombre_visible": "Peaje Oficina de seguridad y peaje de la Puerta de madrid",
@@ -1243,6 +2987,23 @@
    "ref": "AP-6",
    "localidad": "Sanchidrián",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.884163,
+     "lon": -4.572418,
+     "n": 1
+    },
+    {
+     "lat": 40.884171,
+     "lon": -4.572428,
+     "n": 1,
+     "rumbo": 334
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.6
+   },
    "pais": "ES",
    "via_visible": "Autopista del Noroeste",
    "punto": "Sanchidrián",
@@ -1255,6 +3016,17 @@
    "nombre": "Oficina de seguridad y peaje de la Puerta de Honoria",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 40.895829,
+     "lon": -4.140983,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "punto": "Oficina de seguridad y peaje de la Puerta de Honoria",
    "nombre_visible": "Peaje Oficina de seguridad y peaje de la Puerta de Honoria",
@@ -1267,6 +3039,18 @@
    "tipo": "cabina",
    "localidad": "Segovia",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.948167,
+     "lon": -4.116267,
+     "n": 1,
+     "rumbo": 74
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Avenida Padre Claret",
    "punto": "Segovia",
@@ -1283,6 +3067,24 @@
    "km": "14",
    "localidad": "Cubelles",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.206255,
+     "lon": 1.658765,
+     "n": 3,
+     "rumbo": 153
+    },
+    {
+     "lat": 41.206315,
+     "lon": 1.658922,
+     "n": 3,
+     "rumbo": 333
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.3
+   },
    "pais": "ES",
    "via_visible": "Autopista Pau Casals",
    "punto": "Cubelles",
@@ -1290,14 +3092,42 @@
    "confianza": "media"
   },
   {
+<<<<<<< HEAD
    "lat": 41.208137,
    "lon": 1.65172,
    "nombre": "Peaje Peatge de Cubelles (C-32)",
+=======
+   "lat": 41.207923,
+   "lon": 1.651695,
+   "nombre": "Peaje Peatge de Cubelles (C-32) km 13",
+>>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
    "tipo": "cabina",
    "via": "Peatge de Cubelles",
    "ref": "C-32",
    "localidad": "Cubelles",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.207923,
+     "lon": 1.651695,
+     "n": 10,
+     "rumbo": 95
+    },
+    {
+     "lat": 41.208352,
+     "lon": 1.651745,
+     "n": 10,
+     "rumbo": 274
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 24,
+    "centro_plaza": [
+     41.208137,
+     1.65172
+    ]
+   },
    "pais": "ES",
    "via_visible": "C-32",
    "punto": "Cubelles",
@@ -1314,6 +3144,24 @@
    "km": "6",
    "localidad": "Calafell",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.208573,
+     "lon": 1.568967,
+     "n": 1,
+     "rumbo": 28
+    },
+    {
+     "lat": 41.208611,
+     "lon": 1.568836,
+     "n": 1,
+     "rumbo": 209
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.8
+   },
    "pais": "ES",
    "via_visible": "Autopista Pau Casals",
    "punto": "Calafell",
@@ -1321,8 +3169,8 @@
    "confianza": "media"
   },
   {
-   "lat": 41.245008,
-   "lon": 1.852061,
+   "lat": 41.244794,
+   "lon": 1.851969,
    "nombre": "Peaje Peatge de Vallcarca (C-32) km 34",
    "tipo": "cabina",
    "via": "Peatge de Vallcarca",
@@ -1330,6 +3178,28 @@
    "km": "34",
    "localidad": "Sitges",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.244794,
+     "lon": 1.851969,
+     "n": 10,
+     "rumbo": 108
+    },
+    {
+     "lat": 41.245222,
+     "lon": 1.852154,
+     "n": 10,
+     "rumbo": 288
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 25,
+    "centro_plaza": [
+     41.245008,
+     1.852061
+    ]
+   },
    "pais": "ES",
    "via_visible": "C-32",
    "punto": "Sitges",
@@ -1342,30 +3212,83 @@
    "nombre": "Entrada el Prat",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.328376,
+     "lon": 2.113746,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "punto": "Entrada el Prat",
    "nombre_visible": "Peaje Entrada el Prat",
    "confianza": "alta"
   },
   {
-   "lat": 41.334212,
-   "lon": 2.114879,
+   "lat": 41.334563,
+   "lon": 2.117476,
    "nombre": "Entrada Zona Franca",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.33386,
+     "lon": 2.112282,
+     "n": 1
+    },
+    {
+     "lat": 41.334563,
+     "lon": 2.117476,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 221,
+    "centro_plaza": [
+     41.334212,
+     2.114879
+    ]
+   },
    "pais": "ES",
    "punto": "Entrada Zona Franca",
    "nombre_visible": "Peaje Entrada Zona Franca",
    "confianza": "alta"
   },
   {
-   "lat": 41.437192,
-   "lon": 2.075248,
+   "lat": 41.437268,
+   "lon": 2.075571,
    "nombre": "Peatge Túnels de Vallvidrera",
    "tipo": "cabina",
    "via": "Eix del Llobregat",
    "ref": "C-16",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.437117,
+     "lon": 2.074924,
+     "n": 2,
+     "rumbo": 163
+    },
+    {
+     "lat": 41.437268,
+     "lon": 2.075571,
+     "n": 2,
+     "rumbo": 343
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 28,
+    "centro_plaza": [
+     41.437192,
+     2.075248
+    ]
+   },
    "pais": "ES",
    "via_visible": "C-16",
    "punto": "Peatge Túnels de Vallvidrera",
@@ -1373,13 +3296,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 41.517896,
-   "lon": 2.030133,
+   "lat": 41.51813,
+   "lon": 2.030299,
    "nombre": "Peatge de les Fonts",
    "tipo": "cabina",
    "via": "Via-T",
    "ref": "C-16",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.517661,
+     "lon": 2.029966,
+     "n": 2,
+     "rumbo": 119
+    },
+    {
+     "lat": 41.51813,
+     "lon": 2.030299,
+     "n": 2,
+     "rumbo": 299
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 29,
+    "centro_plaza": [
+     41.517896,
+     2.030133
+    ]
+   },
    "pais": "ES",
    "via_visible": "C-16",
    "punto": "Peatge de les Fonts",
@@ -1387,13 +3332,47 @@
    "confianza": "alta"
   },
   {
-   "lat": 41.650827,
-   "lon": 1.862965,
+   "lat": 41.65163,
+   "lon": 1.864755,
    "nombre": "Sant Vicenç",
    "tipo": "cabina",
    "via": "Autopista Barcelona-Manresa",
    "ref": "C-16",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.649537,
+     "lon": 1.860424,
+     "n": 5,
+     "rumbo": 108
+    },
+    {
+     "lat": 41.649617,
+     "lon": 1.860901,
+     "n": 4,
+     "rumbo": 285
+    },
+    {
+     "lat": 41.65163,
+     "lon": 1.864755,
+     "n": 7,
+     "rumbo": 53
+    },
+    {
+     "lat": 41.65196,
+     "lon": 1.864654,
+     "n": 5,
+     "rumbo": 232
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 173,
+    "centro_plaza": [
+     41.650827,
+     1.862965
+    ]
+   },
    "pais": "ES",
    "via_visible": "Autopista Barcelona-Manresa",
    "punto": "Sant Vicenç",
@@ -1408,19 +3387,71 @@
    "km": "265",
    "localidad": "Alagón",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.772299,
+     "lon": -1.14341,
+     "n": 2,
+     "rumbo": 157
+    },
+    {
+     "lat": 41.772326,
+     "lon": -1.143303,
+     "n": 2,
+     "rumbo": 336
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.7
+   },
    "pais": "ES",
    "punto": "Alagón",
    "nombre_visible": "Peaje Alagón",
    "confianza": "media"
   },
   {
-   "lat": 41.778073,
-   "lon": -1.124414,
+   "lat": 41.777495,
+   "lon": -1.124505,
    "nombre": "Peaje de Alagon",
    "tipo": "cabina",
    "via": "Autopista del Ebro",
    "ref": "AP-68",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.777228,
+     "lon": -1.124528,
+     "n": 1,
+     "rumbo": 97
+    },
+    {
+     "lat": 41.777495,
+     "lon": -1.124505,
+     "n": 1,
+     "rumbo": 273
+    },
+    {
+     "lat": 41.778748,
+     "lon": -1.124349,
+     "n": 1,
+     "rumbo": 126
+    },
+    {
+     "lat": 41.77882,
+     "lon": -1.124274,
+     "n": 1,
+     "rumbo": 301
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 64,
+    "centro_plaza": [
+     41.778073,
+     -1.124414
+    ]
+   },
    "pais": "ES",
    "via_visible": "Autopista del Ebro",
    "punto": "de Alagon",
@@ -1437,6 +3468,24 @@
    "km": "50",
    "localidad": "Gallur",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.850281,
+     "lon": -1.378501,
+     "n": 2,
+     "rumbo": 88
+    },
+    {
+     "lat": 41.850396,
+     "lon": -1.37854,
+     "n": 3,
+     "rumbo": 267
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.2
+   },
    "pais": "ES",
    "via_visible": "N-122",
    "punto": "Gallur",
@@ -1450,6 +3499,19 @@
    "tipo": "cabina",
    "via": "Estrada ao Monte Trega",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.896495,
+     "lon": -8.865908,
+     "n": 1,
+     "rumbo": 189,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Estrada ao Monte Trega",
    "punto": "Castro de Santa Trega",
@@ -1466,6 +3528,24 @@
    "km": "4",
    "localidad": "Murchante",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.033163,
+     "lon": -1.633171,
+     "n": 1,
+     "rumbo": 135
+    },
+    {
+     "lat": 42.033271,
+     "lon": -1.633141,
+     "n": 1,
+     "rumbo": 315
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.1
+   },
    "pais": "ES",
    "via_visible": "N-121-C",
    "punto": "Murchante",
@@ -1473,8 +3553,8 @@
    "confianza": "media"
   },
   {
-   "lat": 42.101423,
-   "lon": -1.720294,
+   "lat": 42.099586,
+   "lon": -1.720858,
    "nombre": "Peaje Autopista de Navarra (AP-15) km 1",
    "tipo": "cabina",
    "via": "Autopista de Navarra",
@@ -1482,6 +3562,28 @@
    "km": "1",
    "localidad": "Corella",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.099586,
+     "lon": -1.720858,
+     "n": 1,
+     "rumbo": 6
+    },
+    {
+     "lat": 42.103261,
+     "lon": -1.71973,
+     "n": 1,
+     "rumbo": 205
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 208,
+    "centro_plaza": [
+     42.101423,
+     -1.720294
+    ]
+   },
    "pais": "ES",
    "via_visible": "Autopista de Navarra",
    "punto": "Corella",
@@ -1489,14 +3591,48 @@
    "confianza": "media"
   },
   {
-   "lat": 42.113156,
-   "lon": -8.790125,
+   "lat": 42.113136,
+   "lon": -8.789342,
    "nombre": "Peaje Autoestrada do Val Miñor (AG-57)",
    "tipo": "cabina",
    "via": "Autoestrada do Val Miñor",
    "ref": "AG-57",
    "localidad": "A Ramallosa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.110251,
+     "lon": -8.791847,
+     "n": 1,
+     "rumbo": 215
+    },
+    {
+     "lat": 42.113136,
+     "lon": -8.789342,
+     "n": 1,
+     "rumbo": 0
+    },
+    {
+     "lat": 42.114481,
+     "lon": -8.789332,
+     "n": 1,
+     "rumbo": 0
+    },
+    {
+     "lat": 42.114755,
+     "lon": -8.78998,
+     "n": 1,
+     "rumbo": 180
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 65,
+    "centro_plaza": [
+     42.113156,
+     -8.790125
+    ]
+   },
    "pais": "ES",
    "via_visible": "AG-57",
    "punto": "A Ramallosa",
@@ -1512,6 +3648,18 @@
    "ref": "AG-57N",
    "localidad": "Gondomar",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.12238,
+     "lon": -8.774143,
+     "n": 1,
+     "rumbo": 284
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AG-57N",
    "punto": "Gondomar",
@@ -1519,14 +3667,34 @@
    "confianza": "media"
   },
   {
-   "lat": 42.13112,
-   "lon": -8.799687,
+   "lat": 42.131606,
+   "lon": -8.801645,
    "nombre": "Peaje Autoestrada do Val Miñor (AG-57N) (2)",
    "tipo": "cabina",
    "via": "Autoestrada do Val Miñor",
    "ref": "AG-57N",
    "localidad": "Nigrán",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.130634,
+     "lon": -8.797728,
+     "n": 1
+    },
+    {
+     "lat": 42.131606,
+     "lon": -8.801645,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 170,
+    "centro_plaza": [
+     42.13112,
+     -8.799687
+    ]
+   },
    "pais": "ES",
    "via_visible": "AG-57N",
    "punto": "Nigrán",
@@ -1541,19 +3709,81 @@
    "km": "202",
    "localidad": "Corella",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.137816,
+     "lon": -1.77062,
+     "n": 1,
+     "rumbo": 143
+    },
+    {
+     "lat": 42.13785,
+     "lon": -1.770564,
+     "n": 1,
+     "rumbo": 323
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.0
+   },
    "pais": "ES",
    "punto": "Corella",
    "nombre_visible": "Peaje Corella",
    "confianza": "media"
   },
   {
-   "lat": 42.145329,
-   "lon": -8.637559,
+   "lat": 42.143383,
+   "lon": -8.638364,
    "nombre": "Porriño troncal",
    "tipo": "cabina",
    "via": "Autoestrada do Atlántico",
    "ref": "AP-9",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.143344,
+     "lon": -8.638717,
+     "n": 1,
+     "rumbo": 173
+    },
+    {
+     "lat": 42.143383,
+     "lon": -8.638364,
+     "n": 1,
+     "rumbo": 351
+    },
+    {
+     "lat": 42.143385,
+     "lon": -8.638906,
+     "n": 1
+    },
+    {
+     "lat": 42.147241,
+     "lon": -8.636434,
+     "n": 1
+    },
+    {
+     "lat": 42.147242,
+     "lon": -8.63643,
+     "n": 1,
+     "rumbo": 65
+    },
+    {
+     "lat": 42.147377,
+     "lon": -8.636504,
+     "n": 1,
+     "rumbo": 245
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 225,
+    "centro_plaza": [
+     42.145329,
+     -8.637559
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-9",
    "punto": "Porriño troncal",
@@ -1561,8 +3791,8 @@
    "confianza": "alta"
   },
   {
-   "lat": 42.153485,
-   "lon": -8.719699,
+   "lat": 42.153897,
+   "lon": -8.719421,
    "nombre": "Peaje Autoestrada do Val Miñor (AG-57) km 9",
    "tipo": "cabina",
    "via": "Autoestrada do Val Miñor",
@@ -1570,6 +3800,34 @@
    "km": "9",
    "localidad": "A Garrida",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.152668,
+     "lon": -8.720341,
+     "n": 1,
+     "rumbo": 79
+    },
+    {
+     "lat": 42.153891,
+     "lon": -8.719335,
+     "n": 1,
+     "rumbo": 348
+    },
+    {
+     "lat": 42.153897,
+     "lon": -8.719421,
+     "n": 1,
+     "rumbo": 179
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 51,
+    "centro_plaza": [
+     42.153485,
+     -8.719699
+    ]
+   },
    "pais": "ES",
    "via_visible": "AG-57",
    "punto": "A Garrida",
@@ -1583,6 +3841,19 @@
    "tipo": "cabina",
    "localidad": "A Ribeira",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.158314,
+     "lon": -8.674642,
+     "n": 1,
+     "rumbo": 72,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "punto": "A Ribeira",
    "nombre_visible": "Peaje A Ribeira",
@@ -1594,6 +3865,29 @@
    "nombre": "Rande",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.278961,
+     "lon": -8.662467,
+     "n": 1,
+     "rumbo": 65
+    },
+    {
+     "lat": 42.279009,
+     "lon": -8.662616,
+     "n": 1
+    },
+    {
+     "lat": 42.27901,
+     "lon": -8.662511,
+     "n": 1,
+     "rumbo": 249
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.5
+   },
    "pais": "ES",
    "via_visible": "N-552",
    "punto": "Rande",
@@ -1606,6 +3900,23 @@
    "nombre": "Cangas",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.293081,
+     "lon": -8.658471,
+     "n": 2
+    },
+    {
+     "lat": 42.293297,
+     "lon": -8.658334,
+     "n": 3,
+     "rumbo": 232
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.6
+   },
    "pais": "ES",
    "via_visible": "N-554",
    "punto": "Cangas",
@@ -1620,6 +3931,24 @@
    "ref": "LR-134",
    "localidad": "Calahorra",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.302796,
+     "lon": -1.982949,
+     "n": 1,
+     "rumbo": 159
+    },
+    {
+     "lat": 42.302896,
+     "lon": -1.982867,
+     "n": 1,
+     "rumbo": 339
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.5
+   },
    "pais": "ES",
    "via_visible": "LR-134",
    "punto": "Calahorra",
@@ -1627,13 +3956,57 @@
    "confianza": "media"
   },
   {
-   "lat": 42.331289,
-   "lon": -1.724713,
+   "lat": 42.331204,
+   "lon": -1.72604,
    "nombre": "Marcilla",
    "tipo": "cabina",
    "via": "Autopista de Navarra",
    "ref": "AP-15",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.331204,
+     "lon": -1.72604,
+     "n": 1,
+     "rumbo": 0
+    },
+    {
+     "lat": 42.331205,
+     "lon": -1.726415,
+     "n": 1,
+     "rumbo": 182
+    },
+    {
+     "lat": 42.331207,
+     "lon": -1.726253,
+     "n": 1
+    },
+    {
+     "lat": 42.331367,
+     "lon": -1.723212,
+     "n": 1
+    },
+    {
+     "lat": 42.331371,
+     "lon": -1.723116,
+     "n": 1,
+     "rumbo": 9
+    },
+    {
+     "lat": 42.331381,
+     "lon": -1.723243,
+     "n": 1,
+     "rumbo": 189
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 110,
+    "centro_plaza": [
+     42.331289,
+     -1.724713
+    ]
+   },
    "pais": "ES",
    "via_visible": "Autopista de Navarra",
    "punto": "Marcilla",
@@ -1648,6 +4021,19 @@
    "via": "Eix del Llobregat",
    "ref": "C-16",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.340173,
+     "lon": 1.839159,
+     "n": 1,
+     "rumbo": 137,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "C-16",
    "punto": "Peatge Túnel del Cadí",
@@ -1655,8 +4041,8 @@
    "confianza": "alta"
   },
   {
-   "lat": 42.369382,
-   "lon": -2.077567,
+   "lat": 42.369011,
+   "lon": -2.076141,
    "nombre": "Peaje Autopista del Ebro (AP-68) km 164",
    "tipo": "cabina",
    "via": "Autopista del Ebro",
@@ -1664,6 +4050,40 @@
    "km": "164",
    "localidad": "Sartaguda",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.368452,
+     "lon": -2.076666,
+     "n": 1,
+     "rumbo": 86
+    },
+    {
+     "lat": 42.368872,
+     "lon": -2.079118,
+     "n": 1,
+     "rumbo": 181
+    },
+    {
+     "lat": 42.369011,
+     "lon": -2.076141,
+     "n": 1,
+     "rumbo": 332
+    },
+    {
+     "lat": 42.371196,
+     "lon": -2.078346,
+     "n": 1,
+     "rumbo": 258
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 124,
+    "centro_plaza": [
+     42.369382,
+     -2.077567
+    ]
+   },
    "pais": "ES",
    "via_visible": "Autopista del Ebro",
    "punto": "Sartaguda",
@@ -1678,6 +4098,29 @@
    "via": "Autoestrada do Atlántico",
    "ref": "AP-9",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.370605,
+     "lon": -8.636919,
+     "n": 2,
+     "rumbo": 18
+    },
+    {
+     "lat": 42.370625,
+     "lon": -8.637387,
+     "n": 1
+    },
+    {
+     "lat": 42.370717,
+     "lon": -8.637452,
+     "n": 2,
+     "rumbo": 200
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.6
+   },
    "pais": "ES",
    "via_visible": "AP-9",
    "punto": "Figueirido",
@@ -1691,6 +4134,18 @@
    "tipo": "cabina",
    "localidad": "Orbaneja Riopico",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.375937,
+     "lon": -3.59098,
+     "n": 1,
+     "rumbo": 312
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Carretera de Madrid a Irún",
    "punto": "Orbaneja Riopico",
@@ -1705,6 +4160,24 @@
    "ref": "N-111",
    "localidad": "Lardero",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.435121,
+     "lon": -2.460865,
+     "n": 1,
+     "rumbo": 6
+    },
+    {
+     "lat": 42.435135,
+     "lon": -2.460978,
+     "n": 1,
+     "rumbo": 187
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.7
+   },
    "pais": "ES",
    "via_visible": "N-111",
    "punto": "Lardero",
@@ -1717,6 +4190,29 @@
    "nombre": "Agoncillo",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.436379,
+     "lon": -2.289205,
+     "n": 1,
+     "rumbo": 43
+    },
+    {
+     "lat": 42.436397,
+     "lon": -2.28926,
+     "n": 1
+    },
+    {
+     "lat": 42.436431,
+     "lon": -2.289296,
+     "n": 1,
+     "rumbo": 221
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.9
+   },
    "pais": "ES",
    "via_visible": "N-232",
    "punto": "Agoncillo",
@@ -1733,6 +4229,29 @@
    "ref": "AP-68",
    "localidad": "Navarrete",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.445513,
+     "lon": -2.565744,
+     "n": 1,
+     "rumbo": 125
+    },
+    {
+     "lat": 42.445517,
+     "lon": -2.565748,
+     "n": 1
+    },
+    {
+     "lat": 42.445569,
+     "lon": -2.565712,
+     "n": 1,
+     "rumbo": 304
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.1
+   },
    "pais": "ES",
    "via_visible": "Autopista del Ebro",
    "punto": "Navarrete",
@@ -1740,13 +4259,34 @@
    "confianza": "media"
   },
   {
-   "lat": 42.446504,
-   "lon": -8.649085,
+   "lat": 42.446668,
+   "lon": -8.649108,
    "nombre": "Alba",
    "tipo": "cabina",
    "via": "Autoestrada do Atlántico",
    "ref": "AP-9",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.44634,
+     "lon": -8.649061,
+     "n": 1,
+     "rumbo": 158
+    },
+    {
+     "lat": 42.446668,
+     "lon": -8.649108,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 18,
+    "centro_plaza": [
+     42.446504,
+     -8.649085
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-9",
    "punto": "Alba",
@@ -1760,6 +4300,24 @@
    "tipo": "cabina",
    "localidad": "Agoncillo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.448742,
+     "lon": -2.347254,
+     "n": 1,
+     "rumbo": 125
+    },
+    {
+     "lat": 42.448848,
+     "lon": -2.347155,
+     "n": 1,
+     "rumbo": 304
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.1
+   },
    "pais": "ES",
    "via_visible": "N-232",
    "punto": "Agoncillo",
@@ -1768,8 +4326,8 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 42.452798,
-   "lon": -5.88764,
+   "lat": 42.451901,
+   "lon": -5.888011,
    "nombre": "Peaje Autopista León - Astorga (AP-71) km 335",
    "tipo": "cabina",
    "via": "Autopista León - Astorga",
@@ -1777,6 +4335,29 @@
    "km": "335",
    "localidad": "Hospital de Órbigo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.451901,
+     "lon": -5.888011,
+     "n": 1,
+     "rumbo": 116,
+     "doble": true
+    },
+    {
+     "lat": 42.453695,
+     "lon": -5.887269,
+     "n": 1,
+     "rumbo": 262
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 104,
+    "centro_plaza": [
+     42.452798,
+     -5.88764
+    ]
+   },
    "pais": "ES",
    "via_visible": "Autopista León - Astorga",
    "punto": "Hospital de Órbigo",
@@ -1792,6 +4373,19 @@
    "km": "25",
    "localidad": "Guils de Cerdanya",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.453092,
+     "lon": 1.882532,
+     "n": 1,
+     "rumbo": 164,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Carretera de la Feixa",
    "punto": "Guils de Cerdanya",
@@ -1807,6 +4401,24 @@
    "ref": "LR-321",
    "localidad": "Cenicero",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.469209,
+     "lon": -2.642222,
+     "n": 1,
+     "rumbo": 39
+    },
+    {
+     "lat": 42.469244,
+     "lon": -2.642288,
+     "n": 1,
+     "rumbo": 221
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.3
+   },
    "pais": "ES",
    "via_visible": "LR-321",
    "punto": "Cenicero",
@@ -1820,6 +4432,19 @@
    "tipo": "cabina",
    "localidad": "Laspuña",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.503944,
+     "lon": 0.155205,
+     "n": 1,
+     "rumbo": 132,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "punto": "Laspuña",
    "nombre_visible": "Peaje Laspuña",
@@ -1834,6 +4459,24 @@
    "ref": "AG-41",
    "localidad": "Santo Antoniño",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.518573,
+     "lon": -8.667508,
+     "n": 3,
+     "rumbo": 98
+    },
+    {
+     "lat": 42.518754,
+     "lon": -8.667476,
+     "n": 5,
+     "rumbo": 279
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.6
+   },
    "pais": "ES",
    "via_visible": "Autovía do Salnés",
    "punto": "Santo Antoniño",
@@ -1841,13 +4484,36 @@
    "confianza": "media"
   },
   {
-   "lat": 42.524063,
-   "lon": -5.753216,
+   "lat": 42.525053,
+   "lon": -5.752856,
    "nombre": "Peaje AP-71 Astorga-León",
    "tipo": "cabina",
    "via": "Autopista León - Astorga",
    "ref": "AP-71",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.522082,
+     "lon": -5.753938,
+     "n": 1,
+     "rumbo": 206,
+     "doble": true
+    },
+    {
+     "lat": 42.525053,
+     "lon": -5.752856,
+     "n": 2,
+     "rumbo": 47
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 113,
+    "centro_plaza": [
+     42.524063,
+     -5.753216
+    ]
+   },
    "pais": "ES",
    "via_visible": "Autopista León - Astorga",
    "punto": "AP-71 Astorga-León",
@@ -1863,6 +4529,24 @@
    "ref": "LR-111",
    "localidad": "Anguciana",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.561635,
+     "lon": -2.875734,
+     "n": 2,
+     "rumbo": 138
+    },
+    {
+     "lat": 42.561722,
+     "lon": -2.875636,
+     "n": 3,
+     "rumbo": 317
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.0
+   },
    "pais": "ES",
    "via_visible": "LR-111",
    "punto": "Anguciana",
@@ -1875,6 +4559,23 @@
    "nombre": "Caldas",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.59872,
+     "lon": -8.676393,
+     "n": 1,
+     "rumbo": 283
+    },
+    {
+     "lat": 42.598746,
+     "lon": -8.676354,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.1
+   },
    "pais": "ES",
    "via_visible": "AP-9",
    "punto": "Caldas",
@@ -1887,6 +4588,24 @@
    "nombre": "Carracedo",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.645743,
+     "lon": -8.651227,
+     "n": 1,
+     "rumbo": 11
+    },
+    {
+     "lat": 42.645762,
+     "lon": -8.651378,
+     "n": 1,
+     "rumbo": 195
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.2
+   },
    "pais": "ES",
    "via_visible": "AP-9",
    "punto": "Carracedo",
@@ -1899,6 +4618,24 @@
    "nombre": "Peaje de Zambrana",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.673175,
+     "lon": -2.886521,
+     "n": 2,
+     "rumbo": 8
+    },
+    {
+     "lat": 42.673183,
+     "lon": -2.886651,
+     "n": 2,
+     "rumbo": 188
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.3
+   },
    "pais": "ES",
    "via_visible": "N-124",
    "punto": "de Zambrana",
@@ -1912,6 +4649,24 @@
    "tipo": "cabina",
    "localidad": "Ribabellosa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.707288,
+     "lon": -2.907367,
+     "n": 5,
+     "rumbo": 57
+    },
+    {
+     "lat": 42.707567,
+     "lon": -2.907631,
+     "n": 10,
+     "rumbo": 237
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.5
+   },
    "pais": "ES",
    "via_visible": "A-1",
    "punto": "Ribabellosa",
@@ -1927,6 +4682,18 @@
    "ref": "AP-53",
    "localidad": "Silleda",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.708063,
+     "lon": -8.229893,
+     "n": 1,
+     "rumbo": 151
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AP-53",
    "punto": "Silleda",
@@ -1934,13 +4701,35 @@
    "confianza": "media"
   },
   {
-   "lat": 42.710118,
-   "lon": -1.62811,
+   "lat": 42.709978,
+   "lon": -1.627909,
    "nombre": "Imárcoain",
    "tipo": "cabina",
    "via": "Nafarroako autobidea",
    "ref": "AP-15",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.709978,
+     "lon": -1.627909,
+     "n": 9,
+     "rumbo": 43
+    },
+    {
+     "lat": 42.710258,
+     "lon": -1.628311,
+     "n": 9,
+     "rumbo": 224
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 23,
+    "centro_plaza": [
+     42.710118,
+     -1.62811
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-15",
    "punto": "Imárcoain",
@@ -1953,6 +4742,24 @@
    "nombre": "Peaxe de Silleda",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.711456,
+     "lon": -8.236818,
+     "n": 1,
+     "rumbo": 154
+    },
+    {
+     "lat": 42.711511,
+     "lon": -8.236681,
+     "n": 1,
+     "rumbo": 334
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.3
+   },
    "pais": "ES",
    "via_visible": "AP-53",
    "punto": "Peaxe de Silleda",
@@ -1967,6 +4774,19 @@
    "via": "Pasarelas de Panticosa",
    "localidad": "Panticosa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.722621,
+     "lon": -0.278389,
+     "n": 1,
+     "rumbo": 326,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Pasarelas de Panticosa",
    "punto": "Panticosa",
@@ -1980,6 +4800,24 @@
    "tipo": "cabina",
    "localidad": "Silleda",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.731862,
+     "lon": -8.337781,
+     "n": 2,
+     "rumbo": 34
+    },
+    {
+     "lat": 42.73193,
+     "lon": -8.337888,
+     "n": 2,
+     "rumbo": 215
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.7
+   },
    "pais": "ES",
    "punto": "Silleda",
    "nombre_visible": "Peaje Silleda",
@@ -1991,6 +4829,23 @@
    "nombre": "Padrón",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.732465,
+     "lon": -8.640346,
+     "n": 1,
+     "rumbo": 220
+    },
+    {
+     "lat": 42.732491,
+     "lon": -8.640141,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.5
+   },
    "pais": "ES",
    "punto": "Padrón",
    "nombre_visible": "Peaje Padrón",
@@ -2002,6 +4857,24 @@
    "nombre": "Peaxe de Ribadulla",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.757509,
+     "lon": -8.438149,
+     "n": 1,
+     "rumbo": 153
+    },
+    {
+     "lat": 42.757555,
+     "lon": -8.438023,
+     "n": 1,
+     "rumbo": 334
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.7
+   },
    "pais": "ES",
    "via_visible": "Autopista Central Galega",
    "punto": "Peaxe de Ribadulla",
@@ -2017,6 +4890,18 @@
    "ref": "AP-53",
    "localidad": "Avenida do Mestre Manuel Gómez Lorenzo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.779923,
+     "lon": -8.465345,
+     "n": 2,
+     "rumbo": 355
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AP-53",
    "punto": "Avenida do Mestre Manuel Gómez Lorenzo",
@@ -2024,13 +4909,57 @@
    "confianza": "media"
   },
   {
-   "lat": 42.782999,
-   "lon": -5.786282,
+   "lat": 42.783128,
+   "lon": -5.786555,
    "nombre": "Peaje de La Magdalena",
    "tipo": "cabina",
    "via": "Enlace de La Magdalena",
    "ref": "AP-66",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.782764,
+     "lon": -5.78396,
+     "n": 1,
+     "rumbo": 63
+    },
+    {
+     "lat": 42.7828,
+     "lon": -5.784005,
+     "n": 1
+    },
+    {
+     "lat": 42.782837,
+     "lon": -5.784019,
+     "n": 1,
+     "rumbo": 247
+    },
+    {
+     "lat": 42.782955,
+     "lon": -5.786907,
+     "n": 7,
+     "rumbo": 145
+    },
+    {
+     "lat": 42.782996,
+     "lon": -5.786859,
+     "n": 1
+    },
+    {
+     "lat": 42.783128,
+     "lon": -5.786555,
+     "n": 7,
+     "rumbo": 325
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 26,
+    "centro_plaza": [
+     42.782999,
+     -5.786282
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-66",
    "punto": "de La Magdalena",
@@ -2045,6 +4974,19 @@
    "ref": "A-2622",
    "localidad": "Pobes",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.817457,
+     "lon": -2.893019,
+     "n": 1,
+     "rumbo": 175,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "A-2622",
    "punto": "Pobes",
@@ -2059,6 +5001,23 @@
    "via": "Autoestrada do Atlántico",
    "ref": "AP-9",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.817512,
+     "lon": -8.571473,
+     "n": 1
+    },
+    {
+     "lat": 42.817836,
+     "lon": -8.571163,
+     "n": 6,
+     "rumbo": 22
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.2
+   },
    "pais": "ES",
    "via_visible": "AP-9",
    "punto": "Teo",
@@ -2066,13 +5025,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 42.867689,
-   "lon": -1.748438,
+   "lat": 42.867626,
+   "lon": -1.748724,
    "nombre": "Sarasa",
    "tipo": "cabina",
    "via": "Nafarroako autobidea",
    "ref": "AP-15",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.867626,
+     "lon": -1.748724,
+     "n": 1,
+     "rumbo": 159
+    },
+    {
+     "lat": 42.867751,
+     "lon": -1.748151,
+     "n": 1,
+     "rumbo": 342
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 24,
+    "centro_plaza": [
+     42.867689,
+     -1.748438
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-15",
    "punto": "Sarasa",
@@ -2085,6 +5066,24 @@
    "nombre": "Peaje A-66 Salida 93 Villablino",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.907331,
+     "lon": -5.889725,
+     "n": 2,
+     "rumbo": 148
+    },
+    {
+     "lat": 42.907368,
+     "lon": -5.889623,
+     "n": 2,
+     "rumbo": 329
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.6
+   },
    "pais": "ES",
    "via_visible": "Autopista Ruta de la Plata",
    "punto": "A-66 Salida 93 Villablino",
@@ -2099,6 +5098,24 @@
    "ref": "AP-1",
    "localidad": "Durana",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.91521,
+     "lon": -2.697079,
+     "n": 1,
+     "rumbo": 54
+    },
+    {
+     "lat": 42.91539,
+     "lon": -2.697254,
+     "n": 1,
+     "rumbo": 234
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.2
+   },
    "pais": "ES",
    "via_visible": "AP-1",
    "punto": "Durana",
@@ -2112,6 +5129,19 @@
    "tipo": "cabina",
    "localidad": "Durana",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.928584,
+     "lon": -2.64734,
+     "n": 1,
+     "rumbo": 188,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "punto": "Durana",
    "nombre_visible": "Peaje Durana",
@@ -2127,6 +5157,24 @@
    "km": "6",
    "localidad": "Ataun",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.943972,
+     "lon": -2.226439,
+     "n": 1,
+     "rumbo": 171
+    },
+    {
+     "lat": 42.943987,
+     "lon": -2.226312,
+     "n": 1,
+     "rumbo": 352
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.2
+   },
    "pais": "ES",
    "via_visible": "N-I",
    "punto": "Ataun",
@@ -2141,6 +5189,24 @@
    "ref": "N-622",
    "localidad": "Izarra",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.964385,
+     "lon": -2.867092,
+     "n": 1,
+     "rumbo": 102
+    },
+    {
+     "lat": 42.964527,
+     "lon": -2.86705,
+     "n": 1,
+     "rumbo": 281
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.0
+   },
    "pais": "ES",
    "via_visible": "N-622",
    "punto": "Izarra",
@@ -2155,6 +5221,23 @@
    "via": "Autoestrada do Atlántico",
    "ref": "AP-9",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.977966,
+     "lon": -8.440371,
+     "n": 2
+    },
+    {
+     "lat": 42.977981,
+     "lon": -8.440415,
+     "n": 3,
+     "rumbo": 213
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.6
+   },
    "pais": "ES",
    "via_visible": "AP-9",
    "punto": "Sigüeiro",
@@ -2168,6 +5251,19 @@
    "tipo": "cabina",
    "localidad": "Izarra",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.01578,
+     "lon": -2.909211,
+     "n": 1,
+     "rumbo": 312,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AP-68",
    "punto": "Izarra",
@@ -2183,6 +5279,24 @@
    "ref": "AP-1",
    "localidad": "Eskoriatza",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.024144,
+     "lon": -2.519314,
+     "n": 1
+    },
+    {
+     "lat": 43.024182,
+     "lon": -2.519239,
+     "n": 1,
+     "rumbo": 68,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.7
+   },
    "pais": "ES",
    "via_visible": "AP-1",
    "punto": "Eskoriatza",
@@ -2197,6 +5311,24 @@
    "via": "Beasain-Bergara autobia",
    "ref": "AP-636",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.047642,
+     "lon": -2.233866,
+     "n": 1,
+     "rumbo": 39
+    },
+    {
+     "lat": 43.047693,
+     "lon": -2.233965,
+     "n": 1,
+     "rumbo": 220
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.9
+   },
    "pais": "ES",
    "via_visible": "AP-636",
    "punto": "Beasain",
@@ -2212,6 +5344,19 @@
    "ref": "BI-3542",
    "localidad": "San Juan",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.051587,
+     "lon": -2.698632,
+     "n": 1,
+     "rumbo": 123,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "BI-3542",
    "punto": "San Juan",
@@ -2227,6 +5372,19 @@
    "ref": "N-240",
    "localidad": "San Juan",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.064244,
+     "lon": -2.710297,
+     "n": 1,
+     "rumbo": 146,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "N-240",
    "punto": "San Juan",
@@ -2242,6 +5400,24 @@
    "ref": "AP-1",
    "localidad": "Arrasate / Mondragón",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.073858,
+     "lon": -2.463981,
+     "n": 1,
+     "rumbo": 58
+    },
+    {
+     "lat": 43.073956,
+     "lon": -2.46405,
+     "n": 1,
+     "rumbo": 237
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.1
+   },
    "pais": "ES",
    "via_visible": "AP-1",
    "punto": "Arrasate / Mondragón",
@@ -2256,6 +5432,24 @@
    "via": "Beasain-Bergara autobia",
    "ref": "AP-636",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.077138,
+     "lon": -2.29922,
+     "n": 1,
+     "rumbo": 131
+    },
+    {
+     "lat": 43.077204,
+     "lon": -2.299138,
+     "n": 1,
+     "rumbo": 313
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.9
+   },
    "pais": "ES",
    "via_visible": "AP-636",
    "punto": "Ezkio",
@@ -2268,6 +5462,29 @@
    "nombre": "Ordes",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.081456,
+     "lon": -8.360611,
+     "n": 2,
+     "rumbo": 73
+    },
+    {
+     "lat": 43.08154,
+     "lon": -8.360647,
+     "n": 2,
+     "rumbo": 250
+    },
+    {
+     "lat": 43.081636,
+     "lon": -8.36062,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.2
+   },
    "pais": "ES",
    "via_visible": "AC-524",
    "punto": "Ordes",
@@ -2282,6 +5499,24 @@
    "via": "Beasain-Bergara autobia",
    "ref": "AP-636",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.084768,
+     "lon": -2.339442,
+     "n": 1,
+     "rumbo": 118
+    },
+    {
+     "lat": 43.084858,
+     "lon": -2.339385,
+     "n": 1,
+     "rumbo": 298
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.5
+   },
    "pais": "ES",
    "via_visible": "AP-636",
    "punto": "Deskarga",
@@ -2289,11 +5524,33 @@
    "confianza": "alta"
   },
   {
-   "lat": 43.089046,
-   "lon": -2.358338,
+   "lat": 43.089293,
+   "lon": -2.358475,
    "nombre": "Antzuola",
    "tipo": "portico",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.088799,
+     "lon": -2.358201,
+     "n": 1,
+     "rumbo": 61
+    },
+    {
+     "lat": 43.089293,
+     "lon": -2.358475,
+     "n": 1,
+     "rumbo": 268
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 29,
+    "centro_plaza": [
+     43.089046,
+     -2.358338
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-636",
    "punto": "Antzuola",
@@ -2307,6 +5564,29 @@
    "tipo": "cabina",
    "localidad": "Bergara",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.093493,
+     "lon": -2.43065,
+     "n": 1,
+     "rumbo": 48
+    },
+    {
+     "lat": 43.093564,
+     "lon": -2.430686,
+     "n": 1
+    },
+    {
+     "lat": 43.093574,
+     "lon": -2.430782,
+     "n": 1,
+     "rumbo": 226
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.7
+   },
    "pais": "ES",
    "via_visible": "AP-636",
    "punto": "Bergara",
@@ -2322,6 +5602,19 @@
    "ref": "N-240",
    "localidad": "Areatza",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.111066,
+     "lon": -2.759256,
+     "n": 1,
+     "rumbo": 133,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "N-240",
    "punto": "Areatza",
@@ -2339,6 +5632,19 @@
    "km": "26",
    "localidad": "Areatza",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.123134,
+     "lon": -2.766714,
+     "n": 1,
+     "rumbo": 125,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "N-240",
    "punto": "Areatza",
@@ -2355,6 +5661,24 @@
    "ref": "AP-1",
    "localidad": "Bergara",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.125093,
+     "lon": -2.426773,
+     "n": 1,
+     "rumbo": 19,
+     "doble": true
+    },
+    {
+     "lat": 43.125135,
+     "lon": -2.426791,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.4
+   },
    "pais": "ES",
    "via_visible": "AP-1",
    "punto": "Bergara",
@@ -2370,6 +5694,24 @@
    "ref": "N-I",
    "localidad": "Tolosa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.12791,
+     "lon": -2.082716,
+     "n": 1,
+     "rumbo": 80
+    },
+    {
+     "lat": 43.128011,
+     "lon": -2.082739,
+     "n": 1,
+     "rumbo": 258
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.6
+   },
    "pais": "ES",
    "via_visible": "N-I",
    "punto": "Tolosa",
@@ -2377,13 +5719,47 @@
    "confianza": "media"
   },
   {
-   "lat": 43.139245,
-   "lon": -2.936403,
+   "lat": 43.139,
+   "lon": -2.935943,
    "nombre": "Peaje AP-68",
    "tipo": "cabina",
    "ref": "AP-68",
    "localidad": "Laudio / Llodio",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.139,
+     "lon": -2.935943,
+     "n": 2,
+     "rumbo": 162
+    },
+    {
+     "lat": 43.139209,
+     "lon": -2.935181,
+     "n": 1,
+     "rumbo": 340
+    },
+    {
+     "lat": 43.139455,
+     "lon": -2.937358,
+     "n": 1,
+     "rumbo": 37
+    },
+    {
+     "lat": 43.13956,
+     "lon": -2.937589,
+     "n": 1,
+     "rumbo": 219
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 46,
+    "centro_plaza": [
+     43.139245,
+     -2.936403
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-68",
    "punto": "Laudio / Llodio",
@@ -2399,6 +5775,19 @@
    "ref": "N-240",
    "localidad": "Artea",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.147025,
+     "lon": -2.788546,
+     "n": 1,
+     "rumbo": 162,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "N-240",
    "punto": "Artea",
@@ -2414,6 +5803,24 @@
    "ref": "BI-625",
    "localidad": "Arakaldo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.157673,
+     "lon": -2.93427,
+     "n": 1,
+     "rumbo": 96
+    },
+    {
+     "lat": 43.157806,
+     "lon": -2.934261,
+     "n": 1,
+     "rumbo": 275
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.3
+   },
    "pais": "ES",
    "via_visible": "BI-625",
    "punto": "Arakaldo",
@@ -2429,6 +5836,19 @@
    "ref": "N-240",
    "localidad": "Igorre",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.158316,
+     "lon": -2.782284,
+     "n": 1,
+     "rumbo": 84,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "N-240",
    "punto": "Igorre",
@@ -2444,6 +5864,19 @@
    "ref": "BI-3543",
    "localidad": "Igorre",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.158803,
+     "lon": -2.771628,
+     "n": 1,
+     "rumbo": 1,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "BI-3543",
    "punto": "Igorre",
@@ -2458,6 +5891,18 @@
    "via": "Gerediaga - Elorrio Autobidea",
    "localidad": "Berriz",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.167533,
+     "lon": -2.595448,
+     "n": 1,
+     "rumbo": 85
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AP-8",
    "punto": "Berriz",
@@ -2473,6 +5918,24 @@
    "ref": "N-I",
    "localidad": "Irura",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.168561,
+     "lon": -2.065644,
+     "n": 1,
+     "rumbo": 69
+    },
+    {
+     "lat": 43.168629,
+     "lon": -2.065322,
+     "n": 1,
+     "rumbo": 310
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.6
+   },
    "pais": "ES",
    "via_visible": "N-I",
    "punto": "Irura",
@@ -2480,12 +5943,40 @@
    "confianza": "media"
   },
   {
-   "lat": 43.168699,
-   "lon": -2.603738,
+   "lat": 43.168552,
+   "lon": -2.604968,
    "nombre": "Matiena",
    "tipo": "cabina",
    "via": "Kantauriko Autobidea",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.168552,
+     "lon": -2.604968,
+     "n": 3,
+     "rumbo": 114
+    },
+    {
+     "lat": 43.168893,
+     "lon": -2.603498,
+     "n": 1,
+     "rumbo": 288
+    },
+    {
+     "lat": 43.168947,
+     "lon": -2.600288,
+     "n": 1,
+     "rumbo": 311
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 29,
+    "centro_plaza": [
+     43.168699,
+     -2.603738
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-8",
    "punto": "Matiena",
@@ -2501,6 +5992,19 @@
    "ref": "N-240",
    "localidad": "Igorre",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.171145,
+     "lon": -2.773037,
+     "n": 1,
+     "rumbo": 342,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "N-240",
    "punto": "Igorre",
@@ -2515,6 +6019,24 @@
    "tipo": "cabina",
    "localidad": "Ermua",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.176254,
+     "lon": -2.514117,
+     "n": 1,
+     "rumbo": 87,
+     "doble": true
+    },
+    {
+     "lat": 43.176263,
+     "lon": -2.514124,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.5
+   },
    "pais": "ES",
    "via_visible": "AP-8",
    "punto": "Ermua",
@@ -2530,6 +6052,18 @@
    "ref": "N-I",
    "localidad": "Villabona",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.176566,
+     "lon": -2.05578,
+     "n": 1,
+     "rumbo": 43
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "N-I",
    "punto": "Villabona",
@@ -2537,13 +6071,59 @@
    "confianza": "media"
   },
   {
-   "lat": 43.178601,
-   "lon": -2.642636,
+   "lat": 43.17833,
+   "lon": -2.642988,
    "nombre": "Durango",
    "tipo": "cabina",
    "via": "Bizkaiko Golkoko Autobidea",
    "ref": "AP-8",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.17833,
+     "lon": -2.642988,
+     "n": 5,
+     "rumbo": 346
+    },
+    {
+     "lat": 43.178411,
+     "lon": -2.641759,
+     "n": 3,
+     "rumbo": 7
+    },
+    {
+     "lat": 43.17842,
+     "lon": -2.642003,
+     "n": 5,
+     "rumbo": 188
+    },
+    {
+     "lat": 43.178698,
+     "lon": -2.643387,
+     "n": 5,
+     "rumbo": 166
+    },
+    {
+     "lat": 43.17969,
+     "lon": -2.64279,
+     "n": 1,
+     "rumbo": 104
+    },
+    {
+     "lat": 43.179858,
+     "lon": -2.642752,
+     "n": 1,
+     "rumbo": 282
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 41,
+    "centro_plaza": [
+     43.178601,
+     -2.642636
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-8",
    "punto": "Durango",
@@ -2559,6 +6139,19 @@
    "ref": "N-240",
    "localidad": "Igorre",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.186557,
+     "lon": -2.774763,
+     "n": 1,
+     "rumbo": 178,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "N-240",
    "punto": "Igorre",
@@ -2573,6 +6166,18 @@
    "tipo": "cabina",
    "localidad": "Ugao-Miraballes",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.190275,
+     "lon": -2.89658,
+     "n": 1,
+     "rumbo": 75
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AP-68",
    "punto": "Ugao-Miraballes",
@@ -2585,6 +6190,19 @@
    "nombre": "Eibar-Soraluze",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.190558,
+     "lon": -2.449477,
+     "n": 1,
+     "rumbo": 37,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AP-8",
    "punto": "Eibar-Soraluze",
@@ -2600,6 +6218,18 @@
    "ref": "N-I",
    "localidad": "Aduna",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.19624,
+     "lon": -2.048208,
+     "n": 1,
+     "rumbo": 275
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "N-I",
    "punto": "Aduna",
@@ -2614,6 +6244,19 @@
    "ref": "AP-68",
    "localidad": "Arrigorriaga",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.201118,
+     "lon": -2.895502,
+     "n": 1,
+     "rumbo": 172,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AP-68",
    "punto": "Arrigorriaga",
@@ -2628,6 +6271,19 @@
    "ref": "BI-3526",
    "localidad": "Lemoa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.20672,
+     "lon": -2.777432,
+     "n": 1,
+     "rumbo": 266,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "BI-3526",
    "punto": "Lemoa",
@@ -2640,6 +6296,18 @@
    "nombre": "Peaje Vehiculos pesados",
    "tipo": "portico",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.209447,
+     "lon": -2.034041,
+     "n": 2,
+     "rumbo": 30
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Iparraldeko autobia",
    "punto": "Vehiculos pesados",
@@ -2655,6 +6323,19 @@
    "ref": "N-240",
    "localidad": "Bedia",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.210684,
+     "lon": -2.807657,
+     "n": 1,
+     "rumbo": 153,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "N-240",
    "punto": "Bedia",
@@ -2662,13 +6343,41 @@
    "confianza": "media"
   },
   {
-   "lat": 43.217604,
-   "lon": -2.024587,
+   "lat": 43.216329,
+   "lon": -2.024574,
    "nombre": "Peaje Vehiculos pesados",
    "tipo": "portico",
    "via": "Nafarroa-Gipuzkoa autobidea",
    "ref": "N-I",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.216296,
+     "lon": -2.024707,
+     "n": 1,
+     "rumbo": 160
+    },
+    {
+     "lat": 43.216329,
+     "lon": -2.024574,
+     "n": 1,
+     "rumbo": 340
+    },
+    {
+     "lat": 43.220186,
+     "lon": -2.024479,
+     "n": 1,
+     "rumbo": 311
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 141,
+    "centro_plaza": [
+     43.217604,
+     -2.024587
+    ]
+   },
    "pais": "ES",
    "via_visible": "N-I",
    "punto": "Vehiculos pesados",
@@ -2684,6 +6393,19 @@
    "ref": "N-240",
    "localidad": "Usansolo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.220746,
+     "lon": -2.815635,
+     "n": 1,
+     "rumbo": 155,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "N-240",
    "punto": "Usansolo",
@@ -2691,16 +6413,40 @@
    "confianza": "media"
   },
   {
-   "lat": 43.225567,
-   "lon": -2.024359,
+   "lat": 43.22474,
+   "lon": -2.02469,
    "nombre": "Peaje Vehiculos pesados",
    "tipo": "portico",
    "via": "Buruntza auzoa",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.22474,
+     "lon": -2.02469,
+     "n": 1,
+     "rumbo": 243,
+     "doble": true
+    },
+    {
+     "lat": 43.226395,
+     "lon": -2.024027,
+     "n": 1,
+     "rumbo": 299,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 95,
+    "centro_plaza": [
+     43.225567,
+     -2.024359
+    ]
+   },
    "pais": "ES",
-   "via_visible": "A-15",
+   "via_visible": "Buruntza auzoa",
    "punto": "Vehiculos pesados",
-   "nombre_visible": "A-15 - Pórtico Vehiculos pesados",
+   "nombre_visible": "Buruntza auzoa - Pórtico Vehiculos pesados",
    "confianza": "alta"
   },
   {
@@ -2712,6 +6458,24 @@
    "ref": "AP-1;AP-8",
    "localidad": "Elgoibar",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.230558,
+     "lon": -2.402195,
+     "n": 3,
+     "rumbo": 173
+    },
+    {
+     "lat": 43.230574,
+     "lon": -2.402045,
+     "n": 2,
+     "rumbo": 353
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.9
+   },
    "pais": "ES",
    "via_visible": "AP-1",
    "punto": "Elgoibar",
@@ -2719,14 +6483,36 @@
    "confianza": "media"
   },
   {
-   "lat": 43.231423,
-   "lon": -2.752769,
+   "lat": 43.231394,
+   "lon": -2.752966,
    "nombre": "Peaje Bizkaiko Golkoko Autobidea (AP-8)",
    "tipo": "cabina",
    "via": "Bizkaiko Golkoko Autobidea",
    "ref": "AP-8",
    "localidad": "Amorebieta",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.231394,
+     "lon": -2.752966,
+     "n": 4,
+     "rumbo": 114
+    },
+    {
+     "lat": 43.231451,
+     "lon": -2.752571,
+     "n": 4,
+     "rumbo": 293
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 16,
+    "centro_plaza": [
+     43.231423,
+     -2.752769
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-8",
    "punto": "Amorebieta",
@@ -2739,6 +6525,18 @@
    "nombre": "Larraskitu",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.236999,
+     "lon": -2.943815,
+     "n": 1,
+     "rumbo": 84
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AP-8",
    "punto": "Larraskitu",
@@ -2753,6 +6551,18 @@
    "via": "Autoestrada da Costa da Morte",
    "ref": "AG-55",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.244857,
+     "lon": -8.669576,
+     "n": 5,
+     "rumbo": 282
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AG-55",
    "punto": "Peaxe AG-55 Saída 29 Carballo (Leste)",
@@ -2765,6 +6575,24 @@
    "nombre": "Peaxe da Laracha Saída 22",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.253181,
+     "lon": -8.609527,
+     "n": 2,
+     "rumbo": 191
+    },
+    {
+     "lat": 43.253237,
+     "lon": -8.609382,
+     "n": 2,
+     "rumbo": 9
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.6
+   },
    "pais": "ES",
    "punto": "Peaxe da Laracha Saída 22",
    "nombre_visible": "Peaje Peaxe da Laracha Saída 22",
@@ -2776,6 +6604,29 @@
    "nombre": "Peaje del Kadagua",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.253468,
+     "lon": -2.971577,
+     "n": 1,
+     "rumbo": 41
+    },
+    {
+     "lat": 43.253533,
+     "lon": -2.971676,
+     "n": 1
+    },
+    {
+     "lat": 43.253577,
+     "lon": -2.971775,
+     "n": 1,
+     "rumbo": 218
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.8
+   },
    "pais": "ES",
    "via_visible": "BI-636",
    "punto": "del Kadagua",
@@ -2789,6 +6640,19 @@
    "tipo": "cabina",
    "localidad": "Bilbao",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.257933,
+     "lon": -2.928821,
+     "n": 1,
+     "rumbo": 42,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "punto": "Bilbao",
    "nombre_visible": "Peaje Bilbao",
@@ -2800,6 +6664,24 @@
    "nombre": "Peaje Paiosaco Salida 17",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.265332,
+     "lon": -8.539545,
+     "n": 1,
+     "rumbo": 92
+    },
+    {
+     "lat": 43.265391,
+     "lon": -8.539634,
+     "n": 1,
+     "rumbo": 269
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.9
+   },
    "pais": "ES",
    "via_visible": "AG-55",
    "punto": "Paiosaco Salida 17",
@@ -2815,6 +6697,24 @@
    "ref": "AP-1;AP-8",
    "localidad": "Aizarnazabal",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.267509,
+     "lon": -2.272675,
+     "n": 1,
+     "rumbo": 21
+    },
+    {
+     "lat": 43.267541,
+     "lon": -2.272788,
+     "n": 1,
+     "rumbo": 201
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.9
+   },
    "pais": "ES",
    "via_visible": "AP-1",
    "punto": "Aizarnazabal",
@@ -2828,6 +6728,17 @@
    "tipo": "cabina",
    "localidad": "Mieres del Camín",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.269427,
+     "lon": -5.800263,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Carretera Gijón a Puerto de Sevilla",
    "punto": "Mieres del Camín",
@@ -2842,6 +6753,29 @@
    "via": "AP-9M Autoestrada do Atlántico",
    "ref": "AP-9M",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.274463,
+     "lon": -8.254563,
+     "n": 1,
+     "rumbo": 111
+    },
+    {
+     "lat": 43.274475,
+     "lon": -8.254431,
+     "n": 1
+    },
+    {
+     "lat": 43.274576,
+     "lon": -8.254501,
+     "n": 1,
+     "rumbo": 290
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.3
+   },
    "pais": "ES",
    "via_visible": "AP-9M",
    "punto": "Macenda",
@@ -2856,6 +6790,18 @@
    "via": "Autoestrada da Costa da Morte",
    "ref": "AG-55",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.276228,
+     "lon": -8.52743,
+     "n": 5,
+     "rumbo": 34
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AG-55",
    "punto": "Peaxe Paiosaco-Arteixo",
@@ -2863,13 +6809,47 @@
    "confianza": "alta"
   },
   {
-   "lat": 43.279934,
-   "lon": -2.158282,
+   "lat": 43.279792,
+   "lon": -2.159027,
    "nombre": "Zarautz",
    "tipo": "cabina",
    "via": "Kantauriko autobidea",
    "ref": "AP-1",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.279324,
+     "lon": -2.159141,
+     "n": 2,
+     "rumbo": 101
+    },
+    {
+     "lat": 43.279792,
+     "lon": -2.159027,
+     "n": 2,
+     "rumbo": 281
+    },
+    {
+     "lat": 43.280685,
+     "lon": -2.156717,
+     "n": 1,
+     "rumbo": 181
+    },
+    {
+     "lat": 43.280685,
+     "lon": -2.156636,
+     "n": 1,
+     "rumbo": 3
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 62,
+    "centro_plaza": [
+     43.279934,
+     -2.158282
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-1",
    "punto": "Zarautz",
@@ -2886,6 +6866,24 @@
    "km": "13",
    "localidad": "Orio",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.282063,
+     "lon": -2.110743,
+     "n": 2,
+     "rumbo": 70
+    },
+    {
+     "lat": 43.282148,
+     "lon": -2.110787,
+     "n": 2,
+     "rumbo": 251
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.0
+   },
    "pais": "ES",
    "via_visible": "DO",
    "punto": "Orio",
@@ -2893,13 +6891,34 @@
    "confianza": "media"
   },
   {
-   "lat": 43.283162,
-   "lon": -8.273586,
+   "lat": 43.283242,
+   "lon": -8.27376,
    "nombre": "Cecebre",
    "tipo": "cabina",
    "via": "Autoestrada do Atlántico",
    "ref": "AP-9SF",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.283002,
+     "lon": -8.273237,
+     "n": 1
+    },
+    {
+     "lat": 43.283242,
+     "lon": -8.27376,
+     "n": 2,
+     "rumbo": 314
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 17,
+    "centro_plaza": [
+     43.283162,
+     -8.273586
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-9SF",
    "punto": "Cecebre",
@@ -2914,6 +6933,24 @@
    "ref": "N-634-D",
    "localidad": "Deba",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.284008,
+     "lon": -2.328445,
+     "n": 1,
+     "rumbo": 93
+    },
+    {
+     "lat": 43.284068,
+     "lon": -2.32845,
+     "n": 1,
+     "rumbo": 270
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.3
+   },
    "pais": "ES",
    "via_visible": "N-634-D",
    "punto": "Deba",
@@ -2921,13 +6958,35 @@
    "confianza": "media"
   },
   {
-   "lat": 43.285479,
-   "lon": -2.936073,
+   "lat": 43.285344,
+   "lon": -2.936127,
    "nombre": "Peaje BI-626",
    "tipo": "cabina",
    "ref": "BI-626",
    "localidad": "Sondika",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.285344,
+     "lon": -2.936127,
+     "n": 2,
+     "rumbo": 128
+    },
+    {
+     "lat": 43.285615,
+     "lon": -2.93602,
+     "n": 2,
+     "rumbo": 308
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 16,
+    "centro_plaza": [
+     43.285479,
+     -2.936073
+    ]
+   },
    "pais": "ES",
    "via_visible": "BI-626",
    "punto": "Sondika",
@@ -2942,6 +7001,18 @@
    "via": "Supersur",
    "ref": "AP-8",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.292417,
+     "lon": -3.020517,
+     "n": 2,
+     "rumbo": 335
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "AP-8",
    "punto": "de Ugarte",
@@ -2954,6 +7025,29 @@
    "nombre": "Guísamo",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.293978,
+     "lon": -8.25754,
+     "n": 1
+    },
+    {
+     "lat": 43.293986,
+     "lon": -8.257278,
+     "n": 1,
+     "rumbo": 34
+    },
+    {
+     "lat": 43.294052,
+     "lon": -8.257421,
+     "n": 1,
+     "rumbo": 213
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.2
+   },
    "pais": "ES",
    "punto": "Guísamo",
    "nombre_visible": "Peaje Guísamo",
@@ -2967,6 +7061,23 @@
    "via": "Autoestrada do Atlántico",
    "ref": "AP-9F",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.294423,
+     "lon": -8.280023,
+     "n": 1
+    },
+    {
+     "lat": 43.294497,
+     "lon": -8.280322,
+     "n": 2,
+     "rumbo": 231
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.5
+   },
    "pais": "ES",
    "via_visible": "AP-9F",
    "punto": "Guísamo Semi-Troncal",
@@ -2979,6 +7090,18 @@
    "nombre": "Peaje de Trapagaran",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.302431,
+     "lon": -3.024535,
+     "n": 1,
+     "rumbo": 157
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "A-8",
    "punto": "de Trapagaran",
@@ -2991,20 +7114,65 @@
    "nombre": "Santa Marta",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.302666,
+     "lon": -8.254851,
+     "n": 1,
+     "rumbo": 159
+    },
+    {
+     "lat": 43.302698,
+     "lon": -8.254746,
+     "n": 1,
+     "rumbo": 340
+    },
+    {
+     "lat": 43.302775,
+     "lon": -8.254845,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.8
+   },
    "pais": "ES",
    "punto": "Santa Marta",
    "nombre_visible": "Peaje Santa Marta",
    "confianza": "alta"
   },
   {
-   "lat": 43.303636,
-   "lon": -8.31478,
+   "lat": 43.303492,
+   "lon": -8.314726,
    "nombre": "Pórtico Vía Ártabra (AG-13)",
    "tipo": "portico",
    "via": "Vía Ártabra",
    "ref": "AG-13",
    "localidad": "Cambre",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.303492,
+     "lon": -8.314726,
+     "n": 5,
+     "rumbo": 80
+    },
+    {
+     "lat": 43.303781,
+     "lon": -8.314834,
+     "n": 5,
+     "rumbo": 266
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 17,
+    "centro_plaza": [
+     43.303636,
+     -8.31478
+    ]
+   },
    "pais": "ES",
    "via_visible": "AG-13",
    "punto": "Cambre",
@@ -3012,13 +7180,35 @@
    "confianza": "media"
   },
   {
-   "lat": 43.305549,
-   "lon": -2.905933,
+   "lat": 43.304857,
+   "lon": -2.904089,
    "nombre": "Peaje Irteerak",
    "tipo": "cabina",
    "via": "Irteerak",
    "localidad": "Sondika",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.304857,
+     "lon": -2.904089,
+     "n": 1,
+     "rumbo": 117
+    },
+    {
+     "lat": 43.306241,
+     "lon": -2.907778,
+     "n": 1,
+     "rumbo": 127
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 168,
+    "centro_plaza": [
+     43.305549,
+     -2.905933
+    ]
+   },
    "pais": "ES",
    "via_visible": "Irteerak",
    "punto": "Sondika",
@@ -3026,12 +7216,40 @@
    "confianza": "media"
   },
   {
+<<<<<<< HEAD
    "lat": 43.306462,
    "lon": -1.883657,
    "nombre": "Peaje cerca de Errenteria",
+=======
+   "lat": 43.306596,
+   "lon": -1.883715,
+   "nombre": "Peaje AP-1 / AP-8 km 5",
+>>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
    "tipo": "cabina",
    "localidad": "Errenteria",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.306327,
+     "lon": -1.8836,
+     "n": 3,
+     "rumbo": 7
+    },
+    {
+     "lat": 43.306596,
+     "lon": -1.883715,
+     "n": 3,
+     "rumbo": 190
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 16,
+    "centro_plaza": [
+     43.306462,
+     -1.883657
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-1 / AP-8",
    "punto": "Errenteria",
@@ -3044,6 +7262,18 @@
    "nombre": "Peaje de Santurtzi",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.314043,
+     "lon": -3.045249,
+     "n": 1,
+     "rumbo": 89
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "A-8",
    "punto": "de Santurtzi",
@@ -3051,13 +7281,36 @@
    "confianza": "alta"
   },
   {
-   "lat": 43.319841,
-   "lon": -2.01004,
+   "lat": 43.318355,
+   "lon": -2.011726,
    "nombre": "Peaje Itsasargiko pasealekua",
    "tipo": "cabina",
    "via": "Itsasargiko pasealekua",
    "localidad": "Donostia / San Sebastián",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.318355,
+     "lon": -2.011726,
+     "n": 1,
+     "rumbo": 54
+    },
+    {
+     "lat": 43.321328,
+     "lon": -2.008355,
+     "n": 1,
+     "rumbo": 215,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 214,
+    "centro_plaza": [
+     43.319841,
+     -2.01004
+    ]
+   },
    "pais": "ES",
    "via_visible": "Itsasargiko pasealekua",
    "punto": "Donostia / San Sebastián",
@@ -3065,8 +7318,8 @@
    "confianza": "media"
   },
   {
-   "lat": 43.319995,
-   "lon": -1.833713,
+   "lat": 43.318579,
+   "lon": -1.833243,
    "nombre": "Peaje Bizkaiko Golkoko Autobidea (AP-1) km 8",
    "tipo": "cabina",
    "via": "Bizkaiko Golkoko Autobidea",
@@ -3074,6 +7327,52 @@
    "km": "8",
    "localidad": "Oiartzun",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.318491,
+     "lon": -1.836409,
+     "n": 1,
+     "rumbo": 77
+    },
+    {
+     "lat": 43.318579,
+     "lon": -1.833243,
+     "n": 1,
+     "rumbo": 101
+    },
+    {
+     "lat": 43.318657,
+     "lon": -1.836458,
+     "n": 1,
+     "rumbo": 259
+    },
+    {
+     "lat": 43.321157,
+     "lon": -1.832318,
+     "n": 1,
+     "rumbo": 178
+    },
+    {
+     "lat": 43.321169,
+     "lon": -1.832188,
+     "n": 1,
+     "rumbo": 358
+    },
+    {
+     "lat": 43.321917,
+     "lon": -1.831661,
+     "n": 1,
+     "rumbo": 193
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 161,
+    "centro_plaza": [
+     43.319995,
+     -1.833713
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-1",
    "punto": "Oiartzun",
@@ -3089,6 +7388,24 @@
    "ref": "AG-55",
    "localidad": "Pastoriza",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.326605,
+     "lon": -8.461584,
+     "n": 5,
+     "rumbo": 42
+    },
+    {
+     "lat": 43.326703,
+     "lon": -8.461901,
+     "n": 5,
+     "rumbo": 222
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.9
+   },
    "pais": "ES",
    "via_visible": "AG-55",
    "punto": "Pastoriza",
@@ -3104,6 +7421,24 @@
    "ref": "A-8",
    "localidad": "Muskiz",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.34292,
+     "lon": -3.141569,
+     "n": 1,
+     "rumbo": 96
+    },
+    {
+     "lat": 43.343042,
+     "lon": -3.141563,
+     "n": 1,
+     "rumbo": 276
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.7
+   },
    "pais": "ES",
    "via_visible": "A-8",
    "punto": "Muskiz",
@@ -3117,29 +7452,107 @@
    "tipo": "cabina",
    "localidad": "Villanueva de Villaescusa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.349566,
+     "lon": -3.855972,
+     "n": 4,
+     "rumbo": 99
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "punto": "Villanueva de Villaescusa",
    "nombre_visible": "Peaje Villanueva de Villaescusa",
    "confianza": "media"
   },
   {
-   "lat": 43.350957,
-   "lon": -8.20387,
+   "lat": 43.351228,
+   "lon": -8.204456,
    "nombre": "Miño",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.350563,
+     "lon": -8.202691,
+     "n": 1
+    },
+    {
+     "lat": 43.350564,
+     "lon": -8.202694,
+     "n": 1,
+     "rumbo": 42
+    },
+    {
+     "lat": 43.351053,
+     "lon": -8.204432,
+     "n": 1
+    },
+    {
+     "lat": 43.351104,
+     "lon": -8.204487,
+     "n": 1,
+     "rumbo": 100
+    },
+    {
+     "lat": 43.351228,
+     "lon": -8.204456,
+     "n": 2,
+     "rumbo": 279
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 47,
+    "centro_plaza": [
+     43.350957,
+     -8.20387
+    ]
+   },
    "pais": "ES",
    "punto": "Miño",
    "nombre_visible": "Peaje Miño",
    "confianza": "alta"
   },
   {
+<<<<<<< HEAD
    "lat": 43.358694,
    "lon": -3.820744,
    "nombre": "Peaje cerca de La Helguera",
+=======
+   "lat": 43.358768,
+   "lon": -3.819915,
+   "nombre": "Peaje Calle Vía (CA-408)",
+>>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
    "tipo": "cabina",
    "localidad": "La Helguera",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.358582,
+     "lon": -3.821988,
+     "n": 2,
+     "rumbo": 15
+    },
+    {
+     "lat": 43.358768,
+     "lon": -3.819915,
+     "n": 3,
+     "rumbo": 354
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 68,
+    "centro_plaza": [
+     43.358694,
+     -3.820744
+    ]
+   },
    "pais": "ES",
    "punto": "La Helguera",
    "nombre_visible": "Peaje La Helguera",
@@ -3153,6 +7566,17 @@
    "via": "Estrada de Acceso ao Porto Petroleiro",
    "localidad": "A Coruña",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.358744,
+     "lon": -8.396719,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Estrada de Acceso ao Porto Petroleiro",
    "punto": "A Coruña",
@@ -3165,6 +7589,29 @@
    "nombre": "Cabanas",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.41437,
+     "lon": -8.157492,
+     "n": 1,
+     "rumbo": 39
+    },
+    {
+     "lat": 43.414419,
+     "lon": -8.157576,
+     "n": 1,
+     "rumbo": 218
+    },
+    {
+     "lat": 43.41452,
+     "lon": -8.157459,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.7
+   },
    "pais": "ES",
    "via_visible": "AP-9F",
    "punto": "Cabanas",
@@ -3178,6 +7625,17 @@
    "tipo": "cabina",
    "localidad": "Maliaño",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.432597,
+     "lon": -3.830219,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "punto": "Maliaño",
    "nombre_visible": "Peaje Maliaño",
@@ -3190,6 +7648,24 @@
    "tipo": "cabina",
    "localidad": "Peñacastillo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.440759,
+     "lon": -3.865386,
+     "n": 1,
+     "rumbo": 49
+    },
+    {
+     "lat": 43.440833,
+     "lon": -3.865509,
+     "n": 1,
+     "rumbo": 223
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.4
+   },
    "pais": "ES",
    "punto": "Peñacastillo",
    "nombre_visible": "Peaje Peñacastillo",
@@ -3205,6 +7681,24 @@
    "km": "208",
    "localidad": "Maliaño",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.441528,
+     "lon": -3.831679,
+     "n": 1,
+     "rumbo": 18
+    },
+    {
+     "lat": 43.441549,
+     "lon": -3.831803,
+     "n": 1,
+     "rumbo": 197
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.1
+   },
    "pais": "ES",
    "via_visible": "Autovía Cantabria - Meseta",
    "punto": "Maliaño",
@@ -3212,13 +7706,34 @@
    "confianza": "media"
   },
   {
-   "lat": 43.442322,
-   "lon": -8.171873,
+   "lat": 43.442199,
+   "lon": -8.17166,
    "nombre": "Vilar do Colo",
    "tipo": "cabina",
    "via": "Autoestrada do Atlántico",
    "ref": "AP-9F",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.442199,
+     "lon": -8.17166,
+     "n": 1
+    },
+    {
+     "lat": 43.442445,
+     "lon": -8.172086,
+     "n": 1,
+     "rumbo": 336
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 22,
+    "centro_plaza": [
+     43.442322,
+     -8.171873
+    ]
+   },
    "pais": "ES",
    "via_visible": "AP-9F",
    "punto": "Vilar do Colo",
@@ -3234,6 +7749,17 @@
    "km": "9",
    "localidad": "Santander",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.454762,
+     "lon": -3.811477,
+     "n": 4
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "ES",
    "via_visible": "Calle del Marqués de la Hermida",
    "punto": "Santander",
@@ -3250,17 +7776,69 @@
    "via": "Mercadona parking",
    "localidad": "La Cala",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 36.506616,
+     "lon": -4.676411,
+     "n": 1,
+     "rumbo": 235
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
   {
-   "lat": 40.465525,
-   "lon": -3.571947,
+   "lat": 40.465766,
+   "lon": -3.572059,
    "nombre": "Peaje Parking Express T1 (M-14)",
    "tipo": "cabina",
    "via": "Parking Express T1",
    "ref": "M-14",
    "localidad": "Coslada",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 40.463351,
+     "lon": -3.571592,
+     "n": 1,
+     "rumbo": 53
+    },
+    {
+     "lat": 40.463386,
+     "lon": -3.572185,
+     "n": 1,
+     "rumbo": 313
+    },
+    {
+     "lat": 40.465766,
+     "lon": -3.572059,
+     "n": 2,
+     "rumbo": 12
+    },
+    {
+     "lat": 40.465792,
+     "lon": -3.573157,
+     "n": 1,
+     "rumbo": 215
+    },
+    {
+     "lat": 40.469086,
+     "lon": -3.570631,
+     "n": 1,
+     "rumbo": 326
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 28,
+    "centro_plaza": [
+     40.465525,
+     -3.571947
+    ]
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
   {
@@ -3269,20 +7847,62 @@
    "nombre": "Parking T4 Entrada",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 40.48797,
+     "lon": -3.595561,
+     "n": 1,
+     "rumbo": 0
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
   {
-   "lat": 43.35854,
-   "lon": -5.854633,
+   "lat": 43.358932,
+   "lon": -5.855308,
    "nombre": "Acceso peatonal Parking de Llamaquique",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.357819,
+     "lon": -5.852293,
+     "n": 1
+    },
+    {
+     "lat": 43.358867,
+     "lon": -5.856298,
+     "n": 1
+    },
+    {
+     "lat": 43.358932,
+     "lon": -5.855308,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 70,
+    "centro_plaza": [
+     43.35854,
+     -5.854633
+    ]
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
+<<<<<<< HEAD
  "generado": "2026-11-01T14:12Z",
  "alertas": [
   "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
   "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
  ]
+=======
+ "generado": "2026-11-01T17:02Z",
+ "alertas": []
+>>>>>>> a00a46f (Nombres de estaciones (ES) actualizados automáticamente)
 }
