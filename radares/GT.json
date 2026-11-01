@@ -1,7 +1,7 @@
 {
  "version": "gt-2026-11-01",
  "pais": "GT",
- "generado": "2026-11-01T13:38:08+00:00",
+ "generado": "2026-11-01T15:50:19+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial."
@@ -19,7 +19,7 @@
   "con_limite": 14,
   "limite_revisar": 0,
   "limite_desconocido": 0,
-  "revisados_esta_corrida": 4,
+  "revisados_esta_corrida": 0,
   "sin_via": 0,
   "via_completada_esta_corrida": 0,
   "limites_dudosos_sacados": 0,
@@ -76,8 +76,8 @@
    },
    "road_label": "Autopista CA-9 Sur",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 70,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 70,
    "display_name": "Autopista CA-9 Sur - Radar",
    "country": "GT"
   },
@@ -157,8 +157,8 @@
    },
    "road_label": "Autopista CA-9 Sur",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 70,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 70,
    "display_name": "Autopista CA-9 Sur - Radar",
    "country": "GT"
   },
@@ -186,8 +186,8 @@
    },
    "road_label": "Autopista CA-9 Sur",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 70,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 70,
    "display_name": "Autopista CA-9 Sur - Radar",
    "country": "GT"
   },
@@ -215,8 +215,8 @@
    },
    "road_label": "Autopista CA-9 Sur",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 70,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 70,
    "display_name": "Autopista CA-9 Sur - Radar",
    "country": "GT"
   },
