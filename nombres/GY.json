@@ -8,7 +8,19 @@
   "armado": 2,
   "total": 5,
   "confianza_baja": 0,
-  "excluidas": 0
+  "excluidas": 0,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 5,
+   "corregidas": 0,
+   "sin_referencia": 0,
+   "corrida_anterior": {
+    "ok": 5,
+    "a_mas_de_15_m": 0,
+    "sin_referencia": 0,
+    "total": 5
+   }
+  }
  },
  "estaciones": [
   {
@@ -17,6 +29,17 @@
    "nombre": "Demerara Timbers Ltd.",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.284673,
+     "lon": -58.693448,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "GY",
    "punto": "Demerara Timbers Ltd.",
    "nombre_visible": "Toll Demerara Timbers Ltd.",
@@ -31,6 +54,17 @@
    "km": "70",
    "localidad": "Linden",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 5.995373,
+     "lon": -58.302336,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "GY",
    "via_visible": "Soesdyke-Linden Highway",
    "punto": "Linden",
@@ -43,6 +77,17 @@
    "nombre": "Mayor & Town Council - Town of Linden",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.007946,
+     "lon": -58.293999,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "GY",
    "via_visible": "Soesdyke-Linden Highway",
    "punto": "Mayor & Town Council - Town of Linden",
@@ -57,6 +102,23 @@
    "via": "West Berbice Highway",
    "localidad": "Rosignol",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 6.281244,
+     "lon": -57.536675,
+     "n": 1
+    },
+    {
+     "lat": 6.281275,
+     "lon": -57.536678,
+     "n": 1,
+     "rumbo": 105
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.7
+   },
    "pais": "GY",
    "via_visible": "West Berbice Highway",
    "punto": "Rosignol",
@@ -70,6 +132,24 @@
    "tipo": "cabina",
    "via": "Demerara Harbour Bridge",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.767431,
+     "lon": -58.17817,
+     "n": 1
+    },
+    {
+     "lat": 6.767452,
+     "lon": -58.178158,
+     "n": 1,
+     "rumbo": 299,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.3
+   },
    "pais": "GY",
    "via_visible": "Demerara Harbour Bridge",
    "punto": "Demerara Harbour Bridge Toll Booth",
@@ -78,6 +158,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-10-31T13:26Z",
+ "generado": "2026-11-01T16:30Z",
  "alertas": []
 }
