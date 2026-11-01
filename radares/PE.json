@@ -1,7 +1,7 @@
 {
  "version": "pe-2026-11-01",
  "pais": "PE",
- "generado": "2026-11-01T18:00:06+00:00",
+ "generado": "2026-11-01T23:30:38+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "SUTRAN – «Excesos de velocidad detectados por cinemómetros» (datosabiertos.gob.pe): lat/lon de cada detección, no de equipos fijos; desactualizado (2023).",
@@ -17,13 +17,13 @@
    "RED_LIGHT_CAMERA": 0,
    "VEHICLE_CAMERA": 1
   },
-  "con_limite": 55,
-  "limite_revisar": 2,
-  "limite_desconocido": 3,
-  "revisados_esta_corrida": 1,
+  "con_limite": 57,
+  "limite_revisar": 0,
+  "limite_desconocido": 1,
+  "revisados_esta_corrida": 2,
   "sin_via": 0,
-  "via_completada_esta_corrida": 5,
-  "limites_dudosos_sacados": 2,
+  "via_completada_esta_corrida": 0,
+  "limites_dudosos_sacados": 0,
   "por_control": {
    "VELOCIDAD": 57,
    "VELOCIDAD_PROMEDIO": 0,
@@ -44,10 +44,10 @@
    "corrida_anterior": {
     "umbral_m": 15.0,
     "radio_busqueda_m": 150.0,
-    "ok": 53,
+    "ok": 58,
     "corregidas": 0,
     "sin_referencia": 0,
-    "de_osm": 53
+    "de_osm": 58
    }
   }
  },
@@ -354,14 +354,14 @@
     "offset_m": 0.0,
     "reference": "node/5873968059"
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
-   "speed_limit_road_class": "motorway",
+   "road_label": "Vía Expresa Luis Fernán Bedoya Reyes",
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_PROPIO",
-   "road_label": "Vía Expresa Luis Fernán Bedoya Reyes",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "Vía Expresa Luis Fernán Bedoya Reyes - Radar",
    "country": "PE"
   },
@@ -1474,7 +1474,9 @@
    "source_reference": "node/14081004796",
    "source_version": "pe-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_status": "REVISAR",
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
    "controls": [
     "VELOCIDAD"
    ],
@@ -1484,10 +1486,10 @@
     "reference": "node/14081004796"
    },
    "road_label": "Panamericana Norte",
-   "speed_limit_candidates": [
-    40
-   ],
-   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 80,
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "trunk",
    "display_name": "Panamericana Norte - Radar",
    "country": "PE"
   },
@@ -1502,7 +1504,9 @@
    "source_reference": "node/14080997926",
    "source_version": "pe-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_status": "REVISAR",
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
    "controls": [
     "VELOCIDAD"
    ],
@@ -1512,10 +1516,10 @@
     "reference": "node/14080997926"
    },
    "road_label": "Panamericana Norte",
-   "speed_limit_candidates": [
-    40
-   ],
-   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 80,
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "trunk",
    "display_name": "Panamericana Norte - Radar",
    "country": "PE"
   },
