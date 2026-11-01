@@ -707,6 +707,10 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
+<<<<<<< HEAD
  "generado": "2026-11-01T19:35Z",
+=======
+ "generado": "2026-11-01T22:42Z",
+>>>>>>> df6d1b9 (Nombres de estaciones (DO) actualizados automáticamente)
  "alertas": []
 }
