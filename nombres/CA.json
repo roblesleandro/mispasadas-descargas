@@ -7,8 +7,20 @@
   "osm": 49,
   "armado": 260,
   "total": 309,
-  "confianza_baja": 0,
-  "excluidas": 9
+  "confianza_baja": 5,
+  "excluidas": 9,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 238,
+   "corregidas": 80,
+   "sin_referencia": 0,
+   "corrida_anterior": {
+    "ok": 230,
+    "a_mas_de_15_m": 79,
+    "sin_referencia": 0,
+    "total": 309
+   }
+  }
  },
  "estaciones": [
   {
@@ -18,6 +30,18 @@
    "tipo": "cabina",
    "localidad": "Put-in-Bay",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 41.763391,
+     "lon": -82.689781,
+     "n": 1,
+     "rumbo": 278
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Put-in-Bay",
    "nombre_visible": "Toll Put-in-Bay",
@@ -30,6 +54,18 @@
    "tipo": "cabina",
    "via": "Point Pelee Drive",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 41.986745,
+     "lon": -82.548996,
+     "n": 1,
+     "rumbo": 135
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Point Pelee Drive",
    "punto": "Point Pelee National Park",
@@ -45,6 +81,17 @@
    "ref": "50",
    "localidad": "Amherstburg",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.041921,
+     "lon": -83.037263,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 50",
    "punto": "Amherstburg",
@@ -52,14 +99,36 @@
    "confianza": "media"
   },
   {
-   "lat": 42.273312,
-   "lon": -83.08688,
+   "lat": 42.273123,
+   "lon": -83.086996,
    "nombre": "Peaje Rt. Hon. Herb Gray Parkway (401)",
    "tipo": "cabina",
    "via": "Rt. Hon. Herb Gray Parkway",
    "ref": "401",
    "localidad": "LaSalle",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.273123,
+     "lon": -83.086996,
+     "n": 8,
+     "rumbo": 108
+    },
+    {
+     "lat": 42.273529,
+     "lon": -83.086747,
+     "n": 7,
+     "rumbo": 289
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 23,
+    "centro_plaza": [
+     42.273312,
+     -83.08688
+    ]
+   },
    "pais": "CA",
    "via_visible": "Route 401",
    "punto": "LaSalle",
@@ -72,6 +141,18 @@
    "nombre": "Detroit-Windsor tunnel",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 42.315532,
+     "lon": -83.036162,
+     "n": 2,
+     "rumbo": 272
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Nexus Only",
    "punto": "Detroit-Windsor tunnel",
@@ -86,6 +167,18 @@
    "ref": "QEW",
    "localidad": "Fort Erie",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.908466,
+     "lon": -78.916731,
+     "n": 6,
+     "rumbo": 264
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "QEW",
    "punto": "Fort Erie",
@@ -101,6 +194,23 @@
    "ref": "402",
    "localidad": "Point Edward",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 42.993213,
+     "lon": -82.411077,
+     "n": 6,
+     "rumbo": 328
+    },
+    {
+     "lat": 42.993214,
+     "lon": -82.4111,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.2
+   },
    "pais": "CA",
    "via_visible": "Highway 402",
    "punto": "Point Edward",
@@ -108,13 +218,33 @@
    "confianza": "media"
   },
   {
-   "lat": 43.073346,
-   "lon": -79.078294,
+   "lat": 43.073779,
+   "lon": -79.079257,
    "nombre": "Peaje Niagara Parkway (2)",
    "tipo": "cabina",
    "via": "Niagara Parkway",
    "localidad": "Niagara Falls",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.071614,
+     "lon": -79.074444,
+     "n": 1
+    },
+    {
+     "lat": 43.073779,
+     "lon": -79.079257,
+     "n": 4
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 92,
+    "centro_plaza": [
+     43.073346,
+     -79.078294
+    ]
+   },
    "pais": "CA",
    "via_visible": "Niagara Parkway",
    "punto": "Niagara Falls",
@@ -130,6 +260,19 @@
    "via": "Niagara Parkway",
    "localidad": "Niagara Falls",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.086956,
+     "lon": -79.07969,
+     "n": 1,
+     "rumbo": 350,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Niagara Parkway",
    "punto": "Niagara Falls",
@@ -138,13 +281,46 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
+<<<<<<< HEAD
    "lat": 43.117144,
    "lon": -79.248564,
+=======
+   "lat": 43.117196,
+   "lon": -79.25017,
+>>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "nombre": "Peaje Isaac Brock Circle",
    "tipo": "cabina",
    "via": "Isaac Brock Circle",
    "localidad": "Thorold",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.117038,
+     "lon": -79.245276,
+     "n": 1,
+     "rumbo": 1
+    },
+    {
+     "lat": 43.117196,
+     "lon": -79.25017,
+     "n": 1,
+     "rumbo": 1
+    },
+    {
+     "lat": 43.117199,
+     "lon": -79.250248,
+     "n": 1,
+     "rumbo": 179
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 131,
+    "centro_plaza": [
+     43.117144,
+     -79.248564
+    ]
+   },
    "pais": "CA",
    "via_visible": "Isaac Brock Circle",
    "punto": "Thorold",
@@ -160,6 +336,23 @@
    "ref": "405",
    "localidad": "Queenston",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.156684,
+     "lon": -79.052559,
+     "n": 6,
+     "rumbo": 287
+    },
+    {
+     "lat": 43.156686,
+     "lon": -79.052558,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.1
+   },
    "pais": "CA",
    "via_visible": "Route 405",
    "punto": "Queenston",
@@ -174,6 +367,18 @@
    "via": "Bancroft Street",
    "localidad": "Hamilton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.24308,
+     "lon": -79.761719,
+     "n": 1,
+     "rumbo": 197
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Bancroft Street",
    "punto": "Hamilton",
@@ -189,6 +394,18 @@
    "ref": "20",
    "localidad": "Burlington",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.249315,
+     "lon": -79.756913,
+     "n": 1,
+     "rumbo": 107
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 20",
    "punto": "Burlington",
@@ -203,6 +420,17 @@
    "via": "Old Guelph Road",
    "localidad": "Hamilton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.285066,
+     "lon": -79.900775,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Old Guelph Road",
    "punto": "Hamilton",
@@ -210,14 +438,36 @@
    "confianza": "media"
   },
   {
-   "lat": 43.370321,
-   "lon": -79.832396,
+   "lat": 43.369921,
+   "lon": -79.832266,
    "nombre": "Pórtico Highway 407 (407 ETR)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Burlington",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.369921,
+     "lon": -79.832266,
+     "n": 1,
+     "rumbo": 358
+    },
+    {
+     "lat": 43.370722,
+     "lon": -79.832525,
+     "n": 1,
+     "rumbo": 178
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 45,
+    "centro_plaza": [
+     43.370321,
+     -79.832396
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Burlington",
@@ -226,14 +476,60 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.38362,
-   "lon": -79.833558,
+   "lat": 43.383459,
+   "lon": -79.832729,
    "nombre": "Pórtico Highway 407 (407 ETR) (21)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Burlington",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.381201,
+     "lon": -79.834178,
+     "n": 1,
+     "rumbo": 128
+    },
+    {
+     "lat": 43.382511,
+     "lon": -79.832217,
+     "n": 1,
+     "rumbo": 38
+    },
+    {
+     "lat": 43.383459,
+     "lon": -79.832729,
+     "n": 1,
+     "rumbo": 309
+    },
+    {
+     "lat": 43.383773,
+     "lon": -79.834557,
+     "n": 1,
+     "rumbo": 115
+    },
+    {
+     "lat": 43.384607,
+     "lon": -79.83466,
+     "n": 1,
+     "rumbo": 215
+    },
+    {
+     "lat": 43.386171,
+     "lon": -79.833006,
+     "n": 1,
+     "rumbo": 328
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 69,
+    "centro_plaza": [
+     43.38362,
+     -79.833558
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Burlington",
@@ -248,6 +544,17 @@
    "tipo": "cabina",
    "localidad": "Oakville",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.403971,
+     "lon": -79.758649,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Oakville",
    "nombre_visible": "Toll Oakville",
@@ -262,6 +569,18 @@
    "ref": "21",
    "localidad": "Burlington",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.406887,
+     "lon": -79.768974,
+     "n": 1,
+     "rumbo": 133
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 21",
    "punto": "Burlington",
@@ -269,14 +588,60 @@
    "confianza": "media"
   },
   {
-   "lat": 43.415404,
-   "lon": -79.820228,
+   "lat": 43.415812,
+   "lon": -79.821349,
    "nombre": "Pórtico Highway 407 (407 ETR) (20)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Kilbride",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.413481,
+     "lon": -79.821053,
+     "n": 1,
+     "rumbo": 78
+    },
+    {
+     "lat": 43.414331,
+     "lon": -79.819378,
+     "n": 1,
+     "rumbo": 173
+    },
+    {
+     "lat": 43.415064,
+     "lon": -79.818918,
+     "n": 1,
+     "rumbo": 349
+    },
+    {
+     "lat": 43.415812,
+     "lon": -79.821349,
+     "n": 1,
+     "rumbo": 166
+    },
+    {
+     "lat": 43.416682,
+     "lon": -79.820917,
+     "n": 1,
+     "rumbo": 38
+    },
+    {
+     "lat": 43.417054,
+     "lon": -79.819751,
+     "n": 1,
+     "rumbo": 261
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 101,
+    "centro_plaza": [
+     43.415404,
+     -79.820228
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Kilbride",
@@ -284,14 +649,60 @@
    "confianza": "media"
   },
   {
-   "lat": 43.44508,
-   "lon": -79.790058,
+   "lat": 43.445905,
+   "lon": -79.7888,
    "nombre": "Pórtico Highway 407 (407 ETR) (19)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Oakville",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.442659,
+     "lon": -79.790854,
+     "n": 1,
+     "rumbo": 43
+    },
+    {
+     "lat": 43.443696,
+     "lon": -79.789867,
+     "n": 1,
+     "rumbo": 316
+    },
+    {
+     "lat": 43.443732,
+     "lon": -79.79135,
+     "n": 1,
+     "rumbo": 199
+    },
+    {
+     "lat": 43.445905,
+     "lon": -79.7888,
+     "n": 1,
+     "rumbo": 7
+    },
+    {
+     "lat": 43.446843,
+     "lon": -79.789817,
+     "n": 1,
+     "rumbo": 143
+    },
+    {
+     "lat": 43.447647,
+     "lon": -79.789656,
+     "n": 1,
+     "rumbo": 225
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 137,
+    "centro_plaza": [
+     43.44508,
+     -79.790058
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Oakville",
@@ -308,6 +719,18 @@
    "ref": "40",
    "localidad": "Oakville",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.450466,
+     "lon": -79.766168,
+     "n": 1,
+     "rumbo": 127
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 40",
    "punto": "Oakville",
@@ -315,14 +738,48 @@
    "confianza": "media"
   },
   {
-   "lat": 43.468142,
-   "lon": -80.541577,
+   "lat": 43.467416,
+   "lon": -80.543295,
    "nombre": "Peaje University Avenue West (RR 57)",
    "tipo": "cabina",
    "via": "University Avenue West",
    "ref": "RR 57",
    "localidad": "Waterloo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.465368,
+     "lon": -80.541651,
+     "n": 1,
+     "rumbo": 69,
+     "doble": true
+    },
+    {
+     "lat": 43.467416,
+     "lon": -80.543295,
+     "n": 1
+    },
+    {
+     "lat": 43.469412,
+     "lon": -80.537329,
+     "n": 1,
+     "rumbo": 20,
+     "doble": true
+    },
+    {
+     "lat": 43.470372,
+     "lon": -80.544032,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 160,
+    "centro_plaza": [
+     43.468142,
+     -80.541577
+    ]
+   },
    "pais": "CA",
    "via_visible": "RR 57",
    "punto": "Waterloo",
@@ -336,20 +793,66 @@
    "tipo": "cabina",
    "localidad": "Milton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.476253,
+     "lon": -79.826231,
+     "n": 1,
+     "rumbo": 218
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Milton",
    "nombre_visible": "Toll Milton",
    "confianza": "media"
   },
   {
-   "lat": 43.484625,
-   "lon": -79.765861,
+   "lat": 43.484295,
+   "lon": -79.767466,
    "nombre": "Pórtico Highway 407 (407 ETR) (22)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Oakville",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.482485,
+     "lon": -79.767442,
+     "n": 1,
+     "rumbo": 72
+    },
+    {
+     "lat": 43.484295,
+     "lon": -79.767466,
+     "n": 1,
+     "rumbo": 213
+    },
+    {
+     "lat": 43.485262,
+     "lon": -79.763955,
+     "n": 1,
+     "rumbo": 37
+    },
+    {
+     "lat": 43.486459,
+     "lon": -79.764581,
+     "n": 1,
+     "rumbo": 233
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 135,
+    "centro_plaza": [
+     43.484625,
+     -79.765861
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Oakville",
@@ -358,14 +861,60 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.508849,
-   "lon": -79.74803,
+   "lat": 43.508913,
+   "lon": -79.748896,
    "nombre": "Pórtico Highway 407 (407 ETR) (37)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Oakville",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.506917,
+     "lon": -79.749008,
+     "n": 1,
+     "rumbo": 70
+    },
+    {
+     "lat": 43.507438,
+     "lon": -79.74826,
+     "n": 1,
+     "rumbo": 315
+    },
+    {
+     "lat": 43.508868,
+     "lon": -79.746653,
+     "n": 1,
+     "rumbo": 5
+    },
+    {
+     "lat": 43.508913,
+     "lon": -79.748896,
+     "n": 1,
+     "rumbo": 180
+    },
+    {
+     "lat": 43.510281,
+     "lon": -79.748465,
+     "n": 1,
+     "rumbo": 41
+    },
+    {
+     "lat": 43.510679,
+     "lon": -79.746897,
+     "n": 1,
+     "rumbo": 253
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 70,
+    "centro_plaza": [
+     43.508849,
+     -79.74803
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Oakville",
@@ -374,14 +923,36 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.521702,
-   "lon": -79.732758,
+   "lat": 43.521043,
+   "lon": -79.732887,
    "nombre": "Pórtico Highway 407 (407 ETR) (10)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Oakville",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.521043,
+     "lon": -79.732887,
+     "n": 1,
+     "rumbo": 45
+    },
+    {
+     "lat": 43.522362,
+     "lon": -79.732629,
+     "n": 1,
+     "rumbo": 209
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 74,
+    "centro_plaza": [
+     43.521702,
+     -79.732758
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Oakville",
@@ -390,14 +961,36 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.53167,
-   "lon": -79.732723,
+   "lat": 43.531708,
+   "lon": -79.733826,
    "nombre": "Pórtico Highway 407 (407 ETR) (9)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Mississauga",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.531631,
+     "lon": -79.73162,
+     "n": 1,
+     "rumbo": 300
+    },
+    {
+     "lat": 43.531708,
+     "lon": -79.733826,
+     "n": 1,
+     "rumbo": 145
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 89,
+    "centro_plaza": [
+     43.53167,
+     -79.732723
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Mississauga",
@@ -406,14 +999,60 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.552322,
-   "lon": -79.762907,
+   "lat": 43.552512,
+   "lon": -79.764326,
    "nombre": "Pórtico Highway 407 (407 ETR) (33)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Mississauga",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.551225,
+     "lon": -79.762765,
+     "n": 1,
+     "rumbo": 95
+    },
+    {
+     "lat": 43.551599,
+     "lon": -79.760647,
+     "n": 1,
+     "rumbo": 355
+    },
+    {
+     "lat": 43.552059,
+     "lon": -79.761171,
+     "n": 1,
+     "rumbo": 240
+    },
+    {
+     "lat": 43.552512,
+     "lon": -79.764326,
+     "n": 1,
+     "rumbo": 63
+    },
+    {
+     "lat": 43.553098,
+     "lon": -79.765235,
+     "n": 1,
+     "rumbo": 159
+    },
+    {
+     "lat": 43.55344,
+     "lon": -79.763301,
+     "n": 1,
+     "rumbo": 289
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 116,
+    "centro_plaza": [
+     43.552322,
+     -79.762907
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Mississauga",
@@ -422,14 +1061,60 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.57156,
-   "lon": -79.789587,
+   "lat": 43.57139,
+   "lon": -79.788316,
    "nombre": "Pórtico Highway 407 (407 ETR) (32)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Milton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.570179,
+     "lon": -79.788823,
+     "n": 1,
+     "rumbo": 132
+    },
+    {
+     "lat": 43.570804,
+     "lon": -79.787734,
+     "n": 1,
+     "rumbo": 349
+    },
+    {
+     "lat": 43.57139,
+     "lon": -79.788316,
+     "n": 1,
+     "rumbo": 241
+    },
+    {
+     "lat": 43.571907,
+     "lon": -79.791145,
+     "n": 1,
+     "rumbo": 99
+    },
+    {
+     "lat": 43.572397,
+     "lon": -79.792293,
+     "n": 1,
+     "rumbo": 164
+    },
+    {
+     "lat": 43.57268,
+     "lon": -79.789208,
+     "n": 1,
+     "rumbo": 247
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 104,
+    "centro_plaza": [
+     43.57156,
+     -79.789587
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Milton",
@@ -438,14 +1123,38 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.572232,
-   "lon": -79.61084,
+   "lat": 43.572183,
+   "lon": -79.61031,
    "nombre": "Peaje Queensway West (20)",
    "tipo": "cabina",
    "via": "Queensway West",
    "ref": "20",
    "localidad": "Mississauga",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.572183,
+     "lon": -79.61031,
+     "n": 1,
+     "rumbo": 320,
+     "doble": true
+    },
+    {
+     "lat": 43.572282,
+     "lon": -79.61137,
+     "n": 1,
+     "rumbo": 217,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 43,
+    "centro_plaza": [
+     43.572232,
+     -79.61084
+    ]
+   },
    "pais": "CA",
    "via_visible": "Route 20",
    "punto": "Mississauga",
@@ -453,14 +1162,36 @@
    "confianza": "media"
   },
   {
-   "lat": 43.585883,
-   "lon": -79.810624,
+   "lat": 43.584886,
+   "lon": -79.812249,
    "nombre": "Pórtico Highway 407 (407 ETR) (34)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Milton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.584886,
+     "lon": -79.812249,
+     "n": 1,
+     "rumbo": 73
+    },
+    {
+     "lat": 43.586881,
+     "lon": -79.808999,
+     "n": 1,
+     "rumbo": 358
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 171,
+    "centro_plaza": [
+     43.585883,
+     -79.810624
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Milton",
@@ -469,13 +1200,84 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.592818,
-   "lon": -79.637453,
+   "lat": 43.59266,
+   "lon": -79.637841,
    "nombre": "Peaje Burnhamthorpe Road West",
    "tipo": "cabina",
    "via": "Burnhamthorpe Road West",
    "localidad": "Mississauga",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.589498,
+     "lon": -79.640843,
+     "n": 1,
+     "rumbo": 132
+    },
+    {
+     "lat": 43.58982,
+     "lon": -79.632816,
+     "n": 1,
+     "rumbo": 313,
+     "doble": true
+    },
+    {
+     "lat": 43.592633,
+     "lon": -79.637876,
+     "n": 1,
+     "rumbo": 129
+    },
+    {
+     "lat": 43.59266,
+     "lon": -79.637841,
+     "n": 1,
+     "rumbo": 312
+    },
+    {
+     "lat": 43.592943,
+     "lon": -79.636612,
+     "n": 1,
+     "rumbo": 133
+    },
+    {
+     "lat": 43.592974,
+     "lon": -79.636583,
+     "n": 1,
+     "rumbo": 313
+    },
+    {
+     "lat": 43.5935,
+     "lon": -79.637472,
+     "n": 1,
+     "rumbo": 84
+    },
+    {
+     "lat": 43.593533,
+     "lon": -79.637477,
+     "n": 1,
+     "rumbo": 265
+    },
+    {
+     "lat": 43.595292,
+     "lon": -79.638503,
+     "n": 1,
+     "rumbo": 86
+    },
+    {
+     "lat": 43.595324,
+     "lon": -79.638507,
+     "n": 1,
+     "rumbo": 267
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 36,
+    "centro_plaza": [
+     43.592818,
+     -79.637453
+    ]
+   },
    "pais": "CA",
    "via_visible": "Burnhamthorpe Road West",
    "punto": "Mississauga",
@@ -483,14 +1285,48 @@
    "confianza": "media"
   },
   {
-   "lat": 43.593793,
-   "lon": -79.806173,
+   "lat": 43.593215,
+   "lon": -79.805972,
    "nombre": "Pórtico Highway 407 (407 ETR) (13)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Halton Hills",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.592876,
+     "lon": -79.803373,
+     "n": 1,
+     "rumbo": 51
+    },
+    {
+     "lat": 43.593215,
+     "lon": -79.805972,
+     "n": 1,
+     "rumbo": 159
+    },
+    {
+     "lat": 43.59345,
+     "lon": -79.80912,
+     "n": 1,
+     "rumbo": 214
+    },
+    {
+     "lat": 43.595632,
+     "lon": -79.806227,
+     "n": 1,
+     "rumbo": 236
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 66,
+    "centro_plaza": [
+     43.593793,
+     -79.806173
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Halton Hills",
@@ -505,6 +1341,18 @@
    "via": "Sherwoodtowne Boulevard",
    "localidad": "Mississauga",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.600289,
+     "lon": -79.640613,
+     "n": 1,
+     "rumbo": 158
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Sherwoodtowne Boulevard",
    "punto": "Mississauga",
@@ -512,14 +1360,60 @@
    "confianza": "media"
   },
   {
-   "lat": 43.617597,
-   "lon": -79.762307,
+   "lat": 43.618676,
+   "lon": -79.761668,
    "nombre": "Pórtico Highway 407 (407 ETR) (36)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Brampton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.616195,
+     "lon": -79.764241,
+     "n": 1,
+     "rumbo": 78
+    },
+    {
+     "lat": 43.616431,
+     "lon": -79.762696,
+     "n": 1,
+     "rumbo": 314
+    },
+    {
+     "lat": 43.617099,
+     "lon": -79.760593,
+     "n": 1,
+     "rumbo": 353
+    },
+    {
+     "lat": 43.617521,
+     "lon": -79.764366,
+     "n": 1,
+     "rumbo": 206
+    },
+    {
+     "lat": 43.618676,
+     "lon": -79.761668,
+     "n": 1,
+     "rumbo": 198
+    },
+    {
+     "lat": 43.619658,
+     "lon": -79.760276,
+     "n": 1,
+     "rumbo": 244
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 130,
+    "centro_plaza": [
+     43.617597,
+     -79.762307
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Brampton",
@@ -535,6 +1429,19 @@
    "via": "Lake Shore Boulevard West",
    "localidad": "Toronto",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.630461,
+     "lon": -79.414193,
+     "n": 1,
+     "rumbo": 168,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Lake Shore Boulevard West",
    "punto": "Toronto",
@@ -549,6 +1456,17 @@
    "via": "Gardiner Expressway",
    "localidad": "Toronto",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.640159,
+     "lon": -79.388376,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Gardiner Expressway",
    "punto": "Toronto",
@@ -556,13 +1474,54 @@
    "confianza": "media"
   },
   {
-   "lat": 43.640987,
-   "lon": -79.376382,
+   "lat": 43.640436,
+   "lon": -79.375733,
    "nombre": "Peaje Queens Quay West",
    "tipo": "cabina",
    "via": "Queens Quay West",
    "localidad": "Toronto",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.640339,
+     "lon": -79.375777,
+     "n": 1,
+     "rumbo": 151,
+     "doble": true
+    },
+    {
+     "lat": 43.640408,
+     "lon": -79.375699,
+     "n": 1
+    },
+    {
+     "lat": 43.640436,
+     "lon": -79.375733,
+     "n": 3,
+     "rumbo": 283,
+     "doble": true
+    },
+    {
+     "lat": 43.642409,
+     "lon": -79.377985,
+     "n": 1,
+     "rumbo": 66
+    },
+    {
+     "lat": 43.642443,
+     "lon": -79.378011,
+     "n": 1,
+     "rumbo": 245
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 80,
+    "centro_plaza": [
+     43.640987,
+     -79.376382
+    ]
+   },
    "pais": "CA",
    "via_visible": "Queens Quay West",
    "punto": "Toronto",
@@ -570,14 +1529,60 @@
    "confianza": "media"
   },
   {
-   "lat": 43.641034,
-   "lon": -79.737169,
+   "lat": 43.642197,
+   "lon": -79.73688,
    "nombre": "Pórtico Highway 407 (407 ETR) (31)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Brampton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.638858,
+     "lon": -79.738477,
+     "n": 1,
+     "rumbo": 74
+    },
+    {
+     "lat": 43.639772,
+     "lon": -79.73749,
+     "n": 1,
+     "rumbo": 352
+    },
+    {
+     "lat": 43.640611,
+     "lon": -79.739821,
+     "n": 1,
+     "rumbo": 149
+    },
+    {
+     "lat": 43.642127,
+     "lon": -79.734136,
+     "n": 1,
+     "rumbo": 358
+    },
+    {
+     "lat": 43.642197,
+     "lon": -79.73688,
+     "n": 1,
+     "rumbo": 143
+    },
+    {
+     "lat": 43.642641,
+     "lon": -79.73621,
+     "n": 1,
+     "rumbo": 263
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 131,
+    "centro_plaza": [
+     43.641034,
+     -79.737169
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Brampton",
@@ -593,6 +1598,24 @@
    "via": "Cherry Street",
    "localidad": "Toronto",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.642307,
+     "lon": -79.350467,
+     "n": 1,
+     "rumbo": 60
+    },
+    {
+     "lat": 43.642353,
+     "lon": -79.35052,
+     "n": 1,
+     "rumbo": 235
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.3
+   },
    "pais": "CA",
    "via_visible": "Cherry Street",
    "punto": "Toronto",
@@ -600,14 +1623,60 @@
    "confianza": "media"
   },
   {
-   "lat": 43.653772,
-   "lon": -79.7165,
+   "lat": 43.653877,
+   "lon": -79.717945,
    "nombre": "Pórtico Highway 407 (407 ETR) (12)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Brampton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.651635,
+     "lon": -79.71767,
+     "n": 1,
+     "rumbo": 78
+    },
+    {
+     "lat": 43.652206,
+     "lon": -79.716688,
+     "n": 1,
+     "rumbo": 307
+    },
+    {
+     "lat": 43.653877,
+     "lon": -79.717945,
+     "n": 1,
+     "rumbo": 180
+    },
+    {
+     "lat": 43.654176,
+     "lon": -79.714976,
+     "n": 1,
+     "rumbo": 23
+    },
+    {
+     "lat": 43.655111,
+     "lon": -79.716339,
+     "n": 1,
+     "rumbo": 135
+    },
+    {
+     "lat": 43.655628,
+     "lon": -79.715384,
+     "n": 1,
+     "rumbo": 255
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 117,
+    "centro_plaza": [
+     43.653772,
+     -79.7165
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Brampton",
@@ -624,6 +1693,18 @@
    "ref": "407 ETR",
    "localidad": "Brampton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.663277,
+     "lon": -79.704779,
+     "n": 1,
+     "rumbo": 45
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Brampton",
@@ -640,6 +1721,18 @@
    "ref": "410",
    "localidad": "Brampton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.663959,
+     "lon": -79.692948,
+     "n": 1,
+     "rumbo": 321
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Highway 410",
    "punto": "Brampton",
@@ -653,6 +1746,17 @@
    "nombre": "Elora Gorge Conservation Area Gatehouse",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 43.672047,
+     "lon": -80.444446,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Elora Gorge Conservation Area Gatehouse",
    "nombre_visible": "Toll Elora Gorge Conservation Area Gatehouse",
@@ -667,6 +1771,18 @@
    "ref": "410",
    "localidad": "Brampton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.673205,
+     "lon": -79.704393,
+     "n": 1,
+     "rumbo": 166
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Highway 410",
    "punto": "Brampton",
@@ -683,6 +1799,18 @@
    "ref": "407 ETR",
    "localidad": "Brampton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.676806,
+     "lon": -79.695302,
+     "n": 1,
+     "rumbo": 202
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Brampton",
@@ -698,6 +1826,17 @@
    "via": "Austin Terrace",
    "localidad": "Toronto",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.678282,
+     "lon": -79.410025,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Austin Terrace",
    "punto": "Toronto",
@@ -705,13 +1844,40 @@
    "confianza": "media"
   },
   {
-   "lat": 43.685923,
-   "lon": -79.616429,
+   "lat": 43.686407,
+   "lon": -79.617209,
    "nombre": "Peaje Terminal 3",
    "tipo": "cabina",
    "via": "Terminal 3",
    "localidad": "Mississauga",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.683014,
+     "lon": -79.613793,
+     "n": 2,
+     "rumbo": 136
+    },
+    {
+     "lat": 43.686407,
+     "lon": -79.617209,
+     "n": 6,
+     "rumbo": 158
+    },
+    {
+     "lat": 43.688839,
+     "lon": -79.617023,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 82,
+    "centro_plaza": [
+     43.685923,
+     -79.616429
+    ]
+   },
    "pais": "CA",
    "via_visible": "Terminal 3",
    "punto": "Mississauga",
@@ -719,14 +1885,60 @@
    "confianza": "media"
   },
   {
-   "lat": 43.687492,
-   "lon": -79.690945,
+   "lat": 43.687261,
+   "lon": -79.689913,
    "nombre": "Pórtico Highway 407 (407 ETR) (40)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Brampton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.684923,
+     "lon": -79.691205,
+     "n": 1,
+     "rumbo": 41
+    },
+    {
+     "lat": 43.686199,
+     "lon": -79.691119,
+     "n": 1,
+     "rumbo": 339
+    },
+    {
+     "lat": 43.686988,
+     "lon": -79.692108,
+     "n": 1,
+     "rumbo": 185
+    },
+    {
+     "lat": 43.687261,
+     "lon": -79.689913,
+     "n": 1,
+     "rumbo": 337
+    },
+    {
+     "lat": 43.689019,
+     "lon": -79.691043,
+     "n": 1,
+     "rumbo": 166
+    },
+    {
+     "lat": 43.69056,
+     "lon": -79.69028,
+     "n": 1,
+     "rumbo": 221
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 87,
+    "centro_plaza": [
+     43.687492,
+     -79.690945
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Brampton",
@@ -742,6 +1954,18 @@
    "via": "Dixon Road",
    "localidad": "Vaughan",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.691486,
+     "lon": -79.574172,
+     "n": 1,
+     "rumbo": 150
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Dixon Road",
    "punto": "Vaughan",
@@ -749,14 +1973,42 @@
    "confianza": "media"
   },
   {
-   "lat": 43.700585,
-   "lon": -79.682933,
+   "lat": 43.701072,
+   "lon": -79.682145,
    "nombre": "Pórtico Highway 407 (407 ETR) (25)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Brampton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.698594,
+     "lon": -79.683722,
+     "n": 1,
+     "rumbo": 353
+    },
+    {
+     "lat": 43.701072,
+     "lon": -79.682145,
+     "n": 1,
+     "rumbo": 21
+    },
+    {
+     "lat": 43.702089,
+     "lon": -79.682934,
+     "n": 1,
+     "rumbo": 234
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 83,
+    "centro_plaza": [
+     43.700585,
+     -79.682933
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Brampton",
@@ -765,14 +2017,60 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.726373,
-   "lon": -79.67344,
+   "lat": 43.725648,
+   "lon": -79.673629,
    "nombre": "Pórtico Highway 407 (407 ETR) (16)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Brampton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.723695,
+     "lon": -79.674245,
+     "n": 1,
+     "rumbo": 27
+    },
+    {
+     "lat": 43.723919,
+     "lon": -79.675403,
+     "n": 1,
+     "rumbo": 181
+    },
+    {
+     "lat": 43.725648,
+     "lon": -79.673629,
+     "n": 1,
+     "rumbo": 346
+    },
+    {
+     "lat": 43.727281,
+     "lon": -79.671897,
+     "n": 1,
+     "rumbo": 359
+    },
+    {
+     "lat": 43.728237,
+     "lon": -79.673355,
+     "n": 1,
+     "rumbo": 173
+    },
+    {
+     "lat": 43.729461,
+     "lon": -79.672112,
+     "n": 1,
+     "rumbo": 229
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 82,
+    "centro_plaza": [
+     43.726373,
+     -79.67344
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Brampton",
@@ -781,14 +2079,42 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.736253,
-   "lon": -79.6602,
+   "lat": 43.736689,
+   "lon": -79.65917,
    "nombre": "Pórtico Highway 407 (407 ETR) (17)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Brampton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.734585,
+     "lon": -79.661931,
+     "n": 1,
+     "rumbo": 338
+    },
+    {
+     "lat": 43.736689,
+     "lon": -79.65917,
+     "n": 1,
+     "rumbo": 46
+    },
+    {
+     "lat": 43.737484,
+     "lon": -79.659498,
+     "n": 1,
+     "rumbo": 242
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 96,
+    "centro_plaza": [
+     43.736253,
+     -79.6602
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Brampton",
@@ -804,6 +2130,19 @@
    "via": "Private Road",
    "localidad": "Brampton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.740172,
+     "lon": -79.788355,
+     "n": 1,
+     "rumbo": 175,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Private Road",
    "punto": "Brampton",
@@ -811,14 +2150,36 @@
    "confianza": "media"
   },
   {
-   "lat": 43.751792,
-   "lon": -79.639401,
+   "lat": 43.752462,
+   "lon": -79.639222,
    "nombre": "Pórtico Highway 407 (407 ETR) (41)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Vaughan",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.751121,
+     "lon": -79.639581,
+     "n": 1,
+     "rumbo": 44
+    },
+    {
+     "lat": 43.752462,
+     "lon": -79.639222,
+     "n": 1,
+     "rumbo": 221
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 75,
+    "centro_plaza": [
+     43.751792,
+     -79.639401
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Vaughan",
@@ -827,14 +2188,61 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.756344,
-   "lon": -79.622191,
+   "lat": 43.755872,
+   "lon": -79.62222,
    "nombre": "Pórtico Highway 407 (407 ETR) (6)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Vaughan",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.754075,
+     "lon": -79.624695,
+     "n": 1,
+     "rumbo": 164,
+     "doble": true
+    },
+    {
+     "lat": 43.755828,
+     "lon": -79.624771,
+     "n": 1,
+     "rumbo": 67
+    },
+    {
+     "lat": 43.755872,
+     "lon": -79.62222,
+     "n": 1,
+     "rumbo": 72
+    },
+    {
+     "lat": 43.756824,
+     "lon": -79.623963,
+     "n": 1,
+     "rumbo": 249
+    },
+    {
+     "lat": 43.757734,
+     "lon": -79.616732,
+     "n": 1,
+     "rumbo": 34
+    },
+    {
+     "lat": 43.757735,
+     "lon": -79.620768,
+     "n": 1,
+     "rumbo": 256
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 52,
+    "centro_plaza": [
+     43.756344,
+     -79.622191
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Vaughan",
@@ -843,14 +2251,36 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.758818,
-   "lon": -79.614103,
+   "lat": 43.757903,
+   "lon": -79.614424,
    "nombre": "Pórtico Highway 407 (407 ETR) (15)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Vaughan",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.757903,
+     "lon": -79.614424,
+     "n": 1,
+     "rumbo": 25
+    },
+    {
+     "lat": 43.759733,
+     "lon": -79.613782,
+     "n": 1,
+     "rumbo": 281
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 104,
+    "centro_plaza": [
+     43.758818,
+     -79.614103
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Vaughan",
@@ -859,14 +2289,60 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.774182,
-   "lon": -79.570498,
+   "lat": 43.773758,
+   "lon": -79.569103,
    "nombre": "Pórtico Highway 407 (407 ETR) (39)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Vaughan",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.772351,
+     "lon": -79.572555,
+     "n": 1,
+     "rumbo": 88
+    },
+    {
+     "lat": 43.772852,
+     "lon": -79.571566,
+     "n": 1,
+     "rumbo": 351
+    },
+    {
+     "lat": 43.773758,
+     "lon": -79.569103,
+     "n": 1,
+     "rumbo": 32
+    },
+    {
+     "lat": 43.775112,
+     "lon": -79.569405,
+     "n": 1,
+     "rumbo": 179
+    },
+    {
+     "lat": 43.775481,
+     "lon": -79.571329,
+     "n": 1,
+     "rumbo": 191
+    },
+    {
+     "lat": 43.775539,
+     "lon": -79.569029,
+     "n": 1,
+     "rumbo": 286
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 122,
+    "centro_plaza": [
+     43.774182,
+     -79.570498
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Vaughan",
@@ -875,14 +2351,48 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.781098,
-   "lon": -79.547636,
+   "lat": 43.780629,
+   "lon": -79.547269,
    "nombre": "Pórtico Highway 407 (407 ETR) (2)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Vaughan",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.779742,
+     "lon": -79.549598,
+     "n": 1,
+     "rumbo": 94
+    },
+    {
+     "lat": 43.780629,
+     "lon": -79.547269,
+     "n": 1,
+     "rumbo": 78
+    },
+    {
+     "lat": 43.781986,
+     "lon": -79.548787,
+     "n": 1,
+     "rumbo": 227
+    },
+    {
+     "lat": 43.782037,
+     "lon": -79.544889,
+     "n": 1,
+     "rumbo": 247
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 60,
+    "centro_plaza": [
+     43.781098,
+     -79.547636
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Vaughan",
@@ -891,14 +2401,42 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.785671,
-   "lon": -79.524938,
+   "lat": 43.786389,
+   "lon": -79.525642,
    "nombre": "Pórtico Highway 407 (407 ETR) (3)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Vaughan",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.784341,
+     "lon": -79.527542,
+     "n": 2,
+     "rumbo": 78
+    },
+    {
+     "lat": 43.786389,
+     "lon": -79.525642,
+     "n": 2,
+     "rumbo": 262
+    },
+    {
+     "lat": 43.786893,
+     "lon": -79.518321,
+     "n": 1,
+     "rumbo": 73
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 97,
+    "centro_plaza": [
+     43.785671,
+     -79.524938
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Vaughan",
@@ -915,6 +2453,18 @@
    "ref": "407 ETR",
    "localidad": "Vaughan",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.787876,
+     "lon": -79.517457,
+     "n": 1,
+     "rumbo": 256
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Vaughan",
@@ -923,14 +2473,60 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.792447,
-   "lon": -79.497388,
+   "lat": 43.793297,
+   "lon": -79.496107,
    "nombre": "Pórtico Highway 407 (407 ETR) (18)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Vaughan",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.791084,
+     "lon": -79.500142,
+     "n": 1,
+     "rumbo": 105
+    },
+    {
+     "lat": 43.791332,
+     "lon": -79.498736,
+     "n": 1,
+     "rumbo": 349
+    },
+    {
+     "lat": 43.792348,
+     "lon": -79.499513,
+     "n": 1,
+     "rumbo": 236
+    },
+    {
+     "lat": 43.792639,
+     "lon": -79.494946,
+     "n": 1,
+     "rumbo": 57
+    },
+    {
+     "lat": 43.793297,
+     "lon": -79.496107,
+     "n": 1,
+     "rumbo": 197
+    },
+    {
+     "lat": 43.79398,
+     "lon": -79.494886,
+     "n": 1,
+     "rumbo": 280
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 139,
+    "centro_plaza": [
+     43.792447,
+     -79.497388
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Vaughan",
@@ -947,6 +2543,18 @@
    "ref": "407 ETR",
    "localidad": "Vaughan",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.813498,
+     "lon": -79.479049,
+     "n": 1,
+     "rumbo": 11
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Vaughan",
@@ -955,14 +2563,54 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.818418,
-   "lon": -79.476314,
+   "lat": 43.81803,
+   "lon": -79.47604,
    "nombre": "Pórtico Highway 407 (407 ETR) (8)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Vaughan",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.815365,
+     "lon": -79.477106,
+     "n": 1,
+     "rumbo": 227
+    },
+    {
+     "lat": 43.817846,
+     "lon": -79.478378,
+     "n": 1,
+     "rumbo": 197
+    },
+    {
+     "lat": 43.81803,
+     "lon": -79.47604,
+     "n": 1,
+     "rumbo": 24
+    },
+    {
+     "lat": 43.819764,
+     "lon": -79.47594,
+     "n": 1,
+     "rumbo": 192
+    },
+    {
+     "lat": 43.821086,
+     "lon": -79.474103,
+     "n": 1,
+     "rumbo": 237
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 48,
+    "centro_plaza": [
+     43.818418,
+     -79.476314
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Vaughan",
@@ -978,6 +2626,18 @@
    "via": "Entrance only",
    "localidad": "Pickering",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.820365,
+     "lon": -79.181299,
+     "n": 1,
+     "rumbo": 270
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Entrance only",
    "punto": "Pickering",
@@ -985,14 +2645,60 @@
    "confianza": "media"
   },
   {
-   "lat": 43.827341,
-   "lon": -79.453978,
+   "lat": 43.826536,
+   "lon": -79.452865,
    "nombre": "Pórtico Highway 407 (407 ETR) (23)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Richmond Hill",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.826417,
+     "lon": -79.457822,
+     "n": 1,
+     "rumbo": 78
+    },
+    {
+     "lat": 43.826483,
+     "lon": -79.455223,
+     "n": 1,
+     "rumbo": 349
+    },
+    {
+     "lat": 43.826536,
+     "lon": -79.452865,
+     "n": 1,
+     "rumbo": 23
+    },
+    {
+     "lat": 43.827555,
+     "lon": -79.455813,
+     "n": 1,
+     "rumbo": 246
+    },
+    {
+     "lat": 43.828204,
+     "lon": -79.452715,
+     "n": 1,
+     "rumbo": 209
+    },
+    {
+     "lat": 43.828851,
+     "lon": -79.449429,
+     "n": 1,
+     "rumbo": 263
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 126,
+    "centro_plaza": [
+     43.827341,
+     -79.453978
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Richmond Hill",
@@ -1006,23 +2712,81 @@
    "nombre": "Peaje Kortright Centre Driveway",
    "tipo": "cabina",
    "via": "Kortright Centre Driveway",
-   "localidad": "Kleinburg",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.830532,
+     "lon": -79.589797,
+     "n": 1,
+     "rumbo": 317
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Kortright Centre Driveway",
-   "punto": "Kleinburg",
-   "nombre_visible": "Kortright Centre Driveway - Toll Kleinburg",
-   "confianza": "media"
+   "punto": "(unnamed)",
+   "nombre_visible": "Kortright Centre Driveway - Toll (unnamed)",
+   "confianza": "baja",
+   "nota": "El robot no encontró ruta ni localidad: completar a mano."
   },
   {
-   "lat": 43.834222,
-   "lon": -79.428851,
+   "lat": 43.833614,
+   "lon": -79.428167,
    "nombre": "Pórtico Highway 407 (407 ETR) (11)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Richmond Hill",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.832166,
+     "lon": -79.43327,
+     "n": 1,
+     "rumbo": 74
+    },
+    {
+     "lat": 43.832894,
+     "lon": -79.428825,
+     "n": 1,
+     "rumbo": 213
+    },
+    {
+     "lat": 43.833614,
+     "lon": -79.428167,
+     "n": 1,
+     "rumbo": 14
+    },
+    {
+     "lat": 43.833834,
+     "lon": -79.430881,
+     "n": 1,
+     "rumbo": 232
+    },
+    {
+     "lat": 43.836278,
+     "lon": -79.42773,
+     "n": 1,
+     "rumbo": 74
+    },
+    {
+     "lat": 43.836545,
+     "lon": -79.424235,
+     "n": 1,
+     "rumbo": 244
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 87,
+    "centro_plaza": [
+     43.834222,
+     -79.428851
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Richmond Hill",
@@ -1031,14 +2795,48 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.837184,
-   "lon": -79.381178,
+   "lat": 43.836945,
+   "lon": -79.379059,
    "nombre": "Pórtico Highway 407 (407 ETR) (5)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Markham",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.836373,
+     "lon": -79.385276,
+     "n": 1,
+     "rumbo": 89
+    },
+    {
+     "lat": 43.836945,
+     "lon": -79.379059,
+     "n": 1,
+     "rumbo": 80
+    },
+    {
+     "lat": 43.837364,
+     "lon": -79.383561,
+     "n": 1,
+     "rumbo": 253
+    },
+    {
+     "lat": 43.838055,
+     "lon": -79.376817,
+     "n": 1,
+     "rumbo": 252
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 172,
+    "centro_plaza": [
+     43.837184,
+     -79.381178
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Markham",
@@ -1047,14 +2845,60 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.83816,
-   "lon": -79.406342,
+   "lat": 43.837615,
+   "lon": -79.407343,
    "nombre": "Pórtico Highway 407 (407 ETR) (14)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Richmond Hill",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.83722,
+     "lon": -79.40455,
+     "n": 1,
+     "rumbo": 57
+    },
+    {
+     "lat": 43.837615,
+     "lon": -79.407343,
+     "n": 1,
+     "rumbo": 29
+    },
+    {
+     "lat": 43.838198,
+     "lon": -79.402742,
+     "n": 1,
+     "rumbo": 298
+    },
+    {
+     "lat": 43.838231,
+     "lon": -79.409857,
+     "n": 1,
+     "rumbo": 104
+    },
+    {
+     "lat": 43.838809,
+     "lon": -79.404696,
+     "n": 1,
+     "rumbo": 198
+    },
+    {
+     "lat": 43.83889,
+     "lon": -79.408861,
+     "n": 1,
+     "rumbo": 271
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 100,
+    "centro_plaza": [
+     43.83816,
+     -79.406342
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Richmond Hill",
@@ -1071,6 +2915,18 @@
    "ref": "55",
    "localidad": "Vaughan",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.839775,
+     "lon": -79.535459,
+     "n": 14,
+     "rumbo": 350
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 55",
    "punto": "Vaughan",
@@ -1078,14 +2934,48 @@
    "confianza": "media"
   },
   {
-   "lat": 43.840489,
-   "lon": -79.35903,
+   "lat": 43.840983,
+   "lon": -79.358583,
    "nombre": "Pórtico Highway 407 (407 ETR) (35)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Markham",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.839956,
+     "lon": -79.359622,
+     "n": 1,
+     "rumbo": 91
+    },
+    {
+     "lat": 43.840365,
+     "lon": -79.357433,
+     "n": 1,
+     "rumbo": 69
+    },
+    {
+     "lat": 43.840651,
+     "lon": -79.360482,
+     "n": 1,
+     "rumbo": 243
+    },
+    {
+     "lat": 43.840983,
+     "lon": -79.358583,
+     "n": 1,
+     "rumbo": 271
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 65,
+    "centro_plaza": [
+     43.840489,
+     -79.35903
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Markham",
@@ -1094,14 +2984,36 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.841943,
-   "lon": -79.351041,
+   "lat": 43.842306,
+   "lon": -79.352356,
    "nombre": "Pórtico Highway 407 (407 ETR) (4)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Markham",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.84158,
+     "lon": -79.349725,
+     "n": 1,
+     "rumbo": 78
+    },
+    {
+     "lat": 43.842306,
+     "lon": -79.352356,
+     "n": 1,
+     "rumbo": 280
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 113,
+    "centro_plaza": [
+     43.841943,
+     -79.351041
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Markham",
@@ -1110,14 +3022,60 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.845124,
-   "lon": -79.330754,
+   "lat": 43.844482,
+   "lon": -79.331792,
    "nombre": "Pórtico Highway 407 (407 ETR) (26)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Markham",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.843914,
+     "lon": -79.333271,
+     "n": 1,
+     "rumbo": 105
+    },
+    {
+     "lat": 43.844482,
+     "lon": -79.331792,
+     "n": 1,
+     "rumbo": 46
+    },
+    {
+     "lat": 43.845024,
+     "lon": -79.333249,
+     "n": 1,
+     "rumbo": 251
+    },
+    {
+     "lat": 43.845111,
+     "lon": -79.328243,
+     "n": 1,
+     "rumbo": 68
+    },
+    {
+     "lat": 43.845752,
+     "lon": -79.329488,
+     "n": 1,
+     "rumbo": 234
+    },
+    {
+     "lat": 43.846461,
+     "lon": -79.328481,
+     "n": 1,
+     "rumbo": 286
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 109,
+    "centro_plaza": [
+     43.845124,
+     -79.330754
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Markham",
@@ -1126,14 +3084,60 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.850277,
-   "lon": -79.307497,
+   "lat": 43.850633,
+   "lon": -79.308579,
    "nombre": "Pórtico Highway 407 (407 ETR) (7)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Markham",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.849008,
+     "lon": -79.30983,
+     "n": 1,
+     "rumbo": 105
+    },
+    {
+     "lat": 43.849375,
+     "lon": -79.308737,
+     "n": 1,
+     "rumbo": 359
+    },
+    {
+     "lat": 43.85015,
+     "lon": -79.305985,
+     "n": 1,
+     "rumbo": 53
+    },
+    {
+     "lat": 43.850633,
+     "lon": -79.308579,
+     "n": 1,
+     "rumbo": 217
+    },
+    {
+     "lat": 43.85101,
+     "lon": -79.306584,
+     "n": 1,
+     "rumbo": 215
+    },
+    {
+     "lat": 43.851484,
+     "lon": -79.305269,
+     "n": 1,
+     "rumbo": 281
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 95,
+    "centro_plaza": [
+     43.850277,
+     -79.307497
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Markham",
@@ -1142,14 +3146,60 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.856225,
-   "lon": -79.281382,
+   "lat": 43.856928,
+   "lon": -79.280366,
    "nombre": "Pórtico Highway 407 (407 ETR) (29)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Markham",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.855132,
+     "lon": -79.283758,
+     "n": 1,
+     "rumbo": 95
+    },
+    {
+     "lat": 43.855582,
+     "lon": -79.282507,
+     "n": 1,
+     "rumbo": 33
+    },
+    {
+     "lat": 43.855852,
+     "lon": -79.279864,
+     "n": 1,
+     "rumbo": 40
+    },
+    {
+     "lat": 43.856496,
+     "lon": -79.283435,
+     "n": 1,
+     "rumbo": 223
+    },
+    {
+     "lat": 43.856928,
+     "lon": -79.280366,
+     "n": 1,
+     "rumbo": 221
+    },
+    {
+     "lat": 43.857358,
+     "lon": -79.278361,
+     "n": 1,
+     "rumbo": 270
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 113,
+    "centro_plaza": [
+     43.856225,
+     -79.281382
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Markham",
@@ -1158,14 +3208,60 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.863405,
-   "lon": -79.257344,
+   "lat": 43.864097,
+   "lon": -79.258139,
    "nombre": "Pórtico Highway 407 (407 ETR) (27)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Markham",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.861679,
+     "lon": -79.259717,
+     "n": 1,
+     "rumbo": 92
+    },
+    {
+     "lat": 43.862308,
+     "lon": -79.258726,
+     "n": 1,
+     "rumbo": 11
+    },
+    {
+     "lat": 43.862893,
+     "lon": -79.256147,
+     "n": 1,
+     "rumbo": 25
+    },
+    {
+     "lat": 43.864097,
+     "lon": -79.258139,
+     "n": 1,
+     "rumbo": 200
+    },
+    {
+     "lat": 43.864525,
+     "lon": -79.255981,
+     "n": 1,
+     "rumbo": 192
+    },
+    {
+     "lat": 43.864928,
+     "lon": -79.255357,
+     "n": 1,
+     "rumbo": 281
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 100,
+    "centro_plaza": [
+     43.863405,
+     -79.257344
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Markham",
@@ -1174,14 +3270,54 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.870631,
-   "lon": -79.23338,
+   "lat": 43.871233,
+   "lon": -79.234248,
    "nombre": "Pórtico Highway 407 (407 ETR) (28)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Markham",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.869122,
+     "lon": -79.235564,
+     "n": 1,
+     "rumbo": 114
+    },
+    {
+     "lat": 43.869369,
+     "lon": -79.234739,
+     "n": 1,
+     "rumbo": 344
+    },
+    {
+     "lat": 43.871233,
+     "lon": -79.234248,
+     "n": 1,
+     "rumbo": 215
+    },
+    {
+     "lat": 43.87167,
+     "lon": -79.231658,
+     "n": 1,
+     "rumbo": 160
+    },
+    {
+     "lat": 43.871762,
+     "lon": -79.230689,
+     "n": 1,
+     "rumbo": 290
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 96,
+    "centro_plaza": [
+     43.870631,
+     -79.23338
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Markham",
@@ -1198,6 +3334,17 @@
    "ref": "401",
    "localidad": "Whitby",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.871944,
+     "lon": -78.899402,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Highway 401",
    "punto": "Whitby",
@@ -1205,14 +3352,48 @@
    "confianza": "media"
   },
   {
-   "lat": 43.874635,
-   "lon": -79.213895,
+   "lat": 43.875312,
+   "lon": -79.214663,
    "nombre": "Pórtico Highway 407 (407 ETR) (42)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Markham",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.87348,
+     "lon": -79.215289,
+     "n": 1,
+     "rumbo": 113
+    },
+    {
+     "lat": 43.873827,
+     "lon": -79.214421,
+     "n": 1,
+     "rumbo": 5
+    },
+    {
+     "lat": 43.875312,
+     "lon": -79.214663,
+     "n": 1,
+     "rumbo": 214
+    },
+    {
+     "lat": 43.875921,
+     "lon": -79.211208,
+     "n": 1,
+     "rumbo": 289
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 97,
+    "centro_plaza": [
+     43.874635,
+     -79.213895
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Markham",
@@ -1221,14 +3402,60 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.891047,
-   "lon": -79.185844,
+   "lat": 43.89136,
+   "lon": -79.18655,
    "nombre": "Pórtico Highway 407 (407 ETR) (30)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Pickering",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.888352,
+     "lon": -79.186869,
+     "n": 1,
+     "rumbo": 63
+    },
+    {
+     "lat": 43.88889,
+     "lon": -79.186632,
+     "n": 1,
+     "rumbo": 317
+    },
+    {
+     "lat": 43.891112,
+     "lon": -79.18497,
+     "n": 1,
+     "rumbo": 19
+    },
+    {
+     "lat": 43.89136,
+     "lon": -79.18655,
+     "n": 1,
+     "rumbo": 178
+    },
+    {
+     "lat": 43.892984,
+     "lon": -79.185216,
+     "n": 1,
+     "rumbo": 143
+    },
+    {
+     "lat": 43.893582,
+     "lon": -79.184825,
+     "n": 1,
+     "rumbo": 252
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 66,
+    "centro_plaza": [
+     43.891047,
+     -79.185844
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Pickering",
@@ -1236,14 +3463,60 @@
    "confianza": "media"
   },
   {
-   "lat": 43.904937,
-   "lon": -79.144463,
+   "lat": 43.903915,
+   "lon": -79.145497,
    "nombre": "Pórtico Highway 407 (407 ETR) (45)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Claremont",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.903381,
+     "lon": -79.146906,
+     "n": 1,
+     "rumbo": 106
+    },
+    {
+     "lat": 43.903915,
+     "lon": -79.145497,
+     "n": 1,
+     "rumbo": 351
+    },
+    {
+     "lat": 43.904693,
+     "lon": -79.142439,
+     "n": 1,
+     "rumbo": 36
+    },
+    {
+     "lat": 43.905279,
+     "lon": -79.146302,
+     "n": 1,
+     "rumbo": 219
+    },
+    {
+     "lat": 43.905987,
+     "lon": -79.143446,
+     "n": 1,
+     "rumbo": 175
+    },
+    {
+     "lat": 43.906369,
+     "lon": -79.142186,
+     "n": 1,
+     "rumbo": 287
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 140,
+    "centro_plaza": [
+     43.904937,
+     -79.144463
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Claremont",
@@ -1252,14 +3525,36 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.912954,
-   "lon": -79.110162,
+   "lat": 43.913311,
+   "lon": -79.109311,
    "nombre": "Pórtico Highway 407 (407 ETR) (46)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407 ETR",
    "localidad": "Claremont",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.912596,
+     "lon": -79.111013,
+     "n": 1,
+     "rumbo": 73
+    },
+    {
+     "lat": 43.913311,
+     "lon": -79.109311,
+     "n": 1,
+     "rumbo": 252
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 79,
+    "centro_plaza": [
+     43.912954,
+     -79.110162
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Claremont",
@@ -1268,14 +3563,41 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
+<<<<<<< HEAD
    "lat": 43.925854,
    "lon": -79.09032,
+=======
+   "lat": 43.925632,
+   "lon": -79.090252,
+>>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "nombre": "Pórtico Highway 407 (7)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407",
    "localidad": "Claremont",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.925632,
+     "lon": -79.090252,
+     "n": 1,
+     "rumbo": 36
+    },
+    {
+     "lat": 43.926076,
+     "lon": -79.090389,
+     "n": 1,
+     "rumbo": 213
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 25,
+    "centro_plaza": [
+     43.925854,
+     -79.09032
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Claremont",
@@ -1284,14 +3606,60 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.947721,
-   "lon": -78.959986,
+   "lat": 43.948312,
+   "lon": -78.958834,
    "nombre": "Pórtico Highway 407 (3)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407",
    "localidad": "Whitby",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.946777,
+     "lon": -78.962779,
+     "n": 1,
+     "rumbo": 128
+    },
+    {
+     "lat": 43.946985,
+     "lon": -78.961291,
+     "n": 1,
+     "rumbo": 13
+    },
+    {
+     "lat": 43.947401,
+     "lon": -78.957716,
+     "n": 1,
+     "rumbo": 79
+    },
+    {
+     "lat": 43.948312,
+     "lon": -78.958834,
+     "n": 1,
+     "rumbo": 207
+    },
+    {
+     "lat": 43.948375,
+     "lon": -78.961824,
+     "n": 1,
+     "rumbo": 236
+    },
+    {
+     "lat": 43.948474,
+     "lon": -78.957471,
+     "n": 1,
+     "rumbo": 292
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 113,
+    "centro_plaza": [
+     43.947721,
+     -78.959986
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Whitby",
@@ -1300,14 +3668,54 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.950042,
-   "lon": -79.020158,
+   "lat": 43.951181,
+   "lon": -79.021129,
    "nombre": "Pórtico Highway 407",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407",
    "localidad": "Claremont",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.948128,
+     "lon": -79.023818,
+     "n": 1,
+     "rumbo": 102
+    },
+    {
+     "lat": 43.949626,
+     "lon": -79.015662,
+     "n": 1,
+     "rumbo": 66
+    },
+    {
+     "lat": 43.949989,
+     "lon": -79.023232,
+     "n": 1,
+     "rumbo": 222
+    },
+    {
+     "lat": 43.951181,
+     "lon": -79.021129,
+     "n": 1,
+     "rumbo": 45
+    },
+    {
+     "lat": 43.951286,
+     "lon": -79.016949,
+     "n": 1,
+     "rumbo": 269
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 148,
+    "centro_plaza": [
+     43.950042,
+     -79.020158
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Claremont",
@@ -1316,14 +3724,65 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
+<<<<<<< HEAD
    "lat": 43.951347,
    "lon": -78.941026,
+=======
+   "lat": 43.951047,
+   "lon": -78.939506,
+>>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "nombre": "Pórtico Highway 407 (6)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407",
    "localidad": "Whitby",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.949559,
+     "lon": -78.943882,
+     "n": 1,
+     "rumbo": 87
+    },
+    {
+     "lat": 43.94974,
+     "lon": -78.942045,
+     "n": 1,
+     "rumbo": 334
+    },
+    {
+     "lat": 43.951047,
+     "lon": -78.939506,
+     "n": 1,
+     "rumbo": 40
+    },
+    {
+     "lat": 43.952338,
+     "lon": -78.939733,
+     "n": 1,
+     "rumbo": 164
+    },
+    {
+     "lat": 43.952565,
+     "lon": -78.941834,
+     "n": 1,
+     "rumbo": 180
+    },
+    {
+     "lat": 43.95283,
+     "lon": -78.939155,
+     "n": 1,
+     "rumbo": 269
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 126,
+    "centro_plaza": [
+     43.951347,
+     -78.941026
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Whitby",
@@ -1332,14 +3791,65 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
+<<<<<<< HEAD
    "lat": 43.964346,
    "lon": -78.811975,
+=======
+   "lat": 43.965137,
+   "lon": -78.813129,
+>>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "nombre": "Pórtico Highway 407 (5)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407",
    "localidad": "Solina",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.963332,
+     "lon": -78.813157,
+     "n": 1,
+     "rumbo": 349
+    },
+    {
+     "lat": 43.963403,
+     "lon": -78.814443,
+     "n": 1,
+     "rumbo": 131
+    },
+    {
+     "lat": 43.963499,
+     "lon": -78.810582,
+     "n": 1,
+     "rumbo": 40
+    },
+    {
+     "lat": 43.965137,
+     "lon": -78.813129,
+     "n": 1,
+     "rumbo": 217
+    },
+    {
+     "lat": 43.965137,
+     "lon": -78.810576,
+     "n": 1,
+     "rumbo": 178
+    },
+    {
+     "lat": 43.96557,
+     "lon": -78.809963,
+     "n": 1,
+     "rumbo": 296
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 127,
+    "centro_plaza": [
+     43.964346,
+     -78.811975
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Solina",
@@ -1348,14 +3858,60 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 43.970813,
-   "lon": -78.906381,
+   "lat": 43.970728,
+   "lon": -78.904787,
    "nombre": "Pórtico Highway 407 (2)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407",
    "localidad": "Oshawa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.969015,
+     "lon": -78.908216,
+     "n": 1,
+     "rumbo": 92
+    },
+    {
+     "lat": 43.969723,
+     "lon": -78.907593,
+     "n": 1,
+     "rumbo": 5
+    },
+    {
+     "lat": 43.970664,
+     "lon": -78.908344,
+     "n": 1,
+     "rumbo": 227
+    },
+    {
+     "lat": 43.970728,
+     "lon": -78.904787,
+     "n": 1,
+     "rumbo": 30
+    },
+    {
+     "lat": 43.972047,
+     "lon": -78.905163,
+     "n": 1,
+     "rumbo": 184
+    },
+    {
+     "lat": 43.9727,
+     "lon": -78.90418,
+     "n": 1,
+     "rumbo": 274
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 128,
+    "centro_plaza": [
+     43.970813,
+     -78.906381
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Oshawa",
@@ -1363,14 +3919,65 @@
    "confianza": "media"
   },
   {
+<<<<<<< HEAD
    "lat": 43.981438,
    "lon": -78.74324,
+=======
+   "lat": 43.982476,
+   "lon": -78.742539,
+>>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "nombre": "Pórtico Highway 407 (8)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407",
    "localidad": "Hampton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.979732,
+     "lon": -78.744358,
+     "n": 1,
+     "rumbo": 103
+    },
+    {
+     "lat": 43.980404,
+     "lon": -78.744382,
+     "n": 1,
+     "rumbo": 338
+    },
+    {
+     "lat": 43.98094,
+     "lon": -78.741091,
+     "n": 1,
+     "rumbo": 35
+    },
+    {
+     "lat": 43.982239,
+     "lon": -78.744914,
+     "n": 1,
+     "rumbo": 202
+    },
+    {
+     "lat": 43.982476,
+     "lon": -78.742539,
+     "n": 1,
+     "rumbo": 167
+    },
+    {
+     "lat": 43.982836,
+     "lon": -78.742153,
+     "n": 1,
+     "rumbo": 303
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 128,
+    "centro_plaza": [
+     43.981438,
+     -78.74324
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Hampton",
@@ -1378,14 +3985,60 @@
    "confianza": "media"
   },
   {
-   "lat": 43.981953,
-   "lon": -78.868352,
+   "lat": 43.983271,
+   "lon": -78.869588,
    "nombre": "Pórtico Highway 407 (4)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407",
    "localidad": "Solina",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.980377,
+     "lon": -78.871358,
+     "n": 1,
+     "rumbo": 115
+    },
+    {
+     "lat": 43.980944,
+     "lon": -78.866539,
+     "n": 1,
+     "rumbo": 36
+    },
+    {
+     "lat": 43.981048,
+     "lon": -78.870646,
+     "n": 1,
+     "rumbo": 351
+    },
+    {
+     "lat": 43.98292,
+     "lon": -78.866579,
+     "n": 1,
+     "rumbo": 212
+    },
+    {
+     "lat": 43.983157,
+     "lon": -78.865404,
+     "n": 1,
+     "rumbo": 327
+    },
+    {
+     "lat": 43.983271,
+     "lon": -78.869588,
+     "n": 1,
+     "rumbo": 202
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 176,
+    "centro_plaza": [
+     43.981953,
+     -78.868352
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Solina",
@@ -1394,14 +4047,53 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
+<<<<<<< HEAD
    "lat": 44.000779,
    "lon": -78.666776,
+=======
+   "lat": 43.999585,
+   "lon": -78.6678,
+>>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "nombre": "Pórtico Highway 407 (9)",
    "tipo": "portico",
    "via": "Highway 407",
    "ref": "407",
    "localidad": "Tyrone",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.998947,
+     "lon": -78.668599,
+     "n": 1,
+     "rumbo": 99
+    },
+    {
+     "lat": 43.999585,
+     "lon": -78.6678,
+     "n": 1,
+     "rumbo": 1
+    },
+    {
+     "lat": 44.002021,
+     "lon": -78.665557,
+     "n": 1,
+     "rumbo": 166
+    },
+    {
+     "lat": 44.002561,
+     "lon": -78.665146,
+     "n": 1,
+     "rumbo": 279
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 155,
+    "centro_plaza": [
+     44.000779,
+     -78.666776
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 407",
    "punto": "Tyrone",
@@ -1416,6 +4108,23 @@
    "via": "Highway 137",
    "ref": "137",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 44.366845,
+     "lon": -75.982457,
+     "n": 1
+    },
+    {
+     "lat": 44.366864,
+     "lon": -75.982477,
+     "n": 1,
+     "rumbo": 231
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.3
+   },
    "pais": "CA",
    "via_visible": "Highway 137",
    "punto": "Thousand Islands Bridge Toll Booth",
@@ -1425,15 +4134,26 @@
   {
    "lat": 44.487891,
    "lon": -75.822901,
-   "nombre": "Peaje 1000 Islands Parkway",
+   "nombre": "Peaje cerca de Mallorytown",
    "tipo": "cabina",
-   "via": "1000 Islands Parkway",
    "localidad": "Mallorytown",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 44.487891,
+     "lon": -75.822901,
+     "n": 1,
+     "rumbo": 59,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
-   "via_visible": "1000 Islands Parkway",
    "punto": "Mallorytown",
-   "nombre_visible": "1000 Islands Parkway - Toll Mallorytown",
+   "nombre_visible": "Toll Mallorytown",
    "confianza": "media"
   },
   {
@@ -1444,6 +4164,17 @@
    "via": "Bell Boulevard",
    "localidad": "Oldham",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 44.888092,
+     "lon": -63.517882,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Bell Boulevard",
    "punto": "Oldham",
@@ -1458,6 +4189,29 @@
    "via": "International Road",
    "localidad": "Cornwall Island",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.010216,
+     "lon": -74.73928,
+     "n": 2,
+     "rumbo": 15
+    },
+    {
+     "lat": 45.010224,
+     "lon": -74.739333,
+     "n": 1
+    },
+    {
+     "lat": 45.010234,
+     "lon": -74.739391,
+     "n": 1,
+     "rumbo": 193
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.0
+   },
    "pais": "CA",
    "via_visible": "International Road",
    "punto": "Cornwall Island",
@@ -1473,6 +4227,19 @@
    "ref": "219",
    "localidad": "Hemmingford",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.03444,
+     "lon": -73.597763,
+     "n": 1,
+     "rumbo": 107,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 219",
    "punto": "Hemmingford",
@@ -1488,6 +4255,18 @@
    "ref": "NB 176",
    "localidad": "Blacks Harbour",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.045802,
+     "lon": -66.806887,
+     "n": 2,
+     "rumbo": 213
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "NB 176",
    "punto": "Blacks Harbour",
@@ -1500,6 +4279,17 @@
    "nombre": "Boîte de perception",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.132137,
+     "lon": -71.752122,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Boîte de perception",
    "nombre_visible": "Toll Boîte de perception",
@@ -1513,6 +4303,18 @@
    "via": "Digby Ferry Road",
    "localidad": "Saint John",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.253302,
+     "lon": -66.065465,
+     "n": 2,
+     "rumbo": 52
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Digby Ferry Road",
    "punto": "Saint John",
@@ -1527,6 +4329,18 @@
    "via": "Pereau Road",
    "localidad": "White Water",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.263801,
+     "lon": -64.343031,
+     "n": 1,
+     "rumbo": 85
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Pereau Road",
    "punto": "White Water",
@@ -1536,12 +4350,22 @@
   {
    "lat": 45.266045,
    "lon": -72.15671,
-   "nombre": "Peaje Rue Merry Sud (141)",
+   "nombre": "Peaje cerca de Magog",
    "tipo": "cabina",
-   "via": "Rue Merry Sud",
-   "ref": "141",
    "localidad": "Magog",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.266045,
+     "lon": -72.15671,
+     "n": 1,
+     "rumbo": 279
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 141",
    "punto": "Magog",
@@ -1554,13 +4378,25 @@
    "nombre": "Peaje Rue Plage des Cantons",
    "tipo": "cabina",
    "via": "Rue Plage des Cantons",
-   "localidad": "Magog",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.272853,
+     "lon": -72.176639,
+     "n": 1,
+     "rumbo": 180
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Rue Plage des Cantons",
-   "punto": "Magog",
-   "nombre_visible": "Rue Plage des Cantons - Toll Magog",
-   "confianza": "media"
+   "punto": "(unnamed)",
+   "nombre_visible": "Rue Plage des Cantons - Toll (unnamed)",
+   "confianza": "baja",
+   "nota": "El robot no encontró ruta ni localidad: completar a mano."
   },
   {
    "lat": 45.291827,
@@ -1568,6 +4404,18 @@
    "nombre": "Accueil",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.291827,
+     "lon": -74.050938,
+     "n": 1,
+     "rumbo": 37
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Accueil",
    "nombre_visible": "Toll Accueil",
@@ -1575,14 +4423,78 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 45.297492,
-   "lon": -75.924331,
+   "lat": 45.29923,
+   "lon": -75.922833,
    "nombre": "Peaje Palladium Drive (88)",
    "tipo": "cabina",
    "via": "Palladium Drive",
    "ref": "88",
    "localidad": "Carp",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.295654,
+     "lon": -75.925156,
+     "n": 4,
+     "rumbo": 229,
+     "doble": true
+    },
+    {
+     "lat": 45.296039,
+     "lon": -75.926558,
+     "n": 1,
+     "rumbo": 321
+    },
+    {
+     "lat": 45.296209,
+     "lon": -75.921377,
+     "n": 4,
+     "rumbo": 139,
+     "doble": true
+    },
+    {
+     "lat": 45.296647,
+     "lon": -75.9292,
+     "n": 1,
+     "rumbo": 137
+    },
+    {
+     "lat": 45.297465,
+     "lon": -75.922481,
+     "n": 3,
+     "rumbo": 261,
+     "doble": true
+    },
+    {
+     "lat": 45.297998,
+     "lon": -75.928155,
+     "n": 4,
+     "rumbo": 319,
+     "doble": true
+    },
+    {
+     "lat": 45.298532,
+     "lon": -75.924122,
+     "n": 4,
+     "rumbo": 161,
+     "doble": true
+    },
+    {
+     "lat": 45.29923,
+     "lon": -75.922833,
+     "n": 5,
+     "rumbo": 47,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 116,
+    "centro_plaza": [
+     45.297492,
+     -75.924331
+    ]
+   },
    "pais": "CA",
    "via_visible": "Route 88",
    "punto": "Carp",
@@ -1598,6 +4510,19 @@
    "ref": "10;55",
    "localidad": "Orford",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.303658,
+     "lon": -72.096526,
+     "n": 1,
+     "rumbo": 74,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Autoroute des Cantons-de-l'Est",
    "punto": "Orford",
@@ -1612,6 +4537,18 @@
    "via": "University Avenue",
    "localidad": "Saint John",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.304135,
+     "lon": -66.083373,
+     "n": 1,
+     "rumbo": 283
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "University Avenue",
    "punto": "Saint John",
@@ -1627,6 +4564,18 @@
    "ref": "417",
    "localidad": "Limoges",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.315355,
+     "lon": -75.22264,
+     "n": 6,
+     "rumbo": 158
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Highway 417",
    "punto": "Limoges",
@@ -1634,14 +4583,36 @@
    "confianza": "media"
   },
   {
-   "lat": 45.31773,
-   "lon": -74.022887,
+   "lat": 45.317583,
+   "lon": -74.023041,
    "nombre": "Peaje Autoroute de l'Acier (30)",
    "tipo": "cabina",
    "via": "Autoroute de l'Acier",
    "ref": "30",
    "localidad": "Les Cèdres",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.317583,
+     "lon": -74.023041,
+     "n": 1,
+     "rumbo": 151
+    },
+    {
+     "lat": 45.317878,
+     "lon": -74.022733,
+     "n": 1,
+     "rumbo": 333
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 20,
+    "centro_plaza": [
+     45.31773,
+     -74.022887
+    ]
+   },
    "pais": "CA",
    "via_visible": "Autoroute de l'Acier",
    "punto": "Les Cèdres",
@@ -1654,6 +4625,19 @@
    "nombre": "Boîte de perception SEPAQ",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.320918,
+     "lon": -72.221178,
+     "n": 1,
+     "rumbo": 189,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Boîte de perception SEPAQ",
    "nombre_visible": "Toll Boîte de perception SEPAQ",
@@ -1666,6 +4650,19 @@
    "tipo": "cabina",
    "via": "Route Verte",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.32664,
+     "lon": -72.183987,
+     "n": 1,
+     "rumbo": 349,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route Verte",
    "punto": "Boîte de perception SÉPAQ",
@@ -1679,19 +4676,55 @@
    "tipo": "cabina",
    "localidad": "Orford",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.328723,
+     "lon": -72.195593,
+     "n": 2,
+     "rumbo": 322
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Orford",
    "nombre_visible": "Toll Orford",
    "confianza": "media"
   },
   {
-   "lat": 45.33088,
-   "lon": -75.656163,
+   "lat": 45.331258,
+   "lon": -75.656665,
    "nombre": "Peaje Uplands Drive",
    "tipo": "cabina",
    "via": "Uplands Drive",
    "localidad": "Ottawa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.330501,
+     "lon": -75.655661,
+     "n": 1,
+     "rumbo": 47,
+     "doble": true
+    },
+    {
+     "lat": 45.331258,
+     "lon": -75.656665,
+     "n": 1,
+     "rumbo": 59,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 57,
+    "centro_plaza": [
+     45.33088,
+     -75.656163
+    ]
+   },
    "pais": "CA",
    "via_visible": "Uplands Drive",
    "punto": "Ottawa",
@@ -1706,6 +4739,19 @@
    "tipo": "cabina",
    "via": "La Montagnarde",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.33117,
+     "lon": -72.166561,
+     "n": 1,
+     "rumbo": 305,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "La Montagnarde",
    "punto": "Boîte de perception SÉPAQ",
@@ -1720,6 +4766,18 @@
    "via": "Uplands Drive",
    "localidad": "Ottawa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.34299,
+     "lon": -75.665283,
+     "n": 1,
+     "rumbo": 238
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Uplands Drive",
    "punto": "Ottawa",
@@ -1733,6 +4791,17 @@
    "nombre": "Boîte de Perception",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.347436,
+     "lon": -72.250921,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Boîte de Perception",
    "nombre_visible": "Toll Boîte de Perception",
@@ -1747,6 +4816,19 @@
    "ref": "16",
    "localidad": "Ottawa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.376703,
+     "lon": -75.703847,
+     "n": 1,
+     "rumbo": 201,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 16",
    "punto": "Ottawa",
@@ -1754,8 +4836,8 @@
    "confianza": "media"
   },
   {
-   "lat": 45.384607,
-   "lon": -72.164514,
+   "lat": 45.385552,
+   "lon": -72.163917,
    "nombre": "Peaje Chemin de Saint-Élie (220) km 00",
    "tipo": "cabina",
    "via": "Chemin de Saint-Élie",
@@ -1763,6 +4845,29 @@
    "km": "00",
    "localidad": "Orford",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.383662,
+     "lon": -72.165112,
+     "n": 1,
+     "rumbo": 236
+    },
+    {
+     "lat": 45.385552,
+     "lon": -72.163917,
+     "n": 1,
+     "rumbo": 133,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 114,
+    "centro_plaza": [
+     45.384607,
+     -72.164514
+    ]
+   },
    "pais": "CA",
    "via_visible": "Route 220",
    "punto": "Orford",
@@ -1778,6 +4883,19 @@
    "ref": "79",
    "localidad": "Ottawa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.384917,
+     "lon": -75.692087,
+     "n": 1,
+     "rumbo": 157,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 79",
    "punto": "Ottawa",
@@ -1791,6 +4909,19 @@
    "tipo": "cabina",
    "via": "Sentier de l'Érablière",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.386694,
+     "lon": -72.197134,
+     "n": 1,
+     "rumbo": 268,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Sentier de l'Érablière",
    "punto": "Boîte de perception SEPAQ",
@@ -1805,6 +4936,18 @@
    "via": "Fundy Trail Parkway",
    "localidad": "Salmon River",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.388224,
+     "lon": -65.459331,
+     "n": 1,
+     "rumbo": 191
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Fundy Trail Parkway",
    "punto": "Salmon River",
@@ -1821,6 +4964,19 @@
    "ref": "417",
    "localidad": "Gatineau",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.388747,
+     "lon": -75.732561,
+     "n": 1,
+     "rumbo": 247,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Highway 417",
    "punto": "Gatineau",
@@ -1834,19 +4990,56 @@
    "tipo": "cabina",
    "localidad": "Rougemont",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.403397,
+     "lon": -73.063138,
+     "n": 2,
+     "rumbo": 190,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Rougemont",
    "nombre_visible": "Toll Rougemont",
    "confianza": "media"
   },
   {
-   "lat": 45.413091,
-   "lon": -75.688804,
+   "lat": 45.41277,
+   "lon": -75.689608,
    "nombre": "Peaje McLeod Street",
    "tipo": "cabina",
    "via": "McLeod Street",
    "localidad": "Ottawa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.41277,
+     "lon": -75.689608,
+     "n": 1,
+     "rumbo": 241,
+     "doble": true
+    },
+    {
+     "lat": 45.413412,
+     "lon": -75.688,
+     "n": 1,
+     "rumbo": 64,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 72,
+    "centro_plaza": [
+     45.413091,
+     -75.688804
+    ]
+   },
    "pais": "CA",
    "via_visible": "McLeod Street",
    "punto": "Ottawa",
@@ -1860,6 +5053,18 @@
    "tipo": "cabina",
    "localidad": "Roxton Pond",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.420558,
+     "lon": -72.623031,
+     "n": 1,
+     "rumbo": 356
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Roxton Pond",
    "nombre_visible": "Toll Roxton Pond",
@@ -1872,6 +5077,19 @@
    "tipo": "cabina",
    "localidad": "Pointe-Calumet",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.462323,
+     "lon": -73.937609,
+     "n": 1,
+     "rumbo": 62,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Pointe-Calumet",
    "nombre_visible": "Toll Pointe-Calumet",
@@ -1884,6 +5102,19 @@
    "tipo": "cabina",
    "via": "Chemin de la plage",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.473477,
+     "lon": -74.050058,
+     "n": 1,
+     "rumbo": 324,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin de la plage",
    "punto": "Poste d'accueil de la plage d'Oka",
@@ -1897,6 +5128,19 @@
    "tipo": "cabina",
    "via": "Accès",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.47594,
+     "lon": -74.075374,
+     "n": 1,
+     "rumbo": 5,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Accès",
    "punto": "Boîte de perception SÉPAQ",
@@ -1910,6 +5154,19 @@
    "tipo": "cabina",
    "via": "Chemin du Calvaire",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.478403,
+     "lon": -74.064879,
+     "n": 1,
+     "rumbo": 15,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin du Calvaire",
    "punto": "Poste de perception",
@@ -1922,6 +5179,19 @@
    "nombre": "Poste de perception",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.482645,
+     "lon": -74.029585,
+     "n": 1,
+     "rumbo": 213,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Poste de perception",
    "nombre_visible": "Toll Poste de perception",
@@ -1935,6 +5205,18 @@
    "via": "Chemin des Collines",
    "localidad": "Pointe-Calumet",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.491453,
+     "lon": -74.013831,
+     "n": 1,
+     "rumbo": 334
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin des Collines",
    "punto": "Pointe-Calumet",
@@ -1949,6 +5231,19 @@
    "via": "Chemin Queen-Mary",
    "localidad": "Westmount",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.492717,
+     "lon": -73.620277,
+     "n": 1,
+     "rumbo": 124,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin Queen-Mary",
    "punto": "Westmount",
@@ -1958,25 +5253,60 @@
   {
    "lat": 45.496461,
    "lon": -73.631483,
+<<<<<<< HEAD
    "nombre": "Peaje Chemin de la Côte-Sainte-Catherine (2)",
+=======
+   "nombre": "Peaje cerca de Hampstead",
+>>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "tipo": "cabina",
-   "via": "Chemin de la Côte-Sainte-Catherine",
    "localidad": "Hampstead",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.496461,
+     "lon": -73.631483,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
-   "via_visible": "Chemin de la Côte-Sainte-Catherine",
    "punto": "Hampstead",
-   "nombre_visible": "Chemin de la Côte-Sainte-Catherine - Toll Hampstead",
+   "nombre_visible": "Toll Hampstead",
    "confianza": "media"
   },
   {
-   "lat": 45.499048,
-   "lon": -63.680086,
+   "lat": 45.49898,
+   "lon": -63.680316,
    "nombre": "Cobequid Pass Westbound toll booth",
    "tipo": "cabina",
    "via": "Highway 104",
    "ref": "NS 104",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.49898,
+     "lon": -63.680316,
+     "n": 1,
+     "rumbo": 127
+    },
+    {
+     "lat": 45.499116,
+     "lon": -63.679855,
+     "n": 1,
+     "rumbo": 307
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 19,
+    "centro_plaza": [
+     45.499048,
+     -63.680086
+    ]
+   },
    "pais": "CA",
    "via_visible": "Highway 104",
    "punto": "Cobequid Pass Westbound toll booth",
@@ -1984,12 +5314,36 @@
    "confianza": "alta"
   },
   {
-   "lat": 45.499554,
-   "lon": -73.52459,
+   "lat": 45.498694,
+   "lon": -73.523044,
    "nombre": "Peaje cerca de Saint-Lambert (3)",
    "tipo": "cabina",
    "localidad": "Saint-Lambert",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.498694,
+     "lon": -73.523044,
+     "n": 1,
+     "rumbo": 105,
+     "doble": true
+    },
+    {
+     "lat": 45.500415,
+     "lon": -73.526135,
+     "n": 1,
+     "rumbo": 145,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 154,
+    "centro_plaza": [
+     45.499554,
+     -73.52459
+    ]
+   },
    "pais": "CA",
    "punto": "Saint-Lambert",
    "nombre_visible": "Toll Saint-Lambert",
@@ -2003,6 +5357,18 @@
    "tipo": "cabina",
    "localidad": "Westmount",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.499854,
+     "lon": -73.616805,
+     "n": 1,
+     "rumbo": 270
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Westmount",
    "nombre_visible": "Toll Westmount",
@@ -2016,6 +5382,18 @@
    "via": "Fundy Trail Parkway",
    "localidad": "Salmon River",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.5012,
+     "lon": -65.319912,
+     "n": 2,
+     "rumbo": 148
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Fundy Trail Parkway",
    "punto": "Salmon River",
@@ -2031,6 +5409,19 @@
    "via": "Chemin de la Côte-Sainte-Catherine",
    "localidad": "Ville de Mont-Royal",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.504773,
+     "lon": -73.624613,
+     "n": 1,
+     "rumbo": 213,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin de la Côte-Sainte-Catherine",
    "punto": "Ville de Mont-Royal",
@@ -2045,6 +5436,18 @@
    "via": "Avenue Pierre-Dupuy",
    "localidad": "Saint-Lambert",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.507993,
+     "lon": -73.530491,
+     "n": 1,
+     "rumbo": 102
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Avenue Pierre-Dupuy",
    "punto": "Saint-Lambert",
@@ -2058,6 +5461,24 @@
    "tipo": "cabina",
    "localidad": "Saint-Lambert",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.513743,
+     "lon": -73.538262,
+     "n": 1,
+     "rumbo": 156
+    },
+    {
+     "lat": 45.513809,
+     "lon": -73.538075,
+     "n": 5,
+     "rumbo": 330
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.7
+   },
    "pais": "CA",
    "punto": "Saint-Lambert",
    "nombre_visible": "Toll Saint-Lambert",
@@ -2065,12 +5486,36 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 45.524285,
-   "lon": -73.535703,
+   "lat": 45.521965,
+   "lon": -73.534577,
    "nombre": "Peaje cerca de Saint-Lambert (2)",
    "tipo": "cabina",
    "localidad": "Saint-Lambert",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.521965,
+     "lon": -73.534577,
+     "n": 1,
+     "rumbo": 265,
+     "doble": true
+    },
+    {
+     "lat": 45.526605,
+     "lon": -73.536829,
+     "n": 1,
+     "rumbo": 155,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 271,
+    "centro_plaza": [
+     45.524285,
+     -73.535703
+    ]
+   },
    "pais": "CA",
    "punto": "Saint-Lambert",
    "nombre_visible": "Toll Saint-Lambert",
@@ -2084,6 +5529,19 @@
    "tipo": "cabina",
    "via": "Entrée Saint-Basile-le-Grand",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.538659,
+     "lon": -73.296943,
+     "n": 1,
+     "rumbo": 319,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Entrée Saint-Basile-le-Grand",
    "punto": "Boîte de perception",
@@ -2096,6 +5554,17 @@
    "nombre": "Accueil",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.547681,
+     "lon": -73.343995,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Accueil",
    "nombre_visible": "Toll Accueil",
@@ -2109,6 +5578,18 @@
    "tipo": "cabina",
    "localidad": "Chute-à-Blondeau",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.556044,
+     "lon": -74.444834,
+     "n": 1,
+     "rumbo": 105
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Chute-à-Blondeau",
    "nombre_visible": "Toll Chute-à-Blondeau",
@@ -2123,6 +5604,17 @@
    "ref": "138",
    "localidad": "Montréal",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.560601,
+     "lon": -73.557238,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 138",
    "punto": "Montréal",
@@ -2138,6 +5630,19 @@
    "ref": "344",
    "localidad": "Chute-à-Blondeau",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.58526,
+     "lon": -74.444666,
+     "n": 1,
+     "rumbo": 193,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 344",
    "punto": "Chute-à-Blondeau",
@@ -2152,6 +5657,18 @@
    "via": "Chemin Sainte-Marguerite",
    "localidad": "Boucherville",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.587405,
+     "lon": -73.482942,
+     "n": 1,
+     "rumbo": 312
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin Sainte-Marguerite",
    "punto": "Boucherville",
@@ -2164,6 +5681,18 @@
    "nombre": "Cape Enrage",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.595268,
+     "lon": -64.779966,
+     "n": 1,
+     "rumbo": 58
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Cape Enrage",
    "nombre_visible": "Toll Cape Enrage",
@@ -2176,6 +5705,19 @@
    "tipo": "cabina",
    "via": "Sentier La Serpentine",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.597022,
+     "lon": -75.09239,
+     "n": 1,
+     "rumbo": 47,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Sentier La Serpentine",
    "punto": "Boîte-de-perception",
@@ -2188,6 +5730,18 @@
    "nombre": "Fundy National Park",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.598767,
+     "lon": -64.947751,
+     "n": 1,
+     "rumbo": 212
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 114",
    "punto": "Fundy National Park",
@@ -2202,6 +5756,17 @@
    "tipo": "cabina",
    "localidad": "Sainte-Cécile-de-Masham",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.60543,
+     "lon": -76.013025,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Sainte-Cécile-de-Masham",
    "nombre_visible": "Toll Sainte-Cécile-de-Masham",
@@ -2214,6 +5779,19 @@
    "tipo": "cabina",
    "localidad": "Sainte-Scholastique",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.620936,
+     "lon": -74.086765,
+     "n": 1,
+     "rumbo": 3,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Sainte-Scholastique",
    "nombre_visible": "Toll Sainte-Scholastique",
@@ -2227,6 +5805,19 @@
    "via": "Chemin du Lac-Philippe",
    "localidad": "Sainte-Cécile-de-Masham",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.62695,
+     "lon": -76.013767,
+     "n": 1,
+     "rumbo": 336,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin du Lac-Philippe",
    "punto": "Sainte-Cécile-de-Masham",
@@ -2241,6 +5832,24 @@
    "via": "Autoroute 25",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.64109,
+     "lon": -73.623986,
+     "n": 1,
+     "rumbo": 142
+    },
+    {
+     "lat": 45.641165,
+     "lon": -73.623838,
+     "n": 1,
+     "rumbo": 323
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.1
+   },
    "pais": "CA",
    "via_visible": "Autoroute 25",
    "punto": "Poste de péage A25",
@@ -2254,6 +5863,23 @@
    "tipo": "cabina",
    "via": "Entrée",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.659468,
+     "lon": -73.908062,
+     "n": 1
+    },
+    {
+     "lat": 45.659471,
+     "lon": -73.908062,
+     "n": 2,
+     "rumbo": 304
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.1
+   },
    "pais": "CA",
    "via_visible": "Entrée",
    "punto": "Accueil",
@@ -2266,6 +5892,18 @@
    "nombre": "Fundy National Park",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.662808,
+     "lon": -65.147603,
+     "n": 1,
+     "rumbo": 109
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 114",
    "punto": "Fundy National Park",
@@ -2282,6 +5920,18 @@
    "ref": "323",
    "localidad": "Montebello",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.683495,
+     "lon": -74.94532,
+     "n": 1,
+     "rumbo": 282
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 323",
    "punto": "Montebello",
@@ -2295,6 +5945,23 @@
    "tipo": "cabina",
    "localidad": "Dorchester",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.81778,
+     "lon": -64.578329,
+     "n": 2,
+     "rumbo": 181
+    },
+    {
+     "lat": 45.817793,
+     "lon": -64.578278,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.4
+   },
    "pais": "CA",
    "punto": "Dorchester",
    "nombre_visible": "Toll Dorchester",
@@ -2308,6 +5975,18 @@
    "via": "Rang Saint-Esprit",
    "localidad": "L'Épiphanie",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.883684,
+     "lon": -73.500254,
+     "n": 1,
+     "rumbo": 308
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Rang Saint-Esprit",
    "punto": "L'Épiphanie",
@@ -2322,6 +6001,19 @@
    "via": "Chemin du Lac-Morin",
    "localidad": "Saint-Lin–Laurentides",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.903442,
+     "lon": -73.778999,
+     "n": 1,
+     "rumbo": 344,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin du Lac-Morin",
    "punto": "Saint-Lin–Laurentides",
@@ -2337,6 +6029,19 @@
    "ref": "173",
    "localidad": "Saint-Théophile",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.931899,
+     "lon": -70.445028,
+     "n": 1,
+     "rumbo": 107,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 173",
    "punto": "Saint-Théophile",
@@ -2351,6 +6056,18 @@
    "via": "Priestman Street",
    "localidad": "Fredericton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.939115,
+     "lon": -66.652308,
+     "n": 1,
+     "rumbo": 31
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Priestman Street",
    "punto": "Fredericton",
@@ -2364,6 +6081,19 @@
    "tipo": "cabina",
    "localidad": "Sainte-Adèle",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.952084,
+     "lon": -74.151359,
+     "n": 1,
+     "rumbo": 118,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Sainte-Adèle",
    "nombre_visible": "Toll Sainte-Adèle",
@@ -2376,6 +6106,18 @@
    "tipo": "cabina",
    "ref": "1",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 45.957382,
+     "lon": -62.74729,
+     "n": 1,
+     "rumbo": 211
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 1",
    "punto": "NFL Ferry TollBooth",
@@ -2390,6 +6132,18 @@
    "via": "Route du Parc-de-Frontenac",
    "localidad": "Saint-Daniel",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.989859,
+     "lon": -71.155597,
+     "n": 1,
+     "rumbo": 217
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route du Parc-de-Frontenac",
    "punto": "Saint-Daniel",
@@ -2404,6 +6158,19 @@
    "via": "Chemin du Tour-du-Lac",
    "localidad": "Duhamel",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.007398,
+     "lon": -75.09194,
+     "n": 1,
+     "rumbo": 32,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin du Tour-du-Lac",
    "punto": "Duhamel",
@@ -2416,6 +6183,19 @@
    "nombre": "Auto Perception",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 46.023363,
+     "lon": -74.191849,
+     "n": 1,
+     "rumbo": 42,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Auto Perception",
    "nombre_visible": "Toll Auto Perception",
@@ -2429,6 +6209,18 @@
    "via": "Accès au Traversier",
    "localidad": "Sorel-Tracy",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.047133,
+     "lon": -73.111687,
+     "n": 1,
+     "rumbo": 344
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Accès au Traversier",
    "punto": "Sorel-Tracy",
@@ -2441,6 +6233,18 @@
    "nombre": "Traverse Sorel-St-Ignace-de-Loyola",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 46.060699,
+     "lon": -73.128155,
+     "n": 1,
+     "rumbo": 151
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 158",
    "punto": "Traverse Sorel-St-Ignace-de-Loyola",
@@ -2455,6 +6259,17 @@
    "via": "Rue Notre-Dame Est",
    "localidad": "Thetford Mines",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.108499,
+     "lon": -71.278104,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Rue Notre-Dame Est",
    "punto": "Thetford Mines",
@@ -2469,6 +6284,18 @@
    "via": "Chemin Saint-Bernard",
    "localidad": "Mont-Tremblant",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.176548,
+     "lon": -74.569335,
+     "n": 1,
+     "rumbo": 40
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin Saint-Bernard",
    "punto": "Mont-Tremblant",
@@ -2483,6 +6310,19 @@
    "ref": "R0764",
    "localidad": "Waltham",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.208626,
+     "lon": -76.925748,
+     "n": 1,
+     "rumbo": 332,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "R0764",
    "punto": "Waltham",
@@ -2496,6 +6336,18 @@
    "tipo": "cabina",
    "localidad": "Lac-Supérieur",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.212575,
+     "lon": -74.587624,
+     "n": 1,
+     "rumbo": 16
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Lac-Supérieur",
    "nombre_visible": "Toll Lac-Supérieur",
@@ -2510,6 +6362,18 @@
    "ref": "NS 105",
    "localidad": "North Sydney",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.213545,
+     "lon": -60.247665,
+     "n": 4,
+     "rumbo": 207
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "NS 105",
    "punto": "North Sydney",
@@ -2517,13 +6381,33 @@
    "confianza": "media"
   },
   {
-   "lat": 46.235402,
-   "lon": -63.122689,
+   "lat": 46.237655,
+   "lon": -63.124251,
    "nombre": "Peaje Prince Street",
    "tipo": "cabina",
    "via": "Prince Street",
    "localidad": "Charlottetown",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.233148,
+     "lon": -63.121127,
+     "n": 1
+    },
+    {
+     "lat": 46.237655,
+     "lon": -63.124251,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 277,
+    "centro_plaza": [
+     46.235402,
+     -63.122689
+    ]
+   },
    "pais": "CA",
    "via_visible": "Prince Street",
    "punto": "Charlottetown",
@@ -2538,6 +6422,19 @@
    "via": "Chemin Pointe-du-Chêne",
    "localidad": "Shediac",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.239645,
+     "lon": -64.5264,
+     "n": 1,
+     "rumbo": 289,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin Pointe-du-Chêne",
    "punto": "Shediac",
@@ -2553,6 +6450,18 @@
    "ref": "1",
    "localidad": "Borden-Carleton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.256492,
+     "lon": -63.69538,
+     "n": 1,
+     "rumbo": 249
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 1",
    "punto": "Borden-Carleton",
@@ -2565,12 +6474,24 @@
    "nombre": "Peaje Chemin du Lac-Supérieur",
    "tipo": "cabina",
    "via": "Chemin du Lac-Supérieur",
-   "localidad": "Lac Supérieur",
+   "localidad": "Lac-Supérieur",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.261574,
+     "lon": -74.511432,
+     "n": 1,
+     "rumbo": 291
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin du Lac-Supérieur",
-   "punto": "Lac Supérieur",
-   "nombre_visible": "Chemin du Lac-Supérieur - Toll Lac Supérieur",
+   "punto": "Lac-Supérieur",
+   "nombre_visible": "Chemin du Lac-Supérieur - Toll Lac-Supérieur",
    "confianza": "media"
   },
   {
@@ -2582,6 +6503,17 @@
    "ref": "1;2;TCH",
    "localidad": "Union",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.275825,
+     "lon": -63.145757,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 1",
    "punto": "Union",
@@ -2597,6 +6529,17 @@
    "ref": "15;6",
    "localidad": "Brackley Beach",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.39359,
+     "lon": -63.187872,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 15",
    "punto": "Brackley Beach",
@@ -2612,6 +6555,19 @@
    "ref": "3",
    "localidad": "Saint-Donat",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.398985,
+     "lon": -74.26915,
+     "n": 1,
+     "rumbo": 326,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 3",
    "punto": "Saint-Donat",
@@ -2626,6 +6582,18 @@
    "via": "Gulf Shore Parkway",
    "localidad": "Grand Tracadie",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.405172,
+     "lon": -63.065955,
+     "n": 1,
+     "rumbo": 323
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Gulf Shore Parkway",
    "punto": "Grand Tracadie",
@@ -2640,6 +6608,18 @@
    "via": "Gulf Shore Parkway East",
    "localidad": "Brackley Beach",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.427607,
+     "lon": -63.199676,
+     "n": 2,
+     "rumbo": 54
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Gulf Shore Parkway East",
    "punto": "Brackley Beach",
@@ -2655,6 +6635,18 @@
    "ref": "25",
    "localidad": "Stanhope",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.427716,
+     "lon": -63.137249,
+     "n": 1,
+     "rumbo": 27
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 25",
    "punto": "Stanhope",
@@ -2670,6 +6662,17 @@
    "ref": "55",
    "localidad": "Sudbury",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.48913,
+     "lon": -80.99203,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 55",
    "punto": "Sudbury",
@@ -2685,6 +6688,18 @@
    "ref": "13",
    "localidad": "Cavendish",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.497805,
+     "lon": -63.375917,
+     "n": 1,
+     "rumbo": 44
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 13",
    "punto": "Cavendish",
@@ -2699,6 +6714,19 @@
    "ref": "1",
    "localidad": "Saint-Alexis-des-Monts",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.614921,
+     "lon": -73.194495,
+     "n": 1,
+     "rumbo": 99,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 1",
    "punto": "Saint-Alexis-des-Monts",
@@ -2713,6 +6741,17 @@
    "via": "Route du Massif-du-Sud",
    "localidad": "Saint-Philémon",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.629043,
+     "lon": -70.466109,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route du Massif-du-Sud",
    "punto": "Saint-Philémon",
@@ -2727,6 +6766,19 @@
    "via": "Route Promenade",
    "localidad": "Saint-Mathieu-du-Parc",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.650786,
+     "lon": -72.971498,
+     "n": 1,
+     "rumbo": 100,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route Promenade",
    "punto": "Saint-Mathieu-du-Parc",
@@ -2741,6 +6793,19 @@
    "via": "Route Promenade",
    "localidad": "Saint-Jean-des-Piles",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.734912,
+     "lon": -72.769691,
+     "n": 1,
+     "rumbo": 331,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route Promenade",
    "punto": "Saint-Jean-des-Piles",
@@ -2756,6 +6821,17 @@
    "ref": "CT",
    "localidad": "Pleasant Bay",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.737938,
+     "lon": -60.880944,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "CT",
    "punto": "Pleasant Bay",
@@ -2763,13 +6839,35 @@
    "confianza": "media"
   },
   {
-   "lat": 46.800183,
-   "lon": -71.245281,
+   "lat": 46.800913,
+   "lon": -71.245784,
    "nombre": "Peaje Avenue Belvédère",
    "tipo": "cabina",
    "via": "Avenue Belvédère",
    "localidad": "Québec",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.799452,
+     "lon": -71.244778,
+     "n": 1
+    },
+    {
+     "lat": 46.800913,
+     "lon": -71.245784,
+     "n": 1,
+     "rumbo": 51,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 89,
+    "centro_plaza": [
+     46.800183,
+     -71.245281
+    ]
+   },
    "pais": "CA",
    "via_visible": "Avenue Belvédère",
    "punto": "Québec",
@@ -2783,6 +6881,19 @@
    "tipo": "cabina",
    "via": "Accès Traversier",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 46.809105,
+     "lon": -71.188189,
+     "n": 2,
+     "rumbo": 275,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Accès Traversier",
    "punto": "Billetterie Vélo",
@@ -2797,6 +6908,18 @@
    "via": "Rue des Traversiers",
    "localidad": "Québec",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.811271,
+     "lon": -71.202476,
+     "n": 1,
+     "rumbo": 88
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Boulevard Champlain",
    "punto": "Québec",
@@ -2804,13 +6927,56 @@
    "confianza": "media"
   },
   {
-   "lat": 46.829815,
-   "lon": -71.248108,
+   "lat": 46.829758,
+   "lon": -71.24889,
    "nombre": "Peaje Rue Soumande",
    "tipo": "cabina",
    "via": "Rue Soumande",
    "localidad": "Québec",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.826376,
+     "lon": -71.247134,
+     "n": 1,
+     "rumbo": 226,
+     "doble": true
+    },
+    {
+     "lat": 46.8297,
+     "lon": -71.24896,
+     "n": 2,
+     "rumbo": 127
+    },
+    {
+     "lat": 46.829758,
+     "lon": -71.24889,
+     "n": 2,
+     "rumbo": 307
+    },
+    {
+     "lat": 46.831284,
+     "lon": -71.248095,
+     "n": 1,
+     "rumbo": 314,
+     "doble": true
+    },
+    {
+     "lat": 46.83213,
+     "lon": -71.245824,
+     "n": 1,
+     "rumbo": 46,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 60,
+    "centro_plaza": [
+     46.829815,
+     -71.248108
+    ]
+   },
    "pais": "CA",
    "via_visible": "Rue Soumande",
    "punto": "Québec",
@@ -2824,6 +6990,19 @@
    "tipo": "cabina",
    "localidad": "Québec",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.837699,
+     "lon": -71.196637,
+     "n": 1,
+     "rumbo": 242,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Québec",
    "nombre_visible": "Toll Québec",
@@ -2838,6 +7017,18 @@
    "ref": "138",
    "localidad": "Boischatel",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.882522,
+     "lon": -71.150121,
+     "n": 3,
+     "rumbo": 39
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 138",
    "punto": "Boischatel",
@@ -2852,6 +7043,19 @@
    "via": "chemin de la Matawin",
    "localidad": "Saint-Roch-de-Mékinac",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.905326,
+     "lon": -72.933663,
+     "n": 2,
+     "rumbo": 93,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "chemin de la Matawin",
    "punto": "Saint-Roch-de-Mékinac",
@@ -2864,6 +7068,18 @@
    "nombre": "Entrée, Réserve nationale de faune du Cap-Tourmente",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 47.065041,
+     "lon": -70.794832,
+     "n": 1,
+     "rumbo": 40
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Entrée, Réserve nationale de faune du Cap-Tourmente",
    "nombre_visible": "Toll Entrée, Réserve nationale de faune du Cap-Tourmente",
@@ -2876,6 +7092,23 @@
    "tipo": "cabina",
    "via": "Chemin du Parc National",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 47.108102,
+     "lon": -71.346738,
+     "n": 2
+    },
+    {
+     "lat": 47.108115,
+     "lon": -71.34669,
+     "n": 2,
+     "rumbo": 333
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.9
+   },
    "pais": "CA",
    "via_visible": "Route 175",
    "punto": "Parc national de la Jaques-Cartier",
@@ -2890,6 +7123,18 @@
    "via": "Rang Saint-Julien",
    "localidad": "Saint-Ferréol-les-Neiges",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 47.118434,
+     "lon": -70.869549,
+     "n": 1,
+     "rumbo": 318
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Rang Saint-Julien",
    "punto": "Saint-Ferréol-les-Neiges",
@@ -2904,6 +7149,18 @@
    "via": "Argentia Access Road",
    "localidad": "Placentia",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 47.290495,
+     "lon": -53.993359,
+     "n": 1,
+     "rumbo": 22
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Argentia Access Road",
    "punto": "Placentia",
@@ -2919,6 +7176,19 @@
    "km": "0",
    "localidad": "St. John's",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 47.565589,
+     "lon": -52.713081,
+     "n": 2,
+     "rumbo": 250,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Harvey Road",
    "punto": "St. John's",
@@ -2933,6 +7203,19 @@
    "via": "Prince Phillip Drive",
    "localidad": "St. John's",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 47.572559,
+     "lon": -52.733695,
+     "n": 2,
+     "rumbo": 29,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Prince Phillip Drive",
    "punto": "St. John's",
@@ -2942,12 +7225,23 @@
   {
    "lat": 47.573203,
    "lon": -61.475847,
-   "nombre": "Peaje Chemin Principal (199)",
+   "nombre": "Peaje cerca de Grande-Entrée",
    "tipo": "cabina",
-   "via": "Chemin Principal",
-   "ref": "199",
    "localidad": "Grande-Entrée",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 47.573203,
+     "lon": -61.475847,
+     "n": 1,
+     "rumbo": 358,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 199",
    "punto": "Grande-Entrée",
@@ -2962,6 +7256,18 @@
    "ref": "1",
    "localidad": "Port Aux Basques",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 47.584117,
+     "lon": -59.140383,
+     "n": 1,
+     "rumbo": 112
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 1",
    "punto": "Port Aux Basques",
@@ -2977,6 +7283,17 @@
    "ref": "NB 11",
    "localidad": "Grande-Anse",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 47.787504,
+     "lon": -65.254486,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "NB 11",
    "punto": "Grande-Anse",
@@ -2991,6 +7308,19 @@
    "via": "Rue De la Montagne",
    "localidad": "Carleton-sur-Mer",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.136044,
+     "lon": -66.117148,
+     "n": 1,
+     "rumbo": 5,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Rue De la Montagne",
    "punto": "Carleton-sur-Mer",
@@ -3004,6 +7334,19 @@
    "tipo": "cabina",
    "via": "Sentier Le Fjord",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 48.142636,
+     "lon": -69.72616,
+     "n": 1,
+     "rumbo": 352,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 138",
    "punto": "Parc national du Fjord Saguenay",
@@ -3018,6 +7361,19 @@
    "km": "1",
    "localidad": "Malartic",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.14637,
+     "lon": -78.113751,
+     "n": 1,
+     "rumbo": 114,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Malartic",
    "nombre_visible": "Toll Malartic",
@@ -3030,6 +7386,19 @@
    "tipo": "cabina",
    "via": "Rue Notre-Dame",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 48.257475,
+     "lon": -70.401604,
+     "n": 1,
+     "rumbo": 46,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Rue Notre-Dame",
    "punto": "Secteur de la Baie Éternité",
@@ -3044,6 +7413,18 @@
    "via": "Chemin de l'Anse",
    "localidad": "L'Anse-Saint-Jean",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.270565,
+     "lon": -70.207562,
+     "n": 1,
+     "rumbo": 356
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin de l'Anse",
    "punto": "L'Anse-Saint-Jean",
@@ -3057,6 +7438,18 @@
    "tipo": "cabina",
    "localidad": "Les Bergeronnes",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.272185,
+     "lon": -69.470242,
+     "n": 1,
+     "rumbo": 140
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Les Bergeronnes",
    "nombre_visible": "Toll Les Bergeronnes",
@@ -3070,6 +7463,19 @@
    "via": "Chemin de la Chaîne",
    "localidad": "Saguenay",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.287306,
+     "lon": -71.138341,
+     "n": 1,
+     "rumbo": 186,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin de la Chaîne",
    "punto": "Saguenay",
@@ -3083,6 +7489,19 @@
    "tipo": "cabina",
    "via": "Chemin Kempt",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 48.294458,
+     "lon": -67.005745,
+     "n": 1,
+     "rumbo": 160,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin Kempt",
    "punto": "ZEC Casault",
@@ -3092,12 +7511,23 @@
   {
    "lat": 48.330138,
    "lon": -68.806697,
-   "nombre": "Peaje Route 132 (3)",
+   "nombre": "Peaje Route 132 (2)",
    "tipo": "cabina",
    "via": "Route 132",
    "ref": "132",
    "localidad": "Saint-Fabien",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.330138,
+     "lon": -68.806697,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 132",
    "punto": "Saint-Fabien",
@@ -3107,17 +7537,27 @@
   {
    "lat": 48.355157,
    "lon": -68.754156,
-   "nombre": "Peaje Route 132 (2)",
+   "nombre": "Peaje en Canadá (2)",
    "tipo": "cabina",
-   "via": "Route 132",
-   "ref": "132",
-   "localidad": "Le Bic",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.355157,
+     "lon": -68.754156,
+     "n": 2,
+     "rumbo": 340
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 132",
-   "punto": "Le Bic",
-   "nombre_visible": "Route 132 - Toll Le Bic",
-   "confianza": "media"
+   "punto": "(unnamed)",
+   "nombre_visible": "Route 132 - Toll (unnamed)",
+   "confianza": "baja",
+   "nota": "El robot no encontró ruta ni localidad: completar a mano."
   },
   {
    "lat": 48.390344,
@@ -3126,6 +7566,19 @@
    "tipo": "cabina",
    "via": "Chemin Lacroix",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 48.390344,
+     "lon": -66.966352,
+     "n": 1,
+     "rumbo": 109,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin Lacroix",
    "punto": "ZEC Casault",
@@ -3140,6 +7593,19 @@
    "tipo": "cabina",
    "via": "Route du Huit-Mille",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 48.410162,
+     "lon": -67.161957,
+     "n": 1,
+     "rumbo": 268,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route du Huit-Mille",
    "punto": "ZEC Casault",
@@ -3156,6 +7622,23 @@
    "km": "0",
    "localidad": "Victoria",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.42175,
+     "lon": -123.373608,
+     "n": 1,
+     "rumbo": 112
+    },
+    {
+     "lat": 48.421771,
+     "lon": -123.373591,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.3
+   },
    "pais": "CA",
    "via_visible": "BC 17",
    "punto": "Victoria",
@@ -3171,6 +7654,19 @@
    "ref": "R 0200",
    "localidad": "Sainte-Rose-du-Nord",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.448117,
+     "lon": -70.707064,
+     "n": 1,
+     "rumbo": 200,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "R 0200",
    "punto": "Sainte-Rose-du-Nord",
@@ -3184,6 +7680,19 @@
    "tipo": "cabina",
    "via": "Chemin Lacroix",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 48.480361,
+     "lon": -66.84596,
+     "n": 2,
+     "rumbo": 194,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin Lacroix",
    "punto": "ZEC Casault",
@@ -3200,6 +7709,24 @@
    "ref": "132",
    "localidad": "Percé",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.522951,
+     "lon": -64.211746,
+     "n": 1,
+     "rumbo": 48
+    },
+    {
+     "lat": 48.522985,
+     "lon": -64.211835,
+     "n": 1,
+     "rumbo": 229
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.7
+   },
    "pais": "CA",
    "via_visible": "Route 132",
    "punto": "Percé",
@@ -3213,19 +7740,57 @@
    "tipo": "cabina",
    "localidad": "Sainte-Gertrude",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.555385,
+     "lon": -78.228719,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Sainte-Gertrude",
    "nombre_visible": "Toll Sainte-Gertrude",
    "confianza": "media"
   },
   {
+<<<<<<< HEAD
    "lat": 48.639601,
    "lon": -123.430911,
+=======
+   "lat": 48.639383,
+   "lon": -123.431977,
+>>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "nombre": "Peaje Willingdon Road",
    "tipo": "cabina",
    "via": "Willingdon Road",
    "localidad": "North Saanich",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.639383,
+     "lon": -123.431977,
+     "n": 4,
+     "rumbo": 189
+    },
+    {
+     "lat": 48.63989,
+     "lon": -123.429489,
+     "n": 3,
+     "rumbo": 279
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 82,
+    "centro_plaza": [
+     48.639601,
+     -123.430911
+    ]
+   },
    "pais": "CA",
    "via_visible": "Willingdon Road",
    "punto": "North Saanich",
@@ -3241,6 +7806,18 @@
    "ref": "BC 17",
    "localidad": "North Saanich",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.684294,
+     "lon": -123.411057,
+     "n": 1,
+     "rumbo": 46
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "BC 17",
    "punto": "North Saanich",
@@ -3254,6 +7831,18 @@
    "tipo": "cabina",
    "via": "3e Rang",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 48.685981,
+     "lon": -71.878393,
+     "n": 1,
+     "rumbo": 214
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "3e Rang",
    "punto": "Accueil du Parc",
@@ -3269,6 +7858,19 @@
    "ref": "198",
    "localidad": "Sunny Bank",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.811671,
+     "lon": -64.791999,
+     "n": 1,
+     "rumbo": 197,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 198",
    "punto": "Sunny Bank",
@@ -3276,11 +7878,33 @@
    "confianza": "media"
   },
   {
-   "lat": 48.812345,
-   "lon": -64.261983,
+   "lat": 48.812577,
+   "lon": -64.26572,
    "nombre": "Parc National Forillon",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 48.812113,
+     "lon": -64.258246,
+     "n": 1,
+     "rumbo": 138,
+     "doble": true
+    },
+    {
+     "lat": 48.812577,
+     "lon": -64.26572,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 275,
+    "centro_plaza": [
+     48.812345,
+     -64.261983
+    ]
+   },
    "pais": "CA",
    "punto": "Parc National Forillon",
    "nombre_visible": "Toll Parc National Forillon",
@@ -3294,6 +7918,17 @@
    "via": "Route du Grand-Détour",
    "localidad": "Matane",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.822857,
+     "lon": -67.537637,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route du Grand-Détour",
    "punto": "Matane",
@@ -3307,6 +7942,18 @@
    "tipo": "cabina",
    "via": "Chemin du Cap-Bon-Ami",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 48.837614,
+     "lon": -64.215871,
+     "n": 1,
+     "rumbo": 235
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chemin du Cap-Bon-Ami",
    "punto": "Parc National Forillon",
@@ -3321,6 +7968,19 @@
    "via": "Dalton Drive",
    "localidad": "Mayne",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.844651,
+     "lon": -123.322148,
+     "n": 3,
+     "rumbo": 151,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Dalton Drive",
    "punto": "Mayne",
@@ -3335,6 +7995,19 @@
    "via": "Chemin de la Réserve-Faunique",
    "ref": "1",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 48.865467,
+     "lon": -66.780912,
+     "n": 1,
+     "rumbo": 156,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 1",
    "punto": "ZEC de Cap-Chat",
@@ -3349,6 +8022,19 @@
    "via": "Chaplin Street",
    "localidad": "North Cowichan",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.865518,
+     "lon": -123.640138,
+     "n": 1,
+     "rumbo": 82,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Chaplin Street",
    "punto": "North Cowichan",
@@ -3358,15 +8044,30 @@
   {
    "lat": 48.925284,
    "lon": -123.716503,
-   "nombre": "Peaje Oak Street",
+   "nombre": "Peaje cerca de Saltair",
    "tipo": "cabina",
-   "via": "Oak Street",
    "localidad": "Saltair",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.925269,
+     "lon": -123.7165,
+     "n": 1,
+     "rumbo": 90
+    },
+    {
+     "lat": 48.925298,
+     "lon": -123.716507,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.6
+   },
    "pais": "CA",
-   "via_visible": "Oak Street",
    "punto": "Saltair",
-   "nombre_visible": "Oak Street - Toll Saltair",
+   "nombre_visible": "Toll Saltair",
    "confianza": "media"
   },
   {
@@ -3377,6 +8078,19 @@
    "via": "Route du Corridor-Panoramique",
    "localidad": "Cap-Chat",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 48.990165,
+     "lon": -66.703745,
+     "n": 1,
+     "rumbo": 146,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route du Corridor-Panoramique",
    "punto": "Cap-Chat",
@@ -3392,6 +8106,23 @@
    "ref": "BC 17",
    "localidad": "Point Roberts",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.010285,
+     "lon": -123.126275,
+     "n": 1,
+     "rumbo": 253
+    },
+    {
+     "lat": 49.010517,
+     "lon": -123.126401,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.6
+   },
    "pais": "CA",
    "via_visible": "BC 17",
    "punto": "Point Roberts",
@@ -3406,6 +8137,18 @@
    "via": "Mount Lehman Road",
    "localidad": "Abbotsford",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.020716,
+     "lon": -122.383758,
+     "n": 1,
+     "rumbo": 22
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Mount Lehman Road",
    "punto": "Abbotsford",
@@ -3420,6 +8163,17 @@
    "via": "272 Street",
    "localidad": "Lynden",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.022002,
+     "lon": -122.469843,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "272 Street",
    "punto": "Lynden",
@@ -3434,6 +8188,29 @@
    "via": "Benson Drive",
    "localidad": "Delta",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.098634,
+     "lon": -123.022409,
+     "n": 1,
+     "rumbo": 90
+    },
+    {
+     "lat": 49.098665,
+     "lon": -123.022395,
+     "n": 1
+    },
+    {
+     "lat": 49.098696,
+     "lon": -123.022446,
+     "n": 1,
+     "rumbo": 270
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.5
+   },
    "pais": "CA",
    "via_visible": "Benson Drive",
    "punto": "Delta",
@@ -3448,6 +8225,18 @@
    "ref": "5",
    "localidad": "Hill Spring",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.109616,
+     "lon": -113.84917,
+     "n": 2,
+     "rumbo": 243
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 5",
    "punto": "Hill Spring",
@@ -3455,14 +8244,36 @@
    "confianza": "media"
   },
   {
-   "lat": 49.158837,
-   "lon": -123.891187,
+   "lat": 49.158048,
+   "lon": -123.890991,
    "nombre": "Peaje Duke Point Ferry Terminal (BC 19)",
    "tipo": "cabina",
    "via": "Duke Point Ferry Terminal",
    "ref": "BC 19",
    "localidad": "Nanaimo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.158048,
+     "lon": -123.890991,
+     "n": 4,
+     "rumbo": 9
+    },
+    {
+     "lat": 49.161996,
+     "lon": -123.891972,
+     "n": 1,
+     "rumbo": 14
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 88,
+    "centro_plaza": [
+     49.158837,
+     -123.891187
+    ]
+   },
    "pais": "CA",
    "via_visible": "BC 19",
    "punto": "Nanaimo",
@@ -3477,6 +8288,18 @@
    "via": "Front Street",
    "localidad": "Nanaimo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.165858,
+     "lon": -123.931564,
+     "n": 1,
+     "rumbo": 76
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Front Street",
    "punto": "Nanaimo",
@@ -3484,14 +8307,36 @@
    "confianza": "media"
   },
   {
-   "lat": 49.190491,
-   "lon": -123.953159,
+   "lat": 49.190191,
+   "lon": -123.953089,
    "nombre": "Peaje Trans-Canada Highway (1)",
    "tipo": "cabina",
    "via": "Trans-Canada Highway",
    "ref": "1",
    "localidad": "Nanaimo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.190191,
+     "lon": -123.953089,
+     "n": 5,
+     "rumbo": 320
+    },
+    {
+     "lat": 49.191994,
+     "lon": -123.953509,
+     "n": 1,
+     "rumbo": 304
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 34,
+    "centro_plaza": [
+     49.190491,
+     -123.953159
+    ]
+   },
    "pais": "CA",
    "via_visible": "Route 1",
    "punto": "Nanaimo",
@@ -3506,6 +8351,18 @@
    "via": "Grant McConachie Way",
    "localidad": "Richmond",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.192084,
+     "lon": -123.175437,
+     "n": 7,
+     "rumbo": 100
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Grant McConachie Way",
    "punto": "Richmond",
@@ -3521,6 +8378,19 @@
    "via": "Cartmell Road",
    "localidad": "Shxwhá:y",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.192924,
+     "lon": -121.972627,
+     "n": 1,
+     "rumbo": 298,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Cartmell Road",
    "punto": "Shxwhá:y",
@@ -3535,6 +8405,18 @@
    "via": "Grant McConachie Way",
    "localidad": "Richmond",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.196169,
+     "lon": -123.143473,
+     "n": 2,
+     "rumbo": 38
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Grant McConachie Way",
    "punto": "Richmond",
@@ -3551,6 +8433,19 @@
    "ref": "132",
    "localidad": "Mont-Saint-Pierre",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.226003,
+     "lon": -65.79289,
+     "n": 1,
+     "rumbo": 168,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 132",
    "punto": "Mont-Saint-Pierre",
@@ -3564,6 +8459,24 @@
    "tipo": "cabina",
    "localidad": "North Vancouver",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.301756,
+     "lon": -123.018201,
+     "n": 2,
+     "rumbo": 159
+    },
+    {
+     "lat": 49.301835,
+     "lon": -123.017991,
+     "n": 2,
+     "rumbo": 338
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.8
+   },
    "pais": "CA",
    "punto": "North Vancouver",
    "nombre_visible": "Toll North Vancouver",
@@ -3575,6 +8488,17 @@
    "nombre": "Vehicle Check-in Booths",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 49.366358,
+     "lon": -123.275399,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "TCH 1",
    "punto": "Vehicle Check-in Booths",
@@ -3589,6 +8513,19 @@
    "via": "hiway",
    "localidad": "Baie-Trinité",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.421999,
+     "lon": -67.311372,
+     "n": 1,
+     "rumbo": 139,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "hiway",
    "punto": "Baie-Trinité",
@@ -3604,6 +8541,18 @@
    "ref": "BC 101",
    "localidad": "Langdale",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.433698,
+     "lon": -123.478325,
+     "n": 3,
+     "rumbo": 146
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "BC 101",
    "punto": "Langdale",
@@ -3616,6 +8565,17 @@
    "nombre": "Comox Valley Waste Management Centre - Weighing Station",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 49.637491,
+     "lon": -125.049851,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Comox Valley Waste Management Centre - Weighing Station",
    "nombre_visible": "Toll Comox Valley Waste Management Centre - Weighing Station",
@@ -3628,6 +8588,18 @@
    "tipo": "cabina",
    "via": "Ellenor Road",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 49.740377,
+     "lon": -124.925614,
+     "n": 2,
+     "rumbo": 354
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Ellenor Road",
    "punto": "Vehicle Ticketing",
@@ -3642,6 +8614,18 @@
    "ref": "209",
    "localidad": "Kenosee Lake",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.835346,
+     "lon": -102.292258,
+     "n": 1,
+     "rumbo": 275
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 209",
    "punto": "Kenosee Lake",
@@ -3657,6 +8641,17 @@
    "ref": "BC 101",
    "localidad": "Powell River",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.837075,
+     "lon": -124.528961,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "BC 101",
    "punto": "Powell River",
@@ -3671,6 +8666,17 @@
    "via": "Ellis Street",
    "localidad": "Kelowna",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.900112,
+     "lon": -119.49476,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Ellis Street",
    "punto": "Kelowna",
@@ -3685,6 +8691,18 @@
    "via": "Administration Street",
    "localidad": "Winnipeg",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.90145,
+     "lon": -97.222915,
+     "n": 6,
+     "rumbo": 109
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Administration Street",
    "punto": "Winnipeg",
@@ -3694,14 +8712,26 @@
   {
    "lat": 49.934531,
    "lon": -57.764826,
-   "nombre": "Peaje cerca de Cow Head",
+   "nombre": "Peaje en Canadá",
    "tipo": "cabina",
-   "localidad": "Cow Head",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.934531,
+     "lon": -57.764826,
+     "n": 1,
+     "rumbo": 45
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
-   "punto": "Cow Head",
-   "nombre_visible": "Toll Cow Head",
-   "confianza": "media"
+   "punto": "(unnamed)",
+   "nombre_visible": "(unnamed)",
+   "confianza": "baja",
+   "nota": "El robot no encontró ruta ni localidad: completar a mano."
   },
   {
    "lat": 49.94771,
@@ -3710,6 +8740,17 @@
    "tipo": "cabina",
    "localidad": "Kelowna",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 49.94771,
+     "lon": -119.413667,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Kelowna",
    "nombre_visible": "Toll Kelowna",
@@ -3724,6 +8765,18 @@
    "ref": "BC 19A",
    "localidad": "Campbell River",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 50.027215,
+     "lon": -125.241628,
+     "n": 1,
+     "rumbo": 338
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "BC 19A",
    "punto": "Campbell River",
@@ -3739,6 +8792,19 @@
    "ref": "BC 99",
    "localidad": "Whistler Village",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 50.096218,
+     "lon": -122.995128,
+     "n": 1,
+     "rumbo": 25,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "BC 99",
    "punto": "Whistler Village",
@@ -3753,6 +8819,19 @@
    "via": "Callaghan Valley Road",
    "localidad": "Whistler Village",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 50.133577,
+     "lon": -123.124814,
+     "n": 1,
+     "rumbo": 166,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Callaghan Valley Road",
    "punto": "Whistler Village",
@@ -3762,15 +8841,31 @@
   {
    "lat": 50.454311,
    "lon": -104.594598,
-   "nombre": "Peaje Winnipeg Street",
+   "nombre": "Peaje cerca de Regina",
    "tipo": "cabina",
-   "via": "Winnipeg Street",
    "localidad": "Regina",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 50.454268,
+     "lon": -104.594611,
+     "n": 1,
+     "rumbo": 315
+    },
+    {
+     "lat": 50.454355,
+     "lon": -104.594584,
+     "n": 1,
+     "rumbo": 272
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.8
+   },
    "pais": "CA",
-   "via_visible": "Winnipeg Street",
    "punto": "Regina",
-   "nombre_visible": "Winnipeg Street - Toll Regina",
+   "nombre_visible": "Toll Regina",
    "confianza": "media"
   },
   {
@@ -3779,6 +8874,17 @@
    "nombre": "Tickets",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 50.522085,
+     "lon": -119.138843,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Highway 97A",
    "punto": "Tickets",
@@ -3788,29 +8894,55 @@
   {
    "lat": 50.591462,
    "lon": -127.085691,
-   "nombre": "Peaje Port McNeill Ferry Terminal",
+   "nombre": "Peaje cerca de Port McNeill",
    "tipo": "cabina",
-   "via": "Port McNeill Ferry Terminal",
    "localidad": "Port McNeill",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 50.591453,
+     "lon": -127.085717,
+     "n": 1
+    },
+    {
+     "lat": 50.591471,
+     "lon": -127.085666,
+     "n": 1,
+     "rumbo": 329
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.0
+   },
    "pais": "CA",
-   "via_visible": "Port McNeill Ferry Terminal",
    "punto": "Port McNeill",
-   "nombre_visible": "Port McNeill Ferry Terminal - Toll Port McNeill",
+   "nombre_visible": "Toll Port McNeill",
    "confianza": "media"
   },
   {
    "lat": 50.678433,
    "lon": -120.333872,
-   "nombre": "Peaje Lorne Street",
+   "nombre": "Peaje cerca de Kamloops",
    "tipo": "cabina",
-   "via": "Lorne Street",
    "localidad": "Kamloops",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 50.678433,
+     "lon": -120.333872,
+     "n": 5,
+     "rumbo": 178,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
-   "via_visible": "Lorne Street",
    "punto": "Kamloops",
-   "nombre_visible": "Lorne Street - Toll Kamloops",
+   "nombre_visible": "Toll Kamloops",
    "confianza": "media"
   },
   {
@@ -3820,6 +8952,19 @@
    "tipo": "cabina",
    "localidad": "Ashcroft",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 50.744223,
+     "lon": -121.251837,
+     "n": 1,
+     "rumbo": 47,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Ashcroft",
    "nombre_visible": "Toll Ashcroft",
@@ -3834,6 +8979,17 @@
    "ref": "TCH 1",
    "localidad": "Malakwa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 50.996685,
+     "lon": -118.644062,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "TCH 1",
    "punto": "Malakwa",
@@ -3849,6 +9005,18 @@
    "ref": "PTH 10",
    "localidad": "Dauphin",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 51.015262,
+     "lon": -100.06025,
+     "n": 1,
+     "rumbo": 175
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Highway 10",
    "punto": "Dauphin",
@@ -3863,6 +9031,19 @@
    "via": "Meadows-in-the-Sky Parkway",
    "localidad": "Revelstoke",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 51.019151,
+     "lon": -118.205097,
+     "n": 1,
+     "rumbo": 7,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Meadows-in-the-Sky Parkway",
    "punto": "Revelstoke",
@@ -3876,6 +9057,19 @@
    "tipo": "cabina",
    "localidad": "Springbank",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 51.085502,
+     "lon": -114.356116,
+     "n": 1,
+     "rumbo": 286,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Springbank",
    "nombre_visible": "Toll Springbank",
@@ -3890,6 +9084,19 @@
    "ref": "2",
    "localidad": "Calgary",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 51.114566,
+     "lon": -114.045924,
+     "n": 1,
+     "rumbo": 0,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 2",
    "punto": "Calgary",
@@ -3904,6 +9111,23 @@
    "via": "Trans-Canada Highway",
    "localidad": "Canmore",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 51.134918,
+     "lon": -115.406653,
+     "n": 4,
+     "rumbo": 332
+    },
+    {
+     "lat": 51.134971,
+     "lon": -115.406789,
+     "n": 8
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.7
+   },
    "pais": "CA",
    "via_visible": "Trans-Canada Highway",
    "punto": "Canmore",
@@ -3918,6 +9142,29 @@
    "via": "Tunnel Mountain Campground",
    "localidad": "Banff",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 51.18836,
+     "lon": -115.5402,
+     "n": 1,
+     "rumbo": 160
+    },
+    {
+     "lat": 51.188415,
+     "lon": -115.540143,
+     "n": 1
+    },
+    {
+     "lat": 51.18842,
+     "lon": -115.540052,
+     "n": 1,
+     "rumbo": 340
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.0
+   },
    "pais": "CA",
    "via_visible": "Tunnel Mountain Campground",
    "punto": "Banff",
@@ -3932,6 +9179,29 @@
    "via": "Tunnel Mountain Road",
    "localidad": "Anthracite",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 51.191193,
+     "lon": -115.520151,
+     "n": 1,
+     "rumbo": 165
+    },
+    {
+     "lat": 51.191217,
+     "lon": -115.520006,
+     "n": 1,
+     "rumbo": 347
+    },
+    {
+     "lat": 51.191218,
+     "lon": -115.520085,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.0
+   },
    "pais": "CA",
    "via_visible": "Tunnel Mountain Road",
    "punto": "Anthracite",
@@ -3944,6 +9214,18 @@
    "nombre": "Yoho National Park Gate",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 51.231128,
+     "lon": -116.639893,
+     "n": 1,
+     "rumbo": 132
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "TCH 1",
    "punto": "Yoho National Park Gate",
@@ -3956,6 +9238,17 @@
    "nombre": "Last Mountain Regional Park",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 51.357813,
+     "lon": -105.21769,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Last Mountain Regional Park",
    "nombre_visible": "Toll Last Mountain Regional Park",
@@ -3970,6 +9263,23 @@
    "ref": "93",
    "localidad": "Field",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 51.444676,
+     "lon": -116.209011,
+     "n": 3
+    },
+    {
+     "lat": 51.444699,
+     "lon": -116.208976,
+     "n": 3,
+     "rumbo": 281
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.7
+   },
    "pais": "CA",
    "via_visible": "Route 93",
    "punto": "Field",
@@ -3983,6 +9293,19 @@
    "tipo": "cabina",
    "localidad": "Kerrobert",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 51.867077,
+     "lon": -108.981084,
+     "n": 1,
+     "rumbo": 0,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Kerrobert",
    "nombre_visible": "Toll Kerrobert",
@@ -3995,6 +9318,18 @@
    "tipo": "cabina",
    "localidad": "Waṗáha Ska / Whitecap",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 51.893151,
+     "lon": -106.822781,
+     "n": 1,
+     "rumbo": 150
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Waṗáha Ska / Whitecap",
    "nombre_visible": "Toll Waṗáha Ska / Whitecap",
@@ -4008,6 +9343,23 @@
    "via": "David Thompson Highway",
    "ref": "11",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 51.974533,
+     "lon": -116.742126,
+     "n": 1
+    },
+    {
+     "lat": 51.974556,
+     "lon": -116.742218,
+     "n": 1,
+     "rumbo": 223
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.4
+   },
    "pais": "CA",
    "via_visible": "Route 11",
    "punto": "Parks Canada",
@@ -4015,14 +9367,43 @@
    "confianza": "alta"
   },
   {
-   "lat": 52.130015,
-   "lon": -106.636549,
+   "lat": 52.129896,
+   "lon": -106.635931,
    "nombre": "Peaje College Drive (5)",
    "tipo": "cabina",
    "via": "College Drive",
    "ref": "5",
    "localidad": "Saskatoon",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 52.129845,
+     "lon": -106.635951,
+     "n": 1,
+     "rumbo": 90
+    },
+    {
+     "lat": 52.129896,
+     "lon": -106.635931,
+     "n": 1,
+     "rumbo": 284
+    },
+    {
+     "lat": 52.130305,
+     "lon": -106.637764,
+     "n": 1,
+     "rumbo": 213,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 44,
+    "centro_plaza": [
+     52.130015,
+     -106.636549
+    ]
+   },
    "pais": "CA",
    "via_visible": "Route 5",
    "punto": "Saskatoon",
@@ -4030,14 +9411,36 @@
    "confianza": "media"
   },
   {
-   "lat": 52.228105,
-   "lon": -113.807837,
+   "lat": 52.227287,
+   "lon": -113.810975,
    "nombre": "Peaje 46 Avenue (595)",
    "tipo": "cabina",
    "via": "46 Avenue",
    "ref": "595",
    "localidad": "Red Deer",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 52.227287,
+     "lon": -113.810975,
+     "n": 4,
+     "rumbo": 90
+    },
+    {
+     "lat": 52.228922,
+     "lon": -113.804698,
+     "n": 4,
+     "rumbo": 233
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 232,
+    "centro_plaza": [
+     52.228105,
+     -113.807837
+    ]
+   },
    "pais": "CA",
    "via_visible": "Route 595",
    "punto": "Red Deer",
@@ -4053,6 +9456,18 @@
    "ref": "93",
    "localidad": "Jasper",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 52.818559,
+     "lon": -118.0528,
+     "n": 2,
+     "rumbo": 163
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 93",
    "punto": "Jasper",
@@ -4068,6 +9483,18 @@
    "ref": "16",
    "localidad": "Jasper",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 52.882818,
+     "lon": -118.39313,
+     "n": 1,
+     "rumbo": 87
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 16",
    "punto": "Jasper",
@@ -4081,6 +9508,19 @@
    "tipo": "cabina",
    "localidad": "ᒥᓇᐦᐃᑯᓯᕽ Little Pine",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 52.913739,
+     "lon": -109.113435,
+     "n": 1,
+     "rumbo": 27,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "ᒥᓇᐦᐃᑯᓯᕽ Little Pine",
    "nombre_visible": "Toll ᒥᓇᐦᐃᑯᓯᕽ Little Pine",
@@ -4094,6 +9534,19 @@
    "tipo": "cabina",
    "localidad": "ᒥᓇᐦᐃᑯᓯᕽ Little Pine",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 52.986182,
+     "lon": -109.186454,
+     "n": 1,
+     "rumbo": 320,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "ᒥᓇᐦᐃᑯᓯᕽ Little Pine",
    "nombre_visible": "Toll ᒥᓇᐦᐃᑯᓯᕽ Little Pine",
@@ -4109,6 +9562,18 @@
    "ref": "4",
    "localidad": "Saulteaux",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.106946,
+     "lon": -108.3539,
+     "n": 1,
+     "rumbo": 265
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Highway 4",
    "punto": "Saulteaux",
@@ -4116,13 +9581,35 @@
    "confianza": "media"
   },
   {
-   "lat": 53.191449,
-   "lon": -105.782892,
+   "lat": 53.191443,
+   "lon": -105.783523,
    "nombre": "Peaje 10 Avenue West",
    "tipo": "cabina",
    "via": "10 Avenue West",
    "localidad": "Prince Albert",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.191443,
+     "lon": -105.783523,
+     "n": 1,
+     "rumbo": 70
+    },
+    {
+     "lat": 53.191455,
+     "lon": -105.782261,
+     "n": 1,
+     "rumbo": 159
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 42,
+    "centro_plaza": [
+     53.191449,
+     -105.782892
+    ]
+   },
    "pais": "CA",
    "via_visible": "10 Avenue West",
    "punto": "Prince Albert",
@@ -4138,6 +9625,18 @@
    "ref": "16",
    "localidad": "Hinton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.22162,
+     "lon": -117.837649,
+     "n": 3,
+     "rumbo": 222
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 16",
    "punto": "Hinton",
@@ -4151,6 +9650,23 @@
    "tipo": "cabina",
    "localidad": "Leduc",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.299883,
+     "lon": -113.574364,
+     "n": 1,
+     "rumbo": 134
+    },
+    {
+     "lat": 53.299986,
+     "lon": -113.574087,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.8
+   },
    "pais": "CA",
    "punto": "Leduc",
    "nombre_visible": "Toll Leduc",
@@ -4164,6 +9680,17 @@
    "via": "31 Street East",
    "localidad": "Leduc",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.306723,
+     "lon": -113.567221,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "31 Street East",
    "punto": "Leduc",
@@ -4171,13 +9698,39 @@
    "confianza": "media"
   },
   {
-   "lat": 53.307645,
-   "lon": -113.579104,
+   "lat": 53.306804,
+   "lon": -113.577803,
    "nombre": "Peaje Hourly Parkade (P2)",
    "tipo": "cabina",
    "via": "Hourly Parkade (P2)",
    "localidad": "Leduc",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.306804,
+     "lon": -113.577803,
+     "n": 8,
+     "rumbo": 85
+    },
+    {
+     "lat": 53.306955,
+     "lon": -113.577773,
+     "n": 3
+    },
+    {
+     "lat": 53.309404,
+     "lon": -113.581985,
+     "n": 5
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 117,
+    "centro_plaza": [
+     53.307645,
+     -113.579104
+    ]
+   },
    "pais": "CA",
    "via_visible": "Hourly Parkade (P2)",
    "punto": "Leduc",
@@ -4192,6 +9745,19 @@
    "via": "36 Street East",
    "localidad": "Leduc",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.320509,
+     "lon": -113.574561,
+     "n": 2,
+     "rumbo": 266,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "36 Street East",
    "punto": "Leduc",
@@ -4206,6 +9772,17 @@
    "via": "104 Street NW",
    "localidad": "Edmonton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.519223,
+     "lon": -113.499317,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "104 Street NW",
    "punto": "Edmonton",
@@ -4220,6 +9797,17 @@
    "via": "97 Avenue NW",
    "localidad": "Edmonton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.533984,
+     "lon": -113.505059,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "97 Avenue NW",
    "punto": "Edmonton",
@@ -4234,6 +9822,24 @@
    "via": "184 Street NW",
    "localidad": "Edmonton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.538866,
+     "lon": -113.641531,
+     "n": 1,
+     "rumbo": 179
+    },
+    {
+     "lat": 53.538868,
+     "lon": -113.641389,
+     "n": 1,
+     "rumbo": 3
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.7
+   },
    "pais": "CA",
    "via_visible": "184 Street NW",
    "punto": "Edmonton",
@@ -4241,13 +9847,44 @@
    "confianza": "media"
   },
   {
-   "lat": 53.565503,
-   "lon": -113.451657,
+   "lat": 53.564622,
+   "lon": -113.451073,
    "nombre": "Peaje 116 Avenue NW",
    "tipo": "cabina",
    "via": "116 Avenue NW",
    "localidad": "Edmonton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.564622,
+     "lon": -113.451073,
+     "n": 5,
+     "rumbo": 329,
+     "doble": true
+    },
+    {
+     "lat": 53.567296,
+     "lon": -113.452923,
+     "n": 1,
+     "rumbo": 330,
+     "doble": true
+    },
+    {
+     "lat": 53.568117,
+     "lon": -113.45331,
+     "n": 1,
+     "rumbo": 338,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 105,
+    "centro_plaza": [
+     53.565503,
+     -113.451657
+    ]
+   },
    "pais": "CA",
    "via_visible": "116 Avenue NW",
    "punto": "Edmonton",
@@ -4260,13 +9897,26 @@
    "nombre": "Peaje 79 Street NW",
    "tipo": "cabina",
    "via": "79 Street NW",
-   "localidad": "Edmonton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.566268,
+     "lon": -113.462027,
+     "n": 1,
+     "rumbo": 33,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "79 Street NW",
-   "punto": "Edmonton",
-   "nombre_visible": "79 Street NW - Toll Edmonton",
-   "confianza": "media"
+   "punto": "(unnamed)",
+   "nombre_visible": "79 Street NW - Toll (unnamed)",
+   "confianza": "baja",
+   "nota": "El robot no encontró ruta ni localidad: completar a mano."
   },
   {
    "lat": 53.571261,
@@ -4276,6 +9926,17 @@
    "via": "121 Street NW",
    "localidad": "Edmonton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.571261,
+     "lon": -113.52779,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "121 Street NW",
    "punto": "Edmonton",
@@ -4290,6 +9951,18 @@
    "via": "Elk Island Parkway",
    "localidad": "Chipman",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.585189,
+     "lon": -112.837812,
+     "n": 1,
+     "rumbo": 345
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Elk Island Parkway",
    "punto": "Chipman",
@@ -4302,6 +9975,17 @@
    "nombre": "Weigh Scale",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 53.591583,
+     "lon": -113.341967,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Weigh Scale",
    "nombre_visible": "Toll Weigh Scale",
@@ -4315,6 +9999,18 @@
    "via": "Elk Island Parkway",
    "localidad": "Lamont",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.714784,
+     "lon": -112.804226,
+     "n": 1,
+     "rumbo": 208
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Elk Island Parkway",
    "punto": "Lamont",
@@ -4329,6 +10025,18 @@
    "ref": "264",
    "localidad": "Waskesiu Lake",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.908531,
+     "lon": -106.018037,
+     "n": 1,
+     "rumbo": 326
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 264",
    "punto": "Waskesiu Lake",
@@ -4344,6 +10052,23 @@
    "ref": "YH 16",
    "localidad": "Prince Rupert",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 54.294222,
+     "lon": -130.35182,
+     "n": 2,
+     "rumbo": 14
+    },
+    {
+     "lat": 54.294232,
+     "lon": -130.351864,
+     "n": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.5
+   },
    "pais": "CA",
    "via_visible": "YH 16",
    "punto": "Prince Rupert",
@@ -4356,6 +10081,17 @@
    "nombre": "PRRD North Peace Regional Landfill",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 56.213535,
+     "lon": -120.90327,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "PRRD North Peace Regional Landfill",
    "nombre_visible": "Toll PRRD North Peace Regional Landfill",
@@ -4370,6 +10106,18 @@
    "ref": "3",
    "localidad": "Yellowknife",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 62.469332,
+     "lon": -114.409102,
+     "n": 1,
+     "rumbo": 291
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "via_visible": "Route 3",
    "punto": "Yellowknife",
@@ -4383,6 +10131,19 @@
    "tipo": "cabina",
    "localidad": "Ndilǫ",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 62.565112,
+     "lon": -113.986298,
+     "n": 1,
+     "rumbo": 226,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CA",
    "punto": "Ndilǫ",
    "nombre_visible": "Toll Ndilǫ",
@@ -4399,6 +10160,19 @@
    "ref": "7",
    "localidad": "Brampton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.692816,
+     "lon": -79.628499,
+     "n": 1,
+     "rumbo": 320,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
   {
@@ -4409,6 +10183,18 @@
    "via": "Parking exit",
    "localidad": "Toronto",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 43.721853,
+     "lon": -79.377613,
+     "n": 1,
+     "rumbo": 349
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
   {
@@ -4420,6 +10206,18 @@
    "ref": "79",
    "localidad": "Greely",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 45.322727,
+     "lon": -75.662545,
+     "n": 1,
+     "rumbo": 58
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
   {
@@ -4430,14 +10228,95 @@
    "via": "Airport Access",
    "localidad": "Bay Mills",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 46.485583,
+     "lon": -84.498991,
+     "n": 1,
+     "rumbo": 251,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
   {
-   "lat": 51.134528,
-   "lon": -114.007006,
+   "lat": 51.132945,
+   "lon": -114.00644,
    "nombre": "Parking Toll Plaza",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 51.132945,
+     "lon": -114.00644,
+     "n": 8,
+     "rumbo": 0
+    },
+    {
+     "lat": 51.132991,
+     "lon": -114.006783,
+     "n": 1
+    },
+    {
+     "lat": 51.133577,
+     "lon": -114.007176,
+     "n": 2,
+     "rumbo": 90
+    },
+    {
+     "lat": 51.133736,
+     "lon": -114.00321,
+     "n": 2,
+     "rumbo": 337
+    },
+    {
+     "lat": 51.135039,
+     "lon": -114.010005,
+     "n": 1,
+     "rumbo": 90
+    },
+    {
+     "lat": 51.135504,
+     "lon": -114.011521,
+     "n": 1,
+     "rumbo": 270
+    },
+    {
+     "lat": 51.135951,
+     "lon": -114.009509,
+     "n": 2,
+     "rumbo": 0
+    },
+    {
+     "lat": 51.135965,
+     "lon": -114.007581,
+     "n": 1,
+     "rumbo": 0
+    },
+    {
+     "lat": 51.13689,
+     "lon": -114.006665,
+     "n": 1
+    },
+    {
+     "lat": 51.136915,
+     "lon": -114.006816,
+     "n": 4,
+     "rumbo": 180
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 106,
+    "centro_plaza": [
+     51.134528,
+     -114.007006
+    ]
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
   {
@@ -4448,6 +10327,18 @@
    "via": "Airport Drive",
    "localidad": "Saskatoon",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 52.162911,
+     "lon": -106.689637,
+     "n": 4,
+     "rumbo": 0
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
   {
@@ -4458,6 +10349,18 @@
    "via": "Airport Drive",
    "localidad": "Saskatoon",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 52.168672,
+     "lon": -106.687604,
+     "n": 1,
+     "rumbo": 198
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
   {
@@ -4468,6 +10371,17 @@
    "via": "Airport Road",
    "localidad": "Leduc",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.308161,
+     "lon": -113.537921,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
   {
@@ -4478,9 +10392,28 @@
    "via": "Airport Road",
    "localidad": "Leduc",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 53.311306,
+     "lon": -113.586691,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
+<<<<<<< HEAD
  "generado": "2026-11-01T14:27Z",
  "alertas": []
+=======
+ "generado": "2026-11-01T18:11Z",
+ "alertas": [
+  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
+  "Alrededores: falló un lote de 5 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+ ]
+>>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
 }
