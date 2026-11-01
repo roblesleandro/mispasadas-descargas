@@ -1,7 +1,7 @@
 {
  "version": "mx-2026-11-01",
  "pais": "MX",
- "generado": "2026-11-01T13:26:18+00:00",
+ "generado": "2026-11-01T15:44:09+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "CDMX Fotocívicas (SSC): capa geonode «fotocivicas» con x/y EPSG:4326 (dev-sieg.cdmx.gob.mx), desactualizada (2020/2021), sin licencia ni descarga visible.",
@@ -20,7 +20,7 @@
   "con_limite": 114,
   "limite_revisar": 0,
   "limite_desconocido": 27,
-  "revisados_esta_corrida": 2,
+  "revisados_esta_corrida": 0,
   "sin_via": 0,
   "via_completada_esta_corrida": 0,
   "limites_dudosos_sacados": 0,
@@ -933,8 +933,8 @@
    },
    "road_label": "Autopista Urbana Norte",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista Urbana Norte - Radar",
    "country": "MX"
   },
