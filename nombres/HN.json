@@ -15,17 +15,10 @@
    "corregidas": 0,
    "sin_referencia": 0,
    "corrida_anterior": {
-<<<<<<< HEAD
-    "ok": 12,
-    "a_mas_de_15_m": 0,
-    "sin_referencia": 0,
-    "total": 12
-=======
     "ok": 11,
     "a_mas_de_15_m": 0,
     "sin_referencia": 0,
     "total": 11
->>>>>>> b206aba (Nombres de estaciones (HN) actualizados automáticamente)
    }
   }
  },
@@ -63,13 +56,9 @@
     {
      "lat": 14.215124,
      "lon": -88.058329,
-<<<<<<< HEAD
-     "n": 1
-=======
      "n": 1,
      "rumbo": 5,
      "doble": true
->>>>>>> b206aba (Nombres de estaciones (HN) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -91,11 +80,6 @@
    "fuente": "osm",
    "cabinas": [
     {
-<<<<<<< HEAD
-     "lat": 14.291656,
-     "lon": -87.433542,
-     "n": 2
-=======
      "lat": 14.291621,
      "lon": -87.433529,
      "n": 1,
@@ -106,16 +90,11 @@
      "lon": -87.433554,
      "n": 1,
      "rumbo": 253
->>>>>>> b206aba (Nombres de estaciones (HN) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
-<<<<<<< HEAD
-    "distancia_m": 0.0
-=======
     "distancia_m": 4.1
->>>>>>> b206aba (Nombres de estaciones (HN) actualizados automáticamente)
    },
    "pais": "HN",
    "via_visible": "Carretera CA-5",
@@ -136,12 +115,8 @@
     {
      "lat": 14.391822,
      "lon": -87.615168,
-<<<<<<< HEAD
-     "n": 1
-=======
      "n": 1,
      "rumbo": 83
->>>>>>> b206aba (Nombres de estaciones (HN) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -166,13 +141,9 @@
     {
      "lat": 14.563208,
      "lon": -87.827961,
-<<<<<<< HEAD
-     "n": 1
-=======
      "n": 1,
      "rumbo": 307,
      "doble": true
->>>>>>> b206aba (Nombres de estaciones (HN) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -197,12 +168,8 @@
     {
      "lat": 15.030637,
      "lon": -87.927935,
-<<<<<<< HEAD
-     "n": 1
-=======
      "n": 1,
      "rumbo": 178
->>>>>>> b206aba (Nombres de estaciones (HN) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -226,13 +193,9 @@
     {
      "lat": 15.317763,
      "lon": -87.947519,
-<<<<<<< HEAD
-     "n": 1
-=======
      "n": 1,
      "rumbo": 62,
      "doble": true
->>>>>>> b206aba (Nombres de estaciones (HN) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -257,12 +220,8 @@
     {
      "lat": 15.437223,
      "lon": -88.020978,
-<<<<<<< HEAD
-     "n": 1
-=======
      "n": 1,
      "rumbo": 181
->>>>>>> b206aba (Nombres de estaciones (HN) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -288,12 +247,8 @@
     {
      "lat": 15.463211,
      "lon": -87.960457,
-<<<<<<< HEAD
-     "n": 1
-=======
      "n": 1,
      "rumbo": 128
->>>>>>> b206aba (Nombres de estaciones (HN) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -319,12 +274,8 @@
     {
      "lat": 15.559777,
      "lon": -87.984901,
-<<<<<<< HEAD
-     "n": 1
-=======
      "n": 1,
      "rumbo": 62
->>>>>>> b206aba (Nombres de estaciones (HN) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -350,12 +301,8 @@
     {
      "lat": 15.823729,
      "lon": -87.899386,
-<<<<<<< HEAD
-     "n": 1
-=======
      "n": 1,
      "rumbo": 99
->>>>>>> b206aba (Nombres de estaciones (HN) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -393,13 +340,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
-<<<<<<< HEAD
- "generado": "2026-11-01T17:54Z",
- "alertas": [
-  "HN: OpenStreetMap no devolvió la geometría de las calles (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las cabinas salen sin sentido."
- ]
-=======
- "generado": "2026-11-01T19:36Z",
+ "generado": "2026-11-01T22:36Z",
  "alertas": []
->>>>>>> b206aba (Nombres de estaciones (HN) actualizados automáticamente)
 }
