@@ -11,15 +11,16 @@
   "excluidas": 1,
   "posicion": {
    "umbral_m": 15.0,
-   "ok": 55,
-   "corregidas": 3,
+   "ok": 57,
+   "corregidas": 0,
    "sin_referencia": 1,
    "corrida_anterior": {
-    "ok": 55,
-    "a_mas_de_15_m": 2,
-    "sin_referencia": 1,
+    "ok": 0,
+    "a_mas_de_15_m": 0,
+    "sin_referencia": 58,
     "total": 58
-   }
+   },
+   "nota": "OpenStreetMap respondió a medias: se mantuvo la corrida anterior."
   }
  },
  "estaciones": [
@@ -1525,8 +1526,10 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-01T16:11Z",
+ "generado": "2026-11-01T19:30Z",
  "alertas": [
-  "EC: OpenStreetMap no devolvió la geometría de las calles (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las cabinas salen sin sentido."
+  "EC: OpenStreetMap no devolvió la geometría de las calles (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las cabinas salen sin sentido.",
+  "EC: no se pudieron leer los peajes de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
+  "EC: Salieron 1 y antes había 58: se mantiene lo anterior."
  ]
 }
