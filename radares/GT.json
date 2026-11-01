@@ -1,7 +1,7 @@
 {
- "version": "gt-2026-10-31",
+ "version": "gt-2026-11-01",
  "pais": "GT",
- "generado": "2026-10-31T13:36:51+00:00",
+ "generado": "2026-11-01T13:38:08+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial."
@@ -19,7 +19,7 @@
   "con_limite": 14,
   "limite_revisar": 0,
   "limite_desconocido": 0,
-  "revisados_esta_corrida": 0,
+  "revisados_esta_corrida": 4,
   "sin_via": 0,
   "via_completada_esta_corrida": 0,
   "limites_dudosos_sacados": 0,
@@ -32,7 +32,23 @@
    "SENDA": 0,
    "INFRACCIONES": 0
   },
-  "monitoreo": 2
+  "monitoreo": 2,
+  "posicion": {
+   "umbral_m": 15.0,
+   "radio_busqueda_m": 150.0,
+   "ok": 14,
+   "corregidas": 0,
+   "sin_referencia": 0,
+   "de_osm": 14,
+   "corrida_anterior": {
+    "umbral_m": 15.0,
+    "radio_busqueda_m": 150.0,
+    "ok": 14,
+    "corregidas": 0,
+    "sin_referencia": 0,
+    "de_osm": 14
+   }
+  }
  },
  "alertas": [],
  "radars": [
@@ -45,7 +61,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7431766721",
-   "source_version": "gt-2026-10-31",
+   "source_version": "gt-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -53,7 +69,15 @@
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/7431766721"
+   },
    "road_label": "Autopista CA-9 Sur",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 70,
+   "speed_limit_road_class": "trunk",
    "display_name": "Autopista CA-9 Sur - Radar",
    "country": "GT"
   },
@@ -66,7 +90,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7431766713",
-   "source_version": "gt-2026-10-31",
+   "source_version": "gt-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -74,6 +98,11 @@
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/7431766713"
+   },
    "road_label": "RD GUA-14A",
    "display_name": "RD GUA-14A - Radar",
    "country": "GT"
@@ -87,7 +116,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7435720157",
-   "source_version": "gt-2026-10-31",
+   "source_version": "gt-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -95,6 +124,11 @@
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/7435720157"
+   },
    "road_label": "RD GUA-14A",
    "display_name": "RD GUA-14A - Radar",
    "country": "GT"
@@ -108,7 +142,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7431766719",
-   "source_version": "gt-2026-10-31",
+   "source_version": "gt-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -116,7 +150,15 @@
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/7431766719"
+   },
    "road_label": "Autopista CA-9 Sur",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 70,
+   "speed_limit_road_class": "trunk",
    "display_name": "Autopista CA-9 Sur - Radar",
    "country": "GT"
   },
@@ -129,7 +171,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7431766715",
-   "source_version": "gt-2026-10-31",
+   "source_version": "gt-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -137,7 +179,15 @@
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/7431766715"
+   },
    "road_label": "Autopista CA-9 Sur",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 70,
+   "speed_limit_road_class": "trunk",
    "display_name": "Autopista CA-9 Sur - Radar",
    "country": "GT"
   },
@@ -150,7 +200,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7431766717",
-   "source_version": "gt-2026-10-31",
+   "source_version": "gt-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -158,7 +208,15 @@
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/7431766717"
+   },
    "road_label": "Autopista CA-9 Sur",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 70,
+   "speed_limit_road_class": "trunk",
    "display_name": "Autopista CA-9 Sur - Radar",
    "country": "GT"
   },
@@ -171,11 +229,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/975951206",
-   "source_version": "gt-2026-10-31",
+   "source_version": "gt-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/975951206"
+   },
    "road_label": "Boulevard Villa Deportiva",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -194,7 +257,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/634829393",
-   "source_version": "gt-2026-10-31",
+   "source_version": "gt-2026-11-01",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -202,6 +265,11 @@
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/634829393"
+   },
    "road_label": "Boulevard Rafael Landívar",
    "display_name": "Boulevard Rafael Landívar - Radar",
    "country": "GT"
@@ -215,11 +283,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/487628086",
-   "source_version": "gt-2026-10-31",
+   "source_version": "gt-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/487628086"
+   },
    "road_label": "Bulevar San Cristóbal",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -238,11 +311,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/975948894",
-   "source_version": "gt-2026-10-31",
+   "source_version": "gt-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/975948894"
+   },
    "road_label": "Calzada La Paz",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -261,9 +339,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6524952436",
-   "source_version": "gt-2026-10-31",
+   "source_version": "gt-2026-11-01",
    "confidence_score": 50,
    "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/6524952436"
+   },
    "road_label": "RN-5",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -282,9 +365,14 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6524952437",
-   "source_version": "gt-2026-10-31",
+   "source_version": "gt-2026-11-01",
    "confidence_score": 50,
    "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/6524952437"
+   },
    "road_label": "RN-5",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -303,11 +391,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5296708521",
-   "source_version": "gt-2026-10-31",
+   "source_version": "gt-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/5296708521"
+   },
    "road_label": "CA-9 Nor",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
@@ -326,11 +419,16 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5296705423",
-   "source_version": "gt-2026-10-31",
+   "source_version": "gt-2026-11-01",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/5296705423"
+   },
    "road_label": "CA-9 Nor",
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_PROPIO",
