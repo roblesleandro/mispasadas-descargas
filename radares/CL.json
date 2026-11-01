@@ -1,7 +1,7 @@
 {
  "version": "cl-2026-11-01",
  "pais": "CL",
- "generado": "2026-11-01T17:55:37+00:00",
+ "generado": "2026-11-01T23:27:30+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Ley CATI (Centro Automatizado de Tratamiento de Infracciones, MTT): al 29/10/2026 no se encontró un listado oficial de cámaras de velocidad en funcionamiento; en 2025 hubo pilotos (Apoquindo con El Bosque en Las Condes, comuna de Santiago y Ruta 5). Revisar mtt.gob.cl cuando arranque.",
@@ -9,19 +9,19 @@
   "Municipalidades (cámaras de semáforo/tránsito): cada una por separado."
  ],
  "resumen": {
-  "total": 119,
+  "total": 121,
   "oficiales": 0,
-  "osm": 119,
+  "osm": 121,
   "por_tipo": {
    "FIXED_SPEED": 21,
    "AVERAGE_SPEED_SECTION": 0,
    "RED_LIGHT_CAMERA": 0,
-   "VEHICLE_CAMERA": 98
+   "VEHICLE_CAMERA": 100
   },
-  "con_limite": 106,
+  "con_limite": 107,
   "limite_revisar": 2,
-  "limite_desconocido": 13,
-  "revisados_esta_corrida": 0,
+  "limite_desconocido": 14,
+  "revisados_esta_corrida": 2,
   "sin_via": 1,
   "via_completada_esta_corrida": 0,
   "limites_dudosos_sacados": 0,
@@ -34,21 +34,21 @@
    "SENDA": 0,
    "INFRACCIONES": 0
   },
-  "monitoreo": 98,
+  "monitoreo": 100,
   "posicion": {
    "umbral_m": 15.0,
    "radio_busqueda_m": 150.0,
-   "ok": 119,
+   "ok": 121,
    "corregidas": 0,
    "sin_referencia": 0,
-   "de_osm": 119,
+   "de_osm": 121,
    "corrida_anterior": {
     "umbral_m": 15.0,
     "radio_busqueda_m": 150.0,
-    "ok": 120,
+    "ok": 119,
     "corregidas": 0,
     "sin_referencia": 0,
-    "de_osm": 120
+    "de_osm": 119
    }
   }
  },
@@ -2670,6 +2670,33 @@
    "country": "CL"
   },
   {
+   "radar_id": "osm-cl-n14339338768",
+   "name": "Ruta G-21 - Cámara de tránsito",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": -33.355532,
+   "longitude": -70.317158,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14339338768",
+   "source_version": "cl-2026-11-01",
+   "confidence_score": 50,
+   "controls": [],
+   "heading_min": 175.0,
+   "heading_max": 245.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14339338768"
+   },
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "speed_limit_road_class": "secondary",
+   "road_label": "Ruta G-21",
+   "display_name": "Ruta G-21 - Cámara de tránsito",
+   "country": "CL"
+  },
+  {
    "radar_id": "osm-cl-n13462746695",
    "name": "Ruta G-19 - Cámara de tránsito",
    "radar_type": "VEHICLE_CAMERA",
@@ -2830,6 +2857,35 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
    "display_name": "Ruta 5 Norte - Cámara de tránsito",
+   "country": "CL"
+  },
+  {
+   "radar_id": "osm-cl-n14141254227",
+   "name": "Avenida Talca - Cámara de tránsito",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": -29.960754,
+   "longitude": -71.26624,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14141254227",
+   "source_version": "cl-2026-11-01",
+   "confidence_score": 50,
+   "controls": [],
+   "heading_min": 65.0,
+   "heading_max": 135.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14141254227"
+   },
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "secondary",
+   "speed_limit_kmh": 50,
+   "speed_limit_source": "OSM_PROPIO",
+   "road_label": "Avenida Talca",
+   "display_name": "Avenida Talca - Cámara de tránsito",
    "country": "CL"
   },
   {
