@@ -8,7 +8,19 @@
   "armado": 0,
   "total": 3,
   "confianza_baja": 0,
-  "excluidas": 1
+  "excluidas": 1,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 2,
+   "corregidas": 2,
+   "sin_referencia": 0,
+   "corrida_anterior": {
+    "ok": 2,
+    "a_mas_de_15_m": 1,
+    "sin_referencia": 0,
+    "total": 3
+   }
+  }
  },
  "estaciones": [
   {
@@ -17,21 +29,57 @@
    "nombre": "MSC Gard Booth",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.288399,
+     "lon": -61.006918,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "TT",
    "punto": "MSC Gard Booth",
    "nombre_visible": "Toll MSC Gard Booth",
    "confianza": "alta"
   },
   {
-   "lat": 10.294491,
-   "lon": -61.004607,
+   "lat": 10.294098,
+   "lon": -61.004286,
    "nombre": "Security Booth",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.294098,
+     "lon": -61.004286,
+     "n": 1
+    },
+    {
+     "lat": 10.294885,
+     "lon": -61.004928,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 56,
+    "centro_plaza": [
+     10.294491,
+     -61.004607
+    ]
+   },
    "pais": "TT",
+<<<<<<< HEAD
    "via_visible": "Manzanilla Mayaro Road",
    "punto": "Security Booth",
    "nombre_visible": "Manzanilla Mayaro Road - Toll Security Booth",
+=======
+   "punto": "Security Booth",
+   "nombre_visible": "Toll Security Booth",
+>>>>>>> e37b89c (Nombres de estaciones (TT) actualizados automáticamente)
    "confianza": "alta"
   },
   {
@@ -40,6 +88,17 @@
    "nombre": "Republic Bank Security Booth",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.645473,
+     "lon": -61.401121,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "TT",
    "punto": "Republic Bank Security Booth",
    "nombre_visible": "Toll Republic Bank Security Booth",
@@ -48,14 +107,38 @@
  ],
  "excluidas": [
   {
-   "lat": 10.603543,
-   "lon": -61.340496,
+   "lat": 10.603425,
+   "lon": -61.341161,
    "nombre": "Caribbean Airlines Employee Parking",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.603425,
+     "lon": -61.341161,
+     "n": 2
+    },
+    {
+     "lat": 10.603778,
+     "lon": -61.339167,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 74,
+    "centro_plaza": [
+     10.603543,
+     -61.340496
+    ]
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
+<<<<<<< HEAD
  "generado": "2026-11-01T13:30Z",
+=======
+ "generado": "2026-11-01T16:33Z",
+>>>>>>> e37b89c (Nombres de estaciones (TT) actualizados automáticamente)
  "alertas": []
 }
