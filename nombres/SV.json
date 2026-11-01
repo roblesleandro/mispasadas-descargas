@@ -8,7 +8,19 @@
   "armado": 4,
   "total": 4,
   "confianza_baja": 0,
-  "excluidas": 0
+  "excluidas": 0,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 4,
+   "corregidas": 0,
+   "sin_referencia": 0,
+   "corrida_anterior": {
+    "ok": 4,
+    "a_mas_de_15_m": 0,
+    "sin_referencia": 0,
+    "total": 4
+   }
+  }
  },
  "estaciones": [
   {
@@ -20,6 +32,17 @@
    "ref": "CA-12",
    "localidad": "El Guayabo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 13.687069,
+     "lon": -89.739864,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "SV",
    "via_visible": "Carretera Sonsonate - Acajutla",
    "punto": "El Guayabo",
@@ -35,6 +58,19 @@
    "km": "0",
    "localidad": "San Salvador",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 13.696695,
+     "lon": -89.189984,
+     "n": 1,
+     "rumbo": 96,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "SV",
    "via_visible": "6a Calle Oriente",
    "punto": "San Salvador",
@@ -50,6 +86,19 @@
    "ref": "CA-8",
    "localidad": "Nahulingo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 13.710108,
+     "lon": -89.719732,
+     "n": 1,
+     "rumbo": 267,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "SV",
    "via_visible": "Carretera Sonsonate - Acajutla",
    "punto": "Nahulingo",
@@ -64,6 +113,19 @@
    "ref": "AHU37S",
    "localidad": "Faya",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 13.710173,
+     "lon": -90.030949,
+     "n": 1,
+     "rumbo": 55,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "SV",
    "via_visible": "AHU37S",
    "punto": "Faya",
@@ -72,9 +134,14 @@
   }
  ],
  "excluidas": [],
+<<<<<<< HEAD
  "generado": "2026-10-30T01:07Z",
  "alertas": [
   "SV: no se pudieron leer los peajes de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
   "SV: Salieron 0 y antes había 4: se mantiene lo anterior."
  ]
+=======
+ "generado": "2026-11-01T16:13Z",
+ "alertas": []
+>>>>>>> dfbb08a (Nombres de estaciones (SV) actualizados automáticamente)
 }
