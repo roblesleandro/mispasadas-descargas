@@ -1,7 +1,7 @@
 {
  "version": "uy-2026-11-01",
  "pais": "UY",
- "generado": "2026-11-01T12:46:28+00:00",
+ "generado": "2026-11-01T15:34:19+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Intendencia de Montevideo: equipos de fiscalización fijos (montevideo.gub.uy/areas-tematicas/movilidad/fiscalizacion-de-infracciones/equipos-de-fiscalizacion-fijos). Su robots.txt no permite leerla con robots: cargar a mano o pedir el dato a la IM.",
@@ -22,9 +22,9 @@
   "con_limite": 240,
   "limite_revisar": 4,
   "limite_desconocido": 38,
-  "revisados_esta_corrida": 60,
+  "revisados_esta_corrida": 0,
   "sin_via": 0,
-  "via_completada_esta_corrida": 3,
+  "via_completada_esta_corrida": 0,
   "limites_dudosos_sacados": 2,
   "por_control": {
    "VELOCIDAD": 273,
@@ -46,10 +46,10 @@
    "corrida_anterior": {
     "umbral_m": 15.0,
     "radio_busqueda_m": 150.0,
-    "ok": 200,
-    "corregidas": 36,
+    "ok": 229,
+    "corregidas": 0,
     "sin_referencia": 49,
-    "de_osm": 163
+    "de_osm": 156
    }
   }
  },
@@ -613,8 +613,8 @@
    },
    "road_label": "Ruta 10",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "tertiary",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 10 - Radar",
    "country": "UY"
   },
@@ -720,8 +720,8 @@
    },
    "road_label": "Ruta Interbalnearia",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 75,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 75,
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
   },
@@ -907,8 +907,8 @@
    },
    "road_label": "Ruta 10",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "tertiary",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 10 - Radar",
    "country": "UY"
   },
@@ -1228,8 +1228,8 @@
    },
    "road_label": "Ruta 10",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "tertiary",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 10 - Radar",
    "country": "UY"
   },
@@ -1467,8 +1467,8 @@
    },
    "road_label": "Ruta Interbalnearia",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
   },
@@ -2888,8 +2888,8 @@
    },
    "road_label": "Ruta Interbalnearia",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 75,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 75,
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
   },
@@ -3091,8 +3091,8 @@
    },
    "road_label": "Ruta 102",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 102 - Radar",
    "country": "UY"
   },
@@ -3260,8 +3260,8 @@
    },
    "road_label": "Ruta 5",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 90,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 90,
    "display_name": "Ruta 5 - Radar",
    "country": "UY"
   },
@@ -3317,8 +3317,8 @@
    },
    "road_label": "Ruta 8",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
   },
@@ -3348,8 +3348,8 @@
    },
    "road_label": "Ruta 8",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
   },
@@ -3377,8 +3377,8 @@
    },
    "road_label": "Ruta Interbalnearia",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 75,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 75,
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
   },
@@ -3462,8 +3462,8 @@
    },
    "road_label": "Ruta 5",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 90,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 90,
    "display_name": "Ruta 5 - Radar",
    "country": "UY"
   },
@@ -3489,13 +3489,13 @@
      -56.0627
     ]
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
-   "speed_limit_road_class": "trunk",
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -3526,8 +3526,8 @@
    },
    "road_label": "Ruta César Mayo Gutiérrez",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta César Mayo Gutiérrez - Radar",
    "country": "UY"
   },
@@ -3553,13 +3553,13 @@
      -56.152445
     ]
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 75,
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
-   "speed_limit_road_class": "trunk",
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 75,
    "controls": [
     "VELOCIDAD"
    ],
@@ -3616,13 +3616,13 @@
      -56.097877
     ]
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 75,
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
-   "speed_limit_road_class": "trunk",
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 75,
    "controls": [
     "VELOCIDAD"
    ],
@@ -3743,13 +3743,13 @@
      -56.246663
     ]
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 75,
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
-   "speed_limit_road_class": "trunk",
    "speed_limit_kmh": 75,
    "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 75,
    "controls": [
     "VELOCIDAD"
    ],
@@ -3953,8 +3953,8 @@
    },
    "road_label": "Ruta Interbalnearia",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "residential",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
   },
@@ -4012,8 +4012,8 @@
    },
    "road_label": "Ruta 6",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 6 - Radar",
    "country": "UY"
   },
@@ -4041,8 +4041,8 @@
    },
    "road_label": "Ruta 101",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 75,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 75,
    "display_name": "Ruta 101 - Radar",
    "country": "UY"
   },
@@ -4102,8 +4102,8 @@
    },
    "road_label": "Ruta Interbalnearia",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 75,
    "speed_limit_road_class": "residential",
+   "speed_limit_road_kmh": 75,
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
   },
@@ -4225,8 +4225,8 @@
    },
    "road_label": "Ruta 5",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 90,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 90,
    "display_name": "Ruta 5 - Radar",
    "country": "UY"
   },
@@ -4286,8 +4286,8 @@
    },
    "road_label": "Ruta Interbalnearia",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
   },
@@ -4315,8 +4315,8 @@
    },
    "road_label": "Ruta Interbalnearia",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
   },
@@ -4344,8 +4344,8 @@
    },
    "road_label": "Ruta Interbalnearia",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
   },
@@ -4375,8 +4375,8 @@
    },
    "road_label": "Ruta 8",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 90,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 90,
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
   },
@@ -4433,8 +4433,8 @@
    },
    "road_label": "Ruta 8",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 90,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 90,
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
   },
@@ -4464,8 +4464,8 @@
    },
    "road_label": "Ruta Interbalnearia",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "residential",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta Interbalnearia - Radar",
    "country": "UY"
   },
@@ -4521,8 +4521,8 @@
    },
    "road_label": "Ruta 8",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 90,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 90,
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
   },
@@ -4695,13 +4695,13 @@
     "reference": "node/9892306279"
    },
    "road_label": "Ruta 8",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 90,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "45 km/h es un salto brusco respecto de los 90 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     45
    ],
-   "speed_limit_detail": "45 km/h es un salto brusco respecto de los 90 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 90,
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
   },
@@ -4925,8 +4925,8 @@
    },
    "road_label": "Ruta 1",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 75,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 75,
    "display_name": "Ruta 1 - Radar",
    "country": "UY"
   },
@@ -5011,8 +5011,8 @@
    },
    "road_label": "Ruta 8",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
   },
@@ -5040,8 +5040,8 @@
    },
    "road_label": "Ruta 1",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 75,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 75,
    "display_name": "Ruta 1 - Radar",
    "country": "UY"
   },
@@ -5517,8 +5517,8 @@
    },
    "road_label": "Ruta 8",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
   },
@@ -5600,8 +5600,8 @@
    },
    "road_label": "Ruta 8",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 8 - Radar",
    "country": "UY"
   },
@@ -5929,12 +5929,12 @@
      -55.74364
     ]
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "lado A: 45 km/h a 930 m",
-   "speed_limit_road_class": "primary",
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado A: 45 km/h a 930 m",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "primary",
    "controls": [
     "VELOCIDAD"
    ],
@@ -5992,8 +5992,8 @@
    },
    "road_label": "Ruta 9",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 9 - Radar",
    "country": "UY"
   },
@@ -6019,13 +6019,13 @@
      -55.72891
     ]
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 90,
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
-   "speed_limit_road_class": "secondary",
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 90,
    "controls": [
     "VELOCIDAD"
    ],
@@ -6109,15 +6109,15 @@
      -55.652192
     ]
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 90,
    "speed_limit_status": "REVISAR",
    "speed_limit_detail": "lado B: 45 km/h a 99 m · 45 km/h es un salto brusco respecto de los 90 km/h de la vía",
-   "speed_limit_road_class": "secondary",
    "speed_limit_candidates": [
     45,
     90
    ],
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 90,
    "controls": [
     "VELOCIDAD"
    ],
@@ -6312,9 +6312,9 @@
      -54.7538
     ]
    },
-   "speed_limit_checked": "2026-11-01",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "controls": [
     "VELOCIDAD"
@@ -6621,9 +6621,9 @@
      -54.3696
     ]
    },
-   "speed_limit_checked": "2026-11-01",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "controls": [
     "VELOCIDAD"
@@ -6653,9 +6653,9 @@
      -54.3831
     ]
    },
-   "speed_limit_checked": "2026-11-01",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
    "controls": [
     "VELOCIDAD"
@@ -7231,9 +7231,9 @@
      -54.2122
     ]
    },
-   "speed_limit_checked": "2026-11-01",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
    "controls": [
     "VELOCIDAD"
@@ -7288,9 +7288,9 @@
      -54.153
     ]
    },
-   "speed_limit_checked": "2026-11-01",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "tertiary",
    "controls": [
     "VELOCIDAD"
@@ -7320,12 +7320,12 @@
      -54.1683
     ]
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "lado B: 45 km/h a 524 m",
-   "speed_limit_road_class": "primary",
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "lado B: 45 km/h a 524 m",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "primary",
    "controls": [
     "VELOCIDAD"
    ],
@@ -7406,13 +7406,13 @@
     "reference": "node/10577965057"
    },
    "road_label": "Ruta 3",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 90,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "45 km/h es un salto brusco respecto de los 90 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     45
    ],
-   "speed_limit_detail": "45 km/h es un salto brusco respecto de los 90 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 90,
    "display_name": "Ruta 3 - Radar",
    "country": "UY"
   },
@@ -7573,8 +7573,8 @@
    },
    "road_label": "Ruta 3",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Ruta 3 - Radar",
    "country": "UY"
   },
