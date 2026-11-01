@@ -9,11 +9,9 @@
   "osm": 8,
   "armado": 22,
   "total": 185,
-  "sin_ruta": 3
+  "sin_ruta": 2
  },
- "alertas": [
-  "Alrededores: falló un lote de 2 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
- ],
+ "alertas": [],
  "estaciones": [
   {
    "lat": -50.025179,
@@ -682,8 +680,11 @@
   {
    "lat": -34.83952,
    "lon": -56.014056,
-   "nombre": "Peaje cerca de General Liber Seregni",
+   "nombre": "Peaje Ruta 101 Capitán Juan Antonio Artigas km 19",
    "tipo": "cabina",
+   "via": "Ruta 101 Capitán Juan Antonio Artigas",
+   "ref": "101",
+   "km": "19",
    "localidad": "General Liber Seregni",
    "fuente": "armado",
    "cabinas": [
@@ -705,8 +706,9 @@
     "distancia_m": 6.9
    },
    "pais": "UY",
+   "via_visible": "Ruta 101",
    "punto": "General Liber Seregni",
-   "nombre_visible": "Peaje General Liber Seregni",
+   "nombre_visible": "Ruta 101 - Peaje General Liber Seregni",
    "confianza": "media"
   },
   {
@@ -6193,5 +6195,5 @@
    "confianza": "media"
   }
  ],
- "generado": "2026-11-01T14:42Z"
+ "generado": "2026-11-01T18:16Z"
 }
