@@ -8,10 +8,22 @@
   "armado": 0,
   "total": 0,
   "confianza_baja": 0,
-  "excluidas": 0
+  "excluidas": 0,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 0,
+   "corregidas": 0,
+   "sin_referencia": 0,
+   "corrida_anterior": {
+    "ok": 0,
+    "a_mas_de_15_m": 0,
+    "sin_referencia": 0,
+    "total": 0
+   }
+  }
  },
  "estaciones": [],
  "excluidas": [],
- "generado": "2026-10-29T22:46Z",
+ "generado": "2026-11-01T16:23Z",
  "alertas": []
 }
