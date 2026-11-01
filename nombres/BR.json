@@ -15,8 +15,8 @@
    "corregidas": 107,
    "sin_referencia": 64,
    "corrida_anterior": {
-    "ok": 439,
-    "a_mas_de_15_m": 107,
+    "ok": 546,
+    "a_mas_de_15_m": 0,
     "sin_referencia": 64,
     "total": 610
    }
@@ -19291,7 +19291,7 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-01T16:24Z",
+ "generado": "2026-11-01T22:45Z",
  "alertas": [
   "BR: no se pudo leer ANTT – Praças de pedágio (rodovias federais concedidas) (el robots.txt de dados.antt.gov.br no permite leer https://dados.antt.gov.br/dataset/praca-de-pedagio)."
  ]
