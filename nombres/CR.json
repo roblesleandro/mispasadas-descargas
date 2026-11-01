@@ -67,32 +67,27 @@
   {
    "lat": 9.797116,
    "lon": -83.849003,
-   "nombre": "Peaje Vía 224",
+   "nombre": "Peaje cerca de Orosi",
    "tipo": "cabina",
-   "via": "Vía 224",
-   "ref": "224",
    "localidad": "Orosi",
    "fuente": "armado",
    "pais": "CR",
-   "via_visible": "Ruta 224",
    "punto": "Orosi",
-   "nombre_visible": "Ruta 224 - Peaje Orosi",
+   "nombre_visible": "Peaje Orosi",
    "confianza": "media"
   },
   {
    "lat": 9.886966,
    "lon": -84.577956,
-   "nombre": "Peaje Entrada Vía 27 km 59",
+   "nombre": "Peaje Entrada Vía 27",
    "tipo": "cabina",
    "via": "Entrada Vía 27",
-   "ref": "27",
-   "km": "59",
    "localidad": "Coyolar",
    "fuente": "armado",
    "pais": "CR",
-   "via_visible": "Ruta 27",
+   "via_visible": "Autopista José María Castro Madriz",
    "punto": "Coyolar",
-   "nombre_visible": "Ruta 27 - Peaje Coyolar",
+   "nombre_visible": "Autopista José María Castro Madriz - Peaje Coyolar",
    "confianza": "media"
   },
   {
@@ -194,17 +189,15 @@
   {
    "lat": 9.964623,
    "lon": -84.281921,
-   "nombre": "Peaje Entrada Vía 27 km 23",
+   "nombre": "Peaje Entrada Vía 27 (2)",
    "tipo": "cabina",
    "via": "Entrada Vía 27",
-   "ref": "27",
-   "km": "23",
    "localidad": "Guácima",
    "fuente": "armado",
    "pais": "CR",
-   "via_visible": "Ruta 27",
+   "via_visible": "Autopista José María Castro Madriz",
    "punto": "Guácima",
-   "nombre_visible": "Ruta 27 - Peaje Guácima",
+   "nombre_visible": "Autopista José María Castro Madriz - Peaje Guácima",
    "confianza": "media"
   },
   {
@@ -262,6 +255,8 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-10-31T13:01Z",
- "alertas": []
+ "generado": "2026-11-01T13:02Z",
+ "alertas": [
+  "Alrededores: falló un lote de 10 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+ ]
 }
