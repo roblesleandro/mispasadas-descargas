@@ -3,16 +3,16 @@
  "pais": "CO",
  "moneda": "COP",
  "resumen": {
-  "oficial": 48,
+  "oficial": 47,
   "osm": 143,
   "armado": 17,
-  "total": 208,
+  "total": 207,
   "confianza_baja": 0,
   "excluidas": 1,
   "posicion": {
    "umbral_m": 15.0,
-   "ok": 187,
-   "corregidas": 22,
+   "ok": 185,
+   "corregidas": 23,
    "sin_referencia": 0,
    "corrida_anterior": {
     "ok": 208,
@@ -2388,12 +2388,12 @@
    "confianza": "alta"
   },
   {
-   "lat": 5.048664,
-   "lon": -75.598862,
+   "lat": 5.052167,
+   "lon": -75.594609,
    "nombre": "San Bernardo",
    "tipo": "cabina",
    "via": "SAN BERNARDO",
-   "ref": "29",
+   "ref": "50",
    "empresa": "CO-ANI",
    "fuente": "oficial",
    "cabinas": [
@@ -2403,29 +2403,7 @@
      "n": 1,
      "rumbo": 124,
      "doble": true
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "pais": "CO",
-   "via_visible": "Autopista del Café",
-   "punto": "San Bernardo",
-   "nombre_visible": "Autopista del Café - Peaje San Bernardo",
-   "confianza": "alta",
-   "plaza": "San Bernardo"
-  },
-  {
-   "lat": 5.052203,
-   "lon": -75.594587,
-   "nombre": "San Bernardo",
-   "tipo": "cabina",
-   "via": "SAN BERNARDO",
-   "ref": "50",
-   "empresa": "CO-ANI",
-   "fuente": "oficial",
-   "cabinas": [
+    },
     {
      "lat": 5.052167,
      "lon": -75.594609,
@@ -2440,8 +2418,12 @@
     }
    ],
    "posicion": {
-    "estado": "ok",
-    "distancia_m": 4.7
+    "estado": "corregida",
+    "antes_m": 200,
+    "centro_plaza": [
+     5.051023,
+     -75.596012
+    ]
    },
    "pais": "CO",
    "via_visible": "Carretera Panamericana Manizales - Medellín",
@@ -6228,6 +6210,10 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
+<<<<<<< HEAD
  "generado": "2026-11-01T18:40Z",
+=======
+ "generado": "2026-11-01T22:14Z",
+>>>>>>> a6a762a (Nombres de estaciones (CO) actualizados automáticamente)
  "alertas": []
 }
