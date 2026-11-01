@@ -5654,6 +5654,10 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
+<<<<<<< HEAD
  "generado": "2026-11-01T14:22Z",
+=======
+ "generado": "2026-11-01T15:17Z",
+>>>>>>> bd488be (Nombres de estaciones (AR) actualizados automáticamente)
  "alertas": []
 }
