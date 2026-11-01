@@ -140,8 +140,10 @@
   {
    "lat": 9.797116,
    "lon": -83.849003,
-   "nombre": "Peaje cerca de Orosi",
+   "nombre": "Peaje Vía 224",
    "tipo": "cabina",
+   "via": "Vía 224",
+   "ref": "224",
    "localidad": "Orosi",
    "fuente": "armado",
    "cabinas": [
@@ -158,22 +160,19 @@
     "distancia_m": 0.0
    },
    "pais": "CR",
+   "via_visible": "Ruta 224",
    "punto": "Orosi",
-   "nombre_visible": "Peaje Orosi",
+   "nombre_visible": "Ruta 224 - Peaje Orosi",
    "confianza": "media"
   },
   {
-<<<<<<< HEAD
-   "lat": 9.886966,
-   "lon": -84.577956,
-   "nombre": "Peaje Entrada Vía 27",
-=======
    "lat": 9.885977,
    "lon": -84.580309,
    "nombre": "Peaje Entrada Vía 27 km 59",
->>>>>>> e6fd9e0 (Nombres de estaciones (CR) actualizados automáticamente)
    "tipo": "cabina",
    "via": "Entrada Vía 27",
+   "ref": "27",
+   "km": "59",
    "localidad": "Coyolar",
    "fuente": "armado",
    "cabinas": [
@@ -199,9 +198,9 @@
     ]
    },
    "pais": "CR",
-   "via_visible": "Autopista José María Castro Madriz",
+   "via_visible": "Ruta 27",
    "punto": "Coyolar",
-   "nombre_visible": "Autopista José María Castro Madriz - Peaje Coyolar",
+   "nombre_visible": "Ruta 27 - Peaje Coyolar",
    "confianza": "media"
   },
   {
@@ -458,17 +457,13 @@
    "confianza": "media"
   },
   {
-<<<<<<< HEAD
-   "lat": 9.964623,
-   "lon": -84.281921,
-   "nombre": "Peaje Entrada Vía 27 (2)",
-=======
    "lat": 9.964268,
    "lon": -84.280855,
    "nombre": "Peaje Entrada Vía 27 km 23",
->>>>>>> e6fd9e0 (Nombres de estaciones (CR) actualizados automáticamente)
    "tipo": "cabina",
    "via": "Entrada Vía 27",
+   "ref": "27",
+   "km": "23",
    "localidad": "Guácima",
    "fuente": "armado",
    "cabinas": [
@@ -494,9 +489,9 @@
     ]
    },
    "pais": "CR",
-   "via_visible": "Autopista José María Castro Madriz",
+   "via_visible": "Ruta 27",
    "punto": "Guácima",
-   "nombre_visible": "Autopista José María Castro Madriz - Peaje Guácima",
+   "nombre_visible": "Ruta 27 - Peaje Guácima",
    "confianza": "media"
   },
   {
@@ -613,13 +608,6 @@
   }
  ],
  "excluidas": [],
-<<<<<<< HEAD
- "generado": "2026-11-01T13:02Z",
- "alertas": [
-  "Alrededores: falló un lote de 10 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
- ]
-=======
- "generado": "2026-11-01T16:10Z",
+ "generado": "2026-11-01T19:17Z",
  "alertas": []
->>>>>>> e6fd9e0 (Nombres de estaciones (CR) actualizados automáticamente)
 }
