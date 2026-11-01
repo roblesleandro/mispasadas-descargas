@@ -431,6 +431,10 @@
   }
  ],
  "excluidas": [],
+<<<<<<< HEAD
  "generado": "2026-11-01T16:30Z",
+=======
+ "generado": "2026-11-01T19:45Z",
+>>>>>>> e5568ce (Nombres de estaciones (JM) actualizados automáticamente)
  "alertas": []
 }
