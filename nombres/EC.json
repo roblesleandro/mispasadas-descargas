@@ -11,6 +11,7 @@
   "excluidas": 1,
   "posicion": {
    "umbral_m": 15.0,
+<<<<<<< HEAD
    "ok": 57,
    "corregidas": 0,
    "sin_referencia": 1,
@@ -18,6 +19,15 @@
     "ok": 0,
     "a_mas_de_15_m": 0,
     "sin_referencia": 58,
+=======
+   "ok": 54,
+   "corregidas": 4,
+   "sin_referencia": 1,
+   "corrida_anterior": {
+    "ok": 56,
+    "a_mas_de_15_m": 1,
+    "sin_referencia": 1,
+>>>>>>> 8d02d9f (Nombres de estaciones (EC) actualizados automáticamente)
     "total": 58
    },
    "nota": "OpenStreetMap respondió a medias: se mantuvo la corrida anterior."
@@ -62,7 +72,9 @@
     {
      "lat": -3.272282,
      "lon": -79.063306,
-     "n": 1
+     "n": 1,
+     "rumbo": 149,
+     "doble": true
     }
    ],
    "posicion": {
@@ -86,7 +98,9 @@
     {
      "lat": -3.156588,
      "lon": -79.154269,
-     "n": 1
+     "n": 1,
+     "rumbo": 291,
+     "doble": true
     }
    ],
    "posicion": {
@@ -110,14 +124,21 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -3.124981,
-     "lon": -79.77587,
-     "n": 2
+     "lat": -3.125009,
+     "lon": -79.775781,
+     "n": 1,
+     "rumbo": 13
+    },
+    {
+     "lat": -3.124953,
+     "lon": -79.775958,
+     "n": 1,
+     "rumbo": 193
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 10.3
    },
    "pais": "EC",
    "via_visible": "E25",
@@ -137,7 +158,9 @@
     {
      "lat": -2.974771,
      "lon": -79.061452,
-     "n": 1
+     "n": 1,
+     "rumbo": 77,
+     "doble": true
     }
    ],
    "posicion": {
@@ -161,7 +184,9 @@
     {
      "lat": -2.967024,
      "lon": -79.003951,
-     "n": 1
+     "n": 1,
+     "rumbo": 196,
+     "doble": true
     }
    ],
    "posicion": {
@@ -186,7 +211,9 @@
     {
      "lat": -2.962182,
      "lon": -79.051474,
-     "n": 1
+     "n": 1,
+     "rumbo": 80,
+     "doble": true
     }
    ],
    "posicion": {
@@ -210,14 +237,21 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -2.790261,
-     "lon": -79.70378,
-     "n": 2
+     "lat": -2.790293,
+     "lon": -79.703697,
+     "n": 1,
+     "rumbo": 24
+    },
+    {
+     "lat": -2.790229,
+     "lon": -79.703863,
+     "n": 1,
+     "rumbo": 206
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 9.9
    },
    "pais": "EC",
    "via_visible": "E25",
@@ -237,7 +271,9 @@
     {
      "lat": -2.784652,
      "lon": -79.193002,
-     "n": 1
+     "n": 1,
+     "rumbo": 229,
+     "doble": true
     }
    ],
    "posicion": {
@@ -263,7 +299,9 @@
     {
      "lat": -2.784636,
      "lon": -79.270388,
-     "n": 1
+     "n": 1,
+     "rumbo": 200,
+     "doble": true
     }
    ],
    "posicion": {
@@ -290,7 +328,9 @@
     {
      "lat": -2.614388,
      "lon": -79.470162,
-     "n": 1
+     "n": 1,
+     "rumbo": 142,
+     "doble": true
     }
    ],
    "posicion": {
@@ -313,14 +353,21 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -2.553934,
-     "lon": -79.550825,
-     "n": 2
+     "lat": -2.553987,
+     "lon": -79.550784,
+     "n": 1,
+     "rumbo": 49
+    },
+    {
+     "lat": -2.553882,
+     "lon": -79.550865,
+     "n": 1,
+     "rumbo": 230
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 7.3
    },
    "pais": "EC",
    "via_visible": "E25",
@@ -338,14 +385,26 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -2.391786,
-     "lon": -80.435275,
-     "n": 3
+     "lat": -2.391887,
+     "lon": -80.435207,
+     "n": 1,
+     "rumbo": 106
+    },
+    {
+     "lat": -2.391764,
+     "lon": -80.435175,
+     "n": 1,
+     "rumbo": 286
+    },
+    {
+     "lat": -2.391706,
+     "lon": -80.435441,
+     "n": 1
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 11.4
    },
    "pais": "EC",
    "via_visible": "Vía a la Costa",
@@ -365,7 +424,9 @@
     {
      "lat": -2.347659,
      "lon": -78.146407,
-     "n": 1
+     "n": 1,
+     "rumbo": 131,
+     "doble": true
     }
    ],
    "posicion": {
@@ -390,7 +451,9 @@
     {
      "lat": -2.302651,
      "lon": -79.238692,
-     "n": 1
+     "n": 1,
+     "rumbo": 82,
+     "doble": true
     }
    ],
    "posicion": {
@@ -404,8 +467,8 @@
    "confianza": "alta"
   },
   {
-   "lat": -2.2324,
-   "lon": -79.640109,
+   "lat": -2.232435,
+   "lon": -79.639873,
    "nombre": "Peaje E25 km 25",
    "tipo": "cabina",
    "ref": "E25",
@@ -414,14 +477,25 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -2.2324,
-     "lon": -79.640109,
-     "n": 2
+     "lat": -2.232435,
+     "lon": -79.639873,
+     "n": 1,
+     "rumbo": 358
+    },
+    {
+     "lat": -2.232366,
+     "lon": -79.640346,
+     "n": 1,
+     "rumbo": 202
     }
    ],
    "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
+    "estado": "corregida",
+    "antes_m": 27,
+    "centro_plaza": [
+     -2.2324,
+     -79.640109
+    ]
    },
    "pais": "EC",
    "via_visible": "E25",
@@ -441,14 +515,26 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -2.222304,
-     "lon": -80.08973,
-     "n": 4
+     "lat": -2.222407,
+     "lon": -80.089682,
+     "n": 2,
+     "rumbo": 57
+    },
+    {
+     "lat": -2.222258,
+     "lon": -80.089743,
+     "n": 1
+    },
+    {
+     "lat": -2.222146,
+     "lon": -80.089813,
+     "n": 1,
+     "rumbo": 237
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 5.3
    },
    "pais": "EC",
    "via_visible": "Vía a la Costa",
@@ -469,7 +555,9 @@
     {
      "lat": -2.218796,
      "lon": -79.774963,
-     "n": 1
+     "n": 1,
+     "rumbo": 283,
+     "doble": true
     }
    ],
    "posicion": {
@@ -492,14 +580,26 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -2.202231,
-     "lon": -79.753464,
-     "n": 9
+     "lat": -2.202298,
+     "lon": -79.753551,
+     "n": 4,
+     "rumbo": 114
+    },
+    {
+     "lat": -2.202234,
+     "lon": -79.753465,
+     "n": 1
+    },
+    {
+     "lat": -2.202163,
+     "lon": -79.753377,
+     "n": 4,
+     "rumbo": 287
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 0.3
    },
    "pais": "EC",
    "via_visible": "Vía Guayaquil - Vírgen de Fátima",
@@ -517,14 +617,21 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -2.12788,
-     "lon": -79.745128,
-     "n": 6
+     "lat": -2.127939,
+     "lon": -79.745065,
+     "n": 3,
+     "rumbo": 50
+    },
+    {
+     "lat": -2.127822,
+     "lon": -79.745192,
+     "n": 3,
+     "rumbo": 229
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 9.6
    },
    "pais": "EC",
    "via_visible": "Vía San Jacinto de Yaguachi - Durán",
@@ -542,14 +649,21 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -2.046248,
-     "lon": -79.797214,
-     "n": 2
+     "lat": -2.046316,
+     "lon": -79.797228,
+     "n": 1,
+     "rumbo": 101
+    },
+    {
+     "lat": -2.046179,
+     "lon": -79.797199,
+     "n": 1,
+     "rumbo": 279
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 7.7
    },
    "pais": "EC",
    "via_visible": "Vía San Jacinto de Yaguachi - Samborondón",
@@ -566,14 +680,20 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -2.036138,
-     "lon": -79.827619,
-     "n": 2
+     "lat": -2.036203,
+     "lon": -79.827602,
+     "n": 1
+    },
+    {
+     "lat": -2.036072,
+     "lon": -79.827635,
+     "n": 1,
+     "rumbo": 265
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 7.4
    },
    "pais": "EC",
    "via_visible": "Vía Samborondon - Guayaquil",
@@ -590,14 +710,26 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -1.948007,
-     "lon": -80.01217,
-     "n": 9
+     "lat": -1.948012,
+     "lon": -80.012077,
+     "n": 4,
+     "rumbo": 3
+    },
+    {
+     "lat": -1.948008,
+     "lon": -80.012272,
+     "n": 4,
+     "rumbo": 183
+    },
+    {
+     "lat": -1.947981,
+     "lon": -80.012134,
+     "n": 1
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 4.9
    },
    "pais": "EC",
    "via_visible": "E48",
@@ -617,14 +749,26 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -1.941229,
-     "lon": -79.887583,
-     "n": 5
+     "lat": -1.941262,
+     "lon": -79.88755,
+     "n": 1
+    },
+    {
+     "lat": -1.941239,
+     "lon": -79.887644,
+     "n": 2,
+     "rumbo": 159
+    },
+    {
+     "lat": -1.941201,
+     "lon": -79.887538,
+     "n": 2,
+     "rumbo": 340
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 5.2
    },
    "pais": "EC",
    "via_visible": "Vía a Salitre",
@@ -643,14 +787,26 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -1.778629,
-     "lon": -80.294407,
-     "n": 5
+     "lat": -1.778683,
+     "lon": -80.29442,
+     "n": 2,
+     "rumbo": 116
+    },
+    {
+     "lat": -1.778616,
+     "lon": -80.294443,
+     "n": 1
+    },
+    {
+     "lat": -1.778583,
+     "lon": -80.294376,
+     "n": 2,
+     "rumbo": 307
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 4.3
    },
    "pais": "EC",
    "via_visible": "E482",
@@ -668,14 +824,26 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -1.574828,
-     "lon": -78.716155,
-     "n": 5
+     "lat": -1.574866,
+     "lon": -78.71625,
+     "n": 2,
+     "rumbo": 160
+    },
+    {
+     "lat": -1.574847,
+     "lon": -78.7162,
+     "n": 1
+    },
+    {
+     "lat": -1.574782,
+     "lon": -78.716039,
+     "n": 2,
+     "rumbo": 340
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 5.4
    },
    "pais": "EC",
    "via_visible": "E35",
@@ -695,14 +863,21 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -1.531832,
-     "lon": -79.954264,
-     "n": 4
+     "lat": -1.531834,
+     "lon": -79.954307,
+     "n": 2,
+     "rumbo": 177
+    },
+    {
+     "lat": -1.53183,
+     "lon": -79.954221,
+     "n": 2,
+     "rumbo": 357
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 4.8
    },
    "pais": "EC",
    "via_visible": "Vía Palestina - Balzar",
@@ -720,14 +895,21 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -1.162175,
-     "lon": -79.725894,
-     "n": 4
+     "lat": -1.1622,
+     "lon": -79.725858,
+     "n": 2,
+     "rumbo": 36
+    },
+    {
+     "lat": -1.16215,
+     "lon": -79.72593,
+     "n": 2,
+     "rumbo": 216
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 4.9
    },
    "pais": "EC",
    "via_visible": "Vía Balzar - El Empalme",
@@ -746,14 +928,21 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -1.074082,
-     "lon": -78.596253,
-     "n": 2
+     "lat": -1.074119,
+     "lon": -78.596145,
+     "n": 1,
+     "rumbo": 19
+    },
+    {
+     "lat": -1.074045,
+     "lon": -78.59636,
+     "n": 1,
+     "rumbo": 198
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 12.6
    },
    "pais": "EC",
    "via_visible": "E35",
@@ -771,14 +960,26 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -1.069051,
-     "lon": -80.555534,
-     "n": 9
+     "lat": -1.069103,
+     "lon": -80.555604,
+     "n": 4,
+     "rumbo": 142
+    },
+    {
+     "lat": -1.069058,
+     "lon": -80.555535,
+     "n": 1
+    },
+    {
+     "lat": -1.068997,
+     "lon": -80.555464,
+     "n": 4,
+     "rumbo": 322
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 0.8
    },
    "pais": "EC",
    "via_visible": "E30",
@@ -797,7 +998,9 @@
     {
      "lat": -0.868989,
      "lon": -78.916583,
-     "n": 1
+     "n": 1,
+     "rumbo": 55,
+     "doble": true
     }
    ],
    "posicion": {
@@ -866,14 +1069,21 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -0.545835,
-     "lon": -78.585238,
-     "n": 2
+     "lat": -0.545872,
+     "lon": -78.585118,
+     "n": 1,
+     "rumbo": 16
+    },
+    {
+     "lat": -0.545798,
+     "lon": -78.585357,
+     "n": 1,
+     "rumbo": 196
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 13.9
    },
    "pais": "EC",
    "via_visible": "Vía Alóag Latacunga",
@@ -891,14 +1101,21 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -0.444576,
-     "lon": -78.603784,
-     "n": 2
+     "lat": -0.44462,
+     "lon": -78.60381,
+     "n": 1,
+     "rumbo": 120
+    },
+    {
+     "lat": -0.444533,
+     "lon": -78.603759,
+     "n": 1,
+     "rumbo": 299
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 5.5
    },
    "pais": "EC",
    "via_visible": "Avenida Quito",
@@ -942,7 +1159,9 @@
     {
      "lat": -0.352886,
      "lon": -78.841301,
-     "n": 1
+     "n": 1,
+     "rumbo": 142,
+     "doble": true
     }
    ],
    "posicion": {
@@ -966,14 +1185,21 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -0.316295,
-     "lon": -78.367868,
-     "n": 2
+     "lat": -0.316348,
+     "lon": -78.367807,
+     "n": 1,
+     "rumbo": 36
+    },
+    {
+     "lat": -0.316243,
+     "lon": -78.36793,
+     "n": 1,
+     "rumbo": 216
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 9.0
    },
    "pais": "EC",
    "via_visible": "E35",
@@ -993,7 +1219,9 @@
     {
      "lat": -0.275385,
      "lon": -79.078162,
-     "n": 1
+     "n": 1,
+     "rumbo": 319,
+     "doble": true
     }
    ],
    "posicion": {
@@ -1018,7 +1246,9 @@
     {
      "lat": -0.245774,
      "lon": -78.442006,
-     "n": 1
+     "n": 1,
+     "rumbo": 104,
+     "doble": true
     }
    ],
    "posicion": {
@@ -1040,14 +1270,21 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -0.243571,
-     "lon": -78.485377,
-     "n": 2
+     "lat": -0.243593,
+     "lon": -78.485485,
+     "n": 1,
+     "rumbo": 164
+    },
+    {
+     "lat": -0.243548,
+     "lon": -78.485269,
+     "n": 1,
+     "rumbo": 348
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 12.3
    },
    "pais": "EC",
    "via_visible": "Autopista General Rumiñahui",
@@ -1068,7 +1305,9 @@
     {
      "lat": -0.19225,
      "lon": -78.460392,
-     "n": 1
+     "n": 1,
+     "rumbo": 67,
+     "doble": true
     }
    ],
    "posicion": {
@@ -1093,7 +1332,9 @@
     {
      "lat": -0.182305,
      "lon": -78.487857,
-     "n": 1
+     "n": 1,
+     "rumbo": 244,
+     "doble": true
     }
    ],
    "posicion": {
@@ -1118,7 +1359,9 @@
     {
      "lat": -0.151066,
      "lon": -78.493143,
-     "n": 1
+     "n": 1,
+     "rumbo": 354,
+     "doble": true
     }
    ],
    "posicion": {
@@ -1141,14 +1384,21 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -0.145024,
-     "lon": -78.490681,
-     "n": 2
+     "lat": -0.145034,
+     "lon": -78.490731,
+     "n": 1,
+     "rumbo": 171
+    },
+    {
+     "lat": -0.145015,
+     "lon": -78.49063,
+     "n": 1,
+     "rumbo": 353
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 5.7
    },
    "pais": "EC",
    "via_visible": "Avenida de la Prensa",
@@ -1169,12 +1419,16 @@
     {
      "lat": -0.142424,
      "lon": -78.493448,
-     "n": 1
+     "n": 1,
+     "rumbo": 256,
+     "doble": true
     },
     {
      "lat": -0.140994,
      "lon": -78.497592,
-     "n": 1
+     "n": 1,
+     "rumbo": 108,
+     "doble": true
     }
    ],
    "posicion": {
@@ -1237,14 +1491,26 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -0.099271,
-     "lon": -78.407084,
-     "n": 3
+     "lat": -0.099415,
+     "lon": -78.406964,
+     "n": 1
+    },
+    {
+     "lat": -0.099302,
+     "lon": -78.407059,
+     "n": 1,
+     "rumbo": 47
+    },
+    {
+     "lat": -0.099096,
+     "lon": -78.407229,
+     "n": 1,
+     "rumbo": 228
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 4.4
    },
    "pais": "EC",
    "via_visible": "Avenida Panamericana Norte",
@@ -1263,7 +1529,9 @@
     {
      "lat": -0.077187,
      "lon": -78.754638,
-     "n": 1
+     "n": 1,
+     "rumbo": 167,
+     "doble": true
     }
    ],
    "posicion": {
@@ -1287,7 +1555,9 @@
     {
      "lat": -0.051036,
      "lon": -78.771906,
-     "n": 1
+     "n": 1,
+     "rumbo": 14,
+     "doble": true
     }
    ],
    "posicion": {
@@ -1311,14 +1581,21 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": 0.004641,
-     "lon": -78.201202,
-     "n": 2
+     "lat": 0.004595,
+     "lon": -78.201272,
+     "n": 1,
+     "rumbo": 146
+    },
+    {
+     "lat": 0.004686,
+     "lon": -78.201132,
+     "n": 1,
+     "rumbo": 325
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 9.2
    },
    "pais": "EC",
    "via_visible": "Vía Cayambe Cusubamba",
@@ -1337,14 +1614,21 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": 0.004858,
-     "lon": -78.292773,
-     "n": 6
+     "lat": 0.004789,
+     "lon": -78.292787,
+     "n": 3,
+     "rumbo": 102
+    },
+    {
+     "lat": 0.004927,
+     "lon": -78.292759,
+     "n": 3,
+     "rumbo": 281
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 7.8
    },
    "pais": "EC",
    "via_visible": "Vía Guayllabamba Tabacundo",
@@ -1362,14 +1646,21 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": 0.289264,
-     "lon": -78.236286,
-     "n": 6
+     "lat": 0.289248,
+     "lon": -78.236168,
+     "n": 3,
+     "rumbo": 10
+    },
+    {
+     "lat": 0.28928,
+     "lon": -78.236404,
+     "n": 3,
+     "rumbo": 191
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 13.3
    },
    "pais": "EC",
    "via_visible": "E35",
@@ -1388,7 +1679,8 @@
     {
      "lat": 0.376516,
      "lon": -78.111163,
-     "n": 1
+     "n": 1,
+     "rumbo": 104
     }
    ],
    "posicion": {
@@ -1411,14 +1703,21 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": 0.468895,
-     "lon": -78.041316,
-     "n": 4
+     "lat": 0.468847,
+     "lon": -78.04133,
+     "n": 2,
+     "rumbo": 102
+    },
+    {
+     "lat": 0.468943,
+     "lon": -78.041302,
+     "n": 2,
+     "rumbo": 282
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 5.5
    },
    "pais": "EC",
    "via_visible": "Vía El Juncal Ibarra",
@@ -1437,14 +1736,21 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": 0.604651,
-     "lon": -77.800584,
-     "n": 4
+     "lat": 0.604604,
+     "lon": -77.800594,
+     "n": 2,
+     "rumbo": 101
+    },
+    {
+     "lat": 0.604697,
+     "lon": -77.800573,
+     "n": 2,
+     "rumbo": 280
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 5.2
    },
    "pais": "EC",
    "via_visible": "Vía San Gabriel Tulcán",
@@ -1487,17 +1793,17 @@
     "estado": "sin_referencia"
    },
    "pais": "EC",
-   "via_visible": "Cano",
+   "via_visible": "Carretera Panamericana",
    "punto": "Cano",
-   "nombre_visible": "Cano - Peaje Cano",
+   "nombre_visible": "Carretera Panamericana - Peaje Cano",
    "confianza": "alta",
    "plaza": "Cano"
   }
  ],
  "excluidas": [
   {
-   "lat": -2.145588,
-   "lon": -79.883236,
+   "lat": -2.145586,
+   "lon": -79.88324,
    "nombre": "Peaje Salida del Aeropuerto",
    "tipo": "cabina",
    "via": "Salida del Aeropuerto",
@@ -1507,12 +1813,19 @@
     {
      "lat": -2.146119,
      "lon": -79.884458,
+     "n": 1,
+     "rumbo": 301
+    },
+    {
+     "lat": -2.14559,
+     "lon": -79.883232,
      "n": 1
     },
     {
-     "lat": -2.145588,
-     "lon": -79.883236,
-     "n": 2
+     "lat": -2.145586,
+     "lon": -79.88324,
+     "n": 1,
+     "rumbo": 28
     }
    ],
    "posicion": {
@@ -1526,10 +1839,15 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
+<<<<<<< HEAD
  "generado": "2026-11-01T19:30Z",
  "alertas": [
   "EC: OpenStreetMap no devolvió la geometría de las calles (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las cabinas salen sin sentido.",
   "EC: no se pudieron leer los peajes de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
   "EC: Salieron 1 y antes había 58: se mantiene lo anterior."
  ]
+=======
+ "generado": "2026-11-01T22:24Z",
+ "alertas": []
+>>>>>>> 8d02d9f (Nombres de estaciones (EC) actualizados automáticamente)
 }
