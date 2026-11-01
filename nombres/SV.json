@@ -11,6 +11,7 @@
   "excluidas": 0,
   "posicion": {
    "umbral_m": 15.0,
+<<<<<<< HEAD
    "ok": 3,
    "corregidas": 0,
    "sin_referencia": 0,
@@ -18,12 +19,50 @@
     "ok": 3,
     "a_mas_de_15_m": 0,
     "sin_referencia": 1,
+=======
+   "ok": 4,
+   "corregidas": 0,
+   "sin_referencia": 0,
+   "corrida_anterior": {
+    "ok": 4,
+    "a_mas_de_15_m": 0,
+    "sin_referencia": 0,
+>>>>>>> 2651cb8 (Nombres de estaciones (SV) actualizados automáticamente)
     "total": 4
    }
   }
  },
  "estaciones": [
   {
+<<<<<<< HEAD
+=======
+   "lat": 13.687069,
+   "lon": -89.739864,
+   "nombre": "Peaje Carretera Sonsonate - Acajutla (CA-12)",
+   "tipo": "cabina",
+   "via": "Carretera Sonsonate - Acajutla",
+   "ref": "CA-12",
+   "localidad": "El Guayabo",
+   "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 13.687069,
+     "lon": -89.739864,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
+   "pais": "SV",
+   "via_visible": "Carretera Sonsonate - Acajutla",
+   "punto": "El Guayabo",
+   "nombre_visible": "Carretera Sonsonate - Acajutla - Peaje El Guayabo",
+   "confianza": "media"
+  },
+  {
+>>>>>>> 2651cb8 (Nombres de estaciones (SV) actualizados automáticamente)
    "lat": 13.696695,
    "lon": -89.189984,
    "nombre": "Peaje 6a Calle Oriente km 0",
@@ -108,6 +147,10 @@
   }
  ],
  "excluidas": [],
+<<<<<<< HEAD
  "generado": "2026-11-01T19:30Z",
+=======
+ "generado": "2026-11-01T22:38Z",
+>>>>>>> 2651cb8 (Nombres de estaciones (SV) actualizados automáticamente)
  "alertas": []
 }
