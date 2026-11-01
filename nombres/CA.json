@@ -7,7 +7,7 @@
   "osm": 49,
   "armado": 260,
   "total": 309,
-  "confianza_baja": 5,
+  "confianza_baja": 0,
   "excluidas": 9,
   "posicion": {
    "umbral_m": 15.0,
@@ -281,13 +281,8 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-<<<<<<< HEAD
-   "lat": 43.117144,
-   "lon": -79.248564,
-=======
    "lat": 43.117196,
    "lon": -79.25017,
->>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "nombre": "Peaje Isaac Brock Circle",
    "tipo": "cabina",
    "via": "Isaac Brock Circle",
@@ -2712,6 +2707,7 @@
    "nombre": "Peaje Kortright Centre Driveway",
    "tipo": "cabina",
    "via": "Kortright Centre Driveway",
+   "localidad": "Kleinburg",
    "fuente": "armado",
    "cabinas": [
     {
@@ -2727,10 +2723,9 @@
    },
    "pais": "CA",
    "via_visible": "Kortright Centre Driveway",
-   "punto": "(unnamed)",
-   "nombre_visible": "Kortright Centre Driveway - Toll (unnamed)",
-   "confianza": "baja",
-   "nota": "El robot no encontró ruta ni localidad: completar a mano."
+   "punto": "Kleinburg",
+   "nombre_visible": "Kortright Centre Driveway - Toll Kleinburg",
+   "confianza": "media"
   },
   {
    "lat": 43.833614,
@@ -3563,13 +3558,8 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-<<<<<<< HEAD
-   "lat": 43.925854,
-   "lon": -79.09032,
-=======
    "lat": 43.925632,
    "lon": -79.090252,
->>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "nombre": "Pórtico Highway 407 (7)",
    "tipo": "portico",
    "via": "Highway 407",
@@ -3724,13 +3714,8 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-<<<<<<< HEAD
-   "lat": 43.951347,
-   "lon": -78.941026,
-=======
    "lat": 43.951047,
    "lon": -78.939506,
->>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "nombre": "Pórtico Highway 407 (6)",
    "tipo": "portico",
    "via": "Highway 407",
@@ -3791,13 +3776,8 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-<<<<<<< HEAD
-   "lat": 43.964346,
-   "lon": -78.811975,
-=======
    "lat": 43.965137,
    "lon": -78.813129,
->>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "nombre": "Pórtico Highway 407 (5)",
    "tipo": "portico",
    "via": "Highway 407",
@@ -3919,13 +3899,8 @@
    "confianza": "media"
   },
   {
-<<<<<<< HEAD
-   "lat": 43.981438,
-   "lon": -78.74324,
-=======
    "lat": 43.982476,
    "lon": -78.742539,
->>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "nombre": "Pórtico Highway 407 (8)",
    "tipo": "portico",
    "via": "Highway 407",
@@ -4047,13 +4022,8 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-<<<<<<< HEAD
-   "lat": 44.000779,
-   "lon": -78.666776,
-=======
    "lat": 43.999585,
    "lon": -78.6678,
->>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "nombre": "Pórtico Highway 407 (9)",
    "tipo": "portico",
    "via": "Highway 407",
@@ -4134,8 +4104,9 @@
   {
    "lat": 44.487891,
    "lon": -75.822901,
-   "nombre": "Peaje cerca de Mallorytown",
+   "nombre": "Peaje 1000 Islands Parkway",
    "tipo": "cabina",
+   "via": "1000 Islands Parkway",
    "localidad": "Mallorytown",
    "fuente": "armado",
    "cabinas": [
@@ -4152,8 +4123,9 @@
     "distancia_m": 0.0
    },
    "pais": "CA",
+   "via_visible": "1000 Islands Parkway",
    "punto": "Mallorytown",
-   "nombre_visible": "Toll Mallorytown",
+   "nombre_visible": "1000 Islands Parkway - Toll Mallorytown",
    "confianza": "media"
   },
   {
@@ -4350,8 +4322,10 @@
   {
    "lat": 45.266045,
    "lon": -72.15671,
-   "nombre": "Peaje cerca de Magog",
+   "nombre": "Peaje Rue Merry Sud (141)",
    "tipo": "cabina",
+   "via": "Rue Merry Sud",
+   "ref": "141",
    "localidad": "Magog",
    "fuente": "armado",
    "cabinas": [
@@ -4378,6 +4352,7 @@
    "nombre": "Peaje Rue Plage des Cantons",
    "tipo": "cabina",
    "via": "Rue Plage des Cantons",
+   "localidad": "Magog",
    "fuente": "armado",
    "cabinas": [
     {
@@ -4393,10 +4368,9 @@
    },
    "pais": "CA",
    "via_visible": "Rue Plage des Cantons",
-   "punto": "(unnamed)",
-   "nombre_visible": "Rue Plage des Cantons - Toll (unnamed)",
-   "confianza": "baja",
-   "nota": "El robot no encontró ruta ni localidad: completar a mano."
+   "punto": "Magog",
+   "nombre_visible": "Rue Plage des Cantons - Toll Magog",
+   "confianza": "media"
   },
   {
    "lat": 45.291827,
@@ -5253,12 +5227,9 @@
   {
    "lat": 45.496461,
    "lon": -73.631483,
-<<<<<<< HEAD
    "nombre": "Peaje Chemin de la Côte-Sainte-Catherine (2)",
-=======
-   "nombre": "Peaje cerca de Hampstead",
->>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "tipo": "cabina",
+   "via": "Chemin de la Côte-Sainte-Catherine",
    "localidad": "Hampstead",
    "fuente": "armado",
    "cabinas": [
@@ -5273,8 +5244,9 @@
     "distancia_m": 0.0
    },
    "pais": "CA",
+   "via_visible": "Chemin de la Côte-Sainte-Catherine",
    "punto": "Hampstead",
-   "nombre_visible": "Toll Hampstead",
+   "nombre_visible": "Chemin de la Côte-Sainte-Catherine - Toll Hampstead",
    "confianza": "media"
   },
   {
@@ -7225,8 +7197,10 @@
   {
    "lat": 47.573203,
    "lon": -61.475847,
-   "nombre": "Peaje cerca de Grande-Entrée",
+   "nombre": "Peaje Chemin Principal (199)",
    "tipo": "cabina",
+   "via": "Chemin Principal",
+   "ref": "199",
    "localidad": "Grande-Entrée",
    "fuente": "armado",
    "cabinas": [
@@ -7511,7 +7485,7 @@
   {
    "lat": 48.330138,
    "lon": -68.806697,
-   "nombre": "Peaje Route 132 (2)",
+   "nombre": "Peaje Route 132 (3)",
    "tipo": "cabina",
    "via": "Route 132",
    "ref": "132",
@@ -7537,8 +7511,11 @@
   {
    "lat": 48.355157,
    "lon": -68.754156,
-   "nombre": "Peaje en Canadá (2)",
+   "nombre": "Peaje Route 132 (2)",
    "tipo": "cabina",
+   "via": "Route 132",
+   "ref": "132",
+   "localidad": "Le Bic",
    "fuente": "armado",
    "cabinas": [
     {
@@ -7554,10 +7531,9 @@
    },
    "pais": "CA",
    "via_visible": "Route 132",
-   "punto": "(unnamed)",
-   "nombre_visible": "Route 132 - Toll (unnamed)",
-   "confianza": "baja",
-   "nota": "El robot no encontró ruta ni localidad: completar a mano."
+   "punto": "Le Bic",
+   "nombre_visible": "Route 132 - Toll Le Bic",
+   "confianza": "media"
   },
   {
    "lat": 48.390344,
@@ -7757,13 +7733,8 @@
    "confianza": "media"
   },
   {
-<<<<<<< HEAD
-   "lat": 48.639601,
-   "lon": -123.430911,
-=======
    "lat": 48.639383,
    "lon": -123.431977,
->>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
    "nombre": "Peaje Willingdon Road",
    "tipo": "cabina",
    "via": "Willingdon Road",
@@ -8044,8 +8015,9 @@
   {
    "lat": 48.925284,
    "lon": -123.716503,
-   "nombre": "Peaje cerca de Saltair",
+   "nombre": "Peaje Oak Street",
    "tipo": "cabina",
+   "via": "Oak Street",
    "localidad": "Saltair",
    "fuente": "armado",
    "cabinas": [
@@ -8066,8 +8038,9 @@
     "distancia_m": 1.6
    },
    "pais": "CA",
+   "via_visible": "Oak Street",
    "punto": "Saltair",
-   "nombre_visible": "Toll Saltair",
+   "nombre_visible": "Oak Street - Toll Saltair",
    "confianza": "media"
   },
   {
@@ -8712,8 +8685,9 @@
   {
    "lat": 49.934531,
    "lon": -57.764826,
-   "nombre": "Peaje en Canadá",
+   "nombre": "Peaje cerca de Cow Head",
    "tipo": "cabina",
+   "localidad": "Cow Head",
    "fuente": "armado",
    "cabinas": [
     {
@@ -8728,10 +8702,9 @@
     "distancia_m": 0.0
    },
    "pais": "CA",
-   "punto": "(unnamed)",
-   "nombre_visible": "(unnamed)",
-   "confianza": "baja",
-   "nota": "El robot no encontró ruta ni localidad: completar a mano."
+   "punto": "Cow Head",
+   "nombre_visible": "Toll Cow Head",
+   "confianza": "media"
   },
   {
    "lat": 49.94771,
@@ -8841,8 +8814,9 @@
   {
    "lat": 50.454311,
    "lon": -104.594598,
-   "nombre": "Peaje cerca de Regina",
+   "nombre": "Peaje Winnipeg Street",
    "tipo": "cabina",
+   "via": "Winnipeg Street",
    "localidad": "Regina",
    "fuente": "armado",
    "cabinas": [
@@ -8864,8 +8838,9 @@
     "distancia_m": 4.8
    },
    "pais": "CA",
+   "via_visible": "Winnipeg Street",
    "punto": "Regina",
-   "nombre_visible": "Toll Regina",
+   "nombre_visible": "Winnipeg Street - Toll Regina",
    "confianza": "media"
   },
   {
@@ -8894,8 +8869,9 @@
   {
    "lat": 50.591462,
    "lon": -127.085691,
-   "nombre": "Peaje cerca de Port McNeill",
+   "nombre": "Peaje Port McNeill Ferry Terminal",
    "tipo": "cabina",
+   "via": "Port McNeill Ferry Terminal",
    "localidad": "Port McNeill",
    "fuente": "armado",
    "cabinas": [
@@ -8916,15 +8892,17 @@
     "distancia_m": 2.0
    },
    "pais": "CA",
+   "via_visible": "Port McNeill Ferry Terminal",
    "punto": "Port McNeill",
-   "nombre_visible": "Toll Port McNeill",
+   "nombre_visible": "Port McNeill Ferry Terminal - Toll Port McNeill",
    "confianza": "media"
   },
   {
    "lat": 50.678433,
    "lon": -120.333872,
-   "nombre": "Peaje cerca de Kamloops",
+   "nombre": "Peaje Lorne Street",
    "tipo": "cabina",
+   "via": "Lorne Street",
    "localidad": "Kamloops",
    "fuente": "armado",
    "cabinas": [
@@ -8941,8 +8919,9 @@
     "distancia_m": 0.0
    },
    "pais": "CA",
+   "via_visible": "Lorne Street",
    "punto": "Kamloops",
-   "nombre_visible": "Toll Kamloops",
+   "nombre_visible": "Lorne Street - Toll Kamloops",
    "confianza": "media"
   },
   {
@@ -9897,6 +9876,7 @@
    "nombre": "Peaje 79 Street NW",
    "tipo": "cabina",
    "via": "79 Street NW",
+   "localidad": "Edmonton",
    "fuente": "armado",
    "cabinas": [
     {
@@ -9913,10 +9893,9 @@
    },
    "pais": "CA",
    "via_visible": "79 Street NW",
-   "punto": "(unnamed)",
-   "nombre_visible": "79 Street NW - Toll (unnamed)",
-   "confianza": "baja",
-   "nota": "El robot no encontró ruta ni localidad: completar a mano."
+   "punto": "Edmonton",
+   "nombre_visible": "79 Street NW - Toll Edmonton",
+   "confianza": "media"
   },
   {
    "lat": 53.571261,
@@ -10406,14 +10385,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
-<<<<<<< HEAD
- "generado": "2026-11-01T14:27Z",
+ "generado": "2026-11-01T21:09Z",
  "alertas": []
-=======
- "generado": "2026-11-01T18:11Z",
- "alertas": [
-  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
-  "Alrededores: falló un lote de 5 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
- ]
->>>>>>> 3d682ee (Nombres de estaciones (CA) actualizados automáticamente)
 }
