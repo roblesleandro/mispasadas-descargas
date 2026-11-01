@@ -15,8 +15,8 @@
    "corregidas": 53,
    "sin_referencia": 3,
    "corrida_anterior": {
-    "ok": 111,
-    "a_mas_de_15_m": 53,
+    "ok": 164,
+    "a_mas_de_15_m": 0,
     "sin_referencia": 0,
     "total": 164
    }
@@ -5654,10 +5654,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
-<<<<<<< HEAD
- "generado": "2026-11-01T14:22Z",
-=======
- "generado": "2026-11-01T15:17Z",
->>>>>>> bd488be (Nombres de estaciones (AR) actualizados automáticamente)
+ "generado": "2026-11-01T18:16Z",
  "alertas": []
 }
