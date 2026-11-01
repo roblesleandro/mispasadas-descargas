@@ -3957,9 +3957,9 @@
    "empresa": "Concesionado",
    "fuente": "oficial",
    "pais": "MX",
-   "via_visible": "Autopista Urbana Norte",
+   "via_visible": "Periférico Segundo Piso",
    "punto": "San Antonio Poniente",
-   "nombre_visible": "Autopista Urbana Norte - Caseta San Antonio Poniente",
+   "nombre_visible": "Periférico Segundo Piso - Caseta San Antonio Poniente",
    "confianza": "alta",
    "plaza": "San Antonio Poniente"
   },
@@ -4089,7 +4089,7 @@
    "nombre_visible": "Autopista Urbana Norte - Caseta San Antonio Oriente",
    "confianza": "alta",
    "plaza": "San Antonio Oriente (Autopista Urbana Norte)",
-   "nota": "Posible duplicado de «Autopista Urbana Norte - Caseta San Antonio Poniente»."
+   "nota": "Posible duplicado de «Periférico Segundo Piso - Caseta San Antonio Poniente»."
   },
   {
    "lat": 19.395301,
@@ -14409,6 +14409,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-31T12:59Z",
+ "generado": "2026-11-01T12:47Z",
  "alertas": []
 }
