@@ -5,10 +5,10 @@
  "resumen": {
   "oficial": 0,
   "osm": 89,
-  "armado": 28,
-  "total": 117,
+  "armado": 29,
+  "total": 118,
   "confianza_baja": 0,
-  "excluidas": 1,
+  "excluidas": 0,
   "posicion": {
    "umbral_m": 15.0,
    "ok": 110,
@@ -399,6 +399,29 @@
    "punto": "Unidad de peaje Variante de Uchumayo",
    "nombre_visible": "Carretera Interoceánica Sur - Peaje Unidad de peaje Variante de Uchumayo",
    "confianza": "alta"
+  },
+  {
+   "lat": -16.345318,
+   "lon": -71.567082,
+   "nombre": "Peaje cerca de Peruarboo",
+   "tipo": "cabina",
+   "localidad": "Peruarboo",
+   "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -16.345318,
+     "lon": -71.567082,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
+   "pais": "PE",
+   "punto": "Peruarboo",
+   "nombre_visible": "Peaje Peruarboo",
+   "confianza": "media"
   },
   {
    "lat": -16.233934,
@@ -1300,11 +1323,8 @@
   {
    "lat": -12.539953,
    "lon": -76.718585,
-   "nombre": "Peaje Carretera Panamericana Sur (PE-1S) km 67",
+   "nombre": "Peaje cerca de Las Salinas",
    "tipo": "cabina",
-   "via": "Carretera Panamericana Sur",
-   "ref": "PE-1S",
-   "km": "67",
    "localidad": "Las Salinas",
    "fuente": "armado",
    "cabinas": [
@@ -1321,9 +1341,9 @@
     "distancia_m": 0.0
    },
    "pais": "PE",
-   "via_visible": "PE-1S",
+   "via_visible": "Carretera Panamericana Sur",
    "punto": "Las Salinas",
-   "nombre_visible": "PE-1S - Peaje Las Salinas",
+   "nombre_visible": "Carretera Panamericana Sur - Peaje Las Salinas",
    "confianza": "media"
   },
   {
@@ -1745,9 +1765,8 @@
   {
    "lat": -12.129576,
    "lon": -77.017848,
-   "nombre": "Peaje Avenida República de Panamá",
+   "nombre": "Peaje cerca de Lima",
    "tipo": "cabina",
-   "via": "Avenida República de Panamá",
    "localidad": "Lima",
    "fuente": "armado",
    "cabinas": [
@@ -2115,9 +2134,8 @@
   {
    "lat": -12.01826,
    "lon": -77.101642,
-   "nombre": "Peaje Avenida Alejandro Bertello Bollati",
+   "nombre": "Peaje cerca de Callao",
    "tipo": "cabina",
-   "via": "Avenida Alejandro Bertello Bollati",
    "localidad": "Callao",
    "fuente": "armado",
    "cabinas": [
@@ -2764,7 +2782,7 @@
    "tipo": "cabina",
    "via": "Panamericana Norte",
    "ref": "PE-1N",
-   "localidad": "Puerto Morin",
+   "localidad": "Victor Raúl",
    "fuente": "armado",
    "cabinas": [
     {
@@ -2786,8 +2804,8 @@
    },
    "pais": "PE",
    "via_visible": "PE-1N",
-   "punto": "Puerto Morin",
-   "nombre_visible": "PE-1N - Peaje Puerto Morin",
+   "punto": "Victor Raúl",
+   "nombre_visible": "PE-1N - Peaje Victor Raúl",
    "confianza": "media"
   },
   {
@@ -3488,6 +3506,7 @@
    "confianza": "alta"
   }
  ],
+<<<<<<< HEAD
  "excluidas": [
   {
    "lat": -16.345318,
@@ -3513,4 +3532,11 @@
  ],
  "generado": "2026-11-01T18:37Z",
  "alertas": []
+=======
+ "excluidas": [],
+ "generado": "2026-11-01T22:20Z",
+ "alertas": [
+  "Alrededores: falló un lote de 4 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+ ]
+>>>>>>> 504c704 (Nombres de estaciones (PE) actualizados automáticamente)
 }
