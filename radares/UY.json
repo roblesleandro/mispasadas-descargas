@@ -1,7 +1,7 @@
 {
  "version": "uy-2026-11-01",
  "pais": "UY",
- "generado": "2026-11-01T17:51:12+00:00",
+ "generado": "2026-11-01T23:24:41+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Intendencia de Montevideo: equipos de fiscalización fijos (montevideo.gub.uy/areas-tematicas/movilidad/fiscalizacion-de-infracciones/equipos-de-fiscalizacion-fijos). Su robots.txt no permite leerla con robots: cargar a mano o pedir el dato a la IM.",
@@ -10,24 +10,24 @@
   "OJO: el dataset «Ubicación de sensores de medición de conteo vehículos» (IM, catalogodatos.gub.uy) son contadores de tránsito, NO radares que multan."
  ],
  "resumen": {
-  "total": 265,
+  "total": 278,
   "oficiales": 122,
-  "osm": 143,
+  "osm": 156,
   "por_tipo": {
-   "FIXED_SPEED": 260,
+   "FIXED_SPEED": 273,
    "AVERAGE_SPEED_SECTION": 0,
    "RED_LIGHT_CAMERA": 3,
    "VEHICLE_CAMERA": 2
   },
-  "con_limite": 227,
+  "con_limite": 240,
   "limite_revisar": 4,
   "limite_desconocido": 38,
-  "revisados_esta_corrida": 3,
+  "revisados_esta_corrida": 5,
   "sin_via": 0,
-  "via_completada_esta_corrida": 0,
+  "via_completada_esta_corrida": 11,
   "limites_dudosos_sacados": 2,
   "por_control": {
-   "VELOCIDAD": 260,
+   "VELOCIDAD": 273,
    "VELOCIDAD_PROMEDIO": 0,
    "SEMAFORO": 3,
    "CINTURON": 0,
@@ -39,17 +39,17 @@
   "posicion": {
    "umbral_m": 15.0,
    "radio_busqueda_m": 150.0,
-   "ok": 179,
-   "corregidas": 33,
-   "sin_referencia": 53,
-   "de_osm": 143,
+   "ok": 193,
+   "corregidas": 36,
+   "sin_referencia": 49,
+   "de_osm": 156,
    "corrida_anterior": {
     "umbral_m": 15.0,
     "radio_busqueda_m": 150.0,
-    "ok": 225,
-    "corregidas": 0,
-    "sin_referencia": 53,
-    "de_osm": 156
+    "ok": 213,
+    "corregidas": 3,
+    "sin_referencia": 49,
+    "de_osm": 143
    }
   }
  },
@@ -3292,6 +3292,62 @@
    "country": "UY"
   },
   {
+   "radar_id": "osm-uy-n14177968826",
+   "name": "Ruta 8 - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -34.802022,
+   "longitude": -56.087174,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14177968826",
+   "source_version": "uy-2026-11-01",
+   "confidence_score": 50,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "heading_min": 335.0,
+   "heading_max": 45.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14177968826"
+   },
+   "road_label": "Ruta 8",
+   "display_name": "Ruta 8 - Radar",
+   "country": "UY"
+  },
+  {
+   "radar_id": "osm-uy-n14177922294",
+   "name": "Ruta 8 - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -34.801399,
+   "longitude": -56.086738,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14177922294",
+   "source_version": "uy-2026-11-01",
+   "confidence_score": 50,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "heading_min": 225.0,
+   "heading_max": 295.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14177922294"
+   },
+   "road_label": "Ruta 8",
+   "display_name": "Ruta 8 - Radar",
+   "country": "UY"
+  },
+  {
    "radar_id": "osm-uy-n11128870056",
    "name": "Ruta Interbalnearia - Radar",
    "radar_type": "FIXED_SPEED",
@@ -3600,6 +3656,38 @@
    "country": "UY"
   },
   {
+   "radar_id": "osm-uy-n14321672655",
+   "name": "Ruta Interbalnearia - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -34.785542,
+   "longitude": -55.88927,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14321672655",
+   "source_version": "uy-2026-11-01",
+   "confidence_score": 50,
+   "speed_limit_kmh": 75,
+   "speed_limit_source": "OSM_CALZADA_PRINCIPAL",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "heading_min": 10.0,
+   "heading_max": 80.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14321672655"
+   },
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 75,
+   "speed_limit_detail": "La vía del radar tiene límite en OSM · 30 km/h no es creíble en esta vía: se usa 75 km/h de la calzada principal",
+   "speed_limit_road_class": "trunk",
+   "road_label": "Ruta Interbalnearia",
+   "display_name": "Ruta Interbalnearia - Radar",
+   "country": "UY"
+  },
+  {
    "radar_id": "osm-uy-n10187363939",
    "name": "Ruta Interbalnearia - Radar",
    "radar_type": "FIXED_SPEED",
@@ -3863,6 +3951,86 @@
    "speed_limit_road_class": "residential",
    "speed_limit_road_kmh": 60,
    "display_name": "Ruta Interbalnearia - Radar",
+   "country": "UY"
+  },
+  {
+   "radar_id": "osm-uy-n14178103215",
+   "name": "Ruta 8 - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -34.776304,
+   "longitude": -56.044436,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14178103215",
+   "source_version": "uy-2026-11-01",
+   "confidence_score": 50,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14178103215"
+   },
+   "road_label": "Ruta 8",
+   "display_name": "Ruta 8 - Radar",
+   "country": "UY"
+  },
+  {
+   "radar_id": "osm-uy-n14216482159",
+   "name": "Ruta 6 - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -34.773928,
+   "longitude": -56.129189,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14216482159",
+   "source_version": "uy-2026-11-01",
+   "confidence_score": 50,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "heading_min": 165.0,
+   "heading_max": 235.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14216482159"
+   },
+   "road_label": "Ruta 6",
+   "display_name": "Ruta 6 - Radar",
+   "country": "UY"
+  },
+  {
+   "radar_id": "osm-uy-n14178096844",
+   "name": "Ruta 101 - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -34.77293,
+   "longitude": -55.986116,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14178096844",
+   "source_version": "uy-2026-11-01",
+   "confidence_score": 50,
+   "speed_limit_kmh": 75,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14178096844"
+   },
+   "road_label": "Ruta 101",
+   "display_name": "Ruta 101 - Radar",
    "country": "UY"
   },
   {
@@ -4169,6 +4337,34 @@
    "country": "UY"
   },
   {
+   "radar_id": "osm-uy-n14178068979",
+   "name": "Ruta 8 - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -34.763385,
+   "longitude": -56.017321,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14178068979",
+   "source_version": "uy-2026-11-01",
+   "confidence_score": 50,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "heading_min": 5.0,
+   "heading_max": 75.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14178068979"
+   },
+   "road_label": "Ruta 8",
+   "display_name": "Ruta 8 - Radar",
+   "country": "UY"
+  },
+  {
    "radar_id": "mtop-118",
    "name": "Ruta 200 - Radar km 63",
    "radar_type": "FIXED_SPEED",
@@ -4193,6 +4389,34 @@
     "VELOCIDAD"
    ],
    "display_name": "Ruta 200 - Radar km 63",
+   "country": "UY"
+  },
+  {
+   "radar_id": "osm-uy-n14178117895",
+   "name": "Ruta 8 - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -34.761734,
+   "longitude": -56.015335,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14178117895",
+   "source_version": "uy-2026-11-01",
+   "confidence_score": 50,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "heading_min": 185.0,
+   "heading_max": 255.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14178117895"
+   },
+   "road_label": "Ruta 8",
+   "display_name": "Ruta 8 - Radar",
    "country": "UY"
   },
   {
@@ -4369,6 +4593,62 @@
     "VELOCIDAD"
    ],
    "display_name": "Ruta 1 - Radar km 29",
+   "country": "UY"
+  },
+  {
+   "radar_id": "osm-uy-n14178080941",
+   "name": "Ruta 6 - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -34.737561,
+   "longitude": -56.093975,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14178080941",
+   "source_version": "uy-2026-11-01",
+   "confidence_score": 50,
+   "speed_limit_kmh": 45,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "heading_min": 331.0,
+   "heading_max": 41.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14178080941"
+   },
+   "road_label": "Ruta 6",
+   "display_name": "Ruta 6 - Radar",
+   "country": "UY"
+  },
+  {
+   "radar_id": "osm-uy-n14178080942",
+   "name": "Ruta 6 - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -34.736769,
+   "longitude": -56.093688,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14178080942",
+   "source_version": "uy-2026-11-01",
+   "confidence_score": 50,
+   "speed_limit_kmh": 45,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "heading_min": 165.0,
+   "heading_max": 235.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14178080942"
+   },
+   "road_label": "Ruta 6",
+   "display_name": "Ruta 6 - Radar",
    "country": "UY"
   },
   {
@@ -5248,6 +5528,32 @@
    "country": "UY"
   },
   {
+   "radar_id": "osm-uy-n14177992246",
+   "name": "Avenida José Pedro Varela - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -34.371981,
+   "longitude": -55.230576,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14177992246",
+   "source_version": "uy-2026-11-01",
+   "confidence_score": 50,
+   "speed_limit_kmh": 45,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14177992246"
+   },
+   "road_label": "Avenida José Pedro Varela",
+   "display_name": "Avenida José Pedro Varela - Radar",
+   "country": "UY"
+  },
+  {
    "radar_id": "osm-uy-n11492268509",
    "name": "Ruta 8 - Radar",
    "radar_type": "FIXED_SPEED",
@@ -5302,6 +5608,35 @@
     "VELOCIDAD"
    ],
    "display_name": "Ruta 1 - Radar km 101,738",
+   "country": "UY"
+  },
+  {
+   "radar_id": "osm-uy-n14177996789",
+   "name": "Ruta 8 - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -34.365651,
+   "longitude": -55.230382,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14177996789",
+   "source_version": "uy-2026-11-01",
+   "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14177996789"
+   },
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_kmh": 45,
+   "speed_limit_source": "OSM_PROPIO",
+   "road_label": "Ruta 8",
+   "display_name": "Ruta 8 - Radar",
    "country": "UY"
   },
   {
@@ -5554,8 +5889,8 @@
    "radar_id": "mtop-45",
    "name": "Ruta 7 - Radar km 94,61",
    "radar_type": "FIXED_SPEED",
-   "latitude": -34.20591,
-   "longitude": -55.74364,
+   "latitude": -34.206304,
+   "longitude": -55.743595,
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Fray Marcos S; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
@@ -5564,11 +5899,17 @@
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
    "position_check": {
-    "status": "SIN_REFERENCIA"
+    "status": "CORREGIDA",
+    "offset_m": 44,
+    "reference": "node/14213255027",
+    "original_position": [
+     -34.20591,
+     -55.74364
+    ]
    },
    "speed_limit_checked": "2026-11-01",
    "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "lado A: 45 km/h a 887 m",
+   "speed_limit_detail": "lado A: 45 km/h a 930 m",
    "speed_limit_road_class": "primary",
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_TRAMO_VECINO",
@@ -5638,8 +5979,8 @@
    "radar_id": "mtop-46",
    "name": "Ruta 7 - Radar",
    "radar_type": "FIXED_SPEED",
-   "latitude": -34.192485,
-   "longitude": -55.72891,
+   "latitude": -34.192651,
+   "longitude": -55.729075,
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Fray Marcos NE; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
@@ -5648,7 +5989,13 @@
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
    "position_check": {
-    "status": "SIN_REFERENCIA"
+    "status": "CORREGIDA",
+    "offset_m": 24,
+    "reference": "node/14213255026",
+    "original_position": [
+     -34.192485,
+     -55.72891
+    ]
    },
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_kmh": 90,
@@ -5661,6 +6008,32 @@
     "VELOCIDAD"
    ],
    "display_name": "Ruta 7 - Radar",
+   "country": "UY"
+  },
+  {
+   "radar_id": "osm-uy-n14213244859",
+   "name": "Juan Zorrilla de San Martín - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -34.104907,
+   "longitude": -56.24408,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14213244859",
+   "source_version": "uy-2026-11-01",
+   "confidence_score": 50,
+   "speed_limit_kmh": 45,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14213244859"
+   },
+   "road_label": "Juan Zorrilla de San Martín",
+   "display_name": "Juan Zorrilla de San Martín - Radar",
    "country": "UY"
   },
   {
@@ -5677,7 +6050,9 @@
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
    "position_check": {
-    "status": "SIN_REFERENCIA"
+    "status": "OK",
+    "offset_m": 15.0,
+    "reference": "node/14213263658"
    },
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_PROPIO",
@@ -5694,8 +6069,8 @@
    "radar_id": "mtop-48",
    "name": "Ruta 7 - Radar km 111,1",
    "radar_type": "FIXED_SPEED",
-   "latitude": -34.098006,
-   "longitude": -55.652192,
+   "latitude": -34.097929,
+   "longitude": -55.652021,
    "status": "VERIFIED",
    "source": "MTOP",
    "source_reference": "Casupá NE; MTOP; MTOP – Puntos de fiscalización electrónica de velocidades (rutas nacionales)",
@@ -5704,12 +6079,18 @@
    "road_name": "Ruta 7",
    "road_label": "Ruta 7",
    "position_check": {
-    "status": "SIN_REFERENCIA"
+    "status": "CORREGIDA",
+    "offset_m": 18,
+    "reference": "node/14213263657",
+    "original_position": [
+     -34.098006,
+     -55.652192
+    ]
    },
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_kmh": 90,
    "speed_limit_status": "REVISAR",
-   "speed_limit_detail": "lado B: 45 km/h a 84 m · 45 km/h es un salto brusco respecto de los 90 km/h de la vía",
+   "speed_limit_detail": "lado B: 45 km/h a 99 m · 45 km/h es un salto brusco respecto de los 90 km/h de la vía",
    "speed_limit_road_class": "secondary",
    "speed_limit_candidates": [
     45,
