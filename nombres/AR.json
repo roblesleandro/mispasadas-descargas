@@ -8,7 +8,19 @@
   "armado": 20,
   "total": 164,
   "confianza_baja": 4,
-  "excluidas": 4
+  "excluidas": 4,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 112,
+   "corregidas": 53,
+   "sin_referencia": 3,
+   "corrida_anterior": {
+    "ok": 111,
+    "a_mas_de_15_m": 53,
+    "sin_referencia": 0,
+    "total": 164
+   }
+  }
  },
  "estaciones": [
   {
@@ -20,6 +32,17 @@
    "ref": "RN288",
    "localidad": "Puerto Santa Cruz",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -50.025179,
+     "lon": -68.537753,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 288",
    "punto": "Puerto Santa Cruz",
@@ -35,6 +58,17 @@
    "ref": "RN3",
    "localidad": "Rada Tilly",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -46.073726,
+     "lon": -67.62925,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 3",
    "punto": "Rada Tilly",
@@ -48,23 +82,74 @@
    "tipo": "cabina",
    "localidad": "Trelew",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -43.209339,
+     "lon": -65.284499,
+     "n": 1,
+     "rumbo": 247
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "punto": "Trelew",
    "nombre_visible": "Peaje Trelew",
    "confianza": "media"
   },
   {
-   "lat": -38.956357,
-   "lon": -68.061185,
+   "lat": -38.956303,
+   "lon": -68.05976,
    "nombre": "Peaje Domingo Faustino Sarmiento",
    "tipo": "cabina",
    "via": "Domingo Faustino Sarmiento",
    "localidad": "Neuquén",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -38.956469,
+     "lon": -68.063347,
+     "n": 1,
+     "rumbo": 90
+    },
+    {
+     "lat": -38.95642,
+     "lon": -68.063348,
+     "n": 1,
+     "rumbo": 270
+    },
+    {
+     "lat": -38.956329,
+     "lon": -68.059709,
+     "n": 1,
+     "rumbo": 56
+    },
+    {
+     "lat": -38.956303,
+     "lon": -68.05976,
+     "n": 1
+    },
+    {
+     "lat": -38.956265,
+     "lon": -68.059762,
+     "n": 1,
+     "rumbo": 269
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 123,
+    "centro_plaza": [
+     -38.956357,
+     -68.061185
+    ]
+   },
    "pais": "AR",
-   "via_visible": "Domingo Faustino Sarmiento",
+   "via_visible": "Avenida Olascoaga",
    "punto": "Neuquén",
-   "nombre_visible": "Domingo Faustino Sarmiento - Peaje Neuquén",
+   "nombre_visible": "Avenida Olascoaga - Peaje Neuquén",
    "confianza": "media"
   },
   {
@@ -75,6 +160,29 @@
    "via": "Tierra del Fuego",
    "localidad": "Neuquén",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -38.956168,
+     "lon": -68.052543,
+     "n": 1,
+     "rumbo": 91
+    },
+    {
+     "lat": -38.956148,
+     "lon": -68.052542,
+     "n": 1
+    },
+    {
+     "lat": -38.956128,
+     "lon": -68.052544,
+     "n": 1,
+     "rumbo": 271
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.1
+   },
    "pais": "AR",
    "via_visible": "Tierra del Fuego",
    "punto": "Neuquén",
@@ -90,6 +198,24 @@
    "ref": "RN226",
    "empresa": "CORRESUR Rutas",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -37.88484,
+     "lon": -57.902126,
+     "n": 1,
+     "rumbo": 104
+    },
+    {
+     "lat": -37.884715,
+     "lon": -57.902084,
+     "n": 1,
+     "rumbo": 283
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.1
+   },
    "pais": "AR",
    "via_visible": "RN 226",
    "punto": "El Dorado",
@@ -106,6 +232,24 @@
    "ref": "RP11",
    "empresa": "AUBASA Rutas",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -37.733715,
+     "lon": -57.445819,
+     "n": 1,
+     "rumbo": 34
+    },
+    {
+     "lat": -37.73366,
+     "lon": -57.445906,
+     "n": 1,
+     "rumbo": 217
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.8
+   },
    "pais": "AR",
    "via_visible": "RP 11",
    "punto": "Mar Chiquita",
@@ -122,6 +266,19 @@
    "ref": "RN226",
    "empresa": "CORRESUR Rutas",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -37.373021,
+     "lon": -59.008032,
+     "n": 1,
+     "rumbo": 346,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 226",
    "punto": "Vasconia",
@@ -138,6 +295,19 @@
    "ref": "RP74",
    "empresa": "AUBASA Rutas",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -37.035939,
+     "lon": -57.142982,
+     "n": 1,
+     "rumbo": 43,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RP 74",
    "punto": "Madariaga",
@@ -154,6 +324,24 @@
    "ref": "RN226",
    "empresa": "CORRESUR Rutas",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -36.861777,
+     "lon": -60.1227,
+     "n": 1,
+     "rumbo": 47
+    },
+    {
+     "lat": -36.861719,
+     "lon": -60.122781,
+     "n": 1,
+     "rumbo": 225
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.8
+   },
    "pais": "AR",
    "via_visible": "RN 226",
    "punto": "Hinojo",
@@ -170,6 +358,29 @@
    "ref": "RP2",
    "empresa": "AUBASA Rutas",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -36.846742,
+     "lon": -57.866572,
+     "n": 1,
+     "rumbo": 38
+    },
+    {
+     "lat": -36.84668,
+     "lon": -57.866657,
+     "n": 1
+    },
+    {
+     "lat": -36.846635,
+     "lon": -57.866738,
+     "n": 1,
+     "rumbo": 218
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.7
+   },
    "pais": "AR",
    "via_visible": "RP 2",
    "punto": "Maipú",
@@ -186,6 +397,24 @@
    "ref": "RP11",
    "empresa": "AUBASA Rutas",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -36.428189,
+     "lon": -57.351118,
+     "n": 1,
+     "rumbo": 177
+    },
+    {
+     "lat": -36.428181,
+     "lon": -57.350896,
+     "n": 1,
+     "rumbo": 356
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.0
+   },
    "pais": "AR",
    "via_visible": "RP 11",
    "punto": "La Huella",
@@ -202,6 +431,19 @@
    "ref": "RN5",
    "empresa": "PENTAVIA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -35.918179,
+     "lon": -62.556098,
+     "n": 1,
+     "rumbo": 238,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 5",
    "punto": "Trenque Lauquen",
@@ -218,6 +460,24 @@
    "ref": "RP55",
    "empresa": "SLUIS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -35.669366,
+     "lon": -65.37515,
+     "n": 1,
+     "rumbo": 1
+    },
+    {
+     "lat": -35.669362,
+     "lon": -65.375332,
+     "n": 1,
+     "rumbo": 181
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.2
+   },
    "pais": "AR",
    "via_visible": "Autopista por la Paz del Mundo",
    "punto": "Anchorena",
@@ -234,6 +494,24 @@
    "ref": "RN5",
    "empresa": "PENTAVIA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -35.360493,
+     "lon": -60.702846,
+     "n": 1,
+     "rumbo": 43
+    },
+    {
+     "lat": -35.360441,
+     "lon": -60.702915,
+     "n": 1,
+     "rumbo": 224
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.2
+   },
    "pais": "AR",
    "via_visible": "RN 5",
    "punto": "9 de Julio",
@@ -250,6 +528,24 @@
    "ref": "RP2",
    "empresa": "AUBASA Rutas",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -35.307572,
+     "lon": -58.053732,
+     "n": 1,
+     "rumbo": 171
+    },
+    {
+     "lat": -35.307534,
+     "lon": -58.053466,
+     "n": 1,
+     "rumbo": 351
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.3
+   },
    "pais": "AR",
    "via_visible": "RP 2",
    "punto": "Samborombón",
@@ -266,6 +562,24 @@
    "ref": "RN3",
    "empresa": "CORRESUR Rutas",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -35.142945,
+     "lon": -58.740221,
+     "n": 1,
+     "rumbo": 7
+    },
+    {
+     "lat": -35.142935,
+     "lon": -58.740382,
+     "n": 1,
+     "rumbo": 187
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.3
+   },
    "pais": "AR",
    "via_visible": "RN 3",
    "punto": "Cañuelas",
@@ -282,6 +596,19 @@
    "ref": "RN205",
    "empresa": "CORRESUR Rutas",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -35.09714,
+     "lon": -58.931518,
+     "n": 1,
+     "rumbo": 250,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 205",
    "punto": "Uribelarrea",
@@ -290,14 +617,36 @@
    "plaza": "Uribelarrea (RN 205)"
   },
   {
-   "lat": -34.907128,
-   "lon": -58.618376,
+   "lat": -34.907268,
+   "lon": -58.618332,
    "nombre": "Pórtico San Salvador de Jujuy km 46",
    "tipo": "portico",
    "via": "San Salvador de Jujuy",
    "km": "46",
    "localidad": "Carlos Spegazzini",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -34.907268,
+     "lon": -58.618332,
+     "n": 2,
+     "rumbo": 58
+    },
+    {
+     "lat": -34.906987,
+     "lon": -58.618419,
+     "n": 2,
+     "rumbo": 251
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 16,
+    "centro_plaza": [
+     -34.907128,
+     -58.618376
+    ]
+   },
    "pais": "AR",
    "via_visible": "San Salvador de Jujuy",
    "punto": "Carlos Spegazzini",
@@ -313,6 +662,24 @@
    "ref": "RN205",
    "empresa": "CORRESUR",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.854095,
+     "lon": -58.551417,
+     "n": 1,
+     "rumbo": 59
+    },
+    {
+     "lat": -34.853933,
+     "lon": -58.551547,
+     "n": 1,
+     "rumbo": 239
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.7
+   },
    "pais": "AR",
    "via_visible": "Autopista Ezeiza - Cañuelas",
    "punto": "Tristán Suárez",
@@ -328,6 +695,9 @@
    "via": "Riccheri / Ezeiza-Cañuelas",
    "empresa": "CORRESUR",
    "fuente": "oficial",
+   "posicion": {
+    "estado": "sin_referencia"
+   },
    "pais": "AR",
    "via_visible": "Autopista Ezeiza - Cañuelas",
    "punto": "Monte Grande",
@@ -336,13 +706,35 @@
    "plaza": "Monte Grande (Riccheri / Ezeiza-Cañuelas)"
   },
   {
-   "lat": -34.830836,
-   "lon": -58.509179,
+   "lat": -34.829625,
+   "lon": -58.509801,
    "nombre": "Ezeiza (Riccheri / Ezeiza-Cañuelas)",
    "tipo": "cabina",
    "via": "Riccheri / Ezeiza-Cañuelas",
    "empresa": "CORRESUR",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.832047,
+     "lon": -58.508556,
+     "n": 1,
+     "rumbo": 327
+    },
+    {
+     "lat": -34.829625,
+     "lon": -58.509801,
+     "n": 1,
+     "rumbo": 238
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 145,
+    "centro_plaza": [
+     -34.830836,
+     -58.509179
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Ezeiza - Cañuelas",
    "punto": "Ezeiza",
@@ -352,14 +744,36 @@
    "nota": "Posible duplicado de «Autopista Ezeiza - Cañuelas - Peaje Monte Grande»."
   },
   {
-   "lat": -34.80978,
-   "lon": -58.54337,
+   "lat": -34.809736,
+   "lon": -58.543153,
    "nombre": "Peaje Autopista Teniente General Pablo Ricchieri (RNA002)",
    "tipo": "cabina",
    "via": "Autopista Teniente General Pablo Ricchieri",
    "ref": "RNA002",
    "localidad": "Aeropuerto Internacional Ezeiza",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -34.809824,
+     "lon": -58.543588,
+     "n": 1,
+     "rumbo": 166
+    },
+    {
+     "lat": -34.809736,
+     "lon": -58.543153,
+     "n": 1,
+     "rumbo": 346
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 20,
+    "centro_plaza": [
+     -34.80978,
+     -58.54337
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Riccheri",
    "punto": "Aeropuerto Internacional Ezeiza",
@@ -374,6 +788,24 @@
    "via": "Dock Sud / Gutiérrez / Hudson (hacia La Plata)",
    "empresa": "AUBASA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.784309,
+     "lon": -58.153155,
+     "n": 1,
+     "rumbo": 22
+    },
+    {
+     "lat": -34.784279,
+     "lon": -58.153244,
+     "n": 1,
+     "rumbo": 203
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.4
+   },
    "pais": "AR",
    "via_visible": "Autopista Buenos Aires – La Plata",
    "punto": "Gutiérrez",
@@ -390,6 +822,24 @@
    "ref": "RP55",
    "empresa": "SLUIS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.780884,
+     "lon": -65.260128,
+     "n": 2,
+     "rumbo": 140
+    },
+    {
+     "lat": -34.780797,
+     "lon": -65.260002,
+     "n": 3,
+     "rumbo": 320
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.1
+   },
    "pais": "AR",
    "via_visible": "Autopista por la Paz del Mundo",
    "punto": "Buena Esperanza",
@@ -398,14 +848,36 @@
    "plaza": "Buena Esperanza (San Luis)"
   },
   {
-   "lat": -34.774106,
-   "lon": -58.163504,
+   "lat": -34.774341,
+   "lon": -58.16377,
    "nombre": "Hudson (Dock Sud / Gutiérrez / Hudson (hacia La Plata))",
    "tipo": "cabina",
    "via": "Dock Sud / Gutiérrez / Hudson (hacia La Plata)",
    "ref": "RN1",
    "empresa": "AUBASA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.774341,
+     "lon": -58.16377,
+     "n": 1,
+     "rumbo": 132
+    },
+    {
+     "lat": -34.77387,
+     "lon": -58.163238,
+     "n": 1,
+     "rumbo": 308
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 36,
+    "centro_plaza": [
+     -34.774106,
+     -58.163504
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Buenos Aires – La Plata",
    "punto": "Hudson",
@@ -414,13 +886,35 @@
    "plaza": "Hudson (Dock Sud / Gutiérrez / Hudson (hacia La Plata))"
   },
   {
-   "lat": -34.753699,
-   "lon": -58.190789,
+   "lat": -34.753713,
+   "lon": -58.19171,
    "nombre": "Berazategui (Bernal / Quilmes / Berazategui (hacia La Plata))",
    "tipo": "cabina",
    "via": "Bernal / Quilmes / Berazategui (hacia La Plata)",
    "empresa": "AUBASA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.753713,
+     "lon": -58.19171,
+     "n": 1,
+     "rumbo": 310
+    },
+    {
+     "lat": -34.753685,
+     "lon": -58.189867,
+     "n": 1,
+     "rumbo": 311
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 84,
+    "centro_plaza": [
+     -34.753699,
+     -58.190789
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Buenos Aires – La Plata",
    "punto": "Berazategui",
@@ -429,13 +923,35 @@
    "plaza": "Berazategui (Bernal / Quilmes / Berazategui (hacia La Plata))"
   },
   {
-   "lat": -34.716378,
-   "lon": -58.236983,
+   "lat": -34.716621,
+   "lon": -58.237655,
    "nombre": "Quilmes (Bernal / Quilmes / Berazategui (hacia La Plata))",
    "tipo": "cabina",
    "via": "Bernal / Quilmes / Berazategui (hacia La Plata)",
    "empresa": "AUBASA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.716621,
+     "lon": -58.237655,
+     "n": 1,
+     "rumbo": 108
+    },
+    {
+     "lat": -34.716135,
+     "lon": -58.236311,
+     "n": 1,
+     "rumbo": 288
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 67,
+    "centro_plaza": [
+     -34.716378,
+     -58.236983
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Buenos Aires – La Plata",
    "punto": "Quilmes",
@@ -451,6 +967,9 @@
    "via": "Riccheri / Ezeiza-Cañuelas",
    "empresa": "CORRESUR",
    "fuente": "oficial",
+   "posicion": {
+    "estado": "sin_referencia"
+   },
    "pais": "AR",
    "via_visible": "Autopista Riccheri",
    "punto": "Mercado Central",
@@ -459,13 +978,41 @@
    "plaza": "Mercado Central (Riccheri / Ezeiza-Cañuelas)"
   },
   {
-   "lat": -34.707558,
-   "lon": -58.502301,
+   "lat": -34.708457,
+   "lon": -58.503599,
    "nombre": "Donovan (Riccheri / Ezeiza-Cañuelas)",
    "tipo": "cabina",
    "via": "Riccheri / Ezeiza-Cañuelas",
    "empresa": "CORRESUR",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.709665,
+     "lon": -58.503758,
+     "n": 1,
+     "rumbo": 30
+    },
+    {
+     "lat": -34.708457,
+     "lon": -58.503599,
+     "n": 1,
+     "rumbo": 216
+    },
+    {
+     "lat": -34.704551,
+     "lon": -58.499545,
+     "n": 1,
+     "rumbo": 34
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 155,
+    "centro_plaza": [
+     -34.707558,
+     -58.502301
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Riccheri",
    "punto": "Donovan",
@@ -482,6 +1029,9 @@
    "via": "Riccheri / Ezeiza-Cañuelas",
    "empresa": "CORRESUR",
    "fuente": "oficial",
+   "posicion": {
+    "estado": "sin_referencia"
+   },
    "pais": "AR",
    "via_visible": "Autopista Riccheri",
    "punto": "Boulogne Sur Mer",
@@ -490,13 +1040,35 @@
    "plaza": "Boulogne Sur Mer (Riccheri / Ezeiza-Cañuelas)"
   },
   {
-   "lat": -34.701102,
-   "lon": -58.274657,
+   "lat": -34.70097,
+   "lon": -58.274289,
    "nombre": "Bernal (Bernal / Quilmes / Berazategui (hacia La Plata))",
    "tipo": "cabina",
    "via": "Bernal / Quilmes / Berazategui (hacia La Plata)",
    "empresa": "AUBASA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.701235,
+     "lon": -58.275026,
+     "n": 1,
+     "rumbo": 146
+    },
+    {
+     "lat": -34.70097,
+     "lon": -58.274289,
+     "n": 1,
+     "rumbo": 324
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 37,
+    "centro_plaza": [
+     -34.701102,
+     -58.274657
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Buenos Aires – La Plata",
    "punto": "Bernal",
@@ -505,14 +1077,36 @@
    "plaza": "Bernal (Bernal / Quilmes / Berazategui (hacia La Plata))"
   },
   {
-   "lat": -34.699016,
-   "lon": -58.495917,
+   "lat": -34.699264,
+   "lon": -58.495467,
    "nombre": "Agüero (Riccheri)",
    "tipo": "cabina",
    "via": "Riccheri / Ezeiza-Cañuelas",
    "ref": "RNA002",
    "empresa": "CORRESUR",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.699264,
+     "lon": -58.495467,
+     "n": 1,
+     "rumbo": 34
+    },
+    {
+     "lat": -34.698767,
+     "lon": -58.496367,
+     "n": 1,
+     "rumbo": 218
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 49,
+    "centro_plaza": [
+     -34.699016,
+     -58.495917
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Riccheri",
    "punto": "Agüero",
@@ -521,14 +1115,36 @@
    "plaza": "Agüero (Riccheri)"
   },
   {
-   "lat": -34.651174,
-   "lon": -58.353148,
+   "lat": -34.651219,
+   "lon": -58.352672,
    "nombre": "Dock Sud (Dock Sud / Gutiérrez / Hudson (hacia La Plata))",
    "tipo": "cabina",
    "via": "Dock Sud / Gutiérrez / Hudson (hacia La Plata)",
    "ref": "RN1",
    "empresa": "AUBASA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.651219,
+     "lon": -58.352672,
+     "n": 1,
+     "rumbo": 5
+    },
+    {
+     "lat": -34.65113,
+     "lon": -58.353625,
+     "n": 1,
+     "rumbo": 186
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 44,
+    "centro_plaza": [
+     -34.651174,
+     -58.353148
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Buenos Aires – La Plata",
    "punto": "Dock Sud",
@@ -537,13 +1153,36 @@
    "plaza": "Dock Sud (Dock Sud / Gutiérrez / Hudson (hacia La Plata))"
   },
   {
-   "lat": -34.649446,
-   "lon": -58.465233,
+   "lat": -34.650426,
+   "lon": -58.465937,
    "nombre": "Dellepiane (25 de Mayo / Perito Moreno)",
    "tipo": "portico",
    "via": "25 de Mayo / Perito Moreno",
    "empresa": "AUSA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.650426,
+     "lon": -58.465937,
+     "n": 3,
+     "rumbo": 26
+    },
+    {
+     "lat": -34.647975,
+     "lon": -58.464178,
+     "n": 2,
+     "rumbo": 211,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 126,
+    "centro_plaza": [
+     -34.649446,
+     -58.465233
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Dellepiane",
    "punto": "Dellepiane",
@@ -560,6 +1199,24 @@
    "ref": "AU6",
    "empresa": "AUSA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.648249,
+     "lon": -58.478021,
+     "n": 1,
+     "rumbo": 106
+    },
+    {
+     "lat": -34.647754,
+     "lon": -58.477848,
+     "n": 3,
+     "rumbo": 286
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 14.2
+   },
    "pais": "AR",
    "via_visible": "Autopista Perito Moreno",
    "punto": "Parque Avellaneda",
@@ -576,6 +1233,24 @@
    "ref": "RN5",
    "empresa": "PENTAVIA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.645142,
+     "lon": -59.294247,
+     "n": 1,
+     "rumbo": 78
+    },
+    {
+     "lat": -34.644965,
+     "lon": -59.294306,
+     "n": 1,
+     "rumbo": 258
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.1
+   },
    "pais": "AR",
    "via_visible": "RN 5",
    "punto": "Olivera",
@@ -584,13 +1259,35 @@
    "plaza": "Olivera (RN 5)"
   },
   {
-   "lat": -34.632818,
-   "lon": -58.665156,
+   "lat": -34.633602,
+   "lon": -58.665683,
    "nombre": "Acceso Oeste Ituzaingó 3",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.633602,
+     "lon": -58.665683,
+     "n": 1,
+     "rumbo": 34
+    },
+    {
+     "lat": -34.632033,
+     "lon": -58.664629,
+     "n": 1,
+     "rumbo": 343
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 99,
+    "centro_plaza": [
+     -34.632818,
+     -58.665156
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "Barcala",
@@ -598,16 +1295,44 @@
    "confianza": "alta",
    "plaza": "Acceso Oeste Ituzaingó 3",
    "calle": "Barcala",
-   "nota": "Rampa: calle que cruza a 85 m (código oficial «Ituzaingó 3»)."
+   "nota": "Rampa: calle que cruza a 71 m (código oficial «Ituzaingó 3»)."
   },
   {
-   "lat": -34.632685,
-   "lon": -58.624835,
+   "lat": -34.632508,
+   "lon": -58.624494,
    "nombre": "Acceso Oeste Morón 2",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.633131,
+     "lon": -58.626962,
+     "n": 1,
+     "rumbo": 84
+    },
+    {
+     "lat": -34.632508,
+     "lon": -58.624494,
+     "n": 1,
+     "rumbo": 270
+    },
+    {
+     "lat": -34.632416,
+     "lon": -58.623048,
+     "n": 1,
+     "rumbo": 269
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 37,
+    "centro_plaza": [
+     -34.632685,
+     -58.624835
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "Juan Jufré",
@@ -615,16 +1340,38 @@
    "confianza": "media",
    "plaza": "Acceso Oeste Morón 2",
    "calle": "Juan Jufré",
-   "nota": "Rampa: calle que cruza a 195 m (código oficial «Morón 2»)."
+   "nota": "Rampa: calle que cruza a 224 m (código oficial «Morón 2»)."
   },
   {
-   "lat": -34.632502,
-   "lon": -58.611113,
+   "lat": -34.63291,
+   "lon": -58.611172,
    "nombre": "Acceso Oeste Morón 5",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.63291,
+     "lon": -58.611172,
+     "n": 1,
+     "rumbo": 65
+    },
+    {
+     "lat": -34.632094,
+     "lon": -58.611054,
+     "n": 1,
+     "rumbo": 300
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 45,
+    "centro_plaza": [
+     -34.632502,
+     -58.611113
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "Presidente Santiago Derqui",
@@ -632,16 +1379,38 @@
    "confianza": "alta",
    "plaza": "Acceso Oeste Morón 5",
    "calle": "Presidente Santiago Derqui",
-   "nota": "Rampa: calle que cruza a 74 m (código oficial «Morón 5»)."
+   "nota": "Rampa: calle que cruza a 82 m (código oficial «Morón 5»)."
   },
   {
-   "lat": -34.632268,
-   "lon": -58.598104,
+   "lat": -34.632649,
+   "lon": -58.59797,
    "nombre": "Acceso Oeste Morón 4",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.632649,
+     "lon": -58.59797,
+     "n": 1,
+     "rumbo": 82
+    },
+    {
+     "lat": -34.631886,
+     "lon": -58.598238,
+     "n": 1,
+     "rumbo": 278
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 44,
+    "centro_plaza": [
+     -34.632268,
+     -58.598104
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "Dolores Prats",
@@ -649,17 +1418,45 @@
    "confianza": "media",
    "plaza": "Acceso Oeste Morón 4",
    "calle": "Dolores Prats",
-   "nota": "Rampa: calle que cruza a 147 m (código oficial «Morón 4»)."
+   "nota": "Rampa: calle que cruza a 139 m (código oficial «Morón 4»)."
   },
   {
-   "lat": -34.63146,
-   "lon": -58.675188,
+   "lat": -34.631464,
+   "lon": -58.676087,
    "nombre": "Ituzaingó (Acceso Oeste)",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "ref": "RN7",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.631992,
+     "lon": -58.673523,
+     "n": 1,
+     "rumbo": 93
+    },
+    {
+     "lat": -34.631464,
+     "lon": -58.676087,
+     "n": 1,
+     "rumbo": 104
+    },
+    {
+     "lat": -34.630924,
+     "lon": -58.675953,
+     "n": 1,
+     "rumbo": 278
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 82,
+    "centro_plaza": [
+     -34.63146,
+     -58.675188
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "Ituzaingó",
@@ -668,30 +1465,74 @@
    "plaza": "Ituzaingó (Acceso Oeste)"
   },
   {
-   "lat": -34.631415,
-   "lon": -58.6525,
+   "lat": -34.630747,
+   "lon": -58.652498,
    "nombre": "Acceso Oeste Morón 1",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.632084,
+     "lon": -58.652503,
+     "n": 1,
+     "rumbo": 46
+    },
+    {
+     "lat": -34.630747,
+     "lon": -58.652498,
+     "n": 1,
+     "rumbo": 319
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 74,
+    "centro_plaza": [
+     -34.631415,
+     -58.6525
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
-   "punto": "Avenida Santa Rosa",
-   "nombre_visible": "Autopista del Oeste - Peaje Avenida Santa Rosa",
+   "punto": "Doctor Nicolás Repetto",
+   "nombre_visible": "Autopista del Oeste - Peaje Doctor Nicolás Repetto",
    "confianza": "alta",
    "plaza": "Acceso Oeste Morón 1",
-   "calle": "Avenida Santa Rosa",
-   "nota": "Rampa: calle que cruza a 104 m (código oficial «Morón 1»)."
+   "calle": "Doctor Nicolás Repetto",
+   "nota": "Rampa: calle que cruza a 111 m (código oficial «Morón 1»)."
   },
   {
-   "lat": -34.631247,
-   "lon": -58.571889,
+   "lat": -34.630947,
+   "lon": -58.571088,
    "nombre": "Acceso Oeste Morón 3",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.631547,
+     "lon": -58.57269,
+     "n": 1,
+     "rumbo": 88
+    },
+    {
+     "lat": -34.630947,
+     "lon": -58.571088,
+     "n": 1,
+     "rumbo": 269
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 81,
+    "centro_plaza": [
+     -34.631247,
+     -58.571889
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "Marcos de Alarcón",
@@ -699,16 +1540,38 @@
    "confianza": "alta",
    "plaza": "Acceso Oeste Morón 3",
    "calle": "Marcos de Alarcón",
-   "nota": "Rampa: calle que cruza a 106 m (código oficial «Morón 3»)."
+   "nota": "Rampa: calle que cruza a 110 m (código oficial «Morón 3»)."
   },
   {
-   "lat": -34.629567,
-   "lon": -58.557172,
+   "lat": -34.630087,
+   "lon": -58.557707,
    "nombre": "Acceso Oeste Tres de Febrero",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.630087,
+     "lon": -58.557707,
+     "n": 1,
+     "rumbo": 77
+    },
+    {
+     "lat": -34.629047,
+     "lon": -58.556636,
+     "n": 1,
+     "rumbo": 286
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 76,
+    "centro_plaza": [
+     -34.629567,
+     -58.557172
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "Tres de Febrero",
@@ -724,6 +1587,18 @@
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.62914,
+     "lon": -58.713335,
+     "n": 1,
+     "rumbo": 140
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "Intendente Pérez Quintana",
@@ -734,47 +1609,113 @@
    "nota": "Rampa: calle que cruza a 72 m (código oficial «Ituzaingó 4»)."
   },
   {
-   "lat": -34.628866,
-   "lon": -58.692656,
+   "lat": -34.628509,
+   "lon": -58.692592,
    "nombre": "Acceso Oeste Ituzaingó 1",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.629224,
+     "lon": -58.69272,
+     "n": 1,
+     "rumbo": 104
+    },
+    {
+     "lat": -34.628509,
+     "lon": -58.692592,
+     "n": 1,
+     "rumbo": 267
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 40,
+    "centro_plaza": [
+     -34.628866,
+     -58.692656
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "Martín Fierro",
    "nombre_visible": "Autopista del Oeste - Peaje Martín Fierro",
-   "confianza": "media",
+   "confianza": "alta",
    "plaza": "Acceso Oeste Ituzaingó 1",
    "calle": "Martín Fierro",
-   "nota": "Rampa: calle que cruza a 140 m (código oficial «Ituzaingó 1»)."
+   "nota": "Rampa: calle que cruza a 107 m (código oficial «Ituzaingó 1»)."
   },
   {
-   "lat": -34.628353,
-   "lon": -58.705486,
+   "lat": -34.628832,
+   "lon": -58.704328,
    "nombre": "Acceso Oeste Ituzaingó 2",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.628832,
+     "lon": -58.704328,
+     "n": 1,
+     "rumbo": 129
+    },
+    {
+     "lat": -34.627873,
+     "lon": -58.706645,
+     "n": 1,
+     "rumbo": 265
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 119,
+    "centro_plaza": [
+     -34.628353,
+     -58.705486
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
-   "punto": "Brandsen",
-   "nombre_visible": "Autopista del Oeste - Peaje Brandsen",
+   "punto": "Coronel Brandsen",
+   "nombre_visible": "Autopista del Oeste - Peaje Coronel Brandsen",
    "confianza": "alta",
    "plaza": "Acceso Oeste Ituzaingó 2",
-   "calle": "Brandsen",
-   "nota": "Rampa: calle que cruza a 85 m (código oficial «Ituzaingó 2»)."
+   "calle": "Coronel Brandsen",
+   "nota": "Rampa: calle que cruza a 24 m (código oficial «Ituzaingó 2»)."
   },
   {
-   "lat": -34.628072,
-   "lon": -58.728071,
+   "lat": -34.628462,
+   "lon": -58.729439,
    "nombre": "Buen Ayre (Acceso Oeste)",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.628462,
+     "lon": -58.729439,
+     "n": 1,
+     "rumbo": 91
+    },
+    {
+     "lat": -34.627682,
+     "lon": -58.726702,
+     "n": 1,
+     "rumbo": 269
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 133,
+    "centro_plaza": [
+     -34.628072,
+     -58.728071
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "Buen Ayre",
@@ -783,13 +1724,35 @@
    "plaza": "Buen Ayre (Acceso Oeste)"
   },
   {
-   "lat": -34.625497,
-   "lon": -58.400099,
+   "lat": -34.625243,
+   "lon": -58.400093,
    "nombre": "Alberti",
    "tipo": "portico",
    "via": "Alberti",
    "empresa": "AUSA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.625752,
+     "lon": -58.400104,
+     "n": 1,
+     "rumbo": 74
+    },
+    {
+     "lat": -34.625243,
+     "lon": -58.400093,
+     "n": 1,
+     "rumbo": 290
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 28,
+    "centro_plaza": [
+     -34.625497,
+     -58.400099
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista 25 de Mayo",
    "punto": "Alberti",
@@ -804,6 +1767,18 @@
    "tipo": "cabina",
    "via": "Camino Parque del Buen Ayre",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -34.615109,
+     "lon": -58.719325,
+     "n": 1,
+     "rumbo": 22
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "Autopista Camino del Buen Ayre",
    "punto": "Estación Oeste",
@@ -819,6 +1794,18 @@
    "via": "Buen Ayre",
    "empresa": "BUENAYRE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.609286,
+     "lon": -58.714566,
+     "n": 2,
+     "rumbo": 33
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "Autopista Camino del Buen Ayre",
    "punto": "Estación Oeste",
@@ -828,13 +1815,35 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": -34.602325,
-   "lon": -58.900869,
+   "lat": -34.602086,
+   "lon": -58.900958,
    "nombre": "General Rodríguez 2 (Acceso Oeste)",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.602565,
+     "lon": -58.90078,
+     "n": 1,
+     "rumbo": 100
+    },
+    {
+     "lat": -34.602086,
+     "lon": -58.900958,
+     "n": 1,
+     "rumbo": 281
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 28,
+    "centro_plaza": [
+     -34.602325,
+     -58.900869
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "General Rodríguez 2",
@@ -844,13 +1853,35 @@
    "nota": "Rampa numerada sin calle clara en OSM: cargar el nombre a mano."
   },
   {
-   "lat": -34.596258,
-   "lon": -58.935491,
+   "lat": -34.596405,
+   "lon": -58.935866,
    "nombre": "General Rodríguez 3 (Acceso Oeste)",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.596405,
+     "lon": -58.935866,
+     "n": 1,
+     "rumbo": 100
+    },
+    {
+     "lat": -34.596111,
+     "lon": -58.935116,
+     "n": 1,
+     "rumbo": 297
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 38,
+    "centro_plaza": [
+     -34.596258,
+     -58.935491
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "General Rodríguez 3",
@@ -860,13 +1891,35 @@
    "nota": "Rampa numerada sin calle clara en OSM: cargar el nombre a mano."
   },
   {
-   "lat": -34.593563,
-   "lon": -58.946137,
+   "lat": -34.593229,
+   "lon": -58.946037,
    "nombre": "General Rodríguez 1 (Acceso Oeste)",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.593898,
+     "lon": -58.946237,
+     "n": 1,
+     "rumbo": 98
+    },
+    {
+     "lat": -34.593229,
+     "lon": -58.946037,
+     "n": 1,
+     "rumbo": 296
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 38,
+    "centro_plaza": [
+     -34.593563,
+     -58.946137
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "General Rodríguez 1",
@@ -876,13 +1929,35 @@
    "nota": "Rampa numerada sin calle clara en OSM: cargar el nombre a mano."
   },
   {
-   "lat": -34.588416,
-   "lon": -58.969349,
+   "lat": -34.58878,
+   "lon": -58.968992,
    "nombre": "General Rodríguez 4 (Acceso Oeste)",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.58878,
+     "lon": -58.968992,
+     "n": 1,
+     "rumbo": 90
+    },
+    {
+     "lat": -34.588052,
+     "lon": -58.969707,
+     "n": 1,
+     "rumbo": 300
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 52,
+    "centro_plaza": [
+     -34.588416,
+     -58.969349
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "General Rodríguez 4",
@@ -892,13 +1967,35 @@
    "nota": "Rampa numerada sin calle clara en OSM: cargar el nombre a mano."
   },
   {
-   "lat": -34.583735,
-   "lon": -58.676713,
+   "lat": -34.583672,
+   "lon": -58.675977,
    "nombre": "Buen Ayre (Hurlingham)",
    "tipo": "cabina",
    "via": "Buen Ayre",
    "empresa": "BUENAYRE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.583861,
+     "lon": -58.678184,
+     "n": 1,
+     "rumbo": 228
+    },
+    {
+     "lat": -34.583672,
+     "lon": -58.675977,
+     "n": 2,
+     "rumbo": 42
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 68,
+    "centro_plaza": [
+     -34.583735,
+     -58.676713
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Camino del Buen Ayre",
    "punto": "Hurlingham",
@@ -907,13 +2004,35 @@
    "plaza": "Buen Ayre (Hurlingham)"
   },
   {
-   "lat": -34.582704,
-   "lon": -58.995838,
+   "lat": -34.582586,
+   "lon": -58.995222,
    "nombre": "General Rodríguez 5 (Acceso Oeste)",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "empresa": "AUOESTE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.582822,
+     "lon": -58.996455,
+     "n": 1,
+     "rumbo": 92
+    },
+    {
+     "lat": -34.582586,
+     "lon": -58.995222,
+     "n": 1,
+     "rumbo": 295
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 58,
+    "centro_plaza": [
+     -34.582704,
+     -58.995838
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "Del Rodeo",
@@ -921,16 +2040,38 @@
    "confianza": "alta",
    "plaza": "General Rodríguez 5 (Acceso Oeste)",
    "calle": "Del Rodeo",
-   "nota": "Rampa: calle que cruza a 61 m (código oficial «General Rodríguez 5»)."
+   "nota": "Rampa: calle que cruza a 85 m (código oficial «General Rodríguez 5»)."
   },
   {
-   "lat": -34.579998,
-   "lon": -59.007606,
+   "lat": -34.579819,
+   "lon": -59.007547,
    "nombre": "Peaje Luján",
    "tipo": "cabina",
    "via": "Acceso Oeste",
    "ref": "RN7",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -34.580178,
+     "lon": -59.007664,
+     "n": 1,
+     "rumbo": 111
+    },
+    {
+     "lat": -34.579819,
+     "lon": -59.007547,
+     "n": 1,
+     "rumbo": 282
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 21,
+    "centro_plaza": [
+     -34.579998,
+     -59.007606
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
    "punto": "Luján",
@@ -946,6 +2087,19 @@
    "ref": "RN7",
    "empresa": "CPLATA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.579313,
+     "lon": -61.093986,
+     "n": 1,
+     "rumbo": 104,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 7",
    "punto": "Junín",
@@ -954,14 +2108,48 @@
    "plaza": "Junín (Saforcada)"
   },
   {
-   "lat": -34.572644,
-   "lon": -58.398138,
+   "lat": -34.572911,
+   "lon": -58.397923,
    "nombre": "Retiro (Illia)",
    "tipo": "portico",
    "via": "Illia / Retiro II / Sarmiento / Salguero",
    "ref": "AV1-N",
    "empresa": "AUSA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.573329,
+     "lon": -58.395949,
+     "n": 1,
+     "rumbo": 253
+    },
+    {
+     "lat": -34.573051,
+     "lon": -58.398032,
+     "n": 1,
+     "rumbo": 123
+    },
+    {
+     "lat": -34.572911,
+     "lon": -58.397923,
+     "n": 1,
+     "rumbo": 303
+    },
+    {
+     "lat": -34.571285,
+     "lon": -58.400648,
+     "n": 1,
+     "rumbo": 284
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 35,
+    "centro_plaza": [
+     -34.572644,
+     -58.398138
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Illia",
    "punto": "Retiro",
@@ -970,13 +2158,35 @@
    "plaza": "Retiro (Illia)"
   },
   {
-   "lat": -34.568762,
-   "lon": -58.652537,
+   "lat": -34.568499,
+   "lon": -58.649333,
    "nombre": "Buen Ayre (San Miguel)",
    "tipo": "cabina",
    "via": "Buen Ayre",
    "empresa": "BUENAYRE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.569025,
+     "lon": -58.655742,
+     "n": 1,
+     "rumbo": 230
+    },
+    {
+     "lat": -34.568499,
+     "lon": -58.649333,
+     "n": 1,
+     "rumbo": 80
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 295,
+    "centro_plaza": [
+     -34.568762,
+     -58.652537
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Camino del Buen Ayre",
    "punto": "San Miguel",
@@ -992,6 +2202,18 @@
    "via": "Buen Ayre",
    "empresa": "BUENAYRE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.568055,
+     "lon": -58.639484,
+     "n": 1,
+     "rumbo": 14
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "Autopista Camino del Buen Ayre",
    "punto": "Bella Vista",
@@ -1007,6 +2229,18 @@
    "via": "Illia / Retiro II / Sarmiento / Salguero",
    "empresa": "AUSA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.566753,
+     "lon": -58.406448,
+     "n": 1,
+     "rumbo": 128
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "Autopista Illia",
    "punto": "Salguero",
@@ -1015,13 +2249,35 @@
    "plaza": "Salguero (Illia)"
   },
   {
-   "lat": -34.562307,
-   "lon": -58.629685,
+   "lat": -34.56019,
+   "lon": -58.627912,
    "nombre": "Buen Ayre (San Martín)",
    "tipo": "cabina",
    "via": "Buen Ayre",
    "empresa": "BUENAYRE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.564424,
+     "lon": -58.631458,
+     "n": 1,
+     "rumbo": 213
+    },
+    {
+     "lat": -34.56019,
+     "lon": -58.627912,
+     "n": 1,
+     "rumbo": 5
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 285,
+    "centro_plaza": [
+     -34.562307,
+     -58.629685
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Camino del Buen Ayre",
    "punto": "San Martín",
@@ -1037,6 +2293,18 @@
    "via": "Doctor Pedro Ignacio Rivera",
    "localidad": "Villa Maipú",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -34.559398,
+     "lon": -58.465727,
+     "n": 1,
+     "rumbo": 236
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "Doctor Pedro Ignacio Rivera",
    "punto": "Villa Maipú",
@@ -1044,13 +2312,35 @@
    "confianza": "media"
   },
   {
-   "lat": -34.53232,
-   "lon": -58.596002,
+   "lat": -34.531242,
+   "lon": -58.59487,
    "nombre": "Buen Ayre (José León Suárez)",
    "tipo": "cabina",
    "via": "Buen Ayre",
    "empresa": "BUENAYRE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.533399,
+     "lon": -58.597133,
+     "n": 1,
+     "rumbo": 203
+    },
+    {
+     "lat": -34.531242,
+     "lon": -58.59487,
+     "n": 1,
+     "rumbo": 19
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 158,
+    "centro_plaza": [
+     -34.53232,
+     -58.596002
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Camino del Buen Ayre",
    "punto": "José León Suárez",
@@ -1067,6 +2357,19 @@
    "ref": "RN188",
    "empresa": "CPLATA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.532223,
+     "lon": -60.901913,
+     "n": 1,
+     "rumbo": 225,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 188",
    "punto": "Agustín Roca",
@@ -1083,6 +2386,24 @@
    "ref": "RN7",
    "empresa": "CPLATA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.519935,
+     "lon": -59.308975,
+     "n": 1,
+     "rumbo": 123
+    },
+    {
+     "lat": -34.519764,
+     "lon": -59.308849,
+     "n": 1,
+     "rumbo": 303
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.0
+   },
    "pais": "AR",
    "via_visible": "RN 7",
    "punto": "Villa Espil",
@@ -1098,6 +2419,18 @@
    "via": "Buen Ayre",
    "empresa": "BUENAYRE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.517807,
+     "lon": -58.591991,
+     "n": 1,
+     "rumbo": 122
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "Autopista Camino del Buen Ayre",
    "punto": "Buen Ayre (pórtico)",
@@ -1106,13 +2439,35 @@
    "plaza": "Buen Ayre (pórtico)"
   },
   {
-   "lat": -34.513058,
-   "lon": -58.521696,
+   "lat": -34.513156,
+   "lon": -58.522445,
    "nombre": "Debenedetti (Acceso Norte)",
    "tipo": "cabina",
    "via": "Acceso Norte",
    "empresa": "AUSOL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.513156,
+     "lon": -58.522445,
+     "n": 1,
+     "rumbo": 133
+    },
+    {
+     "lat": -34.51296,
+     "lon": -58.520947,
+     "n": 1,
+     "rumbo": 313
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 70,
+    "centro_plaza": [
+     -34.513058,
+     -58.521696
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Panamericana",
    "punto": "Debenedetti",
@@ -1128,6 +2483,18 @@
    "via": "Buen Ayre",
    "empresa": "BUENAYRE",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.503424,
+     "lon": -58.589716,
+     "n": 1,
+     "rumbo": 182
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "Autopista Camino del Buen Ayre",
    "punto": "Estación Norte",
@@ -1136,13 +2503,35 @@
    "plaza": "Buen Ayre – Estación Norte"
   },
   {
-   "lat": -34.498369,
-   "lon": -58.550936,
+   "lat": -34.497886,
+   "lon": -58.55091,
    "nombre": "Márquez (Acceso Norte)",
    "tipo": "cabina",
    "via": "Acceso Norte",
    "empresa": "AUSOL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.498852,
+     "lon": -58.550963,
+     "n": 1,
+     "rumbo": 119
+    },
+    {
+     "lat": -34.497886,
+     "lon": -58.55091,
+     "n": 1,
+     "rumbo": 304
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 53,
+    "centro_plaza": [
+     -34.498369,
+     -58.550936
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Panamericana",
    "punto": "Márquez",
@@ -1151,13 +2540,35 @@
    "plaza": "Márquez (Acceso Norte)"
   },
   {
-   "lat": -34.491115,
-   "lon": -58.566033,
+   "lat": -34.491351,
+   "lon": -58.566272,
    "nombre": "San Martín (Acceso Norte)",
    "tipo": "cabina",
    "via": "Acceso Norte",
    "empresa": "AUSOL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.491351,
+     "lon": -58.566272,
+     "n": 1,
+     "rumbo": 112
+    },
+    {
+     "lat": -34.490878,
+     "lon": -58.565793,
+     "n": 1,
+     "rumbo": 294
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 34,
+    "centro_plaza": [
+     -34.491115,
+     -58.566033
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Panamericana",
    "punto": "San Martín",
@@ -1166,13 +2577,35 @@
    "plaza": "San Martín (Acceso Norte)"
   },
   {
-   "lat": -34.488474,
-   "lon": -58.579565,
+   "lat": -34.488119,
+   "lon": -58.580327,
    "nombre": "Camino Real (Acceso Norte)",
    "tipo": "cabina",
    "via": "Acceso Norte",
    "empresa": "AUSOL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.488829,
+     "lon": -58.578802,
+     "n": 1,
+     "rumbo": 94
+    },
+    {
+     "lat": -34.488119,
+     "lon": -58.580327,
+     "n": 1,
+     "rumbo": 278
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 80,
+    "centro_plaza": [
+     -34.488474,
+     -58.579565
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Panamericana",
    "punto": "Camino Real",
@@ -1181,13 +2614,35 @@
    "plaza": "Camino Real (Acceso Norte)"
   },
   {
-   "lat": -34.487809,
-   "lon": -58.589478,
+   "lat": -34.48813,
+   "lon": -58.590716,
    "nombre": "Buen Ayre (Panamericana)",
    "tipo": "cabina",
    "via": "Acceso Norte",
    "empresa": "AUSOL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.48813,
+     "lon": -58.590716,
+     "n": 1,
+     "rumbo": 89
+    },
+    {
+     "lat": -34.487488,
+     "lon": -58.58824,
+     "n": 1,
+     "rumbo": 275
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 119,
+    "centro_plaza": [
+     -34.487809,
+     -58.589478
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Panamericana",
    "punto": "Buen Ayre",
@@ -1196,13 +2651,46 @@
    "plaza": "Buen Ayre (Panamericana)"
   },
   {
-   "lat": -34.486117,
-   "lon": -58.609029,
+   "lat": -34.486496,
+   "lon": -58.60857,
    "nombre": "Tigre (Acceso Norte)",
    "tipo": "cabina",
    "via": "Acceso Norte",
    "empresa": "AUSOL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.486496,
+     "lon": -58.60857,
+     "n": 1,
+     "rumbo": 98
+    },
+    {
+     "lat": -34.486201,
+     "lon": -58.610623,
+     "n": 1,
+     "rumbo": 99
+    },
+    {
+     "lat": -34.485999,
+     "lon": -58.607371,
+     "n": 1
+    },
+    {
+     "lat": -34.485773,
+     "lon": -58.609551,
+     "n": 1,
+     "rumbo": 277
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 59,
+    "centro_plaza": [
+     -34.486117,
+     -58.609029
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Panamericana",
    "punto": "Tigre",
@@ -1211,14 +2699,36 @@
    "plaza": "Tigre (Acceso Norte)"
   },
   {
-   "lat": -34.486097,
-   "lon": -58.559678,
+   "lat": -34.486148,
+   "lon": -58.559872,
    "nombre": "Panamericana San Isidro (Acceso Norte)",
    "tipo": "cabina",
    "via": "Acceso Norte",
    "ref": "RNA003",
    "empresa": "AUSOL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.486148,
+     "lon": -58.559872,
+     "n": 1,
+     "rumbo": 162
+    },
+    {
+     "lat": -34.486045,
+     "lon": -58.559483,
+     "n": 1,
+     "rumbo": 344
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 19,
+    "centro_plaza": [
+     -34.486097,
+     -58.559678
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Panamericana",
    "punto": "Panamericana San Isidro",
@@ -1227,13 +2737,35 @@
    "plaza": "Panamericana San Isidro (Acceso Norte)"
   },
   {
-   "lat": -34.483714,
-   "lon": -58.626267,
+   "lat": -34.483375,
+   "lon": -58.626317,
    "nombre": "Tigre ramal (Acceso Norte)",
    "tipo": "cabina",
    "via": "Acceso Norte",
    "empresa": "AUSOL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.484054,
+     "lon": -58.626217,
+     "n": 1,
+     "rumbo": 101
+    },
+    {
+     "lat": -34.483375,
+     "lon": -58.626317,
+     "n": 1,
+     "rumbo": 280
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 38,
+    "centro_plaza": [
+     -34.483714,
+     -58.626267
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Panamericana",
    "punto": "Tigre ramal",
@@ -1242,13 +2774,35 @@
    "plaza": "Tigre ramal (Acceso Norte)"
   },
   {
-   "lat": -34.477158,
-   "lon": -58.656666,
+   "lat": -34.477483,
+   "lon": -58.656798,
    "nombre": "Tigre oeste (Acceso Norte)",
    "tipo": "cabina",
    "via": "Acceso Norte",
    "empresa": "AUSOL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.477483,
+     "lon": -58.656798,
+     "n": 1,
+     "rumbo": 108
+    },
+    {
+     "lat": -34.476832,
+     "lon": -58.656534,
+     "n": 1,
+     "rumbo": 287
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 38,
+    "centro_plaza": [
+     -34.477158,
+     -58.656666
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Panamericana",
    "punto": "Tigre oeste",
@@ -1257,14 +2811,42 @@
    "plaza": "Tigre oeste (Acceso Norte)"
   },
   {
-   "lat": -34.460822,
-   "lon": -58.709435,
+   "lat": -34.461049,
+   "lon": -58.708773,
    "nombre": "Ramal Pilar (RN8)",
    "tipo": "cabina",
    "via": "Acceso Norte",
    "ref": "RN8",
    "empresa": "AUSOL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.461262,
+     "lon": -58.70887,
+     "n": 1,
+     "rumbo": 112
+    },
+    {
+     "lat": -34.461049,
+     "lon": -58.708773,
+     "n": 1,
+     "rumbo": 291
+    },
+    {
+     "lat": -34.460157,
+     "lon": -58.710664,
+     "n": 1,
+     "rumbo": 287
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 66,
+    "centro_plaza": [
+     -34.460822,
+     -58.709435
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Panamericana",
    "punto": "Ramal Pilar",
@@ -1273,14 +2855,42 @@
    "plaza": "Ramal Pilar (RN8)"
   },
   {
-   "lat": -34.458116,
-   "lon": -58.691524,
+   "lat": -34.459133,
+   "lon": -58.6906,
    "nombre": "Ramal Campana (RN9)",
    "tipo": "cabina",
    "via": "Acceso Norte",
    "ref": "RN9",
    "empresa": "AUSOL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.459296,
+     "lon": -58.690908,
+     "n": 1,
+     "rumbo": 146
+    },
+    {
+     "lat": -34.459133,
+     "lon": -58.6906,
+     "n": 1,
+     "rumbo": 324
+    },
+    {
+     "lat": -34.455918,
+     "lon": -58.693064,
+     "n": 1,
+     "rumbo": 329
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 141,
+    "centro_plaza": [
+     -34.458116,
+     -58.691524
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Panamericana",
    "punto": "Ramal Campana",
@@ -1289,14 +2899,36 @@
    "plaza": "Ramal Campana (RN9)"
   },
   {
-   "lat": -34.403014,
-   "lon": -59.013831,
+   "lat": -34.403233,
+   "lon": -59.014114,
    "nombre": "Larena (RN 8)",
    "tipo": "cabina",
    "via": "RN 8",
    "ref": "RN8",
    "empresa": "VIAL8",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.403233,
+     "lon": -59.014114,
+     "n": 1,
+     "rumbo": 136
+    },
+    {
+     "lat": -34.402795,
+     "lon": -59.013548,
+     "n": 1,
+     "rumbo": 317
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 36,
+    "centro_plaza": [
+     -34.403014,
+     -59.013831
+    ]
+   },
    "pais": "AR",
    "via_visible": "RN 8",
    "punto": "Larena",
@@ -1313,6 +2945,24 @@
    "ref": "RN8",
    "empresa": "VIAL8",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.284592,
+     "lon": -59.363549,
+     "n": 1,
+     "rumbo": 107
+    },
+    {
+     "lat": -34.284469,
+     "lon": -59.36349,
+     "n": 1,
+     "rumbo": 287
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.3
+   },
    "pais": "AR",
    "via_visible": "RN 8",
    "punto": "Solís",
@@ -1326,6 +2976,17 @@
    "nombre": "Estación de Peaje \"Exaltación de la Cruz\" (próximamente)",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -34.212304,
+     "lon": -58.958448,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RP 6",
    "punto": "Exaltación de la Cruz",
@@ -1343,6 +3004,24 @@
    "ref": "RN12",
    "empresa": "AUMESA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.118124,
+     "lon": -59.011255,
+     "n": 1,
+     "rumbo": 42
+    },
+    {
+     "lat": -34.118042,
+     "lon": -59.01136,
+     "n": 1,
+     "rumbo": 223
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.6
+   },
    "pais": "AR",
    "via_visible": "RN 12",
    "punto": "Zárate",
@@ -1359,6 +3038,24 @@
    "ref": "RN9",
    "empresa": "CPLATA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.101294,
+     "lon": -59.150409,
+     "n": 1,
+     "rumbo": 113
+    },
+    {
+     "lat": -34.101052,
+     "lon": -59.15029,
+     "n": 1,
+     "rumbo": 293
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 14.4
+   },
    "pais": "AR",
    "via_visible": "RN 9",
    "punto": "Zárate",
@@ -1375,6 +3072,19 @@
    "ref": "RN7",
    "empresa": "CPLATA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.929741,
+     "lon": -64.452031,
+     "n": 1,
+     "rumbo": 270,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 7",
    "punto": "Vicuña Mackenna",
@@ -1391,6 +3101,24 @@
    "ref": "RP55",
    "empresa": "SLUIS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.87104,
+     "lon": -65.33104,
+     "n": 1,
+     "rumbo": 7
+    },
+    {
+     "lat": -33.871023,
+     "lon": -65.331211,
+     "n": 1,
+     "rumbo": 186
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.9
+   },
    "pais": "AR",
    "via_visible": "Autopista por la Paz del Mundo",
    "punto": "Río Quinto",
@@ -1407,6 +3135,18 @@
    "ref": "RN7",
    "empresa": "SLUIS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.852107,
+     "lon": -65.150868,
+     "n": 1,
+     "rumbo": 301
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "Autopista de las Serranías Puntanas",
    "punto": "Justo Daract",
@@ -1424,6 +3164,18 @@
    "ref": "RN7",
    "empresa": "SLUIS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.848416,
+     "lon": -65.158569,
+     "n": 1,
+     "rumbo": 122
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "Autopista de las Serranías Puntanas",
    "punto": "Justo Daract",
@@ -1441,6 +3193,24 @@
    "ref": "RN8",
    "empresa": "VIAL8",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.691281,
+     "lon": -62.097281,
+     "n": 1,
+     "rumbo": 101
+    },
+    {
+     "lat": -33.69119,
+     "lon": -62.097243,
+     "n": 1,
+     "rumbo": 282
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.3
+   },
    "pais": "AR",
    "via_visible": "RN 8",
    "punto": "Venado Tuerto",
@@ -1457,6 +3227,24 @@
    "ref": "RP55",
    "empresa": "SLUIS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.608244,
+     "lon": -65.451714,
+     "n": 1,
+     "rumbo": 159
+    },
+    {
+     "lat": -33.608188,
+     "lon": -65.451531,
+     "n": 1,
+     "rumbo": 339
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.0
+   },
    "pais": "AR",
    "via_visible": "Autopista de los Comechingones",
    "punto": "Villa Mercedes",
@@ -1473,6 +3261,24 @@
    "ref": "RN7",
    "empresa": "ACONCAGUA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.435885,
+     "lon": -67.50241,
+     "n": 1,
+     "rumbo": 71
+    },
+    {
+     "lat": -33.435799,
+     "lon": -67.502452,
+     "n": 1,
+     "rumbo": 250
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.1
+   },
    "pais": "AR",
    "via_visible": "RN 7",
    "punto": "La Paz",
@@ -1489,6 +3295,19 @@
    "ref": "RN8",
    "empresa": "VIAL8",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.424162,
+     "lon": -64.775614,
+     "n": 1,
+     "rumbo": 51,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 8",
    "punto": "Sampacho",
@@ -1505,6 +3324,18 @@
    "ref": "RN7",
    "empresa": "SLUIS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.4129,
+     "lon": -67.114753,
+     "n": 1,
+     "rumbo": 278
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "Autopista de las Serranías Puntanas",
    "punto": "Desaguadero",
@@ -1522,6 +3353,18 @@
    "ref": "RN7",
    "empresa": "SLUIS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.411755,
+     "lon": -67.123485,
+     "n": 1,
+     "rumbo": 99
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "Autopista de las Serranías Puntanas",
    "punto": "Desaguadero",
@@ -1539,6 +3382,24 @@
    "ref": "RN7",
    "empresa": "SLUIS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.359167,
+     "lon": -66.067106,
+     "n": 1,
+     "rumbo": 109
+    },
+    {
+     "lat": -33.359082,
+     "lon": -66.067077,
+     "n": 1,
+     "rumbo": 290
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.8
+   },
    "pais": "AR",
    "via_visible": "Autopista de las Serranías Puntanas",
    "punto": "La Cumbre",
@@ -1555,6 +3416,19 @@
    "ref": "RP14",
    "localidad": "Bigand",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -33.351153,
+     "lon": -61.133899,
+     "n": 1,
+     "rumbo": 237,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RP 14",
    "punto": "Bigand",
@@ -1570,6 +3444,19 @@
    "ref": "RP30",
    "localidad": "El Volcán",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -33.302653,
+     "lon": -66.109385,
+     "n": 1,
+     "rumbo": 193,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RP 30",
    "punto": "El Volcán",
@@ -1585,10 +3472,28 @@
    "ref": "RP20",
    "empresa": "SLUIS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.271462,
+     "lon": -66.196536,
+     "n": 1,
+     "rumbo": 126
+    },
+    {
+     "lat": -33.271387,
+     "lon": -66.196468,
+     "n": 1,
+     "rumbo": 307
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.2
+   },
    "pais": "AR",
-   "via_visible": "RP 20",
+   "via_visible": "Autopista Los Puquios",
    "punto": "Los Puquios",
-   "nombre_visible": "RP 20 - Peaje Los Puquios",
+   "nombre_visible": "Autopista Los Puquios - Peaje Los Puquios",
    "confianza": "alta",
    "plaza": "Los Puquios (San Luis)"
   },
@@ -1601,6 +3506,24 @@
    "ref": "RP9",
    "empresa": "SLUIS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.254115,
+     "lon": -66.226954,
+     "n": 1,
+     "rumbo": 1
+    },
+    {
+     "lat": -33.254111,
+     "lon": -66.227065,
+     "n": 1,
+     "rumbo": 182
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.1
+   },
    "pais": "AR",
    "via_visible": "RP 9",
    "punto": "Cruz de Piedra",
@@ -1616,6 +3539,24 @@
    "via": "Ruta Provincial 18",
    "ref": "RP18",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -33.156424,
+     "lon": -60.720293,
+     "n": 2,
+     "rumbo": 32
+    },
+    {
+     "lat": -33.156375,
+     "lon": -60.720382,
+     "n": 2,
+     "rumbo": 213
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.9
+   },
    "pais": "AR",
    "via_visible": "RP 18",
    "punto": "Coronel Domínguez",
@@ -1631,6 +3572,24 @@
    "ref": "RN9",
    "empresa": "ARCOPORT",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.128895,
+     "lon": -60.578124,
+     "n": 5,
+     "rumbo": 135
+    },
+    {
+     "lat": -33.128738,
+     "lon": -60.577941,
+     "n": 5,
+     "rumbo": 315
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.1
+   },
    "pais": "AR",
    "via_visible": "RN 9 (Arco Portuario)",
    "punto": "General Lagos",
@@ -1647,10 +3606,29 @@
    "ref": "RP20",
    "empresa": "SLUIS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.120559,
+     "lon": -65.691249,
+     "n": 2,
+     "rumbo": 47,
+     "doble": true
+    },
+    {
+     "lat": -33.120473,
+     "lon": -65.691332,
+     "n": 1,
+     "rumbo": 228
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.0
+   },
    "pais": "AR",
-   "via_visible": "RP 20",
+   "via_visible": "Autopista El Saladillo",
    "punto": "La Toma",
-   "nombre_visible": "RP 20 - Peaje La Toma",
+   "nombre_visible": "Autopista El Saladillo - Peaje La Toma",
    "confianza": "alta",
    "plaza": "La Toma (Saladillo)"
   },
@@ -1663,6 +3641,24 @@
    "ref": "RP10",
    "localidad": "La Punilla",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -33.119674,
+     "lon": -65.164301,
+     "n": 1
+    },
+    {
+     "lat": -33.119666,
+     "lon": -65.164014,
+     "n": 1,
+     "rumbo": 88,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.3
+   },
    "pais": "AR",
    "via_visible": "RP 10",
    "punto": "La Punilla",
@@ -1678,6 +3674,19 @@
    "ref": "RP1",
    "empresa": "SLUIS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -33.091008,
+     "lon": -65.087807,
+     "n": 1,
+     "rumbo": 213,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RP 1",
    "punto": "La Punilla",
@@ -1686,18 +3695,40 @@
    "plaza": "La Punilla (San Luis)"
   },
   {
-   "lat": -32.876368,
-   "lon": -61.16987,
+   "lat": -32.876168,
+   "lon": -61.169819,
    "nombre": "Carcarañá (Centro)",
    "tipo": "cabina",
    "via": "Centro",
    "ref": "RN9",
    "empresa": "COVICEN",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.876569,
+     "lon": -61.169921,
+     "n": 1,
+     "rumbo": 101
+    },
+    {
+     "lat": -32.876168,
+     "lon": -61.169819,
+     "n": 1,
+     "rumbo": 281
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 23,
+    "centro_plaza": [
+     -32.876368,
+     -61.16987
+    ]
+   },
    "pais": "AR",
-   "via_visible": "Autopista Ernesto Guevara",
+   "via_visible": "Autopista Rosario - Córdoba",
    "punto": "Carcarañá",
-   "nombre_visible": "Autopista Ernesto Guevara - Peaje Carcarañá",
+   "nombre_visible": "Autopista Rosario - Córdoba - Peaje Carcarañá",
    "confianza": "alta",
    "plaza": "Carcarañá (Centro)"
   },
@@ -1710,6 +3741,24 @@
    "ref": "RN174",
    "empresa": "CONEXION",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.865509,
+     "lon": -60.65122,
+     "n": 1,
+     "rumbo": 80
+    },
+    {
+     "lat": -32.865371,
+     "lon": -60.651246,
+     "n": 1,
+     "rumbo": 262
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.7
+   },
    "pais": "AR",
    "via_visible": "RN 174 (Puente Rosario – Victoria)",
    "punto": "Puente Rosario–Victoria",
@@ -1726,6 +3775,24 @@
    "ref": "RN7",
    "empresa": "ACONCAGUA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.806383,
+     "lon": -70.067306,
+     "n": 1,
+     "rumbo": 122
+    },
+    {
+     "lat": -32.80626,
+     "lon": -70.067228,
+     "n": 1,
+     "rumbo": 298
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.7
+   },
    "pais": "AR",
    "via_visible": "RN 7",
    "punto": "Las Cuevas",
@@ -1741,6 +3808,24 @@
    "via": "Accesos",
    "empresa": "AP01",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.767191,
+     "lon": -60.747947,
+     "n": 3,
+     "rumbo": 11
+    },
+    {
+     "lat": -32.767167,
+     "lon": -60.748099,
+     "n": 3,
+     "rumbo": 191
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.2
+   },
    "pais": "AR",
    "via_visible": "Autopista Rosario – Santa Fe",
    "punto": "Acceso San Lorenzo Sur",
@@ -1756,6 +3841,24 @@
    "via": "Accesos",
    "empresa": "AP01",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.748106,
+     "lon": -60.759077,
+     "n": 2,
+     "rumbo": 157
+    },
+    {
+     "lat": -32.74807,
+     "lon": -60.758973,
+     "n": 2,
+     "rumbo": 337
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.3
+   },
    "pais": "AR",
    "via_visible": "Autopista Rosario – Santa Fe",
    "punto": "Acceso San Lorenzo Centro",
@@ -1771,6 +3874,24 @@
    "via": "Accesos",
    "empresa": "AP01",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.724479,
+     "lon": -60.763077,
+     "n": 3,
+     "rumbo": 148
+    },
+    {
+     "lat": -32.724427,
+     "lon": -60.762971,
+     "n": 2,
+     "rumbo": 328
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.6
+   },
    "pais": "AR",
    "via_visible": "Autopista Rosario – Santa Fe",
    "punto": "Acceso San Lorenzo Norte",
@@ -1779,14 +3900,36 @@
    "plaza": "Acceso San Lorenzo Norte (Accesos)"
   },
   {
-   "lat": -32.699454,
-   "lon": -60.785605,
+   "lat": -32.699593,
+   "lon": -60.785819,
    "nombre": "Troncal Puerto San Martín",
    "tipo": "cabina",
    "via": "Troncal",
    "ref": "AP01",
    "empresa": "AP01",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.699593,
+     "lon": -60.785819,
+     "n": 2,
+     "rumbo": 145
+    },
+    {
+     "lat": -32.699315,
+     "lon": -60.785391,
+     "n": 2,
+     "rumbo": 324
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 25,
+    "centro_plaza": [
+     -32.699454,
+     -60.785605
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autopista Rosario – Santa Fe",
    "punto": "Puerto San Martín",
@@ -1803,6 +3946,24 @@
    "ref": "RN36",
    "empresa": "CDLS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.699023,
+     "lon": -64.35078,
+     "n": 1,
+     "rumbo": 156
+    },
+    {
+     "lat": -32.698954,
+     "lon": -64.350575,
+     "n": 1,
+     "rumbo": 334
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.3
+   },
    "pais": "AR",
    "via_visible": "RN 36",
    "punto": "Arroyo Tegua",
@@ -1819,6 +3980,24 @@
    "ref": "RN14",
    "empresa": "AUMESA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.667024,
+     "lon": -58.441636,
+     "n": 1,
+     "rumbo": 18
+    },
+    {
+     "lat": -32.666968,
+     "lon": -58.441819,
+     "n": 1,
+     "rumbo": 199
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.1
+   },
    "pais": "AR",
    "via_visible": "RN 14",
    "punto": "Colonia Elía",
@@ -1834,6 +4013,24 @@
    "via": "Accesos",
    "empresa": "AP01",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.636359,
+     "lon": -60.824436,
+     "n": 2,
+     "rumbo": 18
+    },
+    {
+     "lat": -32.636328,
+     "lon": -60.824544,
+     "n": 2,
+     "rumbo": 198
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.3
+   },
    "pais": "AR",
    "via_visible": "Autopista Rosario – Santa Fe",
    "punto": "Acceso Villa La Ribera",
@@ -1851,6 +4048,19 @@
    "km": "130",
    "localidad": "Concepción del Uruguay",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -32.450614,
+     "lon": -58.292797,
+     "n": 2,
+     "rumbo": 292,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 14",
    "punto": "Concepción del Uruguay",
@@ -1866,6 +4076,24 @@
    "ref": "RP55",
    "empresa": "SLUIS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.361372,
+     "lon": -65.174795,
+     "n": 1,
+     "rumbo": 2
+    },
+    {
+     "lat": -32.361363,
+     "lon": -65.174983,
+     "n": 1,
+     "rumbo": 182
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.8
+   },
    "pais": "AR",
    "via_visible": "Autopista de los Comechingones",
    "punto": "Santa Rosa del Conlara",
@@ -1882,6 +4110,24 @@
    "ref": "RN9",
    "empresa": "COVICEN",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.188749,
+     "lon": -63.38952,
+     "n": 1,
+     "rumbo": 143
+    },
+    {
+     "lat": -32.188633,
+     "lon": -63.389339,
+     "n": 1,
+     "rumbo": 324
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.6
+   },
    "pais": "AR",
    "via_visible": "Autopista Villa María - Córdoba",
    "punto": "James Craik",
@@ -1898,6 +4144,24 @@
    "ref": "RN36",
    "empresa": "CDLS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -32.132142,
+     "lon": -64.293739,
+     "n": 1,
+     "rumbo": 124
+    },
+    {
+     "lat": -32.131973,
+     "lon": -64.293587,
+     "n": 1,
+     "rumbo": 304
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.7
+   },
    "pais": "AR",
    "via_visible": "RN 36",
    "punto": "Piedras Moras",
@@ -1914,6 +4178,24 @@
    "ref": "RN34",
    "empresa": "COVICEN",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.792153,
+     "lon": -61.567089,
+     "n": 1,
+     "rumbo": 12
+    },
+    {
+     "lat": -31.792121,
+     "lon": -61.567201,
+     "n": 1,
+     "rumbo": 195
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.6
+   },
    "pais": "AR",
    "via_visible": "RN 34",
    "punto": "San Vicente",
@@ -1930,6 +4212,24 @@
    "ref": "RP5",
    "empresa": "CDLS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.747983,
+     "lon": -64.417753,
+     "n": 1,
+     "rumbo": 108
+    },
+    {
+     "lat": -31.74786,
+     "lon": -64.41771,
+     "n": 1,
+     "rumbo": 288
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.0
+   },
    "pais": "AR",
    "via_visible": "RP 5",
    "punto": "Calamuchita",
@@ -1945,6 +4245,17 @@
    "via": "Red de Accesos a Córdoba",
    "empresa": "CDLS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.735213,
+     "lon": -64.414158,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RP 5",
    "punto": "Calamuchita (acceso)",
@@ -1961,6 +4272,24 @@
    "ref": "RN168",
    "empresa": "TUNEL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.716622,
+     "lon": -60.502205,
+     "n": 1,
+     "rumbo": 17
+    },
+    {
+     "lat": -31.716565,
+     "lon": -60.502431,
+     "n": 1,
+     "rumbo": 197
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.1
+   },
    "pais": "AR",
    "via_visible": "Túnel Subfluvial Santa Fe – Paraná (RN 168)",
    "punto": "Túnel Subfluvial",
@@ -1977,6 +4306,24 @@
    "ref": "AP01",
    "empresa": "AP01",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.708679,
+     "lon": -60.825767,
+     "n": 1,
+     "rumbo": 18
+    },
+    {
+     "lat": -31.708636,
+     "lon": -60.825898,
+     "n": 1,
+     "rumbo": 199
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.6
+   },
    "pais": "AR",
    "via_visible": "Autopista Rosario – Santa Fe",
    "punto": "Sauce Viejo",
@@ -1992,6 +4339,19 @@
    "via": "Accesos",
    "empresa": "AP01",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.690963,
+     "lon": -60.811065,
+     "n": 1,
+     "rumbo": 102,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "Autopista Rosario – Santa Fe",
    "punto": "Acceso Sauce Viejo",
@@ -2008,6 +4368,24 @@
    "ref": "RN168",
    "empresa": "TUNEL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.687506,
+     "lon": -60.512048,
+     "n": 1,
+     "rumbo": 91
+    },
+    {
+     "lat": -31.687341,
+     "lon": -60.512053,
+     "n": 1,
+     "rumbo": 270
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.1
+   },
    "pais": "AR",
    "via_visible": "Túnel Subfluvial Santa Fe – Paraná (RN 168)",
    "punto": "Túnel Subfluvial (acceso)",
@@ -2023,6 +4401,19 @@
    "via": "Accesos",
    "empresa": "AP01",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.666606,
+     "lon": -60.795446,
+     "n": 1,
+     "rumbo": 20,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "Autopista Rosario – Santa Fe",
    "punto": "Acceso Santo Tomé",
@@ -2031,14 +4422,36 @@
    "plaza": "Acceso Santo Tomé (Accesos)"
   },
   {
-   "lat": -31.636254,
-   "lon": -60.974152,
+   "lat": -31.636511,
+   "lon": -60.974215,
    "nombre": "Franck (Centro)",
    "tipo": "cabina",
    "via": "Centro",
    "ref": "RN19",
    "empresa": "COVICEN",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.636511,
+     "lon": -60.974215,
+     "n": 1,
+     "rumbo": 103
+    },
+    {
+     "lat": -31.635997,
+     "lon": -60.974089,
+     "n": 1,
+     "rumbo": 282
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 29,
+    "centro_plaza": [
+     -31.636254,
+     -60.974152
+    ]
+   },
    "pais": "AR",
    "via_visible": "Autovía Santa Fe - Córdoba",
    "punto": "Franck",
@@ -2055,6 +4468,19 @@
    "ref": "RN1V09",
    "empresa": "CDLS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.569431,
+     "lon": -63.995413,
+     "n": 1,
+     "rumbo": 319,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 9",
    "punto": "Toledo (acceso)",
@@ -2071,6 +4497,19 @@
    "ref": "RP6",
    "localidad": "Franck",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -31.546949,
+     "lon": -60.926402,
+     "n": 1,
+     "rumbo": 15,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RP 6",
    "punto": "Franck",
@@ -2086,6 +4525,29 @@
    "ref": "RP5",
    "empresa": "CDLS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.540531,
+     "lon": -64.304857,
+     "n": 1,
+     "rumbo": 58
+    },
+    {
+     "lat": -31.540436,
+     "lon": -64.304889,
+     "n": 1
+    },
+    {
+     "lat": -31.540353,
+     "lon": -64.304973,
+     "n": 1,
+     "rumbo": 238
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.7
+   },
    "pais": "AR",
    "via_visible": "RP 5",
    "punto": "Variante Ruta 5",
@@ -2102,6 +4564,24 @@
    "ref": "RN9",
    "empresa": "CDLS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.540028,
+     "lon": -63.972119,
+     "n": 1,
+     "rumbo": 139
+    },
+    {
+     "lat": -31.539883,
+     "lon": -63.971962,
+     "n": 1,
+     "rumbo": 319
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.9
+   },
    "pais": "AR",
    "via_visible": "RN 9",
    "punto": "Toledo",
@@ -2118,6 +4598,24 @@
    "ref": "RN36",
    "empresa": "CDLS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.519745,
+     "lon": -64.22881,
+     "n": 1,
+     "rumbo": 29
+    },
+    {
+     "lat": -31.519675,
+     "lon": -64.228942,
+     "n": 1,
+     "rumbo": 211
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.4
+   },
    "pais": "AR",
    "via_visible": "RN 36",
    "punto": "Camino a 60 Cuadras",
@@ -2134,6 +4632,24 @@
    "ref": "RN14",
    "empresa": "AUMESA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.507648,
+     "lon": -58.183885,
+     "n": 1,
+     "rumbo": 27
+    },
+    {
+     "lat": -31.507584,
+     "lon": -58.184022,
+     "n": 1,
+     "rumbo": 208
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.4
+   },
    "pais": "AR",
    "via_visible": "RN 14",
    "punto": "Yeruá",
@@ -2150,6 +4666,19 @@
    "ref": "RP70",
    "localidad": "Empalme San Carlos",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -31.473781,
+     "lon": -60.832047,
+     "n": 1,
+     "rumbo": 114,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RP 70",
    "punto": "Empalme San Carlos",
@@ -2157,14 +4686,36 @@
    "confianza": "media"
   },
   {
-   "lat": -31.436644,
-   "lon": -64.312354,
+   "lat": -31.436378,
+   "lon": -64.312373,
    "nombre": "Córdoba–Carlos Paz (RN 20)",
    "tipo": "cabina",
    "via": "Red de Accesos a Córdoba",
    "ref": "RN20",
    "empresa": "CDLS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.436911,
+     "lon": -64.312336,
+     "n": 1,
+     "rumbo": 85
+    },
+    {
+     "lat": -31.436378,
+     "lon": -64.312373,
+     "n": 1,
+     "rumbo": 264
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 29,
+    "centro_plaza": [
+     -31.436644,
+     -64.312354
+    ]
+   },
    "pais": "AR",
    "via_visible": "RN 20",
    "punto": "Córdoba–Carlos Paz",
@@ -2180,6 +4731,19 @@
    "via": "Ruta Nacional 19",
    "ref": "RN19",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -31.410869,
+     "lon": -62.205367,
+     "n": 1,
+     "rumbo": 101,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 19",
    "punto": "Devoto",
@@ -2187,14 +4751,36 @@
    "confianza": "alta"
   },
   {
-   "lat": -31.370085,
-   "lon": -64.299645,
+   "lat": -31.369953,
+   "lon": -64.299502,
    "nombre": "La Calera (E-55)",
    "tipo": "cabina",
    "via": "Red de Accesos a Córdoba",
    "ref": "RPE55",
    "empresa": "CDLS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.370218,
+     "lon": -64.299788,
+     "n": 1,
+     "rumbo": 132
+    },
+    {
+     "lat": -31.369953,
+     "lon": -64.299502,
+     "n": 1,
+     "rumbo": 314
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 20,
+    "centro_plaza": [
+     -31.370085,
+     -64.299645
+    ]
+   },
    "pais": "AR",
    "via_visible": "RP E-55",
    "punto": "La Calera",
@@ -2211,6 +4797,24 @@
    "ref": "RP70",
    "localidad": "Nuevo Torino",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -31.330241,
+     "lon": -61.319852,
+     "n": 1,
+     "rumbo": 103
+    },
+    {
+     "lat": -31.330181,
+     "lon": -61.319834,
+     "n": 1,
+     "rumbo": 282
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.4
+   },
    "pais": "AR",
    "via_visible": "RP 70",
    "punto": "Nuevo Torino",
@@ -2226,6 +4830,24 @@
    "ref": "RN19",
    "empresa": "CDLS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.327835,
+     "lon": -63.87491,
+     "n": 1,
+     "rumbo": 74
+    },
+    {
+     "lat": -31.327693,
+     "lon": -63.874965,
+     "n": 1,
+     "rumbo": 254
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.3
+   },
    "pais": "AR",
    "via_visible": "RN 19",
    "punto": "Monte Cristo",
@@ -2234,14 +4856,42 @@
    "plaza": "Monte Cristo (RN 19)"
   },
   {
-   "lat": -31.312349,
-   "lon": -64.218818,
+   "lat": -31.312702,
+   "lon": -64.218593,
    "nombre": "Pajas Blancas (E-53)",
    "tipo": "cabina",
    "via": "Red de Accesos a Córdoba",
    "ref": "RPE53",
    "empresa": "CDLS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.312812,
+     "lon": -64.218876,
+     "n": 1,
+     "rumbo": 157
+    },
+    {
+     "lat": -31.312702,
+     "lon": -64.218593,
+     "n": 1,
+     "rumbo": 336
+    },
+    {
+     "lat": -31.311531,
+     "lon": -64.218986,
+     "n": 1,
+     "rumbo": 341
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 45,
+    "centro_plaza": [
+     -31.312349,
+     -64.218818
+    ]
+   },
    "pais": "AR",
    "via_visible": "RP E-53",
    "punto": "Pajas Blancas",
@@ -2258,6 +4908,24 @@
    "ref": "AUV38",
    "empresa": "CDLS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.298834,
+     "lon": -64.474051,
+     "n": 1,
+     "rumbo": 162
+    },
+    {
+     "lat": -31.298768,
+     "lon": -64.473848,
+     "n": 1,
+     "rumbo": 342
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.3
+   },
    "pais": "AR",
    "via_visible": "RN 38",
    "punto": "Punilla",
@@ -2274,6 +4942,24 @@
    "ref": "RPC46",
    "empresa": "CDLS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.280089,
+     "lon": -64.229062,
+     "n": 1,
+     "rumbo": 78
+    },
+    {
+     "lat": -31.279998,
+     "lon": -64.229085,
+     "n": 1,
+     "rumbo": 260
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.1
+   },
    "pais": "AR",
    "via_visible": "RP C-46",
    "punto": "Juárez Celman",
@@ -2290,6 +4976,24 @@
    "ref": "RN9",
    "empresa": "CDLS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -31.190817,
+     "lon": -64.152885,
+     "n": 1,
+     "rumbo": 10
+    },
+    {
+     "lat": -31.19078,
+     "lon": -64.153126,
+     "n": 1,
+     "rumbo": 190
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.6
+   },
    "pais": "AR",
    "via_visible": "RN 9",
    "punto": "Jesús María",
@@ -2306,6 +5010,24 @@
    "ref": "RN14",
    "localidad": "Juan Pujol",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -30.455749,
+     "lon": -57.984854,
+     "n": 1,
+     "rumbo": 1
+    },
+    {
+     "lat": -30.455742,
+     "lon": -57.985067,
+     "n": 1,
+     "rumbo": 180
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.2
+   },
    "pais": "AR",
    "via_visible": "RN 14",
    "punto": "Juan Pujol",
@@ -2321,6 +5043,19 @@
    "ref": "RN34",
    "empresa": "AUNOSA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -29.946023,
+     "lon": -61.886454,
+     "n": 1,
+     "rumbo": 319,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 34",
    "punto": "Ceres",
@@ -2336,6 +5071,19 @@
    "via": "Ruta Nacional 121",
    "ref": "RN121",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -28.589503,
+     "lon": -56.033797,
+     "n": 1,
+     "rumbo": 144,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 121",
    "punto": "Ponte Internacional",
@@ -2351,6 +5099,19 @@
    "ref": "RN34",
    "empresa": "AUNOSA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -27.94812,
+     "lon": -63.84634,
+     "n": 1,
+     "rumbo": 302,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 34",
    "punto": "Fernández",
@@ -2367,6 +5128,19 @@
    "ref": "RN105",
    "empresa": "SELVA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -27.644157,
+     "lon": -55.81592,
+     "n": 1,
+     "rumbo": 356,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 105",
    "punto": "Fachinal",
@@ -2383,6 +5157,19 @@
    "ref": "RN12",
    "empresa": "LITORAL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -27.621226,
+     "lon": -58.738338,
+     "n": 1,
+     "rumbo": 177,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 12",
    "punto": "Riachuelo",
@@ -2399,6 +5186,19 @@
    "ref": "RN12",
    "empresa": "SELVA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -27.578655,
+     "lon": -56.618748,
+     "n": 1,
+     "rumbo": 247,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 12",
    "punto": "Ituzaingó",
@@ -2415,6 +5215,19 @@
    "ref": "RN16",
    "empresa": "LITORAL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -27.446208,
+     "lon": -58.887293,
+     "n": 1,
+     "rumbo": 315,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 16",
    "punto": "Puente General Belgrano",
@@ -2431,6 +5244,24 @@
    "ref": "RN12",
    "empresa": "SELVA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -27.428436,
+     "lon": -55.629767,
+     "n": 1,
+     "rumbo": 59
+    },
+    {
+     "lat": -27.428384,
+     "lon": -55.629798,
+     "n": 1,
+     "rumbo": 240
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.2
+   },
    "pais": "AR",
    "via_visible": "RN 12",
    "punto": "Santa Ana",
@@ -2447,6 +5278,19 @@
    "ref": "RN9",
    "empresa": "AUNOA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -27.36355,
+     "lon": -64.957265,
+     "n": 1,
+     "rumbo": 335,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 9",
    "punto": "La Florida",
@@ -2463,6 +5307,19 @@
    "ref": "RN16",
    "empresa": "LITORAL",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -27.186834,
+     "lon": -59.326303,
+     "n": 1,
+     "rumbo": 135,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 16",
    "punto": "Makallé",
@@ -2480,6 +5337,24 @@
    "km": "283",
    "localidad": "Derrubadas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -27.153203,
+     "lon": -53.904029,
+     "n": 1,
+     "rumbo": 94
+    },
+    {
+     "lat": -27.153175,
+     "lon": -53.904025,
+     "n": 1,
+     "rumbo": 274
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.6
+   },
    "pais": "AR",
    "via_visible": "RP 2",
    "punto": "Derrubadas",
@@ -2496,6 +5371,19 @@
    "km": "5,3",
    "localidad": "La Florida",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -26.82915,
+     "lon": -65.109726,
+     "n": 1,
+     "rumbo": 170,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN A16",
    "punto": "La Florida",
@@ -2511,6 +5399,19 @@
    "ref": "RN12",
    "empresa": "SELVA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -26.336138,
+     "lon": -54.617534,
+     "n": 1,
+     "rumbo": 198,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "AR",
    "via_visible": "RN 12",
    "punto": "Colonia Victoria",
@@ -2527,6 +5428,24 @@
    "ref": "RN9",
    "empresa": "AUNOA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -26.2947,
+     "lon": -65.280736,
+     "n": 1,
+     "rumbo": 357
+    },
+    {
+     "lat": -26.294699,
+     "lon": -65.280811,
+     "n": 1,
+     "rumbo": 176
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.7
+   },
    "pais": "AR",
    "via_visible": "RN 9",
    "punto": "Molle Yaco",
@@ -2541,6 +5460,24 @@
    "tipo": "cabina",
    "localidad": "General Alvarado",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -24.842044,
+     "lon": -65.477364,
+     "n": 1,
+     "rumbo": 22
+    },
+    {
+     "lat": -24.841964,
+     "lon": -65.477583,
+     "n": 1,
+     "rumbo": 205
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.9
+   },
    "pais": "AR",
    "punto": "General Alvarado",
    "nombre_visible": "Peaje General Alvarado",
@@ -2555,6 +5492,24 @@
    "ref": "RN9",
    "empresa": "AUNOA",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -24.814276,
+     "lon": -65.015894,
+     "n": 1,
+     "rumbo": 171,
+     "doble": true
+    },
+    {
+     "lat": -24.814262,
+     "lon": -65.015818,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.9
+   },
    "pais": "AR",
    "via_visible": "RN 9",
    "punto": "Cabeza de Buey",
@@ -2571,6 +5526,24 @@
    "ref": "RN9",
    "localidad": "Salta",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -24.777627,
+     "lon": -65.31949,
+     "n": 1,
+     "rumbo": 99
+    },
+    {
+     "lat": -24.7775,
+     "lon": -65.319467,
+     "n": 1,
+     "rumbo": 279
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.1
+   },
    "pais": "AR",
    "via_visible": "RN 9",
    "punto": "Salta",
@@ -2588,6 +5561,24 @@
    "ref": "007-05",
    "localidad": "Grünbein",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -38.714903,
+     "lon": -62.164739,
+     "n": 1,
+     "rumbo": 188
+    },
+    {
+     "lat": -38.714878,
+     "lon": -62.164614,
+     "n": 1,
+     "rumbo": 323
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.6
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
   {
@@ -2599,6 +5590,18 @@
    "ref": "RP9",
    "localidad": "El Volcán",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -33.25428,
+     "lon": -66.212441,
+     "n": 1,
+     "rumbo": 2
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
   {
@@ -2609,6 +5612,17 @@
    "via": "Perilago La Florida",
    "localidad": "Trapiche",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -33.089001,
+     "lon": -66.032274,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
   {
@@ -2619,9 +5633,27 @@
    "via": "Acceso Aeropuerto Iguazú",
    "localidad": "Comunidad Aborigen Fortín Mbororé",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -25.728866,
+     "lon": -54.470145,
+     "n": 1,
+     "rumbo": 5
+    },
+    {
+     "lat": -25.728861,
+     "lon": -54.470209,
+     "n": 1,
+     "rumbo": 190
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.2
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-01T12:19Z",
+ "generado": "2026-11-01T14:22Z",
  "alertas": []
 }
