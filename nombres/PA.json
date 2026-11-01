@@ -990,6 +990,10 @@
   }
  ],
  "excluidas": [],
+<<<<<<< HEAD
  "generado": "2026-11-01T19:05Z",
+=======
+ "generado": "2026-11-01T22:28Z",
+>>>>>>> f19fa64 (Nombres de estaciones (PA) actualizados automáticamente)
  "alertas": []
 }
