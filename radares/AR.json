@@ -1,7 +1,7 @@
 {
  "version": "ar-2026-11-01",
  "pais": "AR",
- "generado": "2026-11-01T12:46:27+00:00",
+ "generado": "2026-11-01T15:34:22+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Radares municipales y provinciales (CABA, Provincia de Buenos Aires, Córdoba, Santa Fe): cada jurisdicción publica por separado."
@@ -16,13 +16,13 @@
    "RED_LIGHT_CAMERA": 276,
    "VEHICLE_CAMERA": 216
   },
-  "con_limite": 1347,
-  "limite_revisar": 99,
-  "limite_desconocido": 202,
-  "revisados_esta_corrida": 360,
-  "sin_via": 13,
+  "con_limite": 1348,
+  "limite_revisar": 101,
+  "limite_desconocido": 201,
+  "revisados_esta_corrida": 59,
+  "sin_via": 12,
   "via_completada_esta_corrida": 0,
-  "limites_dudosos_sacados": 31,
+  "limites_dudosos_sacados": 38,
   "por_control": {
    "VELOCIDAD": 1058,
    "VELOCIDAD_PROMEDIO": 1,
@@ -36,25 +36,21 @@
   "posicion": {
    "umbral_m": 15.0,
    "radio_busqueda_m": 150.0,
-   "ok": 1281,
-   "corregidas": 61,
+   "ok": 1342,
+   "corregidas": 0,
    "sin_referencia": 207,
    "de_osm": 1273,
    "corrida_anterior": {
     "umbral_m": 15.0,
     "radio_busqueda_m": 150.0,
-    "ok": 1312,
-    "corregidas": 61,
+    "ok": 1342,
+    "corregidas": 0,
     "sin_referencia": 207,
-    "de_osm": 1304
+    "de_osm": 1273
    }
   }
  },
- "alertas": [
-  "AR: falló un lote de límites (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
-  "AR: se acabó el tiempo; quedan 39 puntos sin revisar el límite (se siguen en la próxima corrida).",
-  "AR: se acabó el tiempo; quedan 1 puntos sin vía (se siguen en la próxima corrida)."
- ],
+ "alertas": [],
  "radars": [
   {
    "radar_id": "osm-ar-n13115857755",
@@ -600,6 +596,8 @@
     "reference": "node/13646608462"
    },
    "road_label": "RN 40",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -649,13 +647,13 @@
     "reference": "node/11634936345"
    },
    "road_label": "RN 40",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 110,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -680,13 +678,13 @@
     "reference": "node/11634936346"
    },
    "road_label": "RN 40",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 110,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -872,8 +870,8 @@
    },
    "road_label": "RP 237",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 237 - Radar",
    "country": "AR"
   },
@@ -979,8 +977,8 @@
    },
    "road_label": "RP 237",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 237 - Radar",
    "country": "AR"
   },
@@ -1008,8 +1006,8 @@
    },
    "road_label": "RP 237",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 237 - Radar",
    "country": "AR"
   },
@@ -1036,6 +1034,9 @@
     "reference": "node/12472823447"
    },
    "road_label": "RN 40",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -1063,8 +1064,8 @@
    },
    "road_label": "RP 237",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 237 - Radar",
    "country": "AR"
   },
@@ -1092,8 +1093,8 @@
    },
    "road_label": "RP 237",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 237 - Radar",
    "country": "AR"
   },
@@ -1148,6 +1149,9 @@
     "reference": "node/12472823441"
    },
    "road_label": "RN 40",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 80,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -1175,8 +1179,8 @@
    },
    "road_label": "RP 237",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 237 - Radar",
    "country": "AR"
   },
@@ -1230,8 +1234,8 @@
    },
    "road_label": "RN 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -1259,8 +1263,8 @@
    },
    "road_label": "RP 237",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 237 - Radar",
    "country": "AR"
   },
@@ -1342,8 +1346,8 @@
    },
    "road_label": "RN 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -1365,17 +1369,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 40",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 122,
-    "reference": "node/11530550674",
-    "original_position": [
-     -41.063103,
-     -71.157289
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11530550674"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -1400,17 +1400,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 40",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 97,
-    "reference": "node/11366179086",
-    "original_position": [
-     -41.063103,
-     -71.157289
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11366179086"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -1440,10 +1436,10 @@
     "reference": "node/4493366977"
    },
    "road_label": "RN 40",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM · 20 km/h no es creíble en esta vía: se usa 60 km/h de la calzada principal",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -1470,6 +1466,9 @@
     "reference": "node/13771881641"
    },
    "road_label": "RN 3",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 3 - Radar",
    "country": "AR"
   },
@@ -1517,13 +1516,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11656947543",
    "road_label": "RN 40",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 33,
-    "reference": "node/11656947543",
-    "original_position": [
-     -40.796438,
-     -71.591553
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11656947543"
    },
    "controls": [
     "VELOCIDAD"
@@ -1664,8 +1659,8 @@
    },
    "road_label": "RN 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -1720,8 +1715,8 @@
    },
    "road_label": "RN 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -1748,10 +1743,10 @@
     "reference": "node/5924277755"
    },
    "road_label": "RN 40",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM · 40 km/h no es creíble en esta vía: se usa 60 km/h de la calzada principal",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -1766,7 +1761,9 @@
    "source_reference": "node/12559089298",
    "source_version": "ar-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_status": "REVISAR",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_CALZADA_PRINCIPAL",
+   "speed_limit_status": "VALIDO",
    "controls": [
     "VELOCIDAD"
    ],
@@ -1776,10 +1773,10 @@
     "reference": "node/12559089298"
    },
    "road_label": "RN 40",
-   "speed_limit_candidates": [
-    40
-   ],
-   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_detail": "La vía del radar tiene límite en OSM · 40 km/h no es creíble en esta vía: se usa 60 km/h de la calzada principal",
+   "speed_limit_road_class": "primary",
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -1883,13 +1880,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12270889329",
    "road_label": "RN 237",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 35,
-    "reference": "node/12270889329",
-    "original_position": [
-     -39.523133,
-     -69.29668
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12270889329"
    },
    "controls": [
     "VELOCIDAD"
@@ -1942,17 +1935,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 237",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 71,
-    "reference": "node/13646609967",
-    "original_position": [
-     -39.513341,
-     -69.292827
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13646609967"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -2092,6 +2081,9 @@
     "reference": "node/12650644080"
    },
    "road_label": "RN 3",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 80,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 3 - Radar",
    "country": "AR"
   },
@@ -2120,6 +2112,9 @@
     "reference": "node/12650644081"
    },
    "road_label": "RN 3",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 80,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 3 - Radar",
    "country": "AR"
   },
@@ -2225,6 +2220,9 @@
     "reference": "node/12605370650"
    },
    "road_label": "RN 22",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 22 - Radar",
    "country": "AR"
   },
@@ -2383,8 +2381,8 @@
    },
    "road_label": "RN 22",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 22 - Radar",
    "country": "AR"
   },
@@ -2440,8 +2438,8 @@
    },
    "road_label": "RN 22",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 22 - Radar",
    "country": "AR"
   },
@@ -2633,8 +2631,8 @@
    },
    "road_label": "RP 14",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 14 - Radar",
    "country": "AR"
   },
@@ -2689,13 +2687,13 @@
     "reference": "node/11657116155"
    },
    "road_label": "RP 7",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 110,
    "display_name": "RP 7 - Radar",
    "country": "AR"
   },
@@ -2752,6 +2750,9 @@
     "reference": "node/13646611434"
    },
    "road_label": "RN 151",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 151 - Radar",
    "country": "AR"
   },
@@ -2877,9 +2878,7 @@
    "source_reference": "node/13646630328",
    "source_version": "ar-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_kmh": 60,
-   "speed_limit_source": "OSM_ETIQUETA",
-   "speed_limit_status": "VALIDO",
+   "speed_limit_status": "REVISAR",
    "controls": [
     "VELOCIDAD"
    ],
@@ -2889,6 +2888,13 @@
     "reference": "node/13646630328"
    },
    "road_label": "RN 151",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 110,
+   "speed_limit_road_class": "trunk",
+   "speed_limit_candidates": [
+    60
+   ],
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "display_name": "RN 151 - Radar",
    "country": "AR"
   },
@@ -2915,6 +2921,9 @@
     "reference": "node/13646644836"
    },
    "road_label": "RN 151",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 151 - Radar",
    "country": "AR"
   },
@@ -3192,6 +3201,9 @@
     "reference": "node/13646667233"
    },
    "road_label": "RN 151",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 151 - Radar",
    "country": "AR"
   },
@@ -3219,8 +3231,8 @@
    },
    "road_label": "RN 151",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 151 - Radar",
    "country": "AR"
   },
@@ -3356,8 +3368,8 @@
    },
    "road_label": "Autovía de Circunvalación Raúl Alfonsín",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autovía de Circunvalación Raúl Alfonsín - Radar",
    "country": "AR"
   },
@@ -3494,8 +3506,8 @@
    },
    "road_label": "Autovía de Circunvalación Raúl Alfonsín",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autovía de Circunvalación Raúl Alfonsín - Radar",
    "country": "AR"
   },
@@ -3523,8 +3535,8 @@
    },
    "road_label": "RN 151",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "RN 151 - Radar",
    "country": "AR"
   },
@@ -3738,8 +3750,8 @@
    },
    "road_label": "RP 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -3767,8 +3779,8 @@
    },
    "road_label": "RP 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -3959,6 +3971,9 @@
     "reference": "node/14241097166"
    },
    "road_label": "RP 88",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RP 88 - Radar",
    "country": "AR"
   },
@@ -4041,6 +4056,9 @@
     "reference": "node/13422114021"
    },
    "road_label": "RP 88",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RP 88 - Radar",
    "country": "AR"
   },
@@ -4208,8 +4226,8 @@
    },
    "road_label": "RP 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -4263,8 +4281,8 @@
    },
    "road_label": "Autovía Juan Manuel Fangio",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autovía Juan Manuel Fangio - Radar",
    "country": "AR"
   },
@@ -4292,8 +4310,8 @@
    },
    "road_label": "Autovía Juan Manuel Fangio",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autovía Juan Manuel Fangio - Radar",
    "country": "AR"
   },
@@ -4321,8 +4339,8 @@
    },
    "road_label": "RP 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -4403,10 +4421,10 @@
     "reference": "node/4501059079"
    },
    "road_label": "RN 143",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM · 40 km/h no es creíble en esta vía: se usa 60 km/h de la calzada principal",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 143 - Radar",
    "country": "AR"
   },
@@ -4488,8 +4506,8 @@
    },
    "road_label": "Autovía Juan Manuel Fangio",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autovía Juan Manuel Fangio - Radar",
    "country": "AR"
   },
@@ -4517,8 +4535,8 @@
    },
    "road_label": "RP 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -4572,8 +4590,8 @@
    },
    "road_label": "RP 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -4658,10 +4676,10 @@
     "reference": "node/8912334563"
    },
    "road_label": "RP 29",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 29 - Radar",
    "country": "AR"
   },
@@ -4688,10 +4706,10 @@
     "reference": "node/8912334565"
    },
    "road_label": "RP 50",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 50 - Radar",
    "country": "AR"
   },
@@ -4716,14 +4734,15 @@
     "reference": "node/8912334566"
    },
    "road_label": "RP 50",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
-   "speed_limit_detail": "lado A: 60 km/h a 10 m · lado B: 110 km/h a 52 m · el más cercano es el menor",
-   "speed_limit_road_class": "primary",
+   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
    "speed_limit_candidates": [
+    40,
     60,
     110
    ],
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 50 - Radar",
    "country": "AR"
   },
@@ -4750,10 +4769,10 @@
     "reference": "node/8912334564"
    },
    "road_label": "RP 29",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 29 - Radar",
    "country": "AR"
   },
@@ -4781,8 +4800,8 @@
    },
    "road_label": "RP 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -4836,8 +4855,8 @@
    },
    "road_label": "RP 74",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 74 - Radar",
    "country": "AR"
   },
@@ -4893,8 +4912,8 @@
    },
    "road_label": "RP 51",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 51 - Radar",
    "country": "AR"
   },
@@ -4922,8 +4941,8 @@
    },
    "road_label": "Autovía Azul - Olavarría",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autovía Azul - Olavarría - Radar",
    "country": "AR"
   },
@@ -5060,6 +5079,9 @@
     "reference": "node/13143515918"
    },
    "road_label": "Autovía Juan Manuel Fangio",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 80,
+   "speed_limit_road_class": "trunk",
    "display_name": "Autovía Juan Manuel Fangio - Radar",
    "country": "AR"
   },
@@ -5113,8 +5135,8 @@
    },
    "road_label": "RP 51",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 51 - Radar",
    "country": "AR"
   },
@@ -5142,8 +5164,8 @@
    },
    "road_label": "RP 30",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 30 - Radar",
    "country": "AR"
   },
@@ -5172,10 +5194,10 @@
     "reference": "node/6234301301"
    },
    "road_label": "RP 50",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 50 - Radar",
    "country": "AR"
   },
@@ -5204,10 +5226,10 @@
     "reference": "node/6234286653"
    },
    "road_label": "RP 30",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 30 - Radar",
    "country": "AR"
   },
@@ -5235,8 +5257,8 @@
    },
    "road_label": "RP 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -5251,9 +5273,7 @@
    "source_reference": "node/13306893722",
    "source_version": "ar-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_kmh": 60,
-   "speed_limit_source": "OSM_ETIQUETA",
-   "speed_limit_status": "VALIDO",
+   "speed_limit_status": "REVISAR",
    "controls": [
     "VELOCIDAD"
    ],
@@ -5263,6 +5283,13 @@
     "reference": "node/13306893722"
    },
    "road_label": "RN 35",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 110,
+   "speed_limit_road_class": "trunk",
+   "speed_limit_candidates": [
+    60
+   ],
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "display_name": "RN 35 - Radar",
    "country": "AR"
   },
@@ -5316,8 +5343,8 @@
    },
    "road_label": "RN 5",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 110,
    "display_name": "RN 5 - Radar",
    "country": "AR"
   },
@@ -5344,10 +5371,10 @@
     "reference": "node/12218583052"
    },
    "road_label": "RN 35",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM · 40 km/h no es creíble en esta vía: se usa 60 km/h de la calzada principal",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 35 - Radar",
    "country": "AR"
   },
@@ -5375,8 +5402,8 @@
    },
    "road_label": "RP 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -5404,8 +5431,8 @@
    },
    "road_label": "RP 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -5433,8 +5460,8 @@
    },
    "road_label": "RP 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -5462,8 +5489,8 @@
    },
    "road_label": "RP 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -5546,6 +5573,9 @@
     "reference": "node/13709861620"
    },
    "road_label": "RP 11",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "primary",
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -5575,8 +5605,8 @@
    },
    "road_label": "RP 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -5712,8 +5742,8 @@
    },
    "road_label": "RP 63",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 63 - Radar",
    "country": "AR"
   },
@@ -5900,8 +5930,8 @@
    },
    "road_label": "Autovía Juan Manuel Fangio",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 100,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 100,
    "display_name": "Autovía Juan Manuel Fangio - Radar",
    "country": "AR"
   },
@@ -5929,8 +5959,8 @@
    },
    "road_label": "RP 65",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 65 - Radar",
    "country": "AR"
   },
@@ -5958,8 +5988,8 @@
    },
    "road_label": "Autovía Juan Manuel Fangio",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autovía Juan Manuel Fangio - Radar",
    "country": "AR"
   },
@@ -5987,8 +6017,8 @@
    },
    "road_label": "Autovía Juan Manuel Fangio",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autovía Juan Manuel Fangio - Radar",
    "country": "AR"
   },
@@ -6016,8 +6046,8 @@
    },
    "road_label": "Autovía Juan Manuel Fangio",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autovía Juan Manuel Fangio - Radar",
    "country": "AR"
   },
@@ -6073,8 +6103,8 @@
    },
    "road_label": "RP 41",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 41 - Radar",
    "country": "AR"
   },
@@ -6102,8 +6132,8 @@
    },
    "road_label": "RP 51",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 51 - Radar",
    "country": "AR"
   },
@@ -6131,8 +6161,8 @@
    },
    "road_label": "Autovía Juan Manuel Fangio",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "Autovía Juan Manuel Fangio - Radar",
    "country": "AR"
   },
@@ -6147,7 +6177,7 @@
    "source_reference": "node/9041615055",
    "source_version": "ar-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_status": "REVISAR",
    "controls": [
     "VELOCIDAD"
    ],
@@ -6157,12 +6187,12 @@
     "reference": "node/9041615055"
    },
    "road_label": "RN 226",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     40
    ],
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 226 - Radar",
    "country": "AR"
   },
@@ -6216,8 +6246,8 @@
    },
    "road_label": "RP 41",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 41 - Radar",
    "country": "AR"
   },
@@ -6245,8 +6275,8 @@
    },
    "road_label": "RP 41",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 41 - Radar",
    "country": "AR"
   },
@@ -6274,8 +6304,8 @@
    },
    "road_label": "RP 29",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 29 - Radar",
    "country": "AR"
   },
@@ -6303,8 +6333,8 @@
    },
    "road_label": "RP 29",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 29 - Radar",
    "country": "AR"
   },
@@ -6332,8 +6362,8 @@
    },
    "road_label": "RN 5",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "RN 5 - Radar",
    "country": "AR"
   },
@@ -6348,7 +6378,9 @@
    "source_reference": "node/12740047524",
    "source_version": "ar-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_status": "REVISAR",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_CALZADA_PRINCIPAL",
+   "speed_limit_status": "VALIDO",
    "controls": [
     "VELOCIDAD"
    ],
@@ -6358,10 +6390,10 @@
     "reference": "node/12740047524"
    },
    "road_label": "RP 1",
-   "speed_limit_candidates": [
-    40
-   ],
-   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_detail": "La vía del radar tiene límite en OSM · 40 km/h no es creíble en esta vía: se usa 60 km/h de la calzada principal",
+   "speed_limit_road_class": "primary",
    "display_name": "RP 1 - Radar",
    "country": "AR"
   },
@@ -6523,8 +6555,8 @@
    },
    "road_label": "RP 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -6684,8 +6716,8 @@
    },
    "road_label": "Autovía Juan Manuel Fangio",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autovía Juan Manuel Fangio - Radar",
    "country": "AR"
   },
@@ -6772,8 +6804,8 @@
    },
    "road_label": "Autovía Juan Manuel Fangio",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autovía Juan Manuel Fangio - Radar",
    "country": "AR"
   },
@@ -6801,8 +6833,8 @@
    },
    "road_label": "RP 29",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 29 - Radar",
    "country": "AR"
   },
@@ -6856,8 +6888,8 @@
    },
    "road_label": "RP 29",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 29 - Radar",
    "country": "AR"
   },
@@ -6887,8 +6919,8 @@
    },
    "road_label": "RP 65",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 65 - Radar",
    "country": "AR"
   },
@@ -6998,8 +7030,8 @@
    },
    "road_label": "RP 215",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 215 - Radar",
    "country": "AR"
   },
@@ -7027,8 +7059,8 @@
    },
    "road_label": "Autovía Juan Manuel Fangio",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autovía Juan Manuel Fangio - Radar",
    "country": "AR"
   },
@@ -7070,9 +7102,7 @@
    "source_reference": "node/13954721228",
    "source_version": "ar-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_kmh": 60,
-   "speed_limit_source": "OSM_ETIQUETA",
-   "speed_limit_status": "VALIDO",
+   "speed_limit_status": "REVISAR",
    "controls": [
     "VELOCIDAD"
    ],
@@ -7084,6 +7114,13 @@
     "reference": "node/13954721228"
    },
    "road_label": "RP 36",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 100,
+   "speed_limit_road_class": "secondary",
+   "speed_limit_candidates": [
+    60
+   ],
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 100 km/h de la vía: se publica como límite desconocido",
    "display_name": "RP 36 - Radar",
    "country": "AR"
   },
@@ -7105,17 +7142,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 205",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 144,
-    "reference": "node/10573675200",
-    "original_position": [
-     -35.399386,
-     -59.410056
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10573675200"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -7140,17 +7173,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 205",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 104,
-    "reference": "node/10573678287",
-    "original_position": [
-     -35.396912,
-     -59.406612
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10573678287"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -7195,9 +7224,7 @@
    "source_reference": "node/13954721227",
    "source_version": "ar-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_kmh": 60,
-   "speed_limit_source": "OSM_ETIQUETA",
-   "speed_limit_status": "VALIDO",
+   "speed_limit_status": "REVISAR",
    "controls": [
     "VELOCIDAD"
    ],
@@ -7209,6 +7236,13 @@
     "reference": "node/13954721227"
    },
    "road_label": "RP 36",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 100,
+   "speed_limit_road_class": "secondary",
+   "speed_limit_candidates": [
+    60
+   ],
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 100 km/h de la vía: se publica como límite desconocido",
    "display_name": "RP 36 - Radar",
    "country": "AR"
   },
@@ -7257,13 +7291,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/10573633045",
    "road_label": "RN 205",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 18,
-    "reference": "node/10573633045",
-    "original_position": [
-     -35.377026,
-     -59.370776
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10573633045"
    },
    "controls": [
     "VELOCIDAD"
@@ -7322,6 +7352,9 @@
     "reference": "node/13954721229"
    },
    "road_label": "RP 36",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 100,
+   "speed_limit_road_class": "secondary",
    "display_name": "RP 36 - Radar",
    "country": "AR"
   },
@@ -7350,6 +7383,9 @@
     "reference": "node/13954721230"
    },
    "road_label": "RP 36",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 100,
+   "speed_limit_road_class": "secondary",
    "display_name": "RP 36 - Radar",
    "country": "AR"
   },
@@ -7374,13 +7410,13 @@
     "reference": "node/5275866946"
    },
    "road_label": "RP 215",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
-   "speed_limit_road_class": "primary",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 110,
    "display_name": "RP 215 - Radar",
    "country": "AR"
   },
@@ -7407,6 +7443,9 @@
     "reference": "node/13143351274"
    },
    "road_label": "RN 205",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "primary",
    "display_name": "RN 205 - Radar",
    "country": "AR"
   },
@@ -7511,13 +7550,13 @@
     "reference": "node/2116829239"
    },
    "road_label": "RP 36",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
-   "speed_limit_road_class": "secondary",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 110,
    "display_name": "RP 36 - Radar",
    "country": "AR"
   },
@@ -7547,8 +7586,8 @@
    },
    "road_label": "RP 41",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 41 - Radar",
    "country": "AR"
   },
@@ -7576,8 +7615,8 @@
    },
    "road_label": "RP 41",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 41 - Radar",
    "country": "AR"
   },
@@ -7607,8 +7646,8 @@
    },
    "road_label": "RP 29",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 29 - Radar",
    "country": "AR"
   },
@@ -7638,8 +7677,8 @@
    },
    "road_label": "RP 215",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 215 - Radar",
    "country": "AR"
   },
@@ -7723,8 +7762,8 @@
    },
    "road_label": "RP 215",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 215 - Radar",
    "country": "AR"
   },
@@ -7754,8 +7793,8 @@
    },
    "road_label": "RP 210",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 210 - Radar",
    "country": "AR"
   },
@@ -7783,8 +7822,8 @@
    },
    "road_label": "RP 215",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 215 - Radar",
    "country": "AR"
   },
@@ -7812,8 +7851,8 @@
    },
    "road_label": "RP 210",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 210 - Radar",
    "country": "AR"
   },
@@ -7838,13 +7877,13 @@
     "reference": "node/11043270420"
    },
    "road_label": "RP 215",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
-   "speed_limit_road_class": "primary",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 110,
    "display_name": "RP 215 - Radar",
    "country": "AR"
   },
@@ -7866,17 +7905,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 5",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 64,
-    "reference": "node/10068195011",
-    "original_position": [
-     -35.142558,
-     -60.458916
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10068195011"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -7901,13 +7936,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/10068195012",
    "road_label": "RN 5",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 39,
-    "reference": "node/10068195012",
-    "original_position": [
-     -35.132362,
-     -60.447317
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10068195012"
    },
    "controls": [
     "VELOCIDAD"
@@ -7939,8 +7970,8 @@
    },
    "road_label": "RP 46",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 46 - Radar",
    "country": "AR"
   },
@@ -7970,8 +8001,8 @@
    },
    "road_label": "RP 46",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 46 - Radar",
    "country": "AR"
   },
@@ -8075,17 +8106,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 205",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 110,
-    "reference": "node/10573658557",
-    "original_position": [
-     -35.095612,
-     -58.926434
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10573658557"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -8094,7 +8121,7 @@
   },
   {
    "radar_id": "osm-ar-n14337672895",
-   "name": "Cámara de tránsito (Sistema de Monitoreo de Patentes)",
+   "name": "RN 188 - Cámara de tránsito (Sistema de Monitoreo de Patentes)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -35.094127,
    "longitude": -65.101127,
@@ -8111,7 +8138,15 @@
     "offset_m": 0.0,
     "reference": "node/14337672895"
    },
-   "display_name": "Cámara de tránsito (Sistema de Monitoreo de Patentes)",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM · 40 km/h no es creíble en esta vía: se usa 60 km/h de la calzada principal",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_CALZADA_PRINCIPAL",
+   "road_label": "RN 188",
+   "display_name": "RN 188 - Cámara de tránsito (Sistema de Monitoreo de Patentes)",
    "country": "AR"
   },
   {
@@ -8135,13 +8170,13 @@
     "reference": "node/10573500499"
    },
    "road_label": "RN 205",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
-   "speed_limit_road_class": "primary",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 110,
    "display_name": "RN 205 - Radar",
    "country": "AR"
   },
@@ -8223,13 +8258,13 @@
     "reference": "node/11260178560"
    },
    "road_label": "RN 205",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
-   "speed_limit_road_class": "primary",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 110,
    "display_name": "RN 205 - Radar",
    "country": "AR"
   },
@@ -8392,8 +8427,8 @@
    },
    "road_label": "RN 205",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 205 - Radar",
    "country": "AR"
   },
@@ -8423,8 +8458,8 @@
    },
    "road_label": "RP 6",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 6 - Radar",
    "country": "AR"
   },
@@ -8454,8 +8489,8 @@
    },
    "road_label": "RP 6",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 6 - Radar",
    "country": "AR"
   },
@@ -8483,8 +8518,8 @@
    },
    "road_label": "RP 215",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 215 - Radar",
    "country": "AR"
   },
@@ -8509,13 +8544,13 @@
     "reference": "node/11066137491"
    },
    "road_label": "RP 58",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 110,
    "display_name": "RP 58 - Radar",
    "country": "AR"
   },
@@ -8542,10 +8577,10 @@
     "reference": "node/11260178558"
    },
    "road_label": "RN 205",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 205 - Radar",
    "country": "AR"
   },
@@ -8622,13 +8657,13 @@
     "reference": "node/9805086087"
    },
    "road_label": "RP 6",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 120,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "80 km/h es un salto brusco respecto de los 120 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     80
    ],
-   "speed_limit_detail": "80 km/h es un salto brusco respecto de los 120 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 120,
    "display_name": "RP 6 - Radar",
    "country": "AR"
   },
@@ -8685,8 +8720,8 @@
    },
    "road_label": "RP 13",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 13 - Radar",
    "country": "AR"
   },
@@ -8772,8 +8807,8 @@
    },
    "road_label": "Autovía Juan Manuel Fangio",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autovía Juan Manuel Fangio - Radar",
    "country": "AR"
   },
@@ -8801,8 +8836,8 @@
    },
    "road_label": "RP 210",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 210 - Radar",
    "country": "AR"
   },
@@ -8887,8 +8922,8 @@
    },
    "road_label": "RP 215",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 215 - Radar",
    "country": "AR"
   },
@@ -9080,8 +9115,8 @@
    },
    "road_label": "RP 215",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 215 - Radar",
    "country": "AR"
   },
@@ -9108,13 +9143,13 @@
     "reference": "node/2461077368"
    },
    "road_label": "Autovía Juan Manuel Fangio",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 120,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "80 km/h es un salto brusco respecto de los 120 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     80
    ],
-   "speed_limit_detail": "80 km/h es un salto brusco respecto de los 120 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 120,
    "display_name": "Autovía Juan Manuel Fangio - Radar",
    "country": "AR"
   },
@@ -9196,8 +9231,8 @@
    },
    "road_label": "RP 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 40 - Radar",
    "country": "AR"
   },
@@ -9281,8 +9316,8 @@
    },
    "road_label": "RP 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 40 - Radar",
    "country": "AR"
   },
@@ -9310,8 +9345,8 @@
    },
    "road_label": "RP 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 40 - Radar",
    "country": "AR"
   },
@@ -9397,8 +9432,8 @@
    },
    "road_label": "RP 13",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 13 - Radar",
    "country": "AR"
   },
@@ -9510,8 +9545,8 @@
    },
    "road_label": "RP 13",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 13 - Radar",
    "country": "AR"
   },
@@ -9595,8 +9630,8 @@
    },
    "road_label": "RP 210",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 210 - Radar",
    "country": "AR"
   },
@@ -9626,8 +9661,8 @@
    },
    "road_label": "RP 13",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 13 - Radar",
    "country": "AR"
   },
@@ -9655,8 +9690,8 @@
    },
    "road_label": "RP 210",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 210 - Radar",
    "country": "AR"
   },
@@ -9710,8 +9745,8 @@
    },
    "road_label": "RP 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 40 - Radar (Ruta 40 y Los Abedules)",
    "country": "AR"
   },
@@ -9795,8 +9830,8 @@
    },
    "road_label": "RP 30",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 30 - Radar",
    "country": "AR"
   },
@@ -10040,8 +10075,8 @@
    },
    "road_label": "Acceso Zabala",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "tertiary",
+   "speed_limit_road_kmh": 60,
    "display_name": "Acceso Zabala - Radar",
    "country": "AR"
   },
@@ -10593,6 +10628,9 @@
     "reference": "node/13971703127"
    },
    "road_label": "RP 40",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "primary",
    "display_name": "RP 40 - Radar",
    "country": "AR"
   },
@@ -10755,8 +10793,8 @@
    },
    "road_label": "RP 4",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 4 - Radar",
    "country": "AR"
   },
@@ -11165,8 +11203,8 @@
    },
    "road_label": "RP 49",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 49 - Radar",
    "country": "AR"
   },
@@ -11221,10 +11259,10 @@
     "reference": "node/5198283097"
    },
    "road_label": "RP 53",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM · 40 km/h no es creíble en esta vía: se usa 60 km/h de la calzada principal",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 53 - Radar",
    "country": "AR"
   },
@@ -11498,8 +11536,8 @@
    },
    "road_label": "Autopista Camino Negro",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 60,
    "display_name": "Autopista Camino Negro - Radar",
    "country": "AR"
   },
@@ -11555,8 +11593,8 @@
    },
    "road_label": "Autopista Camino Negro",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 60,
    "display_name": "Autopista Camino Negro - Radar",
    "country": "AR"
   },
@@ -11664,8 +11702,8 @@
    },
    "road_label": "Autopista Camino Negro",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista Camino Negro - Radar",
    "country": "AR"
   },
@@ -11847,8 +11885,8 @@
    },
    "road_label": "Autopista Camino Negro",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista Camino Negro - Radar",
    "country": "AR"
   },
@@ -11900,8 +11938,8 @@
    },
    "road_label": "RP 4",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 4 - Radar",
    "country": "AR"
   },
@@ -12140,8 +12178,8 @@
    },
    "road_label": "RN A1",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "RN A1 - Radar",
    "country": "AR"
   },
@@ -12356,8 +12394,8 @@
    },
    "road_label": "RP 4",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 4 - Radar",
    "country": "AR"
   },
@@ -12509,7 +12547,9 @@
    "source_reference": "node/13546356825",
    "source_version": "ar-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_status": "REVISAR",
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_TRAMO_VECINO",
+   "speed_limit_status": "VALIDO",
    "controls": [
     "VELOCIDAD"
    ],
@@ -12521,10 +12561,10 @@
     "reference": "node/13546356825"
    },
    "road_label": "RP 17",
-   "speed_limit_candidates": [
-    40
-   ],
-   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_detail": "lado A: 60 km/h a 291 m · lado B: 60 km/h a 12 m",
+   "speed_limit_road_class": "primary",
    "display_name": "RP 17 - Radar (Av. Eva Peron  2465 MORON)",
    "country": "AR"
   },
@@ -12688,8 +12728,8 @@
    },
    "road_label": "RN A1",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "RN A1 - Radar",
    "country": "AR"
   },
@@ -12798,8 +12838,8 @@
    },
    "road_label": "RP 4",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 4 - Radar",
    "country": "AR"
   },
@@ -12931,8 +12971,8 @@
    },
    "road_label": "RN A1",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "RN A1 - Radar",
    "country": "AR"
   },
@@ -13014,8 +13054,8 @@
    },
    "road_label": "RP 7",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 7 - Radar",
    "country": "AR"
   },
@@ -13230,8 +13270,8 @@
    },
    "road_label": "RP 7",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 7 - Radar",
    "country": "AR"
   },
@@ -13416,12 +13456,12 @@
     "reference": "node/8495461806"
    },
    "road_label": "RP 7",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_detail": "lado A: 40 km/h a 181 m · lado B: 40 km/h a 103 m · 40 km/h no es creíble en esta vía (sin calzada principal con límite)",
-   "speed_limit_road_class": "tertiary",
+   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     40
    ],
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "tertiary",
    "display_name": "RP 7 - Radar",
    "country": "AR"
   },
@@ -13832,13 +13872,13 @@
     "reference": "node/5343569910"
    },
    "road_label": "Autopista Perito Moreno",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 100,
-   "speed_limit_road_class": "motorway",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 100 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 100 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 100,
    "display_name": "Autopista Perito Moreno - Radar",
    "country": "AR"
   },
@@ -13919,10 +13959,12 @@
     "reference": "node/13546524722"
    },
    "road_label": "RP 4",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_detail": "lado A: 40 km/h a 28 m · 40 km/h no es creíble en esta vía (sin calzada principal con límite)",
+   "speed_limit_road_class": "primary",
    "speed_limit_candidates": [
     40
    ],
-   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
    "display_name": "RP 4 - Radar (Camara de velocidad)",
    "country": "AR"
   },
@@ -13976,8 +14018,8 @@
    },
    "road_label": "RP 7",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 7 - Radar",
    "country": "AR"
   },
@@ -14054,12 +14096,12 @@
     "reference": "node/5133678375"
    },
    "road_label": "Mariano Acosta",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM · 20 km/h no es creíble en esta vía (sin calzada principal con límite)",
-   "speed_limit_road_class": "tertiary",
+   "speed_limit_detail": "20 km/h no es creíble en esta vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     20
    ],
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "tertiary",
    "display_name": "Mariano Acosta - Radar",
    "country": "AR"
   },
@@ -14275,8 +14317,8 @@
    },
    "road_label": "Autopista 25 de Mayo",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista 25 de Mayo - Radar",
    "country": "AR"
   },
@@ -14468,8 +14510,8 @@
    },
    "road_label": "RP 7",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 7 - Radar",
    "country": "AR"
   },
@@ -14841,8 +14883,8 @@
    },
    "road_label": "Autopista Perito Moreno",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 100,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 100,
    "display_name": "Autopista Perito Moreno - Radar",
    "country": "AR"
   },
@@ -14924,8 +14966,8 @@
    },
    "road_label": "RP 23",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 23 - Radar",
    "country": "AR"
   },
@@ -15418,8 +15460,8 @@
    },
    "road_label": "Autopista 25 de Mayo",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista 25 de Mayo - Radar",
    "country": "AR"
   },
@@ -15475,8 +15517,8 @@
    },
    "road_label": "RN A1",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "RN A1 - Radar",
    "country": "AR"
   },
@@ -15771,8 +15813,8 @@
    },
    "road_label": "Autopista 25 de Mayo",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista 25 de Mayo - Radar",
    "country": "AR"
   },
@@ -15828,8 +15870,8 @@
    },
    "road_label": "RP 30",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 30 - Radar",
    "country": "AR"
   },
@@ -15937,8 +15979,8 @@
    },
    "road_label": "Autopista 25 de Mayo",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista 25 de Mayo - Radar",
    "country": "AR"
   },
@@ -16046,8 +16088,8 @@
    },
    "road_label": "Autopista 25 de Mayo",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista 25 de Mayo - Radar",
    "country": "AR"
   },
@@ -16212,8 +16254,8 @@
    },
    "road_label": "Autopista 25 de Mayo",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista 25 de Mayo - Radar",
    "country": "AR"
   },
@@ -16835,8 +16877,8 @@
    },
    "road_label": "Autopista Camino del Buen Ayre",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "Autopista Camino del Buen Ayre - Radar",
    "country": "AR"
   },
@@ -17001,6 +17043,9 @@
     "reference": "node/12749878528"
    },
    "road_label": "RP 4",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "primary",
    "display_name": "RP 4 - Radar",
    "country": "AR"
   },
@@ -17351,6 +17396,9 @@
     "reference": "node/12704894184"
    },
    "road_label": "RP 4",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "primary",
    "display_name": "RP 4 - Radar",
    "country": "AR"
   },
@@ -17379,6 +17427,9 @@
     "reference": "node/12704876605"
    },
    "road_label": "RP 4",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "primary",
    "display_name": "RP 4 - Radar",
    "country": "AR"
   },
@@ -17543,10 +17594,10 @@
     "reference": "node/6085432976"
    },
    "road_label": "RP 23",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM · 30 km/h no es creíble en esta vía: se usa 60 km/h de la calzada principal",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 23 - Radar",
    "country": "AR"
   },
@@ -17681,8 +17732,8 @@
    },
    "road_label": "RN A1",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "RN A1 - Radar",
    "country": "AR"
   },
@@ -18254,6 +18305,8 @@
     "reference": "node/13414762368"
    },
    "road_label": "RP 201",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "primary",
    "display_name": "RP 201 - Radar",
    "country": "AR"
   },
@@ -18311,8 +18364,8 @@
    },
    "road_label": "RP 25",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 25 - Radar",
    "country": "AR"
   },
@@ -19174,8 +19227,8 @@
    },
    "road_label": "Autopista Arturo Illia",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 60,
    "display_name": "Autopista Arturo Illia - Radar",
    "country": "AR"
   },
@@ -19255,8 +19308,8 @@
    },
    "road_label": "RP 23",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 23 - Radar",
    "country": "AR"
   },
@@ -19974,8 +20027,8 @@
    },
    "road_label": "RP 23",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 23 - Radar",
    "country": "AR"
   },
@@ -20418,8 +20471,8 @@
    },
    "road_label": "RP 8",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 8 - Radar",
    "country": "AR"
   },
@@ -21047,8 +21100,8 @@
    },
    "road_label": "RN A1",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
    "display_name": "RN A1 - Radar",
    "country": "AR"
   },
@@ -21256,8 +21309,8 @@
    },
    "road_label": "RP 23",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 23 - Radar",
    "country": "AR"
   },
@@ -21341,8 +21394,8 @@
    },
    "road_label": "RP 4",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 4 - Radar",
    "country": "AR"
   },
@@ -22166,8 +22219,8 @@
    },
    "road_label": "RP 27",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 27 - Radar",
    "country": "AR"
   },
@@ -22197,8 +22250,8 @@
    },
    "road_label": "RP 27",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 27 - Radar",
    "country": "AR"
   },
@@ -22285,8 +22338,8 @@
    },
    "road_label": "RP 23",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 23 - Radar",
    "country": "AR"
   },
@@ -22340,8 +22393,8 @@
    },
    "road_label": "RP 6",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 6 - Radar",
    "country": "AR"
   },
@@ -22539,8 +22592,8 @@
    },
    "road_label": "RP 27",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 27 - Radar",
    "country": "AR"
   },
@@ -22624,8 +22677,8 @@
    },
    "road_label": "RP 4",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 4 - Radar",
    "country": "AR"
   },
@@ -22737,8 +22790,8 @@
    },
    "road_label": "Autopista Camino del Buen Ayre",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 60,
    "display_name": "Autopista Camino del Buen Ayre - Radar",
    "country": "AR"
   },
@@ -23003,8 +23056,8 @@
    },
    "road_label": "RP 27",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 27 - Radar",
    "country": "AR"
   },
@@ -23086,8 +23139,8 @@
    },
    "road_label": "RP 27",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 27 - Radar",
    "country": "AR"
   },
@@ -23115,8 +23168,8 @@
    },
    "road_label": "RP 27",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 27 - Radar",
    "country": "AR"
   },
@@ -23450,8 +23503,8 @@
    },
    "road_label": "RP 4",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 4 - Radar",
    "country": "AR"
   },
@@ -23481,8 +23534,8 @@
    },
    "road_label": "RP 4",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 4 - Radar",
    "country": "AR"
   },
@@ -23618,8 +23671,8 @@
    },
    "road_label": "RP 4",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 4 - Radar",
    "country": "AR"
   },
@@ -23703,8 +23756,8 @@
    },
    "road_label": "RP 24",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 24 - Radar",
    "country": "AR"
   },
@@ -23734,8 +23787,8 @@
    },
    "road_label": "RP 23",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 23 - Radar",
    "country": "AR"
   },
@@ -23765,10 +23818,10 @@
     "reference": "node/7060547763"
    },
    "road_label": "RP133-01",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "lado A: 40 km/h a 1007 m · lado B: 60 km/h a 392 m",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP133-01 - Radar",
    "country": "AR"
   },
@@ -23854,10 +23907,10 @@
     "reference": "node/7060547762"
    },
    "road_label": "RP133-01",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "lado A: 40 km/h a 1079 m · lado B: 60 km/h a 330 m",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP133-01 - Radar",
    "country": "AR"
   },
@@ -23913,8 +23966,8 @@
    },
    "road_label": "RP 27",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 27 - Radar",
    "country": "AR"
   },
@@ -23992,13 +24045,13 @@
     "reference": "node/2461647847"
    },
    "road_label": "RP 6",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 120,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 120 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 120 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 120,
    "display_name": "RP 6 - Radar",
    "country": "AR"
   },
@@ -24052,8 +24105,8 @@
    },
    "road_label": "RP 27",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 27 - Radar",
    "country": "AR"
   },
@@ -24160,8 +24213,8 @@
    },
    "road_label": "RP 8",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 8 - Radar",
    "country": "AR"
   },
@@ -24268,13 +24321,13 @@
     "reference": "node/2461647840"
    },
    "road_label": "RP 6",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 120,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 120 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 120 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 120,
    "display_name": "RP 6 - Radar",
    "country": "AR"
   },
@@ -24410,8 +24463,8 @@
    },
    "road_label": "RP 27",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 27 - Radar",
    "country": "AR"
   },
@@ -24438,6 +24491,9 @@
     "reference": "node/12845248791"
    },
    "road_label": "RP 8",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "primary",
    "display_name": "RP 8 - Radar",
    "country": "AR"
   },
@@ -24635,8 +24691,8 @@
    },
    "road_label": "RP 24",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 24 - Radar",
    "country": "AR"
   },
@@ -24720,8 +24776,8 @@
    },
    "road_label": "RP 24",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 24 - Radar",
    "country": "AR"
   },
@@ -24777,8 +24833,8 @@
    },
    "road_label": "RP 24",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 24 - Radar",
    "country": "AR"
   },
@@ -24935,13 +24991,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/10695192211",
    "road_label": "Autopista Panamericana (colectora oeste)",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 49,
-    "reference": "node/10695192211",
-    "original_position": [
-     -34.438,
-     -58.7999
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10695192211"
    },
    "controls": [
     "VELOCIDAD"
@@ -25191,8 +25243,8 @@
    },
    "road_label": "RP 51",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 51 - Radar",
    "country": "AR"
   },
@@ -25276,8 +25328,8 @@
    },
    "road_label": "RP 26",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 26 - Radar",
    "country": "AR"
   },
@@ -25362,8 +25414,8 @@
    },
    "road_label": "RP 26",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 26 - Radar",
    "country": "AR"
   },
@@ -25391,8 +25443,8 @@
    },
    "road_label": "RP 27",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 27 - Radar",
    "country": "AR"
   },
@@ -25420,8 +25472,8 @@
    },
    "road_label": "RP 27",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 27 - Radar",
    "country": "AR"
   },
@@ -25448,10 +25500,10 @@
     "reference": "node/9987112618"
    },
    "road_label": "RP 27",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 27 - Radar",
    "country": "AR"
   },
@@ -25479,8 +25531,8 @@
    },
    "road_label": "RP 27",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 27 - Radar",
    "country": "AR"
   },
@@ -25583,10 +25635,10 @@
     "reference": "node/5523515740"
    },
    "road_label": "RP 47",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM · 40 km/h no es creíble en esta vía: se usa 60 km/h de la calzada principal",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 47 - Radar",
    "country": "AR"
   },
@@ -25641,10 +25693,10 @@
     "reference": "node/3972700645"
    },
    "road_label": "RP 47",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM · 40 km/h no es creíble en esta vía: se usa 60 km/h de la calzada principal",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 47 - Radar",
    "country": "AR"
   },
@@ -25673,10 +25725,10 @@
     "reference": "node/5523515741"
    },
    "road_label": "RP 39",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 39 - Radar",
    "country": "AR"
   },
@@ -25894,12 +25946,12 @@
     "offset_m": 0.0,
     "reference": "node/6991231216"
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM · 20 km/h no es creíble en esta vía (sin calzada principal con límite)",
-   "speed_limit_road_class": "living_street",
+   "speed_limit_detail": "20 km/h no es creíble en esta vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     20
    ],
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "living_street",
    "display_name": "Radar",
    "country": "AR"
   },
@@ -25958,8 +26010,8 @@
    },
    "road_label": "RP 31",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 31 - Radar",
    "country": "AR"
   },
@@ -25986,13 +26038,13 @@
     "reference": "node/2461647829"
    },
    "road_label": "RP 6",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 120,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "80 km/h es un salto brusco respecto de los 120 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     80
    ],
-   "speed_limit_detail": "80 km/h es un salto brusco respecto de los 120 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 120,
    "display_name": "RP 6 - Radar",
    "country": "AR"
   },
@@ -26159,10 +26211,10 @@
     "reference": "node/6276318730"
    },
    "road_label": "RP 41",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_detail": "La vía del radar tiene límite en OSM · 40 km/h no es creíble en esta vía: se usa 80 km/h de la calzada principal",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 41 - Radar",
    "country": "AR"
   },
@@ -26191,10 +26243,10 @@
     "reference": "node/6276318729"
    },
    "road_label": "RP 41",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_detail": "La vía del radar tiene límite en OSM · 40 km/h no es creíble en esta vía: se usa 80 km/h de la calzada principal",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 41 - Radar",
    "country": "AR"
   },
@@ -26270,13 +26322,13 @@
     "reference": "node/6163860461"
    },
    "road_label": "RP 6",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 120,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 120 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 120 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 120,
    "display_name": "RP 6 - Radar",
    "country": "AR"
   },
@@ -26332,8 +26384,8 @@
    },
    "road_label": "RP 31",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 31 - Radar",
    "country": "AR"
   },
@@ -26361,8 +26413,8 @@
    },
    "road_label": "RP 31",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 31 - Radar",
    "country": "AR"
   },
@@ -26390,8 +26442,8 @@
    },
    "road_label": "RN A24",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN A24 - Radar",
    "country": "AR"
   },
@@ -26473,8 +26525,8 @@
    },
    "road_label": "RP 6",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 6 - Radar",
    "country": "AR"
   },
@@ -26489,9 +26541,7 @@
    "source_reference": "node/12467359028",
    "source_version": "ar-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_kmh": 60,
-   "speed_limit_source": "OSM_ETIQUETA",
-   "speed_limit_status": "VALIDO",
+   "speed_limit_status": "REVISAR",
    "controls": [
     "VELOCIDAD"
    ],
@@ -26501,6 +26551,13 @@
     "reference": "node/12467359028"
    },
    "road_label": "RN 33",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 110,
+   "speed_limit_road_class": "trunk",
+   "speed_limit_candidates": [
+    60
+   ],
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -26527,6 +26584,9 @@
     "reference": "node/12467359029"
    },
    "road_label": "RN 33",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -26796,6 +26856,9 @@
     "reference": "node/12467359042"
    },
    "road_label": "RN 33",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -26822,6 +26885,9 @@
     "reference": "node/12467359043"
    },
    "road_label": "RN 33",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -27089,8 +27155,8 @@
    },
    "road_label": "RP 32",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 32 - Radar",
    "country": "AR"
   },
@@ -27472,8 +27538,8 @@
    },
    "road_label": "RP 32",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 32 - Radar",
    "country": "AR"
   },
@@ -27501,8 +27567,8 @@
    },
    "road_label": "RN 7",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 7 - Radar",
    "country": "AR"
   },
@@ -27740,6 +27806,9 @@
     "reference": "node/12549163948"
    },
    "road_label": "RN 33",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -27767,8 +27836,8 @@
    },
    "road_label": "RN 188",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 188 - Radar",
    "country": "AR"
   },
@@ -27796,8 +27865,8 @@
    },
    "road_label": "RN 188",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 188 - Radar",
    "country": "AR"
   },
@@ -27825,8 +27894,8 @@
    },
    "road_label": "RN 33",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -27880,8 +27949,8 @@
    },
    "road_label": "RN 33",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -27909,8 +27978,8 @@
    },
    "road_label": "RN 33",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -28015,13 +28084,13 @@
     "reference": "node/2461823068"
    },
    "road_label": "RN 12",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 120,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 120 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 120 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 120,
    "display_name": "RN 12 - Radar",
    "country": "AR"
   },
@@ -28157,6 +28226,9 @@
     "reference": "node/13141443686"
    },
    "road_label": "RP 93",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "secondary",
    "display_name": "RP 93 - Radar",
    "country": "AR"
   },
@@ -28184,8 +28256,8 @@
    },
    "road_label": "RN 33",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -28214,6 +28286,9 @@
     "reference": "node/12514567154"
    },
    "road_label": "RN 33",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -28241,8 +28316,8 @@
    },
    "road_label": "RN 33",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -28270,8 +28345,8 @@
    },
    "road_label": "RP 18",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 18 - Radar",
    "country": "AR"
   },
@@ -28328,8 +28403,8 @@
    },
    "road_label": "RN 188",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "RN 188 - Radar",
    "country": "AR"
   },
@@ -28701,8 +28776,8 @@
    },
    "road_label": "RN 33",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -28730,8 +28805,8 @@
    },
    "road_label": "RN 33",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -28753,13 +28828,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/13276627872",
    "road_label": "RN 7",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 45,
-    "reference": "node/13276627873",
-    "original_position": [
-     -33.235424,
-     -68.148879
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13276627873"
    },
    "controls": [
     "VELOCIDAD"
@@ -28785,17 +28856,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 7",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 53,
-    "reference": "node/13276627872",
-    "original_position": [
-     -33.235424,
-     -68.148879
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13276627872"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 120,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 120,
    "controls": [
     "VELOCIDAD"
    ],
@@ -28826,8 +28893,8 @@
    },
    "road_label": "RN 33",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -29126,8 +29193,8 @@
    },
    "road_label": "RP 18",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 18 - Radar",
    "country": "AR"
   },
@@ -29291,8 +29358,8 @@
    },
    "road_label": "RP 14",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 14 - Radar",
    "country": "AR"
   },
@@ -29343,6 +29410,9 @@
     "reference": "node/12498688244"
    },
    "road_label": "RN 33",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -29370,8 +29440,8 @@
    },
    "road_label": "RN 33",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -29637,8 +29707,8 @@
    },
    "road_label": "RP 14",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 14 - Radar",
    "country": "AR"
   },
@@ -29692,8 +29762,8 @@
    },
    "road_label": "RN 33",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -30007,8 +30077,8 @@
    },
    "road_label": "RN 33",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 33 - Radar",
    "country": "AR"
   },
@@ -30905,6 +30975,9 @@
     "reference": "node/1310612386"
    },
    "road_label": "Autopista Ernesto Guevara",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "motorway",
    "display_name": "Autopista Ernesto Guevara - Cámara de semáforo",
    "country": "AR"
   },
@@ -31543,8 +31616,8 @@
    },
    "road_label": "Avenida Arturo Illia",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "Avenida Arturo Illia - Radar",
    "country": "AR"
   },
@@ -31787,8 +31860,8 @@
    },
    "road_label": "RN A12",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN A12 - Radar",
    "country": "AR"
   },
@@ -32492,8 +32565,8 @@
    },
    "road_label": "RN 9 (variante)",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 9 (variante) - Radar",
    "country": "AR"
   },
@@ -32703,8 +32776,8 @@
    },
    "road_label": "RN 9 (variante)",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 9 (variante) - Radar",
    "country": "AR"
   },
@@ -32732,8 +32805,8 @@
    },
    "road_label": "RN 9 (variante)",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 9 (variante) - Radar",
    "country": "AR"
   },
@@ -33079,8 +33152,8 @@
    },
    "road_label": "RN A12",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN A12 - Radar",
    "country": "AR"
   },
@@ -33134,8 +33207,8 @@
    },
    "road_label": "RN 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -33189,8 +33262,8 @@
    },
    "road_label": "RN 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -33218,8 +33291,8 @@
    },
    "road_label": "RN 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -33247,8 +33320,8 @@
    },
    "road_label": "RN 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -33270,13 +33343,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/13313421367",
    "road_label": "RN 174",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 17,
-    "reference": "node/13313421367",
-    "original_position": [
-     -32.856337,
-     -60.61289
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13313421367"
    },
    "controls": [
     "VELOCIDAD"
@@ -33308,8 +33377,8 @@
    },
    "road_label": "RN 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -33324,9 +33393,7 @@
    "source_reference": "node/13335010806",
    "source_version": "ar-2026-11-01",
    "confidence_score": 50,
-   "speed_limit_kmh": 60,
-   "speed_limit_source": "OSM_ETIQUETA",
-   "speed_limit_status": "VALIDO",
+   "speed_limit_status": "REVISAR",
    "controls": [
     "VELOCIDAD_PROMEDIO"
    ],
@@ -33336,6 +33403,13 @@
     "reference": "node/13335010806"
    },
    "road_label": "RN A12",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 110,
+   "speed_limit_road_class": "trunk",
+   "speed_limit_candidates": [
+    60
+   ],
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "display_name": "RN A12 - Control de velocidad promedio",
    "country": "AR"
   },
@@ -33363,8 +33437,8 @@
    },
    "road_label": "RN 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -33412,17 +33486,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 40",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 37,
-    "reference": "node/5769347140",
-    "original_position": [
-     -32.849495,
-     -68.804077
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/5769347140"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -33447,13 +33517,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/5769347140",
    "road_label": "RN 40",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 20,
-    "reference": "node/11076913298",
-    "original_position": [
-     -32.849495,
-     -68.804077
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11076913298"
    },
    "controls": [
     "VELOCIDAD"
@@ -33485,8 +33551,8 @@
    },
    "road_label": "RN 34",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 34 - Radar",
    "country": "AR"
   },
@@ -33568,8 +33634,8 @@
    },
    "road_label": "RN 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -33597,8 +33663,8 @@
    },
    "road_label": "RN 40",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 40 - Radar",
    "country": "AR"
   },
@@ -33620,13 +33686,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11076913302",
    "road_label": "RN 40",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 39,
-    "reference": "node/11076913302",
-    "original_position": [
-     -32.836808,
-     -68.804929
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11076913302"
    },
    "controls": [
     "VELOCIDAD"
@@ -33650,19 +33712,15 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 40",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 61,
-    "reference": "node/11076913303",
-    "original_position": [
-     -32.836808,
-     -68.804929
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11076913303"
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
-   "speed_limit_road_class": "trunk",
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -33721,8 +33779,8 @@
    },
    "road_label": "RN 34",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 34 - Radar",
    "country": "AR"
   },
@@ -33803,8 +33861,8 @@
    },
    "road_label": "RN A12",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN A12 - Radar",
    "country": "AR"
   },
@@ -33832,8 +33890,8 @@
    },
    "road_label": "RN 9 (variante)",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 9 (variante) - Radar",
    "country": "AR"
   },
@@ -33858,13 +33916,13 @@
     "reference": "node/12292802615"
    },
    "road_label": "RN 34",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 100,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 100 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 100 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 100,
    "display_name": "RN 34 - Radar",
    "country": "AR"
   },
@@ -33892,8 +33950,8 @@
    },
    "road_label": "RN 9 (variante)",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 9 (variante) - Radar",
    "country": "AR"
   },
@@ -33921,8 +33979,8 @@
    },
    "road_label": "RN 9 (variante)",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 9 (variante) - Radar",
    "country": "AR"
   },
@@ -33950,8 +34008,8 @@
    },
    "road_label": "RN A12",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN A12 - Radar",
    "country": "AR"
   },
@@ -33978,6 +34036,8 @@
     "reference": "node/13276727602"
    },
    "road_label": "RP 34",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "primary",
    "display_name": "RP 34 - Radar",
    "country": "AR"
   },
@@ -34005,8 +34065,8 @@
    },
    "road_label": "RN 9 (variante)",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 9 (variante) - Radar",
    "country": "AR"
   },
@@ -34034,8 +34094,8 @@
    },
    "road_label": "RN 9 (variante)",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 9 (variante) - Radar",
    "country": "AR"
   },
@@ -34062,6 +34122,8 @@
     "reference": "node/13276716461"
    },
    "road_label": "RP 34",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "primary",
    "display_name": "RP 34 - Radar",
    "country": "AR"
   },
@@ -34113,8 +34175,8 @@
    },
    "road_label": "RN 34",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 34 - Radar",
    "country": "AR"
   },
@@ -34142,8 +34204,8 @@
    },
    "road_label": "RN 34",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 34 - Radar",
    "country": "AR"
   },
@@ -34325,13 +34387,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12971236059",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 37,
-    "reference": "node/12971236059",
-    "original_position": [
-     -32.542256,
-     -58.347692
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12971236059"
    },
    "controls": [
     "VELOCIDAD"
@@ -34357,13 +34415,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/4280782097",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 24,
-    "reference": "node/4280782097",
-    "original_position": [
-     -32.471366,
-     -58.302657
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/4280782097"
    },
    "controls": [
     "VELOCIDAD"
@@ -34635,6 +34689,8 @@
     "reference": "node/14303704571"
    },
    "road_label": "RP 11",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "primary",
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -34689,8 +34745,8 @@
    },
    "road_label": "RP 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -34717,6 +34773,9 @@
     "reference": "node/3141059247"
    },
    "road_label": "RP 20",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "primary",
    "display_name": "RP 20 - Radar",
    "country": "AR"
   },
@@ -34773,10 +34832,10 @@
     "reference": "node/6167149908"
    },
    "road_label": "RP 11",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 11 - Radar",
    "country": "AR"
   },
@@ -35091,8 +35150,8 @@
    },
    "road_label": "RP 14",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 14 - Radar",
    "country": "AR"
   },
@@ -35120,8 +35179,8 @@
    },
    "road_label": "RP 14",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 14 - Radar",
    "country": "AR"
   },
@@ -35149,8 +35208,8 @@
    },
    "road_label": "RN 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 11 - Radar",
    "country": "AR"
   },
@@ -35178,8 +35237,8 @@
    },
    "road_label": "RN 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 11 - Radar",
    "country": "AR"
   },
@@ -35207,8 +35266,8 @@
    },
    "road_label": "RN 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 11 - Radar",
    "country": "AR"
   },
@@ -35236,8 +35295,8 @@
    },
    "road_label": "RN 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 11 - Radar",
    "country": "AR"
   },
@@ -35265,8 +35324,8 @@
    },
    "road_label": "RN 11",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 11 - Radar",
    "country": "AR"
   },
@@ -35424,8 +35483,8 @@
    },
    "road_label": "RN A7",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN A7 - Radar",
    "country": "AR"
   },
@@ -36097,6 +36156,9 @@
     "reference": "node/13330301641"
    },
    "road_label": "RP 9",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "primary",
    "display_name": "RP 9 - Radar",
    "country": "AR"
   },
@@ -36261,12 +36323,12 @@
     "reference": "node/11955358839"
    },
    "road_label": "RP U-113",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM · 40 km/h no es creíble en esta vía (sin calzada principal con límite)",
-   "speed_limit_road_class": "secondary",
+   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     40
    ],
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "secondary",
    "display_name": "RP U-113 - Radar",
    "country": "AR"
   },
@@ -36321,8 +36383,8 @@
    },
    "road_label": "RP U-113",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP U-113 - Radar",
    "country": "AR"
   },
@@ -36459,8 +36521,8 @@
    },
    "road_label": "RN 38",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "RN 38 - Radar (Poste Contador de Tráfico)",
    "country": "AR"
   },
@@ -36489,6 +36551,8 @@
     "reference": "node/12843118965"
    },
    "road_label": "RP 1",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "primary",
    "display_name": "RP 1 - Radar",
    "country": "AR"
   },
@@ -36590,17 +36654,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 145,
-    "reference": "node/11014018264",
-    "original_position": [
-     -30.58689,
-     -57.976646
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11014018264"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 110,
    "controls": [
     "VELOCIDAD"
    ],
@@ -36625,17 +36685,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 148,
-    "reference": "node/13144355404",
-    "original_position": [
-     -30.576966,
-     -57.975698
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13144355404"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 110,
    "controls": [
     "VELOCIDAD"
    ],
@@ -36744,8 +36800,8 @@
    },
    "road_label": "RN 34",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 34 - Radar",
    "country": "AR"
   },
@@ -37030,13 +37086,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11014003593",
    "road_label": "RN 117",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 78,
-    "reference": "node/11014003593",
-    "original_position": [
-     -29.721607,
-     -57.150972
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11014003593"
    },
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -37095,8 +37147,8 @@
    },
    "road_label": "RN 157",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 157 - Radar",
    "country": "AR"
   },
@@ -37124,8 +37176,8 @@
    },
    "road_label": "RN 157",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 157 - Radar",
    "country": "AR"
   },
@@ -37153,8 +37205,8 @@
    },
    "road_label": "RN 157",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 157 - Radar",
    "country": "AR"
   },
@@ -37182,8 +37234,8 @@
    },
    "road_label": "RN 157",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 157 - Radar",
    "country": "AR"
   },
@@ -37211,8 +37263,8 @@
    },
    "road_label": "RN 157",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 157 - Radar",
    "country": "AR"
   },
@@ -37240,8 +37292,8 @@
    },
    "road_label": "RN 157",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 157 - Radar",
    "country": "AR"
   },
@@ -37271,8 +37323,8 @@
    },
    "road_label": "RN 60",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 60 - Radar",
    "country": "AR"
   },
@@ -37294,13 +37346,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11051198652",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 34,
-    "reference": "node/11051198652",
-    "original_position": [
-     -29.180076,
-     -56.679197
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11051198652"
    },
    "controls": [
     "VELOCIDAD"
@@ -37357,8 +37405,8 @@
    },
    "road_label": "RN 34",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 34 - Radar",
    "country": "AR"
   },
@@ -37485,13 +37533,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/3267187468",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 86,
-    "reference": "node/3267187468",
-    "original_position": [
-     -29.082537,
-     -56.545242
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/3267187468"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -37578,13 +37622,13 @@
     "reference": "node/5337486837"
    },
    "road_label": "RN 157",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 100,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 100 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 100 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 100,
    "display_name": "RN 157 - Radar",
    "country": "AR"
   },
@@ -37637,13 +37681,13 @@
     "reference": "node/5337486843"
    },
    "road_label": "RN 34",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 110,
    "display_name": "RN 34 - Radar",
    "country": "AR"
   },
@@ -37753,8 +37797,8 @@
    },
    "road_label": "RN 9",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 9 - Radar",
    "country": "AR"
   },
@@ -37888,8 +37932,8 @@
    },
    "road_label": "RN 12",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 12 - Radar",
    "country": "AR"
   },
@@ -37909,13 +37953,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11014002126",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 75,
-    "reference": "node/11014002126",
-    "original_position": [
-     -28.139613,
-     -58.758453
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11014002126"
    },
    "speed_limit_kmh": 110,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -37969,13 +38009,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11013996536",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 46,
-    "reference": "node/11013996536",
-    "original_position": [
-     -27.969462,
-     -56.010088
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11013996536"
    },
    "controls": [
     "VELOCIDAD"
@@ -37999,13 +38035,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11013986086",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 72,
-    "reference": "node/11013986086",
-    "original_position": [
-     -27.965759,
-     -56.007153
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11013986086"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -38033,13 +38065,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11013992643",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 25,
-    "reference": "node/11013992643",
-    "original_position": [
-     -27.945591,
-     -58.791957
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11013992643"
    },
    "controls": [
     "VELOCIDAD"
@@ -38173,13 +38201,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12898202788",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 34,
-    "reference": "node/12898202788",
-    "original_position": [
-     -27.7062,
-     -58.761203
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12898202788"
    },
    "controls": [
     "VELOCIDAD"
@@ -38203,13 +38227,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12896011566",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 80,
-    "reference": "node/12896011566",
-    "original_position": [
-     -27.702155,
-     -58.760695
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12896011566"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -38243,8 +38263,8 @@
    },
    "road_label": "RP 4",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 4 - Radar",
    "country": "AR"
   },
@@ -38264,13 +38284,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/4559209251",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 69,
-    "reference": "node/4559209251",
-    "original_position": [
-     -27.632524,
-     -56.901807
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/4559209251"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -38296,13 +38312,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/4559209252",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 107,
-    "reference": "node/4559209252",
-    "original_position": [
-     -27.627982,
-     -56.913814
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/4559209252"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -38328,13 +38340,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12624108554",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 84,
-    "reference": "node/12624108554",
-    "original_position": [
-     -27.617202,
-     -55.325929
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12624108554"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -38370,8 +38378,8 @@
    },
    "road_label": "RP 4",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 4 - Radar",
    "country": "AR"
   },
@@ -38401,8 +38409,8 @@
    },
    "road_label": "RP 4",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 4 - Radar",
    "country": "AR"
   },
@@ -38480,13 +38488,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12898202787",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 16,
-    "reference": "node/12898202787",
-    "original_position": [
-     -27.584179,
-     -58.740362
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12898202787"
    },
    "controls": [
     "VELOCIDAD"
@@ -38512,13 +38516,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12896000238",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 24,
-    "reference": "node/12896000238",
-    "original_position": [
-     -27.579665,
-     -58.740629
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12896000238"
    },
    "controls": [
     "VELOCIDAD"
@@ -38542,13 +38542,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12898156653",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 67,
-    "reference": "node/12898156653",
-    "original_position": [
-     -27.571642,
-     -58.741949
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12898156653"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -38574,13 +38570,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12895710730",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 130,
-    "reference": "node/12895710730",
-    "original_position": [
-     -27.567255,
-     -58.743268
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12895710730"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -38667,8 +38659,8 @@
    },
    "road_label": "RN 105",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 105 - Radar",
    "country": "AR"
   },
@@ -38690,17 +38682,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 121,
-    "reference": "node/13296917833",
-    "original_position": [
-     -27.507594,
-     -55.129928
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13296917833"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -38730,10 +38718,10 @@
     "reference": "node/5337486839"
    },
    "road_label": "RN 9",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "RN 9 - Radar",
    "country": "AR"
   },
@@ -38890,17 +38878,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "Autovía Nicolás Avellaneda",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 31,
-    "reference": "node/10939744273",
-    "original_position": [
-     -27.430677,
-     -58.932646
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10939744273"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 120,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 120,
    "controls": [
     "VELOCIDAD"
    ],
@@ -38925,13 +38909,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/10939744273",
    "road_label": "RN 16",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 19,
-    "reference": "node/10939744274",
-    "original_position": [
-     -27.430677,
-     -58.932646
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10939744274"
    },
    "controls": [
     "VELOCIDAD"
@@ -39451,20 +39431,16 @@
    "source_reference": "Serie 271; Provincial Corrientes; ubicado por planilla",
    "source_version": "ansv-2026-11-01",
    "confidence_score": 60,
-   "speed_limit_status": "SIN_LIMITE",
-   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/11013973395",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 61,
-    "reference": "node/11013973395",
-    "original_position": [
-     -27.390583,
-     -58.556759
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11013973395"
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_class": "unclassified",
+   "speed_limit_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -39516,17 +39492,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 58,
-    "reference": "node/13634009049",
-    "original_position": [
-     -27.368234,
-     -58.410187
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13634009049"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "controls": [
     "VELOCIDAD"
    ],
@@ -39585,8 +39557,8 @@
    },
    "road_label": "RN 12",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 12 - Radar",
    "country": "AR"
   },
@@ -39608,13 +39580,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/5060116784",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 32,
-    "reference": "node/5060116784",
-    "original_position": [
-     -27.366164,
-     -58.300981
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/5060116784"
    },
    "controls": [
     "VELOCIDAD"
@@ -39769,13 +39737,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/9947284914",
    "road_label": "RN 11",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 118,
-    "reference": "node/9947284914",
-    "original_position": [
-     -27.31417,
-     -58.996491
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/9947284914"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -39803,17 +39767,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 11",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 87,
-    "reference": "node/11641972176",
-    "original_position": [
-     -27.311603,
-     -58.995679
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11641972176"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 110,
    "controls": [
     "VELOCIDAD"
    ],
@@ -39950,10 +39910,10 @@
     "reference": "node/5361885003"
    },
    "road_label": "RN 14",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
    "speed_limit_detail": "La vía del radar tiene límite en OSM · 40 km/h no es creíble en esta vía: se usa 110 km/h de la calzada principal",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 110,
    "display_name": "RN 14 - Radar",
    "country": "AR"
   },
@@ -40008,8 +39968,8 @@
    },
    "road_label": "RN 34",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 34 - Radar",
    "country": "AR"
   },
@@ -40031,17 +39991,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 82,
-    "reference": "node/9583695349",
-    "original_position": [
-     -27.173259,
-     -55.449868
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/9583695349"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "controls": [
     "VELOCIDAD"
    ],
@@ -40066,17 +40022,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 16",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 61,
-    "reference": "node/12896031823",
-    "original_position": [
-     -27.162471,
-     -59.388585
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12896031823"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 110,
    "controls": [
     "VELOCIDAD"
    ],
@@ -40133,6 +40085,9 @@
     "reference": "node/13328183490"
    },
    "road_label": "RN 12",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 12 - Radar",
    "country": "AR"
   },
@@ -40209,6 +40164,9 @@
     "reference": "node/13226753595"
    },
    "road_label": "RN 12",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 80,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 12 - Radar",
    "country": "AR"
   },
@@ -40314,8 +40272,8 @@
    },
    "road_label": "RN 12",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 12 - Radar",
    "country": "AR"
   },
@@ -40342,6 +40300,9 @@
     "reference": "node/13673093667"
    },
    "road_label": "RN 14",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 14 - Radar",
    "country": "AR"
   },
@@ -40368,6 +40329,9 @@
     "reference": "node/12747548078"
    },
    "road_label": "RN 12",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 80,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 12 - Radar",
    "country": "AR"
   },
@@ -40545,6 +40509,8 @@
     "reference": "node/12898189816"
    },
    "road_label": "RN 16",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 16 - Radar",
    "country": "AR"
   },
@@ -40586,25 +40552,18 @@
    "source_reference": "Pto. Rico; ubicado por planilla",
    "source_version": "ansv-2026-11-01",
    "confidence_score": 60,
-   "speed_limit_status": "REVISAR",
-   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/12080267283",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 138,
-    "reference": "node/12080267283",
-    "original_position": [
-     -26.820638,
-     -54.991812
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12080267283"
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_class": "unclassified",
+   "speed_limit_kmh": 60,
    "controls": [
     "VELOCIDAD"
-   ],
-   "speed_limit_candidates": [
-    40
    ],
    "display_name": "RN 12 - Radar km 1476,3",
    "country": "AR"
@@ -40815,6 +40774,9 @@
     "reference": "node/13052148083"
    },
    "road_label": "RN 12",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 12 - Radar",
    "country": "AR"
   },
@@ -41072,8 +41034,8 @@
    },
    "road_label": "RN 12",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 12 - Radar",
    "country": "AR"
   },
@@ -41095,17 +41057,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 73,
-    "reference": "node/10570294588",
-    "original_position": [
-     -26.691237,
-     -54.823247
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10570294588"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -41130,17 +41088,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 78,
-    "reference": "node/6149738038",
-    "original_position": [
-     -26.689391,
-     -54.814716
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/6149738038"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -41223,6 +41177,9 @@
     "reference": "node/8963963086"
    },
    "road_label": "RN 12",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 12 - Radar",
    "country": "AR"
   },
@@ -41238,25 +41195,16 @@
    "source_reference": "Eldorado; ubicado por planilla",
    "source_version": "ansv-2026-11-01",
    "confidence_score": 60,
-   "speed_limit_status": "REVISAR",
-   "speed_limit_detail": "lado A: 80 km/h a 276 m · lado B: 60 km/h a 161 m · el más cercano es el menor",
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/12624131943",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 83,
-    "reference": "node/12624131943",
-    "original_position": [
-     -26.443992,
-     -54.644202
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12624131943"
    },
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
-   "speed_limit_road_class": "trunk",
-   "speed_limit_candidates": [
-    60,
-    80
-   ],
+   "speed_limit_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -41308,17 +41256,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 67,
-    "reference": "node/12348850413",
-    "original_position": [
-     -26.323115,
-     -54.615359
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12348850413"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -41349,8 +41293,8 @@
    },
    "road_label": "RN 12",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 12 - Radar",
    "country": "AR"
   },
@@ -41372,13 +41316,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12624136001",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 32,
-    "reference": "node/12624136001",
-    "original_position": [
-     -26.317721,
-     -54.615645
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12624136001"
    },
    "controls": [
     "VELOCIDAD"
@@ -41404,13 +41344,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/10090000260",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 53,
-    "reference": "node/10090000260",
-    "original_position": [
-     -26.281742,
-     -54.613343
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10090000260"
    },
    "controls": [
     "VELOCIDAD"
@@ -41469,6 +41405,9 @@
     "reference": "node/12624136002"
    },
    "road_label": "RN 101",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "primary",
    "display_name": "RN 101 - Radar",
    "country": "AR"
   },
@@ -41631,6 +41570,8 @@
     "reference": "node/13333607277"
    },
    "road_label": "RN 12",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 12 - Radar",
    "country": "AR"
   },
@@ -41684,8 +41625,8 @@
    },
    "road_label": "RN 12",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 12 - Radar",
    "country": "AR"
   },
@@ -41712,6 +41653,9 @@
     "reference": "node/12340804747"
    },
    "road_label": "RN 12",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 12 - Radar",
    "country": "AR"
   },
@@ -41733,17 +41677,13 @@
    "speed_limit_detail": "lado B: 60 km/h a 389 m",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 60,
-    "reference": "node/12624135080",
-    "original_position": [
-     -25.982493,
-     -54.58144
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12624135080"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -41822,13 +41762,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11500016574",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 21,
-    "reference": "node/11500016574",
-    "original_position": [
-     -25.735084,
-     -54.533728
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11500016574"
    },
    "controls": [
     "VELOCIDAD"
@@ -41945,6 +41881,9 @@
     "reference": "node/13298465679"
    },
    "road_label": "RN 12",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_kmh": 60,
+   "speed_limit_road_class": "trunk",
    "display_name": "RN 12 - Radar",
    "country": "AR"
   },
@@ -42020,17 +41959,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 143,
-    "reference": "node/11497875965",
-    "original_position": [
-     -25.634321,
-     -54.540252
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11497875965"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -42055,13 +41990,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/13298465101",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 24,
-    "reference": "node/13298465102",
-    "original_position": [
-     -25.618218,
-     -54.555626
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13298465102"
    },
    "controls": [
     "VELOCIDAD"
@@ -42087,17 +42018,13 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 71,
-    "reference": "node/13298465101",
-    "original_position": [
-     -25.617534,
-     -54.556149
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13298465101"
    },
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 60,
    "controls": [
     "VELOCIDAD"
    ],
@@ -42235,8 +42162,8 @@
    },
    "road_label": "RN 51",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "RN 51 - Radar",
    "country": "AR"
   },
@@ -42264,8 +42191,8 @@
    },
    "road_label": "RN 51",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
    "display_name": "RN 51 - Radar",
    "country": "AR"
   },
@@ -42462,10 +42389,10 @@
     "reference": "node/6109936962"
    },
    "road_label": "RP 28",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 28 - Radar",
    "country": "AR"
   },
@@ -42493,8 +42420,8 @@
    },
    "road_label": "RP 28",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 28 - Radar",
    "country": "AR"
   },
@@ -42524,8 +42451,8 @@
    },
    "road_label": "RN 9",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RN 9 - Radar",
    "country": "AR"
   },
@@ -42553,8 +42480,8 @@
    },
    "road_label": "RP 28",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 28 - Radar",
    "country": "AR"
   },
@@ -42584,8 +42511,8 @@
    },
    "road_label": "RP 28",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RP 28 - Radar",
    "country": "AR"
   },
@@ -42613,8 +42540,8 @@
    },
    "road_label": "RN 9",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 80,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 80,
    "display_name": "RN 9 - Radar",
    "country": "AR"
   },
@@ -42642,8 +42569,8 @@
    },
    "road_label": "RP 28",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "secondary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RP 28 - Radar",
    "country": "AR"
   },
@@ -42671,8 +42598,8 @@
    },
    "road_label": "RN 58",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 58 - Radar",
    "country": "AR"
   },
@@ -42700,8 +42627,8 @@
    },
    "road_label": "RN 9",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 9 - Radar",
    "country": "AR"
   },
@@ -42729,8 +42656,8 @@
    },
    "road_label": "RN 9",
    "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 60,
    "speed_limit_road_class": "primary",
+   "speed_limit_road_kmh": 60,
    "display_name": "RN 9 - Radar",
    "country": "AR"
   },
@@ -42913,13 +42840,13 @@
     "reference": "node/2161813524"
    },
    "road_label": "RN 34",
-   "speed_limit_checked": "2026-11-01",
-   "speed_limit_road_kmh": 110,
-   "speed_limit_road_class": "trunk",
+   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
    "speed_limit_candidates": [
     60
    ],
-   "speed_limit_detail": "60 km/h es un salto brusco respecto de los 110 km/h de la vía: se publica como límite desconocido",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 110,
    "display_name": "RN 34 - Radar",
    "country": "AR"
   }
