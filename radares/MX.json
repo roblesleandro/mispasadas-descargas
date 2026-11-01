@@ -1,7 +1,7 @@
 {
  "version": "mx-2026-11-01",
  "pais": "MX",
- "generado": "2026-11-01T18:07:33+00:00",
+ "generado": "2026-11-01T23:33:41+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "CDMX Fotocívicas (SSC): capa geonode «fotocivicas» con x/y EPSG:4326 (dev-sieg.cdmx.gob.mx), desactualizada (2020/2021), sin licencia ni descarga visible.",
