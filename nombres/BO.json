@@ -112,9 +112,9 @@
   {
    "lat": -21.545968,
    "lon": -64.709622,
-   "nombre": "Peaje Avenida Jaime Paz Zamora (F1)",
+   "nombre": "Peaje Rotonda Héroes del Chaco (F1)",
    "tipo": "cabina",
-   "via": "Avenida Jaime Paz Zamora",
+   "via": "Rotonda Héroes del Chaco",
    "ref": "F1",
    "localidad": "Tarija",
    "fuente": "armado",
@@ -2454,6 +2454,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-31T12:50Z",
+ "generado": "2026-11-01T12:38Z",
  "alertas": []
 }
