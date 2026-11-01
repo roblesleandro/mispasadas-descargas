@@ -8,7 +8,19 @@
   "armado": 2,
   "total": 2,
   "confianza_baja": 0,
-  "excluidas": 0
+  "excluidas": 0,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 2,
+   "corregidas": 0,
+   "sin_referencia": 0,
+   "corrida_anterior": {
+    "ok": 2,
+    "a_mas_de_15_m": 0,
+    "sin_referencia": 0,
+    "total": 2
+   }
+  }
  },
  "estaciones": [
   {
@@ -19,6 +31,17 @@
    "via": "Route de Waaf Jérémie",
    "localidad": "Bellecourt",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 18.563205,
+     "lon": -72.343523,
+     "n": 7
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "HT",
    "via_visible": "Route de Waaf Jérémie",
    "punto": "Bellecourt",
@@ -32,6 +55,19 @@
    "tipo": "portico",
    "localidad": "Lerebours",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 18.664293,
+     "lon": -72.280204,
+     "n": 1,
+     "rumbo": 337,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "HT",
    "punto": "Lerebours",
    "nombre_visible": "Portique Lerebours",
@@ -39,6 +75,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-10-29T22:49Z",
+ "generado": "2026-11-01T16:27Z",
  "alertas": []
 }
