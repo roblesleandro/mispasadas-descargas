@@ -1,7 +1,7 @@
 {
  "version": "gy-2026-11-01",
  "pais": "GY",
- "generado": "2026-11-01T18:29:59+00:00",
+ "generado": "2026-11-01T23:53:23+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial con ubicaciones."
@@ -50,8 +50,6 @@
    }
   }
  },
- "alertas": [
-  "GY: no se pudieron leer radares/cámaras de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
- ],
+ "alertas": [],
  "radars": []
 }
