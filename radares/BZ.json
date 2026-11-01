@@ -1,7 +1,7 @@
 {
  "version": "bz-2026-11-01",
  "pais": "BZ",
- "generado": "2026-11-01T15:58:27+00:00",
+ "generado": "2026-11-01T18:29:13+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial con ubicaciones."
