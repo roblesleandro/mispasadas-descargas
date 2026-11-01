@@ -1,10 +1,6 @@
 {
  "version": "ansv-2026-11-01",
-<<<<<<< HEAD
  "generado": "2026-11-01T12:45:58+00:00",
-=======
- "generado": "2026-11-01T15:32:10+00:00",
->>>>>>> ad2984a (Radares de la ANSV actualizados automáticamente)
  "fuente": "https://docs.google.com/spreadsheets/d/1qKy9Ok4BSOkuFpmeTvLMsre6ZkHGZRY7aYwmnUbpTwE/gviz/tq?tqx=out:csv&sheet=fijo",
  "aviso": "Radares fijos autorizados por la ANSV en rutas nacionales, con la ubicación que publica la ANSV (o, si falta, por ruta y km con mojones de OpenStreetMap). Sin límite de velocidad; que estén autorizados no garantiza que estén funcionando.",
  "resumen": {
@@ -16,21 +12,10 @@
   "sin_ubicar": 0
  },
  "alertas": [
-<<<<<<< HEAD
   "Overpass no respondió para AR-B RN 12.",
   "Overpass no respondió para AR-B RN 35.",
   "Overpass no respondió para AR-H RN 16.",
   "Overpass no respondió para AR-W RN 12."
-=======
-  "Overpass no respondió para AR-B RN 9.",
-  "Overpass no respondió para AR-B RN 5.",
-  "Overpass no respondió para AR-B RN 9, RN 8.",
-  "Overpass no respondió para AR-B RN 22.",
-  "Overpass no respondió para AR-B RN 12.",
-  "Overpass no respondió para AR-B RN 35.",
-  "Overpass no respondió para AR-H RN 11.",
-  "Overpass no respondió para AR-H RN 16."
->>>>>>> ad2984a (Radares de la ANSV actualizados automáticamente)
  ],
  "radars": [
   {
@@ -364,13 +349,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/10695192211",
    "road_label": "Autopista Panamericana (colectora oeste)",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 49,
-    "reference": "node/10695192211",
-    "original_position": [
-     -34.438,
-     -58.7999
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10695192211"
    }
   },
   {
@@ -649,13 +630,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/10068195012",
    "road_label": "RN 5",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 39,
-    "reference": "node/10068195012",
-    "original_position": [
-     -35.132362,
-     -60.447317
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10068195012"
    }
   },
   {
@@ -676,13 +653,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 5",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 64,
-    "reference": "node/10068195011",
-    "original_position": [
-     -35.142558,
-     -60.458916
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10068195011"
    }
   },
   {
@@ -745,13 +718,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/10573633045",
    "road_label": "RN 205",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 18,
-    "reference": "node/10573633045",
-    "original_position": [
-     -35.377026,
-     -59.370776
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10573633045"
    }
   },
   {
@@ -765,27 +734,6 @@
    "source": "ANSV",
    "source_reference": "Serie 137; Roque Perez; ubicado por planilla",
    "source_version": "ansv-2026-11-01",
-<<<<<<< HEAD
-=======
-   "confidence_score": 60,
-   "speed_limit_kmh": 110,
-   "speed_limit_source": "OSM_PROPIO",
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "La vía del radar tiene límite en OSM",
-   "road_label": "RN 205"
-  },
-  {
-   "radar_id": "ansv--35.39939_-59.41006-desc",
-   "name": "RN 205 - Radar km 138,8",
-   "radar_type": "FIXED_SPEED",
-   "latitude": -35.399386,
-   "longitude": -59.410056,
-   "road_name": "RN 205",
-   "status": "UNVERIFIED",
-   "source": "ANSV",
-   "source_reference": "Serie 138; Roque Perez; ubicado por planilla",
-   "source_version": "ansv-2026-11-01",
->>>>>>> ad2984a (Radares de la ANSV actualizados automáticamente)
    "confidence_score": 60,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -793,13 +741,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 205",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 104,
-    "reference": "node/10573678287",
-    "original_position": [
-     -35.396912,
-     -59.406612
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10573678287"
    }
   },
   {
@@ -820,13 +764,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 205",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 144,
-    "reference": "node/10573675200",
-    "original_position": [
-     -35.399386,
-     -59.410056
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10573675200"
    }
   },
   {
@@ -1566,13 +1506,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 205",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 110,
-    "reference": "node/10573658557",
-    "original_position": [
-     -35.095612,
-     -58.926434
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10573658557"
    }
   },
   {
@@ -2320,13 +2256,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 11",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 87,
-    "reference": "node/11641972176",
-    "original_position": [
-     -27.311603,
-     -58.995679
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11641972176"
    }
   },
   {
@@ -2406,13 +2338,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 16",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 61,
-    "reference": "node/12896031823",
-    "original_position": [
-     -27.162471,
-     -59.388585
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12896031823"
    }
   },
   {
@@ -2635,13 +2563,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/10939744273",
    "road_label": "RN 16",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 19,
-    "reference": "node/10939744274",
-    "original_position": [
-     -27.430677,
-     -58.932646
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10939744274"
    }
   },
   {
@@ -2679,13 +2603,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/9947284914",
    "road_label": "RN 11",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 118,
-    "reference": "node/9947284914",
-    "original_position": [
-     -27.31417,
-     -58.996491
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/9947284914"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA"
@@ -2727,13 +2647,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "Autovía Nicolás Avellaneda",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 31,
-    "reference": "node/10939744273",
-    "original_position": [
-     -27.430677,
-     -58.932646
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10939744273"
    }
   },
   {
@@ -2914,13 +2830,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12898202787",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 16,
-    "reference": "node/12898202787",
-    "original_position": [
-     -27.584179,
-     -58.740362
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12898202787"
    }
   },
   {
@@ -2941,13 +2853,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12896000238",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 24,
-    "reference": "node/12896000238",
-    "original_position": [
-     -27.579665,
-     -58.740629
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12896000238"
    }
   },
   {
@@ -2966,13 +2874,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12898156653",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 67,
-    "reference": "node/12898156653",
-    "original_position": [
-     -27.571642,
-     -58.741949
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12898156653"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA"
@@ -2993,13 +2897,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12895710730",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 130,
-    "reference": "node/12895710730",
-    "original_position": [
-     -27.567255,
-     -58.743268
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12895710730"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA"
@@ -3045,13 +2945,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11013996536",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 46,
-    "reference": "node/11013996536",
-    "original_position": [
-     -27.969462,
-     -56.010088
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11013996536"
    }
   },
   {
@@ -3070,13 +2966,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11013986086",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 72,
-    "reference": "node/11013986086",
-    "original_position": [
-     -27.965759,
-     -56.007153
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11013986086"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA"
@@ -3099,13 +2991,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 145,
-    "reference": "node/11014018264",
-    "original_position": [
-     -30.58689,
-     -57.976646
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11014018264"
    }
   },
   {
@@ -3124,13 +3012,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11014003593",
    "road_label": "RN 117",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 78,
-    "reference": "node/11014003593",
-    "original_position": [
-     -29.721607,
-     -57.150972
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11014003593"
    },
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA"
@@ -3212,13 +3096,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 148,
-    "reference": "node/13144355404",
-    "original_position": [
-     -30.576966,
-     -57.975698
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13144355404"
    }
   },
   {
@@ -3277,13 +3157,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11014002126",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 75,
-    "reference": "node/11014002126",
-    "original_position": [
-     -28.139613,
-     -58.758453
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11014002126"
    },
    "speed_limit_kmh": 110,
    "speed_limit_source": "OSM_ETIQUETA"
@@ -3346,13 +3222,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11013992643",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 25,
-    "reference": "node/11013992643",
-    "original_position": [
-     -27.945591,
-     -58.791957
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11013992643"
    }
   },
   {
@@ -3367,19 +3239,16 @@
    "source_reference": "Serie 271; Provincial Corrientes; ubicado por planilla",
    "source_version": "ansv-2026-11-01",
    "confidence_score": 60,
-   "speed_limit_source": "OSM_PROPIO",
-   "speed_limit_status": "SIN_LIMITE",
-   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/11013973395",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 61,
-    "reference": "node/11013973395",
-    "original_position": [
-     -27.390583,
-     -58.556759
-    ]
-   }
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11013973395"
+   },
+   "speed_limit_kmh": 60
   },
   {
    "radar_id": "ansv--28.25993_-58.11164-asc",
@@ -3420,13 +3289,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12898202788",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 34,
-    "reference": "node/12898202788",
-    "original_position": [
-     -27.7062,
-     -58.761203
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12898202788"
    }
   },
   {
@@ -3445,13 +3310,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12896011566",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 80,
-    "reference": "node/12896011566",
-    "original_position": [
-     -27.702155,
-     -58.760695
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12896011566"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA"
@@ -3495,13 +3356,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/3267187468",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 86,
-    "reference": "node/3267187468",
-    "original_position": [
-     -29.082537,
-     -56.545242
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/3267187468"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA"
@@ -3583,13 +3440,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 58,
-    "reference": "node/13634009049",
-    "original_position": [
-     -27.368234,
-     -58.410187
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13634009049"
    }
   },
   {
@@ -3610,13 +3463,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11051198652",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 34,
-    "reference": "node/11051198652",
-    "original_position": [
-     -29.180076,
-     -56.679197
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11051198652"
    }
   },
   {
@@ -3677,13 +3526,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/5060116784",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 32,
-    "reference": "node/5060116784",
-    "original_position": [
-     -27.366164,
-     -58.300981
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/5060116784"
    }
   },
   {
@@ -3744,13 +3589,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/4559209252",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 107,
-    "reference": "node/4559209252",
-    "original_position": [
-     -27.627982,
-     -56.913814
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/4559209252"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA"
@@ -3771,13 +3612,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/4559209251",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 69,
-    "reference": "node/4559209251",
-    "original_position": [
-     -27.632524,
-     -56.901807
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/4559209251"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA"
@@ -3800,13 +3637,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12971236059",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 37,
-    "reference": "node/12971236059",
-    "original_position": [
-     -32.542256,
-     -58.347692
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12971236059"
    }
   },
   {
@@ -3911,13 +3744,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/4280782097",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 24,
-    "reference": "node/4280782097",
-    "original_position": [
-     -32.471366,
-     -58.302657
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/4280782097"
    }
   },
   {
@@ -4121,13 +3950,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/13313421367",
    "road_label": "RN 174",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 17,
-    "reference": "node/13313421367",
-    "original_position": [
-     -32.856337,
-     -60.61289
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13313421367"
    }
   },
   {
@@ -4190,13 +4015,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11076913302",
    "road_label": "RN 40",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 39,
-    "reference": "node/11076913302",
-    "original_position": [
-     -32.836808,
-     -68.804929
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11076913302"
    }
   },
   {
@@ -4215,13 +4036,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 40",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 61,
-    "reference": "node/11076913303",
-    "original_position": [
-     -32.836808,
-     -68.804929
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11076913303"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO"
@@ -4244,13 +4061,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/5769347140",
    "road_label": "RN 40",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 20,
-    "reference": "node/11076913298",
-    "original_position": [
-     -32.849495,
-     -68.804077
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11076913298"
    }
   },
   {
@@ -4271,13 +4084,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 40",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 37,
-    "reference": "node/5769347140",
-    "original_position": [
-     -32.849495,
-     -68.804077
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/5769347140"
    }
   },
   {
@@ -4378,13 +4187,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/13276627872",
    "road_label": "RN 7",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 45,
-    "reference": "node/13276627873",
-    "original_position": [
-     -33.235424,
-     -68.148879
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13276627873"
    }
   },
   {
@@ -4426,13 +4231,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 7",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 53,
-    "reference": "node/13276627872",
-    "original_position": [
-     -33.235424,
-     -68.148879
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13276627872"
    }
   },
   {
@@ -4579,13 +4380,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/13298465101",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 24,
-    "reference": "node/13298465102",
-    "original_position": [
-     -25.618218,
-     -54.555626
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13298465102"
    }
   },
   {
@@ -4606,13 +4403,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 71,
-    "reference": "node/13298465101",
-    "original_position": [
-     -25.617534,
-     -54.556149
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13298465101"
    }
   },
   {
@@ -4654,13 +4447,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 82,
-    "reference": "node/9583695349",
-    "original_position": [
-     -27.173259,
-     -55.449868
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/9583695349"
    }
   },
   {
@@ -4696,19 +4485,16 @@
    "source_reference": "Eldorado; ubicado por planilla",
    "source_version": "ansv-2026-11-01",
    "confidence_score": 60,
-   "speed_limit_source": "OSM_TRAMO_VECINO",
-   "speed_limit_status": "REVISAR",
-   "speed_limit_detail": "lado A: 80 km/h a 276 m · lado B: 60 km/h a 161 m · el más cercano es el menor",
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/12624131943",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 83,
-    "reference": "node/12624131943",
-    "original_position": [
-     -26.443992,
-     -54.644202
-    ]
-   }
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12624131943"
+   },
+   "speed_limit_kmh": 60
   },
   {
    "radar_id": "ansv--26.81045_-54.92743-ambos",
@@ -4749,13 +4535,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12624136001",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 32,
-    "reference": "node/12624136001",
-    "original_position": [
-     -26.317721,
-     -54.615645
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12624136001"
    }
   },
   {
@@ -4797,13 +4579,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/10090000260",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 53,
-    "reference": "node/10090000260",
-    "original_position": [
-     -26.281742,
-     -54.613343
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10090000260"
    }
   },
   {
@@ -4824,13 +4602,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 143,
-    "reference": "node/11497875965",
-    "original_position": [
-     -25.634321,
-     -54.540252
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11497875965"
    }
   },
   {
@@ -4851,13 +4625,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11500016574",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 21,
-    "reference": "node/11500016574",
-    "original_position": [
-     -25.735084,
-     -54.533728
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11500016574"
    }
   },
   {
@@ -4872,19 +4642,16 @@
    "source_reference": "Pto. Rico; ubicado por planilla",
    "source_version": "ansv-2026-11-01",
    "confidence_score": 60,
-   "speed_limit_source": "OSM_PROPIO",
-   "speed_limit_status": "REVISAR",
-   "speed_limit_detail": "40 km/h no es creíble en esta vía: se publica como límite desconocido",
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "Límite del radar de OSM node/12080267283",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 138,
-    "reference": "node/12080267283",
-    "original_position": [
-     -26.820638,
-     -54.991812
-    ]
-   }
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12080267283"
+   },
+   "speed_limit_kmh": 60
   },
   {
    "radar_id": "ansv--25.98249_-54.58144-ambos",
@@ -4904,13 +4671,9 @@
    "speed_limit_detail": "lado B: 60 km/h a 389 m",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 60,
-    "reference": "node/12624135080",
-    "original_position": [
-     -25.982493,
-     -54.58144
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12624135080"
    }
   },
   {
@@ -4929,13 +4692,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12624108554",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 84,
-    "reference": "node/12624108554",
-    "original_position": [
-     -27.617202,
-     -55.325929
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12624108554"
    },
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA"
@@ -4958,13 +4717,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 14",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 121,
-    "reference": "node/13296917833",
-    "original_position": [
-     -27.507594,
-     -55.129928
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13296917833"
    }
   },
   {
@@ -5046,13 +4801,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 67,
-    "reference": "node/12348850413",
-    "original_position": [
-     -26.323115,
-     -54.615359
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12348850413"
    }
   },
   {
@@ -5073,13 +4824,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 73,
-    "reference": "node/10570294588",
-    "original_position": [
-     -26.691237,
-     -54.823247
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/10570294588"
    }
   },
   {
@@ -5100,13 +4847,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 12",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 78,
-    "reference": "node/6149738038",
-    "original_position": [
-     -26.689391,
-     -54.814716
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/6149738038"
    }
   },
   {
@@ -5167,13 +4910,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/11656947543",
    "road_label": "RN 40",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 33,
-    "reference": "node/11656947543",
-    "original_position": [
-     -40.796438,
-     -71.591553
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11656947543"
    }
   },
   {
@@ -5261,13 +5000,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 237",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 71,
-    "reference": "node/13646609967",
-    "original_position": [
-     -39.513341,
-     -69.292827
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/13646609967"
    }
   },
   {
@@ -5288,13 +5023,9 @@
    "speed_limit_detail": "Límite del radar de OSM node/12270889329",
    "road_label": "RN 237",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 35,
-    "reference": "node/12270889329",
-    "original_position": [
-     -39.523133,
-     -69.29668
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12270889329"
    }
   },
   {
@@ -5937,13 +5668,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 40",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 97,
-    "reference": "node/11366179086",
-    "original_position": [
-     -41.063103,
-     -71.157289
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11366179086"
    }
   },
   {
@@ -5964,13 +5691,9 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "road_label": "RN 40",
    "position_check": {
-    "status": "CORREGIDA",
-    "offset_m": 122,
-    "reference": "node/11530550674",
-    "original_position": [
-     -41.063103,
-     -71.157289
-    ]
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/11530550674"
    }
   },
   {
