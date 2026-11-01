@@ -7,7 +7,11 @@
   "osm": 99,
   "armado": 72,
   "total": 171,
+<<<<<<< HEAD
   "confianza_baja": 1,
+=======
+  "confianza_baja": 0,
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
   "excluidas": 4,
   "posicion": {
    "umbral_m": 15.0,
@@ -34,9 +38,13 @@
     {
      "lat": -22.534205,
      "lon": -67.648934,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 41,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -62,9 +70,13 @@
     {
      "lat": -22.170514,
      "lon": -64.668552,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 339,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -116,9 +128,13 @@
     {
      "lat": -21.870668,
      "lon": -63.622857,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 180,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -143,9 +159,13 @@
     {
      "lat": -21.610766,
      "lon": -64.642973,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 187,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -169,8 +189,12 @@
     {
      "lat": -21.559977,
      "lon": -64.675234,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 140
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -194,9 +218,13 @@
     {
      "lat": -21.548813,
      "lon": -64.590239,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 251,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -212,18 +240,27 @@
   {
    "lat": -21.545968,
    "lon": -64.709622,
+<<<<<<< HEAD
    "nombre": "Peaje Avenida Jaime Paz Zamora (F1)",
    "tipo": "cabina",
    "via": "Avenida Jaime Paz Zamora",
    "ref": "F1",
+=======
+   "nombre": "Peaje cerca de Tarija",
+   "tipo": "cabina",
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    "localidad": "Tarija",
    "fuente": "armado",
    "cabinas": [
     {
      "lat": -21.545968,
      "lon": -64.709622,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 170
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -231,9 +268,9 @@
     "distancia_m": 0.0
    },
    "pais": "BO",
-   "via_visible": "Ruta 1",
+   "via_visible": "Avenida Jaime Paz Zamora",
    "punto": "Tarija",
-   "nombre_visible": "Ruta 1 - Peaje Tarija",
+   "nombre_visible": "Avenida Jaime Paz Zamora - Peaje Tarija",
    "confianza": "media"
   },
   {
@@ -248,9 +285,13 @@
     {
      "lat": -21.541369,
      "lon": -62.992109,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 112,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -274,6 +315,7 @@
    "fuente": "armado",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -21.511427,
      "lon": -65.672387,
      "n": 1,
@@ -284,11 +326,20 @@
      "lon": -65.67238,
      "n": 1,
      "rumbo": 288
+=======
+     "lat": -21.511397,
+     "lon": -65.672384,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 3.3
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 14",
@@ -332,6 +383,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -21.305958,
      "lon": -65.646705,
      "n": 1,
@@ -342,11 +394,20 @@
      "lon": -65.646721,
      "n": 1,
      "rumbo": 260
+=======
+     "lat": -21.305924,
+     "lon": -65.646713,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 3.8
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 14",
@@ -365,6 +426,7 @@
    "fuente": "armado",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -21.260096,
      "lon": -63.512124,
      "n": 1,
@@ -377,11 +439,20 @@
      "n": 1,
      "rumbo": 60,
      "doble": true
+=======
+     "lat": -21.260062,
+     "lon": -63.512177,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 6.7
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 11",
@@ -401,9 +472,13 @@
     {
      "lat": -21.246218,
      "lon": -65.208419,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 359,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -428,9 +503,13 @@
     {
      "lat": -21.2016,
      "lon": -63.429854,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 208,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -455,9 +534,13 @@
     {
      "lat": -21.166559,
      "lon": -66.153731,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 172,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -482,9 +565,13 @@
     {
      "lat": -20.954593,
      "lon": -65.228246,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 182,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -509,9 +596,13 @@
     {
      "lat": -20.818397,
      "lon": -63.349966,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 196,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -536,9 +627,13 @@
     {
      "lat": -20.605544,
      "lon": -67.583385,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 313,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -561,6 +656,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -20.554898,
      "lon": -66.791283,
      "n": 2,
@@ -571,11 +667,20 @@
      "lon": -66.791184,
      "n": 2,
      "rumbo": 355
+=======
+     "lat": -20.554895,
+     "lon": -66.791234,
+     "n": 4
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 5.1
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 21",
@@ -596,9 +701,13 @@
     {
      "lat": -20.454192,
      "lon": -63.278233,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 170,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -621,6 +730,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -20.447402,
      "lon": -66.795132,
      "n": 1,
@@ -631,11 +741,20 @@
      "lon": -66.795172,
      "n": 1,
      "rumbo": 238
+=======
+     "lat": -20.447373,
+     "lon": -66.795152,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 3.8
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 5",
@@ -656,9 +775,13 @@
     {
      "lat": -20.444744,
      "lon": -66.839062,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 301,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -684,9 +807,13 @@
     {
      "lat": -20.383362,
      "lon": -63.271305,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 147,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -710,6 +837,7 @@
    "fuente": "armado",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -20.329714,
      "lon": -66.918126,
      "n": 1,
@@ -720,11 +848,20 @@
      "lat": -20.329686,
      "lon": -66.918101,
      "n": 1
+=======
+     "lat": -20.3297,
+     "lon": -66.918113,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 2.0
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 30",
@@ -744,9 +881,13 @@
     {
      "lat": -20.101551,
      "lon": -63.488703,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 159,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -771,9 +912,13 @@
     {
      "lat": -19.940572,
      "lon": -63.52376,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 170,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -799,9 +944,13 @@
     {
      "lat": -19.696588,
      "lon": -66.778182,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 9,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -825,6 +974,7 @@
    "fuente": "armado",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -19.63958,
      "lon": -65.74013,
      "n": 1,
@@ -835,11 +985,20 @@
      "lon": -65.740152,
      "n": 1,
      "rumbo": 241
+=======
+     "lat": -19.639561,
+     "lon": -65.740141,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 2.4
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 1",
@@ -859,9 +1018,13 @@
     {
      "lat": -19.623228,
      "lon": -65.801291,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 184,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -885,6 +1048,7 @@
    "fuente": "armado",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -19.547063,
      "lon": -65.723473,
      "n": 1,
@@ -895,11 +1059,20 @@
      "lon": -65.723503,
      "n": 1,
      "rumbo": 243
+=======
+     "lat": -19.547031,
+     "lon": -65.723488,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 3.9
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 5",
@@ -919,9 +1092,13 @@
     {
      "lat": -19.537704,
      "lon": -65.812187,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 13,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -946,9 +1123,13 @@
     {
      "lat": -19.426879,
      "lon": -65.182766,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 144,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -973,8 +1154,12 @@
     {
      "lat": -19.121642,
      "lon": -65.207563,
+<<<<<<< HEAD
      "n": 4,
      "rumbo": 183
+=======
+     "n": 4
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -999,9 +1184,13 @@
     {
      "lat": -19.079483,
      "lon": -66.212374,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 202,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1025,9 +1214,13 @@
     {
      "lat": -19.044708,
      "lon": -65.435089,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 135,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1050,9 +1243,13 @@
     {
      "lat": -19.029986,
      "lon": -65.434498,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 178,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1074,9 +1271,13 @@
     {
      "lat": -19.018348,
      "lon": -65.440005,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 1,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1101,8 +1302,12 @@
     {
      "lat": -19.014583,
      "lon": -65.291747,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 313
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1127,9 +1332,13 @@
     {
      "lat": -19.011152,
      "lon": -65.184336,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 183,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1154,9 +1363,13 @@
     {
      "lat": -19.00528,
      "lon": -66.775973,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 347,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1180,9 +1393,13 @@
     {
      "lat": -18.991633,
      "lon": -65.430052,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 291,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1207,9 +1424,13 @@
     {
      "lat": -18.989086,
      "lon": -57.880522,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 269,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1234,9 +1455,13 @@
     {
      "lat": -18.964753,
      "lon": -65.359889,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 161,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1262,9 +1487,13 @@
     {
      "lat": -18.956533,
      "lon": -65.373016,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 319,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1289,9 +1518,13 @@
     {
      "lat": -18.921068,
      "lon": -63.399283,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 151,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1316,9 +1549,13 @@
     {
      "lat": -18.890231,
      "lon": -66.781462,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 323,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1341,9 +1578,13 @@
     {
      "lat": -18.860906,
      "lon": -63.593788,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 158,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1367,9 +1608,13 @@
     {
      "lat": -18.666473,
      "lon": -63.240027,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 198,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1394,9 +1639,13 @@
     {
      "lat": -18.597544,
      "lon": -65.153114,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 155,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1421,9 +1670,13 @@
     {
      "lat": -18.596638,
      "lon": -66.920056,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 303,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1447,9 +1700,13 @@
     {
      "lat": -18.593286,
      "lon": -66.36018,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 5,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1471,6 +1728,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -18.459367,
      "lon": -63.212642,
      "n": 1,
@@ -1481,11 +1739,20 @@
      "lon": -63.212739,
      "n": 1,
      "rumbo": 190
+=======
+     "lat": -18.459359,
+     "lon": -63.212691,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 5.1
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 9",
@@ -1505,9 +1772,13 @@
     {
      "lat": -18.378203,
      "lon": -60.832827,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 169,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1532,9 +1803,13 @@
     {
      "lat": -18.289612,
      "lon": -66.993454,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 352,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1560,9 +1835,13 @@
     {
      "lat": -18.264938,
      "lon": -59.869665,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 300,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1586,9 +1865,13 @@
     {
      "lat": -18.20877,
      "lon": -68.922685,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 321,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1611,6 +1894,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -18.191095,
      "lon": -65.197089,
      "n": 1,
@@ -1621,11 +1905,20 @@
      "lon": -65.197056,
      "n": 1,
      "rumbo": 295
+=======
+     "lat": -18.191063,
+     "lon": -65.197072,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 4.0
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 23",
@@ -1645,9 +1938,13 @@
     {
      "lat": -18.172139,
      "lon": -63.880408,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 107,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1672,9 +1969,13 @@
     {
      "lat": -18.163341,
      "lon": -63.508571,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 71,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1699,9 +2000,13 @@
     {
      "lat": -18.133006,
      "lon": -64.219783,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 163,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1726,9 +2031,13 @@
     {
      "lat": -18.110898,
      "lon": -64.210745,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 218,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1753,9 +2062,13 @@
     {
      "lat": -18.102493,
      "lon": -64.556608,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 50,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1780,9 +2093,13 @@
     {
      "lat": -18.074656,
      "lon": -67.229447,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 60,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1808,9 +2125,13 @@
     {
      "lat": -18.056037,
      "lon": -63.193868,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 185,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1833,6 +2154,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -18.01836,
      "lon": -67.031084,
      "n": 2,
@@ -1843,11 +2165,20 @@
      "lon": -67.031021,
      "n": 1,
      "rumbo": 321
+=======
+     "lat": -18.018344,
+     "lon": -67.031063,
+     "n": 3
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 2.8
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 1",
@@ -1867,9 +2198,13 @@
     {
      "lat": -17.955582,
      "lon": -63.247321,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 299,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1892,6 +2227,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -17.916157,
      "lon": -64.532971,
      "n": 1,
@@ -1902,11 +2238,20 @@
      "lon": -64.532905,
      "n": 1,
      "rumbo": 321
+=======
+     "lat": -17.916137,
+     "lon": -64.532938,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 4.1
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 7",
@@ -1924,9 +2269,13 @@
     {
      "lat": -17.909646,
      "lon": -63.166314,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 317,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1950,9 +2299,13 @@
     {
      "lat": -17.89863,
      "lon": -63.339385,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 6,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -1977,8 +2330,12 @@
     {
      "lat": -17.824877,
      "lon": -67.149442,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 342
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2003,9 +2360,13 @@
     {
      "lat": -17.820741,
      "lon": -60.786579,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 123,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2031,9 +2392,13 @@
     {
      "lat": -17.818968,
      "lon": -60.735721,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 192,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2058,9 +2423,13 @@
     {
      "lat": -17.788811,
      "lon": -68.141678,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 107,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2076,24 +2445,35 @@
   {
    "lat": -17.786596,
    "lon": -63.161192,
+<<<<<<< HEAD
    "nombre": "Peaje Avenida Brasil",
+=======
+   "nombre": "Peaje cerca de Santa Cruz de la Sierra",
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    "tipo": "cabina",
-   "via": "Avenida Brasil",
    "localidad": "Santa Cruz de la Sierra",
    "fuente": "armado",
    "cabinas": [
     {
      "lat": -17.788348,
      "lon": -63.161734,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 355
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     },
     {
      "lat": -17.786596,
      "lon": -63.161192,
+<<<<<<< HEAD
      "n": 2,
      "rumbo": 182,
      "doble": true
+=======
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2105,9 +2485,8 @@
     ]
    },
    "pais": "BO",
-   "via_visible": "Avenida Brasil",
    "punto": "Santa Cruz de la Sierra",
-   "nombre_visible": "Avenida Brasil - Peaje Santa Cruz de la Sierra",
+   "nombre_visible": "Peaje Santa Cruz de la Sierra",
    "confianza": "media"
   },
   {
@@ -2123,9 +2502,13 @@
     {
      "lat": -17.770842,
      "lon": -60.989223,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 2,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2148,6 +2531,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -17.76429,
      "lon": -63.069376,
      "n": 3,
@@ -2158,11 +2542,20 @@
      "lon": -63.069377,
      "n": 1,
      "rumbo": 267
+=======
+     "lat": -17.764282,
+     "lon": -63.069376,
+     "n": 4
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 0.9
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 4",
@@ -2180,6 +2573,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -17.692904,
      "lon": -66.257947,
      "n": 1,
@@ -2190,11 +2584,20 @@
      "lon": -66.258017,
      "n": 1,
      "rumbo": 213
+=======
+     "lat": -17.692885,
+     "lon": -66.257982,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 4.3
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 48",
@@ -2212,6 +2615,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -17.678282,
      "lon": -66.731663,
      "n": 1,
@@ -2222,11 +2626,20 @@
      "lon": -66.731634,
      "n": 1,
      "rumbo": 310
+=======
+     "lat": -17.678262,
+     "lon": -66.731649,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 2.7
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 4",
@@ -2246,9 +2659,13 @@
     {
      "lat": -17.668964,
      "lon": -62.794486,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 264,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2271,6 +2688,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -17.665242,
      "lon": -67.020999,
      "n": 1,
@@ -2281,11 +2699,20 @@
      "lon": -67.021011,
      "n": 1,
      "rumbo": 264
+=======
+     "lat": -17.665181,
+     "lon": -67.021005,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 6.7
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 4",
@@ -2305,14 +2732,22 @@
     {
      "lat": -17.65504,
      "lon": -63.139241,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 147
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     },
     {
      "lat": -17.654399,
      "lon": -63.138268,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 325
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2341,9 +2776,13 @@
     {
      "lat": -17.65076,
      "lon": -66.132136,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 136,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2368,9 +2807,13 @@
     {
      "lat": -17.63632,
      "lon": -65.509985,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 169,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2395,9 +2838,13 @@
     {
      "lat": -17.627607,
      "lon": -65.239097,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 137,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2420,6 +2867,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -17.62643,
      "lon": -67.182198,
      "n": 2,
@@ -2430,11 +2878,20 @@
      "lon": -67.182252,
      "n": 1,
      "rumbo": 230
+=======
+     "lat": -17.626409,
+     "lon": -67.182216,
+     "n": 3
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 3.0
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Carretera Caracollo-Colquiri",
@@ -2455,8 +2912,12 @@
     {
      "lat": -17.619827,
      "lon": -63.158969,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 357
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2482,8 +2943,12 @@
     {
      "lat": -17.613277,
      "lon": -67.252213,
+<<<<<<< HEAD
      "n": 4,
      "rumbo": 304
+=======
+     "n": 4
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2508,9 +2973,13 @@
     {
      "lat": -17.603574,
      "lon": -62.680271,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 217,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2533,6 +3002,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -17.593779,
      "lon": -66.351058,
      "n": 1
@@ -2548,11 +3018,20 @@
      "lon": -66.351068,
      "n": 1,
      "rumbo": 267
+=======
+     "lat": -17.593716,
+     "lon": -66.351063,
+     "n": 3
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 0.6
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 4",
@@ -2573,9 +3052,13 @@
     {
      "lat": -17.590792,
      "lon": -62.514051,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 262,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2600,9 +3083,13 @@
     {
      "lat": -17.576916,
      "lon": -65.670015,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 9,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2627,8 +3114,12 @@
     {
      "lat": -17.564317,
      "lon": -65.790605,
+<<<<<<< HEAD
      "n": 2,
      "rumbo": 115
+=======
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2651,6 +3142,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -17.556801,
      "lon": -67.363361,
      "n": 1,
@@ -2661,11 +3153,20 @@
      "lon": -67.363323,
      "n": 1,
      "rumbo": 281
+=======
+     "lat": -17.556734,
+     "lon": -67.363342,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 7.7
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 1",
@@ -2686,9 +3187,13 @@
     {
      "lat": -17.535285,
      "lon": -62.657004,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 198,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2713,8 +3218,12 @@
     {
      "lat": -17.514861,
      "lon": -65.826577,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 90
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2739,8 +3248,12 @@
     {
      "lat": -17.491922,
      "lon": -66.093759,
+<<<<<<< HEAD
      "n": 5,
      "rumbo": 145
+=======
+     "n": 5
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2765,9 +3278,13 @@
     {
      "lat": -17.476436,
      "lon": -69.321717,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 99,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2790,6 +3307,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -17.471538,
      "lon": -66.338897,
      "n": 1,
@@ -2800,11 +3318,20 @@
      "lon": -66.339014,
      "n": 2,
      "rumbo": 188
+=======
+     "lat": -17.471527,
+     "lon": -66.338975,
+     "n": 3
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 4.2
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 4",
@@ -2823,6 +3350,7 @@
    "fuente": "armado",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -17.430555,
      "lon": -63.709118,
      "n": 1,
@@ -2833,11 +3361,20 @@
      "lon": -63.708984,
      "n": 1,
      "rumbo": 352
+=======
+     "lat": -17.43055,
+     "lon": -63.709051,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 7.1
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 4",
@@ -2858,8 +3395,12 @@
     {
      "lat": -17.408717,
      "lon": -63.202761,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 324
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2884,8 +3425,12 @@
     {
      "lat": -17.396281,
      "lon": -66.056904,
+<<<<<<< HEAD
      "n": 3,
      "rumbo": 123
+=======
+     "n": 3
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2910,8 +3455,12 @@
     {
      "lat": -17.391044,
      "lon": -66.250245,
+<<<<<<< HEAD
      "n": 4,
      "rumbo": 266
+=======
+     "n": 4
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2936,8 +3485,12 @@
     {
      "lat": -17.38539,
      "lon": -63.51224,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 77
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2962,9 +3515,13 @@
     {
      "lat": -17.368461,
      "lon": -66.319494,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 264,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -2987,6 +3544,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -17.366731,
      "lon": -65.838725,
      "n": 1,
@@ -2997,11 +3555,20 @@
      "lon": -65.838669,
      "n": 1,
      "rumbo": 320
+=======
+     "lat": -17.366703,
+     "lon": -65.838697,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 4.3
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 4",
@@ -3020,9 +3587,13 @@
     {
      "lat": -17.351349,
      "lon": -63.49584,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 188,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3046,9 +3617,13 @@
     {
      "lat": -17.344456,
      "lon": -66.012473,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 27,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3073,8 +3648,12 @@
     {
      "lat": -17.325541,
      "lon": -67.754358,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 119
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3100,8 +3679,12 @@
     {
      "lat": -17.318485,
      "lon": -63.307198,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 92
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3147,6 +3730,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -17.245551,
      "lon": -67.935516,
      "n": 1,
@@ -3157,11 +3741,20 @@
      "lon": -67.935542,
      "n": 1,
      "rumbo": 241
+=======
+     "lat": -17.245529,
+     "lon": -67.935529,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 2.8
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 4",
@@ -3181,8 +3774,12 @@
     {
      "lat": -17.233743,
      "lon": -64.393777,
+<<<<<<< HEAD
      "n": 2,
      "rumbo": 126
+=======
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3205,6 +3802,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -17.206559,
      "lon": -67.933392,
      "n": 2,
@@ -3215,11 +3813,20 @@
      "lon": -67.933307,
      "n": 2,
      "rumbo": 327
+=======
+     "lat": -17.206536,
+     "lon": -67.93335,
+     "n": 4
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 5.1
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 1",
@@ -3239,9 +3846,13 @@
     {
      "lat": -17.183163,
      "lon": -62.792618,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 164,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3267,9 +3878,13 @@
     {
      "lat": -17.146083,
      "lon": -62.000547,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 143,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3295,9 +3910,13 @@
     {
      "lat": -17.065767,
      "lon": -62.638215,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 36,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3323,8 +3942,12 @@
     {
      "lat": -17.029726,
      "lon": -64.881468,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 265
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3347,6 +3970,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -17.024343,
      "lon": -65.484654,
      "n": 2,
@@ -3357,11 +3981,20 @@
      "lon": -65.48468,
      "n": 2,
      "rumbo": 254
+=======
+     "lat": -17.024297,
+     "lon": -65.484667,
+     "n": 4
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 5.2
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 4",
@@ -3379,6 +4012,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -16.93966,
      "lon": -68.776828,
      "n": 2,
@@ -3389,11 +4023,20 @@
      "lon": -68.776858,
      "n": 2,
      "rumbo": 257
+=======
+     "lat": -16.939599,
+     "lon": -68.776843,
+     "n": 4
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 6.9
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 43",
@@ -3414,8 +4057,12 @@
     {
      "lat": -16.832429,
      "lon": -68.161569,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 154
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3438,6 +4085,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -16.722748,
      "lon": -68.185472,
      "n": 1,
@@ -3448,11 +4096,20 @@
      "lon": -68.18535,
      "n": 1,
      "rumbo": 356
+=======
+     "lat": -16.722744,
+     "lon": -68.185411,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 6.5
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 1",
@@ -3472,9 +4129,13 @@
     {
      "lat": -16.668881,
      "lon": -68.311329,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 213,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3499,8 +4160,12 @@
     {
      "lat": -16.610421,
      "lon": -68.062715,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 145
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3525,9 +4190,13 @@
     {
      "lat": -16.565488,
      "lon": -68.105586,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 310,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3549,6 +4218,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -16.555233,
      "lon": -68.177779,
      "n": 1,
@@ -3559,11 +4229,20 @@
      "lon": -68.177764,
      "n": 1,
      "rumbo": 292
+=======
+     "lat": -16.555211,
+     "lon": -68.177772,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 2.5
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Camino El Alto-Achocalla",
@@ -3583,9 +4262,13 @@
     {
      "lat": -16.550973,
      "lon": -68.069882,
+<<<<<<< HEAD
      "n": 2,
      "rumbo": 348,
      "doble": true
+=======
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3609,9 +4292,13 @@
     {
      "lat": -16.546835,
      "lon": -68.009596,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 27,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3658,9 +4345,13 @@
     {
      "lat": -16.531232,
      "lon": -68.386479,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 90,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3685,8 +4376,12 @@
     {
      "lat": -16.509272,
      "lon": -68.169995,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 99
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3709,6 +4404,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -16.500743,
      "lon": -68.162902,
      "n": 4,
@@ -3719,11 +4415,20 @@
      "lon": -68.162691,
      "n": 4,
      "rumbo": 344
+=======
+     "lat": -16.500716,
+     "lon": -68.162796,
+     "n": 8
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 11.6
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Autopista Héroes de la Guerra del Chaco",
@@ -3743,8 +4448,12 @@
     {
      "lat": -16.499834,
      "lon": -68.124231,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 64
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3769,9 +4478,13 @@
     {
      "lat": -16.486144,
      "lon": -62.479051,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 148,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3794,6 +4507,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -16.435282,
      "lon": -68.331822,
      "n": 1,
@@ -3804,11 +4518,20 @@
      "lon": -68.331735,
      "n": 1,
      "rumbo": 333
+=======
+     "lat": -16.435264,
+     "lon": -68.331778,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 5.0
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 2",
@@ -3826,6 +4549,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -16.429717,
      "lon": -68.072425,
      "n": 1,
@@ -3836,11 +4560,20 @@
      "lon": -68.072461,
      "n": 1,
      "rumbo": 237
+=======
+     "lat": -16.429691,
+     "lon": -68.072443,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 3.5
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 3",
@@ -3860,9 +4593,13 @@
     {
      "lat": -16.381166,
      "lon": -60.936244,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 92,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3888,9 +4625,13 @@
     {
      "lat": -16.358914,
      "lon": -60.978579,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 163,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3914,6 +4655,7 @@
    "fuente": "armado",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -16.323193,
      "lon": -68.010039,
      "n": 1,
@@ -3924,11 +4666,20 @@
      "lon": -68.010022,
      "n": 1,
      "rumbo": 288
+=======
+     "lat": -16.323159,
+     "lon": -68.01003,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 3.9
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 3",
@@ -3946,9 +4697,13 @@
     {
      "lat": -16.287801,
      "lon": -68.129536,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 0,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3972,9 +4727,13 @@
     {
      "lat": -16.2759,
      "lon": -68.013955,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 92,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -3998,9 +4757,13 @@
     {
      "lat": -16.257133,
      "lon": -67.720658,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 296,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4025,9 +4788,13 @@
     {
      "lat": -16.223531,
      "lon": -68.852028,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 314,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4052,8 +4819,12 @@
     {
      "lat": -16.221753,
      "lon": -68.585627,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 149
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4078,9 +4849,13 @@
     {
      "lat": -16.209456,
      "lon": -67.754992,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 61,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4096,19 +4871,21 @@
   {
    "lat": -16.199534,
    "lon": -67.745949,
-   "nombre": "Peaje RN3: La Paz-Caranavi (F3)",
+   "nombre": "Peaje cerca de Lacahuarca",
    "tipo": "cabina",
-   "via": "RN3: La Paz-Caranavi",
-   "ref": "F3",
    "localidad": "Lacahuarca",
    "fuente": "armado",
    "cabinas": [
     {
      "lat": -16.199534,
      "lon": -67.745949,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 199,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4116,9 +4893,8 @@
     "distancia_m": 0.0
    },
    "pais": "BO",
-   "via_visible": "Ruta 3",
    "punto": "Lacahuarca",
-   "nombre_visible": "Ruta 3 - Peaje Lacahuarca",
+   "nombre_visible": "Peaje Lacahuarca",
    "confianza": "media"
   },
   {
@@ -4134,9 +4910,13 @@
     {
      "lat": -16.035936,
      "lon": -68.688013,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 343,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4159,6 +4939,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -15.937768,
      "lon": -63.155356,
      "n": 1,
@@ -4169,11 +4950,20 @@
      "lon": -63.155263,
      "n": 2,
      "rumbo": 338
+=======
+     "lat": -15.937746,
+     "lon": -63.155294,
+     "n": 3
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 3.5
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 9",
@@ -4193,9 +4983,13 @@
     {
      "lat": -15.927357,
      "lon": -61.356609,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 72,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4221,9 +5015,13 @@
     {
      "lat": -15.911744,
      "lon": -63.169357,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 316,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4249,9 +5047,13 @@
     {
      "lat": -15.59263,
      "lon": -67.230834,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 118,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4278,9 +5080,13 @@
     {
      "lat": -15.572491,
      "lon": -67.267302,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 110,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4297,19 +5103,21 @@
   {
    "lat": -15.556315,
    "lon": -67.373553,
-   "nombre": "Peaje RN3: Caranavi-Sapecho (F3)",
+   "nombre": "Peaje cerca de Sapecho",
    "tipo": "cabina",
-   "via": "RN3: Caranavi-Sapecho",
-   "ref": "F3",
    "localidad": "Sapecho",
    "fuente": "armado",
    "cabinas": [
     {
      "lat": -15.556315,
      "lon": -67.373553,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 280,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4317,9 +5125,9 @@
     "distancia_m": 0.0
    },
    "pais": "BO",
-   "via_visible": "Ruta 3",
+   "via_visible": "RN3: Caranavi-Sapecho",
    "punto": "Sapecho",
-   "nombre_visible": "Ruta 3 - Peaje Sapecho",
+   "nombre_visible": "RN3: Caranavi-Sapecho - Peaje Sapecho",
    "confianza": "media"
   },
   {
@@ -4333,9 +5141,13 @@
     {
      "lat": -15.502902,
      "lon": -67.451026,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 85,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4358,9 +5170,13 @@
     {
      "lat": -15.497622,
      "lon": -67.233635,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 143,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4384,9 +5200,13 @@
     {
      "lat": -15.481336,
      "lon": -67.241112,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 268,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4411,9 +5231,13 @@
     {
      "lat": -15.16617,
      "lon": -67.033477,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 20,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4436,6 +5260,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -15.00428,
      "lon": -65.57707,
      "n": 1,
@@ -4446,11 +5271,20 @@
      "lon": -65.577075,
      "n": 1,
      "rumbo": 271
+=======
+     "lat": -15.004249,
+     "lon": -65.577072,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 3.4
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 3",
@@ -4470,9 +5304,13 @@
     {
      "lat": -14.925244,
      "lon": -64.589043,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 77,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4497,9 +5335,13 @@
     {
      "lat": -14.872292,
      "lon": -66.728589,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 359,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4524,9 +5366,13 @@
     {
      "lat": -14.87005,
      "lon": -64.960145,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 77,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4551,8 +5397,12 @@
     {
      "lat": -14.823745,
      "lon": -64.920464,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 224
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4578,9 +5428,13 @@
     {
      "lat": -14.775609,
      "lon": -64.902692,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 357,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4606,9 +5460,13 @@
     {
      "lat": -14.453659,
      "lon": -67.467567,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 304,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4633,9 +5491,13 @@
     {
      "lat": -14.439792,
      "lon": -67.489507,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 301,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4660,9 +5522,13 @@
     {
      "lat": -11.546052,
      "lon": -66.663842,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 81,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4688,9 +5554,13 @@
     {
      "lat": -11.214711,
      "lon": -68.654189,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 61,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4713,6 +5583,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -11.133279,
      "lon": -68.794736,
      "n": 1,
@@ -4723,11 +5594,20 @@
      "lon": -68.794797,
      "n": 1,
      "rumbo": 196
+=======
+     "lat": -11.133269,
+     "lon": -68.794767,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 3.5
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 13",
@@ -4747,8 +5627,12 @@
     {
      "lat": -11.041377,
      "lon": -68.779629,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 50
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4771,6 +5655,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -11.014062,
      "lon": -65.957851,
      "n": 1,
@@ -4781,11 +5666,20 @@
      "lon": -65.957853,
      "n": 1,
      "rumbo": 267
+=======
+     "lat": -11.014036,
+     "lon": -65.957852,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 2.9
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "pais": "BO",
    "via_visible": "Ruta 8",
@@ -4806,9 +5700,13 @@
     {
      "lat": -10.865376,
      "lon": -65.393926,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 48,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4835,8 +5733,12 @@
     {
      "lat": -19.236245,
      "lon": -65.152563,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 350
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4857,9 +5759,13 @@
     {
      "lat": -18.982766,
      "lon": -57.81909,
+<<<<<<< HEAD
      "n": 1,
      "rumbo": 302,
      "doble": true
+=======
+     "n": 1
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4877,6 +5783,7 @@
    "fuente": "osm",
    "cabinas": [
     {
+<<<<<<< HEAD
      "lat": -17.656473,
      "lon": -63.155142,
      "n": 1,
@@ -4887,11 +5794,20 @@
      "lon": -63.155183,
      "n": 1,
      "rumbo": 239
+=======
+     "lat": -17.656443,
+     "lon": -63.155163,
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
     "estado": "ok",
+<<<<<<< HEAD
     "distancia_m": 4.0
+=======
+    "distancia_m": 0.0
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
    },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   },
@@ -4906,8 +5822,12 @@
     {
      "lat": -17.412085,
      "lon": -66.177695,
+<<<<<<< HEAD
      "n": 2,
      "rumbo": 84
+=======
+     "n": 2
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
     }
    ],
    "posicion": {
@@ -4917,8 +5837,15 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
+<<<<<<< HEAD
  "generado": "2026-11-01T18:49Z",
  "alertas": [
   "Alrededores: falló un lote de 1 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+=======
+ "generado": "2026-11-01T22:10Z",
+ "alertas": [
+  "BO: OpenStreetMap no devolvió la geometría de las calles (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las cabinas salen sin sentido.",
+  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+>>>>>>> eeb4399 (Nombres de estaciones (BO) actualizados automáticamente)
  ]
 }
