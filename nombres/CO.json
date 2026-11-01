@@ -8,17 +8,51 @@
   "armado": 17,
   "total": 208,
   "confianza_baja": 0,
-  "excluidas": 1
+  "excluidas": 1,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 187,
+   "corregidas": 22,
+   "sin_referencia": 0,
+   "corrida_anterior": {
+    "ok": 186,
+    "a_mas_de_15_m": 22,
+    "sin_referencia": 0,
+    "total": 208
+   }
+  }
  },
  "estaciones": [
   {
-   "lat": 1.063627,
-   "lon": -77.428201,
+   "lat": 1.063595,
+   "lon": -77.428369,
    "nombre": "Peaje El Placer",
    "tipo": "cabina",
    "via": "Carretera Panamericana",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 1.063595,
+     "lon": -77.428369,
+     "n": 1,
+     "rumbo": 169
+    },
+    {
+     "lat": 1.06366,
+     "lon": -77.428033,
+     "n": 1,
+     "rumbo": 349
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 19,
+    "centro_plaza": [
+     1.063627,
+     -77.428201
+    ]
+   },
    "pais": "CO",
    "via_visible": "Carretera Panamericana",
    "punto": "El Placer",
@@ -33,6 +67,18 @@
    "via": "Carretera Panamericana",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 1.282165,
+     "lon": -77.269468,
+     "n": 1,
+     "rumbo": 5
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Carretera Panamericana",
    "punto": "Daza",
@@ -48,6 +94,19 @@
    "ref": "25",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 1.425539,
+     "lon": -77.284432,
+     "n": 1,
+     "rumbo": 190,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Carretera Panamericana",
    "punto": "Cano",
@@ -62,6 +121,19 @@
    "tipo": "cabina",
    "localidad": "Las Damas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 1.690511,
+     "lon": -74.373514,
+     "n": 1,
+     "rumbo": 141,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "punto": "Las Damas",
    "nombre_visible": "Peaje Las Damas",
@@ -74,6 +146,19 @@
    "tipo": "cabina",
    "localidad": "Campo Hermoso",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 1.856916,
+     "lon": -74.670259,
+     "n": 1,
+     "rumbo": 49,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "punto": "Campo Hermoso",
    "nombre_visible": "Peaje Campo Hermoso",
@@ -87,6 +172,19 @@
    "tipo": "cabina",
    "localidad": "Campo Hermoso",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 1.877682,
+     "lon": -74.606153,
+     "n": 1,
+     "rumbo": 153,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "punto": "Campo Hermoso",
    "nombre_visible": "Peaje Campo Hermoso",
@@ -100,6 +198,19 @@
    "tipo": "cabina",
    "localidad": "San Vicente del Caguán",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 2.07578,
+     "lon": -74.745534,
+     "n": 1,
+     "rumbo": 141,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "punto": "San Vicente del Caguán",
    "nombre_visible": "Peaje San Vicente del Caguán",
@@ -113,6 +224,19 @@
    "via": "Vía Altamira - Garzón",
    "ref": "45",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 2.143025,
+     "lon": -75.700369,
+     "n": 1,
+     "rumbo": 235,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Altamira - Garzón",
    "punto": "Altamira",
@@ -128,6 +252,19 @@
    "ref": "25",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 2.188949,
+     "lon": -76.8512,
+     "n": 1,
+     "rumbo": 264,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Carretera Panamericana",
    "punto": "El Bordo",
@@ -142,6 +279,19 @@
    "tipo": "cabina",
    "via": "La Macarena - Loma Linda",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 2.370029,
+     "lon": -73.756082,
+     "n": 1,
+     "rumbo": 159,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "La Macarena - Loma Linda",
    "punto": "Caño Indio",
@@ -154,6 +304,17 @@
    "nombre": "Peaje Tunia",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 2.701658,
+     "lon": -76.536776,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Carretera Panamericana",
    "punto": "Tunia",
@@ -168,6 +329,19 @@
    "via": "Vía Campoalegre - Neiva",
    "ref": "45",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 2.785522,
+     "lon": -75.301963,
+     "n": 1,
+     "rumbo": 192,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Campoalegre - Neiva",
    "punto": "Los Cauchos",
@@ -182,6 +356,24 @@
    "via": "Neiva - Natagaima",
    "ref": "45",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 2.977755,
+     "lon": -75.307151,
+     "n": 1,
+     "rumbo": 7
+    },
+    {
+     "lat": 2.977774,
+     "lon": -75.307332,
+     "n": 1,
+     "rumbo": 186
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.1
+   },
    "pais": "CO",
    "via_visible": "Ruta 45",
    "punto": "Neiva",
@@ -189,13 +381,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 3.151246,
-   "lon": -76.460088,
+   "lat": 3.151413,
+   "lon": -76.459734,
    "nombre": "Peaje Villa Rica (Norte - Sur)",
    "tipo": "cabina",
    "via": "Santander de Quilichao - Ye de Villa Rica",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 3.151079,
+     "lon": -76.460443,
+     "n": 1,
+     "rumbo": 190
+    },
+    {
+     "lat": 3.151413,
+     "lon": -76.459734,
+     "n": 1,
+     "rumbo": 7
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 43,
+    "centro_plaza": [
+     3.151246,
+     -76.460088
+    ]
+   },
    "pais": "CO",
    "via_visible": "Ruta 25",
    "punto": "Villa Rica (Norte - Sur)",
@@ -210,6 +424,19 @@
    "via": "Neiva - Natagaima",
    "ref": "45",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 3.393759,
+     "lon": -75.203731,
+     "n": 1,
+     "rumbo": 184,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 45",
    "punto": "El Patá",
@@ -224,6 +451,18 @@
    "via": "Vía Cali - Palmira",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 3.500736,
+     "lon": -76.443022,
+     "n": 1,
+     "rumbo": 75
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Cali - Palmira",
    "punto": "Estambul",
@@ -238,6 +477,18 @@
    "via": "Vía Cali - Palmira",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 3.523484,
+     "lon": -76.343319,
+     "n": 1,
+     "rumbo": 259
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Cali - Palmira",
    "punto": "Ciat",
@@ -251,6 +502,24 @@
    "tipo": "cabina",
    "via": "Vía Siberia - Paso La Torre",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 3.627614,
+     "lon": -76.457784,
+     "n": 1,
+     "rumbo": 153
+    },
+    {
+     "lat": 3.627712,
+     "lon": -76.457585,
+     "n": 1,
+     "rumbo": 335
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.3
+   },
    "pais": "CO",
    "via_visible": "Vía Siberia - Paso La Torre",
    "punto": "Paso de La Torre",
@@ -265,6 +534,19 @@
    "via": "Vía San Martin - Granada",
    "ref": "65",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 3.632998,
+     "lon": -73.706412,
+     "n": 1,
+     "rumbo": 8,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía San Martin - Granada",
    "punto": "Iracá",
@@ -279,6 +561,18 @@
    "via": "Rozo - El Cerrito",
    "ref": "2505B",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 3.643912,
+     "lon": -76.381102,
+     "n": 1,
+     "rumbo": 208
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 2505B",
    "punto": "Rozo",
@@ -286,13 +580,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 3.713031,
-   "lon": -76.319171,
+   "lat": 3.713021,
+   "lon": -76.318842,
    "nombre": "Peaje Cerrito",
    "tipo": "cabina",
    "via": "Troncal de Occidente",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 3.713021,
+     "lon": -76.318842,
+     "n": 1,
+     "rumbo": 0
+    },
+    {
+     "lat": 3.713042,
+     "lon": -76.3195,
+     "n": 1,
+     "rumbo": 180
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 37,
+    "centro_plaza": [
+     3.713031,
+     -76.319171
+    ]
+   },
    "pais": "CO",
    "via_visible": "Ruta 25",
    "punto": "Cerrito",
@@ -306,6 +622,24 @@
    "tipo": "cabina",
    "ref": "23",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 3.759927,
+     "lon": -76.411513,
+     "n": 5,
+     "rumbo": 168
+    },
+    {
+     "lat": 3.759972,
+     "lon": -76.411305,
+     "n": 3,
+     "rumbo": 348
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.9
+   },
    "pais": "CO",
    "via_visible": "Ruta 23",
    "punto": "Mediacanoa",
@@ -320,6 +654,19 @@
    "via": "Transversal Buenaventura - Villavicencio - Puerto Carreño",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 3.762963,
+     "lon": -76.665535,
+     "n": 1,
+     "rumbo": 134,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 40",
    "punto": "Loboguerrero",
@@ -327,13 +674,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 3.972026,
-   "lon": -76.253349,
+   "lat": 3.972187,
+   "lon": -76.253436,
    "nombre": "Peaje Betania",
    "tipo": "cabina",
    "via": "Troncal de Occidente",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 3.971865,
+     "lon": -76.253261,
+     "n": 1,
+     "rumbo": 59
+    },
+    {
+     "lat": 3.972187,
+     "lon": -76.253436,
+     "n": 1,
+     "rumbo": 238
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 20,
+    "centro_plaza": [
+     3.972026,
+     -76.253349
+    ]
+   },
    "pais": "CO",
    "via_visible": "Ruta 25",
    "punto": "Betania",
@@ -349,6 +718,24 @@
    "ref": "23",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 3.995549,
+     "lon": -76.32845,
+     "n": 1,
+     "rumbo": 9
+    },
+    {
+     "lat": 3.995563,
+     "lon": -76.328508,
+     "n": 1,
+     "rumbo": 189
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.3
+   },
    "pais": "CO",
    "via_visible": "Vía Panorama",
    "punto": "Río Frío",
@@ -364,6 +751,18 @@
    "via": "Vía Villavicencio - Acacías",
    "ref": "65",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.026226,
+     "lon": -73.775211,
+     "n": 1,
+     "rumbo": 185
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Villavicencio - Acacías",
    "punto": "Ocoa",
@@ -378,6 +777,19 @@
    "via": "Vía Villavicencio - Puerto López",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.056964,
+     "lon": -73.463227,
+     "n": 1,
+     "rumbo": 83,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Villavicencio - Puerto López",
    "punto": "La Libertad",
@@ -392,6 +804,19 @@
    "via": "Vía Puerto López - Puerto Gaitán",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.112671,
+     "lon": -72.834899,
+     "n": 1,
+     "rumbo": 93,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Puerto López - Puerto Gaitán",
    "punto": "Casetabla",
@@ -399,14 +824,36 @@
    "confianza": "alta"
   },
   {
-   "lat": 4.192587,
-   "lon": -74.860969,
+   "lat": 4.192508,
+   "lon": -74.860806,
    "nombre": "Peaje El Espinal - Girardot (45)",
    "tipo": "cabina",
    "via": "El Espinal - Girardot",
    "ref": "45",
    "localidad": "El Espinal",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 4.192508,
+     "lon": -74.860806,
+     "n": 3,
+     "rumbo": 26
+    },
+    {
+     "lat": 4.192665,
+     "lon": -74.861133,
+     "n": 3,
+     "rumbo": 206
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 20,
+    "centro_plaza": [
+     4.192587,
+     -74.860969
+    ]
+   },
    "pais": "CO",
    "via_visible": "Ruta 45",
    "punto": "El Espinal",
@@ -414,14 +861,36 @@
    "confianza": "media"
   },
   {
-   "lat": 4.195833,
-   "lon": -73.594383,
+   "lat": 4.195659,
+   "lon": -73.594214,
    "nombre": "Peaje Villavicencio - Barranca de Upía (65)",
    "tipo": "cabina",
    "via": "Villavicencio - Barranca de Upía",
    "ref": "65",
    "localidad": "Villavicencio",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 4.195659,
+     "lon": -73.594214,
+     "n": 1,
+     "rumbo": 48
+    },
+    {
+     "lat": 4.196007,
+     "lon": -73.594553,
+     "n": 1,
+     "rumbo": 227
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 27,
+    "centro_plaza": [
+     4.195833,
+     -73.594383
+    ]
+   },
    "pais": "CO",
    "via_visible": "Ruta 65",
    "punto": "Villavicencio",
@@ -436,6 +905,19 @@
    "via": "Vía Bogotá - Villavicencio",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.20024,
+     "lon": -73.721114,
+     "n": 2,
+     "rumbo": 120,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Bogotá - Villavicencio",
    "punto": "Pipiral",
@@ -450,6 +932,24 @@
    "via": "Autopista Girardot-Ibagué",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.245462,
+     "lon": -74.880435,
+     "n": 1,
+     "rumbo": 59
+    },
+    {
+     "lat": 4.245593,
+     "lon": -74.880529,
+     "n": 1,
+     "rumbo": 239
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.9
+   },
    "pais": "CO",
    "via_visible": "Autopista Girardot-Ibagué",
    "punto": "Chicoral",
@@ -457,13 +957,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 4.252739,
-   "lon": -76.118248,
+   "lat": 4.252275,
+   "lon": -76.117591,
    "nombre": "Peaje Uribe",
    "tipo": "cabina",
    "via": "Troncal de Occidente",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.252275,
+     "lon": -76.117591,
+     "n": 1,
+     "rumbo": 36
+    },
+    {
+     "lat": 4.253204,
+     "lon": -76.118905,
+     "n": 1,
+     "rumbo": 207
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 89,
+    "centro_plaza": [
+     4.252739,
+     -76.118248
+    ]
+   },
    "pais": "CO",
    "via_visible": "Ruta 25",
    "punto": "Uribe",
@@ -478,6 +1000,19 @@
    "via": "Vía Restrepo - Cumaral - Paratebueno",
    "ref": "65",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.261284,
+     "lon": -73.448084,
+     "n": 1,
+     "rumbo": 247,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Restrepo - Cumaral - Paratebueno",
    "punto": "Veracruz",
@@ -492,6 +1027,24 @@
    "via": "Autopista Bogotá Girardot - Boquerón - Fusagasugá",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.269273,
+     "lon": -74.500061,
+     "n": 1,
+     "rumbo": 68
+    },
+    {
+     "lat": 4.269452,
+     "lon": -74.500142,
+     "n": 1,
+     "rumbo": 247
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.8
+   },
    "pais": "CO",
    "via_visible": "Autopista Bogotá Girardot - Boquerón - Fusagasugá",
    "punto": "Chinauta",
@@ -499,13 +1052,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 4.279883,
-   "lon": -73.834751,
+   "lat": 4.279924,
+   "lon": -73.834971,
    "nombre": "Peaje Naranjal",
    "tipo": "cabina",
    "via": "Vía Bogotá - Villavicencio",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.279841,
+     "lon": -73.834531,
+     "n": 1,
+     "rumbo": 9
+    },
+    {
+     "lat": 4.279924,
+     "lon": -73.834971,
+     "n": 1,
+     "rumbo": 194
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 25,
+    "centro_plaza": [
+     4.279883,
+     -73.834751
+    ]
+   },
    "pais": "CO",
    "via_visible": "Vía Bogotá - Villavicencio",
    "punto": "Naranjal",
@@ -520,6 +1095,24 @@
    "via": "Vía Ibagué-Gualanday",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.300281,
+     "lon": -75.0501,
+     "n": 1,
+     "rumbo": 134
+    },
+    {
+     "lat": 4.300473,
+     "lon": -75.049928,
+     "n": 1,
+     "rumbo": 317
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 14.3
+   },
    "pais": "CO",
    "via_visible": "Vía Ibagué-Gualanday",
    "punto": "Alto de Gualanday",
@@ -534,6 +1127,19 @@
    "via": "Ruta Nacional 40",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.351334,
+     "lon": -72.169218,
+     "n": 1,
+     "rumbo": 111,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 40",
    "punto": "Yucao",
@@ -547,6 +1153,24 @@
    "tipo": "cabina",
    "via": "Vía Tocaima Girardot",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.403227,
+     "lon": -74.731377,
+     "n": 1,
+     "rumbo": 47
+    },
+    {
+     "lat": 4.403314,
+     "lon": -74.731476,
+     "n": 1,
+     "rumbo": 228
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.3
+   },
    "pais": "CO",
    "via_visible": "Vía Tocaima Girardot",
    "punto": "Estación Pubenza",
@@ -561,6 +1185,24 @@
    "via": "Vía Cajamarca - Puente Cajamarca - Ibagué",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.405682,
+     "lon": -75.285475,
+     "n": 2,
+     "rumbo": 77
+    },
+    {
+     "lat": 4.405835,
+     "lon": -75.285512,
+     "n": 2,
+     "rumbo": 259
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.7
+   },
    "pais": "CO",
    "via_visible": "Vía Cajamarca - Puente Cajamarca - Ibagué",
    "punto": "Cocora",
@@ -575,6 +1217,24 @@
    "via": "Autopista del Café",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.408438,
+     "lon": -75.899343,
+     "n": 1,
+     "rumbo": 42
+    },
+    {
+     "lat": 4.408557,
+     "lon": -75.899489,
+     "n": 1,
+     "rumbo": 223
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.4
+   },
    "pais": "CO",
    "via_visible": "Autopista del Café",
    "punto": "Corozal",
@@ -589,6 +1249,19 @@
    "via": "Vía Fusagasuga - San Miguel",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.444146,
+     "lon": -74.301573,
+     "n": 1,
+     "rumbo": 72,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Fusagasuga - San Miguel",
    "punto": "San Miguel",
@@ -603,6 +1276,18 @@
    "via": "Vía Armenia - La Línea",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.44529,
+     "lon": -75.518443,
+     "n": 2,
+     "rumbo": 295
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Armenia - La Línea",
    "punto": "Túnel de la Línea Tolíma",
@@ -617,6 +1302,19 @@
    "via": "Vía Bogotá - Villavicencio",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.452598,
+     "lon": -74.073341,
+     "n": 1,
+     "rumbo": 48,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Bogotá - Villavicencio",
    "punto": "El Boquerón I",
@@ -629,6 +1327,24 @@
    "nombre": "Peaje El Boqueron II",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.454213,
+     "lon": -74.050181,
+     "n": 1,
+     "rumbo": 136
+    },
+    {
+     "lat": 4.454231,
+     "lon": -74.05005,
+     "n": 1,
+     "rumbo": 297
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.3
+   },
    "pais": "CO",
    "via_visible": "Vía Bogotá - Villavicencio",
    "punto": "El Boqueron II",
@@ -643,6 +1359,24 @@
    "via": "Vía Ibagué - Mariquita",
    "ref": "43",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.507526,
+     "lon": -74.991428,
+     "n": 1,
+     "rumbo": 47
+    },
+    {
+     "lat": 4.507716,
+     "lon": -74.991613,
+     "n": 1,
+     "rumbo": 226
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 14.6
+   },
    "pais": "CO",
    "via_visible": "Vía Ibagué - Mariquita",
    "punto": "Alvarado",
@@ -657,6 +1391,18 @@
    "via": "Vía Armenia - La Línea",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.5237,
+     "lon": -75.589484,
+     "n": 2,
+     "rumbo": 178
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Armenia - La Línea",
    "punto": "Túnel de la Línea - Quindío",
@@ -671,6 +1417,24 @@
    "via": "Fusagasugá - Silvania - Soacha",
    "ref": "40",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.53747,
+     "lon": -74.271693,
+     "n": 2,
+     "rumbo": 27
+    },
+    {
+     "lat": 4.537579,
+     "lon": -74.271933,
+     "n": 2,
+     "rumbo": 207
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 14.6
+   },
    "pais": "CO",
    "via_visible": "Ruta 40",
    "punto": "Chusacá",
@@ -684,6 +1448,29 @@
    "tipo": "cabina",
    "via": "Vía El Colegio - El Charquito",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.544084,
+     "lon": -74.268569,
+     "n": 1,
+     "rumbo": 100
+    },
+    {
+     "lat": 4.544157,
+     "lon": -74.268552,
+     "n": 1
+    },
+    {
+     "lat": 4.544225,
+     "lon": -74.268544,
+     "n": 1,
+     "rumbo": 280
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.4
+   },
    "pais": "CO",
    "via_visible": "Vía El Colegio - El Charquito",
    "punto": "Nuevo Salto",
@@ -698,6 +1485,24 @@
    "via": "Vía Guataquí-Beltrán",
    "ref": "45",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.564011,
+     "lon": -74.797479,
+     "n": 2,
+     "rumbo": 40
+    },
+    {
+     "lat": 4.56408,
+     "lon": -74.797568,
+     "n": 2,
+     "rumbo": 220
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.2
+   },
    "pais": "CO",
    "via_visible": "Vía Guataquí-Beltrán",
    "punto": "Guataquí",
@@ -711,6 +1516,19 @@
    "tipo": "cabina",
    "via": "Vía Anapoima-La Mesa",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.594416,
+     "lon": -74.486275,
+     "n": 1,
+     "rumbo": 220,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Anapoima-La Mesa",
    "punto": "Estación San Pedro",
@@ -724,6 +1542,19 @@
    "tipo": "cabina",
    "via": "Vía Mosquera-Soacha",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.627389,
+     "lon": -74.29007,
+     "n": 1,
+     "rumbo": 126,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Mosquera-Soacha",
    "punto": "Estación Ramal a Soacha",
@@ -737,6 +1568,19 @@
    "tipo": "cabina",
    "via": "Vía La Mesa - Mosquera",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.638316,
+     "lon": -74.293965,
+     "n": 1,
+     "rumbo": 14,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía La Mesa - Mosquera",
    "punto": "Estación Mondoñedo",
@@ -751,6 +1595,18 @@
    "via": "Calle 102B",
    "ref": "50",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.663403,
+     "lon": -74.010593,
+     "n": 4,
+     "rumbo": 161
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 50",
    "punto": "Los Patios",
@@ -766,6 +1622,19 @@
    "ref": "23",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 4.665093,
+     "lon": -76.049642,
+     "n": 1,
+     "rumbo": 204,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Panorama",
    "punto": "Toro",
@@ -781,6 +1650,19 @@
    "via": "Via Villanueva - Agua Clara",
    "ref": "65",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.678564,
+     "lon": -72.943787,
+     "n": 1,
+     "rumbo": 351,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 65",
    "punto": "San Pedro",
@@ -795,6 +1677,24 @@
    "via": "Autopista del Café",
    "ref": "29",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.69829,
+     "lon": -75.606049,
+     "n": 1,
+     "rumbo": 3
+    },
+    {
+     "lat": 4.698291,
+     "lon": -75.606176,
+     "n": 1,
+     "rumbo": 183
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.0
+   },
    "pais": "CO",
    "via_visible": "Autopista del Café",
    "punto": "Circasia",
@@ -809,6 +1709,18 @@
    "via": "Río Bogotá",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 4.698587,
+     "lon": -74.179402,
+     "n": 7,
+     "rumbo": 290
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Bogota - Funza",
    "punto": "Río Bogotá",
@@ -823,6 +1735,24 @@
    "tipo": "cabina",
    "via": "Vía Funza - Siberia",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.744583,
+     "lon": -74.171426,
+     "n": 3,
+     "rumbo": 55
+    },
+    {
+     "lat": 4.74472,
+     "lon": -74.171522,
+     "n": 3,
+     "rumbo": 235
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.2
+   },
    "pais": "CO",
    "via_visible": "Vía Funza - Siberia",
    "punto": "Estación la Tebaida",
@@ -838,6 +1768,18 @@
    "ref": "50A",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 4.748686,
+     "lon": -74.29118,
+     "n": 1,
+     "rumbo": 120
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Facatativá - Madrid",
    "punto": "EL CORZO",
@@ -848,16 +1790,27 @@
   {
    "lat": 4.763644,
    "lon": -74.043662,
-   "nombre": "Peaje Calle 187 Bis (55)",
+   "nombre": "Peaje Calle 187 Bis",
    "tipo": "cabina",
    "via": "Calle 187 Bis",
-   "ref": "55",
    "localidad": "Cota",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 4.763644,
+     "lon": -74.043662,
+     "n": 1,
+     "rumbo": 58
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
-   "via_visible": "Ruta 55",
+   "via_visible": "Calle 187 Bis",
    "punto": "Cota",
-   "nombre_visible": "Ruta 55 - Peaje Cota",
+   "nombre_visible": "Calle 187 Bis - Peaje Cota",
    "confianza": "media"
   },
   {
@@ -868,6 +1821,24 @@
    "via": "Autopista Medellin - La Punta - Siberia",
    "ref": "50",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.780329,
+     "lon": -74.185063,
+     "n": 1,
+     "rumbo": 127
+    },
+    {
+     "lat": 4.780462,
+     "lon": -74.184968,
+     "n": 1,
+     "rumbo": 307
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.0
+   },
    "pais": "CO",
    "via_visible": "Autopista Medellin - La Punta - Siberia",
    "punto": "Siberia",
@@ -883,6 +1854,24 @@
    "ref": "25",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 4.793361,
+     "lon": -75.859907,
+     "n": 2,
+     "rumbo": 61
+    },
+    {
+     "lat": 4.793464,
+     "lon": -75.859952,
+     "n": 3,
+     "rumbo": 241
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.0
+   },
    "pais": "CO",
    "via_visible": "Vía Cerritos Cartago",
    "punto": "Cerritos II",
@@ -898,6 +1887,18 @@
    "via": "RN50-09",
    "ref": "50",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.808697,
+     "lon": -73.945766,
+     "n": 4,
+     "rumbo": 195
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 50",
    "punto": "la Cabaña",
@@ -913,6 +1914,19 @@
    "ref": "56",
    "empresa": "CO-ANI",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 4.825529,
+     "lon": -73.083408,
+     "n": 5,
+     "rumbo": 229,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía San Luis de Gaceno - El Secreto",
    "punto": "San Luis De Gaceno",
@@ -928,6 +1942,18 @@
    "via": "Vía Bogotá - Tunja",
    "ref": "55",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.83,
+     "lon": -74.033021,
+     "n": 5,
+     "rumbo": 8
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Bogotá - Tunja",
    "punto": "Andes",
@@ -942,6 +1968,18 @@
    "via": "Vía Bogotá - La Caro",
    "ref": "55",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.835443,
+     "lon": -74.02879,
+     "n": 5,
+     "rumbo": 0
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Bogotá - La Caro",
    "punto": "Fusca",
@@ -956,6 +1994,24 @@
    "via": "Vía Monterrey - Yopal",
    "ref": "65",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.839179,
+     "lon": -72.737537,
+     "n": 2,
+     "rumbo": 19
+    },
+    {
+     "lat": 4.839244,
+     "lon": -72.737685,
+     "n": 2,
+     "rumbo": 199
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.9
+   },
    "pais": "CO",
    "via_visible": "Vía Monterrey - Yopal",
    "punto": "Tacuya",
@@ -971,6 +2027,18 @@
    "ref": "50 CN 03",
    "localidad": "Salitre",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 4.841866,
+     "lon": -73.936142,
+     "n": 3,
+     "rumbo": 346
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía La Calera - Sopó",
    "punto": "Salitre",
@@ -983,6 +2051,18 @@
    "nombre": "Peaje Unisabana",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.855352,
+     "lon": -74.031484,
+     "n": 2,
+     "rumbo": 109
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Chía - Bogotá",
    "punto": "Unisabana",
@@ -992,15 +2072,24 @@
   {
    "lat": 4.862194,
    "lon": -74.04327,
-   "nombre": "Peaje Carrera 5 Este",
+   "nombre": "Peaje cerca de Chía",
    "tipo": "cabina",
-   "via": "Carrera 5 Este",
    "localidad": "Chía",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 4.862194,
+     "lon": -74.04327,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
-   "via_visible": "Carrera 5 Este",
    "punto": "Chía",
-   "nombre_visible": "Carrera 5 Este - Peaje Chía",
+   "nombre_visible": "Peaje Chía",
    "confianza": "media"
   },
   {
@@ -1010,6 +2099,19 @@
    "tipo": "cabina",
    "via": "Vía Bituima-Guayabal de Siquima",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.883421,
+     "lon": -74.483208,
+     "n": 1,
+     "rumbo": 215,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Bituima-Guayabal de Siquima",
    "punto": "Guayabal",
@@ -1024,6 +2126,19 @@
    "via": "Vía Sasaima - Albán",
    "ref": "50A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.901359,
+     "lon": -74.42614,
+     "n": 1,
+     "rumbo": 327,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Sasaima - Albán",
    "punto": "Jalisco",
@@ -1036,6 +2151,19 @@
    "nombre": "Peaje Brisas",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.933599,
+     "lon": -75.3501,
+     "n": 1,
+     "rumbo": 39,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "punto": "Brisas",
    "nombre_visible": "Peaje Brisas",
@@ -1047,6 +2175,24 @@
    "nombre": "Peaje Tarapacá I",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.939489,
+     "lon": -75.616448,
+     "n": 1,
+     "rumbo": 20
+    },
+    {
+     "lat": 4.939516,
+     "lon": -75.616522,
+     "n": 1,
+     "rumbo": 200
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.3
+   },
    "pais": "CO",
    "via_visible": "Autopista del Café",
    "punto": "Tarapacá I",
@@ -1061,6 +2207,19 @@
    "via": "Troncal del Magdalena",
    "ref": "45",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.946128,
+     "lon": -74.719147,
+     "n": 1,
+     "rumbo": 60,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 45",
    "punto": "Cambao",
@@ -1075,6 +2234,24 @@
    "via": "Autopista del Café",
    "ref": "29",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.950087,
+     "lon": -75.618562,
+     "n": 1,
+     "rumbo": 11
+    },
+    {
+     "lat": 4.950114,
+     "lon": -75.618722,
+     "n": 1,
+     "rumbo": 190
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.0
+   },
    "pais": "CO",
    "via_visible": "Autopista del Café",
    "punto": "Tarapacá II",
@@ -1087,6 +2264,19 @@
    "nombre": "Peaje Armero",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.958881,
+     "lon": -74.915109,
+     "n": 1,
+     "rumbo": 129,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "punto": "Armero",
    "nombre_visible": "Peaje Armero",
@@ -1100,6 +2290,24 @@
    "via": "Troncal de Occidente",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 4.999264,
+     "lon": -75.858954,
+     "n": 1,
+     "rumbo": 176
+    },
+    {
+     "lat": 4.999273,
+     "lon": -75.858856,
+     "n": 1,
+     "rumbo": 356
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.5
+   },
    "pais": "CO",
    "via_visible": "Ruta 25",
    "punto": "Acapulco",
@@ -1115,6 +2323,24 @@
    "ref": "29",
    "empresa": "CO-ANI",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 5.027024,
+     "lon": -75.587403,
+     "n": 1,
+     "rumbo": 54
+    },
+    {
+     "lat": 5.027133,
+     "lon": -75.587476,
+     "n": 1,
+     "rumbo": 233
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.2
+   },
    "pais": "CO",
    "via_visible": "Vía Club Campestre - La Trinidad",
    "punto": "Pavas",
@@ -1123,13 +2349,35 @@
    "plaza": "Pavas"
   },
   {
-   "lat": 5.031275,
-   "lon": -73.839846,
+   "lat": 5.031191,
+   "lon": -73.839737,
    "nombre": "Peaje El Roble",
    "tipo": "cabina",
    "via": "Vía Bogotá - Tunja",
    "ref": "55",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.031191,
+     "lon": -73.839737,
+     "n": 3,
+     "rumbo": 40
+    },
+    {
+     "lat": 5.031359,
+     "lon": -73.839956,
+     "n": 3,
+     "rumbo": 220
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 15,
+    "centro_plaza": [
+     5.031275,
+     -73.839846
+    ]
+   },
    "pais": "CO",
    "via_visible": "Vía Bogotá - Tunja",
    "punto": "El Roble",
@@ -1145,6 +2393,19 @@
    "ref": "29",
    "empresa": "CO-ANI",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 5.048664,
+     "lon": -75.598862,
+     "n": 1,
+     "rumbo": 124,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Autopista del Café",
    "punto": "San Bernardo",
@@ -1161,6 +2422,24 @@
    "ref": "50",
    "empresa": "CO-ANI",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 5.052167,
+     "lon": -75.594609,
+     "n": 1,
+     "rumbo": 121
+    },
+    {
+     "lat": 5.05224,
+     "lon": -75.594564,
+     "n": 1,
+     "rumbo": 302
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.7
+   },
    "pais": "CO",
    "via_visible": "Carretera Panamericana Manizales - Medellín",
    "punto": "San Bernardo",
@@ -1177,6 +2456,24 @@
    "ref": "50",
    "empresa": "CO-ANI",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 5.065379,
+     "lon": -74.414365,
+     "n": 1,
+     "rumbo": 113
+    },
+    {
+     "lat": 5.065524,
+     "lon": -74.414316,
+     "n": 1,
+     "rumbo": 292
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.4
+   },
    "pais": "CO",
    "via_visible": "Ruta 50",
    "punto": "Caiquero",
@@ -1192,6 +2489,24 @@
    "via": "Conexión Troncal Central del Norte - Troncal Villagarzon - Saravena",
    "ref": "56",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.077415,
+     "lon": -73.553759,
+     "n": 1,
+     "rumbo": 111
+    },
+    {
+     "lat": 5.077631,
+     "lon": -73.553665,
+     "n": 1,
+     "rumbo": 291
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 56",
    "punto": "Macheta",
@@ -1205,6 +2520,19 @@
    "tipo": "cabina",
    "via": "Vía Zipaquirá - Pacho",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.088885,
+     "lon": -74.081214,
+     "n": 1,
+     "rumbo": 317,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Zipaquirá - Pacho",
    "punto": "Pacho",
@@ -1220,6 +2548,24 @@
    "ref": "45A",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 5.104191,
+     "lon": -73.912903,
+     "n": 2,
+     "rumbo": 28
+    },
+    {
+     "lat": 5.104226,
+     "lon": -73.912969,
+     "n": 2,
+     "rumbo": 207
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.1
+   },
    "pais": "CO",
    "via_visible": "Vía Boqueron - Zipaquira",
    "punto": "Casablanca",
@@ -1233,6 +2579,24 @@
    "nombre": "Peaje Guaico",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.105619,
+     "lon": -75.760338,
+     "n": 1,
+     "rumbo": 226
+    },
+    {
+     "lat": 5.105738,
+     "lon": -75.760454,
+     "n": 1,
+     "rumbo": 47
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.2
+   },
    "pais": "CO",
    "punto": "Guaico",
    "nombre_visible": "Peaje Guaico",
@@ -1246,6 +2610,19 @@
    "via": "Vía Mariquita - Honda",
    "ref": "50",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.201512,
+     "lon": -74.820329,
+     "n": 1,
+     "rumbo": 67,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Mariquita - Honda",
    "punto": "Honda",
@@ -1261,6 +2638,19 @@
    "ref": "50",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 5.203054,
+     "lon": -74.68457,
+     "n": 1,
+     "rumbo": 116,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Honda - Guaduas",
    "punto": "Bicentenario",
@@ -1276,6 +2666,19 @@
    "via": "Troncal del Eje Cafetero",
    "ref": "29",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.26258,
+     "lon": -75.65886,
+     "n": 1,
+     "rumbo": 353,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 29",
    "punto": "Irra",
@@ -1290,6 +2693,29 @@
    "via": "Vía Monterrey - Yopal",
    "ref": "65",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.263691,
+     "lon": -72.478934,
+     "n": 3,
+     "rumbo": 40
+    },
+    {
+     "lat": 5.263849,
+     "lon": -72.479106,
+     "n": 1
+    },
+    {
+     "lat": 5.263981,
+     "lon": -72.479263,
+     "n": 3,
+     "rumbo": 219
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.4
+   },
    "pais": "CO",
    "via_visible": "Vía Monterrey - Yopal",
    "punto": "Charte",
@@ -1304,6 +2730,24 @@
    "via": "Vía Bogotá - Tunja",
    "ref": "55",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.290455,
+     "lon": -73.583363,
+     "n": 2,
+     "rumbo": 2
+    },
+    {
+     "lat": 5.290466,
+     "lon": -73.583578,
+     "n": 2,
+     "rumbo": 182
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.9
+   },
    "pais": "CO",
    "via_visible": "Vía Bogotá - Tunja",
    "punto": "Albarracín",
@@ -1319,6 +2763,19 @@
    "ref": "25",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 5.332437,
+     "lon": -75.77565,
+     "n": 1,
+     "rumbo": 37,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 25",
    "punto": "San Clemente",
@@ -1329,15 +2786,24 @@
   {
    "lat": 5.33515,
    "lon": -72.391142,
-   "nombre": "Peaje Avenida Carrera 23",
+   "nombre": "Peaje cerca de Yopal",
    "tipo": "cabina",
-   "via": "Avenida Carrera 23",
    "localidad": "Yopal",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 5.33515,
+     "lon": -72.391142,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
-   "via_visible": "Avenida Carrera 23",
    "punto": "Yopal",
-   "nombre_visible": "Avenida Carrera 23 - Peaje Yopal",
+   "nombre_visible": "Peaje Yopal",
    "confianza": "media"
   },
   {
@@ -1348,6 +2814,19 @@
    "via": "Via Yopal - Paz de Ariporo",
    "ref": "65",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.410985,
+     "lon": -72.305051,
+     "n": 1,
+     "rumbo": 249,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 65",
    "punto": "Araguaney",
@@ -1362,6 +2841,19 @@
    "via": "Variante La Dorada - Puerto Salgar",
    "ref": "45",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.458353,
+     "lon": -74.639687,
+     "n": 1,
+     "rumbo": 178,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 45",
    "punto": "Puerto Salgar",
@@ -1369,14 +2861,36 @@
    "confianza": "alta"
   },
   {
-   "lat": 5.497133,
-   "lon": -74.613428,
+   "lat": 5.497259,
+   "lon": -74.613485,
    "nombre": "El Korán",
    "tipo": "cabina",
    "via": "El Korán",
    "ref": "5008B",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 5.497006,
+     "lon": -74.61337,
+     "n": 1,
+     "rumbo": 67
+    },
+    {
+     "lat": 5.497259,
+     "lon": -74.613485,
+     "n": 1,
+     "rumbo": 246
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 15,
+    "centro_plaza": [
+     5.497133,
+     -74.613428
+    ]
+   },
    "pais": "CO",
    "via_visible": "Ruta 5008B",
    "punto": "El Korán",
@@ -1392,6 +2906,19 @@
    "via": "Via Yopal - Paz de Ariporo",
    "ref": "65",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.524908,
+     "lon": -72.206125,
+     "n": 1,
+     "rumbo": 237,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 65",
    "punto": "La Yopalosa",
@@ -1406,6 +2933,19 @@
    "via": "Troncal de Occidente",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.540502,
+     "lon": -75.570286,
+     "n": 1,
+     "rumbo": 342,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 25",
    "punto": "Supía",
@@ -1421,6 +2961,24 @@
    "ref": "60",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 5.557772,
+     "lon": -73.501142,
+     "n": 1,
+     "rumbo": 34
+    },
+    {
+     "lat": 5.557821,
+     "lon": -73.501223,
+     "n": 1,
+     "rumbo": 213
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.2
+   },
    "pais": "CO",
    "via_visible": "Vía Tunja - Villa de Leyva",
    "punto": "Sáchica",
@@ -1437,6 +2995,19 @@
    "ref": "62",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 5.631986,
+     "lon": -72.921285,
+     "n": 1,
+     "rumbo": 352,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 62",
    "punto": "El Crucero",
@@ -1445,13 +3016,35 @@
    "plaza": "El Crucero"
   },
   {
-   "lat": 5.656916,
-   "lon": -73.278492,
+   "lat": 5.657029,
+   "lon": -73.27862,
    "nombre": "Peaje de Tuta",
    "tipo": "cabina",
    "via": "Vía Tunja - Duitama",
    "ref": "55",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.656802,
+     "lon": -73.278364,
+     "n": 1,
+     "rumbo": 47
+    },
+    {
+     "lat": 5.657029,
+     "lon": -73.27862,
+     "n": 1,
+     "rumbo": 226
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 19,
+    "centro_plaza": [
+     5.656916,
+     -73.278492
+    ]
+   },
    "pais": "CO",
    "via_visible": "Vía Tunja - Duitama",
    "punto": "de Tuta",
@@ -1467,6 +3060,19 @@
    "ref": "45A",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 5.727866,
+     "lon": -73.744637,
+     "n": 1,
+     "rumbo": 229,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 45A",
    "punto": "Saboyá",
@@ -1483,6 +3089,19 @@
    "ref": "62",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 5.795013,
+     "lon": -73.4776,
+     "n": 1,
+     "rumbo": 307,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Barbosa - Arcabuco",
    "punto": "Arcabuco",
@@ -1497,6 +3116,24 @@
    "tipo": "cabina",
    "ref": "25B",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.812155,
+     "lon": -75.679356,
+     "n": 1,
+     "rumbo": 113
+    },
+    {
+     "lat": 5.812338,
+     "lon": -75.679258,
+     "n": 1,
+     "rumbo": 293
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.4
+   },
    "pais": "CO",
    "via_visible": "Ruta 25B",
    "punto": "Pintada",
@@ -1512,6 +3149,19 @@
    "ref": "60",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 5.872527,
+     "lon": -74.611368,
+     "n": 1,
+     "rumbo": 324,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Autopista Medellín - Bogotá",
    "punto": "Puerto Triunfo",
@@ -1527,6 +3177,19 @@
    "via": "Troncal de Occidente",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 5.968883,
+     "lon": -75.594051,
+     "n": 1,
+     "rumbo": 165,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 25",
    "punto": "Primavera",
@@ -1541,6 +3204,19 @@
    "via": "Transversal Tribuga - Arauca",
    "ref": "60",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.046953,
+     "lon": -75.659886,
+     "n": 1,
+     "rumbo": 333,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 60",
    "punto": "Amagá",
@@ -1556,6 +3232,24 @@
    "ref": "60",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 6.124527,
+     "lon": -75.243018,
+     "n": 1,
+     "rumbo": 100
+    },
+    {
+     "lat": 6.124645,
+     "lon": -75.242999,
+     "n": 1,
+     "rumbo": 278
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.6
+   },
    "pais": "CO",
    "via_visible": "Autopista Medellín - Bogotá",
    "punto": "Cocorná",
@@ -1570,6 +3264,19 @@
    "tipo": "cabina",
    "via": "Loma del Escobero",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.143197,
+     "lon": -75.524799,
+     "n": 1,
+     "rumbo": 259,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 56",
    "punto": "El Escobero",
@@ -1583,6 +3290,19 @@
    "tipo": "cabina",
    "ref": "56",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.150659,
+     "lon": -75.531249,
+     "n": 1,
+     "rumbo": 135,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 56",
    "punto": "Las Palmas",
@@ -1596,6 +3316,24 @@
    "tipo": "cabina",
    "via": "Variante Las Palmas",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.170628,
+     "lon": -75.478795,
+     "n": 1,
+     "rumbo": 41
+    },
+    {
+     "lat": 6.170754,
+     "lon": -75.478931,
+     "n": 1,
+     "rumbo": 219
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.3
+   },
    "pais": "CO",
    "via_visible": "Variante Las Palmas",
    "punto": "Las Palmas",
@@ -1611,6 +3349,19 @@
    "ref": "45A",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 6.178277,
+     "lon": -73.333246,
+     "n": 1,
+     "rumbo": 27,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Socorro - Vado Real",
    "punto": "Oiba",
@@ -1625,6 +3376,18 @@
    "tipo": "cabina",
    "via": "Conexión Vial Aburrá - Oriente",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.179218,
+     "lon": -75.452814,
+     "n": 1,
+     "rumbo": 332
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Conexión Vial Aburrá - Oriente",
    "punto": "Sajonia",
@@ -1639,6 +3402,19 @@
    "via": "Vía Santa Elena",
    "localidad": "Sajonia",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 6.179659,
+     "lon": -75.461318,
+     "n": 1,
+     "rumbo": 315,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Santa Elena",
    "punto": "Sajonia",
@@ -1652,6 +3428,18 @@
    "tipo": "cabina",
    "via": "Conexión Vial Aburrá - Oriente",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.223084,
+     "lon": -75.533861,
+     "n": 1,
+     "rumbo": 93
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Conexión Vial Aburrá - Oriente",
    "punto": "Seminario",
@@ -1666,6 +3454,19 @@
    "via": "Calle 57B",
    "localidad": "Medellín",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 6.23506,
+     "lon": -75.532924,
+     "n": 1,
+     "rumbo": 336,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Calle 57B",
    "punto": "Medellín",
@@ -1680,6 +3481,29 @@
    "via": "Conexión vial Guillermo Gaviria Correa",
    "ref": "62",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.292972,
+     "lon": -75.651275,
+     "n": 1,
+     "rumbo": 143
+    },
+    {
+     "lat": 6.293148,
+     "lon": -75.651142,
+     "n": 1
+    },
+    {
+     "lat": 6.293212,
+     "lon": -75.650923,
+     "n": 1,
+     "rumbo": 324
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.1
+   },
    "pais": "CO",
    "via_visible": "Ruta 62",
    "punto": "Aburrá",
@@ -1687,13 +3511,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 6.294106,
-   "lon": -74.457339,
+   "lat": 6.293483,
+   "lon": -74.457677,
    "nombre": "Peaje Zambito",
    "tipo": "cabina",
    "via": "Troncal del Magdalena Medio - Puerto Nare - Puerto Araujo",
    "ref": "45",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.293483,
+     "lon": -74.457677,
+     "n": 1,
+     "rumbo": 36
+    },
+    {
+     "lat": 6.29473,
+     "lon": -74.457001,
+     "n": 1,
+     "rumbo": 218
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 78,
+    "centro_plaza": [
+     6.294106,
+     -74.457339
+    ]
+   },
    "pais": "CO",
    "via_visible": "Ruta 45",
    "punto": "Zambito",
@@ -1701,13 +3547,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 6.32801,
-   "lon": -75.515513,
+   "lat": 6.327852,
+   "lon": -75.515581,
    "nombre": "Peaje Copacabana",
    "tipo": "cabina",
    "via": "Autopista Medellín - Bogotá",
    "ref": "60",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.327852,
+     "lon": -75.515581,
+     "n": 1,
+     "rumbo": 86
+    },
+    {
+     "lat": 6.328168,
+     "lon": -75.515445,
+     "n": 1,
+     "rumbo": 270
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 19,
+    "centro_plaza": [
+     6.32801,
+     -75.515513
+    ]
+   },
    "pais": "CO",
    "via_visible": "Autopista Medellín - Bogotá",
    "punto": "Copacabana",
@@ -1720,6 +3588,24 @@
    "nombre": "Peaje Pajarito",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.331735,
+     "lon": -75.599431,
+     "n": 1,
+     "rumbo": 95
+    },
+    {
+     "lat": 6.331771,
+     "lon": -75.599423,
+     "n": 1,
+     "rumbo": 276
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.0
+   },
    "pais": "CO",
    "punto": "Pajarito",
    "nombre_visible": "Peaje Pajarito",
@@ -1733,6 +3619,19 @@
    "via": "Antigua Vía al Mar",
    "localidad": "San Sebastián de Palmitas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 6.338529,
+     "lon": -75.671213,
+     "n": 1,
+     "rumbo": 308,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Antigua Vía al Mar",
    "punto": "San Sebastián de Palmitas",
@@ -1747,6 +3646,19 @@
    "via": "Girardota - Cabildo - Hatillo",
    "ref": "25AN19",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.395797,
+     "lon": -75.423666,
+     "n": 1,
+     "rumbo": 30,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "25AN19",
    "punto": "Cabildo",
@@ -1761,6 +3673,24 @@
    "via": "Autopista Niquía - Hatillo",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.399537,
+     "lon": -75.43292,
+     "n": 1,
+     "rumbo": 50
+    },
+    {
+     "lat": 6.399648,
+     "lon": -75.433001,
+     "n": 1,
+     "rumbo": 233
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.6
+   },
    "pais": "CO",
    "via_visible": "Autopista Niquía - Hatillo",
    "punto": "Trapiche",
@@ -1775,6 +3705,19 @@
    "via": "Variante Puerto Berrio",
    "ref": "62",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.496665,
+     "lon": -74.501344,
+     "n": 1,
+     "rumbo": 89,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 62",
    "punto": "Puerto Berrío",
@@ -1782,13 +3725,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 6.527603,
-   "lon": -75.39601,
+   "lat": 6.527601,
+   "lon": -75.396158,
    "nombre": "Peaje Pandequeso",
    "tipo": "cabina",
    "via": "Troncal de Occidente",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.527601,
+     "lon": -75.396158,
+     "n": 1,
+     "rumbo": 180
+    },
+    {
+     "lat": 6.527605,
+     "lon": -75.395861,
+     "n": 1,
+     "rumbo": 0
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 16,
+    "centro_plaza": [
+     6.527603,
+     -75.39601
+    ]
+   },
    "pais": "CO",
    "via_visible": "Ruta 25",
    "punto": "Pandequeso",
@@ -1803,6 +3768,24 @@
    "via": "Transversal Tribuga - Arauca",
    "ref": "62",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.536139,
+     "lon": -75.075471,
+     "n": 1,
+     "rumbo": 72
+    },
+    {
+     "lat": 6.536286,
+     "lon": -75.075517,
+     "n": 1,
+     "rumbo": 258
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.5
+   },
    "pais": "CO",
    "via_visible": "Ruta 62",
    "punto": "Cisneros",
@@ -1818,6 +3801,19 @@
    "ref": "45A",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 6.617712,
+     "lon": -73.080315,
+     "n": 1,
+     "rumbo": 45,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Piedecuesta - San Gil",
    "punto": "Curití",
@@ -1833,6 +3829,19 @@
    "via": "VEGACHÍ",
    "empresa": "CO-ANI",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 6.626789,
+     "lon": -74.797092,
+     "n": 1,
+     "rumbo": 336,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Autopista al Río Magdalena 2",
    "punto": "Vegachí",
@@ -1848,6 +3857,19 @@
    "via": "Troncal del Magdalena Medio - Puerto Araujo - La Rochela",
    "ref": "45",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.645265,
+     "lon": -73.952501,
+     "n": 1,
+     "rumbo": 222,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 45",
    "punto": "Aguas Negras",
@@ -1863,6 +3885,19 @@
    "ref": "45A",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 6.825624,
+     "lon": -72.999446,
+     "n": 1,
+     "rumbo": 270,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Piedecuesta - San Gil",
    "punto": "Los Curos",
@@ -1879,6 +3914,19 @@
    "ref": "25",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 6.830421,
+     "lon": -75.468219,
+     "n": 1,
+     "rumbo": 218,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 25",
    "punto": "Los Llanos",
@@ -1893,6 +3941,24 @@
    "tipo": "cabina",
    "via": "Vía Los Santos - Los Curos",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 6.917396,
+     "lon": -73.034133,
+     "n": 1,
+     "rumbo": 15
+    },
+    {
+     "lat": 6.917433,
+     "lon": -73.034213,
+     "n": 1,
+     "rumbo": 197
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.8
+   },
    "pais": "CO",
    "via_visible": "Vía Los Santos - Los Curos",
    "punto": "Mesa de los Santos",
@@ -1907,6 +3973,19 @@
    "via": "SANTA ISABEL",
    "empresa": "CO-ANI",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 6.953443,
+     "lon": -74.760242,
+     "n": 1,
+     "rumbo": 30,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Autopista al Río Magdalena 2",
    "punto": "Santa Isabel",
@@ -1923,6 +4002,19 @@
    "ref": "62",
    "empresa": "CO-ANI",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 6.953467,
+     "lon": -76.242497,
+     "n": 1,
+     "rumbo": 15,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 62",
    "punto": "Fuemia",
@@ -1931,13 +4023,35 @@
    "plaza": "Fuemia"
   },
   {
-   "lat": 7.083531,
-   "lon": -73.717423,
+   "lat": 7.083417,
+   "lon": -73.717343,
    "nombre": "Peaje La Lizama",
    "tipo": "cabina",
    "via": "Vía Bucaramanga - Barrancabermeja",
    "ref": "66",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 7.083417,
+     "lon": -73.717343,
+     "n": 1,
+     "rumbo": 55
+    },
+    {
+     "lat": 7.083645,
+     "lon": -73.717503,
+     "n": 1,
+     "rumbo": 239
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 15,
+    "centro_plaza": [
+     7.083531,
+     -73.717423
+    ]
+   },
    "pais": "CO",
    "via_visible": "Vía Bucaramanga - Barrancabermeja",
    "punto": "La Lizama",
@@ -1952,6 +4066,24 @@
    "via": "Autopista Lebrija",
    "ref": "66",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 7.103219,
+     "lon": -73.185164,
+     "n": 1,
+     "rumbo": 86
+    },
+    {
+     "lat": 7.103356,
+     "lon": -73.185181,
+     "n": 1,
+     "rumbo": 265
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.6
+   },
    "pais": "CO",
    "via_visible": "Autopista Lebrija",
    "punto": "Lebrija",
@@ -1967,6 +4099,19 @@
    "ref": "66",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 7.107986,
+     "lon": -72.968885,
+     "n": 1,
+     "rumbo": 326,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Bucaramanga - Cúcuta",
    "punto": "El Picacho",
@@ -1983,6 +4128,24 @@
    "ref": "66",
    "empresa": "CO-ANI",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 7.145323,
+     "lon": -73.40519,
+     "n": 1,
+     "rumbo": 27
+    },
+    {
+     "lat": 7.145405,
+     "lon": -73.405342,
+     "n": 1,
+     "rumbo": 208
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.5
+   },
    "pais": "CO",
    "via_visible": "Ruta 66",
    "punto": "La Paz",
@@ -1999,6 +4162,19 @@
    "ref": "62",
    "empresa": "CO-ANI",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 7.222946,
+     "lon": -76.433353,
+     "n": 1,
+     "rumbo": 359,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 62",
    "punto": "Mutatá",
@@ -2014,6 +4190,24 @@
    "via": "Vía Bucaramanga - Rionegro",
    "ref": "45A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 7.239524,
+     "lon": -73.149529,
+     "n": 1,
+     "rumbo": 172
+    },
+    {
+     "lat": 7.239551,
+     "lon": -73.149387,
+     "n": 1,
+     "rumbo": 354
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.0
+   },
    "pais": "CO",
    "via_visible": "Vía Bucaramanga - Rionegro",
    "punto": "Rionegro",
@@ -2029,6 +4223,19 @@
    "ref": "25",
    "empresa": "CO-ANI",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 7.277107,
+     "lon": -74.832073,
+     "n": 1,
+     "rumbo": 16,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Autopista Conexión Norte",
    "punto": "Fragua",
@@ -2044,6 +4251,19 @@
    "via": "Vía La Gómeza - San Alberto",
    "ref": "45",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 7.397175,
+     "lon": -73.546539,
+     "n": 1,
+     "rumbo": 15,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía La Gómeza - San Alberto",
    "punto": "La Gomez",
@@ -2058,6 +4278,17 @@
    "via": "PAMPLONITA",
    "empresa": "CO-ANI",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 7.42139,
+     "lon": -72.618889,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Pamplona - Cúcuta",
    "punto": "Pamplonita",
@@ -2074,6 +4305,19 @@
    "ref": "45A",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 7.554413,
+     "lon": -73.231122,
+     "n": 1,
+     "rumbo": 350,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 45A",
    "punto": "Río Blanco",
@@ -2090,6 +4334,19 @@
    "ref": "25",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 7.589247,
+     "lon": -75.393611,
+     "n": 1,
+     "rumbo": 234,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Tarazá - Caucasia",
    "punto": "Tarazá",
@@ -2105,6 +4362,19 @@
    "via": "Autopista Conexión Norte",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 7.633176,
+     "lon": -74.894674,
+     "n": 1,
+     "rumbo": 2,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Autopista Conexión Norte",
    "punto": "Zaragoza",
@@ -2120,6 +4390,18 @@
    "ref": "62",
    "empresa": "CO-ANI",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 7.719625,
+     "lon": -76.66852,
+     "n": 1,
+     "rumbo": 193
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 62",
    "punto": "Chaparral",
@@ -2135,6 +4417,24 @@
    "via": "Vía Pamplona - Cúcuta",
    "ref": "55",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 7.721219,
+     "lon": -72.571328,
+     "n": 1,
+     "rumbo": 54
+    },
+    {
+     "lat": 7.721409,
+     "lon": -72.571451,
+     "n": 1,
+     "rumbo": 233
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.5
+   },
    "pais": "CO",
    "via_visible": "Vía Pamplona - Cúcuta",
    "punto": "Acacios",
@@ -2150,6 +4450,18 @@
    "ref": "70",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 7.867441,
+     "lon": -72.484209,
+     "n": 1,
+     "rumbo": 321
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Autopista Internacional",
    "punto": "LA PARADA",
@@ -2164,6 +4476,18 @@
    "tipo": "cabina",
    "via": "Avenida Demetrio Mendoza",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 7.91055,
+     "lon": -72.469526,
+     "n": 1,
+     "rumbo": 226
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Avenida Demetrio Mendoza",
    "punto": "El Escobal",
@@ -2179,6 +4503,18 @@
    "ref": "62",
    "localidad": "Ríogrande-Turbo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 7.940717,
+     "lon": -76.622585,
+     "n": 1,
+     "rumbo": 353
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 62",
    "punto": "Ríogrande-Turbo",
@@ -2193,6 +4529,19 @@
    "via": "Vía la Apartada - Caucasia",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 8.031265,
+     "lon": -75.301712,
+     "n": 1,
+     "rumbo": 108,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía la Apartada - Caucasia",
    "punto": "La Apartada",
@@ -2207,6 +4556,24 @@
    "via": "Vía San Alberto - Aguachica",
    "ref": "45",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 8.09228,
+     "lon": -73.56014,
+     "n": 1,
+     "rumbo": 152
+    },
+    {
+     "lat": 8.09235,
+     "lon": -73.560007,
+     "n": 1,
+     "rumbo": 332
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.2
+   },
    "pais": "CO",
    "via_visible": "Vía San Alberto - Aguachica",
    "punto": "Mórrison",
@@ -2221,6 +4588,19 @@
    "via": "Vía Turbo - Necoclí",
    "ref": "90",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 8.212867,
+     "lon": -76.744617,
+     "n": 1,
+     "rumbo": 351,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Turbo - Necoclí",
    "punto": "Cirilo",
@@ -2236,6 +4616,19 @@
    "ref": "70",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 8.231195,
+     "lon": -73.498587,
+     "n": 1,
+     "rumbo": 14,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 70",
    "punto": "Platanal",
@@ -2251,6 +4644,19 @@
    "via": "Vía Planeta Rica - Buenavista",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 8.30351,
+     "lon": -75.531677,
+     "n": 1,
+     "rumbo": 144,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Planeta Rica - Buenavista",
    "punto": "Manguitos",
@@ -2265,6 +4671,19 @@
    "via": "Luis Vero - Pachelli",
    "localidad": "Pachelli",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 8.518271,
+     "lon": -72.915933,
+     "n": 1,
+     "rumbo": 32,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Luis Vero - Pachelli",
    "punto": "Pachelli",
@@ -2280,6 +4699,19 @@
    "ref": "25",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 8.604883,
+     "lon": -75.484814,
+     "n": 1,
+     "rumbo": 178,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 25",
    "punto": "Carimagua",
@@ -2294,6 +4726,19 @@
    "tipo": "cabina",
    "via": "Tibú - Versalles",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 8.640832,
+     "lon": -72.908976,
+     "n": 1,
+     "rumbo": 275,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Tibú - Versalles",
    "punto": "comunitario",
@@ -2301,13 +4746,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 8.671886,
-   "lon": -75.798314,
+   "lat": 8.671788,
+   "lon": -75.798444,
    "nombre": "Peaje el Purgatorio",
    "tipo": "cabina",
    "via": "Vía Monteria - Planeta Rica",
    "ref": "23",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 8.671788,
+     "lon": -75.798444,
+     "n": 1,
+     "rumbo": 140
+    },
+    {
+     "lat": 8.671985,
+     "lon": -75.798184,
+     "n": 1,
+     "rumbo": 321
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 18,
+    "centro_plaza": [
+     8.671886,
+     -75.798314
+    ]
+   },
    "pais": "CO",
    "via_visible": "Vía Monteria - Planeta Rica",
    "punto": "el Purgatorio",
@@ -2321,6 +4788,19 @@
    "tipo": "cabina",
    "via": "Vía San Carlos",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 8.710033,
+     "lon": -75.716587,
+     "n": 1,
+     "rumbo": 220,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía San Carlos",
    "punto": "San Carlos",
@@ -2335,6 +4815,19 @@
    "via": "Vía Arboletes - Montería",
    "ref": "74",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 8.819701,
+     "lon": -75.998876,
+     "n": 1,
+     "rumbo": 104,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Arboletes - Montería",
    "punto": "Cedros",
@@ -2350,6 +4843,18 @@
    "ref": "21",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 8.827965,
+     "lon": -75.837071,
+     "n": 1,
+     "rumbo": 212
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 21",
    "punto": "Los Garzones II",
@@ -2365,6 +4870,19 @@
    "via": "Vía Arboletes - Montería",
    "ref": "74",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 8.830171,
+     "lon": -76.042596,
+     "n": 1,
+     "rumbo": 103,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Arboletes - Montería",
    "punto": "Los Cedros",
@@ -2380,6 +4898,19 @@
    "via": "Vía Arboletes - Montería",
    "ref": "74",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 8.832226,
+     "lon": -76.051526,
+     "n": 1,
+     "rumbo": 103,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Arboletes - Montería",
    "punto": "Los Cedros",
@@ -2388,14 +4919,36 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 8.8436,
-   "lon": -75.825682,
+   "lat": 8.842157,
+   "lon": -75.826896,
    "nombre": "Los Garzones I",
    "tipo": "cabina",
    "via": "Los Garzones I",
    "ref": "21",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 8.842157,
+     "lon": -75.826896,
+     "n": 1,
+     "rumbo": 42
+    },
+    {
+     "lat": 8.845043,
+     "lon": -75.824467,
+     "n": 1,
+     "rumbo": 32
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 208,
+    "centro_plaza": [
+     8.8436,
+     -75.825682
+    ]
+   },
    "pais": "CO",
    "via_visible": "Ruta 21",
    "punto": "Los Garzones I",
@@ -2411,6 +4964,24 @@
    "via": "Vía Aguachica - Pailitas",
    "ref": "45",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 8.852893,
+     "lon": -73.669619,
+     "n": 1,
+     "rumbo": 23
+    },
+    {
+     "lat": 8.852971,
+     "lon": -73.669839,
+     "n": 1,
+     "rumbo": 203
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.8
+   },
    "pais": "CO",
    "via_visible": "Vía Aguachica - Pailitas",
    "punto": "Pailitas",
@@ -2425,6 +4996,24 @@
    "via": "Vía San Pelayo - Lorica",
    "ref": "21",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 9.090611,
+     "lon": -75.819778,
+     "n": 1,
+     "rumbo": 11
+    },
+    {
+     "lat": 9.090644,
+     "lon": -75.819966,
+     "n": 1,
+     "rumbo": 193
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.5
+   },
    "pais": "CO",
    "via_visible": "Vía San Pelayo - Lorica",
    "punto": "Mata de Caña",
@@ -2440,6 +5029,19 @@
    "ref": "78",
    "localidad": "Guacamayal",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 9.109215,
+     "lon": -74.189002,
+     "n": 1,
+     "rumbo": 175,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 78",
    "punto": "Guacamayal",
@@ -2455,6 +5057,24 @@
    "ref": "25",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 9.318769,
+     "lon": -75.319879,
+     "n": 1,
+     "rumbo": 57
+    },
+    {
+     "lat": 9.318903,
+     "lon": -75.319963,
+     "n": 1,
+     "rumbo": 238
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.7
+   },
    "pais": "CO",
    "via_visible": "Ruta 25",
    "punto": "Las Flores",
@@ -2468,6 +5088,17 @@
    "nombre": "Peaje Santa Ana",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 9.390579,
+     "lon": -74.476313,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía a Santa Ana",
    "punto": "Santa Ana",
@@ -2482,6 +5113,24 @@
    "via": "La Esperanza",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 9.430725,
+     "lon": -75.435912,
+     "n": 1,
+     "rumbo": 150
+    },
+    {
+     "lat": 9.430785,
+     "lon": -75.435801,
+     "n": 1,
+     "rumbo": 330
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.9
+   },
    "pais": "CO",
    "via_visible": "Vía Sincelejo - Toluviejo",
    "punto": "La Esperanza",
@@ -2498,6 +5147,19 @@
    "ref": "49",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 9.430822,
+     "lon": -73.473647,
+     "n": 1,
+     "rumbo": 25,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 49",
    "punto": "Rincón Hondo",
@@ -2513,6 +5175,18 @@
    "via": "Ruta del Sol III",
    "ref": "45",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 9.638041,
+     "lon": -73.639416,
+     "n": 1,
+     "rumbo": 147
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 45",
    "punto": "La Loma",
@@ -2527,6 +5201,24 @@
    "via": "Troncal de Occidente",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 9.68193,
+     "lon": -75.124907,
+     "n": 1,
+     "rumbo": 32
+    },
+    {
+     "lat": 9.681995,
+     "lon": -75.125012,
+     "n": 1,
+     "rumbo": 212
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.7
+   },
    "pais": "CO",
    "via_visible": "Ruta 25",
    "punto": "El Carmen",
@@ -2541,6 +5233,24 @@
    "via": "Ruta del Sol III",
    "ref": "80",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 9.791285,
+     "lon": -74.808937,
+     "n": 1,
+     "rumbo": 56
+    },
+    {
+     "lat": 9.791394,
+     "lon": -74.809009,
+     "n": 1,
+     "rumbo": 236
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.2
+   },
    "pais": "CO",
    "via_visible": "Ruta 80",
    "punto": "Puente Plato",
@@ -2555,6 +5265,24 @@
    "via": "Ruta del Sol III",
    "ref": "80",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 9.830975,
+     "lon": -74.267628,
+     "n": 1,
+     "rumbo": 69
+    },
+    {
+     "lat": 9.831181,
+     "lon": -74.267715,
+     "n": 1,
+     "rumbo": 249
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.3
+   },
    "pais": "CO",
    "via_visible": "Ruta 80",
    "punto": "El Difícil",
@@ -2568,6 +5296,19 @@
    "tipo": "cabina",
    "ref": "90",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 9.872543,
+     "lon": -75.393345,
+     "n": 1,
+     "rumbo": 31,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 90",
    "punto": "San Onofre",
@@ -2582,6 +5323,19 @@
    "via": "Vía Bosconia - Ciénaga",
    "ref": "45",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.06037,
+     "lon": -73.923803,
+     "n": 1,
+     "rumbo": 163,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía Bosconia - Ciénaga",
    "punto": "El Copey",
@@ -2597,6 +5351,19 @@
    "ref": "49",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 10.121848,
+     "lon": -73.238613,
+     "n": 1,
+     "rumbo": 4,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 49",
    "punto": "San Diego",
@@ -2612,6 +5379,24 @@
    "via": "Vía María alta-Sincerín",
    "ref": "90",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.136092,
+     "lon": -75.26422,
+     "n": 1,
+     "rumbo": 91
+    },
+    {
+     "lat": 10.136171,
+     "lon": -75.264223,
+     "n": 1,
+     "rumbo": 275
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.3
+   },
    "pais": "CO",
    "via_visible": "Vía María alta-Sincerín",
    "punto": "Peajo Gambote",
@@ -2626,6 +5411,24 @@
    "via": "Troncal de Occidente",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.207975,
+     "lon": -74.944877,
+     "n": 1,
+     "rumbo": 63
+    },
+    {
+     "lat": 10.208183,
+     "lon": -74.94499,
+     "n": 1,
+     "rumbo": 245
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 25",
    "punto": "Calamar",
@@ -2640,6 +5443,24 @@
    "via": "Vía Mamonal",
    "ref": "90 BL B",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.244383,
+     "lon": -75.445831,
+     "n": 1,
+     "rumbo": 121
+    },
+    {
+     "lat": 10.244546,
+     "lon": -75.445716,
+     "n": 1,
+     "rumbo": 302
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.0
+   },
    "pais": "CO",
    "via_visible": "Vía Mamonal",
    "punto": "Pasacaballos",
@@ -2654,6 +5475,24 @@
    "via": "Ruta del Sol III",
    "ref": "80",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.259505,
+     "lon": -73.430604,
+     "n": 1,
+     "rumbo": 51
+    },
+    {
+     "lat": 10.259701,
+     "lon": -73.430758,
+     "n": 1,
+     "rumbo": 231
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.7
+   },
    "pais": "CO",
    "via_visible": "Ruta 80",
    "punto": "Valencia",
@@ -2668,6 +5507,24 @@
    "via": "Vía Turbaco",
    "ref": "90",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.356916,
+     "lon": -75.443504,
+     "n": 1,
+     "rumbo": 151
+    },
+    {
+     "lat": 10.357023,
+     "lon": -75.443295,
+     "n": 1,
+     "rumbo": 330
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 12.9
+   },
    "pais": "CO",
    "via_visible": "Vía Turbaco",
    "punto": "Turbaco",
@@ -2682,6 +5539,24 @@
    "via": "Carretera de la Cordialidad",
    "ref": "90",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.546914,
+     "lon": -75.36513,
+     "n": 1,
+     "rumbo": 75
+    },
+    {
+     "lat": 10.547034,
+     "lon": -75.365161,
+     "n": 1,
+     "rumbo": 257
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.8
+   },
    "pais": "CO",
    "via_visible": "Carretera de la Cordialidad",
    "punto": "Bayunca",
@@ -2689,13 +5564,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 10.574517,
-   "lon": -75.450568,
+   "lat": 10.574546,
+   "lon": -75.450719,
    "nombre": "Peaje Marahuaco",
    "tipo": "cabina",
    "via": "Vía al Mar",
    "ref": "90A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.574489,
+     "lon": -75.450416,
+     "n": 1,
+     "rumbo": 11
+    },
+    {
+     "lat": 10.574546,
+     "lon": -75.450719,
+     "n": 1,
+     "rumbo": 192
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 17,
+    "centro_plaza": [
+     10.574517,
+     -75.450568
+    ]
+   },
    "pais": "CO",
    "via_visible": "Vía al Mar",
    "punto": "Marahuaco",
@@ -2711,6 +5608,19 @@
    "ref": "45",
    "empresa": "CO-ANI",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 10.60896,
+     "lon": -74.168435,
+     "n": 1,
+     "rumbo": 6,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 45",
    "punto": "Tucurinca",
@@ -2726,6 +5636,19 @@
    "via": "Troncal de Occidente",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.717603,
+     "lon": -74.752667,
+     "n": 1,
+     "rumbo": 2,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Ruta 25",
    "punto": "Ponedera",
@@ -2740,6 +5663,24 @@
    "via": "Vía Oriental",
    "ref": "25",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.799587,
+     "lon": -74.759146,
+     "n": 3,
+     "rumbo": 156
+    },
+    {
+     "lat": 10.799653,
+     "lon": -74.758983,
+     "n": 4,
+     "rumbo": 337
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.3
+   },
    "pais": "CO",
    "via_visible": "Vía Oriental",
    "punto": "Sabanagrande",
@@ -2755,6 +5696,19 @@
    "ref": "49",
    "empresa": "CO-INVIAS",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 10.800037,
+     "lon": -72.975518,
+     "n": 1,
+     "rumbo": 223,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía San Juan del Cesar - Distracción",
    "punto": "San Juan",
@@ -2770,6 +5724,24 @@
    "via": "Carretera de la Cordialidad",
    "ref": "90",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.836802,
+     "lon": -74.9024,
+     "n": 1,
+     "rumbo": 19
+    },
+    {
+     "lat": 10.83687,
+     "lon": -74.902635,
+     "n": 1,
+     "rumbo": 196
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.3
+   },
    "pais": "CO",
    "via_visible": "Carretera de la Cordialidad",
    "punto": "Galapa",
@@ -2777,12 +5749,34 @@
    "confianza": "alta"
   },
   {
-   "lat": 10.886398,
-   "lon": -74.844467,
+   "lat": 10.886626,
+   "lon": -74.844346,
    "nombre": "Peaje Galapa",
    "tipo": "cabina",
    "via": "Autopista Circunvalar de la Prosperidad",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.886169,
+     "lon": -74.844588,
+     "n": 1,
+     "rumbo": 120
+    },
+    {
+     "lat": 10.886626,
+     "lon": -74.844346,
+     "n": 1,
+     "rumbo": 302
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 28,
+    "centro_plaza": [
+     10.886398,
+     -74.844467
+    ]
+   },
    "pais": "CO",
    "via_visible": "Autopista Circunvalar de la Prosperidad",
    "punto": "Galapa",
@@ -2796,6 +5790,24 @@
    "tipo": "cabina",
    "via": "Autopista Circunvalar de la Prosperidad",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.929208,
+     "lon": -74.894563,
+     "n": 1,
+     "rumbo": 129
+    },
+    {
+     "lat": 10.929353,
+     "lon": -74.894435,
+     "n": 1,
+     "rumbo": 308
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.6
+   },
    "pais": "CO",
    "via_visible": "Autopista Circunvalar de la Prosperidad",
    "punto": "Juan Mina",
@@ -2803,24 +5815,68 @@
    "confianza": "alta"
   },
   {
-   "lat": 10.956499,
-   "lon": -74.766277,
+   "lat": 10.955198,
+   "lon": -74.765877,
    "nombre": "Peaje Zona Franca",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.955198,
+     "lon": -74.765877,
+     "n": 1,
+     "rumbo": 157
+    },
+    {
+     "lat": 10.957801,
+     "lon": -74.766678,
+     "n": 1,
+     "rumbo": 341
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 150,
+    "centro_plaza": [
+     10.956499,
+     -74.766277
+    ]
+   },
    "pais": "CO",
    "punto": "Zona Franca",
    "nombre_visible": "Peaje Zona Franca",
    "confianza": "alta"
   },
   {
-   "lat": 10.967527,
-   "lon": -74.956064,
+   "lat": 10.96722,
+   "lon": -74.956052,
    "nombre": "Peaje Puerto Colombia",
    "tipo": "cabina",
    "via": "Vía al Mar",
    "ref": "90A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.96722,
+     "lon": -74.956052,
+     "n": 1,
+     "rumbo": 83
+    },
+    {
+     "lat": 10.967835,
+     "lon": -74.956076,
+     "n": 1,
+     "rumbo": 271
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 34,
+    "centro_plaza": [
+     10.967527,
+     -74.956064
+    ]
+   },
    "pais": "CO",
    "via_visible": "Vía al Mar",
    "punto": "Puerto Colombia",
@@ -2828,13 +5884,35 @@
    "confianza": "alta"
   },
   {
-   "lat": 10.977154,
-   "lon": -74.336596,
+   "lat": 10.977301,
+   "lon": -74.336664,
    "nombre": "Peaje Tasajera",
    "tipo": "cabina",
    "via": "Vía Cienaga - Barranquilla",
    "ref": "90",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.977006,
+     "lon": -74.336527,
+     "n": 1,
+     "rumbo": 84
+    },
+    {
+     "lat": 10.977301,
+     "lon": -74.336664,
+     "n": 1,
+     "rumbo": 263
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 18,
+    "centro_plaza": [
+     10.977154,
+     -74.336596
+    ]
+   },
    "pais": "CO",
    "via_visible": "Vía Cienaga - Barranquilla",
    "punto": "Tasajera",
@@ -2849,6 +5927,24 @@
    "via": "Troncal del Caribe",
    "ref": "90",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.978681,
+     "lon": -74.729615,
+     "n": 1,
+     "rumbo": 47
+    },
+    {
+     "lat": 10.978796,
+     "lon": -74.729739,
+     "n": 1,
+     "rumbo": 226
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.3
+   },
    "pais": "CO",
    "via_visible": "Ruta 90",
    "punto": "Laureano Gómez",
@@ -2862,6 +5958,29 @@
    "tipo": "cabina",
    "via": "Avenida Carrera 46",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 10.986397,
+     "lon": -74.772132,
+     "n": 1,
+     "rumbo": 28
+    },
+    {
+     "lat": 10.986448,
+     "lon": -74.772216,
+     "n": 1
+    },
+    {
+     "lat": 10.986528,
+     "lon": -74.772348,
+     "n": 1,
+     "rumbo": 213
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.1
+   },
    "pais": "CO",
    "via_visible": "Avenida Carrera 46",
    "punto": "Barranquillita",
@@ -2876,6 +5995,18 @@
    "via": "Vía al Mar",
    "ref": "90A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 11.012657,
+     "lon": -74.889557,
+     "n": 1,
+     "rumbo": 82
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "via_visible": "Vía al Mar",
    "punto": "Papiros",
@@ -2889,6 +6020,19 @@
    "tipo": "cabina",
    "localidad": "Colinas de Calabazo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 11.23304,
+     "lon": -74.043718,
+     "n": 1,
+     "rumbo": 95,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CO",
    "punto": "Colinas de Calabazo",
    "nombre_visible": "Peaje Colinas de Calabazo",
@@ -2902,6 +6046,24 @@
    "via": "Vía Santa Marta - Riohacha Troncal del Caribe",
    "ref": "90",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 11.25308,
+     "lon": -74.109194,
+     "n": 1,
+     "rumbo": 58
+    },
+    {
+     "lat": 11.253182,
+     "lon": -74.109259,
+     "n": 1,
+     "rumbo": 237
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.6
+   },
    "pais": "CO",
    "via_visible": "Vía Santa Marta - Riohacha Troncal del Caribe",
    "punto": "Neguanje",
@@ -2916,6 +6078,24 @@
    "via": "Vía Santa Marta - Riohacha",
    "ref": "90",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 11.276225,
+     "lon": -73.122024,
+     "n": 1,
+     "rumbo": 21
+    },
+    {
+     "lat": 11.276283,
+     "lon": -73.122183,
+     "n": 1,
+     "rumbo": 200
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.2
+   },
    "pais": "CO",
    "via_visible": "Vía Santa Marta - Riohacha",
    "punto": "Ebanal",
@@ -2930,6 +6110,24 @@
    "via": "Vía Maicao - Paraguachón",
    "ref": "90",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 11.36755,
+     "lon": -72.156619,
+     "n": 1,
+     "rumbo": 105
+    },
+    {
+     "lat": 11.367631,
+     "lon": -72.156589,
+     "n": 1,
+     "rumbo": 285
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 4.7
+   },
    "pais": "CO",
    "via_visible": "Vía Maicao - Paraguachón",
    "punto": "Paraguachon",
@@ -2944,6 +6142,25 @@
    "via": "Vía Riohacha - Maicao",
    "ref": "90",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 11.444849,
+     "lon": -72.542406,
+     "n": 1,
+     "rumbo": 282
+    },
+    {
+     "lat": 11.445002,
+     "lon": -72.54231,
+     "n": 2,
+     "rumbo": 100,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.6
+   },
    "pais": "CO",
    "via_visible": "Vía Riohacha - Maicao",
    "punto": "Altopino",
@@ -2957,6 +6174,24 @@
    "tipo": "cabina",
    "via": "Vía Albania - Uribia",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 11.606452,
+     "lon": -72.321918,
+     "n": 1,
+     "rumbo": 25
+    },
+    {
+     "lat": 11.606467,
+     "lon": -72.321958,
+     "n": 1,
+     "rumbo": 204
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.3
+   },
    "pais": "CO",
    "via_visible": "Vía Albania - Uribia",
    "punto": "Uribia",
@@ -2973,9 +6208,23 @@
    "via": "Vía Aeropuerto",
    "ref": "23VL01",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 3.55734,
+     "lon": -76.462679,
+     "n": 1,
+     "rumbo": 70
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-31T12:52Z",
- "alertas": []
+ "generado": "2026-11-01T15:57Z",
+ "alertas": [
+  "Alrededores: falló un lote de 17 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+ ]
 }
