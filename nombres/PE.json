@@ -8,7 +8,19 @@
   "armado": 28,
   "total": 117,
   "confianza_baja": 0,
-  "excluidas": 1
+  "excluidas": 1,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 110,
+   "corregidas": 8,
+   "sin_referencia": 0,
+   "corrida_anterior": {
+    "ok": 109,
+    "a_mas_de_15_m": 8,
+    "sin_referencia": 0,
+    "total": 117
+   }
+  }
  },
  "estaciones": [
   {
@@ -19,6 +31,19 @@
    "via": "Carretera Costanera Sur",
    "ref": "PE-1SD",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -18.081664,
+     "lon": -70.754021,
+     "n": 1,
+     "rumbo": 314,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Costanera Sur",
    "punto": "Unidad de peaje Pozo Redondo",
@@ -33,6 +58,24 @@
    "via": "Carretera Panamericana Sur",
    "ref": "PE-1S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -17.832187,
+     "lon": -70.539334,
+     "n": 1,
+     "rumbo": 118
+    },
+    {
+     "lat": -17.832125,
+     "lon": -70.539305,
+     "n": 1,
+     "rumbo": 298
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.7
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
    "punto": "Unidad de Peaje Tomasirí",
@@ -47,6 +90,24 @@
    "via": "Carretera Moquegua - Ilo",
    "ref": "PE-36",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -17.661543,
+     "lon": -71.220726,
+     "n": 1,
+     "rumbo": 27
+    },
+    {
+     "lat": -17.661504,
+     "lon": -71.220818,
+     "n": 1,
+     "rumbo": 207
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.3
+   },
    "pais": "PE",
    "via_visible": "Carretera Moquegua - Ilo",
    "punto": "Unidad de peaje Ilo",
@@ -61,6 +122,19 @@
    "via": "Carretera Panamericana Sur",
    "ref": "PE-1S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -17.214036,
+     "lon": -70.974909,
+     "n": 1,
+     "rumbo": 318,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
    "punto": "Unidad de Peaje Montalvo",
@@ -75,6 +149,24 @@
    "via": "Carretera Panamericana Sur",
    "ref": "PE-1S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -17.067049,
+     "lon": -71.607438,
+     "n": 1,
+     "rumbo": 156
+    },
+    {
+     "lat": -17.067014,
+     "lon": -71.607336,
+     "n": 1,
+     "rumbo": 336
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.7
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
    "punto": "Unidad de Peaje El Fiscal",
@@ -89,6 +181,19 @@
    "via": "Carretera Binacional",
    "ref": "PE-36A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -17.005817,
+     "lon": -70.726469,
+     "n": 1,
+     "rumbo": 257,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Binacional",
    "punto": "Unidad de peaje Pampa Cuéllar",
@@ -103,6 +208,19 @@
    "via": "Carretera Interoceánica Sur",
    "ref": "PE-34",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -16.983479,
+     "lon": -72.077703,
+     "n": 1,
+     "rumbo": 267,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Interoceánica Sur",
    "punto": "Unidad de peaje Matarani",
@@ -117,6 +235,19 @@
    "via": "Carretera Binacional",
    "ref": "PE-36A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -16.802306,
+     "lon": -70.037672,
+     "n": 1,
+     "rumbo": 229,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Binacional",
    "punto": "Unidad de peaje Punta Perdida",
@@ -131,6 +262,24 @@
    "via": "Carretera Panamericana Sur",
    "ref": "PE-1S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -16.646532,
+     "lon": -72.625682,
+     "n": 1,
+     "rumbo": 7
+    },
+    {
+     "lat": -16.64652,
+     "lon": -72.625833,
+     "n": 1,
+     "rumbo": 186
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
    "punto": "Unidad de peaje Camaná",
@@ -145,6 +294,19 @@
    "via": "Carretera Binacional",
    "ref": "PE-36A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -16.583333,
+     "lon": -69.228845,
+     "n": 1,
+     "rumbo": 297,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Binacional",
    "punto": "Unidad de peaje Sicuyani",
@@ -160,6 +322,19 @@
    "km": "1508",
    "localidad": "Desaguadero",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -16.563508,
+     "lon": -69.03689,
+     "n": 1,
+     "rumbo": 117,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Avenida Panamericana",
    "punto": "Desaguadero",
@@ -174,6 +349,19 @@
    "via": "Eje Transversal Moquegua - Puno",
    "ref": "PE-36B",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -16.534698,
+     "lon": -70.368861,
+     "n": 1,
+     "rumbo": 232,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-36B",
    "punto": "Unidad de peaje Titire",
@@ -188,6 +376,24 @@
    "via": "Carretera Interoceánica Sur",
    "ref": "PE-34A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -16.426003,
+     "lon": -71.673028,
+     "n": 1,
+     "rumbo": 97
+    },
+    {
+     "lat": -16.425951,
+     "lon": -71.673024,
+     "n": 1,
+     "rumbo": 278
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.9
+   },
    "pais": "PE",
    "via_visible": "Carretera Interoceánica Sur",
    "punto": "Unidad de peaje Variante de Uchumayo",
@@ -202,6 +408,24 @@
    "via": "Carretera Panamericana Sur",
    "ref": "PE-1S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -16.234005,
+     "lon": -73.592642,
+     "n": 1,
+     "rumbo": 113
+    },
+    {
+     "lat": -16.233863,
+     "lon": -73.592586,
+     "n": 1,
+     "rumbo": 294
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.4
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
    "punto": "Unidad de peaje Ático",
@@ -216,6 +440,19 @@
    "via": "Carretera Longitudinal de la Sierra Sur",
    "ref": "PE-3S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -16.078208,
+     "lon": -69.657617,
+     "n": 1,
+     "rumbo": 114,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Longitudinal de la Sierra Sur",
    "punto": "Unidad de peaje Ilave",
@@ -230,6 +467,24 @@
    "via": "Vía Interoceánica Sur - Tramo 5",
    "ref": "PE-34A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -16.05726,
+     "lon": -71.41395,
+     "n": 2,
+     "rumbo": 53
+    },
+    {
+     "lat": -16.057197,
+     "lon": -71.413996,
+     "n": 1,
+     "rumbo": 232
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.8
+   },
    "pais": "PE",
    "via_visible": "PE-34A",
    "punto": "Unidad de peaje Patahuasi",
@@ -244,6 +499,18 @@
    "via": "Carretera Longitudinal de la Sierra Sur",
    "ref": "PE-3S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -15.696833,
+     "lon": -70.067839,
+     "n": 1,
+     "rumbo": 345
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Longitudinal de la Sierra Sur",
    "punto": "Unidad de peaje Caracoto",
@@ -258,6 +525,19 @@
    "via": "Vía Interoceánica Sur - Tramo 5",
    "ref": "PE-34A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -15.688233,
+     "lon": -70.613349,
+     "n": 1,
+     "rumbo": 279,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-34A",
    "punto": "Unidade de peaje Santa Lucía",
@@ -272,6 +552,24 @@
    "via": "Carretera Panamericana Sur",
    "ref": "PE-1S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -15.669777,
+     "lon": -74.541125,
+     "n": 1,
+     "rumbo": 110
+    },
+    {
+     "lat": -15.669662,
+     "lon": -74.541064,
+     "n": 1,
+     "rumbo": 290
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.1
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
    "punto": "Unidad de peaje Yauca",
@@ -287,6 +585,19 @@
    "ref": "AR-109",
    "localidad": "San Andres",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -15.645634,
+     "lon": -71.603998,
+     "n": 1,
+     "rumbo": 352,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera al Colca",
    "punto": "San Andres",
@@ -302,6 +613,19 @@
    "ref": "AR-109",
    "localidad": "Pinchollo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -15.617375,
+     "lon": -71.858161,
+     "n": 1,
+     "rumbo": 335,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Longitudinal del Colca",
    "punto": "Pinchollo",
@@ -316,6 +640,19 @@
    "via": "Carretera San Juan de Marcona",
    "ref": "PE-30",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -15.311584,
+     "lon": -75.13479,
+     "n": 1,
+     "rumbo": 297,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera San Juan de Marcona",
    "punto": "Unidad de peaje San Juan de Marcona",
@@ -330,6 +667,19 @@
    "via": "Carretera Longitudinal de la Sierra Sur",
    "ref": "PE-3S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -14.921216,
+     "lon": -70.5599,
+     "n": 1,
+     "rumbo": 303,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Longitudinal de la Sierra Sur",
    "punto": "Ayaviri",
@@ -344,6 +694,18 @@
    "via": "Carretera Panamericana Sur",
    "ref": "PE-1S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -14.80525,
+     "lon": -74.998118,
+     "n": 1,
+     "rumbo": 126
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
    "punto": "Unidad de peaje Nazca",
@@ -358,6 +720,19 @@
    "via": "Carretera Nasca - Abancay",
    "ref": "PE-30A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -14.638078,
+     "lon": -74.284929,
+     "n": 1,
+     "rumbo": 198,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Nasca - Abancay",
    "punto": "Unidad de peaje Pampa Galeras",
@@ -373,6 +748,19 @@
    "ref": "PE-30A",
    "localidad": "Pilluni",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -14.557752,
+     "lon": -73.469722,
+     "n": 1,
+     "rumbo": 288,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-30A",
    "punto": "Pilluni",
@@ -388,6 +776,19 @@
    "ref": "PE-34B",
    "localidad": "Union Soratira",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -14.553626,
+     "lon": -70.296574,
+     "n": 1,
+     "rumbo": 17,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-34B",
    "punto": "Union Soratira",
@@ -402,6 +803,24 @@
    "via": "Carretera Longitudinal de la Sierra Sur",
    "ref": "PE-3S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -14.469796,
+     "lon": -71.03661,
+     "n": 1
+    },
+    {
+     "lat": -14.469795,
+     "lon": -71.03661,
+     "n": 1,
+     "rumbo": 268,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Longitudinal de la Sierra Sur",
    "punto": "Aguas Calientes",
@@ -417,6 +836,19 @@
    "ref": "IC-105",
    "localidad": "Laguna Grande Sector Muelle",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -14.198014,
+     "lon": -76.016592,
+     "n": 1,
+     "rumbo": 284,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Ica - Carhuaz",
    "punto": "Laguna Grande Sector Muelle",
@@ -431,6 +863,19 @@
    "via": "Carretera Interoceánica Puno - Madre de Dios",
    "ref": "PE-34B",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -14.035429,
+     "lon": -70.446212,
+     "n": 1,
+     "rumbo": 318,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Interoceánica Puno - Madre de Dios",
    "punto": "Unidad de Peaje Macusani",
@@ -446,6 +891,18 @@
    "ref": "PE-1S",
    "localidad": "Santa Cruz de Villacurí",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -13.932178,
+     "lon": -75.90493,
+     "n": 1,
+     "rumbo": 275
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-1S",
    "punto": "Santa Cruz de Villacurí",
@@ -460,6 +917,19 @@
    "via": "Carretera Longitudinal de la Sierra Sur",
    "ref": "PE-3S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -13.928332,
+     "lon": -71.504581,
+     "n": 1,
+     "rumbo": 345,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Longitudinal de la Sierra Sur",
    "punto": "Unidad de peaje Saylla",
@@ -474,6 +944,19 @@
    "via": "Carretera Nasca - Abancay",
    "ref": "PE-30A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -13.906003,
+     "lon": -73.048822,
+     "n": 1,
+     "rumbo": 211,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Nasca - Abancay",
    "punto": "Unidad de peaje Pichirhua",
@@ -489,6 +972,19 @@
    "ref": "PE-28",
    "localidad": "El Carmen",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -13.86358,
+     "lon": -76.254721,
+     "n": 2,
+     "rumbo": 48,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-28",
    "punto": "El Carmen",
@@ -502,6 +998,19 @@
    "tipo": "cabina",
    "localidad": "Chillca",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -13.841765,
+     "lon": -71.281032,
+     "n": 1,
+     "rumbo": 289,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "punto": "Chillca",
    "nombre_visible": "Peaje Chillca",
@@ -515,6 +1024,19 @@
    "tipo": "cabina",
    "localidad": "Chillca",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -13.825428,
+     "lon": -71.238556,
+     "n": 1,
+     "rumbo": 187,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "punto": "Chillca",
    "nombre_visible": "Peaje Chillca",
@@ -527,6 +1049,17 @@
    "nombre": "Entrada para Ausangate",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -13.667819,
+     "lon": -71.319945,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-30C",
    "punto": "Entrada para Ausangate",
@@ -541,6 +1074,19 @@
    "via": "Vía de los Libertadores",
    "ref": "PE-28A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -13.605032,
+     "lon": -75.568813,
+     "n": 1,
+     "rumbo": 152,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-28A",
    "punto": "Unidad de peaje Pacra",
@@ -555,6 +1101,19 @@
    "via": "Carretera Interoceánica Puno - Madre de Dios",
    "ref": "PE-34B",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -13.456325,
+     "lon": -70.409442,
+     "n": 1,
+     "rumbo": 8,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Interoceánica Puno - Madre de Dios",
    "punto": "Unidad de peaje San Gaban",
@@ -569,6 +1128,24 @@
    "via": "Carretera Panamericana Sur",
    "ref": "PE-1S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -13.386914,
+     "lon": -76.20223,
+     "n": 2,
+     "rumbo": 152
+    },
+    {
+     "lat": -13.386839,
+     "lon": -76.202036,
+     "n": 2,
+     "rumbo": 331
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.3
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
    "punto": "Unidad de Peaje Jahuay",
@@ -583,6 +1160,19 @@
    "via": "Vía de los Libertadores",
    "ref": "PE-28A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -13.374674,
+     "lon": -74.939614,
+     "n": 1,
+     "rumbo": 151,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-28A",
    "punto": "Unidad de peaje Rumichaca",
@@ -597,6 +1187,19 @@
    "via": "Interoceánica Sur",
    "ref": "PE-30C",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -13.283428,
+     "lon": -70.78583,
+     "n": 1,
+     "rumbo": 37,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-30C",
    "punto": "Unidad de peaje Quincemil",
@@ -611,6 +1214,19 @@
    "via": "Vía de los Libertadores",
    "ref": "PE-28A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -13.210739,
+     "lon": -74.273236,
+     "n": 1,
+     "rumbo": 24,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-28A",
    "punto": "Unidad de Peaje Socos",
@@ -625,6 +1241,19 @@
    "via": "Carretera Nuevo Imperial - Augusto B. Leguía",
    "ref": "PE-24",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -13.073787,
+     "lon": -76.288089,
+     "n": 1,
+     "rumbo": 210,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Nuevo Imperial - Augusto B. Leguía",
    "punto": "Unidad de peaje Lunahuaná",
@@ -639,6 +1268,29 @@
    "via": "Interoceánica Sur",
    "ref": "PE-30C",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -12.881157,
+     "lon": -69.776051,
+     "n": 1,
+     "rumbo": 87
+    },
+    {
+     "lat": -12.881122,
+     "lon": -69.776051,
+     "n": 1
+    },
+    {
+     "lat": -12.881085,
+     "lon": -69.776055,
+     "n": 1,
+     "rumbo": 267
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.2
+   },
    "pais": "PE",
    "via_visible": "PE-30C",
    "punto": "Unidad de peaje Unión Progreso",
@@ -655,6 +1307,19 @@
    "km": "67",
    "localidad": "Las Salinas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -12.539953,
+     "lon": -76.718585,
+     "n": 1,
+     "rumbo": 230,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-1S",
    "punto": "Las Salinas",
@@ -669,6 +1334,18 @@
    "via": "Carretera Panamericana Sur",
    "ref": "PE-1S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -12.533238,
+     "lon": -76.721175,
+     "n": 2,
+     "rumbo": 156
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
    "punto": "Unidad de peaje de Chilca",
@@ -683,6 +1360,23 @@
    "via": "Carretera Panamericana Sur",
    "ref": "PE-1S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -12.366423,
+     "lon": -76.78929,
+     "n": 1,
+     "rumbo": 315
+    },
+    {
+     "lat": -12.366414,
+     "lon": -76.789333,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.3
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
    "punto": "Punta Negra",
@@ -698,6 +1392,18 @@
    "ref": "PE-1S",
    "localidad": "Punta Negra",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -12.359593,
+     "lon": -76.796277,
+     "n": 1,
+     "rumbo": 291
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-1S",
    "punto": "Punta Negra",
@@ -713,6 +1419,18 @@
    "ref": "PE-1S",
    "localidad": "Punta Hermosa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -12.332323,
+     "lon": -76.820377,
+     "n": 3,
+     "rumbo": 325
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-1S",
    "punto": "Punta Hermosa",
@@ -729,6 +1447,18 @@
    "ref": "PE-1S",
    "localidad": "Punta Hermosa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -12.303551,
+     "lon": -76.842213,
+     "n": 1,
+     "rumbo": 115
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-1S",
    "punto": "Punta Hermosa",
@@ -742,6 +1472,23 @@
    "nombre": "Peaje Arica",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -12.300482,
+     "lon": -76.847479,
+     "n": 1
+    },
+    {
+     "lat": -12.300447,
+     "lon": -76.847439,
+     "n": 1,
+     "rumbo": 290
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 2.9
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
    "punto": "Arica",
@@ -756,6 +1503,19 @@
    "via": "Transoceánica",
    "ref": "PE-30C",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -12.300151,
+     "lon": -69.170352,
+     "n": 1,
+     "rumbo": 40,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-30C",
    "punto": "Unidad de peaje Planchón",
@@ -763,14 +1523,36 @@
    "confianza": "alta"
   },
   {
-   "lat": -12.283286,
-   "lon": -76.878963,
+   "lat": -12.282407,
+   "lon": -76.879238,
    "nombre": "Peaje Carretera Panamericana Sur (PE-1S) (3)",
    "tipo": "cabina",
    "via": "Carretera Panamericana Sur",
    "ref": "PE-1S",
    "localidad": "Villa Libertad Casica",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -12.284166,
+     "lon": -76.878689,
+     "n": 1,
+     "rumbo": 39
+    },
+    {
+     "lat": -12.282407,
+     "lon": -76.879238,
+     "n": 1,
+     "rumbo": 300
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 102,
+    "centro_plaza": [
+     -12.283286,
+     -76.878963
+    ]
+   },
    "pais": "PE",
    "via_visible": "PE-1S",
    "punto": "Villa Libertad Casica",
@@ -779,13 +1561,37 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": -12.272343,
-   "lon": -75.119694,
+   "lat": -12.273231,
+   "lon": -75.119461,
    "nombre": "Unidad de peaje Chacapampa",
    "tipo": "cabina",
    "via": "Carretera Longitudinal de la Sierra Sur",
    "ref": "PE-3S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -12.273231,
+     "lon": -75.119461,
+     "n": 1,
+     "rumbo": 122,
+     "doble": true
+    },
+    {
+     "lat": -12.271455,
+     "lon": -75.119927,
+     "n": 1,
+     "rumbo": 318,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 101,
+    "centro_plaza": [
+     -12.272343,
+     -75.119694
+    ]
+   },
    "pais": "PE",
    "via_visible": "Carretera Longitudinal de la Sierra Sur",
    "punto": "Unidad de peaje Chacapampa",
@@ -801,6 +1607,23 @@
    "ref": "PE-1S",
    "localidad": "Villa Libertad Casica",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -12.254966,
+     "lon": -76.920927,
+     "n": 1
+    },
+    {
+     "lat": -12.25494,
+     "lon": -76.920917,
+     "n": 1,
+     "rumbo": 208
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.5
+   },
    "pais": "PE",
    "via_visible": "PE-1S",
    "punto": "Villa Libertad Casica",
@@ -809,13 +1632,45 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": -12.227419,
-   "lon": -76.969925,
+   "lat": -12.226824,
+   "lon": -76.970489,
    "nombre": "Peaje Villa",
    "tipo": "cabina",
    "via": "Carretera Panamericana Sur",
    "ref": "PE-1S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -12.228039,
+     "lon": -76.969387,
+     "n": 1,
+     "rumbo": 135
+    },
+    {
+     "lat": -12.228027,
+     "lon": -76.969373,
+     "n": 1
+    },
+    {
+     "lat": -12.226824,
+     "lon": -76.970489,
+     "n": 1
+    },
+    {
+     "lat": -12.226785,
+     "lon": -76.97045,
+     "n": 1,
+     "rumbo": 134
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 90,
+    "centro_plaza": [
+     -12.227419,
+     -76.969925
+    ]
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
    "punto": "Villa",
@@ -830,6 +1685,30 @@
    "via": "Prolongación Avenida Defensores del Morro",
    "localidad": "Quebrada Verde",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -12.218119,
+     "lon": -76.978056,
+     "n": 1,
+     "rumbo": 34
+    },
+    {
+     "lat": -12.21796,
+     "lon": -76.978174,
+     "n": 1,
+     "rumbo": 95
+    },
+    {
+     "lat": -12.217517,
+     "lon": -76.978196,
+     "n": 1,
+     "rumbo": 265
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 11.1
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
    "punto": "Quebrada Verde",
@@ -844,6 +1723,19 @@
    "via": "Calle Ayacucho",
    "ref": "PE-3S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -12.168079,
+     "lon": -75.209193,
+     "n": 1,
+     "rumbo": 143,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-3S",
    "punto": "Unidad de peaje Huacrapuquio",
@@ -858,6 +1750,17 @@
    "via": "Avenida República de Panamá",
    "localidad": "Lima",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -12.129576,
+     "lon": -77.017848,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Avenida República de Panamá",
    "punto": "Lima",
@@ -871,6 +1774,19 @@
    "tipo": "cabina",
    "via": "El Cascajal",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -12.122078,
+     "lon": -76.974195,
+     "n": 1,
+     "rumbo": 43,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "El Cascajal",
    "punto": "Garita de control",
@@ -878,24 +1794,108 @@
    "confianza": "alta"
   },
   {
-   "lat": -12.078152,
-   "lon": -76.918595,
+   "lat": -12.076947,
+   "lon": -76.916279,
    "nombre": "La Panicie",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -12.079358,
+     "lon": -76.920911,
+     "n": 1
+    },
+    {
+     "lat": -12.076947,
+     "lon": -76.916279,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 285,
+    "centro_plaza": [
+     -12.078152,
+     -76.918595
+    ]
+   },
    "pais": "PE",
    "punto": "La Panicie",
    "nombre_visible": "Peaje La Panicie",
    "confianza": "alta"
   },
   {
-   "lat": -12.067792,
-   "lon": -76.971781,
+   "lat": -12.069085,
+   "lon": -76.972429,
    "nombre": "Peaje Entrada de Monterrico para buses",
    "tipo": "cabina",
    "via": "Vía de Evitamiento",
    "ref": "PE-1S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -12.069822,
+     "lon": -76.972611,
+     "n": 1,
+     "rumbo": 213
+    },
+    {
+     "lat": -12.069085,
+     "lon": -76.972429,
+     "n": 4,
+     "rumbo": 206
+    },
+    {
+     "lat": -12.067965,
+     "lon": -76.971793,
+     "n": 1,
+     "rumbo": 17
+    },
+    {
+     "lat": -12.067842,
+     "lon": -76.972067,
+     "n": 1,
+     "rumbo": 200
+    },
+    {
+     "lat": -12.067337,
+     "lon": -76.97081,
+     "n": 1,
+     "rumbo": 67
+    },
+    {
+     "lat": -12.066983,
+     "lon": -76.970954,
+     "n": 1,
+     "rumbo": 312
+    },
+    {
+     "lat": -12.066957,
+     "lon": -76.971607,
+     "n": 1,
+     "rumbo": 193
+    },
+    {
+     "lat": -12.066661,
+     "lon": -76.97136,
+     "n": 3,
+     "rumbo": 14
+    },
+    {
+     "lat": -12.065864,
+     "lon": -76.971301,
+     "n": 1,
+     "rumbo": 9
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 19,
+    "centro_plaza": [
+     -12.067792,
+     -76.971781
+    ]
+   },
    "pais": "PE",
    "via_visible": "Vía de Evitamiento",
    "punto": "Entrada de Monterrico para buses",
@@ -911,6 +1911,18 @@
    "ref": "PE-20",
    "localidad": "Callao",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -12.05778,
+     "lon": -77.146366,
+     "n": 4,
+     "rumbo": 130
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-20",
    "punto": "Callao",
@@ -918,8 +1930,8 @@
    "confianza": "media"
   },
   {
-   "lat": -12.05709,
-   "lon": -76.974055,
+   "lat": -12.057491,
+   "lon": -76.974722,
    "nombre": "Peaje Vía de Evitamiento (PE-1N) km 0",
    "tipo": "cabina",
    "via": "Vía de Evitamiento",
@@ -927,6 +1939,28 @@
    "km": "0",
    "localidad": "Santa María de Huachipa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -12.057491,
+     "lon": -76.974722,
+     "n": 1,
+     "rumbo": 196
+    },
+    {
+     "lat": -12.056688,
+     "lon": -76.973388,
+     "n": 1,
+     "rumbo": 295
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 85,
+    "centro_plaza": [
+     -12.05709,
+     -76.974055
+    ]
+   },
    "pais": "PE",
    "via_visible": "PE-1N",
    "punto": "Santa María de Huachipa",
@@ -941,6 +1975,18 @@
    "via": "Vía Expresa Línea Amarilla",
    "ref": "LA",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -12.043344,
+     "lon": -77.020186,
+     "n": 1,
+     "rumbo": 277
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Vía Expresa Línea Amarilla",
    "punto": "Huánuco",
@@ -948,13 +1994,46 @@
    "confianza": "alta"
   },
   {
-   "lat": -12.038567,
-   "lon": -77.04475,
+   "lat": -12.038022,
+   "lon": -77.046798,
    "nombre": "Peaje Estadio",
    "tipo": "cabina",
    "via": "Vía Expresa Línea Amarilla",
    "ref": "LA",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -12.039495,
+     "lon": -77.042497,
+     "n": 1,
+     "rumbo": 57
+    },
+    {
+     "lat": -12.039495,
+     "lon": -77.042489,
+     "n": 1
+    },
+    {
+     "lat": -12.038022,
+     "lon": -77.046798,
+     "n": 1,
+     "rumbo": 139
+    },
+    {
+     "lat": -12.037257,
+     "lon": -77.047218,
+     "n": 1,
+     "rumbo": 144
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 231,
+    "centro_plaza": [
+     -12.038567,
+     -77.04475
+    ]
+   },
    "pais": "PE",
    "via_visible": "Vía Expresa Línea Amarilla",
    "punto": "Estadio",
@@ -971,6 +2050,25 @@
    "km": "2",
    "localidad": "Santa María de Huachipa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -12.032058,
+     "lon": -76.988889,
+     "n": 1,
+     "rumbo": 165,
+     "doble": true
+    },
+    {
+     "lat": -12.031902,
+     "lon": -76.98893,
+     "n": 4,
+     "rumbo": 256
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.5
+   },
    "pais": "PE",
    "via_visible": "PE-22",
    "punto": "Santa María de Huachipa",
@@ -978,14 +2076,36 @@
    "confianza": "media"
   },
   {
-   "lat": -12.021555,
-   "lon": -77.107165,
+   "lat": -12.022319,
+   "lon": -77.106575,
    "nombre": "Peaje Avenida Elmer Faucett (PE-20B)",
    "tipo": "cabina",
    "via": "Avenida Elmer Faucett",
    "ref": "PE-20B",
    "localidad": "Callao",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -12.022319,
+     "lon": -77.106575,
+     "n": 2,
+     "rumbo": 70
+    },
+    {
+     "lat": -12.02079,
+     "lon": -77.107755,
+     "n": 2,
+     "rumbo": 332
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 106,
+    "centro_plaza": [
+     -12.021555,
+     -77.107165
+    ]
+   },
    "pais": "PE",
    "via_visible": "PE-20B",
    "punto": "Callao",
@@ -1000,6 +2120,17 @@
    "via": "Avenida Alejandro Bertello Bollati",
    "localidad": "Callao",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -12.01826,
+     "lon": -77.101642,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Avenida Alejandro Bertello Bollati",
    "punto": "Callao",
@@ -1014,6 +2145,24 @@
    "via": "Carretera Central",
    "ref": "PE-22",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -11.911294,
+     "lon": -76.582886,
+     "n": 1,
+     "rumbo": 72
+    },
+    {
+     "lat": -11.911174,
+     "lon": -76.582931,
+     "n": 1,
+     "rumbo": 250
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.1
+   },
    "pais": "PE",
    "via_visible": "Carretera Central",
    "punto": "Unidad de peaje Corcona",
@@ -1028,6 +2177,24 @@
    "via": "Carretera Panamericana Norte",
    "ref": "PE-1N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -11.747563,
+     "lon": -77.143739,
+     "n": 1,
+     "rumbo": 41
+    },
+    {
+     "lat": -11.747492,
+     "lon": -77.143822,
+     "n": 1,
+     "rumbo": 221
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.9
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Norte",
    "punto": "Unidad de peaje Variante de Pasamayo",
@@ -1042,6 +2209,24 @@
    "via": "Carretera Serpentín de Pasamayo",
    "ref": "PE-1NA",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -11.743887,
+     "lon": -77.164927,
+     "n": 2
+    },
+    {
+     "lat": -11.74388,
+     "lon": -77.164897,
+     "n": 1,
+     "rumbo": 342,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 1.1
+   },
    "pais": "PE",
    "via_visible": "Carretera Serpentín de Pasamayo",
    "punto": "Unidad de peaje Serpentín de Pasamayo",
@@ -1056,6 +2241,19 @@
    "via": "Carretera Longitudinal de la Sierra Sur",
    "ref": "PE-3S",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -11.627275,
+     "lon": -75.827894,
+     "n": 1,
+     "rumbo": 83,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Longitudinal de la Sierra Sur",
    "punto": "Unidad de peaje Quiulla",
@@ -1070,6 +2268,24 @@
    "via": "Carretera Longitudinal de la Sierra Norte",
    "ref": "PE-3N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -11.448134,
+     "lon": -75.947217,
+     "n": 1,
+     "rumbo": 34
+    },
+    {
+     "lat": -11.448076,
+     "lon": -75.947336,
+     "n": 1,
+     "rumbo": 214
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.2
+   },
    "pais": "PE",
    "via_visible": "Carretera Longitudinal de la Sierra Norte",
    "punto": "Unidad de peaje Casaracra",
@@ -1084,6 +2300,19 @@
    "via": "Transoceánica",
    "ref": "PE-30C",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -11.440616,
+     "lon": -69.333252,
+     "n": 1,
+     "rumbo": 137,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-30C",
    "punto": "Unidad de peaje San Lorenzo",
@@ -1097,6 +2326,19 @@
    "tipo": "cabina",
    "ref": "PE-20C",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -11.345024,
+     "lon": -76.950772,
+     "n": 1,
+     "rumbo": 51,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-20C",
    "punto": "Unidad de Peaje Huataya",
@@ -1111,6 +2353,24 @@
    "via": "Carretera Panamericana Norte",
    "ref": "PE-1N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -11.191484,
+     "lon": -77.571556,
+     "n": 1,
+     "rumbo": 145
+    },
+    {
+     "lat": -11.191374,
+     "lon": -77.571396,
+     "n": 1,
+     "rumbo": 325
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 10.6
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Norte",
    "punto": "Unidad de peaje El Paraíso",
@@ -1125,6 +2385,19 @@
    "via": "Carretera Central",
    "ref": "PE-22B",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -11.149508,
+     "lon": -75.409685,
+     "n": 1,
+     "rumbo": 84,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Central",
    "punto": "Unidad de peaje Chalhuapuquio",
@@ -1139,6 +2412,24 @@
    "via": "Panamericana Norte",
    "ref": "PE-1N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -10.602453,
+     "lon": -77.871243,
+     "n": 1,
+     "rumbo": 178
+    },
+    {
+     "lat": -10.602449,
+     "lon": -77.871072,
+     "n": 1,
+     "rumbo": 358
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.3
+   },
    "pais": "PE",
    "via_visible": "Panamericana Norte",
    "punto": "Unidad de peaje Fortaleza",
@@ -1153,6 +2444,24 @@
    "via": "Carretera a Huaraz",
    "ref": "PE-16",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -10.572041,
+     "lon": -77.75795,
+     "n": 1,
+     "rumbo": 39
+    },
+    {
+     "lat": -10.571998,
+     "lon": -77.758002,
+     "n": 1,
+     "rumbo": 220
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.7
+   },
    "pais": "PE",
    "via_visible": "Carretera a Huaraz",
    "punto": "Unidad de peaje Tunán",
@@ -1166,6 +2475,19 @@
    "tipo": "cabina",
    "via": "Via Llamac-Chiquián",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -10.197093,
+     "lon": -77.035066,
+     "n": 1,
+     "rumbo": 54,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Via Llamac-Chiquián",
    "punto": "Llamac",
@@ -1180,6 +2502,19 @@
    "via": "Carretera Longitudinal de la Sierra Norte",
    "ref": "PE-3N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -10.141266,
+     "lon": -76.1962,
+     "n": 1,
+     "rumbo": 159,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Longitudinal de la Sierra Norte",
    "punto": "Unidad de peaje Ambo",
@@ -1195,6 +2530,24 @@
    "ref": "PE-1N",
    "localidad": "9 de Octubre",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -10.103044,
+     "lon": -78.139077,
+     "n": 1,
+     "rumbo": 155
+    },
+    {
+     "lat": -10.102974,
+     "lon": -78.138939,
+     "n": 1,
+     "rumbo": 334
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.5
+   },
    "pais": "PE",
    "via_visible": "PE-1N",
    "punto": "9 de Octubre",
@@ -1209,6 +2562,24 @@
    "via": "Panamericana Norte",
    "ref": "PE-1N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -9.923871,
+     "lon": -78.219949,
+     "n": 1,
+     "rumbo": 0
+    },
+    {
+     "lat": -9.92387,
+     "lon": -78.220104,
+     "n": 1,
+     "rumbo": 180
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.4
+   },
    "pais": "PE",
    "via_visible": "Panamericana Norte",
    "punto": "Unidad de peaje Huarmey",
@@ -1223,6 +2594,19 @@
    "via": "Carretera Longitudinal de la Sierra Norte",
    "ref": "PE-3N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -9.877952,
+     "lon": -77.40458,
+     "n": 1,
+     "rumbo": 177,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Longitudinal de la Sierra Norte",
    "punto": "Unidad de peaje Catac",
@@ -1237,6 +2621,19 @@
    "via": "Carretera Central",
    "ref": "PE-18A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -9.839516,
+     "lon": -76.124701,
+     "n": 1,
+     "rumbo": 89,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Central",
    "punto": "Unidad de peaje Chullqui",
@@ -1250,6 +2647,19 @@
    "tipo": "cabina",
    "localidad": "Aco",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -9.362303,
+     "lon": -77.523029,
+     "n": 1,
+     "rumbo": 337,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "punto": "Aco",
    "nombre_visible": "Peaje Aco",
@@ -1264,6 +2674,24 @@
    "ref": "PE-1N",
    "localidad": "Huambacho el Arenal",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -9.296301,
+     "lon": -78.412827,
+     "n": 1,
+     "rumbo": 157
+    },
+    {
+     "lat": -9.296242,
+     "lon": -78.412695,
+     "n": 1,
+     "rumbo": 337
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 7.9
+   },
    "pais": "PE",
    "via_visible": "PE-1N",
    "punto": "Huambacho el Arenal",
@@ -1278,6 +2706,19 @@
    "via": "Panamericana Norte",
    "ref": "PE-1N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -9.174195,
+     "lon": -78.481528,
+     "n": 1,
+     "rumbo": 133,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Panamericana Norte",
    "punto": "Unidad de peaje Vesique",
@@ -1292,6 +2733,24 @@
    "via": "Via de Evitamiento Chimbote",
    "ref": "PE-1NQ",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -9.048919,
+     "lon": -78.515602,
+     "n": 1,
+     "rumbo": 5
+    },
+    {
+     "lat": -9.048895,
+     "lon": -78.515854,
+     "n": 1,
+     "rumbo": 183
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 13.9
+   },
    "pais": "PE",
    "via_visible": "PE-1NQ",
    "punto": "Santa",
@@ -1307,6 +2766,24 @@
    "ref": "PE-1N",
    "localidad": "Puerto Morin",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -8.377968,
+     "lon": -78.860307,
+     "n": 1,
+     "rumbo": 140
+    },
+    {
+     "lat": -8.377862,
+     "lon": -78.86018,
+     "n": 1,
+     "rumbo": 317
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.1
+   },
    "pais": "PE",
    "via_visible": "PE-1N",
    "punto": "Puerto Morin",
@@ -1321,6 +2798,19 @@
    "via": "Carretera Industrial",
    "ref": "PE-10A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -8.028759,
+     "lon": -78.840177,
+     "n": 1,
+     "rumbo": 201,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Industrial",
    "punto": "Unidad de peaje Menocucho",
@@ -1335,6 +2825,24 @@
    "via": "Carretera Panamericana Norte",
    "ref": "PE-1N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -7.875874,
+     "lon": -79.132295,
+     "n": 3,
+     "rumbo": 155
+    },
+    {
+     "lat": -7.875793,
+     "lon": -79.132121,
+     "n": 2,
+     "rumbo": 334
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.5
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Norte",
    "punto": "Chicama",
@@ -1349,6 +2857,19 @@
    "via": "Carretera Ciudad de Dios - Cajamarca",
    "ref": "PE-08",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -7.304565,
+     "lon": -79.45927,
+     "n": 1,
+     "rumbo": 273,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Ciudad de Dios - Cajamarca",
    "punto": "Unidad de peaje Ciudad de Dios",
@@ -1363,6 +2884,24 @@
    "via": "Carretera Panamericana Norte",
    "ref": "PE-1N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -7.111712,
+     "lon": -79.497108,
+     "n": 2,
+     "rumbo": 129
+    },
+    {
+     "lat": -7.111631,
+     "lon": -79.497034,
+     "n": 2,
+     "rumbo": 308
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Norte",
    "punto": "Pacanguilla",
@@ -1376,6 +2915,19 @@
    "tipo": "cabina",
    "ref": "PE-1NI",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -6.925763,
+     "lon": -79.6081,
+     "n": 1,
+     "rumbo": 220,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-1NI",
    "punto": "San Nicolás",
@@ -1389,6 +2941,19 @@
    "tipo": "cabina",
    "ref": "PE-06A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -6.702499,
+     "lon": -79.47609,
+     "n": 1,
+     "rumbo": 196,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-06A",
    "punto": "Unidad de peaje Cuculí",
@@ -1403,6 +2968,24 @@
    "via": "Carretera Lambayeque - Olmos",
    "ref": "PE-1NJ",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -6.667185,
+     "lon": -79.898341,
+     "n": 3,
+     "rumbo": 15
+    },
+    {
+     "lat": -6.667156,
+     "lon": -79.898464,
+     "n": 2,
+     "rumbo": 197
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 5.6
+   },
    "pais": "PE",
    "via_visible": "Carretera Lambayeque - Olmos",
    "punto": "Unidad de peaje Mocce",
@@ -1418,6 +3001,19 @@
    "ref": "PE-1N",
    "localidad": "Mórrope",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -6.534396,
+     "lon": -80.028243,
+     "n": 1,
+     "rumbo": 127,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-1N",
    "punto": "Mórrope",
@@ -1432,6 +3028,19 @@
    "via": "Carretera Panamericana Norte",
    "ref": "PE-1N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -6.500995,
+     "lon": -80.072176,
+     "n": 1,
+     "rumbo": 127,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Norte",
    "punto": "Morrope",
@@ -1445,6 +3054,19 @@
    "tipo": "cabina",
    "ref": "PE-5NB",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -6.312383,
+     "lon": -76.280185,
+     "n": 1,
+     "rumbo": 0,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-5NB",
    "punto": "Unidad de peaje Pongo",
@@ -1459,6 +3081,19 @@
    "via": "Carretera Presidente Fernando Belaúnde Terry",
    "ref": "PE-5N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -6.053763,
+     "lon": -76.937885,
+     "n": 3,
+     "rumbo": 305,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Presidente Fernando Belaúnde Terry",
    "punto": "Unidad de peaje Moyobamba",
@@ -1473,6 +3108,19 @@
    "via": "Carretera Interocéanica Norte",
    "ref": "PE-04B",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -5.947406,
+     "lon": -79.656062,
+     "n": 1,
+     "rumbo": 58,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Interocéanica Norte",
    "punto": "Unidad de peaje Olmos",
@@ -1487,6 +3135,19 @@
    "via": "Carretera Presidente Fernando Belaúnde Terry",
    "ref": "PE-3N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -5.940134,
+     "lon": -79.261278,
+     "n": 1,
+     "rumbo": 108,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Presidente Fernando Belaúnde Terry",
    "punto": "Unidad de peaje Pomahuanca",
@@ -1501,6 +3162,19 @@
    "via": "Carretera Presidente Fernando Belaúnde Terry",
    "ref": "PE-5N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -5.931825,
+     "lon": -77.982514,
+     "n": 1,
+     "rumbo": 181,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Presidente Fernando Belaúnde Terry",
    "punto": "Unidad de peaje Pedro Ruiz",
@@ -1515,6 +3189,19 @@
    "via": "Carretera Presidente Fernando Belaúnde Terry",
    "ref": "PE-5N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -5.74472,
+     "lon": -78.660844,
+     "n": 1,
+     "rumbo": 58,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Presidente Fernando Belaúnde Terry",
    "punto": "Unidad de peaje Utcubamba",
@@ -1529,6 +3216,19 @@
    "via": "Carretera Presidente Fernando Belaúnde Terry",
    "ref": "PE-5N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -5.697502,
+     "lon": -77.60859,
+     "n": 1,
+     "rumbo": 292,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Presidente Fernando Belaúnde Terry",
    "punto": "Unidad de peaje Aguas Claras",
@@ -1543,6 +3243,19 @@
    "via": "Carretera Panamericana Norte",
    "ref": "PE-1N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -5.634429,
+     "lon": -80.576873,
+     "n": 1,
+     "rumbo": 346,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Norte",
    "punto": "Nuevo Peaje Piura",
@@ -1556,6 +3269,19 @@
    "tipo": "cabina",
    "ref": "PE-02A",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -5.423317,
+     "lon": -79.684078,
+     "n": 1,
+     "rumbo": 67,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "PE-02A",
    "punto": "Unidad de peaje Loma Larga Baja",
@@ -1570,6 +3296,19 @@
    "via": "Carretera Panamericana Norte",
    "ref": "PE-1N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -5.289037,
+     "lon": -80.616282,
+     "n": 1,
+     "rumbo": 12,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Norte",
    "punto": "Unidad de peaje Bayovar",
@@ -1584,6 +3323,19 @@
    "via": "Carretera Interoceánica Norte",
    "ref": "PE-1NJ",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -5.165575,
+     "lon": -80.201626,
+     "n": 1,
+     "rumbo": 275,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Interoceánica Norte",
    "punto": "Unidad de peaje Km 50- Chulucanas",
@@ -1598,6 +3350,24 @@
    "via": "Carretera Paita - Piura",
    "ref": "PE-02",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -5.109008,
+     "lon": -81.031982,
+     "n": 1,
+     "rumbo": 98
+    },
+    {
+     "lat": -5.108839,
+     "lon": -81.031959,
+     "n": 1,
+     "rumbo": 278
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 9.4
+   },
    "pais": "PE",
    "via_visible": "Carretera Paita - Piura",
    "punto": "Unidad de peaje Paita",
@@ -1612,6 +3382,24 @@
    "via": "Carretera Panamericana Norte",
    "ref": "PE-1N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -5.038425,
+     "lon": -80.70141,
+     "n": 1,
+     "rumbo": 3
+    },
+    {
+     "lat": -5.038421,
+     "lon": -80.701556,
+     "n": 1,
+     "rumbo": 183
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.1
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Norte",
    "punto": "Unidad de peaje Sullana",
@@ -1626,6 +3414,19 @@
    "via": "Carretera Panamericana Norte",
    "ref": "PE-1NL",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -4.934454,
+     "lon": -80.54665,
+     "n": 1,
+     "rumbo": 247,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Norte",
    "punto": "Unidad de peaje Tambo Grande",
@@ -1640,6 +3441,19 @@
    "via": "Carretera Panamericana Norte",
    "ref": "PE-1N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -4.601313,
+     "lon": -81.163357,
+     "n": 1,
+     "rumbo": 305,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Norte",
    "punto": "Unidad de peaje Talara",
@@ -1654,6 +3468,19 @@
    "via": "Carretera Panamericana Norte",
    "ref": "PE-1N",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": -3.932317,
+     "lon": -80.91675,
+     "n": 1,
+     "rumbo": 62,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Norte",
    "punto": "Unidad de peaje Cancas",
@@ -1670,9 +3497,20 @@
    "via": "Avenida Aeropuerto",
    "localidad": "Peruarboo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -16.345318,
+     "lon": -71.567082,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-31T12:50Z",
+ "generado": "2026-11-01T15:50Z",
  "alertas": []
 }
