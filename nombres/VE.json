@@ -772,9 +772,9 @@
    "via": "Distribuidor La Victoria",
    "fuente": "osm",
    "pais": "VE",
-   "via_visible": "Distribuidor La Victoria",
+   "via_visible": "Avenida Universidad",
    "punto": "La Victoria",
-   "nombre_visible": "Distribuidor La Victoria - Peaje La Victoria",
+   "nombre_visible": "Avenida Universidad - Peaje La Victoria",
    "confianza": "alta"
   },
   {
@@ -1184,6 +1184,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-31T13:14Z",
+ "generado": "2026-11-01T13:22Z",
  "alertas": []
 }
