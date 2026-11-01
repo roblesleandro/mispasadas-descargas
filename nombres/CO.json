@@ -15,8 +15,8 @@
    "corregidas": 22,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 186,
-    "a_mas_de_15_m": 22,
+    "ok": 208,
+    "a_mas_de_15_m": 0,
     "sin_referencia": 0,
     "total": 208
    }
@@ -1790,9 +1790,10 @@
   {
    "lat": 4.763644,
    "lon": -74.043662,
-   "nombre": "Peaje Calle 187 Bis",
+   "nombre": "Peaje Calle 187 Bis (55)",
    "tipo": "cabina",
    "via": "Calle 187 Bis",
+   "ref": "55",
    "localidad": "Cota",
    "fuente": "armado",
    "cabinas": [
@@ -1808,9 +1809,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Calle 187 Bis",
+   "via_visible": "Ruta 55",
    "punto": "Cota",
-   "nombre_visible": "Calle 187 Bis - Peaje Cota",
+   "nombre_visible": "Ruta 55 - Peaje Cota",
    "confianza": "media"
   },
   {
@@ -2072,8 +2073,9 @@
   {
    "lat": 4.862194,
    "lon": -74.04327,
-   "nombre": "Peaje cerca de Chía",
+   "nombre": "Peaje Carrera 5 Este",
    "tipo": "cabina",
+   "via": "Carrera 5 Este",
    "localidad": "Chía",
    "fuente": "armado",
    "cabinas": [
@@ -2088,8 +2090,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
+   "via_visible": "Carrera 5 Este",
    "punto": "Chía",
-   "nombre_visible": "Peaje Chía",
+   "nombre_visible": "Carrera 5 Este - Peaje Chía",
    "confianza": "media"
   },
   {
@@ -2786,8 +2789,9 @@
   {
    "lat": 5.33515,
    "lon": -72.391142,
-   "nombre": "Peaje cerca de Yopal",
+   "nombre": "Peaje Avenida Carrera 23",
    "tipo": "cabina",
+   "via": "Avenida Carrera 23",
    "localidad": "Yopal",
    "fuente": "armado",
    "cabinas": [
@@ -2802,8 +2806,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
+   "via_visible": "Avenida Carrera 23",
    "punto": "Yopal",
-   "nombre_visible": "Peaje Yopal",
+   "nombre_visible": "Avenida Carrera 23 - Peaje Yopal",
    "confianza": "media"
   },
   {
@@ -3815,9 +3820,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Vía Piedecuesta - San Gil",
+   "via_visible": "Ruta 45A",
    "punto": "Curití",
-   "nombre_visible": "Vía Piedecuesta - San Gil - Peaje Curití",
+   "nombre_visible": "Ruta 45A - Peaje Curití",
    "confianza": "alta",
    "plaza": "Curití"
   },
@@ -3843,9 +3848,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Autopista al Río Magdalena 2",
+   "via_visible": "VEGACHÍ",
    "punto": "Vegachí",
-   "nombre_visible": "Autopista al Río Magdalena 2 - Peaje Vegachí",
+   "nombre_visible": "VEGACHÍ - Peaje Vegachí",
    "confianza": "alta",
    "plaza": "Vegachí"
   },
@@ -3899,9 +3904,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Vía Piedecuesta - San Gil",
+   "via_visible": "Ruta 45A",
    "punto": "Los Curos",
-   "nombre_visible": "Vía Piedecuesta - San Gil - Peaje Los Curos",
+   "nombre_visible": "Ruta 45A - Peaje Los Curos",
    "confianza": "alta",
    "plaza": "Los Curos"
   },
@@ -3987,9 +3992,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Autopista al Río Magdalena 2",
+   "via_visible": "SANTA ISABEL",
    "punto": "Santa Isabel",
-   "nombre_visible": "Autopista al Río Magdalena 2 - Peaje Santa Isabel",
+   "nombre_visible": "SANTA ISABEL - Peaje Santa Isabel",
    "confianza": "alta",
    "plaza": "Santa Isabel"
   },
@@ -4319,9 +4324,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Ruta 45A",
+   "via_visible": "Vía El Playón - San Alberto",
    "punto": "Río Blanco",
-   "nombre_visible": "Ruta 45A - Peaje Río Blanco",
+   "nombre_visible": "Vía El Playón - San Alberto - Peaje Río Blanco",
    "confianza": "alta",
    "plaza": "Río Blanco"
   },
@@ -5622,9 +5627,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Ruta 45",
+   "via_visible": "Vía Bosconia - Ciénaga",
    "punto": "Tucurinca",
-   "nombre_visible": "Ruta 45 - Peaje Tucurinca",
+   "nombre_visible": "Vía Bosconia - Ciénaga - Peaje Tucurinca",
    "confianza": "alta",
    "plaza": "Tucurinca"
   },
@@ -6223,8 +6228,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-01T15:57Z",
- "alertas": [
-  "Alrededores: falló un lote de 17 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
- ]
+ "generado": "2026-11-01T18:40Z",
+ "alertas": []
 }
