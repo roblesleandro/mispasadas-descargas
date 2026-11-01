@@ -4,20 +4,20 @@
  "moneda": "EUR",
  "resumen": {
   "oficial": 0,
-  "osm": 60,
+  "osm": 59,
   "armado": 152,
-  "total": 212,
+  "total": 211,
   "confianza_baja": 0,
   "excluidas": 0,
   "posicion": {
    "umbral_m": 15.0,
    "ok": 164,
-   "corregidas": 48,
+   "corregidas": 47,
    "sin_referencia": 0,
    "corrida_anterior": {
     "ok": 164,
-    "a_mas_de_15_m": 48,
-    "sin_referencia": 0,
+    "a_mas_de_15_m": 47,
+    "sin_referencia": 1,
     "total": 212
    }
   }
@@ -219,9 +219,9 @@
   {
    "lat": 38.223177,
    "lon": -8.525157,
-   "nombre": "Peaje IP 8",
+   "nombre": "Peaje IC 33",
    "tipo": "cabina",
-   "ref": "IP 8;IC 33",
+   "ref": "IC 33;IP 8",
    "localidad": "Grândola",
    "fuente": "armado",
    "cabinas": [
@@ -243,9 +243,9 @@
     "distancia_m": 7.9
    },
    "pais": "PT",
-   "via_visible": "IP8",
+   "via_visible": "IC33",
    "punto": "Grândola",
-   "nombre_visible": "IP8 - Portagem Grândola",
+   "nombre_visible": "IC33 - Portagem Grândola",
    "confianza": "media"
   },
   {
@@ -828,7 +828,7 @@
      "lat": 38.674303,
      "lon": -9.23075,
      "n": 1,
-     "rumbo": 341
+     "rumbo": 347
     }
    ],
    "posicion": {
@@ -2109,8 +2109,8 @@
    "confianza": "media"
   },
   {
-   "lat": 39.004559,
-   "lon": -8.962755,
+   "lat": 39.004549,
+   "lon": -8.962764,
    "nombre": "Peaje Estrada dos Fidalgos km 27,2",
    "tipo": "cabina",
    "via": "Estrada dos Fidalgos",
@@ -2118,6 +2118,11 @@
    "localidad": "Castanheira do Ribatejo",
    "fuente": "armado",
    "cabinas": [
+    {
+     "lat": 39.00451,
+     "lon": -8.9628,
+     "n": 1
+    },
     {
      "lat": 39.004517,
      "lon": -8.962817,
@@ -2133,7 +2138,7 @@
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 7.1
+    "distancia_m": 5.3
    },
    "pais": "PT",
    "via_visible": "Estrada dos Fidalgos",
@@ -2266,8 +2271,9 @@
   {
    "lat": 39.134051,
    "lon": -9.374809,
-   "nombre": "Peaje ER 247",
+   "nombre": "Peaje Avenida António Carlos Nunes Carneiro (ER 247)",
    "tipo": "cabina",
+   "via": "Avenida António Carlos Nunes Carneiro",
    "ref": "ER 247",
    "localidad": "Silveira",
    "fuente": "armado",
@@ -3263,8 +3269,8 @@
    "confianza": "media"
   },
   {
-   "lat": 39.989348,
-   "lon": -8.791389,
+   "lat": 39.989375,
+   "lon": -8.79138,
    "nombre": "Peaje IC 8",
    "tipo": "cabina",
    "ref": "IC 8",
@@ -3272,21 +3278,21 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": 39.989285,
-     "lon": -8.79143,
-     "n": 1,
-     "rumbo": 114
+     "lat": 39.989321,
+     "lon": -8.791409,
+     "n": 2,
+     "rumbo": 115
     },
     {
-     "lat": 39.989412,
-     "lon": -8.791348,
-     "n": 1,
-     "rumbo": 297
+     "lat": 39.989429,
+     "lon": -8.79135,
+     "n": 2,
+     "rumbo": 293
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 7.8
+    "distancia_m": 6.5
    },
    "pais": "PT",
    "via_visible": "IC8",
@@ -3527,8 +3533,8 @@
    "confianza": "media"
   },
   {
-   "lat": 40.220783,
-   "lon": -8.80503,
+   "lat": 40.220809,
+   "lon": -8.805024,
    "nombre": "Peaje EN 109",
    "tipo": "cabina",
    "ref": "EN 109",
@@ -3536,21 +3542,21 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": 40.220744,
-     "lon": -8.805003,
-     "n": 1,
-     "rumbo": 63
+     "lat": 40.220787,
+     "lon": -8.804998,
+     "n": 3,
+     "rumbo": 65
     },
     {
-     "lat": 40.220821,
-     "lon": -8.805057,
+     "lat": 40.220873,
+     "lon": -8.805103,
      "n": 1,
-     "rumbo": 242
+     "rumbo": 244
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 4.8
+    "distancia_m": 3.3
    },
    "pais": "PT",
    "via_visible": "EN109",
@@ -3655,8 +3661,8 @@
    "confianza": "media"
   },
   {
-   "lat": 40.329291,
-   "lon": -8.725187,
+   "lat": 40.329304,
+   "lon": -8.725162,
    "nombre": "Peaje Autoestrada do Litoral Centro (A 17) km 10",
    "tipo": "cabina",
    "via": "Autoestrada do Litoral Centro",
@@ -3666,21 +3672,21 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": 40.32928,
-     "lon": -8.725277,
-     "n": 1,
+     "lat": 40.329289,
+     "lon": -8.72524,
+     "n": 2,
      "rumbo": 173
     },
     {
-     "lat": 40.329302,
-     "lon": -8.725098,
-     "n": 1,
-     "rumbo": 352
+     "lat": 40.329319,
+     "lon": -8.725084,
+     "n": 2,
+     "rumbo": 349
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 7.7
+    "distancia_m": 6.8
    },
    "pais": "PT",
    "via_visible": "Autoestrada do Litoral Centro",
@@ -3857,11 +3863,13 @@
   {
    "lat": 40.461228,
    "lon": -8.693449,
-   "nombre": "0,60",
+   "nombre": "Pórtico Autoestrada do Litoral Centro (A 17) km 79",
    "tipo": "portico",
    "via": "Autoestrada do Litoral Centro",
    "ref": "A 17",
-   "fuente": "osm",
+   "km": "79",
+   "localidad": "Calvão",
+   "fuente": "armado",
    "cabinas": [
     {
      "lat": 40.460932,
@@ -3874,26 +3882,21 @@
      "lon": -8.693449,
      "n": 1,
      "rumbo": 220
-    },
-    {
-     "lat": 40.46184,
-     "lon": -8.692795,
-     "n": 1
     }
    ],
    "posicion": {
     "estado": "corregida",
-    "antes_m": 19,
+    "antes_m": 17,
     "centro_plaza": [
-     40.461333,
-     -8.693267
+     40.46108,
+     -8.693503
     ]
    },
    "pais": "PT",
    "via_visible": "Autoestrada do Litoral Centro",
-   "punto": "0,60",
-   "nombre_visible": "Autoestrada do Litoral Centro - Pórtico 0,60",
-   "confianza": "alta"
+   "punto": "Calvão",
+   "nombre_visible": "Autoestrada do Litoral Centro - Pórtico Calvão",
+   "confianza": "media"
   },
   {
    "lat": 40.562057,
@@ -5821,7 +5824,7 @@
   {
    "lat": 41.259586,
    "lon": -8.351489,
-   "nombre": "Pórtico Autoestrada do Douro Litoral (A 42) (4)",
+   "nombre": "Pórtico Autoestrada do Douro Litoral (A 42) (3)",
    "tipo": "portico",
    "via": "Autoestrada do Douro Litoral",
    "ref": "A 42",
@@ -5853,43 +5856,6 @@
    "via_visible": "Autoestrada do Douro Litoral",
    "punto": "Ferreira",
    "nombre_visible": "Autoestrada do Douro Litoral - Pórtico Ferreira",
-   "confianza": "media"
-  },
-  {
-   "lat": 41.263651,
-   "lon": -8.331473,
-   "nombre": "Pórtico Autoestrada do Douro Litoral (A 42) (3)",
-   "tipo": "portico",
-   "via": "Autoestrada do Douro Litoral",
-   "ref": "A 42",
-   "localidad": "Nevogilde",
-   "fuente": "armado",
-   "cabinas": [
-    {
-     "lat": 41.263651,
-     "lon": -8.331473,
-     "n": 1,
-     "rumbo": 39
-    },
-    {
-     "lat": 41.264055,
-     "lon": -8.331372,
-     "n": 1,
-     "rumbo": 218
-    }
-   ],
-   "posicion": {
-    "estado": "corregida",
-    "antes_m": 23,
-    "centro_plaza": [
-     41.263853,
-     -8.331423
-    ]
-   },
-   "pais": "PT",
-   "via_visible": "Autoestrada do Douro Litoral",
-   "punto": "Nevogilde",
-   "nombre_visible": "Autoestrada do Douro Litoral - Pórtico Nevogilde",
    "confianza": "media"
   },
   {
@@ -6898,8 +6864,8 @@
    "confianza": "alta"
   },
   {
-   "lat": 41.77586,
-   "lon": -8.171631,
+   "lat": 41.775874,
+   "lon": -8.171641,
    "nombre": "Peaje Estradão da Mata da Albergaria",
    "tipo": "cabina",
    "via": "Estradão da Mata da Albergaria",
@@ -6907,10 +6873,10 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": 41.77586,
-     "lon": -8.171631,
+     "lat": 41.775874,
+     "lon": -8.171641,
      "n": 1,
-     "rumbo": 20,
+     "rumbo": 26,
      "doble": true
     }
    ],
@@ -6991,7 +6957,7 @@
      "lat": 41.807855,
      "lon": -8.130583,
      "n": 1,
-     "rumbo": 13,
+     "rumbo": 356,
      "doble": true
     }
    ],
@@ -7073,14 +7039,6 @@
   }
  ],
  "excluidas": [],
-<<<<<<< HEAD
- "generado": "2026-10-31T13:44Z",
- "alertas": [
-  "PT: no se pudieron leer los peajes de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
-  "PT: Salieron 0 y antes había 212: se mantiene lo anterior."
- ]
-=======
- "generado": "2026-11-01T17:26Z",
+ "generado": "2026-11-01T20:19Z",
  "alertas": []
->>>>>>> f7d7899 (Nombres de estaciones (PT) actualizados automáticamente)
 }
