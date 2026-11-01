@@ -8,7 +8,19 @@
   "armado": 13,
   "total": 14,
   "confianza_baja": 0,
-  "excluidas": 1
+  "excluidas": 1,
+  "posicion": {
+   "umbral_m": 15.0,
+   "ok": 13,
+   "corregidas": 2,
+   "sin_referencia": 0,
+   "corrida_anterior": {
+    "ok": 12,
+    "a_mas_de_15_m": 2,
+    "sin_referencia": 0,
+    "total": 14
+   }
+  }
  },
  "estaciones": [
   {
@@ -17,6 +29,19 @@
    "nombre": "Peaje al Parque El Yunque",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 20.339753,
+     "lon": -74.547158,
+     "n": 1,
+     "rumbo": 276,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CU",
    "punto": "al Parque El Yunque",
    "nombre_visible": "Peaje al Parque El Yunque",
@@ -29,6 +54,19 @@
    "tipo": "cabina",
    "localidad": "Baracoa",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 20.341268,
+     "lon": -74.471426,
+     "n": 1,
+     "rumbo": 49,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CU",
    "punto": "Baracoa",
    "nombre_visible": "Peaje Baracoa",
@@ -42,6 +80,19 @@
    "via": "Avenida 1ro de Mayo",
    "localidad": "Manzanillo",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 20.345567,
+     "lon": -77.12404,
+     "n": 1,
+     "rumbo": 139,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CU",
    "via_visible": "Avenida 1ro de Mayo",
    "punto": "Manzanillo",
@@ -56,6 +107,19 @@
    "via": "Carretera de Cayo Saetía",
    "localidad": "Felton",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 20.736921,
+     "lon": -75.554974,
+     "n": 1,
+     "rumbo": 74,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CU",
    "via_visible": "Carretera de Cayo Saetía",
    "punto": "Felton",
@@ -70,6 +134,17 @@
    "via": "Calle 10",
    "localidad": "Río Seco",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 21.056352,
+     "lon": -75.701069,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CU",
    "via_visible": "Calle 10",
    "punto": "Río Seco",
@@ -84,6 +159,19 @@
    "via": "Pedraplén de Cayo Romano",
    "localidad": "Jaronú",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 21.909393,
+     "lon": -77.920888,
+     "n": 1,
+     "rumbo": 29,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CU",
    "via_visible": "Pedraplén de Cayo Romano",
    "punto": "Jaronú",
@@ -98,6 +186,24 @@
    "via": "Pedraplén a Cayo Coco",
    "localidad": "Comunidad Turiguanó",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 22.28154,
+     "lon": -78.537673,
+     "n": 1,
+     "rumbo": 41
+    },
+    {
+     "lat": 22.281612,
+     "lon": -78.53776,
+     "n": 1,
+     "rumbo": 222
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.0
+   },
    "pais": "CU",
    "via_visible": "Pedraplén a Cayo Coco",
    "punto": "Comunidad Turiguanó",
@@ -113,6 +219,24 @@
    "ref": "3-I-16",
    "localidad": "Australia",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 22.437508,
+     "lon": -81.143628,
+     "n": 1,
+     "rumbo": 167
+    },
+    {
+     "lat": 22.437521,
+     "lon": -81.143567,
+     "n": 1,
+     "rumbo": 347
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 3.2
+   },
    "pais": "CU",
    "via_visible": "Carretera Australia - Playa Larga",
    "punto": "Australia",
@@ -127,6 +251,24 @@
    "via": "Carretera a Cayo Santa María",
    "localidad": "Cambaíto",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 22.488173,
+     "lon": -79.436512,
+     "n": 1,
+     "rumbo": 86
+    },
+    {
+     "lat": 22.488292,
+     "lon": -79.436527,
+     "n": 1,
+     "rumbo": 267
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 6.6
+   },
    "pais": "CU",
    "via_visible": "Carretera a Cayo Santa María",
    "punto": "Cambaíto",
@@ -141,6 +283,19 @@
    "via": "Carretera Central de Montaña",
    "localidad": "Las Terrazas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 22.85622,
+     "lon": -82.915287,
+     "n": 1,
+     "rumbo": 208,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CU",
    "via_visible": "Carretera Central de Montaña",
    "punto": "Las Terrazas",
@@ -155,6 +310,19 @@
    "via": "Carretera a Cayo Levisa",
    "localidad": "Las Cadenas",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 22.865676,
+     "lon": -83.46645,
+     "n": 1,
+     "rumbo": 143,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "pais": "CU",
    "via_visible": "Carretera a Cayo Levisa",
    "punto": "Las Cadenas",
@@ -162,13 +330,35 @@
    "confianza": "media"
   },
   {
-   "lat": 22.999645,
-   "lon": -82.408637,
+   "lat": 22.999723,
+   "lon": -82.408095,
    "nombre": "Peaje Parqueo Terminal 3",
    "tipo": "cabina",
    "via": "Parqueo Terminal 3",
    "localidad": "Boyeros",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 22.999567,
+     "lon": -82.409179,
+     "n": 1,
+     "rumbo": 145
+    },
+    {
+     "lat": 22.999723,
+     "lon": -82.408095,
+     "n": 1,
+     "rumbo": 55
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 56,
+    "centro_plaza": [
+     22.999645,
+     -82.408637
+    ]
+   },
    "pais": "CU",
    "via_visible": "Carretera de los Terminales 2 y 3",
    "punto": "Boyeros",
@@ -176,12 +366,36 @@
    "confianza": "media"
   },
   {
-   "lat": 23.032959,
-   "lon": -82.362211,
+   "lat": 23.032899,
+   "lon": -82.362652,
    "nombre": "Peaje cerca de Boyeros",
    "tipo": "cabina",
    "localidad": "Boyeros",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 23.032899,
+     "lon": -82.362652,
+     "n": 1,
+     "rumbo": 171,
+     "doble": true
+    },
+    {
+     "lat": 23.033019,
+     "lon": -82.361769,
+     "n": 1,
+     "rumbo": 199,
+     "doble": true
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 46,
+    "centro_plaza": [
+     23.032959,
+     -82.362211
+    ]
+   },
    "pais": "CU",
    "punto": "Boyeros",
    "nombre_visible": "Peaje Boyeros",
@@ -196,6 +410,24 @@
    "ref": "CN",
    "localidad": "Julián Alemán",
    "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 23.125525,
+     "lon": -81.341975,
+     "n": 1,
+     "rumbo": 79
+    },
+    {
+     "lat": 23.125684,
+     "lon": -81.342005,
+     "n": 1,
+     "rumbo": 258
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 8.9
+   },
    "pais": "CU",
    "via_visible": "CN",
    "punto": "Julián Alemán",
@@ -210,9 +442,20 @@
    "nombre": "Peaje Aeropuerto T2",
    "tipo": "cabina",
    "fuente": "osm",
+   "cabinas": [
+    {
+     "lat": 23.001983,
+     "lon": -82.395018,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-10-31T13:16Z",
+ "generado": "2026-11-01T16:30Z",
  "alertas": []
 }
