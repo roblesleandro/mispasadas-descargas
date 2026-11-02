@@ -1,26 +1,26 @@
 {
  "version": "ca-2026-11-02",
  "pais": "CA",
- "generado": "2026-11-02T00:06:55+00:00",
+ "generado": "2026-11-02T02:26:44+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Cámaras municipales y provinciales."
  ],
  "resumen": {
-  "total": 1552,
+  "total": 1554,
   "oficiales": 0,
-  "osm": 1552,
+  "osm": 1554,
   "por_tipo": {
    "FIXED_SPEED": 363,
    "AVERAGE_SPEED_SECTION": 0,
    "RED_LIGHT_CAMERA": 273,
-   "VEHICLE_CAMERA": 916
+   "VEHICLE_CAMERA": 918
   },
-  "con_limite": 1298,
+  "con_limite": 1299,
   "limite_revisar": 6,
-  "limite_desconocido": 254,
-  "revisados_esta_corrida": 1,
-  "sin_via": 107,
+  "limite_desconocido": 255,
+  "revisados_esta_corrida": 2,
+  "sin_via": 108,
   "via_completada_esta_corrida": 0,
   "limites_dudosos_sacados": 0,
   "por_control": {
@@ -32,14 +32,14 @@
    "SENDA": 0,
    "INFRACCIONES": 0
   },
-  "monitoreo": 916,
+  "monitoreo": 918,
   "posicion": {
    "umbral_m": 15.0,
    "radio_busqueda_m": 150.0,
-   "ok": 1552,
+   "ok": 1554,
    "corregidas": 0,
    "sin_referencia": 0,
-   "de_osm": 1552,
+   "de_osm": 1554,
    "corrida_anterior": {
     "umbral_m": 15.0,
     "radio_busqueda_m": 150.0,
@@ -27947,6 +27947,33 @@
    "country": "CA"
   },
   {
+   "radar_id": "osm-ca-n14339966901",
+   "name": "Rue du Havre - Traffic camera",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": 45.532727,
+   "longitude": -73.549523,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14339966901",
+   "source_version": "ca-2026-11-02",
+   "confidence_score": 50,
+   "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14339966901"
+   },
+   "speed_limit_checked": "2026-11-02",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "residential",
+   "speed_limit_kmh": 30,
+   "speed_limit_source": "OSM_PROPIO",
+   "road_label": "Rue du Havre",
+   "display_name": "Rue du Havre - Traffic camera",
+   "country": "CA"
+  },
+  {
    "radar_id": "osm-ca-n14294941801",
    "name": "Boulevard Roland-Therrien - Traffic camera",
    "radar_type": "VEHICLE_CAMERA",
@@ -31676,6 +31703,29 @@
    "country": "CA"
   },
   {
+   "radar_id": "osm-ca-n14339954103",
+   "name": "Traffic camera",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": 46.794868,
+   "longitude": -71.29595,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14339954103",
+   "source_version": "ca-2026-11-02",
+   "confidence_score": 50,
+   "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14339954103"
+   },
+   "speed_limit_checked": "2026-11-02",
+   "speed_limit_status": "SIN_VIA",
+   "speed_limit_detail": "No hay vía de OSM a menos de 40 m",
+   "display_name": "Traffic camera",
+   "country": "CA"
+  },
+  {
    "radar_id": "osm-ca-n12760206642",
    "name": "Autoroute Félix-Leclerc - Traffic camera",
    "radar_type": "VEHICLE_CAMERA",
@@ -32938,11 +32988,11 @@
     "offset_m": 0.0,
     "reference": "node/14339201401"
    },
-   "speed_limit_checked": "2026-11-02",
+   "road_label": "Bruce Street",
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "speed_limit_checked": "2026-11-02",
    "speed_limit_road_class": "primary_link",
-   "road_label": "Bruce Street",
    "display_name": "Bruce Street - Traffic camera",
    "country": "CA"
   },
