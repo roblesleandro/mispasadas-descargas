@@ -1,7 +1,7 @@
 {
- "version": "cr-2026-11-01",
+ "version": "cr-2026-11-02",
  "pais": "CR",
- "generado": "2026-11-01T23:36:20+00:00",
+ "generado": "2026-11-02T01:58:34+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin listado oficial (COSEVI)."
@@ -61,7 +61,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1234896046",
-   "source_version": "cr-2026-11-01",
+   "source_version": "cr-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -89,7 +89,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12327820501",
-   "source_version": "cr-2026-11-01",
+   "source_version": "cr-2026-11-02",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
