@@ -1,7 +1,7 @@
 {
- "version": "hn-2026-11-01",
+ "version": "hn-2026-11-02",
  "pais": "HN",
- "generado": "2026-11-01T23:44:33+00:00",
+ "generado": "2026-11-02T02:00:22+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial."
@@ -61,7 +61,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11390367061",
-   "source_version": "hn-2026-11-01",
+   "source_version": "hn-2026-11-02",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -85,7 +85,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10164408210",
-   "source_version": "hn-2026-11-01",
+   "source_version": "hn-2026-11-02",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -109,7 +109,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10164408209",
-   "source_version": "hn-2026-11-01",
+   "source_version": "hn-2026-11-02",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -133,7 +133,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10740284528",
-   "source_version": "hn-2026-11-01",
+   "source_version": "hn-2026-11-02",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -157,7 +157,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10177418702",
-   "source_version": "hn-2026-11-01",
+   "source_version": "hn-2026-11-02",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -181,7 +181,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10204577419",
-   "source_version": "hn-2026-11-01",
+   "source_version": "hn-2026-11-02",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -205,7 +205,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12920260630",
-   "source_version": "hn-2026-11-01",
+   "source_version": "hn-2026-11-02",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -229,7 +229,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12920318465",
-   "source_version": "hn-2026-11-01",
+   "source_version": "hn-2026-11-02",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -253,7 +253,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12920318464",
-   "source_version": "hn-2026-11-01",
+   "source_version": "hn-2026-11-02",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -277,7 +277,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12924909546",
-   "source_version": "hn-2026-11-01",
+   "source_version": "hn-2026-11-02",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -303,7 +303,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12924909547",
-   "source_version": "hn-2026-11-01",
+   "source_version": "hn-2026-11-02",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
