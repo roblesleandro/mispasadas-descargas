@@ -2563,7 +2563,7 @@
    "nombre": "Peaje Autoestrada do Atlântico (A 15) (2)",
    "tipo": "cabina",
    "via": "Autoestrada do Atlântico",
-   "ref": "A 15;IP 6",
+   "ref": "A 15",
    "localidad": "Asseiceira",
    "fuente": "armado",
    "cabinas": [
@@ -2596,7 +2596,7 @@
    "nombre": "Peaje Autoestrada do Atlântico (A 15) km 32",
    "tipo": "cabina",
    "via": "Autoestrada do Atlântico",
-   "ref": "A 15;IP 6",
+   "ref": "A 15",
    "km": "32",
    "localidad": "Landal",
    "fuente": "armado",
@@ -7039,6 +7039,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-11-02T01:21Z",
+ "generado": "2026-11-02T22:11Z",
  "alertas": []
 }
