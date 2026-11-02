@@ -15,8 +15,8 @@
    "corregidas": 17,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 8,
-    "a_mas_de_15_m": 17,
+    "ok": 25,
+    "a_mas_de_15_m": 0,
     "sin_referencia": 0,
     "total": 25
    }
@@ -990,10 +990,6 @@
   }
  ],
  "excluidas": [],
-<<<<<<< HEAD
- "generado": "2026-11-01T19:05Z",
-=======
- "generado": "2026-11-01T22:28Z",
->>>>>>> f19fa64 (Nombres de estaciones (PA) actualizados automáticamente)
+ "generado": "2026-11-02T00:37Z",
  "alertas": []
 }
