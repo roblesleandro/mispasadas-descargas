@@ -15,8 +15,8 @@
    "corregidas": 4,
    "sin_referencia": 1,
    "corrida_anterior": {
-    "ok": 56,
-    "a_mas_de_15_m": 1,
+    "ok": 57,
+    "a_mas_de_15_m": 0,
     "sin_referencia": 1,
     "total": 58
    }
@@ -1828,6 +1828,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-02T00:35Z",
+ "generado": "2026-11-02T21:10Z",
  "alertas": []
 }
