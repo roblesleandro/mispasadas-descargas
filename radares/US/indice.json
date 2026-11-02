@@ -1,8 +1,8 @@
 {
  "version": "us-2026-11-02",
  "pais": "US",
- "generado": "2026-11-02T00:04:40+00:00",
- "total": 120266,
+ "generado": "2026-11-02T02:26:01+00:00",
+ "total": 120271,
  "nota": "Estados por rectángulos aproximados; el bbox de cada parte es el real de sus radares.",
  "partes": [
   {
@@ -19,7 +19,7 @@
   {
    "estado": "AL",
    "archivo": "AL.json",
-   "cantidad": 3794,
+   "cantidad": 3797,
    "bbox": [
     30.121838,
     34.997464,
@@ -52,7 +52,7 @@
   {
    "estado": "CA",
    "archivo": "CA.json",
-   "cantidad": 15269,
+   "cantidad": 15275,
    "bbox": [
     32.543103,
     41.951114,
@@ -118,7 +118,7 @@
   {
    "estado": "GA",
    "archivo": "GA.json",
-   "cantidad": 7409,
+   "cantidad": 7408,
    "bbox": [
     30.301422,
     34.996887,
@@ -173,7 +173,7 @@
   {
    "estado": "IN",
    "archivo": "IN.json",
-   "cantidad": 5448,
+   "cantidad": 5447,
    "bbox": [
     37.702578,
     41.799766,
@@ -349,7 +349,7 @@
   {
    "estado": "NJ",
    "archivo": "NJ.json",
-   "cantidad": 2197,
+   "cantidad": 2196,
    "bbox": [
     38.932369,
     41.396193,
@@ -393,7 +393,7 @@
   {
    "estado": "OH",
    "archivo": "OH.json",
-   "cantidad": 6251,
+   "cantidad": 6249,
    "bbox": [
     38.4102,
     41.993538,
@@ -481,7 +481,7 @@
   {
    "estado": "TX",
    "archivo": "TX.json",
-   "cantidad": 13770,
+   "cantidad": 13771,
    "bbox": [
     25.887953,
     33.599805,
