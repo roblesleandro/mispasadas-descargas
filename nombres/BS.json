@@ -15,11 +15,12 @@
    "corregidas": 0,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 1,
+    "ok": 0,
     "a_mas_de_15_m": 0,
-    "sin_referencia": 0,
+    "sin_referencia": 1,
     "total": 1
-   }
+   },
+   "nota": "OpenStreetMap respondió a medias: se mantuvo la corrida anterior."
   }
  },
  "estaciones": [
@@ -51,6 +52,8 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-11-01T16:36Z",
- "alertas": []
+ "generado": "2026-11-02T01:07Z",
+ "alertas": [
+  "BS: Salieron 0 y antes había 1: se mantiene lo anterior."
+ ]
 }
