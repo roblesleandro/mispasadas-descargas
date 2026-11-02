@@ -15,8 +15,8 @@
    "corregidas": 2,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 2,
-    "a_mas_de_15_m": 1,
+    "ok": 3,
+    "a_mas_de_15_m": 0,
     "sin_referencia": 0,
     "total": 3
    }
@@ -129,10 +129,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
-<<<<<<< HEAD
- "generado": "2026-11-01T19:47Z",
-=======
- "generado": "2026-11-01T22:51Z",
->>>>>>> bdf020e (Nombres de estaciones (TT) actualizados automáticamente)
+ "generado": "2026-11-02T01:04Z",
  "alertas": []
 }
