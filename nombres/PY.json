@@ -15,13 +15,8 @@
    "corregidas": 7,
    "sin_referencia": 5,
    "corrida_anterior": {
-<<<<<<< HEAD
     "ok": 42,
     "a_mas_de_15_m": 1,
-=======
-    "ok": 43,
-    "a_mas_de_15_m": 0,
->>>>>>> 18c809f (Nombres de estaciones (PY) actualizados automáticamente)
     "sin_referencia": 5,
     "total": 48
    }
@@ -433,8 +428,8 @@
    "confianza": "media"
   },
   {
-   "lat": -25.610507,
-   "lon": -54.612286,
+   "lat": -25.609973,
+   "lon": -54.611776,
    "nombre": "Peaje Corredor Metropolitano del Este - Acceso al Puente de la Integración (en c",
    "tipo": "cabina",
    "via": "Corredor Metropolitano del Este - Acceso al Puente de la Integración (en construcción)",
@@ -442,15 +437,21 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -25.610507,
-     "lon": -54.612286,
+     "lat": -25.610024,
+     "lon": -54.611689,
+     "n": 1,
+     "rumbo": 36
+    },
+    {
+     "lat": -25.609921,
+     "lon": -54.611863,
      "n": 1,
      "rumbo": 217
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 10.4
    },
    "pais": "PY",
    "via_visible": "Corredor Metropolitano del Este - Acceso al Puente de la Integración (en construcción)",
@@ -1601,10 +1602,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
-<<<<<<< HEAD
- "generado": "2026-11-01T18:24Z",
-=======
- "generado": "2026-11-01T21:40Z",
->>>>>>> 18c809f (Nombres de estaciones (PY) actualizados automáticamente)
+ "generado": "2026-11-02T00:03Z",
  "alertas": []
 }
