@@ -1,7 +1,7 @@
 {
- "version": "py-2026-11-01",
+ "version": "py-2026-11-02",
  "pais": "PY",
- "generado": "2026-11-01T23:27:23+00:00",
+ "generado": "2026-11-02T01:49:09+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial (Patrulla Caminera, Municipalidad de Asunción)."
@@ -61,7 +61,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12539046008",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -90,7 +90,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12539064363",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -118,7 +118,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13038236260",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -144,7 +144,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12539043291",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -172,7 +172,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12102956319",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -198,7 +198,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11085765864",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -226,7 +226,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12539043068",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -255,7 +255,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11076036715",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -286,7 +286,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11092019672",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -314,7 +314,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10746736376",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -342,7 +342,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10744881061",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "speed_limit_status": "REVISAR",
    "controls": [
@@ -375,7 +375,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11002046397",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "speed_limit_status": "REVISAR",
    "controls": [
@@ -408,7 +408,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12468718618",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "speed_limit_status": "REVISAR",
    "controls": [
@@ -441,7 +441,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11002105146",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -471,7 +471,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13663110271",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -499,7 +499,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13663110272",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -527,7 +527,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11085765866",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -558,7 +558,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11085765865",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -589,7 +589,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11002105155",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "speed_limit_status": "REVISAR",
    "controls": [
@@ -622,7 +622,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9925887343",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "controls": [],
    "heading_min": 70.0,
@@ -650,7 +650,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10054745781",
-   "source_version": "py-2026-11-01",
+   "source_version": "py-2026-11-02",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
