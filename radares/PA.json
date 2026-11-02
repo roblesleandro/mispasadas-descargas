@@ -1,7 +1,7 @@
 {
- "version": "pa-2026-11-01",
+ "version": "pa-2026-11-02",
  "pais": "PA",
- "generado": "2026-11-01T23:35:40+00:00",
+ "generado": "2026-11-02T01:57:20+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "ATTT – Foto Multa (Indra): sin listado de ubicaciones."
@@ -61,7 +61,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9492826878",
-   "source_version": "pa-2026-11-01",
+   "source_version": "pa-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -90,7 +90,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6236814401",
-   "source_version": "pa-2026-11-01",
+   "source_version": "pa-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -118,7 +118,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9476607857",
-   "source_version": "pa-2026-11-01",
+   "source_version": "pa-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -146,7 +146,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9496804101",
-   "source_version": "pa-2026-11-01",
+   "source_version": "pa-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -174,7 +174,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9492780484",
-   "source_version": "pa-2026-11-01",
+   "source_version": "pa-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -202,7 +202,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9492792176",
-   "source_version": "pa-2026-11-01",
+   "source_version": "pa-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -230,7 +230,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/247113336",
-   "source_version": "pa-2026-11-01",
+   "source_version": "pa-2026-11-02",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -258,7 +258,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11922367261",
-   "source_version": "pa-2026-11-01",
+   "source_version": "pa-2026-11-02",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -286,7 +286,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12674400639",
-   "source_version": "pa-2026-11-01",
+   "source_version": "pa-2026-11-02",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -315,7 +315,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2174273056",
-   "source_version": "pa-2026-11-01",
+   "source_version": "pa-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -343,7 +343,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12674388076",
-   "source_version": "pa-2026-11-01",
+   "source_version": "pa-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -371,7 +371,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12674410095",
-   "source_version": "pa-2026-11-01",
+   "source_version": "pa-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -399,7 +399,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12674432143",
-   "source_version": "pa-2026-11-01",
+   "source_version": "pa-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -427,7 +427,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12674406743",
-   "source_version": "pa-2026-11-01",
+   "source_version": "pa-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
