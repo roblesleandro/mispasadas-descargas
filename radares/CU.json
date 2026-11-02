@@ -1,7 +1,7 @@
 {
- "version": "cu-2026-11-01",
+ "version": "cu-2026-11-02",
  "pais": "CU",
- "generado": "2026-11-01T23:47:45+00:00",
+ "generado": "2026-11-02T02:08:43+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial con ubicaciones."
@@ -61,7 +61,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4341061896",
-   "source_version": "cu-2026-11-01",
+   "source_version": "cu-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -89,7 +89,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5259008322",
-   "source_version": "cu-2026-11-01",
+   "source_version": "cu-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -117,7 +117,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4341061012",
-   "source_version": "cu-2026-11-01",
+   "source_version": "cu-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -145,7 +145,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13177418789",
-   "source_version": "cu-2026-11-01",
+   "source_version": "cu-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -173,7 +173,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12200101925",
-   "source_version": "cu-2026-11-01",
+   "source_version": "cu-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -201,7 +201,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3840563488",
-   "source_version": "cu-2026-11-01",
+   "source_version": "cu-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -229,7 +229,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4341060997",
-   "source_version": "cu-2026-11-01",
+   "source_version": "cu-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -255,7 +255,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12642217363",
-   "source_version": "cu-2026-11-01",
+   "source_version": "cu-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -283,7 +283,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9761023075",
-   "source_version": "cu-2026-11-01",
+   "source_version": "cu-2026-11-02",
    "confidence_score": 50,
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -309,7 +309,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3440273781",
-   "source_version": "cu-2026-11-01",
+   "source_version": "cu-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "SEMAFORO"
@@ -337,7 +337,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2200090977",
-   "source_version": "cu-2026-11-01",
+   "source_version": "cu-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -365,7 +365,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4439726058",
-   "source_version": "cu-2026-11-01",
+   "source_version": "cu-2026-11-02",
    "confidence_score": 50,
    "speed_limit_status": "REVISAR",
    "controls": [
@@ -396,7 +396,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2963211915",
-   "source_version": "cu-2026-11-01",
+   "source_version": "cu-2026-11-02",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -424,7 +424,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5923082388",
-   "source_version": "cu-2026-11-01",
+   "source_version": "cu-2026-11-02",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
