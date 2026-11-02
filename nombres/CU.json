@@ -5,19 +5,19 @@
  "resumen": {
   "oficial": 0,
   "osm": 1,
-  "armado": 13,
-  "total": 14,
+  "armado": 12,
+  "total": 13,
   "confianza_baja": 0,
   "excluidas": 1,
   "posicion": {
    "umbral_m": 15.0,
-   "ok": 13,
+   "ok": 12,
    "corregidas": 2,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 14,
+    "ok": 13,
     "a_mas_de_15_m": 0,
-    "sin_referencia": 0,
+    "sin_referencia": 1,
     "total": 14
    }
   }
@@ -124,31 +124,6 @@
    "via_visible": "Carretera de Cayo Saetía",
    "punto": "Felton",
    "nombre_visible": "Carretera de Cayo Saetía - Peaje Felton",
-   "confianza": "media"
-  },
-  {
-   "lat": 21.056352,
-   "lon": -75.701069,
-   "nombre": "Peaje Calle 10",
-   "tipo": "cabina",
-   "via": "Calle 10",
-   "localidad": "Río Seco",
-   "fuente": "armado",
-   "cabinas": [
-    {
-     "lat": 21.056352,
-     "lon": -75.701069,
-     "n": 1
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "pais": "CU",
-   "via_visible": "Calle 10",
-   "punto": "Río Seco",
-   "nombre_visible": "Calle 10 - Peaje Río Seco",
    "confianza": "media"
   },
   {
@@ -456,6 +431,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-01T22:49Z",
+ "generado": "2026-11-02T21:51Z",
  "alertas": []
 }
