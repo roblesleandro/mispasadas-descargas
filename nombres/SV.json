@@ -5,37 +5,25 @@
  "resumen": {
   "oficial": 0,
   "osm": 0,
-  "armado": 3,
-  "total": 3,
+  "armado": 4,
+  "total": 4,
   "confianza_baja": 0,
   "excluidas": 0,
   "posicion": {
    "umbral_m": 15.0,
-<<<<<<< HEAD
-   "ok": 3,
+   "ok": 4,
    "corregidas": 0,
    "sin_referencia": 0,
    "corrida_anterior": {
     "ok": 3,
     "a_mas_de_15_m": 0,
-    "sin_referencia": 1,
-=======
-   "ok": 4,
-   "corregidas": 0,
-   "sin_referencia": 0,
-   "corrida_anterior": {
-    "ok": 4,
-    "a_mas_de_15_m": 0,
     "sin_referencia": 0,
->>>>>>> 2651cb8 (Nombres de estaciones (SV) actualizados automáticamente)
-    "total": 4
+    "total": 3
    }
   }
  },
  "estaciones": [
   {
-<<<<<<< HEAD
-=======
    "lat": 13.687069,
    "lon": -89.739864,
    "nombre": "Peaje Carretera Sonsonate - Acajutla (CA-12)",
@@ -62,7 +50,6 @@
    "confianza": "media"
   },
   {
->>>>>>> 2651cb8 (Nombres de estaciones (SV) actualizados automáticamente)
    "lat": 13.696695,
    "lon": -89.189984,
    "nombre": "Peaje 6a Calle Oriente km 0",
@@ -147,10 +134,6 @@
   }
  ],
  "excluidas": [],
-<<<<<<< HEAD
- "generado": "2026-11-01T19:30Z",
-=======
- "generado": "2026-11-01T22:38Z",
->>>>>>> 2651cb8 (Nombres de estaciones (SV) actualizados automáticamente)
+ "generado": "2026-11-02T00:40Z",
  "alertas": []
 }
