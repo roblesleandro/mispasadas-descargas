@@ -11,14 +11,14 @@
   "excluidas": 1,
   "posicion": {
    "umbral_m": 15.0,
-   "ok": 681,
-   "corregidas": 97,
-   "sin_referencia": 148,
+   "ok": 684,
+   "corregidas": 99,
+   "sin_referencia": 143,
    "corrida_anterior": {
-    "ok": 747,
-    "a_mas_de_15_m": 92,
-    "sin_referencia": 87,
-    "total": 926
+    "ok": 788,
+    "a_mas_de_15_m": 54,
+    "sin_referencia": 83,
+    "total": 925
    }
   }
  },
@@ -5924,14 +5924,23 @@
    "plaza": "Cuicuilco"
   },
   {
-   "lat": 19.303686,
-   "lon": -99.199017,
+   "lat": 19.303826,
+   "lon": -99.19924,
    "nombre": "Cerro Zacatepetl",
    "tipo": "cabina",
    "empresa": "Concesionado",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 19.303826,
+     "lon": -99.19924,
+     "n": 2,
+     "rumbo": 300
+    }
+   ],
    "posicion": {
-    "estado": "sin_referencia"
+    "estado": "ok",
+    "distancia_m": 0.0
    },
    "pais": "MX",
    "via_visible": "Anillo Periférico",
@@ -6123,14 +6132,23 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 19.308589,
-   "lon": -99.217286,
+   "lat": 19.308597,
+   "lon": -99.217297,
    "nombre": "Picacho Ajusco Pedregal",
    "tipo": "cabina",
    "empresa": "Concesionado",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 19.308597,
+     "lon": -99.217297,
+     "n": 1,
+     "rumbo": 135
+    }
+   ],
    "posicion": {
-    "estado": "sin_referencia"
+    "estado": "ok",
+    "distancia_m": 0.0
    },
    "pais": "MX",
    "punto": "Picacho Ajusco Pedregal",
@@ -6512,14 +6530,24 @@
    "nota": "Posible duplicado de «Autopista Urbana Poniente - Caseta Entrada a Supervía Poniente»."
   },
   {
-   "lat": 19.322599,
-   "lon": -99.224419,
+   "lat": 19.322602,
+   "lon": -99.224378,
    "nombre": "Viaducto Elevado Luis Cabrera B",
    "tipo": "cabina",
+   "via": "Autopista Urbana Poniente",
    "empresa": "Concesionado",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 19.322602,
+     "lon": -99.224378,
+     "n": 1,
+     "rumbo": 55
+    }
+   ],
    "posicion": {
-    "estado": "sin_referencia"
+    "estado": "ok",
+    "distancia_m": 0.0
    },
    "pais": "MX",
    "via_visible": "Autopista Urbana Poniente",
@@ -7760,9 +7788,9 @@
     "distancia_m": 0.0
    },
    "pais": "MX",
-   "via_visible": "Autopista Urbana Norte",
+   "via_visible": "Periférico Segundo Piso",
    "punto": "San Antonio Poniente",
-   "nombre_visible": "Autopista Urbana Norte - Caseta San Antonio Poniente",
+   "nombre_visible": "Periférico Segundo Piso - Caseta San Antonio Poniente",
    "confianza": "alta",
    "plaza": "San Antonio Poniente"
   },
@@ -7983,7 +8011,7 @@
    "nombre_visible": "Autopista Urbana Norte - Caseta San Antonio Oriente",
    "confianza": "alta",
    "plaza": "San Antonio Oriente (Autopista Urbana Norte)",
-   "nota": "Posible duplicado de «Autopista Urbana Norte - Caseta San Antonio Poniente»."
+   "nota": "Posible duplicado de «Periférico Segundo Piso - Caseta San Antonio Poniente»."
   },
   {
    "lat": 19.394842,
@@ -9027,14 +9055,33 @@
    "plaza": "Conscripto Poniente"
   },
   {
-   "lat": 19.448551,
-   "lon": -99.220353,
+   "lat": 19.447683,
+   "lon": -99.220389,
    "nombre": "CDI Poniente",
    "tipo": "cabina",
    "empresa": "Concesionado",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 19.447683,
+     "lon": -99.220389,
+     "n": 1,
+     "rumbo": 179
+    },
+    {
+     "lat": 19.448531,
+     "lon": -99.220374,
+     "n": 1,
+     "rumbo": 180
+    }
+   ],
    "posicion": {
-    "estado": "sin_referencia"
+    "estado": "corregida",
+    "antes_m": 47,
+    "centro_plaza": [
+     19.448107,
+     -99.220382
+    ]
    },
    "pais": "MX",
    "via_visible": "Boulevard Manuel Ávila Camacho",
@@ -9044,14 +9091,33 @@
    "plaza": "CDI Poniente"
   },
   {
-   "lat": 19.449216,
-   "lon": -99.220043,
+   "lat": 19.449255,
+   "lon": -99.220035,
    "nombre": "CDI Oriente",
    "tipo": "cabina",
    "empresa": "Concesionado",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 19.449139,
+     "lon": -99.220495,
+     "n": 1,
+     "rumbo": 178
+    },
+    {
+     "lat": 19.449255,
+     "lon": -99.220035,
+     "n": 1,
+     "rumbo": 4
+    }
+   ],
    "posicion": {
-    "estado": "sin_referencia"
+    "estado": "corregida",
+    "antes_m": 25,
+    "centro_plaza": [
+     19.449197,
+     -99.220265
+    ]
    },
    "pais": "MX",
    "via_visible": "Boulevard Manuel Ávila Camacho",
@@ -28143,6 +28209,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-02T00:35Z",
+ "generado": "2026-11-02T21:19Z",
  "alertas": []
 }
