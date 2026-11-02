@@ -5,10 +5,10 @@
   "UY"
  ],
  "resumen": {
-  "oficial": 153,
+  "oficial": 151,
   "osm": 8,
   "armado": 22,
-  "total": 183,
+  "total": 181,
   "sin_ruta": 2
  },
  "alertas": [],
@@ -719,8 +719,17 @@
    "via": "Riccheri / Ezeiza-Cañuelas",
    "empresa": "CORRESUR",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.832047,
+     "lon": -58.508556,
+     "n": 1,
+     "rumbo": 327
+    }
+   ],
    "posicion": {
-    "estado": "sin_referencia"
+    "estado": "ok",
+    "distancia_m": 0.0
    },
    "pais": "AR",
    "via_visible": "Autopista Ezeiza - Cañuelas",
@@ -739,12 +748,6 @@
    "fuente": "oficial",
    "cabinas": [
     {
-     "lat": -34.832047,
-     "lon": -58.508556,
-     "n": 1,
-     "rumbo": 327
-    },
-    {
      "lat": -34.829625,
      "lon": -58.509801,
      "n": 1,
@@ -752,12 +755,8 @@
     }
    ],
    "posicion": {
-    "estado": "corregida",
-    "antes_m": 145,
-    "centro_plaza": [
-     -34.830836,
-     -58.509179
-    ]
+    "estado": "ok",
+    "distancia_m": 0.0
    },
    "pais": "AR",
    "via_visible": "Autopista Ezeiza - Cañuelas",
@@ -1104,8 +1103,17 @@
    "via": "Riccheri / Ezeiza-Cañuelas",
    "empresa": "CORRESUR",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.709665,
+     "lon": -58.503758,
+     "n": 1,
+     "rumbo": 30
+    }
+   ],
    "posicion": {
-    "estado": "sin_referencia"
+    "estado": "ok",
+    "distancia_m": 0.0
    },
    "pais": "AR",
    "via_visible": "Autopista Riccheri",
@@ -1124,31 +1132,15 @@
    "fuente": "oficial",
    "cabinas": [
     {
-     "lat": -34.709665,
-     "lon": -58.503758,
-     "n": 1,
-     "rumbo": 30
-    },
-    {
      "lat": -34.708457,
      "lon": -58.503599,
      "n": 1,
      "rumbo": 216
-    },
-    {
-     "lat": -34.704551,
-     "lon": -58.499545,
-     "n": 1,
-     "rumbo": 34
     }
    ],
    "posicion": {
-    "estado": "corregida",
-    "antes_m": 155,
-    "centro_plaza": [
-     -34.707558,
-     -58.502301
-    ]
+    "estado": "ok",
+    "distancia_m": 0.0
    },
    "pais": "AR",
    "via_visible": "Autopista Riccheri",
@@ -1195,8 +1187,17 @@
    "via": "Riccheri / Ezeiza-Cañuelas",
    "empresa": "CORRESUR",
    "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": -34.704551,
+     "lon": -58.499545,
+     "n": 1,
+     "rumbo": 34
+    }
+   ],
    "posicion": {
-    "estado": "sin_referencia"
+    "estado": "ok",
+    "distancia_m": 0.0
    },
    "pais": "AR",
    "via_visible": "Autopista Riccheri",
@@ -3472,30 +3473,7 @@
      "lon": -65.150868,
      "n": 1,
      "rumbo": 301
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "pais": "AR",
-   "via_visible": "Autopista de las Serranías Puntanas",
-   "punto": "Justo Daract",
-   "nombre_visible": "Autopista de las Serranías Puntanas - Peaje Justo Daract",
-   "confianza": "alta",
-   "plaza": "Justo Daract (San Luis)",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
-  },
-  {
-   "lat": -33.848416,
-   "lon": -65.158569,
-   "nombre": "Justo Daract (San Luis)",
-   "tipo": "cabina",
-   "via": "San Luis",
-   "ref": "RN7",
-   "empresa": "SLUIS",
-   "fuente": "oficial",
-   "cabinas": [
+    },
     {
      "lat": -33.848416,
      "lon": -65.158569,
@@ -3504,16 +3482,19 @@
     }
    ],
    "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
+    "estado": "corregida",
+    "antes_m": 410,
+    "centro_plaza": [
+     -33.850262,
+     -65.154718
+    ]
    },
    "pais": "AR",
    "via_visible": "Autopista de las Serranías Puntanas",
    "punto": "Justo Daract",
    "nombre_visible": "Autopista de las Serranías Puntanas - Peaje Justo Daract",
    "confianza": "alta",
-   "plaza": "Justo Daract (San Luis)",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "plaza": "Justo Daract (San Luis)"
   },
   {
    "lat": -33.837556,
@@ -3690,30 +3671,7 @@
      "lon": -67.114753,
      "n": 1,
      "rumbo": 278
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "pais": "AR",
-   "via_visible": "Autopista de las Serranías Puntanas",
-   "punto": "Desaguadero",
-   "nombre_visible": "Autopista de las Serranías Puntanas - Peaje Desaguadero",
-   "confianza": "alta",
-   "plaza": "Desaguadero (San Luis)",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
-  },
-  {
-   "lat": -33.411755,
-   "lon": -67.123485,
-   "nombre": "Desaguadero (San Luis)",
-   "tipo": "cabina",
-   "via": "San Luis",
-   "ref": "RN7",
-   "empresa": "SLUIS",
-   "fuente": "oficial",
-   "cabinas": [
+    },
     {
      "lat": -33.411755,
      "lon": -67.123485,
@@ -3722,16 +3680,19 @@
     }
    ],
    "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
+    "estado": "corregida",
+    "antes_m": 411,
+    "centro_plaza": [
+     -33.412328,
+     -67.119119
+    ]
    },
    "pais": "AR",
    "via_visible": "Autopista de las Serranías Puntanas",
    "punto": "Desaguadero",
    "nombre_visible": "Autopista de las Serranías Puntanas - Peaje Desaguadero",
    "confianza": "alta",
-   "plaza": "Desaguadero (San Luis)",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "plaza": "Desaguadero (San Luis)"
   },
   {
    "lat": -33.359124,
@@ -5468,7 +5429,7 @@
     "estado": "corregida",
     "antes_m": 45,
     "centro_plaza": [
-     -31.312349,
+     -31.312348,
      -64.218818
     ]
    },
@@ -6157,5 +6118,5 @@
    "confianza": "media"
   }
  ],
- "generado": "2026-11-01T21:31Z"
+ "generado": "2026-11-01T23:59Z"
 }
