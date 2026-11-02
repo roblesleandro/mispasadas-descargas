@@ -1,52 +1,52 @@
 {
  "version": "pt-2026-11-02",
  "pais": "PT",
- "generado": "2026-11-02T00:02:50+00:00",
+ "generado": "2026-11-02T02:24:32+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "ANSR – SINCRO: sin dataset abierto (mapa radaresavista.pt sin descarga)."
  ],
  "resumen": {
-  "total": 311,
+  "total": 324,
   "oficiales": 0,
-  "osm": 311,
+  "osm": 324,
   "por_tipo": {
-   "FIXED_SPEED": 279,
-   "AVERAGE_SPEED_SECTION": 7,
+   "FIXED_SPEED": 272,
+   "AVERAGE_SPEED_SECTION": 21,
    "RED_LIGHT_CAMERA": 0,
-   "VEHICLE_CAMERA": 25
+   "VEHICLE_CAMERA": 31
   },
-  "con_limite": 295,
+  "con_limite": 313,
   "limite_revisar": 1,
-  "limite_desconocido": 16,
+  "limite_desconocido": 11,
   "revisados_esta_corrida": 7,
   "sin_via": 3,
-  "via_completada_esta_corrida": 4,
+  "via_completada_esta_corrida": 14,
   "limites_dudosos_sacados": 0,
   "por_control": {
-   "VELOCIDAD": 279,
-   "VELOCIDAD_PROMEDIO": 9,
+   "VELOCIDAD": 272,
+   "VELOCIDAD_PROMEDIO": 23,
    "SEMAFORO": 8,
    "CINTURON": 0,
    "CELULAR": 0,
    "SENDA": 0,
    "INFRACCIONES": 0
   },
-  "monitoreo": 25,
+  "monitoreo": 31,
   "posicion": {
    "umbral_m": 15.0,
    "radio_busqueda_m": 150.0,
-   "ok": 311,
+   "ok": 324,
    "corregidas": 0,
    "sin_referencia": 0,
-   "de_osm": 311,
+   "de_osm": 324,
    "corrida_anterior": {
     "umbral_m": 15.0,
     "radio_busqueda_m": 150.0,
-    "ok": 324,
+    "ok": 311,
     "corregidas": 0,
     "sin_referencia": 0,
-    "de_osm": 324
+    "de_osm": 311
    }
   }
  },
@@ -109,11 +109,67 @@
    "country": "PT"
   },
   {
+   "radar_id": "osm-pt-n14177461083",
+   "name": "Avenida Cidade de Hayward - Câmara de trânsito",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": 37.024332,
+   "longitude": -7.926185,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14177461083",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "controls": [],
+   "heading_min": 255.0,
+   "heading_max": 325.0,
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14177461083"
+   },
+   "speed_limit_checked": "2026-11-02",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "primary",
+   "speed_limit_kmh": 50,
+   "speed_limit_source": "OSM_PROPIO",
+   "road_label": "Avenida Cidade de Hayward",
+   "display_name": "Avenida Cidade de Hayward - Câmara de trânsito",
+   "country": "PT"
+  },
+  {
+   "radar_id": "osm-pt-n14177461076",
+   "name": "Avenida Doutor Adelino da Palma Carlos - Câmara de trânsito",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": 37.024492,
+   "longitude": -7.943619,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14177461076",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14177461076"
+   },
+   "speed_limit_checked": "2026-11-02",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "primary",
+   "speed_limit_kmh": 50,
+   "speed_limit_source": "OSM_PROPIO",
+   "road_label": "Avenida Doutor Adelino da Palma Carlos",
+   "display_name": "Avenida Doutor Adelino da Palma Carlos - Câmara de trânsito",
+   "country": "PT"
+  },
+  {
    "radar_id": "osm-pt-n11206275253",
    "name": "EN 125-10 - Radar",
    "radar_type": "FIXED_SPEED",
-   "latitude": 37.03253,
-   "longitude": -7.965254,
+   "latitude": 37.032508,
+   "longitude": -7.965238,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11206275253",
@@ -160,6 +216,62 @@
    "country": "PT"
   },
   {
+   "radar_id": "osm-pt-n14177461075",
+   "name": "EN125 - Câmara de trânsito",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": 37.048687,
+   "longitude": -7.953091,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14177461075",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14177461075"
+   },
+   "speed_limit_checked": "2026-11-02",
+   "speed_limit_road_kmh": 70,
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "primary",
+   "speed_limit_kmh": 70,
+   "speed_limit_source": "OSM_PROPIO",
+   "road_label": "EN125",
+   "display_name": "EN125 - Câmara de trânsito",
+   "country": "PT"
+  },
+  {
+   "radar_id": "osm-pt-n14177461074",
+   "name": "EN125 - Câmara de trânsito",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": 37.053766,
+   "longitude": -7.955812,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14177461074",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14177461074"
+   },
+   "speed_limit_checked": "2026-11-02",
+   "speed_limit_road_kmh": 70,
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "primary",
+   "speed_limit_kmh": 70,
+   "speed_limit_source": "OSM_PROPIO",
+   "road_label": "EN125",
+   "display_name": "EN125 - Câmara de trânsito",
+   "country": "PT"
+  },
+  {
    "radar_id": "osm-pt-n11518885978",
    "name": "EN125 - Câmara de trânsito",
    "radar_type": "VEHICLE_CAMERA",
@@ -171,8 +283,6 @@
    "source_version": "pt-2026-11-02",
    "confidence_score": 50,
    "controls": [],
-   "heading_min": 305.0,
-   "heading_max": 15.0,
    "position_check": {
     "status": "OK",
     "offset_m": 0.0,
@@ -188,11 +298,67 @@
    "country": "PT"
   },
   {
+   "radar_id": "osm-pt-n14177461072",
+   "name": "IC4 - Câmara de trânsito",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": 37.078415,
+   "longitude": -7.978889,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14177461072",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14177461072"
+   },
+   "speed_limit_checked": "2026-11-02",
+   "speed_limit_road_kmh": 100,
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "road_label": "IC4",
+   "display_name": "IC4 - Câmara de trânsito",
+   "country": "PT"
+  },
+  {
+   "radar_id": "osm-pt-n14177461073",
+   "name": "IC4 - Câmara de trânsito",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": 37.089159,
+   "longitude": -7.988466,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14177461073",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14177461073"
+   },
+   "speed_limit_checked": "2026-11-02",
+   "speed_limit_road_kmh": 120,
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_PROPIO",
+   "road_label": "IC4",
+   "display_name": "IC4 - Câmara de trânsito",
+   "country": "PT"
+  },
+  {
    "radar_id": "osm-pt-n11206114176",
    "name": "EN125 - Radar",
    "radar_type": "FIXED_SPEED",
-   "latitude": 37.121916,
-   "longitude": -8.210968,
+   "latitude": 37.12173,
+   "longitude": -8.209386,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11206114176",
@@ -321,8 +487,8 @@
   },
   {
    "radar_id": "osm-pt-n11379847821",
-   "name": "IC1 - Radar",
-   "radar_type": "FIXED_SPEED",
+   "name": "IC1 - Radar de velocidade média",
+   "radar_type": "AVERAGE_SPEED_SECTION",
    "latitude": 37.501201,
    "longitude": -8.297789,
    "status": "UNVERIFIED",
@@ -330,8 +496,11 @@
    "source_reference": "node/11379847821",
    "source_version": "pt-2026-11-02",
    "confidence_score": 50,
+   "speed_limit_kmh": 90,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
    "controls": [
-    "VELOCIDAD"
+    "VELOCIDAD_PROMEDIO"
    ],
    "position_check": {
     "status": "OK",
@@ -339,17 +508,13 @@
     "reference": "node/11379847821"
    },
    "road_label": "IC1",
-   "speed_limit_checked": "2026-11-02",
-   "speed_limit_status": "SIN_LIMITE",
-   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
-   "speed_limit_road_class": "trunk",
-   "display_name": "IC1 - Radar",
+   "display_name": "IC1 - Radar de velocidade média",
    "country": "PT"
   },
   {
    "radar_id": "osm-pt-n11379847826",
-   "name": "IC1 - Radar",
-   "radar_type": "FIXED_SPEED",
+   "name": "IC1 - Radar de velocidade média",
+   "radar_type": "AVERAGE_SPEED_SECTION",
    "latitude": 37.512547,
    "longitude": -8.286511,
    "status": "UNVERIFIED",
@@ -357,8 +522,11 @@
    "source_reference": "node/11379847826",
    "source_version": "pt-2026-11-02",
    "confidence_score": 50,
+   "speed_limit_kmh": 90,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
    "controls": [
-    "VELOCIDAD"
+    "VELOCIDAD_PROMEDIO"
    ],
    "position_check": {
     "status": "OK",
@@ -366,44 +534,39 @@
     "reference": "node/11379847826"
    },
    "road_label": "IC1",
-   "speed_limit_checked": "2026-11-02",
-   "speed_limit_status": "SIN_LIMITE",
-   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
-   "speed_limit_road_class": "trunk",
-   "display_name": "IC1 - Radar",
+   "display_name": "IC1 - Radar de velocidade média",
    "country": "PT"
   },
   {
    "radar_id": "osm-pt-n11379847822",
-   "name": "IC1 - Radar",
-   "radar_type": "FIXED_SPEED",
-   "latitude": 37.543475,
-   "longitude": -8.267386,
+   "name": "IC1 - Radar de velocidade média",
+   "radar_type": "AVERAGE_SPEED_SECTION",
+   "latitude": 37.543492,
+   "longitude": -8.267338,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11379847822",
    "source_version": "pt-2026-11-02",
    "confidence_score": 50,
+   "speed_limit_kmh": 70,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
    "controls": [
-    "VELOCIDAD"
+    "VELOCIDAD_PROMEDIO"
    ],
    "position_check": {
     "status": "OK",
     "offset_m": 0.0,
     "reference": "node/11379847822"
    },
-   "speed_limit_checked": "2026-11-02",
-   "speed_limit_status": "SIN_LIMITE",
-   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
-   "speed_limit_road_class": "trunk",
    "road_label": "IC1",
-   "display_name": "IC1 - Radar",
+   "display_name": "IC1 - Radar de velocidade média",
    "country": "PT"
   },
   {
    "radar_id": "osm-pt-n11379847823",
-   "name": "IC1 - Radar",
-   "radar_type": "FIXED_SPEED",
+   "name": "IC1 - Radar de velocidade média",
+   "radar_type": "AVERAGE_SPEED_SECTION",
    "latitude": 37.566532,
    "longitude": -8.261818,
    "status": "UNVERIFIED",
@@ -411,8 +574,11 @@
    "source_reference": "node/11379847823",
    "source_version": "pt-2026-11-02",
    "confidence_score": 50,
+   "speed_limit_kmh": 70,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
    "controls": [
-    "VELOCIDAD"
+    "VELOCIDAD_PROMEDIO"
    ],
    "position_check": {
     "status": "OK",
@@ -420,11 +586,7 @@
     "reference": "node/11379847823"
    },
    "road_label": "IC1",
-   "speed_limit_checked": "2026-11-02",
-   "speed_limit_status": "SIN_LIMITE",
-   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
-   "speed_limit_road_class": "trunk",
-   "display_name": "IC1 - Radar",
+   "display_name": "IC1 - Radar de velocidade média",
    "country": "PT"
   },
   {
@@ -503,6 +665,83 @@
    },
    "road_label": "ER 1-1ª",
    "display_name": "ER 1-1ª - Radar",
+   "country": "PT"
+  },
+  {
+   "radar_id": "osm-pt-n5251586156",
+   "name": "E-N - Câmara de trânsito",
+   "radar_type": "VEHICLE_CAMERA",
+   "latitude": 37.83577,
+   "longitude": -25.312146,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/5251586156",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "controls": [],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/5251586156"
+   },
+   "speed_limit_checked": "2026-11-02",
+   "speed_limit_status": "SIN_LIMITE",
+   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
+   "speed_limit_road_class": "unclassified",
+   "road_label": "E-N",
+   "display_name": "E-N - Câmara de trânsito",
+   "country": "PT"
+  },
+  {
+   "radar_id": "osm-pt-n14203602333",
+   "name": "ER261 - Radar de velocidade média",
+   "radar_type": "AVERAGE_SPEED_SECTION",
+   "latitude": 37.882815,
+   "longitude": -8.189096,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14203602333",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "speed_limit_kmh": 70,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14203602333"
+   },
+   "road_label": "ER261",
+   "display_name": "ER261 - Radar de velocidade média",
+   "country": "PT"
+  },
+  {
+   "radar_id": "osm-pt-n14203586721",
+   "name": "ER261 - Radar de velocidade média",
+   "radar_type": "AVERAGE_SPEED_SECTION",
+   "latitude": 37.88875,
+   "longitude": -8.203648,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14203586721",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "speed_limit_kmh": 70,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14203586721"
+   },
+   "road_label": "ER261",
+   "display_name": "ER261 - Radar de velocidade média",
    "country": "PT"
   },
   {
@@ -1542,10 +1781,10 @@
   },
   {
    "radar_id": "osm-pt-n11379847824",
-   "name": "IC1 - Radar",
-   "radar_type": "FIXED_SPEED",
-   "latitude": 38.536722,
-   "longitude": -8.637371,
+   "name": "IC1 - Radar de velocidade média",
+   "radar_type": "AVERAGE_SPEED_SECTION",
+   "latitude": 38.536657,
+   "longitude": -8.637463,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11379847824",
@@ -1555,7 +1794,7 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "controls": [
-    "VELOCIDAD"
+    "VELOCIDAD_PROMEDIO"
    ],
    "position_check": {
     "status": "OK",
@@ -1563,7 +1802,7 @@
     "reference": "node/11379847824"
    },
    "road_label": "IC1",
-   "display_name": "IC1 - Radar",
+   "display_name": "IC1 - Radar de velocidade média",
    "country": "PT"
   },
   {
@@ -1675,10 +1914,10 @@
   },
   {
    "radar_id": "osm-pt-n11379847825",
-   "name": "IC1 - Radar",
-   "radar_type": "FIXED_SPEED",
-   "latitude": 38.579018,
-   "longitude": -8.67699,
+   "name": "IC1 - Radar de velocidade média",
+   "radar_type": "AVERAGE_SPEED_SECTION",
+   "latitude": 38.579012,
+   "longitude": -8.677067,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11379847825",
@@ -1688,7 +1927,7 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "controls": [
-    "VELOCIDAD"
+    "VELOCIDAD_PROMEDIO"
    ],
    "position_check": {
     "status": "OK",
@@ -1696,7 +1935,7 @@
     "reference": "node/11379847825"
    },
    "road_label": "IC1",
-   "display_name": "IC1 - Radar",
+   "display_name": "IC1 - Radar de velocidade média",
    "country": "PT"
   },
   {
@@ -1988,8 +2227,8 @@
   },
   {
    "radar_id": "osm-pt-n12377402087",
-   "name": "EN4 - Radar",
-   "radar_type": "FIXED_SPEED",
+   "name": "EN4 - Radar de velocidade média",
+   "radar_type": "AVERAGE_SPEED_SECTION",
    "latitude": 38.694281,
    "longitude": -8.771793,
    "status": "UNVERIFIED",
@@ -2001,7 +2240,7 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "controls": [
-    "VELOCIDAD"
+    "VELOCIDAD_PROMEDIO"
    ],
    "position_check": {
     "status": "OK",
@@ -2009,7 +2248,7 @@
     "reference": "node/12377402087"
    },
    "road_label": "EN4",
-   "display_name": "EN4 - Radar",
+   "display_name": "EN4 - Radar de velocidade média",
    "country": "PT"
   },
   {
@@ -2091,6 +2330,32 @@
    "country": "PT"
   },
   {
+   "radar_id": "osm-pt-n14192170536",
+   "name": "EN 6-7 - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": 38.699536,
+   "longitude": -9.333364,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14192170536",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "speed_limit_kmh": 70,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14192170536"
+   },
+   "road_label": "EN 6-7",
+   "display_name": "EN 6-7 - Radar",
+   "country": "PT"
+  },
+  {
    "radar_id": "osm-pt-n4708938654",
    "name": "EN 6-3 - Radar",
    "radar_type": "FIXED_SPEED",
@@ -2114,6 +2379,32 @@
    },
    "road_label": "EN 6-3",
    "display_name": "EN 6-3 - Radar",
+   "country": "PT"
+  },
+  {
+   "radar_id": "osm-pt-n12377365283",
+   "name": "EN4 - Radar de velocidade média",
+   "radar_type": "AVERAGE_SPEED_SECTION",
+   "latitude": 38.707913,
+   "longitude": -8.828467,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/12377365283",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "speed_limit_kmh": 70,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12377365283"
+   },
+   "road_label": "EN4",
+   "display_name": "EN4 - Radar de velocidade média",
    "country": "PT"
   },
   {
@@ -2218,6 +2509,32 @@
    },
    "road_label": "Autoestrada da Costa do Estoril",
    "display_name": "Autoestrada da Costa do Estoril - Radar",
+   "country": "PT"
+  },
+  {
+   "radar_id": "osm-pt-n14169617188",
+   "name": "EN10 - Radar de velocidade média",
+   "radar_type": "AVERAGE_SPEED_SECTION",
+   "latitude": 38.714704,
+   "longitude": -8.617032,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14169617188",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "speed_limit_kmh": 70,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14169617188"
+   },
+   "road_label": "EN10",
+   "display_name": "EN10 - Radar de velocidade média",
    "country": "PT"
   },
   {
@@ -2559,6 +2876,32 @@
    "country": "PT"
   },
   {
+   "radar_id": "osm-pt-n14169617189",
+   "name": "EN10 - Radar de velocidade média",
+   "radar_type": "AVERAGE_SPEED_SECTION",
+   "latitude": 38.734594,
+   "longitude": -8.651893,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14169617189",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "speed_limit_kmh": 70,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14169617189"
+   },
+   "road_label": "EN10",
+   "display_name": "EN10 - Radar de velocidade média",
+   "country": "PT"
+  },
+  {
    "radar_id": "osm-pt-n11983575437",
    "name": "PVG - Radar",
    "radar_type": "FIXED_SPEED",
@@ -2685,6 +3028,32 @@
     "status": "OK",
     "offset_m": 0.0,
     "reference": "node/11223541078"
+   },
+   "road_label": "IC17",
+   "display_name": "IC17 - Radar",
+   "country": "PT"
+  },
+  {
+   "radar_id": "osm-pt-n14192148391",
+   "name": "IC17 - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": 38.742909,
+   "longitude": -9.204979,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14192148391",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "speed_limit_kmh": 70,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14192148391"
    },
    "road_label": "IC17",
    "display_name": "IC17 - Radar",
@@ -3110,8 +3479,8 @@
   },
   {
    "radar_id": "osm-pt-n11673016898",
-   "name": "IC19 - Radar",
-   "radar_type": "FIXED_SPEED",
+   "name": "IC19 - Radar de velocidade média",
+   "radar_type": "AVERAGE_SPEED_SECTION",
    "latitude": 38.751618,
    "longitude": -9.287289,
    "status": "UNVERIFIED",
@@ -3123,17 +3492,15 @@
    "speed_limit_source": "OSM_ETIQUETA",
    "speed_limit_status": "VALIDO",
    "controls": [
-    "VELOCIDAD"
+    "VELOCIDAD_PROMEDIO"
    ],
-   "heading_min": 255.0,
-   "heading_max": 325.0,
    "position_check": {
     "status": "OK",
     "offset_m": 0.0,
     "reference": "node/11673016898"
    },
    "road_label": "IC19",
-   "display_name": "IC19 - Radar",
+   "display_name": "IC19 - Radar de velocidade média",
    "country": "PT"
   },
   {
@@ -3212,6 +3579,32 @@
    },
    "road_label": "IC17",
    "display_name": "IC17 - Radar",
+   "country": "PT"
+  },
+  {
+   "radar_id": "osm-pt-n14192250405",
+   "name": "IC19 - Radar de velocidade média",
+   "radar_type": "AVERAGE_SPEED_SECTION",
+   "latitude": 38.75826,
+   "longitude": -9.292719,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14192250405",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD_PROMEDIO"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14192250405"
+   },
+   "road_label": "IC19",
+   "display_name": "IC19 - Radar de velocidade média",
    "country": "PT"
   },
   {
@@ -3666,7 +4059,7 @@
    "radar_id": "osm-pt-n11206091735",
    "name": "IC17 - Radar",
    "radar_type": "FIXED_SPEED",
-   "latitude": 38.783509,
+   "latitude": 38.783501,
    "longitude": -9.180072,
    "status": "UNVERIFIED",
    "source": "OSM",
@@ -5822,6 +6215,32 @@
    "country": "PT"
   },
   {
+   "radar_id": "osm-pt-n12243850289",
+   "name": "Autoestrada do Norte - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": 40.444273,
+   "longitude": -8.516434,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/12243850289",
+   "source_version": "pt-2026-11-02",
+   "confidence_score": 50,
+   "speed_limit_kmh": 120,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/12243850289"
+   },
+   "road_label": "Autoestrada do Norte",
+   "display_name": "Autoestrada do Norte - Radar",
+   "country": "PT"
+  },
+  {
    "radar_id": "osm-pt-n13378959657",
    "name": "EN234 - Radar",
    "radar_type": "FIXED_SPEED",
@@ -5845,33 +6264,6 @@
    },
    "road_label": "EN234",
    "display_name": "EN234 - Radar",
-   "country": "PT"
-  },
-  {
-   "radar_id": "osm-pt-n13968057303",
-   "name": "Travessa do Pinhal - Câmara de trânsito",
-   "radar_type": "VEHICLE_CAMERA",
-   "latitude": 40.608974,
-   "longitude": -8.60065,
-   "status": "UNVERIFIED",
-   "source": "OSM",
-   "source_reference": "node/13968057303",
-   "source_version": "pt-2026-11-02",
-   "confidence_score": 50,
-   "controls": [],
-   "heading_min": 45.0,
-   "heading_max": 115.0,
-   "position_check": {
-    "status": "OK",
-    "offset_m": 0.0,
-    "reference": "node/13968057303"
-   },
-   "speed_limit_checked": "2026-11-02",
-   "speed_limit_status": "SIN_LIMITE",
-   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
-   "speed_limit_road_class": "residential",
-   "road_label": "Travessa do Pinhal",
-   "display_name": "Travessa do Pinhal - Câmara de trânsito",
    "country": "PT"
   },
   {
@@ -8270,63 +8662,6 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 278 m · lado B: 50 km/h a 244 m",
    "speed_limit_checked": "2026-10-30",
-   "display_name": "EN13 - Radar",
-   "country": "PT"
-  },
-  {
-   "radar_id": "osm-pt-n4073592293",
-   "name": "EN13 - Radar",
-   "radar_type": "FIXED_SPEED",
-   "latitude": 41.93459,
-   "longitude": -8.748048,
-   "status": "UNVERIFIED",
-   "source": "OSM",
-   "source_reference": "node/4073592293",
-   "source_version": "pt-2026-11-02",
-   "confidence_score": 50,
-   "controls": [
-    "VELOCIDAD"
-   ],
-   "position_check": {
-    "status": "OK",
-    "offset_m": 0.0,
-    "reference": "node/4073592293"
-   },
-   "speed_limit_checked": "2026-11-02",
-   "speed_limit_road_kmh": 70,
-   "speed_limit_status": "VALIDO",
-   "speed_limit_detail": "lado A: 50 km/h a 539 m · lado B: 50 km/h a 4 m",
-   "speed_limit_road_class": "primary",
-   "speed_limit_kmh": 50,
-   "speed_limit_source": "OSM_TRAMO_VECINO",
-   "road_label": "EN13",
-   "display_name": "EN13 - Radar",
-   "country": "PT"
-  },
-  {
-   "radar_id": "osm-pt-n4542919214",
-   "name": "EN13 - Radar",
-   "radar_type": "FIXED_SPEED",
-   "latitude": 41.985905,
-   "longitude": -8.656616,
-   "status": "UNVERIFIED",
-   "source": "OSM",
-   "source_reference": "node/4542919214",
-   "source_version": "pt-2026-11-02",
-   "confidence_score": 50,
-   "controls": [
-    "VELOCIDAD"
-   ],
-   "position_check": {
-    "status": "OK",
-    "offset_m": 0.0,
-    "reference": "node/4542919214"
-   },
-   "speed_limit_checked": "2026-11-02",
-   "speed_limit_status": "SIN_LIMITE",
-   "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
-   "speed_limit_road_class": "primary",
-   "road_label": "EN13",
    "display_name": "EN13 - Radar",
    "country": "PT"
   }
