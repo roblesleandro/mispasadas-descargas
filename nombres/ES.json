@@ -15,8 +15,8 @@
    "corregidas": 66,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 168,
-    "a_mas_de_15_m": 64,
+    "ok": 232,
+    "a_mas_de_15_m": 0,
     "sin_referencia": 0,
     "total": 232
    }
@@ -1050,9 +1050,8 @@
     "distancia_m": 7.7
    },
    "pais": "ES",
-   "via_visible": "Circunvalación de Alicante",
    "punto": "El Campello",
-   "nombre_visible": "Circunvalación de Alicante - Peaje El Campello",
+   "nombre_visible": "Peaje El Campello",
    "confianza": "alta"
   },
   {
@@ -7926,6 +7925,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-01T20:05Z",
+ "generado": "2026-11-02T01:19Z",
  "alertas": []
 }
