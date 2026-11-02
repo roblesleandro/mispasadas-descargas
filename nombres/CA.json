@@ -4104,9 +4104,8 @@
   {
    "lat": 44.487891,
    "lon": -75.822901,
-   "nombre": "Peaje 1000 Islands Parkway",
+   "nombre": "Peaje cerca de Mallorytown",
    "tipo": "cabina",
-   "via": "1000 Islands Parkway",
    "localidad": "Mallorytown",
    "fuente": "armado",
    "cabinas": [
@@ -4123,9 +4122,8 @@
     "distancia_m": 0.0
    },
    "pais": "CA",
-   "via_visible": "1000 Islands Parkway",
    "punto": "Mallorytown",
-   "nombre_visible": "1000 Islands Parkway - Toll Mallorytown",
+   "nombre_visible": "Toll Mallorytown",
    "confianza": "media"
   },
   {
@@ -4322,10 +4320,8 @@
   {
    "lat": 45.266045,
    "lon": -72.15671,
-   "nombre": "Peaje Rue Merry Sud (141)",
+   "nombre": "Peaje cerca de Magog",
    "tipo": "cabina",
-   "via": "Rue Merry Sud",
-   "ref": "141",
    "localidad": "Magog",
    "fuente": "armado",
    "cabinas": [
@@ -5227,9 +5223,8 @@
   {
    "lat": 45.496461,
    "lon": -73.631483,
-   "nombre": "Peaje Chemin de la Côte-Sainte-Catherine (2)",
+   "nombre": "Peaje cerca de Hampstead",
    "tipo": "cabina",
-   "via": "Chemin de la Côte-Sainte-Catherine",
    "localidad": "Hampstead",
    "fuente": "armado",
    "cabinas": [
@@ -5244,9 +5239,8 @@
     "distancia_m": 0.0
    },
    "pais": "CA",
-   "via_visible": "Chemin de la Côte-Sainte-Catherine",
    "punto": "Hampstead",
-   "nombre_visible": "Chemin de la Côte-Sainte-Catherine - Toll Hampstead",
+   "nombre_visible": "Toll Hampstead",
    "confianza": "media"
   },
   {
@@ -7197,10 +7191,8 @@
   {
    "lat": 47.573203,
    "lon": -61.475847,
-   "nombre": "Peaje Chemin Principal (199)",
+   "nombre": "Peaje cerca de Grande-Entrée",
    "tipo": "cabina",
-   "via": "Chemin Principal",
-   "ref": "199",
    "localidad": "Grande-Entrée",
    "fuente": "armado",
    "cabinas": [
@@ -7485,7 +7477,7 @@
   {
    "lat": 48.330138,
    "lon": -68.806697,
-   "nombre": "Peaje Route 132 (3)",
+   "nombre": "Peaje Route 132 (2)",
    "tipo": "cabina",
    "via": "Route 132",
    "ref": "132",
@@ -7511,10 +7503,8 @@
   {
    "lat": 48.355157,
    "lon": -68.754156,
-   "nombre": "Peaje Route 132 (2)",
+   "nombre": "Peaje cerca de Le Bic",
    "tipo": "cabina",
-   "via": "Route 132",
-   "ref": "132",
    "localidad": "Le Bic",
    "fuente": "armado",
    "cabinas": [
@@ -8015,9 +8005,8 @@
   {
    "lat": 48.925284,
    "lon": -123.716503,
-   "nombre": "Peaje Oak Street",
+   "nombre": "Peaje cerca de Saltair",
    "tipo": "cabina",
-   "via": "Oak Street",
    "localidad": "Saltair",
    "fuente": "armado",
    "cabinas": [
@@ -8038,9 +8027,8 @@
     "distancia_m": 1.6
    },
    "pais": "CA",
-   "via_visible": "Oak Street",
    "punto": "Saltair",
-   "nombre_visible": "Oak Street - Toll Saltair",
+   "nombre_visible": "Toll Saltair",
    "confianza": "media"
   },
   {
@@ -8814,9 +8802,8 @@
   {
    "lat": 50.454311,
    "lon": -104.594598,
-   "nombre": "Peaje Winnipeg Street",
+   "nombre": "Peaje cerca de Regina",
    "tipo": "cabina",
-   "via": "Winnipeg Street",
    "localidad": "Regina",
    "fuente": "armado",
    "cabinas": [
@@ -8838,9 +8825,8 @@
     "distancia_m": 4.8
    },
    "pais": "CA",
-   "via_visible": "Winnipeg Street",
    "punto": "Regina",
-   "nombre_visible": "Winnipeg Street - Toll Regina",
+   "nombre_visible": "Toll Regina",
    "confianza": "media"
   },
   {
@@ -8869,9 +8855,8 @@
   {
    "lat": 50.591462,
    "lon": -127.085691,
-   "nombre": "Peaje Port McNeill Ferry Terminal",
+   "nombre": "Peaje cerca de Port McNeill",
    "tipo": "cabina",
-   "via": "Port McNeill Ferry Terminal",
    "localidad": "Port McNeill",
    "fuente": "armado",
    "cabinas": [
@@ -8892,17 +8877,15 @@
     "distancia_m": 2.0
    },
    "pais": "CA",
-   "via_visible": "Port McNeill Ferry Terminal",
    "punto": "Port McNeill",
-   "nombre_visible": "Port McNeill Ferry Terminal - Toll Port McNeill",
+   "nombre_visible": "Toll Port McNeill",
    "confianza": "media"
   },
   {
    "lat": 50.678433,
    "lon": -120.333872,
-   "nombre": "Peaje Lorne Street",
+   "nombre": "Peaje cerca de Kamloops",
    "tipo": "cabina",
-   "via": "Lorne Street",
    "localidad": "Kamloops",
    "fuente": "armado",
    "cabinas": [
@@ -8919,9 +8902,8 @@
     "distancia_m": 0.0
    },
    "pais": "CA",
-   "via_visible": "Lorne Street",
    "punto": "Kamloops",
-   "nombre_visible": "Lorne Street - Toll Kamloops",
+   "nombre_visible": "Toll Kamloops",
    "confianza": "media"
   },
   {
@@ -10385,6 +10367,8 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-02T01:42Z",
- "alertas": []
+ "generado": "2026-11-02T23:09Z",
+ "alertas": [
+  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+ ]
 }
