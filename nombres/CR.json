@@ -15,8 +15,8 @@
    "corregidas": 8,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 10,
-    "a_mas_de_15_m": 8,
+    "ok": 18,
+    "a_mas_de_15_m": 0,
     "sin_referencia": 0,
     "total": 18
    }
@@ -608,10 +608,6 @@
   }
  ],
  "excluidas": [],
-<<<<<<< HEAD
- "generado": "2026-11-01T19:17Z",
-=======
- "generado": "2026-11-01T22:31Z",
->>>>>>> 1290933 (Nombres de estaciones (CR) actualizados automáticamente)
+ "generado": "2026-11-02T00:38Z",
  "alertas": []
 }
