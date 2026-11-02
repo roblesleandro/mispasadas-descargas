@@ -12795,8 +12795,8 @@
   },
   {
    "nombre": "San Bernardo",
-   "lat": 5.052203,
-   "lon": -75.594587,
+   "lat": 5.052167,
+   "lon": -75.594609,
    "radio": 700,
    "empresa": "CO-ANI",
    "tramo": "SAN BERNARDO",
@@ -13010,5 +13010,5 @@
    "tipo": "cabina"
   }
  ],
- "generado": "2026-11-01T16:51Z"
+ "generado": "2026-11-02T20:24Z"
 }
