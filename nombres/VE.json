@@ -11,8 +11,8 @@
   "excluidas": 1,
   "posicion": {
    "umbral_m": 15.0,
-   "ok": 66,
-   "corregidas": 6,
+   "ok": 67,
+   "corregidas": 5,
    "sin_referencia": 11,
    "corrida_anterior": {
     "ok": 70,
@@ -599,8 +599,8 @@
    "confianza": "media"
   },
   {
-   "lat": 9.286624,
-   "lon": -70.896335,
+   "lat": 9.286713,
+   "lon": -70.896409,
    "nombre": "Peaje de Buena Vista",
    "tipo": "cabina",
    "via": "Carretera Panamericana Arapuey - Mendoza",
@@ -608,21 +608,16 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": 9.286581,
-     "lon": -70.896301,
+     "lat": 9.286713,
+     "lon": -70.896409,
      "n": 1,
-     "rumbo": 51
-    },
-    {
-     "lat": 9.286668,
-     "lon": -70.896369,
-     "n": 1,
-     "rumbo": 232
+     "rumbo": 54,
+     "doble": true
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 6.0
+    "distancia_m": 0.0
    },
    "pais": "VE",
    "via_visible": "Carretera Panamericana Arapuey - Mendoza",
@@ -1492,9 +1487,9 @@
     "distancia_m": 0.0
    },
    "pais": "VE",
-   "via_visible": "Distribuidor La Victoria",
+   "via_visible": "Avenida Universidad",
    "punto": "La Victoria",
-   "nombre_visible": "Distribuidor La Victoria - Peaje La Victoria",
+   "nombre_visible": "Avenida Universidad - Peaje La Victoria",
    "confianza": "alta"
   },
   {
@@ -1599,8 +1594,8 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 10.260116,
-   "lon": -67.644189,
+   "lat": 10.260285,
+   "lon": -67.644387,
    "nombre": "Peaje La Cabrera",
    "tipo": "cabina",
    "via": "Carril 1 / Cobro Manual Vehículos Livianos /Peaje La Cabrera",
@@ -1608,10 +1603,10 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": 10.260116,
-     "lon": -67.644189,
+     "lat": 10.260285,
+     "lon": -67.644387,
      "n": 8,
-     "rumbo": 298
+     "rumbo": 299
     }
    ],
    "posicion": {
@@ -1780,8 +1775,8 @@
    "confianza": "alta"
   },
   {
-   "lat": 10.388961,
-   "lon": -66.889117,
+   "lat": 10.388965,
+   "lon": -66.889251,
    "nombre": "Peaje Tazón",
    "tipo": "cabina",
    "via": "Carril 1 / Cobretag Vehículos Livianos / Peaje Tazón",
@@ -1789,25 +1784,21 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": 10.388961,
-     "lon": -66.889117,
+     "lat": 10.388962,
+     "lon": -66.889147,
      "n": 10,
-     "rumbo": 4
+     "rumbo": 5
     },
     {
-     "lat": 10.389006,
-     "lon": -66.889433,
+     "lat": 10.38897,
+     "lon": -66.889382,
      "n": 8,
      "rumbo": 183
     }
    ],
    "posicion": {
-    "estado": "corregida",
-    "antes_m": 15,
-    "centro_plaza": [
-     10.388981,
-     -66.889257
-    ]
+    "estado": "ok",
+    "distancia_m": 11.4
    },
    "pais": "VE",
    "via_visible": "Troncal 1",
@@ -2373,6 +2364,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-02T00:48Z",
+ "generado": "2026-11-02T21:40Z",
  "alertas": []
 }
