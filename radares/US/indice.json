@@ -1,8 +1,8 @@
 {
- "version": "us-2026-11-02",
+ "version": "us-2026-11-03",
  "pais": "US",
- "generado": "2026-11-02T02:26:01+00:00",
- "total": 120271,
+ "generado": "2026-11-03T20:28:14+00:00",
+ "total": 120262,
  "nota": "Estados por rectángulos aproximados; el bbox de cada parte es el real de sus radares.",
  "partes": [
   {
@@ -19,7 +19,7 @@
   {
    "estado": "AL",
    "archivo": "AL.json",
-   "cantidad": 3797,
+   "cantidad": 3789,
    "bbox": [
     30.121838,
     34.997464,
@@ -41,7 +41,7 @@
   {
    "estado": "AZ",
    "archivo": "AZ.json",
-   "cantidad": 2209,
+   "cantidad": 2212,
    "bbox": [
     31.33284,
     36.986919,
@@ -52,7 +52,7 @@
   {
    "estado": "CA",
    "archivo": "CA.json",
-   "cantidad": 15275,
+   "cantidad": 15281,
    "bbox": [
     32.543103,
     41.951114,
@@ -63,7 +63,7 @@
   {
    "estado": "CO",
    "archivo": "CO.json",
-   "cantidad": 2367,
+   "cantidad": 2370,
    "bbox": [
     37.009095,
     40.943298,
@@ -74,7 +74,7 @@
   {
    "estado": "CT",
    "archivo": "CT.json",
-   "cantidad": 1360,
+   "cantidad": 1362,
    "bbox": [
     41.002771,
     42.098638,
@@ -85,7 +85,7 @@
   {
    "estado": "DC",
    "archivo": "DC.json",
-   "cantidad": 433,
+   "cantidad": 434,
    "bbox": [
     38.790338,
     38.997369,
@@ -107,7 +107,7 @@
   {
    "estado": "FL",
    "archivo": "FL.json",
-   "cantidad": 6709,
+   "cantidad": 6703,
    "bbox": [
     24.560694,
     30.296852,
@@ -118,7 +118,7 @@
   {
    "estado": "GA",
    "archivo": "GA.json",
-   "cantidad": 7408,
+   "cantidad": 7420,
    "bbox": [
     30.301422,
     34.996887,
@@ -140,7 +140,7 @@
   {
    "estado": "IA",
    "archivo": "IA.json",
-   "cantidad": 1235,
+   "cantidad": 1233,
    "bbox": [
     40.407444,
     43.431203,
@@ -151,7 +151,7 @@
   {
    "estado": "ID",
    "archivo": "ID.json",
-   "cantidad": 302,
+   "cantidad": 303,
    "bbox": [
     42.091987,
     48.237172,
@@ -162,7 +162,7 @@
   {
    "estado": "IL",
    "archivo": "IL.json",
-   "cantidad": 6118,
+   "cantidad": 6119,
    "bbox": [
     37.016785,
     42.499569,
@@ -173,7 +173,7 @@
   {
    "estado": "IN",
    "archivo": "IN.json",
-   "cantidad": 5447,
+   "cantidad": 5448,
    "bbox": [
     37.702578,
     41.799766,
@@ -184,7 +184,7 @@
   {
    "estado": "KS",
    "archivo": "KS.json",
-   "cantidad": 1698,
+   "cantidad": 1699,
    "bbox": [
     37.000467,
     39.999302,
@@ -195,7 +195,7 @@
   {
    "estado": "KY",
    "archivo": "KY.json",
-   "cantidad": 1027,
+   "cantidad": 1026,
    "bbox": [
     36.700148,
     39.186889,
@@ -206,7 +206,7 @@
   {
    "estado": "LA",
    "archivo": "LA.json",
-   "cantidad": 1441,
+   "cantidad": 1443,
    "bbox": [
     29.152222,
     32.965778,
@@ -217,7 +217,7 @@
   {
    "estado": "MA",
    "archivo": "MA.json",
-   "cantidad": 916,
+   "cantidad": 919,
    "bbox": [
     41.285698,
     42.793605,
@@ -228,7 +228,7 @@
   {
    "estado": "MD",
    "archivo": "MD.json",
-   "cantidad": 1858,
+   "cantidad": 1859,
    "bbox": [
     37.903322,
     39.797442,
@@ -239,7 +239,7 @@
   {
    "estado": "ME",
    "archivo": "ME.json",
-   "cantidad": 72,
+   "cantidad": 73,
    "bbox": [
     43.219041,
     45.37534,
@@ -250,7 +250,7 @@
   {
    "estado": "MI",
    "archivo": "MI.json",
-   "cantidad": 3038,
+   "cantidad": 3041,
    "bbox": [
     41.800174,
     46.335431,
@@ -261,7 +261,7 @@
   {
    "estado": "MN",
    "archivo": "MN.json",
-   "cantidad": 1496,
+   "cantidad": 1493,
    "bbox": [
     43.825216,
     48.599475,
@@ -272,7 +272,7 @@
   {
    "estado": "MO",
    "archivo": "MO.json",
-   "cantidad": 1157,
+   "cantidad": 1155,
    "bbox": [
     36.502564,
     40.382956,
@@ -305,7 +305,7 @@
   {
    "estado": "NC",
    "archivo": "NC.json",
-   "cantidad": 2536,
+   "cantidad": 2538,
    "bbox": [
     33.891726,
     36.598612,
@@ -316,7 +316,7 @@
   {
    "estado": "ND",
    "archivo": "ND.json",
-   "cantidad": 147,
+   "cantidad": 152,
    "bbox": [
     45.935546,
     48.994685,
@@ -349,7 +349,7 @@
   {
    "estado": "NJ",
    "archivo": "NJ.json",
-   "cantidad": 2196,
+   "cantidad": 2198,
    "bbox": [
     38.932369,
     41.396193,
@@ -371,7 +371,7 @@
   {
    "estado": "NV",
    "archivo": "NV.json",
-   "cantidad": 1529,
+   "cantidad": 1531,
    "bbox": [
     35.002117,
     39.691093,
@@ -382,7 +382,7 @@
   {
    "estado": "NY",
    "archivo": "NY.json",
-   "cantidad": 3810,
+   "cantidad": 3812,
    "bbox": [
     40.520764,
     44.939918,
@@ -393,7 +393,7 @@
   {
    "estado": "OH",
    "archivo": "OH.json",
-   "cantidad": 6249,
+   "cantidad": 6252,
    "bbox": [
     38.4102,
     41.993538,
@@ -404,7 +404,7 @@
   {
    "estado": "OK",
    "archivo": "OK.json",
-   "cantidad": 1928,
+   "cantidad": 1931,
    "bbox": [
     33.602158,
     36.999934,
@@ -426,7 +426,7 @@
   {
    "estado": "PA",
    "archivo": "PA.json",
-   "cantidad": 1731,
+   "cantidad": 1732,
    "bbox": [
     39.712024,
     42.272761,
@@ -448,7 +448,7 @@
   {
    "estado": "SC",
    "archivo": "SC.json",
-   "cantidad": 3590,
+   "cantidad": 3595,
    "bbox": [
     32.0019,
     35.199241,
@@ -459,7 +459,7 @@
   {
    "estado": "SD",
    "archivo": "SD.json",
-   "cantidad": 215,
+   "cantidad": 225,
    "bbox": [
     42.543069,
     45.820844,
@@ -470,7 +470,7 @@
   {
    "estado": "TN",
    "archivo": "TN.json",
-   "cantidad": 3542,
+   "cantidad": 3550,
    "bbox": [
     35.000483,
     36.698883,
@@ -481,7 +481,7 @@
   {
    "estado": "TX",
    "archivo": "TX.json",
-   "cantidad": 13771,
+   "cantidad": 13782,
    "bbox": [
     25.887953,
     33.599805,
@@ -492,7 +492,7 @@
   {
    "estado": "UT",
    "archivo": "UT.json",
-   "cantidad": 977,
+   "cantidad": 979,
    "bbox": [
     37.000097,
     41.998697,
@@ -503,7 +503,7 @@
   {
    "estado": "VA",
    "archivo": "VA.json",
-   "cantidad": 1999,
+   "cantidad": 1916,
    "bbox": [
     36.603455,
     37.899686,
@@ -525,7 +525,7 @@
   {
    "estado": "WA",
    "archivo": "WA.json",
-   "cantidad": 2317,
+   "cantidad": 2315,
    "bbox": [
     45.501354,
     48.945883,
@@ -547,7 +547,7 @@
   {
    "estado": "WV",
    "archivo": "WV.json",
-   "cantidad": 381,
+   "cantidad": 382,
    "bbox": [
     37.200442,
     39.676811,
