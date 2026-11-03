@@ -1,7 +1,7 @@
 {
- "version": "ec-2026-11-02",
+ "version": "ec-2026-11-03",
  "pais": "EC",
- "generado": "2026-11-02T01:57:04+00:00",
+ "generado": "2026-11-03T19:36:06+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Fotorradares de la AMT (Quito): solo prensa.",
@@ -62,7 +62,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765627675",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -90,7 +90,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765627676",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -118,7 +118,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6582791650",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -146,7 +146,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7576539679",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -174,7 +174,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7576555729",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -202,7 +202,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7576555730",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -230,7 +230,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7289711352",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -256,7 +256,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4854495718",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -282,7 +282,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537126",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -308,7 +308,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537125",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -334,7 +334,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537124",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -360,7 +360,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545821",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -386,7 +386,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537132",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -412,7 +412,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5158787272",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -438,7 +438,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537123",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -464,7 +464,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537122",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -490,7 +490,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545727",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -518,7 +518,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545826",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -546,7 +546,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545921",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -574,7 +574,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545728",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -602,7 +602,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537127",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -630,7 +630,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537129",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -658,7 +658,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3214371257",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -684,7 +684,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545722",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -712,7 +712,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545723",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -740,7 +740,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545724",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -768,7 +768,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545725",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -796,7 +796,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537130",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -822,7 +822,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545823",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -848,7 +848,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545824",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -874,7 +874,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12468257749",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -900,7 +900,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11417753902",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -926,7 +926,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537131",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -954,7 +954,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13176118520",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -980,7 +980,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6399536858",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1006,7 +1006,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2761656079",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1032,7 +1032,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7631609857",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1058,7 +1058,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7631609858",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1084,7 +1084,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10110144091",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1110,7 +1110,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7658934120",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1136,7 +1136,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12468257750",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -1164,7 +1164,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14285179620",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1190,7 +1190,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6031231196",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1216,7 +1216,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6135264086",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1244,7 +1244,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6031231197",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1270,7 +1270,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4023666343",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1296,7 +1296,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10110144089",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1322,7 +1322,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11426002835",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 55,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1348,7 +1348,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6382103821",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1374,7 +1374,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5993564337",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1402,7 +1402,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5993564336",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 65,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1430,7 +1430,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3556484489",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1456,7 +1456,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9589963977",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1484,7 +1484,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6382103711",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1510,7 +1510,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12057591693",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1536,7 +1536,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9328226440",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1562,7 +1562,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11426087575",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1590,7 +1590,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6119575457",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -1618,7 +1618,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9328226444",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1644,7 +1644,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9328226443",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1670,7 +1670,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3101322806",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1696,7 +1696,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3079573440",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1722,7 +1722,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3989353457",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1748,7 +1748,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11426087574",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1774,7 +1774,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6384002047",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1800,7 +1800,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4404490715",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1826,7 +1826,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6382103632",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1852,7 +1852,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/321424585",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1878,7 +1878,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11522995262",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1904,7 +1904,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614645",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1930,7 +1930,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614644",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1956,7 +1956,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614643",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1982,7 +1982,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545729",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2010,7 +2010,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537133",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2038,7 +2038,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614641",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2064,7 +2064,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545731",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2092,7 +2092,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712546021",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2120,7 +2120,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614639",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2146,7 +2146,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614638",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2172,7 +2172,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614637",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2198,7 +2198,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712546125",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -2226,7 +2226,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537134",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -2254,7 +2254,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740614627",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2280,7 +2280,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712546421",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -2308,7 +2308,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12313034344",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2336,7 +2336,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12313034343",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2364,7 +2364,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537135",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -2392,7 +2392,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4969526900",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -2420,7 +2420,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4969525035",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -2448,7 +2448,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551215511",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2474,7 +2474,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551208587",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2500,7 +2500,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551213775",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2526,7 +2526,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551208588",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2552,7 +2552,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6047520712",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2578,7 +2578,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551208868",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2604,7 +2604,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6047520139",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2630,7 +2630,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551208867",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2656,7 +2656,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545828",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2682,7 +2682,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4969519401",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2708,7 +2708,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545830",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2734,7 +2734,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11417729860",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2760,7 +2760,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551206068",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2786,7 +2786,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4551193591",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2812,7 +2812,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4525146744",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2838,7 +2838,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4529476940",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -2864,7 +2864,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712546121",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -2892,7 +2892,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712537136",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -2920,7 +2920,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545923",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -2948,7 +2948,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712546124",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -2976,7 +2976,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12143074759",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -3004,7 +3004,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6047514823",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3030,7 +3030,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6047518806",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3056,7 +3056,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712546122",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -3084,7 +3084,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6047517464",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3110,7 +3110,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6047518035",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3136,7 +3136,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6047521419",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3162,7 +3162,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4525115344",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3188,7 +3188,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5712545922",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -3216,7 +3216,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14181715612",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3242,7 +3242,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12793452568",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3270,7 +3270,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12793542993",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3298,7 +3298,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12793542995",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3326,7 +3326,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12793570819",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3354,7 +3354,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12838774903",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3382,7 +3382,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12838774904",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3410,7 +3410,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12838774929",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3438,7 +3438,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12839000266",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3466,7 +3466,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12839076223",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3494,7 +3494,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12839111449",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3522,7 +3522,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12839172738",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3550,7 +3550,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12839172704",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3578,7 +3578,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12793699712",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3606,7 +3606,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12793689121",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -3634,7 +3634,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12793689120",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -3662,7 +3662,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6704972210",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3690,7 +3690,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6655915186",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -3718,7 +3718,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740609991",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3744,7 +3744,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10828217655",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3770,7 +3770,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3916881788",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3796,7 +3796,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6655911193",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -3824,7 +3824,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740609990",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3850,7 +3850,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2392884369",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -3878,7 +3878,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740609989",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3904,7 +3904,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740609988",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3930,7 +3930,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740609987",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -3956,7 +3956,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4016563957",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -3984,7 +3984,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4403580631",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -4012,7 +4012,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8082575996",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4038,7 +4038,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006291",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -4066,7 +4066,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3646434341",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4092,7 +4092,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5597337945",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -4120,7 +4120,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4988812148",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -4148,7 +4148,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5597337947",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -4176,7 +4176,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3646431085",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4202,7 +4202,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6426109382",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -4232,7 +4232,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4988812147",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -4260,7 +4260,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5182861062",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -4288,7 +4288,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5182862521",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -4316,7 +4316,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6426109381",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4342,7 +4342,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7015776489",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4370,7 +4370,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394839204",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4398,7 +4398,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394839205",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4426,7 +4426,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7015776488",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4454,7 +4454,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394839203",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4482,7 +4482,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394839202",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4510,7 +4510,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6773298588",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -4538,7 +4538,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006588",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -4566,7 +4566,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994175",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4594,7 +4594,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7015776487",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -4622,7 +4622,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740609986",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4648,7 +4648,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6981929587",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -4675,7 +4675,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994184",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4703,7 +4703,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6981929586",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -4730,7 +4730,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12058037905",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 70,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4758,7 +4758,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994186",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4786,7 +4786,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394735113",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4814,7 +4814,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394735114",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4842,7 +4842,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9740609985",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4868,7 +4868,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994178",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4896,7 +4896,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994188",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4924,7 +4924,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006591",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4950,7 +4950,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/360674187",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -4978,7 +4978,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994191",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5006,7 +5006,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994193",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5034,7 +5034,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3232361620",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5062,7 +5062,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994196",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5090,7 +5090,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006592",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5116,7 +5116,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6043906885",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5144,7 +5144,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6043906585",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5172,7 +5172,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006296",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5198,7 +5198,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394724229",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5226,7 +5226,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7015776485",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5254,7 +5254,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006298",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5280,7 +5280,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3690070121",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5308,7 +5308,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13665750897",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5334,7 +5334,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006604",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5360,7 +5360,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10152079176",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5386,7 +5386,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006608",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5412,7 +5412,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11069994199",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5440,7 +5440,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5921647217",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5468,7 +5468,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9394720022",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5496,7 +5496,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4276970164",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5524,7 +5524,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3574851715",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5550,7 +5550,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5921648521",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5578,7 +5578,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12964551022",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5604,7 +5604,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/8842199917",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5631,7 +5631,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5921650579",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5659,7 +5659,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5921656055",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5687,7 +5687,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9727329739",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5715,7 +5715,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6659006309",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5743,7 +5743,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5921656063",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5771,7 +5771,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1785495694",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "SEMAFORO"
@@ -5799,7 +5799,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9724742144",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5828,7 +5828,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9724742153",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5857,7 +5857,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9725814376",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5885,7 +5885,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9771159295",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5913,7 +5913,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4334164707",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -5939,7 +5939,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4530364927",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5967,7 +5967,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4530366032",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -5995,7 +5995,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9734133949",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6023,7 +6023,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9731375614",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6051,7 +6051,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9419524028",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6077,7 +6077,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4781516480",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6105,7 +6105,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9494307976",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6133,7 +6133,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9499104523",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6159,7 +6159,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9428831179",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6185,7 +6185,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9731321712",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6213,7 +6213,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9147171801",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6239,7 +6239,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9787115836",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6267,7 +6267,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9467583992",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6293,7 +6293,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9467583975",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6321,7 +6321,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9731916090",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6349,7 +6349,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9389479666",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6375,7 +6375,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9762209485",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -6403,7 +6403,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9165132625",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -6429,7 +6429,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9771058901",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6455,7 +6455,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9429844609",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6481,7 +6481,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9322475892",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6509,7 +6509,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9397832903",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6537,7 +6537,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9758444425",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -6565,7 +6565,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9395418816",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6593,7 +6593,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9165875202",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6623,7 +6623,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9473153574",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6651,7 +6651,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9480281289",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6679,7 +6679,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9170530050",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6707,7 +6707,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9167740368",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6735,7 +6735,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9170435049",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6761,7 +6761,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12084034567",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -6787,7 +6787,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9170149178",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6813,7 +6813,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9173262423",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6841,7 +6841,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9167740356",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6869,7 +6869,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9172832861",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6897,7 +6897,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9172832876",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6925,7 +6925,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9435109474",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6953,7 +6953,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9094545109",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -6979,7 +6979,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9171898875",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7007,7 +7007,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9445191404",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7033,7 +7033,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9431925291",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7061,7 +7061,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4781515459",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7089,7 +7089,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9652796618",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7117,7 +7117,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9601960939",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7145,7 +7145,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9431371340",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7173,7 +7173,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9728455515",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7199,7 +7199,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9728429451",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7227,7 +7227,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9627030145",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7253,7 +7253,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9167956657",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7279,7 +7279,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12084045101",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7305,7 +7305,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9168371822",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7331,7 +7331,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9718433370",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7357,7 +7357,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9731319207",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7385,7 +7385,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9165947040",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7413,7 +7413,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4530353967",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7441,7 +7441,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9769892791",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7469,7 +7469,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9733606917",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7495,7 +7495,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4530350708",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7525,7 +7525,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4530351275",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7555,7 +7555,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4530347312",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7583,7 +7583,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4367119918",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7611,7 +7611,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6645243778",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7639,7 +7639,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765665326",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7667,7 +7667,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3328641762",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7695,7 +7695,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9756075832",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7723,7 +7723,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3674257525",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -7751,7 +7751,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765665327",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7779,7 +7779,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765665329",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7807,7 +7807,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765665330",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7835,7 +7835,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6585455129",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7861,7 +7861,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/4493495221",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7887,7 +7887,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6585426174",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7913,7 +7913,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11071518559",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7939,7 +7939,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765665331",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7967,7 +7967,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9765665332",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -7995,7 +7995,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7413144393",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -8023,7 +8023,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7551774333",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -8052,7 +8052,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7551795332",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -8080,7 +8080,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10245949715",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -8108,7 +8108,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7551800595",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -8136,7 +8136,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7551807458",
-   "source_version": "ec-2026-11-02",
+   "source_version": "ec-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 40,
    "speed_limit_source": "OSM_ETIQUETA",
