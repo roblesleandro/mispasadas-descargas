@@ -2076,11 +2076,12 @@
    },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
-   "punto": "General Rodríguez 2",
-   "nombre_visible": "Autopista del Oeste - Peaje General Rodríguez 2",
-   "confianza": "baja",
+   "punto": "Ruta Provincial 24",
+   "nombre_visible": "Autopista del Oeste - Peaje Ruta Provincial 24",
+   "confianza": "media",
    "plaza": "General Rodríguez 2 (Acceso Oeste)",
-   "nota": "Rampa numerada sin calle clara en OSM: cargar el nombre a mano."
+   "calle": "Ruta Provincial 24",
+   "nota": "Rampa: calle que cruza a 249 m (código oficial «General Rodríguez 2»)."
   },
   {
    "lat": -34.596405,
@@ -2114,11 +2115,12 @@
    },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
-   "punto": "General Rodríguez 3",
-   "nombre_visible": "Autopista del Oeste - Peaje General Rodríguez 3",
-   "confianza": "baja",
+   "punto": "Doctor Luis Leloir",
+   "nombre_visible": "Autopista del Oeste - Peaje Doctor Luis Leloir",
+   "confianza": "alta",
    "plaza": "General Rodríguez 3 (Acceso Oeste)",
-   "nota": "Rampa numerada sin calle clara en OSM: cargar el nombre a mano."
+   "calle": "Doctor Luis Leloir",
+   "nota": "Rampa: calle que cruza a 80 m (código oficial «General Rodríguez 3»)."
   },
   {
    "lat": -34.593229,
@@ -2152,11 +2154,12 @@
    },
    "pais": "AR",
    "via_visible": "Autopista del Oeste",
-   "punto": "General Rodríguez 1",
-   "nombre_visible": "Autopista del Oeste - Peaje General Rodríguez 1",
-   "confianza": "baja",
+   "punto": "Avenida Italia",
+   "nombre_visible": "Autopista del Oeste - Peaje Avenida Italia",
+   "confianza": "alta",
    "plaza": "General Rodríguez 1 (Acceso Oeste)",
-   "nota": "Rampa numerada sin calle clara en OSM: cargar el nombre a mano."
+   "calle": "Avenida Italia",
+   "nota": "Rampa: calle que cruza a 103 m (código oficial «General Rodríguez 1»)."
   },
   {
    "lat": -34.58878,
@@ -6118,5 +6121,5 @@
    "confianza": "media"
   }
  ],
- "generado": "2026-11-02T20:32Z"
+ "generado": "2026-11-03T12:25Z"
 }
