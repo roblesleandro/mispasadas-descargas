@@ -1,7 +1,7 @@
 {
- "version": "tt-2026-11-02",
+ "version": "tt-2026-11-03",
  "pais": "TT",
- "generado": "2026-11-02T02:16:22+00:00",
+ "generado": "2026-11-03T20:13:35+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial con ubicaciones."
@@ -61,7 +61,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7177668106",
-   "source_version": "tt-2026-11-02",
+   "source_version": "tt-2026-11-03",
    "confidence_score": 50,
    "speed_limit_kmh": 100,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -87,7 +87,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/7616397425",
-   "source_version": "tt-2026-11-02",
+   "source_version": "tt-2026-11-03",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -113,7 +113,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6594322617",
-   "source_version": "tt-2026-11-02",
+   "source_version": "tt-2026-11-03",
    "confidence_score": 50,
    "controls": [],
    "heading_min": 145.0,
@@ -139,7 +139,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6575795185",
-   "source_version": "tt-2026-11-02",
+   "source_version": "tt-2026-11-03",
    "confidence_score": 50,
    "controls": [],
    "heading_min": 145.0,
