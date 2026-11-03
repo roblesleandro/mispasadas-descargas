@@ -1,7 +1,7 @@
 {
- "version": "gt-2026-11-02",
+ "version": "gt-2026-11-03",
  "pais": "GT",
- "generado": "2026-11-02T01:58:50+00:00",
+ "generado": "2026-11-03T19:46:42+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial."
@@ -50,11 +50,14 @@
    }
   }
  },
- "alertas": [],
+ "alertas": [
+  "GT: no se pudieron leer radares/cámaras de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
+  "GT: Salieron 0 y antes había 14: se mantiene lo anterior."
+ ],
  "radars": [
   {
    "radar_id": "osm-gt-n7431766721",
-   "name": "Autopista CA-9 Sur - Radar",
+   "name": "Autopista CA-9 Sur - Radar (Autopista CA-9 Sur - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 14.515125,
    "longitude": -90.616313,
@@ -78,12 +81,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 70,
-   "display_name": "Autopista CA-9 Sur - Radar",
+   "display_name": "Autopista CA-9 Sur - Radar (Autopista CA-9 Sur - Radar)",
    "country": "GT"
   },
   {
    "radar_id": "osm-gt-n7431766713",
-   "name": "RD GUA-14A - Radar",
+   "name": "RD GUA-14A - Radar (RD GUA-14A - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 14.518066,
    "longitude": -90.563975,
@@ -104,12 +107,12 @@
     "reference": "node/7431766713"
    },
    "road_label": "RD GUA-14A",
-   "display_name": "RD GUA-14A - Radar",
+   "display_name": "RD GUA-14A - Radar (RD GUA-14A - Radar)",
    "country": "GT"
   },
   {
    "radar_id": "osm-gt-n7435720157",
-   "name": "RD GUA-14A - Radar",
+   "name": "RD GUA-14A - Radar (RD GUA-14A - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 14.524011,
    "longitude": -90.561972,
@@ -130,12 +133,12 @@
     "reference": "node/7435720157"
    },
    "road_label": "RD GUA-14A",
-   "display_name": "RD GUA-14A - Radar",
+   "display_name": "RD GUA-14A - Radar (RD GUA-14A - Radar)",
    "country": "GT"
   },
   {
    "radar_id": "osm-gt-n7431766719",
-   "name": "Autopista CA-9 Sur - Radar",
+   "name": "Autopista CA-9 Sur - Radar (Autopista CA-9 Sur - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 14.541201,
    "longitude": -90.584213,
@@ -159,12 +162,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 70,
-   "display_name": "Autopista CA-9 Sur - Radar",
+   "display_name": "Autopista CA-9 Sur - Radar (Autopista CA-9 Sur - Radar)",
    "country": "GT"
   },
   {
    "radar_id": "osm-gt-n7431766715",
-   "name": "Autopista CA-9 Sur - Radar",
+   "name": "Autopista CA-9 Sur - Radar (Autopista CA-9 Sur - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 14.545414,
    "longitude": -90.581268,
@@ -188,12 +191,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 70,
-   "display_name": "Autopista CA-9 Sur - Radar",
+   "display_name": "Autopista CA-9 Sur - Radar (Autopista CA-9 Sur - Radar)",
    "country": "GT"
   },
   {
    "radar_id": "osm-gt-n7431766717",
-   "name": "Autopista CA-9 Sur - Radar",
+   "name": "Autopista CA-9 Sur - Radar (Autopista CA-9 Sur - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 14.555719,
    "longitude": -90.576465,
@@ -217,12 +220,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 70,
-   "display_name": "Autopista CA-9 Sur - Radar",
+   "display_name": "Autopista CA-9 Sur - Radar (Autopista CA-9 Sur - Radar)",
    "country": "GT"
   },
   {
    "radar_id": "osm-gt-n975951206",
-   "name": "Boulevard Villa Deportiva - Radar",
+   "name": "Boulevard Villa Deportiva - Radar (Boulevard Villa Deportiva - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 14.588107,
    "longitude": -90.583682,
@@ -245,12 +248,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Boulevard Villa Deportiva - Radar",
+   "display_name": "Boulevard Villa Deportiva - Radar (Boulevard Villa Deportiva - Radar)",
    "country": "GT"
   },
   {
    "radar_id": "osm-gt-n634829393",
-   "name": "Boulevard Rafael Landívar - Radar",
+   "name": "Boulevard Rafael Landívar - Radar (Boulevard Rafael Landívar - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 14.598503,
    "longitude": -90.482844,
@@ -271,12 +274,12 @@
     "reference": "node/634829393"
    },
    "road_label": "Boulevard Rafael Landívar",
-   "display_name": "Boulevard Rafael Landívar - Radar",
+   "display_name": "Boulevard Rafael Landívar - Radar (Boulevard Rafael Landívar - Radar)",
    "country": "GT"
   },
   {
    "radar_id": "osm-gt-n487628086",
-   "name": "Bulevar San Cristóbal - Radar",
+   "name": "Bulevar San Cristóbal - Radar (Bulevar San Cristóbal - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 14.608141,
    "longitude": -90.587693,
@@ -299,12 +302,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Bulevar San Cristóbal - Radar",
+   "display_name": "Bulevar San Cristóbal - Radar (Bulevar San Cristóbal - Radar)",
    "country": "GT"
   },
   {
    "radar_id": "osm-gt-n975948894",
-   "name": "Calzada La Paz - Radar",
+   "name": "Calzada La Paz - Radar (Calzada La Paz - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 14.621157,
    "longitude": -90.490938,
@@ -327,12 +330,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calzada La Paz - Radar",
+   "display_name": "Calzada La Paz - Radar (Calzada La Paz - Radar)",
    "country": "GT"
   },
   {
    "radar_id": "osm-gt-n6524952436",
-   "name": "RN-5 - Cámara de tránsito",
+   "name": "RN-5 - Cámara de tránsito (RN-5 - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 14.641799,
    "longitude": -90.570175,
@@ -353,12 +356,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "RN-5 - Cámara de tránsito",
+   "display_name": "RN-5 - Cámara de tránsito (RN-5 - Cámara de tránsito)",
    "country": "GT"
   },
   {
    "radar_id": "osm-gt-n6524952437",
-   "name": "RN-5 - Cámara de tránsito",
+   "name": "RN-5 - Cámara de tránsito (RN-5 - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 14.644364,
    "longitude": -90.574746,
@@ -379,12 +382,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "RN-5 - Cámara de tránsito",
+   "display_name": "RN-5 - Cámara de tránsito (RN-5 - Cámara de tránsito)",
    "country": "GT"
   },
   {
    "radar_id": "osm-gt-n5296708521",
-   "name": "CA-9 Nor - Radar",
+   "name": "CA-9 Nor - Radar (CA-9 Nor - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 14.652993,
    "longitude": -90.471177,
@@ -407,12 +410,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "CA-9 Nor - Radar",
+   "display_name": "CA-9 Nor - Radar (CA-9 Nor - Radar)",
    "country": "GT"
   },
   {
    "radar_id": "osm-gt-n5296705423",
-   "name": "CA-9 Nor - Radar",
+   "name": "CA-9 Nor - Radar (CA-9 Nor - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 14.659652,
    "longitude": -90.422408,
@@ -435,7 +438,7 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "CA-9 Nor - Radar",
+   "display_name": "CA-9 Nor - Radar (CA-9 Nor - Radar)",
    "country": "GT"
   }
  ]
