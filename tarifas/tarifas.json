@@ -10346,6 +10346,33 @@
    "tipo": "cabina"
   },
   {
+   "nombre": "Penco",
+   "lat": -36.757901,
+   "lon": -73.011269,
+   "radio": 700,
+   "empresa": "CL-RUTA-INTERPORTUARIA",
+   "tramo": "Columna 1",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Colón",
+   "lat": -36.732743,
+   "lon": -73.088165,
+   "radio": 700,
+   "empresa": "CL-RUTA-INTERPORTUARIA",
+   "tramo": "Columna 1",
+   "tipo": "cabina"
+  },
+  {
+   "nombre": "Alessandri",
+   "lat": -36.769319,
+   "lon": -73.050679,
+   "radio": 700,
+   "empresa": "CL-RUTA-INTERPORTUARIA",
+   "tramo": "Columna 1",
+   "tipo": "cabina"
+  },
+  {
    "nombre": "Río Frío",
    "lat": 3.995509,
    "lon": -76.328497,
@@ -12983,5 +13010,5 @@
    "tipo": "cabina"
   }
  ],
- "generado": "2026-11-04T18:01Z"
+ "generado": "2026-11-05T18:04Z"
 }
