@@ -15,10 +15,10 @@
    "corregidas": 8,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 110,
-    "a_mas_de_15_m": 4,
-    "sin_referencia": 1,
-    "total": 115
+    "ok": 117,
+    "a_mas_de_15_m": 0,
+    "sin_referencia": 0,
+    "total": 117
    }
   }
  },
@@ -2764,7 +2764,7 @@
    "tipo": "cabina",
    "via": "Panamericana Norte",
    "ref": "PE-1N",
-   "localidad": "Victor Raúl",
+   "localidad": "Puerto Morin",
    "fuente": "armado",
    "cabinas": [
     {
@@ -2786,8 +2786,8 @@
    },
    "pais": "PE",
    "via_visible": "PE-1N",
-   "punto": "Victor Raúl",
-   "nombre_visible": "PE-1N - Peaje Victor Raúl",
+   "punto": "Puerto Morin",
+   "nombre_visible": "PE-1N - Peaje Puerto Morin",
    "confianza": "media"
   },
   {
@@ -2999,7 +2999,7 @@
    "tipo": "cabina",
    "via": "Carretera Panamericana Norte",
    "ref": "PE-1N",
-   "localidad": "Morrope",
+   "localidad": "Mórrope",
    "fuente": "armado",
    "cabinas": [
     {
@@ -3016,8 +3016,8 @@
    },
    "pais": "PE",
    "via_visible": "PE-1N",
-   "punto": "Morrope",
-   "nombre_visible": "PE-1N - Peaje Morrope",
+   "punto": "Mórrope",
+   "nombre_visible": "PE-1N - Peaje Mórrope",
    "confianza": "media"
   },
   {
@@ -3446,7 +3446,7 @@
      "lat": -4.601313,
      "lon": -81.163357,
      "n": 1,
-     "rumbo": 305,
+     "rumbo": 304,
      "doble": true
     }
    ],
@@ -3511,6 +3511,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-02T21:05Z",
+ "generado": "2026-11-06T04:44Z",
  "alertas": []
 }
