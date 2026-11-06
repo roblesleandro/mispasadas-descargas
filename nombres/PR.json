@@ -25,5 +25,7 @@
  "estaciones": [],
  "excluidas": [],
  "generado": "2026-11-01T16:23Z",
- "alertas": []
+ "alertas": [
+  "PR: OpenStreetMap no devolvió la geometría de las calles (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las cabinas salen sin sentido."
+ ]
 }
