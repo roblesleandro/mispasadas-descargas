@@ -3690,9 +3690,9 @@
     ]
    },
    "pais": "AR",
-   "via_visible": "Autopista Ernesto Guevara",
+   "via_visible": "Autopista Rosario - Córdoba",
    "punto": "Carcarañá",
-   "nombre_visible": "Autopista Ernesto Guevara - Peaje Carcarañá",
+   "nombre_visible": "Autopista Rosario - Córdoba - Peaje Carcarañá",
    "confianza": "alta",
    "plaza": "Carcarañá (Centro)"
   },
@@ -5618,6 +5618,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-03T12:25Z",
+ "generado": "2026-11-06T03:00Z",
  "alertas": []
 }
