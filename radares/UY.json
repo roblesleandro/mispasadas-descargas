@@ -1,7 +1,7 @@
 {
- "version": "uy-2026-11-03",
+ "version": "uy-2026-11-06",
  "pais": "UY",
- "generado": "2026-11-03T19:14:45+00:00",
+ "generado": "2026-11-06T11:47:44+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Intendencia de Montevideo: equipos de fiscalización fijos (montevideo.gub.uy/areas-tematicas/movilidad/fiscalizacion-de-infracciones/equipos-de-fiscalizacion-fijos). Su robots.txt no permite leerla con robots: cargar a mano o pedir el dato a la IM.",
@@ -22,10 +22,10 @@
   "con_limite": 226,
   "limite_revisar": 4,
   "limite_desconocido": 38,
-  "revisados_esta_corrida": 3,
+  "revisados_esta_corrida": 0,
   "sin_via": 0,
   "via_completada_esta_corrida": 0,
-  "limites_dudosos_sacados": 2,
+  "limites_dudosos_sacados": 0,
   "por_control": {
    "VELOCIDAD": 259,
    "VELOCIDAD_PROMEDIO": 0,
@@ -46,18 +46,21 @@
    "corrida_anterior": {
     "umbral_m": 15.0,
     "radio_busqueda_m": 150.0,
-    "ok": 225,
+    "ok": 142,
     "corregidas": 0,
-    "sin_referencia": 53,
-    "de_osm": 156
+    "sin_referencia": 122,
+    "de_osm": 142
    }
   }
  },
- "alertas": [],
+ "alertas": [
+  "UY: no se pudieron leer radares/cámaras de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
+  "UY: Salieron 122 y antes había 264: se mantiene lo anterior."
+ ],
  "radars": [
   {
    "radar_id": "osm-uy-n12581377767",
-   "name": "El Remanso (Calle 20) - Radar",
+   "name": "El Remanso (Calle 20) - Radar (El Remanso (Calle 20) - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.95962,
    "longitude": -54.942429,
@@ -78,12 +81,12 @@
     "reference": "node/12581377767"
    },
    "road_label": "El Remanso (Calle 20)",
-   "display_name": "El Remanso (Calle 20) - Radar",
+   "display_name": "El Remanso (Calle 20) - Radar (El Remanso (Calle 20) - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12479728789",
-   "name": "Rambla Doctor Claudio Williman - Radar",
+   "name": "Rambla Doctor Claudio Williman - Radar (Rambla Doctor Claudio Williman - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.953821,
    "longitude": -54.940225,
@@ -104,12 +107,12 @@
     "reference": "node/12479728789"
    },
    "road_label": "Rambla Doctor Claudio Williman",
-   "display_name": "Rambla Doctor Claudio Williman - Radar",
+   "display_name": "Rambla Doctor Claudio Williman - Radar (Rambla Doctor Claudio Williman - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n6289861024",
-   "name": "Avenida Chiverta - Radar",
+   "name": "Avenida Chiverta - Radar (Avenida Chiverta - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.951609,
    "longitude": -54.93777,
@@ -130,12 +133,12 @@
     "reference": "node/6289861024"
    },
    "road_label": "Avenida Chiverta",
-   "display_name": "Avenida Chiverta - Radar",
+   "display_name": "Avenida Chiverta - Radar (Avenida Chiverta - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n6289877330",
-   "name": "Rambla Lorenzo Batlle Pacheco - Radar",
+   "name": "Rambla Lorenzo Batlle Pacheco - Radar (Rambla Lorenzo Batlle Pacheco - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.949058,
    "longitude": -54.926083,
@@ -156,12 +159,12 @@
     "reference": "node/6289877330"
    },
    "road_label": "Rambla Lorenzo Batlle Pacheco",
-   "display_name": "Rambla Lorenzo Batlle Pacheco - Radar",
+   "display_name": "Rambla Lorenzo Batlle Pacheco - Radar (Rambla Lorenzo Batlle Pacheco - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n6289873017",
-   "name": "Patagonia - Radar",
+   "name": "Patagonia - Radar (Patagonia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.947524,
    "longitude": -54.936686,
@@ -182,12 +185,12 @@
     "reference": "node/6289873017"
    },
    "road_label": "Patagonia",
-   "display_name": "Patagonia - Radar",
+   "display_name": "Patagonia - Radar (Patagonia - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12479762879",
-   "name": "Rambla Doctor Claudio Williman - Radar",
+   "name": "Rambla Doctor Claudio Williman - Radar (Rambla Doctor Claudio Williman - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.941838,
    "longitude": -54.945975,
@@ -208,12 +211,12 @@
     "reference": "node/12479762879"
    },
    "road_label": "Rambla Doctor Claudio Williman",
-   "display_name": "Rambla Doctor Claudio Williman - Radar",
+   "display_name": "Rambla Doctor Claudio Williman - Radar (Rambla Doctor Claudio Williman - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12479769807",
-   "name": "Rambla Doctor Claudio Williman - Radar",
+   "name": "Rambla Doctor Claudio Williman - Radar (Rambla Doctor Claudio Williman - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.941299,
    "longitude": -54.946199,
@@ -234,12 +237,12 @@
     "reference": "node/12479769807"
    },
    "road_label": "Rambla Doctor Claudio Williman",
-   "display_name": "Rambla Doctor Claudio Williman - Radar",
+   "display_name": "Rambla Doctor Claudio Williman - Radar (Rambla Doctor Claudio Williman - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12478345337",
-   "name": "Dr.Roberto San Martin Pereyra - Radar",
+   "name": "Dr.Roberto San Martin Pereyra - Radar (Dr.Roberto San Martin Pereyra - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.930494,
    "longitude": -54.939816,
@@ -260,12 +263,12 @@
     "reference": "node/12478345337"
    },
    "road_label": "Dr.Roberto San Martin Pereyra",
-   "display_name": "Dr.Roberto San Martin Pereyra - Radar",
+   "display_name": "Dr.Roberto San Martin Pereyra - Radar (Dr.Roberto San Martin Pereyra - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12577019294",
-   "name": "Rambla Lorenzo Batlle Pacheco - Radar",
+   "name": "Rambla Lorenzo Batlle Pacheco - Radar (Rambla Lorenzo Batlle Pacheco - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.928839,
    "longitude": -54.891969,
@@ -286,12 +289,12 @@
     "reference": "node/12577019294"
    },
    "road_label": "Rambla Lorenzo Batlle Pacheco",
-   "display_name": "Rambla Lorenzo Batlle Pacheco - Radar",
+   "display_name": "Rambla Lorenzo Batlle Pacheco - Radar (Rambla Lorenzo Batlle Pacheco - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n7057140516",
-   "name": "Rambla Wilson - Radar",
+   "name": "Rambla Wilson - Radar (Rambla Wilson - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.924906,
    "longitude": -56.169754,
@@ -312,12 +315,12 @@
     "reference": "node/7057140516"
    },
    "road_label": "Rambla Wilson",
-   "display_name": "Rambla Wilson - Radar",
+   "display_name": "Rambla Wilson - Radar (Rambla Wilson - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12478366776",
-   "name": "Bulevar General José Gervasio Artigas - Radar",
+   "name": "Bulevar General José Gervasio Artigas - Radar (Bulevar General José Gervasio Artigas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.924824,
    "longitude": -54.941481,
@@ -338,12 +341,12 @@
     "reference": "node/12478366776"
    },
    "road_label": "Bulevar General José Gervasio Artigas",
-   "display_name": "Bulevar General José Gervasio Artigas - Radar",
+   "display_name": "Bulevar General José Gervasio Artigas - Radar (Bulevar General José Gervasio Artigas - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n4565468443",
-   "name": "Rambla Mahatma Gandhi - Cámara de semáforo",
+   "name": "Rambla Mahatma Gandhi - Cámara de semáforo (Rambla Mahatma Gandhi - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": -34.924809,
    "longitude": -56.154732,
@@ -366,12 +369,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Rambla Mahatma Gandhi - Cámara de semáforo",
+   "display_name": "Rambla Mahatma Gandhi - Cámara de semáforo (Rambla Mahatma Gandhi - Cámara de semáforo)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12581402451",
-   "name": "Rambla Doctor Claudio Williman - Radar",
+   "name": "Rambla Doctor Claudio Williman - Radar (Rambla Doctor Claudio Williman - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.915829,
    "longitude": -54.9786,
@@ -392,12 +395,12 @@
     "reference": "node/12581402451"
    },
    "road_label": "Rambla Doctor Claudio Williman",
-   "display_name": "Rambla Doctor Claudio Williman - Radar",
+   "display_name": "Rambla Doctor Claudio Williman - Radar (Rambla Doctor Claudio Williman - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n6289891036",
-   "name": "Rambla Doctor Claudio Williman - Radar",
+   "name": "Rambla Doctor Claudio Williman - Radar (Rambla Doctor Claudio Williman - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.913957,
    "longitude": -54.984236,
@@ -418,12 +421,12 @@
     "reference": "node/6289891036"
    },
    "road_label": "Rambla Doctor Claudio Williman",
-   "display_name": "Rambla Doctor Claudio Williman - Radar",
+   "display_name": "Rambla Doctor Claudio Williman - Radar (Rambla Doctor Claudio Williman - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11957114493",
-   "name": "Rambla República Helénica - Radar",
+   "name": "Rambla República Helénica - Radar (Rambla República Helénica - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.912374,
    "longitude": -56.193954,
@@ -444,12 +447,12 @@
     "reference": "node/11957114493"
    },
    "road_label": "Rambla República Helénica",
-   "display_name": "Rambla República Helénica - Radar",
+   "display_name": "Rambla República Helénica - Radar (Rambla República Helénica - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n10582749260",
-   "name": "Puente Leonel Viera - Radar",
+   "name": "Puente Leonel Viera - Radar (Puente Leonel Viera - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.911655,
    "longitude": -54.872802,
@@ -474,12 +477,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Puente Leonel Viera - Radar",
+   "display_name": "Puente Leonel Viera - Radar (Puente Leonel Viera - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12255142953",
-   "name": "Bulevar General José Gervasio Artigas - Radar",
+   "name": "Bulevar General José Gervasio Artigas - Radar (Bulevar General José Gervasio Artigas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.911421,
    "longitude": -54.946135,
@@ -500,12 +503,12 @@
     "reference": "node/12255142953"
    },
    "road_label": "Bulevar General José Gervasio Artigas",
-   "display_name": "Bulevar General José Gervasio Artigas - Radar",
+   "display_name": "Bulevar General José Gervasio Artigas - Radar (Bulevar General José Gervasio Artigas - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n10582749259",
-   "name": "Avenida Eduardo Víctor Haedo - Radar",
+   "name": "Avenida Eduardo Víctor Haedo - Radar (Avenida Eduardo Víctor Haedo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.910238,
    "longitude": -54.872532,
@@ -530,12 +533,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Eduardo Víctor Haedo - Radar",
+   "display_name": "Avenida Eduardo Víctor Haedo - Radar (Avenida Eduardo Víctor Haedo - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n4577820006",
-   "name": "Rambla República del Perú - Cámara de semáforo",
+   "name": "Rambla República del Perú - Cámara de semáforo (Rambla República del Perú - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": -34.909779,
    "longitude": -56.140824,
@@ -558,12 +561,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Rambla República del Perú - Cámara de semáforo",
+   "display_name": "Rambla República del Perú - Cámara de semáforo (Rambla República del Perú - Cámara de semáforo)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11055590130",
-   "name": "Ruta 10 - Radar",
+   "name": "Ruta 10 - Radar (Ruta 10 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.90972,
    "longitude": -54.841577,
@@ -587,12 +590,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "tertiary",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta 10 - Radar",
+   "display_name": "Ruta 10 - Radar (Ruta 10 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12478366775",
-   "name": "Avenida Aiguá - Radar",
+   "name": "Avenida Aiguá - Radar (Avenida Aiguá - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.908073,
    "longitude": -54.947594,
@@ -613,12 +616,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Aiguá - Radar",
+   "display_name": "Avenida Aiguá - Radar (Avenida Aiguá - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12255142952",
-   "name": "Avenida Aiguá - Radar",
+   "name": "Avenida Aiguá - Radar (Avenida Aiguá - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.908066,
    "longitude": -54.946475,
@@ -639,12 +642,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Aiguá - Radar",
+   "display_name": "Avenida Aiguá - Radar (Avenida Aiguá - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n10115070077",
-   "name": "Bulevar General Artigas - Radar",
+   "name": "Bulevar General Artigas - Radar (Bulevar General Artigas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.907095,
    "longitude": -56.16359,
@@ -665,12 +668,12 @@
     "reference": "node/10115070077"
    },
    "road_label": "Bulevar General Artigas",
-   "display_name": "Bulevar General Artigas - Radar",
+   "display_name": "Bulevar General Artigas - Radar (Bulevar General Artigas - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12478348346",
-   "name": "Ruta Interbalnearia - Radar",
+   "name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.904685,
    "longitude": -55.031681,
@@ -694,12 +697,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 75,
-   "display_name": "Ruta Interbalnearia - Radar",
+   "display_name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n4353119937",
-   "name": "Avenida General Rivera - Radar",
+   "name": "Avenida General Rivera - Radar (Avenida General Rivera - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.902735,
    "longitude": -56.161686,
@@ -720,7 +723,7 @@
     "reference": "node/4353119937"
    },
    "road_label": "Avenida General Rivera",
-   "display_name": "Avenida General Rivera - Radar",
+   "display_name": "Avenida General Rivera - Radar (Avenida General Rivera - Radar)",
    "country": "UY"
   },
   {
@@ -751,7 +754,7 @@
   },
   {
    "radar_id": "osm-uy-n12255142951",
-   "name": "Bulevar General José Gervasio Artigas - Radar",
+   "name": "Bulevar General José Gervasio Artigas - Radar (Bulevar General José Gervasio Artigas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.902369,
    "longitude": -54.948441,
@@ -774,12 +777,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Bulevar General José Gervasio Artigas - Radar",
+   "display_name": "Bulevar General José Gervasio Artigas - Radar (Bulevar General José Gervasio Artigas - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11016759043",
-   "name": "Avenida Uruguay - Radar",
+   "name": "Avenida Uruguay - Radar (Avenida Uruguay - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.902268,
    "longitude": -56.184338,
@@ -800,12 +803,12 @@
     "reference": "node/11016759043"
    },
    "road_label": "Avenida Uruguay",
-   "display_name": "Avenida Uruguay - Radar",
+   "display_name": "Avenida Uruguay - Radar (Avenida Uruguay - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n13354676928",
-   "name": "Rambla República de México - Radar",
+   "name": "Rambla República de México - Radar (Rambla República de México - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.897627,
    "longitude": -56.063018,
@@ -826,12 +829,12 @@
     "reference": "node/13354676928"
    },
    "road_label": "Rambla República de México",
-   "display_name": "Rambla República de México - Radar",
+   "display_name": "Rambla República de México - Radar (Rambla República de México - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n4565562431",
-   "name": "Rambla O'Higgins - Radar",
+   "name": "Rambla O'Higgins - Radar (Rambla O'Higgins - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.895968,
    "longitude": -56.104954,
@@ -852,12 +855,12 @@
     "reference": "node/4565562431"
    },
    "road_label": "Rambla O'Higgins",
-   "display_name": "Rambla O'Higgins - Radar",
+   "display_name": "Rambla O'Higgins - Radar (Rambla O'Higgins - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11055581778",
-   "name": "Ruta 10 - Radar",
+   "name": "Ruta 10 - Radar (Ruta 10 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.895178,
    "longitude": -54.795907,
@@ -881,12 +884,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "tertiary",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta 10 - Radar",
+   "display_name": "Ruta 10 - Radar (Ruta 10 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n5181103589",
-   "name": "Doctor Salvador Ferrer Serra - Radar",
+   "name": "Doctor Salvador Ferrer Serra - Radar (Doctor Salvador Ferrer Serra - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.89508,
    "longitude": -56.169653,
@@ -907,12 +910,12 @@
     "reference": "node/5181103589"
    },
    "road_label": "Doctor Salvador Ferrer Serra",
-   "display_name": "Doctor Salvador Ferrer Serra - Radar",
+   "display_name": "Doctor Salvador Ferrer Serra - Radar (Doctor Salvador Ferrer Serra - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n5002187211",
-   "name": "Coimbra - Radar",
+   "name": "Coimbra - Radar (Coimbra - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.895065,
    "longitude": -56.084947,
@@ -933,12 +936,12 @@
     "reference": "node/5002187211"
    },
    "road_label": "Coimbra",
-   "display_name": "Coimbra - Radar",
+   "display_name": "Coimbra - Radar (Coimbra - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n6275438945",
-   "name": "Avenida General Rivera - Radar",
+   "name": "Avenida General Rivera - Radar (Avenida General Rivera - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.894911,
    "longitude": -56.119864,
@@ -959,12 +962,12 @@
     "reference": "node/6275438945"
    },
    "road_label": "Avenida General Rivera",
-   "display_name": "Avenida General Rivera - Radar",
+   "display_name": "Avenida General Rivera - Radar (Avenida General Rivera - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12616289515",
-   "name": "Américas Unidas - Radar",
+   "name": "Américas Unidas - Radar (Américas Unidas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.894028,
    "longitude": -55.221944,
@@ -985,12 +988,12 @@
     "reference": "node/12616289515"
    },
    "road_label": "Américas Unidas",
-   "display_name": "Américas Unidas - Radar",
+   "display_name": "Américas Unidas - Radar (Américas Unidas - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n6275509785",
-   "name": "Avenida General Rondeau - Radar",
+   "name": "Avenida General Rondeau - Radar (Avenida General Rondeau - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.893452,
    "longitude": -56.192622,
@@ -1011,12 +1014,12 @@
     "reference": "node/6275509785"
    },
    "road_label": "Avenida General Rondeau",
-   "display_name": "Avenida General Rondeau - Radar",
+   "display_name": "Avenida General Rondeau - Radar (Avenida General Rondeau - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12616315007",
-   "name": "Américas Unidas - Radar",
+   "name": "Américas Unidas - Radar (Américas Unidas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.892172,
    "longitude": -55.217283,
@@ -1037,12 +1040,12 @@
     "reference": "node/12616315007"
    },
    "road_label": "Américas Unidas",
-   "display_name": "Américas Unidas - Radar",
+   "display_name": "Américas Unidas - Radar (Américas Unidas - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n4575893135",
-   "name": "Rambla República de México - Cámara de semáforo",
+   "name": "Rambla República de México - Cámara de semáforo (Rambla República de México - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": -34.891009,
    "longitude": -56.054538,
@@ -1065,12 +1068,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Rambla República de México - Cámara de semáforo",
+   "display_name": "Rambla República de México - Cámara de semáforo (Rambla República de México - Cámara de semáforo)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12616248782",
-   "name": "Rambla Costanera - Radar",
+   "name": "Rambla Costanera - Radar (Rambla Costanera - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.889279,
    "longitude": -55.270638,
@@ -1093,12 +1096,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Rambla Costanera - Radar",
+   "display_name": "Rambla Costanera - Radar (Rambla Costanera - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n10187397977",
-   "name": "Bulevar General Artigas - Radar",
+   "name": "Bulevar General Artigas - Radar (Bulevar General Artigas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.889252,
    "longitude": -56.165559,
@@ -1119,12 +1122,12 @@
     "reference": "node/10187397977"
    },
    "road_label": "Bulevar General Artigas",
-   "display_name": "Bulevar General Artigas - Radar",
+   "display_name": "Bulevar General Artigas - Radar (Bulevar General Artigas - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n13464257237",
-   "name": "Nueva Palmira - Radar",
+   "name": "Nueva Palmira - Radar (Nueva Palmira - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.888998,
    "longitude": -56.177185,
@@ -1147,12 +1150,12 @@
     "reference": "node/13464257237"
    },
    "road_label": "Nueva Palmira",
-   "display_name": "Nueva Palmira - Radar",
+   "display_name": "Nueva Palmira - Radar (Nueva Palmira - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n10187397978",
-   "name": "Bulevar General Artigas - Radar",
+   "name": "Bulevar General Artigas - Radar (Bulevar General Artigas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.888419,
    "longitude": -56.165676,
@@ -1173,12 +1176,12 @@
     "reference": "node/10187397978"
    },
    "road_label": "Bulevar General Artigas",
-   "display_name": "Bulevar General Artigas - Radar",
+   "display_name": "Bulevar General Artigas - Radar (Bulevar General Artigas - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11055552387",
-   "name": "Ruta 10 - Radar",
+   "name": "Ruta 10 - Radar (Ruta 10 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.887488,
    "longitude": -54.782774,
@@ -1202,12 +1205,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "tertiary",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta 10 - Radar",
+   "display_name": "Ruta 10 - Radar (Ruta 10 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n5560079524",
-   "name": "Avenida Italia - Radar",
+   "name": "Avenida Italia - Radar (Avenida Italia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.88724,
    "longitude": -56.114017,
@@ -1228,12 +1231,12 @@
     "reference": "node/5560079524"
    },
    "road_label": "Avenida Italia",
-   "display_name": "Avenida Italia - Radar",
+   "display_name": "Avenida Italia - Radar (Avenida Italia - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n4536020729",
-   "name": "Avenida Italia - Radar",
+   "name": "Avenida Italia - Radar (Avenida Italia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.887224,
    "longitude": -56.121766,
@@ -1254,12 +1257,12 @@
     "reference": "node/4536020729"
    },
    "road_label": "Avenida Italia",
-   "display_name": "Avenida Italia - Radar",
+   "display_name": "Avenida Italia - Radar (Avenida Italia - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n8808058055",
-   "name": "General Urquiza - Radar",
+   "name": "General Urquiza - Radar (General Urquiza - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.887048,
    "longitude": -56.15949,
@@ -1280,12 +1283,12 @@
     "reference": "node/8808058055"
    },
    "road_label": "General Urquiza",
-   "display_name": "General Urquiza - Radar",
+   "display_name": "General Urquiza - Radar (General Urquiza - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n6018626055",
-   "name": "Avenida Italia - Cámara de tránsito",
+   "name": "Avenida Italia - Cámara de tránsito (Avenida Italia - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -34.886719,
    "longitude": -56.138599,
@@ -1306,12 +1309,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Italia - Cámara de tránsito",
+   "display_name": "Avenida Italia - Cámara de tránsito (Avenida Italia - Cámara de tránsito)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n5621005684",
-   "name": "Bulevar José Batlle y Ordóñez - Radar",
+   "name": "Bulevar José Batlle y Ordóñez - Radar (Bulevar José Batlle y Ordóñez - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.885449,
    "longitude": -56.139241,
@@ -1332,12 +1335,12 @@
     "reference": "node/5621005684"
    },
    "road_label": "Bulevar José Batlle y Ordóñez",
-   "display_name": "Bulevar José Batlle y Ordóñez - Radar",
+   "display_name": "Bulevar José Batlle y Ordóñez - Radar (Bulevar José Batlle y Ordóñez - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n10187103367",
-   "name": "Avenida Italia - Radar",
+   "name": "Avenida Italia - Radar (Avenida Italia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.883678,
    "longitude": -56.091042,
@@ -1358,12 +1361,12 @@
     "reference": "node/10187103367"
    },
    "road_label": "Avenida Italia",
-   "display_name": "Avenida Italia - Radar",
+   "display_name": "Avenida Italia - Radar (Avenida Italia - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n10187103368",
-   "name": "Avenida Italia - Radar",
+   "name": "Avenida Italia - Radar (Avenida Italia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.883467,
    "longitude": -56.090232,
@@ -1384,12 +1387,12 @@
     "reference": "node/10187103368"
    },
    "road_label": "Avenida Italia",
-   "display_name": "Avenida Italia - Radar",
+   "display_name": "Avenida Italia - Radar (Avenida Italia - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n13464256389",
-   "name": "Jujuy - Radar",
+   "name": "Jujuy - Radar (Jujuy - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.882685,
    "longitude": -56.19618,
@@ -1412,12 +1415,12 @@
     "reference": "node/13464256389"
    },
    "road_label": "Jujuy",
-   "display_name": "Jujuy - Radar",
+   "display_name": "Jujuy - Radar (Jujuy - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12478366774",
-   "name": "Ruta Interbalnearia - Radar",
+   "name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.882097,
    "longitude": -55.046292,
@@ -1441,12 +1444,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta Interbalnearia - Radar",
+   "display_name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n6289899663",
-   "name": "Del Portezuelo - Radar",
+   "name": "Del Portezuelo - Radar (Del Portezuelo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.881922,
    "longitude": -55.047246,
@@ -1467,12 +1470,12 @@
     "reference": "node/6289899663"
    },
    "road_label": "Del Portezuelo",
-   "display_name": "Del Portezuelo - Radar",
+   "display_name": "Del Portezuelo - Radar (Del Portezuelo - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12581367359",
-   "name": "Del Portezuelo - Radar",
+   "name": "Del Portezuelo - Radar (Del Portezuelo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.877752,
    "longitude": -55.056986,
@@ -1493,12 +1496,12 @@
     "reference": "node/12581367359"
    },
    "road_label": "Del Portezuelo",
-   "display_name": "Del Portezuelo - Radar",
+   "display_name": "Del Portezuelo - Radar (Del Portezuelo - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11578306919",
-   "name": "Rambla General Liber Seregni - Radar",
+   "name": "Rambla General Liber Seregni - Radar (Rambla General Liber Seregni - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.877683,
    "longitude": -56.028585,
@@ -1519,12 +1522,12 @@
     "reference": "node/11578306919"
    },
    "road_label": "Rambla General Liber Seregni",
-   "display_name": "Rambla General Liber Seregni - Radar",
+   "display_name": "Rambla General Liber Seregni - Radar (Rambla General Liber Seregni - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n13464232336",
-   "name": "Juan Jacobo Rousseau - Radar",
+   "name": "Juan Jacobo Rousseau - Radar (Juan Jacobo Rousseau - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.876164,
    "longitude": -56.146569,
@@ -1547,12 +1550,12 @@
     "reference": "node/13464232336"
    },
    "road_label": "Juan Jacobo Rousseau",
-   "display_name": "Juan Jacobo Rousseau - Radar",
+   "display_name": "Juan Jacobo Rousseau - Radar (Juan Jacobo Rousseau - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n4577933250",
-   "name": "Avenida Italia - Radar",
+   "name": "Avenida Italia - Radar (Avenida Italia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.876155,
    "longitude": -56.04582,
@@ -1573,12 +1576,12 @@
     "reference": "node/4577933250"
    },
    "road_label": "Avenida Italia",
-   "display_name": "Avenida Italia - Radar",
+   "display_name": "Avenida Italia - Radar (Avenida Italia - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n4565452813",
-   "name": "Bulevar General Artigas - Radar",
+   "name": "Bulevar General Artigas - Radar (Bulevar General Artigas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.87521,
    "longitude": -56.16697,
@@ -1599,12 +1602,12 @@
     "reference": "node/4565452813"
    },
    "road_label": "Bulevar General Artigas",
-   "display_name": "Bulevar General Artigas - Radar",
+   "display_name": "Bulevar General Artigas - Radar (Bulevar General Artigas - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n6275263412",
-   "name": "Avenida Luis Alberto de Herrera - Radar",
+   "name": "Avenida Luis Alberto de Herrera - Radar (Avenida Luis Alberto de Herrera - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.874863,
    "longitude": -56.158611,
@@ -1625,12 +1628,12 @@
     "reference": "node/6275263412"
    },
    "road_label": "Avenida Luis Alberto de Herrera",
-   "display_name": "Avenida Luis Alberto de Herrera - Radar",
+   "display_name": "Avenida Luis Alberto de Herrera - Radar (Avenida Luis Alberto de Herrera - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11028616010",
-   "name": "Avenida 8 de Octubre - Radar",
+   "name": "Avenida 8 de Octubre - Radar (Avenida 8 de Octubre - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.87397,
    "longitude": -56.138494,
@@ -1651,12 +1654,12 @@
     "reference": "node/11028616010"
    },
    "road_label": "Avenida 8 de Octubre",
-   "display_name": "Avenida 8 de Octubre - Radar",
+   "display_name": "Avenida 8 de Octubre - Radar (Avenida 8 de Octubre - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11142045606",
-   "name": "Rambla Doctor Baltasar Brum - Radar",
+   "name": "Rambla Doctor Baltasar Brum - Radar (Rambla Doctor Baltasar Brum - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.872575,
    "longitude": -56.234417,
@@ -1677,7 +1680,7 @@
     "reference": "node/11142045606"
    },
    "road_label": "Rambla Doctor Baltasar Brum",
-   "display_name": "Rambla Doctor Baltasar Brum - Radar",
+   "display_name": "Rambla Doctor Baltasar Brum - Radar (Rambla Doctor Baltasar Brum - Radar)",
    "country": "UY"
   },
   {
@@ -1713,7 +1716,7 @@
   },
   {
    "radar_id": "osm-uy-n6275464421",
-   "name": "Bulevar General Artigas - Radar",
+   "name": "Bulevar General Artigas - Radar (Bulevar General Artigas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.871289,
    "longitude": -56.189944,
@@ -1734,7 +1737,7 @@
     "reference": "node/6275464421"
    },
    "road_label": "Bulevar General Artigas",
-   "display_name": "Bulevar General Artigas - Radar",
+   "display_name": "Bulevar General Artigas - Radar (Bulevar General Artigas - Radar)",
    "country": "UY"
   },
   {
@@ -1766,7 +1769,7 @@
   },
   {
    "radar_id": "osm-uy-n4577991673",
-   "name": "Bulevar General Artigas - Radar",
+   "name": "Bulevar General Artigas - Radar (Bulevar General Artigas - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.870021,
    "longitude": -56.16947,
@@ -1787,12 +1790,12 @@
     "reference": "node/4577991673"
    },
    "road_label": "Bulevar General Artigas",
-   "display_name": "Bulevar General Artigas - Radar",
+   "display_name": "Bulevar General Artigas - Radar (Bulevar General Artigas - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n6275436036",
-   "name": "Avenida Carlos María Ramírez - Radar",
+   "name": "Avenida Carlos María Ramírez - Radar (Avenida Carlos María Ramírez - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.869367,
    "longitude": -56.240181,
@@ -1813,12 +1816,12 @@
     "reference": "node/6275436036"
    },
    "road_label": "Avenida Carlos María Ramírez",
-   "display_name": "Avenida Carlos María Ramírez - Radar",
+   "display_name": "Avenida Carlos María Ramírez - Radar (Avenida Carlos María Ramírez - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n5852414685",
-   "name": "Avenida Luis Alberto de Herrera - Cámara de tránsito",
+   "name": "Avenida Luis Alberto de Herrera - Cámara de tránsito (Avenida Luis Alberto de Herrera - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -34.868449,
    "longitude": -56.169001,
@@ -1839,7 +1842,7 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Luis Alberto de Herrera - Cámara de tránsito",
+   "display_name": "Avenida Luis Alberto de Herrera - Cámara de tránsito (Avenida Luis Alberto de Herrera - Cámara de tránsito)",
    "country": "UY"
   },
   {
@@ -1898,7 +1901,7 @@
   },
   {
    "radar_id": "osm-uy-n4726140491",
-   "name": "Avenida Millán - Radar",
+   "name": "Avenida Millán - Radar (Avenida Millán - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.865873,
    "longitude": -56.192575,
@@ -1919,7 +1922,7 @@
     "reference": "node/4726140491"
    },
    "road_label": "Avenida Millán",
-   "display_name": "Avenida Millán - Radar",
+   "display_name": "Avenida Millán - Radar (Avenida Millán - Radar)",
    "country": "UY"
   },
   {
@@ -1952,7 +1955,7 @@
   },
   {
    "radar_id": "osm-uy-n11009944579",
-   "name": "Avenida Cibils - Radar",
+   "name": "Avenida Cibils - Radar (Avenida Cibils - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.864621,
    "longitude": -56.268468,
@@ -1973,7 +1976,7 @@
     "reference": "node/11009944579"
    },
    "road_label": "Avenida Cibils",
-   "display_name": "Avenida Cibils - Radar",
+   "display_name": "Avenida Cibils - Radar (Avenida Cibils - Radar)",
    "country": "UY"
   },
   {
@@ -2010,7 +2013,7 @@
   },
   {
    "radar_id": "osm-uy-n13783850349",
-   "name": "Avenida Dámaso Antonio Larrañaga - Radar",
+   "name": "Avenida Dámaso Antonio Larrañaga - Radar (Avenida Dámaso Antonio Larrañaga - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.86444,
    "longitude": -56.152071,
@@ -2031,7 +2034,7 @@
     "reference": "node/13783850349"
    },
    "road_label": "Avenida Dámaso Antonio Larrañaga",
-   "display_name": "Avenida Dámaso Antonio Larrañaga - Radar",
+   "display_name": "Avenida Dámaso Antonio Larrañaga - Radar (Avenida Dámaso Antonio Larrañaga - Radar)",
    "country": "UY"
   },
   {
@@ -2067,7 +2070,7 @@
   },
   {
    "radar_id": "osm-uy-n6275466781",
-   "name": "Avenida Agraciada - Radar",
+   "name": "Avenida Agraciada - Radar (Avenida Agraciada - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.8641,
    "longitude": -56.21011,
@@ -2088,7 +2091,7 @@
     "reference": "node/6275466781"
    },
    "road_label": "Avenida Agraciada",
-   "display_name": "Avenida Agraciada - Radar",
+   "display_name": "Avenida Agraciada - Radar (Avenida Agraciada - Radar)",
    "country": "UY"
   },
   {
@@ -2124,7 +2127,7 @@
   },
   {
    "radar_id": "osm-uy-n10187173084",
-   "name": "Avenida Burgues - Radar",
+   "name": "Avenida Burgues - Radar (Avenida Burgues - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.863777,
    "longitude": -56.18674,
@@ -2145,12 +2148,12 @@
     "reference": "node/10187173084"
    },
    "road_label": "Avenida Burgues",
-   "display_name": "Avenida Burgues - Radar",
+   "display_name": "Avenida Burgues - Radar (Avenida Burgues - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n10187177683",
-   "name": "Luis Sacarello - Radar",
+   "name": "Luis Sacarello - Radar (Luis Sacarello - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.86358,
    "longitude": -56.122573,
@@ -2171,12 +2174,12 @@
     "reference": "node/10187177683"
    },
    "road_label": "Luis Sacarello",
-   "display_name": "Luis Sacarello - Radar",
+   "display_name": "Luis Sacarello - Radar (Luis Sacarello - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n6618136285",
-   "name": "Avenida Dámaso Antonio Larrañaga - Radar",
+   "name": "Avenida Dámaso Antonio Larrañaga - Radar (Avenida Dámaso Antonio Larrañaga - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.863503,
    "longitude": -56.152044,
@@ -2197,12 +2200,12 @@
     "reference": "node/6618136285"
    },
    "road_label": "Avenida Dámaso Antonio Larrañaga",
-   "display_name": "Avenida Dámaso Antonio Larrañaga - Radar",
+   "display_name": "Avenida Dámaso Antonio Larrañaga - Radar (Avenida Dámaso Antonio Larrañaga - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12324809328",
-   "name": "Avenida Wilson Ferreira Aldunate - Radar",
+   "name": "Avenida Wilson Ferreira Aldunate - Radar (Avenida Wilson Ferreira Aldunate - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.862759,
    "longitude": -56.054919,
@@ -2223,12 +2226,12 @@
     "reference": "node/12324809328"
    },
    "road_label": "Avenida Wilson Ferreira Aldunate",
-   "display_name": "Avenida Wilson Ferreira Aldunate - Radar",
+   "display_name": "Avenida Wilson Ferreira Aldunate - Radar (Avenida Wilson Ferreira Aldunate - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11010017331",
-   "name": "Avenida José Pedro Varela - Radar",
+   "name": "Avenida José Pedro Varela - Radar (Avenida José Pedro Varela - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.861491,
    "longitude": -56.148019,
@@ -2249,12 +2252,12 @@
     "reference": "node/11010017331"
    },
    "road_label": "Avenida José Pedro Varela",
-   "display_name": "Avenida José Pedro Varela - Radar",
+   "display_name": "Avenida José Pedro Varela - Radar (Avenida José Pedro Varela - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12614579038",
-   "name": "Misiones - Radar",
+   "name": "Misiones - Radar (Misiones - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.857295,
    "longitude": -55.281028,
@@ -2275,12 +2278,12 @@
     "reference": "node/12614579038"
    },
    "road_label": "Misiones",
-   "display_name": "Misiones - Radar",
+   "display_name": "Misiones - Radar (Misiones - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11045845939",
-   "name": "Rambla General Liber Seregni - Radar",
+   "name": "Rambla General Liber Seregni - Radar (Rambla General Liber Seregni - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.857001,
    "longitude": -55.991206,
@@ -2301,12 +2304,12 @@
     "reference": "node/11045845939"
    },
    "road_label": "Rambla General Liber Seregni",
-   "display_name": "Rambla General Liber Seregni - Radar",
+   "display_name": "Rambla General Liber Seregni - Radar (Rambla General Liber Seregni - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n2484187424",
-   "name": "39 - Radar",
+   "name": "39 - Radar (39 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.856616,
    "longitude": -54.943962,
@@ -2329,12 +2332,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "39 - Radar",
+   "display_name": "39 - Radar (39 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12613917062",
-   "name": "Rambla de Los Argentinos - Radar",
+   "name": "Rambla de Los Argentinos - Radar (Rambla de Los Argentinos - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.856561,
    "longitude": -55.291682,
@@ -2355,12 +2358,12 @@
     "reference": "node/12613917062"
    },
    "road_label": "Rambla de Los Argentinos",
-   "display_name": "Rambla de Los Argentinos - Radar",
+   "display_name": "Rambla de Los Argentinos - Radar (Rambla de Los Argentinos - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12613935348",
-   "name": "Rambla de Los Argentinos - Radar",
+   "name": "Rambla de Los Argentinos - Radar (Rambla de Los Argentinos - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.856161,
    "longitude": -55.29254,
@@ -2381,12 +2384,12 @@
     "reference": "node/12613935348"
    },
    "road_label": "Rambla de Los Argentinos",
-   "display_name": "Rambla de Los Argentinos - Radar",
+   "display_name": "Rambla de Los Argentinos - Radar (Rambla de Los Argentinos - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n13743329542",
-   "name": "Ruta 37 - Radar",
+   "name": "Ruta 37 - Radar (Ruta 37 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.85374,
    "longitude": -55.277513,
@@ -2409,12 +2412,12 @@
    "road_label": "Ruta 37",
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "tertiary",
-   "display_name": "Ruta 37 - Radar",
+   "display_name": "Ruta 37 - Radar (Ruta 37 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n13743349946",
-   "name": "Ruta 37 - Radar",
+   "name": "Ruta 37 - Radar (Ruta 37 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.852387,
    "longitude": -55.27657,
@@ -2437,12 +2440,12 @@
    "road_label": "Ruta 37",
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "tertiary",
-   "display_name": "Ruta 37 - Radar",
+   "display_name": "Ruta 37 - Radar (Ruta 37 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n8421652257",
-   "name": "Bulevar José Batlle y Ordóñez - Radar",
+   "name": "Bulevar José Batlle y Ordóñez - Radar (Bulevar José Batlle y Ordóñez - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.851453,
    "longitude": -56.183676,
@@ -2463,12 +2466,12 @@
     "reference": "node/8421652257"
    },
    "road_label": "Bulevar José Batlle y Ordóñez",
-   "display_name": "Bulevar José Batlle y Ordóñez - Radar",
+   "display_name": "Bulevar José Batlle y Ordóñez - Radar (Bulevar José Batlle y Ordóñez - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11010147454",
-   "name": "José Llupes - Radar",
+   "name": "José Llupes - Radar (José Llupes - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.851273,
    "longitude": -56.228391,
@@ -2489,12 +2492,12 @@
     "reference": "node/11010147454"
    },
    "road_label": "José Llupes",
-   "display_name": "José Llupes - Radar",
+   "display_name": "José Llupes - Radar (José Llupes - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12324810712",
-   "name": "Avenida Wilson Ferreira Aldunate - Radar",
+   "name": "Avenida Wilson Ferreira Aldunate - Radar (Avenida Wilson Ferreira Aldunate - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.848538,
    "longitude": -56.032743,
@@ -2515,12 +2518,12 @@
     "reference": "node/12324810712"
    },
    "road_label": "Avenida Wilson Ferreira Aldunate",
-   "display_name": "Avenida Wilson Ferreira Aldunate - Radar",
+   "display_name": "Avenida Wilson Ferreira Aldunate - Radar (Avenida Wilson Ferreira Aldunate - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11132865484",
-   "name": "Avenida Ingeniero Luis Giannattasio - Radar",
+   "name": "Avenida Ingeniero Luis Giannattasio - Radar (Avenida Ingeniero Luis Giannattasio - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.846406,
    "longitude": -56.002639,
@@ -2541,12 +2544,12 @@
     "reference": "node/11132865484"
    },
    "road_label": "Avenida Ingeniero Luis Giannattasio",
-   "display_name": "Avenida Ingeniero Luis Giannattasio - Radar",
+   "display_name": "Avenida Ingeniero Luis Giannattasio - Radar (Avenida Ingeniero Luis Giannattasio - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11016885830",
-   "name": "Santa Lucía - Radar",
+   "name": "Santa Lucía - Radar (Santa Lucía - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.845557,
    "longitude": -56.236768,
@@ -2567,12 +2570,12 @@
     "reference": "node/11016885830"
    },
    "road_label": "Santa Lucía",
-   "display_name": "Santa Lucía - Radar",
+   "display_name": "Santa Lucía - Radar (Santa Lucía - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11009979745",
-   "name": "Avenida Cibils - Radar",
+   "name": "Avenida Cibils - Radar (Avenida Cibils - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.845243,
    "longitude": -56.272987,
@@ -2593,12 +2596,12 @@
     "reference": "node/11009979745"
    },
    "road_label": "Avenida Cibils",
-   "display_name": "Avenida Cibils - Radar",
+   "display_name": "Avenida Cibils - Radar (Avenida Cibils - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n6275427373",
-   "name": "Avenida General Flores - Radar",
+   "name": "Avenida General Flores - Radar (Avenida General Flores - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.842498,
    "longitude": -56.152029,
@@ -2619,12 +2622,12 @@
     "reference": "node/6275427373"
    },
    "road_label": "Avenida General Flores",
-   "display_name": "Avenida General Flores - Radar",
+   "display_name": "Avenida General Flores - Radar (Avenida General Flores - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n6721989889",
-   "name": "Bulevar José Batlle y Ordóñez - Radar",
+   "name": "Bulevar José Batlle y Ordóñez - Radar (Bulevar José Batlle y Ordóñez - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.841181,
    "longitude": -56.196933,
@@ -2645,12 +2648,12 @@
     "reference": "node/6721989889"
    },
    "road_label": "Bulevar José Batlle y Ordóñez",
-   "display_name": "Bulevar José Batlle y Ordóñez - Radar",
+   "display_name": "Bulevar José Batlle y Ordóñez - Radar (Bulevar José Batlle y Ordóñez - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12098132961",
-   "name": "Bulevar José Batlle y Ordóñez - Radar",
+   "name": "Bulevar José Batlle y Ordóñez - Radar (Bulevar José Batlle y Ordóñez - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.840823,
    "longitude": -56.197519,
@@ -2671,12 +2674,12 @@
     "reference": "node/12098132961"
    },
    "road_label": "Bulevar José Batlle y Ordóñez",
-   "display_name": "Bulevar José Batlle y Ordóñez - Radar",
+   "display_name": "Bulevar José Batlle y Ordóñez - Radar (Bulevar José Batlle y Ordóñez - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12613917839",
-   "name": "Ruta 10 - Radar",
+   "name": "Ruta 10 - Radar (Ruta 10 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.840514,
    "longitude": -55.302949,
@@ -2699,12 +2702,12 @@
    "road_label": "Ruta 10",
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
-   "display_name": "Ruta 10 - Radar",
+   "display_name": "Ruta 10 - Radar (Ruta 10 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12337857971",
-   "name": "Ruta 10 - Radar",
+   "name": "Ruta 10 - Radar (Ruta 10 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.839836,
    "longitude": -55.303739,
@@ -2727,12 +2730,12 @@
    "road_label": "Ruta 10",
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
-   "display_name": "Ruta 10 - Radar",
+   "display_name": "Ruta 10 - Radar (Ruta 10 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n13743078453",
-   "name": "Ruta 37 - Radar",
+   "name": "Ruta 37 - Radar (Ruta 37 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.839644,
    "longitude": -55.265816,
@@ -2755,12 +2758,12 @@
    "road_label": "Ruta 37",
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "residential",
-   "display_name": "Ruta 37 - Radar",
+   "display_name": "Ruta 37 - Radar (Ruta 37 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n6275450615",
-   "name": "Camino Maldonado - Radar",
+   "name": "Camino Maldonado - Radar (Camino Maldonado - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.837845,
    "longitude": -56.117988,
@@ -2781,12 +2784,12 @@
     "reference": "node/6275450615"
    },
    "road_label": "Camino Maldonado",
-   "display_name": "Camino Maldonado - Radar",
+   "display_name": "Camino Maldonado - Radar (Camino Maldonado - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11005602964",
-   "name": "Rambla General Liber Seregni - Radar",
+   "name": "Rambla General Liber Seregni - Radar (Rambla General Liber Seregni - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.832623,
    "longitude": -55.950638,
@@ -2807,12 +2810,12 @@
     "reference": "node/11005602964"
    },
    "road_label": "Rambla General Liber Seregni",
-   "display_name": "Rambla General Liber Seregni - Radar",
+   "display_name": "Rambla General Liber Seregni - Radar (Rambla General Liber Seregni - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11050165197",
-   "name": "Avenida General San Martín - Radar",
+   "name": "Avenida General San Martín - Radar (Avenida General San Martín - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.832262,
    "longitude": -56.167892,
@@ -2833,12 +2836,12 @@
     "reference": "node/11050165197"
    },
    "road_label": "Avenida General San Martín",
-   "display_name": "Avenida General San Martín - Radar",
+   "display_name": "Avenida General San Martín - Radar (Avenida General San Martín - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11128905329",
-   "name": "Ruta Interbalnearia - Radar",
+   "name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.827346,
    "longitude": -56.002057,
@@ -2862,7 +2865,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 75,
-   "display_name": "Ruta Interbalnearia - Radar",
+   "display_name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "country": "UY"
   },
   {
@@ -2959,7 +2962,7 @@
   },
   {
    "radar_id": "osm-uy-n11132867088",
-   "name": "Avenida Ingeniero Luis Giannattasio - Radar",
+   "name": "Avenida Ingeniero Luis Giannattasio - Radar (Avenida Ingeniero Luis Giannattasio - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.820374,
    "longitude": -55.956033,
@@ -2980,7 +2983,7 @@
     "reference": "node/11132867088"
    },
    "road_label": "Avenida Ingeniero Luis Giannattasio",
-   "display_name": "Avenida Ingeniero Luis Giannattasio - Radar",
+   "display_name": "Avenida Ingeniero Luis Giannattasio - Radar (Avenida Ingeniero Luis Giannattasio - Radar)",
    "country": "UY"
   },
   {
@@ -3041,7 +3044,7 @@
   },
   {
    "radar_id": "osm-uy-n12669414100",
-   "name": "Ruta 102 - Radar",
+   "name": "Ruta 102 - Radar (Ruta 102 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.813091,
    "longitude": -56.036236,
@@ -3065,7 +3068,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta 102 - Radar",
+   "display_name": "Ruta 102 - Radar (Ruta 102 - Radar)",
    "country": "UY"
   },
   {
@@ -3098,7 +3101,7 @@
   },
   {
    "radar_id": "osm-uy-n6275430123",
-   "name": "Avenida General Eugenio Garzón - Radar",
+   "name": "Avenida General Eugenio Garzón - Radar (Avenida General Eugenio Garzón - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.810294,
    "longitude": -56.221242,
@@ -3119,12 +3122,12 @@
     "reference": "node/6275430123"
    },
    "road_label": "Avenida General Eugenio Garzón",
-   "display_name": "Avenida General Eugenio Garzón - Radar",
+   "display_name": "Avenida General Eugenio Garzón - Radar (Avenida General Eugenio Garzón - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11005594133",
-   "name": "Avenida José \"Pepe\" D'Elía - Radar",
+   "name": "Avenida José \"Pepe\" D'Elía - Radar (Avenida José \"Pepe\" D'Elía - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.807974,
    "longitude": -55.911524,
@@ -3145,12 +3148,12 @@
     "reference": "node/11005594133"
    },
    "road_label": "Avenida José \"Pepe\" D'Elía",
-   "display_name": "Avenida José \"Pepe\" D'Elía - Radar",
+   "display_name": "Avenida José \"Pepe\" D'Elía - Radar (Avenida José \"Pepe\" D'Elía - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12550770805",
-   "name": "Avenida Ingeniero Luis Giannattasio - Radar",
+   "name": "Avenida Ingeniero Luis Giannattasio - Radar (Avenida Ingeniero Luis Giannattasio - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.805877,
    "longitude": -55.929217,
@@ -3171,7 +3174,7 @@
     "reference": "node/12550770805"
    },
    "road_label": "Avenida Ingeniero Luis Giannattasio",
-   "display_name": "Avenida Ingeniero Luis Giannattasio - Radar",
+   "display_name": "Avenida Ingeniero Luis Giannattasio - Radar (Avenida Ingeniero Luis Giannattasio - Radar)",
    "country": "UY"
   },
   {
@@ -3208,7 +3211,7 @@
   },
   {
    "radar_id": "osm-uy-n13589673564",
-   "name": "Ruta 5 - Radar",
+   "name": "Ruta 5 - Radar (Ruta 5 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.802565,
    "longitude": -56.263242,
@@ -3234,12 +3237,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 90,
-   "display_name": "Ruta 5 - Radar",
+   "display_name": "Ruta 5 - Radar (Ruta 5 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11050058545",
-   "name": "Avenida José Belloni - Radar",
+   "name": "Avenida José Belloni - Radar (Avenida José Belloni - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.80255,
    "longitude": -56.136685,
@@ -3260,12 +3263,12 @@
     "reference": "node/11050058545"
    },
    "road_label": "Avenida José Belloni",
-   "display_name": "Avenida José Belloni - Radar",
+   "display_name": "Avenida José Belloni - Radar (Avenida José Belloni - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11128870056",
-   "name": "Ruta Interbalnearia - Radar",
+   "name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.801136,
    "longitude": -55.951063,
@@ -3289,7 +3292,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 75,
-   "display_name": "Ruta Interbalnearia - Radar",
+   "display_name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "country": "UY"
   },
   {
@@ -3348,7 +3351,7 @@
   },
   {
    "radar_id": "osm-uy-n1759120116",
-   "name": "Ruta 5 - Radar",
+   "name": "Ruta 5 - Radar (Ruta 5 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.799522,
    "longitude": -56.264794,
@@ -3374,7 +3377,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 90,
-   "display_name": "Ruta 5 - Radar",
+   "display_name": "Ruta 5 - Radar (Ruta 5 - Radar)",
    "country": "UY"
   },
   {
@@ -3414,7 +3417,7 @@
   },
   {
    "radar_id": "osm-uy-n11050058546",
-   "name": "Ruta César Mayo Gutiérrez - Radar",
+   "name": "Ruta César Mayo Gutiérrez - Radar (Ruta César Mayo Gutiérrez - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.797042,
    "longitude": -56.224709,
@@ -3438,7 +3441,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "secondary",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta César Mayo Gutiérrez - Radar",
+   "display_name": "Ruta César Mayo Gutiérrez - Radar (Ruta César Mayo Gutiérrez - Radar)",
    "country": "UY"
   },
   {
@@ -3573,7 +3576,7 @@
   },
   {
    "radar_id": "osm-uy-n10187363939",
-   "name": "Ruta Interbalnearia - Radar",
+   "name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.784197,
    "longitude": -55.887961,
@@ -3597,7 +3600,7 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-31",
    "speed_limit_road_class": "trunk",
-   "display_name": "Ruta Interbalnearia - Radar",
+   "display_name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "country": "UY"
   },
   {
@@ -3669,7 +3672,7 @@
   },
   {
    "radar_id": "osm-uy-n11048726304",
-   "name": "Avenida Aparicio Saravia - Radar",
+   "name": "Avenida Aparicio Saravia - Radar (Avenida Aparicio Saravia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.780544,
    "longitude": -55.224716,
@@ -3690,12 +3693,12 @@
     "reference": "node/11048726304"
    },
    "road_label": "Avenida Aparicio Saravia",
-   "display_name": "Avenida Aparicio Saravia - Radar",
+   "display_name": "Avenida Aparicio Saravia - Radar (Avenida Aparicio Saravia - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12601933971",
-   "name": "Ruta Interbalnearia - Radar",
+   "name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.78005,
    "longitude": -55.872004,
@@ -3718,12 +3721,12 @@
    "road_label": "Ruta Interbalnearia",
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "residential",
-   "display_name": "Ruta Interbalnearia - Radar",
+   "display_name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12884467323",
-   "name": "Juana Tabárez - Radar",
+   "name": "Juana Tabárez - Radar (Juana Tabárez - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.778681,
    "longitude": -54.91964,
@@ -3744,12 +3747,12 @@
     "reference": "node/12884467323"
    },
    "road_label": "Juana Tabárez",
-   "display_name": "Juana Tabárez - Radar",
+   "display_name": "Juana Tabárez - Radar (Juana Tabárez - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n10187380533",
-   "name": "Ruta Interbalnearia - Radar",
+   "name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.778107,
    "longitude": -55.3936,
@@ -3773,7 +3776,7 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-31",
    "speed_limit_road_class": "trunk",
-   "display_name": "Ruta Interbalnearia - Radar",
+   "display_name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "country": "UY"
   },
   {
@@ -3810,7 +3813,7 @@
   },
   {
    "radar_id": "osm-uy-n11073148286",
-   "name": "Ruta Interbalnearia - Radar",
+   "name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.777303,
    "longitude": -55.854421,
@@ -3834,7 +3837,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "residential",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta Interbalnearia - Radar",
+   "display_name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "country": "UY"
   },
   {
@@ -3871,7 +3874,7 @@
   },
   {
    "radar_id": "osm-uy-n11073179369",
-   "name": "Ruta Interbalnearia - Radar",
+   "name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.770851,
    "longitude": -55.818041,
@@ -3895,7 +3898,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "residential",
    "speed_limit_road_kmh": 75,
-   "display_name": "Ruta Interbalnearia - Radar",
+   "display_name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "country": "UY"
   },
   {
@@ -3932,7 +3935,7 @@
   },
   {
    "radar_id": "osm-uy-n13743078454",
-   "name": "Ruta 60 - Radar",
+   "name": "Ruta 60 - Radar (Ruta 60 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.768942,
    "longitude": -55.220746,
@@ -3955,7 +3958,7 @@
    "road_label": "Ruta 60",
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "secondary",
-   "display_name": "Ruta 60 - Radar",
+   "display_name": "Ruta 60 - Radar (Ruta 60 - Radar)",
    "country": "UY"
   },
   {
@@ -3992,7 +3995,7 @@
   },
   {
    "radar_id": "osm-uy-n13589669672",
-   "name": "Ruta 5 - Radar",
+   "name": "Ruta 5 - Radar (Ruta 5 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.766378,
    "longitude": -56.265835,
@@ -4018,7 +4021,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 90,
-   "display_name": "Ruta 5 - Radar",
+   "display_name": "Ruta 5 - Radar (Ruta 5 - Radar)",
    "country": "UY"
   },
   {
@@ -4055,7 +4058,7 @@
   },
   {
    "radar_id": "osm-uy-n6812144345",
-   "name": "Ruta Interbalnearia - Radar",
+   "name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.765968,
    "longitude": -55.759164,
@@ -4079,12 +4082,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta Interbalnearia - Radar",
+   "display_name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n6812144346",
-   "name": "Ruta Interbalnearia - Radar",
+   "name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.765144,
    "longitude": -55.753279,
@@ -4108,12 +4111,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta Interbalnearia - Radar",
+   "display_name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n9695329550",
-   "name": "Ruta Interbalnearia - Radar",
+   "name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.764193,
    "longitude": -55.584743,
@@ -4137,7 +4140,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta Interbalnearia - Radar",
+   "display_name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "country": "UY"
   },
   {
@@ -4169,7 +4172,7 @@
   },
   {
    "radar_id": "osm-uy-n13591428646",
-   "name": "Ruta Interbalnearia - Radar",
+   "name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.761279,
    "longitude": -55.742216,
@@ -4195,7 +4198,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "residential",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta Interbalnearia - Radar",
+   "display_name": "Ruta Interbalnearia - Radar (Ruta Interbalnearia - Radar)",
    "country": "UY"
   },
   {
@@ -4228,7 +4231,7 @@
   },
   {
    "radar_id": "osm-uy-n11932349285",
-   "name": "Ruta 8 - Radar",
+   "name": "Ruta 8 - Radar (Ruta 8 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.757502,
    "longitude": -56.009056,
@@ -4252,7 +4255,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 90,
-   "display_name": "Ruta 8 - Radar",
+   "display_name": "Ruta 8 - Radar (Ruta 8 - Radar)",
    "country": "UY"
   },
   {
@@ -4345,7 +4348,7 @@
   },
   {
    "radar_id": "osm-uy-n9892306279",
-   "name": "Ruta 8 - Radar",
+   "name": "Ruta 8 - Radar (Ruta 8 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.726426,
    "longitude": -55.963409,
@@ -4371,7 +4374,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 90,
-   "display_name": "Ruta 8 - Radar",
+   "display_name": "Ruta 8 - Radar (Ruta 8 - Radar)",
    "country": "UY"
   },
   {
@@ -4572,7 +4575,7 @@
   },
   {
    "radar_id": "osm-uy-n12321341555",
-   "name": "Ruta 1 - Radar",
+   "name": "Ruta 1 - Radar (Ruta 1 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.643926,
    "longitude": -56.624152,
@@ -4596,7 +4599,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 75,
-   "display_name": "Ruta 1 - Radar",
+   "display_name": "Ruta 1 - Radar (Ruta 1 - Radar)",
    "country": "UY"
   },
   {
@@ -4658,7 +4661,7 @@
   },
   {
    "radar_id": "osm-uy-n12479622128",
-   "name": "Ruta 8 - Radar",
+   "name": "Ruta 8 - Radar (Ruta 8 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.592445,
    "longitude": -55.46519,
@@ -4682,12 +4685,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta 8 - Radar",
+   "display_name": "Ruta 8 - Radar (Ruta 8 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12324727457",
-   "name": "Ruta 1 - Radar",
+   "name": "Ruta 1 - Radar (Ruta 1 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.591212,
    "longitude": -56.703714,
@@ -4711,7 +4714,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 75,
-   "display_name": "Ruta 1 - Radar",
+   "display_name": "Ruta 1 - Radar (Ruta 1 - Radar)",
    "country": "UY"
   },
   {
@@ -5164,7 +5167,7 @@
   },
   {
    "radar_id": "osm-uy-n7626331386",
-   "name": "Ruta 8 - Radar",
+   "name": "Ruta 8 - Radar (Ruta 8 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.379067,
    "longitude": -55.26264,
@@ -5188,12 +5191,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta 8 - Radar",
+   "display_name": "Ruta 8 - Radar (Ruta 8 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n12383110908",
-   "name": "Ruta 8 - Radar",
+   "name": "Ruta 8 - Radar (Ruta 8 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.378916,
    "longitude": -55.256778,
@@ -5216,12 +5219,12 @@
    "road_label": "Ruta 8",
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
-   "display_name": "Ruta 8 - Radar",
+   "display_name": "Ruta 8 - Radar (Ruta 8 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n11492268509",
-   "name": "Ruta 8 - Radar",
+   "name": "Ruta 8 - Radar (Ruta 8 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.367599,
    "longitude": -55.20847,
@@ -5245,7 +5248,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta 8 - Radar",
+   "display_name": "Ruta 8 - Radar (Ruta 8 - Radar)",
    "country": "UY"
   },
   {
@@ -5278,7 +5281,7 @@
   },
   {
    "radar_id": "osm-uy-n7626481566",
-   "name": "Avenida General Flores - Radar",
+   "name": "Avenida General Flores - Radar (Avenida General Flores - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.354762,
    "longitude": -55.244481,
@@ -5299,7 +5302,7 @@
     "reference": "node/7626481566"
    },
    "road_label": "Avenida General Flores",
-   "display_name": "Avenida General Flores - Radar",
+   "display_name": "Avenida General Flores - Radar (Avenida General Flores - Radar)",
    "country": "UY"
   },
   {
@@ -5579,7 +5582,7 @@
   },
   {
    "radar_id": "osm-uy-n11048814806",
-   "name": "Ruta 9 - Radar",
+   "name": "Ruta 9 - Radar (Ruta 9 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.203677,
    "longitude": -53.852473,
@@ -5603,7 +5606,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta 9 - Radar",
+   "display_name": "Ruta 9 - Radar (Ruta 9 - Radar)",
    "country": "UY"
   },
   {
@@ -5723,7 +5726,7 @@
   },
   {
    "radar_id": "osm-uy-n12359889491",
-   "name": "21 - Radar",
+   "name": "21 - Radar (21 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.980834,
    "longitude": -58.289195,
@@ -5746,7 +5749,7 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 45 km/h a 1111 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "21 - Radar",
+   "display_name": "21 - Radar (21 - Radar)",
    "country": "UY"
   },
   {
@@ -5893,7 +5896,7 @@
   },
   {
    "radar_id": "osm-uy-n11048814805",
-   "name": "Ruta 9 - Radar",
+   "name": "Ruta 9 - Radar (Ruta 9 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.69677,
    "longitude": -53.448085,
@@ -5916,7 +5919,7 @@
    "road_label": "Ruta 9",
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
-   "display_name": "Ruta 9 - Radar",
+   "display_name": "Ruta 9 - Radar (Ruta 9 - Radar)",
    "country": "UY"
   },
   {
@@ -6234,7 +6237,7 @@
   },
   {
    "radar_id": "osm-uy-n7629514697",
-   "name": "Ruta 3 - Radar",
+   "name": "Ruta 3 - Radar (Ruta 3 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.167754,
    "longitude": -57.12805,
@@ -6257,12 +6260,12 @@
    "road_label": "Ruta 3",
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
-   "display_name": "Ruta 3 - Radar",
+   "display_name": "Ruta 3 - Radar (Ruta 3 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n10696266163",
-   "name": "Ramal 10 de Ruta 2 - Radar",
+   "name": "Ramal 10 de Ruta 2 - Radar (Ramal 10 de Ruta 2 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.140511,
    "longitude": -58.287886,
@@ -6285,12 +6288,12 @@
     "reference": "node/10696266163"
    },
    "road_label": "Ramal 10 de Ruta 2",
-   "display_name": "Ramal 10 de Ruta 2 - Radar",
+   "display_name": "Ramal 10 de Ruta 2 - Radar (Ramal 10 de Ruta 2 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n10110156669",
-   "name": "Rincón - Radar",
+   "name": "Rincón - Radar (Rincón - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.131362,
    "longitude": -58.295445,
@@ -6313,12 +6316,12 @@
     "reference": "node/10110156669"
    },
    "road_label": "Rincón",
-   "display_name": "Rincón - Radar",
+   "display_name": "Rincón - Radar (Rincón - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n10696274238",
-   "name": "Rincón - Radar",
+   "name": "Rincón - Radar (Rincón - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.127894,
    "longitude": -58.299671,
@@ -6341,12 +6344,12 @@
     "reference": "node/10696274238"
    },
    "road_label": "Rincón",
-   "display_name": "Rincón - Radar",
+   "display_name": "Rincón - Radar (Rincón - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n10110172985",
-   "name": "Rincón - Radar",
+   "name": "Rincón - Radar (Rincón - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.127005,
    "longitude": -58.30089,
@@ -6369,12 +6372,12 @@
     "reference": "node/10110172985"
    },
    "road_label": "Rincón",
-   "display_name": "Rincón - Radar",
+   "display_name": "Rincón - Radar (Rincón - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n10110156461",
-   "name": "Rincón - Radar",
+   "name": "Rincón - Radar (Rincón - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.124799,
    "longitude": -58.303644,
@@ -6397,7 +6400,7 @@
     "reference": "node/10110156461"
    },
    "road_label": "Rincón",
-   "display_name": "Rincón - Radar",
+   "display_name": "Rincón - Radar (Rincón - Radar)",
    "country": "UY"
   },
   {
@@ -6583,7 +6586,7 @@
   },
   {
    "radar_id": "osm-uy-n13465119877",
-   "name": "26 - Radar",
+   "name": "26 - Radar (26 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.601926,
    "longitude": -53.404677,
@@ -6606,7 +6609,7 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 45 km/h a 133 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "26 - Radar",
+   "display_name": "26 - Radar (26 - Radar)",
    "country": "UY"
   },
   {
@@ -6720,7 +6723,7 @@
   },
   {
    "radar_id": "osm-uy-n13465205363",
-   "name": "26 - Radar",
+   "name": "26 - Radar (26 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.380065,
    "longitude": -54.144356,
@@ -6745,12 +6748,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "26 - Radar",
+   "display_name": "26 - Radar (26 - Radar)",
    "country": "UY"
   },
   {
    "radar_id": "osm-uy-n13465205362",
-   "name": "26 - Radar",
+   "name": "26 - Radar (26 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.379883,
    "longitude": -54.143555,
@@ -6775,7 +6778,7 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "26 - Radar",
+   "display_name": "26 - Radar (26 - Radar)",
    "country": "UY"
   },
   {
@@ -6956,7 +6959,7 @@
   },
   {
    "radar_id": "osm-uy-n10577965057",
-   "name": "Ruta 3 - Radar",
+   "name": "Ruta 3 - Radar (Ruta 3 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -31.872656,
    "longitude": -57.864574,
@@ -6982,7 +6985,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 90,
-   "display_name": "Ruta 3 - Radar",
+   "display_name": "Ruta 3 - Radar (Ruta 3 - Radar)",
    "country": "UY"
   },
   {
@@ -7120,7 +7123,7 @@
   },
   {
    "radar_id": "osm-uy-n10584547161",
-   "name": "Ruta 3 - Radar",
+   "name": "Ruta 3 - Radar (Ruta 3 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -31.659689,
    "longitude": -57.891792,
@@ -7144,7 +7147,7 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "trunk",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta 3 - Radar",
+   "display_name": "Ruta 3 - Radar (Ruta 3 - Radar)",
    "country": "UY"
   },
   {
