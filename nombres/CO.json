@@ -448,7 +448,7 @@
    "lon": -76.443022,
    "nombre": "Peaje Estambul",
    "tipo": "cabina",
-   "via": "Vía Cali - Palmira",
+   "via": "Autopista Palmira",
    "ref": "25",
    "fuente": "osm",
    "cabinas": [
@@ -464,9 +464,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Vía Cali - Palmira",
+   "via_visible": "Autopista Palmira",
    "punto": "Estambul",
-   "nombre_visible": "Vía Cali - Palmira - Peaje Estambul",
+   "nombre_visible": "Autopista Palmira - Peaje Estambul",
    "confianza": "alta"
   },
   {
@@ -474,7 +474,7 @@
    "lon": -76.343319,
    "nombre": "Peaje Ciat",
    "tipo": "cabina",
-   "via": "Vía Cali - Palmira",
+   "via": "Autopista Palmira",
    "ref": "25",
    "fuente": "osm",
    "cabinas": [
@@ -490,9 +490,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Vía Cali - Palmira",
+   "via_visible": "Autopista Palmira",
    "punto": "Ciat",
-   "nombre_visible": "Vía Cali - Palmira - Peaje Ciat",
+   "nombre_visible": "Autopista Palmira - Peaje Ciat",
    "confianza": "alta"
   },
   {
@@ -3007,7 +3007,7 @@
    "lon": -73.27862,
    "nombre": "Peaje de Tuta",
    "tipo": "cabina",
-   "via": "Vía Tunja - Duitama",
+   "via": "Vía Tunja - Paipa",
    "ref": "55",
    "fuente": "osm",
    "cabinas": [
@@ -3033,9 +3033,9 @@
     ]
    },
    "pais": "CO",
-   "via_visible": "Vía Tunja - Duitama",
+   "via_visible": "Vía Tunja - Paipa",
    "punto": "de Tuta",
-   "nombre_visible": "Vía Tunja - Duitama - Peaje de Tuta",
+   "nombre_visible": "Vía Tunja - Paipa - Peaje de Tuta",
    "confianza": "alta"
   },
   {
@@ -3657,7 +3657,7 @@
    "lon": -75.432961,
    "nombre": "Peaje Trapiche",
    "tipo": "cabina",
-   "via": "Autopista Niquía - Hatillo",
+   "via": "Autopista Bello - El Hatillo",
    "ref": "25",
    "fuente": "osm",
    "cabinas": [
@@ -3679,9 +3679,9 @@
     "distancia_m": 7.6
    },
    "pais": "CO",
-   "via_visible": "Autopista Niquía - Hatillo",
+   "via_visible": "Autopista Bello - El Hatillo",
    "punto": "Trapiche",
-   "nombre_visible": "Autopista Niquía - Hatillo - Peaje Trapiche",
+   "nombre_visible": "Autopista Bello - El Hatillo - Peaje Trapiche",
    "confianza": "alta"
   },
   {
@@ -3689,7 +3689,7 @@
    "lon": -74.501344,
    "nombre": "Peaje Puerto Berrío",
    "tipo": "cabina",
-   "via": "Variante Puerto Berrio",
+   "via": "Vía Puerto Berrío - San José del Nus",
    "ref": "62",
    "fuente": "osm",
    "cabinas": [
@@ -3706,9 +3706,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Ruta 62",
+   "via_visible": "Vía Puerto Berrío - San José del Nus",
    "punto": "Puerto Berrío",
-   "nombre_visible": "Ruta 62 - Peaje Puerto Berrío",
+   "nombre_visible": "Vía Puerto Berrío - San José del Nus - Peaje Puerto Berrío",
    "confianza": "alta"
   },
   {
@@ -3752,7 +3752,7 @@
    "lon": -75.075494,
    "nombre": "Peaje Cisneros",
    "tipo": "cabina",
-   "via": "Transversal Tribuga - Arauca",
+   "via": "Vía Providencia - Cisneros",
    "ref": "62",
    "fuente": "osm",
    "cabinas": [
@@ -3774,9 +3774,9 @@
     "distancia_m": 8.5
    },
    "pais": "CO",
-   "via_visible": "Ruta 62",
+   "via_visible": "Vía Providencia - Cisneros",
    "punto": "Cisneros",
-   "nombre_visible": "Ruta 62 - Peaje Cisneros",
+   "nombre_visible": "Vía Providencia - Cisneros - Peaje Cisneros",
    "confianza": "alta"
   },
   {
@@ -3802,9 +3802,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Ruta 45A",
+   "via_visible": "Vía Piedecuesta - San Gil",
    "punto": "Curití",
-   "nombre_visible": "Ruta 45A - Peaje Curití",
+   "nombre_visible": "Vía Piedecuesta - San Gil - Peaje Curití",
    "confianza": "alta",
    "plaza": "Curití"
   },
@@ -3830,9 +3830,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "VEGACHÍ",
+   "via_visible": "Autopista al Río Magdalena 2",
    "punto": "Vegachí",
-   "nombre_visible": "VEGACHÍ - Peaje Vegachí",
+   "nombre_visible": "Autopista al Río Magdalena 2 - Peaje Vegachí",
    "confianza": "alta",
    "plaza": "Vegachí"
   },
@@ -3841,7 +3841,7 @@
    "lon": -73.952501,
    "nombre": "Peaje Aguas Negras",
    "tipo": "cabina",
-   "via": "Troncal del Magdalena Medio - Puerto Araujo - La Rochela",
+   "via": "Vía Puerto Nuevo - Puerto Araujo",
    "ref": "45",
    "fuente": "osm",
    "cabinas": [
@@ -3858,9 +3858,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Ruta 45",
+   "via_visible": "Vía Puerto Nuevo - Puerto Araujo",
    "punto": "Aguas Negras",
-   "nombre_visible": "Ruta 45 - Peaje Aguas Negras",
+   "nombre_visible": "Vía Puerto Nuevo - Puerto Araujo - Peaje Aguas Negras",
    "confianza": "alta"
   },
   {
@@ -3886,9 +3886,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Ruta 45A",
+   "via_visible": "Vía Piedecuesta - San Gil",
    "punto": "Los Curos",
-   "nombre_visible": "Ruta 45A - Peaje Los Curos",
+   "nombre_visible": "Vía Piedecuesta - San Gil - Peaje Los Curos",
    "confianza": "alta",
    "plaza": "Los Curos"
   },
@@ -3974,9 +3974,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "SANTA ISABEL",
+   "via_visible": "Autopista al Río Magdalena 2",
    "punto": "Santa Isabel",
-   "nombre_visible": "SANTA ISABEL - Peaje Santa Isabel",
+   "nombre_visible": "Autopista al Río Magdalena 2 - Peaje Santa Isabel",
    "confianza": "alta",
    "plaza": "Santa Isabel"
   },
@@ -5609,9 +5609,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Vía Bosconia - Ciénaga",
+   "via_visible": "Ruta 45",
    "punto": "Tucurinca",
-   "nombre_visible": "Vía Bosconia - Ciénaga - Peaje Tucurinca",
+   "nombre_visible": "Ruta 45 - Peaje Tucurinca",
    "confianza": "alta",
    "plaza": "Tucurinca"
   },
@@ -6192,7 +6192,7 @@
    "lon": -76.462679,
    "nombre": "Peaje Cencar",
    "tipo": "cabina",
-   "via": "Vía Aeropuerto",
+   "via": "Autopista Aeropuerto Norte",
    "ref": "23VL01",
    "fuente": "osm",
    "cabinas": [
@@ -6210,6 +6210,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-02T21:06Z",
+ "generado": "2026-11-06T04:53Z",
  "alertas": []
 }
