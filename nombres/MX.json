@@ -11,15 +11,16 @@
   "excluidas": 1,
   "posicion": {
    "umbral_m": 15.0,
-   "ok": 684,
-   "corregidas": 99,
+   "ok": 782,
+   "corregidas": 0,
    "sin_referencia": 143,
    "corrida_anterior": {
-    "ok": 788,
-    "a_mas_de_15_m": 54,
-    "sin_referencia": 83,
+    "ok": 801,
+    "a_mas_de_15_m": 56,
+    "sin_referencia": 68,
     "total": 925
-   }
+   },
+   "nota": "OpenStreetMap respondió a medias: se mantuvo la corrida anterior."
   }
  },
  "estaciones": [
@@ -28209,6 +28210,9 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-02T21:19Z",
- "alertas": []
+ "generado": "2026-11-06T05:13Z",
+ "alertas": [
+  "MX: no se pudo leer Red Nacional de Caminos 2025 (IMT / INEGI) – Plazas de cobro (403 Client Error: Forbidden for url: https://rnc.imt.mx/recursos/ShapeFiles/Plaza_cobro_shapefiles2025.zip).",
+  "MX: Salieron 555 y antes había 925: se mantiene lo anterior."
+ ]
 }
