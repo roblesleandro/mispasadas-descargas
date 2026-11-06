@@ -535,9 +535,8 @@
   {
    "lat": -25.514571,
    "lon": -54.613332,
-   "nombre": "Peaje Alejo García",
+   "nombre": "Peaje cerca de Ciudad del Este",
    "tipo": "cabina",
-   "via": "Alejo García",
    "localidad": "Ciudad del Este",
    "fuente": "armado",
    "cabinas": [
@@ -561,9 +560,8 @@
     ]
    },
    "pais": "PY",
-   "via_visible": "Alejo García",
    "punto": "Ciudad del Este",
-   "nombre_visible": "Alejo García - Peaje Ciudad del Este",
+   "nombre_visible": "Peaje Ciudad del Este",
    "confianza": "media"
   },
   {
@@ -854,10 +852,8 @@
   {
    "lat": -25.176572,
    "lon": -57.484773,
-   "nombre": "Peaje Ruta Nacional General Aquino (PY03) (2)",
+   "nombre": "Peaje cerca de Limpio",
    "tipo": "cabina",
-   "via": "Ruta Nacional General Aquino",
-   "ref": "PY03",
    "localidad": "Limpio",
    "fuente": "armado",
    "cabinas": [
@@ -872,9 +868,9 @@
     "distancia_m": 0.0
    },
    "pais": "PY",
-   "via_visible": "Ruta PY03",
+   "via_visible": "Ruta Nacional General Aquino",
    "punto": "Limpio",
-   "nombre_visible": "Ruta PY03 - Peaje Limpio",
+   "nombre_visible": "Ruta Nacional General Aquino - Peaje Limpio",
    "confianza": "media"
   },
   {
@@ -1602,6 +1598,8 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-02T20:41Z",
- "alertas": []
+ "generado": "2026-11-06T04:05Z",
+ "alertas": [
+  "Alrededores: falló un lote de 3 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+ ]
 }
