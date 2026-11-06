@@ -3961,7 +3961,7 @@
    "via": "Rodovia Cônego Domênico Rangoni",
    "ref": "SP-055",
    "km": "250",
-   "localidad": "Vicente de Carvalho",
+   "localidad": "Santos",
    "fuente": "armado",
    "cabinas": [
     {
@@ -3977,8 +3977,8 @@
    },
    "pais": "BR",
    "via_visible": "Rodovia Cônego Domênico Rangoni",
-   "punto": "Vicente de Carvalho",
-   "nombre_visible": "Rodovia Cônego Domênico Rangoni - Pedágio Vicente de Carvalho",
+   "punto": "Santos",
+   "nombre_visible": "Rodovia Cônego Domênico Rangoni - Pedágio Santos",
    "confianza": "media"
   },
   {
@@ -19291,8 +19291,8 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-01T22:45Z",
+ "generado": "2026-11-06T03:52Z",
  "alertas": [
-  "BR: no se pudo leer ANTT – Praças de pedágio (rodovias federais concedidas) (el robots.txt de dados.antt.gov.br no permite leer https://dados.antt.gov.br/dataset/praca-de-pedagio)."
+  "BR: no se pudo leer ANTT – Praças de pedágio (rodovias federais concedidas) (no se encontró un recurso «dados-dos-pracas-de-pedagio(\\d+)_(\\d{4})\\.json$» en https://dados.antt.gov.br/dataset/praca-de-pedagio (¿cambió la página?))."
  ]
 }
