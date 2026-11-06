@@ -1,7 +1,7 @@
 {
- "version": "do-2026-11-03",
+ "version": "do-2026-11-06",
  "pais": "DO",
- "generado": "2026-11-03T19:59:44+00:00",
+ "generado": "2026-11-06T14:49:56+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "INTRANT anunció fotomultas: sin listado."
@@ -56,7 +56,7 @@
  "radars": [
   {
    "radar_id": "osm-do-n14275404602",
-   "name": "Avenida Gustavo Mejía Ricart - Cámara de tránsito (Avenida Gustavo Mejía Ricart - Cámara de tránsito)",
+   "name": "Avenida Gustavo Mejía Ricart - Cámara de tránsito (Avenida Gustavo Mejía Ricart - Cámara de tránsito (Avenida Gustavo Mejía Ricart - Cámara de tránsito))",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 18.474907,
    "longitude": -69.935446,
@@ -75,12 +75,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Gustavo Mejía Ricart - Cámara de tránsito (Avenida Gustavo Mejía Ricart - Cámara de tránsito)",
+   "display_name": "Avenida Gustavo Mejía Ricart - Cámara de tránsito (Avenida Gustavo Mejía Ricart - Cámara de tránsito (Avenida Gustavo Mejía Ricart - Cámara de tránsito))",
    "country": "DO"
   },
   {
    "radar_id": "osm-do-n14275408201",
-   "name": "Calle Doctor Jacinto Ignacio Mañón - Cámara de tránsito (Calle Doctor Jacinto Ignacio Mañón - Cámara de tránsito)",
+   "name": "Calle Doctor Jacinto Ignacio Mañón - Cámara de tránsito (Calle Doctor Jacinto Ignacio Mañón - Cámara de tránsito (Calle Doctor Jacinto Ignacio Mañón - Cámara de tránsito))",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 18.481196,
    "longitude": -69.938984,
@@ -99,7 +99,7 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle Doctor Jacinto Ignacio Mañón - Cámara de tránsito (Calle Doctor Jacinto Ignacio Mañón - Cámara de tránsito)",
+   "display_name": "Calle Doctor Jacinto Ignacio Mañón - Cámara de tránsito (Calle Doctor Jacinto Ignacio Mañón - Cámara de tránsito (Calle Doctor Jacinto Ignacio Mañón - Cámara de tránsito))",
    "country": "DO"
   }
  ]
