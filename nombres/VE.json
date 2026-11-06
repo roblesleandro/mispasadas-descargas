@@ -15,8 +15,8 @@
    "corregidas": 5,
    "sin_referencia": 11,
    "corrida_anterior": {
-    "ok": 70,
-    "a_mas_de_15_m": 1,
+    "ok": 71,
+    "a_mas_de_15_m": 0,
     "sin_referencia": 11,
     "total": 82
    }
@@ -1487,9 +1487,9 @@
     "distancia_m": 0.0
    },
    "pais": "VE",
-   "via_visible": "Avenida Universidad",
+   "via_visible": "Distribuidor La Victoria",
    "punto": "La Victoria",
-   "nombre_visible": "Avenida Universidad - Peaje La Victoria",
+   "nombre_visible": "Distribuidor La Victoria - Peaje La Victoria",
    "confianza": "alta"
   },
   {
@@ -2327,7 +2327,7 @@
      "lat": 11.452026,
      "lon": -69.66456,
      "n": 1,
-     "rumbo": 210
+     "rumbo": 213
     }
    ],
    "posicion": {
@@ -2364,6 +2364,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-02T21:40Z",
+ "generado": "2026-11-06T06:05Z",
  "alertas": []
 }
