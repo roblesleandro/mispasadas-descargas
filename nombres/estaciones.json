@@ -11,9 +11,7 @@
   "total": 182,
   "sin_ruta": 2
  },
- "alertas": [
-  "UY: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo."
- ],
+ "alertas": [],
  "estaciones": [
   {
    "lat": -50.025179,
