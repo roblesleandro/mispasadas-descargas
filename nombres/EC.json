@@ -9,6 +9,12 @@
   "total": 58,
   "confianza_baja": 0,
   "excluidas": 1,
+  "tipos_filas": {
+   "CENTRAL": 71,
+   "SALIDA": 0,
+   "ENTRADA": 0,
+   "sin_tipo": 26
+  },
   "posicion": {
    "umbral_m": 15.0,
    "ok": 54,
@@ -63,7 +69,9 @@
      "lon": -79.063306,
      "n": 1,
      "rumbo": 149,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -89,7 +97,9 @@
      "lon": -79.154269,
      "n": 1,
      "rumbo": 291,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -116,13 +126,17 @@
      "lat": -3.125009,
      "lon": -79.775781,
      "n": 1,
-     "rumbo": 13
+     "rumbo": 13,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -3.124953,
      "lon": -79.775958,
      "n": 1,
-     "rumbo": 193
+     "rumbo": 193,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -149,7 +163,9 @@
      "lon": -79.061452,
      "n": 1,
      "rumbo": 77,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -175,7 +191,9 @@
      "lon": -79.003951,
      "n": 1,
      "rumbo": 196,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -202,7 +220,9 @@
      "lon": -79.051474,
      "n": 1,
      "rumbo": 80,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -229,13 +249,17 @@
      "lat": -2.790293,
      "lon": -79.703697,
      "n": 1,
-     "rumbo": 24
+     "rumbo": 24,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -2.790229,
      "lon": -79.703863,
      "n": 1,
-     "rumbo": 206
+     "rumbo": 206,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -262,7 +286,9 @@
      "lon": -79.193002,
      "n": 1,
      "rumbo": 229,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -290,7 +316,9 @@
      "lon": -79.270388,
      "n": 1,
      "rumbo": 200,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -319,7 +347,9 @@
      "lon": -79.470162,
      "n": 1,
      "rumbo": 142,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -345,13 +375,17 @@
      "lat": -2.553987,
      "lon": -79.550784,
      "n": 1,
-     "rumbo": 49
+     "rumbo": 49,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -2.553882,
      "lon": -79.550865,
      "n": 1,
-     "rumbo": 230
+     "rumbo": 230,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -377,13 +411,17 @@
      "lat": -2.391887,
      "lon": -80.435207,
      "n": 1,
-     "rumbo": 106
+     "rumbo": 106,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -2.391764,
      "lon": -80.435175,
      "n": 1,
-     "rumbo": 286
+     "rumbo": 286,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -2.391706,
@@ -415,7 +453,9 @@
      "lon": -78.146407,
      "n": 1,
      "rumbo": 131,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -442,7 +482,9 @@
      "lon": -79.238692,
      "n": 1,
      "rumbo": 82,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -469,13 +511,17 @@
      "lat": -2.232435,
      "lon": -79.639873,
      "n": 1,
-     "rumbo": 358
+     "rumbo": 358,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -2.232366,
      "lon": -79.640346,
      "n": 1,
-     "rumbo": 202
+     "rumbo": 202,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -507,7 +553,8 @@
      "lat": -2.222407,
      "lon": -80.089682,
      "n": 2,
-     "rumbo": 57
+     "rumbo": 57,
+     "ancho": 7.0
     },
     {
      "lat": -2.222258,
@@ -518,7 +565,9 @@
      "lat": -2.222146,
      "lon": -80.089813,
      "n": 1,
-     "rumbo": 237
+     "rumbo": 237,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -546,7 +595,9 @@
      "lon": -79.774963,
      "n": 1,
      "rumbo": 283,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -572,7 +623,9 @@
      "lat": -2.202298,
      "lon": -79.753551,
      "n": 4,
-     "rumbo": 114
+     "rumbo": 114,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -2.202234,
@@ -583,7 +636,9 @@
      "lat": -2.202163,
      "lon": -79.753377,
      "n": 4,
-     "rumbo": 287
+     "rumbo": 287,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -609,13 +664,17 @@
      "lat": -2.127939,
      "lon": -79.745065,
      "n": 3,
-     "rumbo": 50
+     "rumbo": 50,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -2.127822,
      "lon": -79.745192,
      "n": 3,
-     "rumbo": 229
+     "rumbo": 229,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -641,13 +700,17 @@
      "lat": -2.046316,
      "lon": -79.797228,
      "n": 1,
-     "rumbo": 101
+     "rumbo": 101,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -2.046179,
      "lon": -79.797199,
      "n": 1,
-     "rumbo": 279
+     "rumbo": 279,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -677,7 +740,9 @@
      "lat": -2.036072,
      "lon": -79.827635,
      "n": 1,
-     "rumbo": 265
+     "rumbo": 265,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -702,13 +767,17 @@
      "lat": -1.948012,
      "lon": -80.012077,
      "n": 4,
-     "rumbo": 3
+     "rumbo": 3,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -1.948008,
      "lon": -80.012272,
      "n": 4,
-     "rumbo": 183
+     "rumbo": 183,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -1.947981,
@@ -746,13 +815,17 @@
      "lat": -1.941239,
      "lon": -79.887644,
      "n": 2,
-     "rumbo": 159
+     "rumbo": 159,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -1.941201,
      "lon": -79.887538,
      "n": 2,
-     "rumbo": 340
+     "rumbo": 340,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -779,7 +852,9 @@
      "lat": -1.778683,
      "lon": -80.29442,
      "n": 2,
-     "rumbo": 116
+     "rumbo": 116,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -1.778616,
@@ -790,7 +865,9 @@
      "lat": -1.778583,
      "lon": -80.294376,
      "n": 2,
-     "rumbo": 307
+     "rumbo": 307,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -816,7 +893,9 @@
      "lat": -1.574866,
      "lon": -78.71625,
      "n": 2,
-     "rumbo": 160
+     "rumbo": 160,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -1.574847,
@@ -827,7 +906,9 @@
      "lat": -1.574782,
      "lon": -78.716039,
      "n": 2,
-     "rumbo": 340
+     "rumbo": 340,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -855,13 +936,17 @@
      "lat": -1.531834,
      "lon": -79.954307,
      "n": 2,
-     "rumbo": 177
+     "rumbo": 177,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -1.53183,
      "lon": -79.954221,
      "n": 2,
-     "rumbo": 357
+     "rumbo": 357,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -887,13 +972,17 @@
      "lat": -1.1622,
      "lon": -79.725858,
      "n": 2,
-     "rumbo": 36
+     "rumbo": 36,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -1.16215,
      "lon": -79.72593,
      "n": 2,
-     "rumbo": 216
+     "rumbo": 216,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -920,13 +1009,17 @@
      "lat": -1.074119,
      "lon": -78.596145,
      "n": 1,
-     "rumbo": 19
+     "rumbo": 19,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -1.074045,
      "lon": -78.59636,
      "n": 1,
-     "rumbo": 198
+     "rumbo": 198,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -952,7 +1045,9 @@
      "lat": -1.069103,
      "lon": -80.555604,
      "n": 4,
-     "rumbo": 142
+     "rumbo": 142,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -1.069058,
@@ -963,7 +1058,9 @@
      "lat": -1.068997,
      "lon": -80.555464,
      "n": 4,
-     "rumbo": 322
+     "rumbo": 322,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -989,7 +1086,9 @@
      "lon": -78.916583,
      "n": 1,
      "rumbo": 55,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1061,13 +1160,17 @@
      "lat": -0.545872,
      "lon": -78.585118,
      "n": 1,
-     "rumbo": 16
+     "rumbo": 16,
+     "tipo": "CENTRAL",
+     "ancho": 28.0
     },
     {
      "lat": -0.545798,
      "lon": -78.585357,
      "n": 1,
-     "rumbo": 196
+     "rumbo": 196,
+     "tipo": "CENTRAL",
+     "ancho": 28.0
     }
    ],
    "posicion": {
@@ -1093,13 +1196,17 @@
      "lat": -0.44462,
      "lon": -78.60381,
      "n": 1,
-     "rumbo": 120
+     "rumbo": 120,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -0.444533,
      "lon": -78.603759,
      "n": 1,
-     "rumbo": 299
+     "rumbo": 299,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -1150,7 +1257,9 @@
      "lon": -78.841301,
      "n": 1,
      "rumbo": 142,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -1177,13 +1286,17 @@
      "lat": -0.316348,
      "lon": -78.367807,
      "n": 1,
-     "rumbo": 36
+     "rumbo": 36,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -0.316243,
      "lon": -78.36793,
      "n": 1,
-     "rumbo": 216
+     "rumbo": 216,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1210,7 +1323,9 @@
      "lon": -79.078162,
      "n": 1,
      "rumbo": 319,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -1237,7 +1352,9 @@
      "lon": -78.442006,
      "n": 1,
      "rumbo": 104,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1262,13 +1379,17 @@
      "lat": -0.243593,
      "lon": -78.485485,
      "n": 1,
-     "rumbo": 164
+     "rumbo": 164,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     },
     {
      "lat": -0.243548,
      "lon": -78.485269,
      "n": 1,
-     "rumbo": 348
+     "rumbo": 348,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     }
    ],
    "posicion": {
@@ -1296,7 +1417,9 @@
      "lon": -78.460392,
      "n": 1,
      "rumbo": 67,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1323,7 +1446,8 @@
      "lon": -78.487857,
      "n": 1,
      "rumbo": 244,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1350,7 +1474,8 @@
      "lon": -78.493143,
      "n": 1,
      "rumbo": 354,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1376,13 +1501,15 @@
      "lat": -0.145034,
      "lon": -78.490731,
      "n": 1,
-     "rumbo": 171
+     "rumbo": 171,
+     "ancho": 7.0
     },
     {
      "lat": -0.145015,
      "lon": -78.49063,
      "n": 1,
-     "rumbo": 353
+     "rumbo": 353,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1410,14 +1537,16 @@
      "lon": -78.493448,
      "n": 1,
      "rumbo": 256,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     },
     {
      "lat": -0.140994,
      "lon": -78.497592,
      "n": 1,
      "rumbo": 108,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1488,13 +1617,17 @@
      "lat": -0.099302,
      "lon": -78.407059,
      "n": 1,
-     "rumbo": 47
+     "rumbo": 47,
+     "tipo": "CENTRAL",
+     "ancho": 24.5
     },
     {
      "lat": -0.099096,
      "lon": -78.407229,
      "n": 1,
-     "rumbo": 228
+     "rumbo": 228,
+     "tipo": "CENTRAL",
+     "ancho": 24.5
     }
    ],
    "posicion": {
@@ -1520,7 +1653,8 @@
      "lon": -78.754638,
      "n": 1,
      "rumbo": 167,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1546,7 +1680,8 @@
      "lon": -78.771906,
      "n": 1,
      "rumbo": 14,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1573,13 +1708,17 @@
      "lat": 0.004595,
      "lon": -78.201272,
      "n": 1,
-     "rumbo": 146
+     "rumbo": 146,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": 0.004686,
      "lon": -78.201132,
      "n": 1,
-     "rumbo": 325
+     "rumbo": 325,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -1606,13 +1745,17 @@
      "lat": 0.004789,
      "lon": -78.292787,
      "n": 3,
-     "rumbo": 102
+     "rumbo": 102,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": 0.004927,
      "lon": -78.292759,
      "n": 3,
-     "rumbo": 281
+     "rumbo": 281,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -1638,13 +1781,17 @@
      "lat": 0.289248,
      "lon": -78.236168,
      "n": 3,
-     "rumbo": 10
+     "rumbo": 10,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": 0.28928,
      "lon": -78.236404,
      "n": 3,
-     "rumbo": 191
+     "rumbo": 191,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -1669,7 +1816,9 @@
      "lat": 0.376516,
      "lon": -78.111163,
      "n": 1,
-     "rumbo": 104
+     "rumbo": 104,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1695,13 +1844,17 @@
      "lat": 0.468847,
      "lon": -78.04133,
      "n": 2,
-     "rumbo": 102
+     "rumbo": 102,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": 0.468943,
      "lon": -78.041302,
      "n": 2,
-     "rumbo": 282
+     "rumbo": 282,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1728,13 +1881,17 @@
      "lat": 0.604604,
      "lon": -77.800594,
      "n": 2,
-     "rumbo": 101
+     "rumbo": 101,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": 0.604697,
      "lon": -77.800573,
      "n": 2,
-     "rumbo": 280
+     "rumbo": 280,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1803,7 +1960,9 @@
      "lat": -2.146119,
      "lon": -79.884458,
      "n": 1,
-     "rumbo": 301
+     "rumbo": 301,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -2.14559,
@@ -1814,7 +1973,9 @@
      "lat": -2.145586,
      "lon": -79.88324,
      "n": 1,
-     "rumbo": 28
+     "rumbo": 28,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -1828,6 +1989,8 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-02T21:10Z",
- "alertas": []
+ "generado": "2026-11-07T13:32Z",
+ "alertas": [
+  "EC: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 400 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo."
+ ]
 }
