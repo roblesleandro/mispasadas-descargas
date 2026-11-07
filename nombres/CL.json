@@ -5,10 +5,16 @@
  "resumen": {
   "oficial": 3,
   "osm": 135,
-  "armado": 113,
-  "total": 251,
+  "armado": 114,
+  "total": 252,
   "confianza_baja": 0,
-  "excluidas": 2,
+  "excluidas": 1,
+  "tipos_filas": {
+   "CENTRAL": 252,
+   "SALIDA": 0,
+   "ENTRADA": 0,
+   "sin_tipo": 162
+  },
   "posicion": {
    "umbral_m": 15.0,
    "ok": 170,
@@ -26,7 +32,7 @@
   {
    "lat": -41.723446,
    "lon": -73.374003,
-   "nombre": "Peaje Ruta 5 Sur (47)",
+   "nombre": "Peaje Ruta 5 Sur (43)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -37,7 +43,8 @@
      "lat": -41.723446,
      "lon": -73.374003,
      "n": 1,
-     "rumbo": 203
+     "rumbo": 203,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -53,7 +60,7 @@
   {
    "lat": -41.617039,
    "lon": -73.273783,
-   "nombre": "Peaje Ruta 5 Sur (43)",
+   "nombre": "Peaje Ruta 5 Sur (41)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -64,13 +71,17 @@
      "lat": -41.617085,
      "lon": -73.273707,
      "n": 1,
-     "rumbo": 35
+     "rumbo": 35,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -41.616994,
      "lon": -73.27386,
      "n": 1,
-     "rumbo": 215
+     "rumbo": 215,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -87,10 +98,8 @@
   {
    "lat": -41.58903,
    "lon": -73.233472,
-   "nombre": "Peaje Ruta 5 Sur (42)",
+   "nombre": "Peaje cerca de Texas",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "Texas",
    "fuente": "armado",
    "cabinas": [
@@ -98,13 +107,15 @@
      "lat": -41.589405,
      "lon": -73.233298,
      "n": 1,
-     "rumbo": 55
+     "rumbo": 55,
+     "ancho": 7.0
     },
     {
      "lat": -41.58903,
      "lon": -73.233472,
      "n": 1,
-     "rumbo": 235
+     "rumbo": 235,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -125,10 +136,8 @@
   {
    "lat": -41.516688,
    "lon": -73.078186,
-   "nombre": "Peaje Ruta 5 Sur (44)",
+   "nombre": "Peaje cerca de El Tepual",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "El Tepual",
    "fuente": "armado",
    "cabinas": [
@@ -136,13 +145,15 @@
      "lat": -41.516979,
      "lon": -73.077778,
      "n": 1,
-     "rumbo": 57
+     "rumbo": 57,
+     "ancho": 3.5
     },
     {
      "lat": -41.516688,
      "lon": -73.078186,
      "n": 1,
-     "rumbo": 239
+     "rumbo": 239,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -174,13 +185,16 @@
      "lat": -41.439101,
      "lon": -72.956037,
      "n": 1,
-     "rumbo": 18
+     "rumbo": 18,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -41.438476,
      "lon": -72.956522,
      "n": 2,
-     "rumbo": 195
+     "rumbo": 195,
+     "ancho": 21.0
     }
    ],
    "posicion": {
@@ -210,7 +224,9 @@
      "lat": -41.333435,
      "lon": -72.987826,
      "n": 1,
-     "rumbo": 20
+     "rumbo": 20,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     }
    ],
    "posicion": {
@@ -237,13 +253,15 @@
      "lat": -41.319802,
      "lon": -73.007608,
      "n": 1,
-     "rumbo": 322
+     "rumbo": 322,
+     "ancho": 7.0
     },
     {
      "lat": -41.316323,
      "lon": -73.01074,
      "n": 1,
-     "rumbo": 167
+     "rumbo": 167,
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -275,13 +293,15 @@
      "lat": -41.276747,
      "lon": -73.007361,
      "n": 1,
-     "rumbo": 4
+     "rumbo": 4,
+     "ancho": 7.0
     },
     {
      "lat": -41.272176,
      "lon": -73.007425,
      "n": 1,
-     "rumbo": 183
+     "rumbo": 183,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -314,13 +334,15 @@
      "lat": -41.256259,
      "lon": -73.020461,
      "n": 1,
-     "rumbo": 326
+     "rumbo": 326,
+     "ancho": 3.5
     },
     {
      "lat": -41.2547,
      "lon": -73.023277,
      "n": 1,
-     "rumbo": 136
+     "rumbo": 136,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -352,13 +374,15 @@
      "lat": -41.219311,
      "lon": -73.052557,
      "n": 1,
-     "rumbo": 338
+     "rumbo": 338,
+     "ancho": 3.5
     },
     {
      "lat": -41.214549,
      "lon": -73.055946,
      "n": 1,
-     "rumbo": 156
+     "rumbo": 156,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -386,7 +410,8 @@
      "lat": -41.120083,
      "lon": -73.062558,
      "n": 1,
-     "rumbo": 356
+     "rumbo": 356,
+     "ancho": 12.0
     }
    ],
    "posicion": {
@@ -413,7 +438,8 @@
      "lat": -41.009143,
      "lon": -73.120332,
      "n": 1,
-     "rumbo": 8
+     "rumbo": 8,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -440,13 +466,17 @@
      "lat": -40.959117,
      "lon": -73.133997,
      "n": 1,
-     "rumbo": 167
+     "rumbo": 167,
+     "tipo": "CENTRAL",
+     "ancho": 15.0
     },
     {
      "lat": -40.959093,
      "lon": -73.13386,
      "n": 1,
-     "rumbo": 347
+     "rumbo": 347,
+     "tipo": "CENTRAL",
+     "ancho": 25.0
     }
    ],
    "posicion": {
@@ -473,7 +503,8 @@
      "lat": -40.901401,
      "lon": -73.152246,
      "n": 1,
-     "rumbo": 168
+     "rumbo": 168,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -500,7 +531,8 @@
      "lat": -40.808509,
      "lon": -73.167507,
      "n": 1,
-     "rumbo": 192
+     "rumbo": 192,
+     "ancho": 6.0
     }
    ],
    "posicion": {
@@ -527,13 +559,15 @@
      "lat": -40.594831,
      "lon": -73.09911,
      "n": 1,
-     "rumbo": 13
+     "rumbo": 13,
+     "ancho": 15.0
     },
     {
      "lat": -40.590036,
      "lon": -73.098055,
      "n": 1,
-     "rumbo": 186
+     "rumbo": 186,
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -565,13 +599,15 @@
      "lat": -40.583851,
      "lon": -73.097648,
      "n": 1,
-     "rumbo": 0
+     "rumbo": 0,
+     "ancho": 14.0
     },
     {
      "lat": -40.579419,
      "lon": -73.098143,
      "n": 1,
-     "rumbo": 178
+     "rumbo": 178,
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -603,7 +639,9 @@
      "lat": -40.561913,
      "lon": -73.10036,
      "n": 1,
-     "rumbo": 247
+     "rumbo": 247,
+     "tipo": "CENTRAL",
+     "ancho": 12.0
     }
    ],
    "posicion": {
@@ -631,7 +669,8 @@
      "lat": -40.413107,
      "lon": -73.001714,
      "n": 1,
-     "rumbo": 359
+     "rumbo": 359,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -655,7 +694,8 @@
      "lat": -40.322137,
      "lon": -72.986786,
      "n": 1,
-     "rumbo": 22
+     "rumbo": 22,
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -681,13 +721,17 @@
      "lat": -40.228159,
      "lon": -72.938711,
      "n": 1,
-     "rumbo": 21
+     "rumbo": 21,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     },
     {
      "lat": -40.228106,
      "lon": -72.938861,
      "n": 1,
-     "rumbo": 201
+     "rumbo": 201,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     }
    ],
    "posicion": {
@@ -714,7 +758,8 @@
      "lat": -40.087391,
      "lon": -72.864659,
      "n": 1,
-     "rumbo": 189
+     "rumbo": 189,
+     "ancho": 10.0
     }
    ],
    "posicion": {
@@ -741,13 +786,17 @@
      "lat": -39.480405,
      "lon": -72.80634,
      "n": 1,
-     "rumbo": 12
+     "rumbo": 12,
+     "tipo": "CENTRAL",
+     "ancho": 15.0
     },
     {
      "lat": -39.480365,
      "lon": -72.806531,
      "n": 1,
-     "rumbo": 191
+     "rumbo": 191,
+     "tipo": "CENTRAL",
+     "ancho": 15.0
     }
    ],
    "posicion": {
@@ -776,7 +825,8 @@
      "lat": -39.442302,
      "lon": -72.771481,
      "n": 1,
-     "rumbo": 250
+     "rumbo": 250,
+     "ancho": 15.0
     }
    ],
    "posicion": {
@@ -804,7 +854,8 @@
      "lat": -39.359334,
      "lon": -72.620928,
      "n": 1,
-     "rumbo": 328
+     "rumbo": 328,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -832,7 +883,8 @@
      "lat": -39.358835,
      "lon": -72.639728,
      "n": 1,
-     "rumbo": 219
+     "rumbo": 219,
+     "ancho": 15.0
     }
    ],
    "posicion": {
@@ -860,7 +912,8 @@
      "lat": -38.991293,
      "lon": -72.646876,
      "n": 1,
-     "rumbo": 31
+     "rumbo": 31,
+     "ancho": 9.0
     }
    ],
    "posicion": {
@@ -886,13 +939,17 @@
      "lat": -38.915775,
      "lon": -72.624017,
      "n": 1,
-     "rumbo": 8
+     "rumbo": 8,
+     "tipo": "CENTRAL",
+     "ancho": 18.0
     },
     {
      "lat": -38.915745,
      "lon": -72.624257,
      "n": 1,
-     "rumbo": 187
+     "rumbo": 187,
+     "tipo": "CENTRAL",
+     "ancho": 21.0
     }
    ],
    "posicion": {
@@ -917,7 +974,9 @@
      "lat": -38.782385,
      "lon": -72.611686,
      "n": 1,
-     "rumbo": 25
+     "rumbo": 25,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -945,7 +1004,8 @@
      "lat": -38.77515,
      "lon": -72.581283,
      "n": 1,
-     "rumbo": 279
+     "rumbo": 279,
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -972,7 +1032,8 @@
      "lon": -72.591974,
      "n": 1,
      "rumbo": 100,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -997,7 +1058,9 @@
      "lat": -38.664489,
      "lon": -72.488775,
      "n": 1,
-     "rumbo": 243
+     "rumbo": 243,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -1023,13 +1086,17 @@
      "lat": -38.558362,
      "lon": -71.497735,
      "n": 1,
-     "rumbo": 138
+     "rumbo": 138,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     },
     {
      "lat": -38.55832,
      "lon": -71.497671,
      "n": 1,
-     "rumbo": 320
+     "rumbo": 320,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1057,7 +1124,8 @@
      "lat": -38.547038,
      "lon": -72.457688,
      "n": 1,
-     "rumbo": 340
+     "rumbo": 340,
+     "ancho": 15.0
     }
    ],
    "posicion": {
@@ -1085,7 +1153,8 @@
      "lat": -38.522351,
      "lon": -72.456262,
      "n": 1,
-     "rumbo": 110
+     "rumbo": 110,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1112,13 +1181,17 @@
      "lat": -38.362824,
      "lon": -72.385891,
      "n": 1,
-     "rumbo": 7
+     "rumbo": 7,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     },
     {
      "lat": -38.362812,
      "lon": -72.386019,
      "n": 1,
-     "rumbo": 187
+     "rumbo": 187,
+     "tipo": "CENTRAL",
+     "ancho": 24.0
     }
    ],
    "posicion": {
@@ -1146,7 +1219,8 @@
      "lat": -38.251117,
      "lon": -72.359127,
      "n": 1,
-     "rumbo": 190
+     "rumbo": 190,
+     "ancho": 12.0
     }
    ],
    "posicion": {
@@ -1175,7 +1249,8 @@
      "lat": -38.237956,
      "lon": -72.355913,
      "n": 1,
-     "rumbo": 304
+     "rumbo": 304,
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -1192,10 +1267,8 @@
   {
    "lat": -37.853471,
    "lon": -72.396516,
-   "nombre": "Peaje Ruta 5 Sur (46)",
+   "nombre": "Peaje cerca de Mininco",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "Mininco",
    "fuente": "armado",
    "cabinas": [
@@ -1203,7 +1276,8 @@
      "lat": -37.853471,
      "lon": -72.396516,
      "n": 1,
-     "rumbo": 56
+     "rumbo": 56,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1229,13 +1303,17 @@
      "lat": -37.806621,
      "lon": -72.330812,
      "n": 2,
-     "rumbo": 48
+     "rumbo": 48,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -37.806468,
      "lon": -72.330983,
      "n": 2,
-     "rumbo": 228
+     "rumbo": 228,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1262,7 +1340,8 @@
      "lat": -37.704223,
      "lon": -72.257473,
      "n": 1,
-     "rumbo": 195
+     "rumbo": 195,
+     "ancho": 9.0
     }
    ],
    "posicion": {
@@ -1288,13 +1367,17 @@
      "lat": -37.674673,
      "lon": -72.595214,
      "n": 1,
-     "rumbo": 177
+     "rumbo": 177,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -37.674665,
      "lon": -72.595068,
      "n": 1,
-     "rumbo": 357
+     "rumbo": 357,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -1320,13 +1403,17 @@
      "lat": -37.574456,
      "lon": -73.415231,
      "n": 1,
-     "rumbo": 14
+     "rumbo": 14,
+     "tipo": "CENTRAL",
+     "ancho": 25.0
     },
     {
      "lat": -37.574447,
      "lon": -73.41535,
      "n": 1,
-     "rumbo": 194
+     "rumbo": 194,
+     "tipo": "CENTRAL",
+     "ancho": 25.0
     }
    ],
    "posicion": {
@@ -1352,13 +1439,17 @@
      "lat": -37.557475,
      "lon": -72.579961,
      "n": 1,
-     "rumbo": 72
+     "rumbo": 72,
+     "tipo": "CENTRAL",
+     "ancho": 24.0
     },
     {
      "lat": -37.557361,
      "lon": -72.580008,
      "n": 1,
-     "rumbo": 252
+     "rumbo": 252,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -1385,13 +1476,15 @@
      "lat": -37.531878,
      "lon": -72.32802,
      "n": 1,
-     "rumbo": 164
+     "rumbo": 164,
+     "ancho": 7.0
     },
     {
      "lat": -37.531588,
      "lon": -72.32506,
      "n": 1,
-     "rumbo": 344
+     "rumbo": 344,
+     "ancho": 6.0
     }
    ],
    "posicion": {
@@ -1419,13 +1512,15 @@
      "lat": -37.485974,
      "lon": -72.404196,
      "n": 1,
-     "rumbo": 351
+     "rumbo": 351,
+     "ancho": 9.0
     },
     {
      "lat": -37.481763,
      "lon": -72.405178,
      "n": 1,
-     "rumbo": 174
+     "rumbo": 174,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1456,7 +1551,9 @@
      "lon": -72.462943,
      "n": 1,
      "rumbo": 292,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1480,13 +1577,15 @@
      "lat": -37.442772,
      "lon": -72.399496,
      "n": 1,
-     "rumbo": 79
+     "rumbo": 79,
+     "ancho": 7.0
     },
     {
      "lat": -37.438419,
      "lon": -72.39661,
      "n": 1,
-     "rumbo": 218
+     "rumbo": 218,
+     "ancho": 9.0
     }
    ],
    "posicion": {
@@ -1514,13 +1613,15 @@
      "lat": -37.390908,
      "lon": -72.361518,
      "n": 1,
-     "rumbo": 12
+     "rumbo": 12,
+     "ancho": 9.0
     },
     {
      "lat": -37.388644,
      "lon": -72.361392,
      "n": 1,
-     "rumbo": 189
+     "rumbo": 189,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1550,13 +1651,17 @@
      "lat": -37.384059,
      "lon": -73.339757,
      "n": 1,
-     "rumbo": 12
+     "rumbo": 12,
+     "tipo": "CENTRAL",
+     "ancho": 25.0
     },
     {
      "lat": -37.384033,
      "lon": -73.339916,
      "n": 1,
-     "rumbo": 192
+     "rumbo": 192,
+     "tipo": "CENTRAL",
+     "ancho": 25.0
     }
    ],
    "posicion": {
@@ -1583,7 +1688,9 @@
      "lon": -72.840231,
      "n": 1,
      "rumbo": 128,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1607,7 +1714,8 @@
      "lat": -37.234609,
      "lon": -72.36916,
      "n": 1,
-     "rumbo": 341
+     "rumbo": 341,
+     "ancho": 10.0
     }
    ],
    "posicion": {
@@ -1631,7 +1739,8 @@
      "lat": -37.173878,
      "lon": -72.391654,
      "n": 1,
-     "rumbo": 6
+     "rumbo": 6,
+     "ancho": 10.0
     }
    ],
    "posicion": {
@@ -1657,13 +1766,17 @@
      "lat": -37.14924,
      "lon": -73.174141,
      "n": 1,
-     "rumbo": 50
+     "rumbo": 50,
+     "tipo": "CENTRAL",
+     "ancho": 25.0
     },
     {
      "lat": -37.149071,
      "lon": -73.174323,
      "n": 1,
-     "rumbo": 229
+     "rumbo": 229,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     }
    ],
    "posicion": {
@@ -1689,13 +1802,17 @@
      "lat": -37.111343,
      "lon": -72.271411,
      "n": 1,
-     "rumbo": 109
+     "rumbo": 109,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -37.111213,
      "lon": -72.271352,
      "n": 1,
-     "rumbo": 290
+     "rumbo": 290,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -1719,7 +1836,8 @@
      "lat": -37.044097,
      "lon": -72.371628,
      "n": 1,
-     "rumbo": 10
+     "rumbo": 10,
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -1745,13 +1863,17 @@
      "lat": -36.960358,
      "lon": -72.728407,
      "n": 1,
-     "rumbo": 101
+     "rumbo": 101,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     },
     {
      "lat": -36.960264,
      "lon": -72.728382,
      "n": 1,
-     "rumbo": 281
+     "rumbo": 281,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     }
    ],
    "posicion": {
@@ -1778,7 +1900,8 @@
      "lon": -71.562298,
      "n": 1,
      "rumbo": 88,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1803,7 +1926,8 @@
      "lon": -71.425539,
      "n": 1,
      "rumbo": 37,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1828,13 +1952,17 @@
      "lat": -36.909421,
      "lon": -72.342018,
      "n": 2,
-     "rumbo": 10
+     "rumbo": 10,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -36.909378,
      "lon": -72.342311,
      "n": 2,
-     "rumbo": 189
+     "rumbo": 189,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1860,13 +1988,17 @@
      "lat": -36.804346,
      "lon": -73.127941,
      "n": 1,
-     "rumbo": 199
+     "rumbo": 199,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -36.804125,
      "lon": -73.127733,
      "n": 1,
-     "rumbo": 19
+     "rumbo": 19,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1895,7 +2027,9 @@
      "lat": -36.76932,
      "lon": -73.050699,
      "n": 1,
-     "rumbo": 206
+     "rumbo": 206,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1920,7 +2054,9 @@
      "lat": -36.75793,
      "lon": -73.011316,
      "n": 1,
-     "rumbo": 66
+     "rumbo": 66,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -1947,7 +2083,8 @@
      "lat": -36.755814,
      "lon": -72.29531,
      "n": 1,
-     "rumbo": 284
+     "rumbo": 284,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1975,7 +2112,9 @@
      "lon": -72.585888,
      "n": 1,
      "rumbo": 289,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2002,7 +2141,8 @@
      "lat": -36.747784,
      "lon": -72.285426,
      "n": 1,
-     "rumbo": 201
+     "rumbo": 201,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2028,7 +2168,9 @@
      "lat": -36.732714,
      "lon": -73.088227,
      "n": 1,
-     "rumbo": 282
+     "rumbo": 282,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2054,25 +2196,31 @@
      "lat": -36.73008,
      "lon": -72.860217,
      "n": 1,
-     "rumbo": 92
+     "rumbo": 92,
+     "tipo": "CENTRAL",
+     "ancho": 15.0
     },
     {
      "lat": -36.72999,
      "lon": -72.860209,
      "n": 1,
-     "rumbo": 272
+     "rumbo": 272,
+     "tipo": "CENTRAL",
+     "ancho": 15.0
     },
     {
      "lat": -36.728414,
      "lon": -72.865382,
      "n": 1,
-     "rumbo": 20
+     "rumbo": 20,
+     "ancho": 3.5
     },
     {
      "lat": -36.728327,
      "lon": -72.865645,
      "n": 1,
-     "rumbo": 202
+     "rumbo": 202,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2103,7 +2251,8 @@
      "lat": -36.722996,
      "lon": -72.274406,
      "n": 1,
-     "rumbo": 233
+     "rumbo": 233,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2131,13 +2280,15 @@
      "lat": -36.659723,
      "lon": -72.457296,
      "n": 1,
-     "rumbo": 22
+     "rumbo": 22,
+     "ancho": 3.5
     },
     {
      "lat": -36.65835,
      "lon": -72.457709,
      "n": 1,
-     "rumbo": 298
+     "rumbo": 298,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2167,7 +2318,8 @@
      "lat": -36.625933,
      "lon": -72.160539,
      "n": 1,
-     "rumbo": 74
+     "rumbo": 74,
+     "ancho": 15.0
     }
    ],
    "posicion": {
@@ -2192,7 +2344,8 @@
      "lat": -36.559281,
      "lon": -72.095178,
      "n": 1,
-     "rumbo": 172
+     "rumbo": 172,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2218,7 +2371,9 @@
      "lat": -36.524459,
      "lon": -72.072423,
      "n": 1,
-     "rumbo": 314
+     "rumbo": 314,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2242,7 +2397,8 @@
      "lat": -36.439987,
      "lon": -71.962482,
      "n": 1,
-     "rumbo": 56
+     "rumbo": 56,
+     "ancho": 12.0
     }
    ],
    "posicion": {
@@ -2270,7 +2426,8 @@
      "lat": -36.414122,
      "lon": -71.94597,
      "n": 1,
-     "rumbo": 191
+     "rumbo": 191,
+     "ancho": 9.0
     }
    ],
    "posicion": {
@@ -2298,7 +2455,8 @@
      "lat": -36.157235,
      "lon": -71.81389,
      "n": 1,
-     "rumbo": 14
+     "rumbo": 14,
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -2314,7 +2472,7 @@
   {
    "lat": -36.00928,
    "lon": -71.732288,
-   "nombre": "Peaje Ruta 5 Sur (48)",
+   "nombre": "Peaje Ruta 5 Sur (44)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -2325,13 +2483,17 @@
      "lat": -36.00928,
      "lon": -71.732288,
      "n": 2,
-     "rumbo": 35
+     "rumbo": 35,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -36.009103,
      "lon": -71.732583,
      "n": 2,
-     "rumbo": 214
+     "rumbo": 214,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -2364,7 +2526,8 @@
      "lat": -35.837108,
      "lon": -71.631851,
      "n": 1,
-     "rumbo": 153
+     "rumbo": 153,
+     "ancho": 12.0
     }
    ],
    "posicion": {
@@ -2391,7 +2554,8 @@
      "lat": -35.694987,
      "lon": -71.68617,
      "n": 1,
-     "rumbo": 233
+     "rumbo": 233,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2418,7 +2582,9 @@
      "lat": -35.633676,
      "lon": -71.706645,
      "n": 1,
-     "rumbo": 283
+     "rumbo": 283,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -2469,7 +2635,8 @@
      "lat": -35.600938,
      "lon": -71.706395,
      "n": 1,
-     "rumbo": 171
+     "rumbo": 171,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2485,11 +2652,8 @@
   {
    "lat": -35.577199,
    "lon": -71.706641,
-   "nombre": "Peaje Ruta L-162 km 0",
+   "nombre": "Peaje cerca de Bobadilla (2)",
    "tipo": "cabina",
-   "via": "Ruta L-162",
-   "ref": "L-162",
-   "km": "0",
    "localidad": "Bobadilla",
    "fuente": "armado",
    "cabinas": [
@@ -2497,35 +2661,8 @@
      "lat": -35.577199,
      "lon": -71.706641,
      "n": 1,
-     "rumbo": 231
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "pais": "CL",
-   "via_visible": "Ruta L-162",
-   "punto": "Bobadilla",
-   "nombre_visible": "Ruta L-162 - Peaje Bobadilla",
-   "confianza": "media"
-  },
-  {
-   "lat": -35.566234,
-   "lon": -71.698011,
-   "nombre": "Peaje Ruta 5 Sur km 0",
-   "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
-   "km": "0",
-   "localidad": "Bobadilla",
-   "fuente": "armado",
-   "cabinas": [
-    {
-     "lat": -35.566234,
-     "lon": -71.698011,
-     "n": 1,
-     "rumbo": 257
+     "rumbo": 231,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2536,7 +2673,35 @@
    "via_visible": "Ruta 5",
    "punto": "Bobadilla",
    "nombre_visible": "Ruta 5 - Peaje Bobadilla",
-   "confianza": "media"
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+  },
+  {
+   "lat": -35.566234,
+   "lon": -71.698011,
+   "nombre": "Peaje cerca de Bobadilla",
+   "tipo": "cabina",
+   "localidad": "Bobadilla",
+   "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -35.566234,
+     "lon": -71.698011,
+     "n": 1,
+     "rumbo": 257,
+     "ancho": 3.5
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
+   "pais": "CL",
+   "via_visible": "Ruta 5",
+   "punto": "Bobadilla",
+   "nombre_visible": "Ruta 5 - Peaje Bobadilla",
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": -35.521282,
@@ -2552,7 +2717,8 @@
      "lat": -35.521282,
      "lon": -71.676707,
      "n": 1,
-     "rumbo": 79
+     "rumbo": 79,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2579,7 +2745,8 @@
      "lat": -35.489366,
      "lon": -71.659271,
      "n": 1,
-     "rumbo": 92
+     "rumbo": 92,
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -2606,13 +2773,17 @@
      "lat": -35.209794,
      "lon": -71.411149,
      "n": 2,
-     "rumbo": 36
+     "rumbo": 36,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -35.209632,
      "lon": -71.411424,
      "n": 2,
-     "rumbo": 217
+     "rumbo": 217,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -2643,7 +2814,8 @@
      "lat": -35.133437,
      "lon": -71.35469,
      "n": 1,
-     "rumbo": 232
+     "rumbo": 232,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2670,13 +2842,15 @@
      "lat": -35.095577,
      "lon": -71.319602,
      "n": 1,
-     "rumbo": 33
+     "rumbo": 33,
+     "ancho": 3.5
     },
     {
      "lat": -35.093077,
      "lon": -71.318112,
      "n": 1,
-     "rumbo": 212
+     "rumbo": 212,
+     "ancho": 12.0
     }
    ],
    "posicion": {
@@ -2707,13 +2881,15 @@
      "lat": -35.050782,
      "lon": -71.282286,
      "n": 1,
-     "rumbo": 99
+     "rumbo": 99,
+     "ancho": 3.5
     },
     {
      "lat": -35.049183,
      "lon": -71.280033,
      "n": 1,
-     "rumbo": 240
+     "rumbo": 240,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2745,7 +2921,8 @@
      "lat": -34.99396,
      "lon": -71.232402,
      "n": 1,
-     "rumbo": 290
+     "rumbo": 290,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2774,7 +2951,8 @@
      "lat": -34.982717,
      "lon": -71.215052,
      "n": 1,
-     "rumbo": 233
+     "rumbo": 233,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2791,11 +2969,8 @@
   {
    "lat": -34.976611,
    "lon": -71.205738,
-   "nombre": "Peaje Ruta 5 Sur km 187,5",
+   "nombre": "Peaje cerca de Los Cristales",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
-   "km": "187,5",
    "localidad": "Los Cristales",
    "fuente": "armado",
    "cabinas": [
@@ -2803,7 +2978,8 @@
      "lat": -34.976611,
      "lon": -71.205738,
      "n": 1,
-     "rumbo": 239
+     "rumbo": 239,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2830,7 +3006,8 @@
      "lat": -34.883785,
      "lon": -71.150528,
      "n": 1,
-     "rumbo": 39
+     "rumbo": 39,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2846,7 +3023,7 @@
   {
    "lat": -34.796163,
    "lon": -71.048048,
-   "nombre": "Peaje Ruta 5 Sur (45)",
+   "nombre": "Peaje Ruta 5 Sur (42)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -2857,19 +3034,24 @@
      "lat": -34.800652,
      "lon": -71.049635,
      "n": 1,
-     "rumbo": 14
+     "rumbo": 14,
+     "ancho": 3.5
     },
     {
      "lat": -34.796163,
      "lon": -71.048048,
      "n": 2,
-     "rumbo": 14
+     "rumbo": 14,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     },
     {
      "lat": -34.796071,
      "lon": -71.048397,
      "n": 2,
-     "rumbo": 195
+     "rumbo": 195,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -2901,7 +3083,8 @@
      "lat": -34.714321,
      "lon": -71.030564,
      "n": 1,
-     "rumbo": 201
+     "rumbo": 201,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2928,13 +3111,15 @@
      "lat": -34.607718,
      "lon": -70.984086,
      "n": 1,
-     "rumbo": 70
+     "rumbo": 70,
+     "ancho": 3.5
     },
     {
      "lat": -34.60568,
      "lon": -70.983124,
      "n": 1,
-     "rumbo": 219
+     "rumbo": 219,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2955,10 +3140,8 @@
   {
    "lat": -34.594025,
    "lon": -70.973092,
-   "nombre": "Peaje Ruta 5 Sur (41)",
+   "nombre": "Peaje cerca de San Fernando",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "San Fernando",
    "fuente": "armado",
    "cabinas": [
@@ -2966,13 +3149,15 @@
      "lat": -34.595118,
      "lon": -70.973241,
      "n": 1,
-     "rumbo": 41
+     "rumbo": 41,
+     "ancho": 3.5
     },
     {
      "lat": -34.594025,
      "lon": -70.973092,
      "n": 1,
-     "rumbo": 0
+     "rumbo": 0,
+     "ancho": 3.5
     },
     {
      "lat": -34.594021,
@@ -2983,7 +3168,8 @@
      "lat": -34.590528,
      "lon": -70.9695,
      "n": 1,
-     "rumbo": 229
+     "rumbo": 229,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -3015,13 +3201,15 @@
      "lat": -34.574384,
      "lon": -70.972747,
      "n": 1,
-     "rumbo": 294
+     "rumbo": 294,
+     "ancho": 7.0
     },
     {
      "lat": -34.572124,
      "lon": -70.972746,
      "n": 1,
-     "rumbo": 199
+     "rumbo": 199,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -3053,13 +3241,15 @@
      "lat": -34.552804,
      "lon": -70.961795,
      "n": 1,
-     "rumbo": 43
+     "rumbo": 43,
+     "ancho": 3.5
     },
     {
      "lat": -34.551701,
      "lon": -70.961434,
      "n": 1,
-     "rumbo": 302
+     "rumbo": 302,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -3091,13 +3281,15 @@
      "lat": -34.465977,
      "lon": -70.897147,
      "n": 1,
-     "rumbo": 115
+     "rumbo": 115,
+     "ancho": 3.5
     },
     {
      "lat": -34.465564,
      "lon": -70.898352,
      "n": 1,
-     "rumbo": 285
+     "rumbo": 285,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -3128,13 +3320,15 @@
      "lat": -34.403547,
      "lon": -70.873365,
      "n": 1,
-     "rumbo": 27
+     "rumbo": 27,
+     "ancho": 3.5
     },
     {
      "lat": -34.400011,
      "lon": -70.871746,
      "n": 1,
-     "rumbo": 207
+     "rumbo": 207,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -3165,13 +3359,15 @@
      "lat": -34.34667,
      "lon": -70.840725,
      "n": 1,
-     "rumbo": 25
+     "rumbo": 25,
+     "ancho": 3.5
     },
     {
      "lat": -34.34597,
      "lon": -70.840755,
      "n": 1,
-     "rumbo": 205
+     "rumbo": 205,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -3202,7 +3398,8 @@
      "lat": -34.288986,
      "lon": -70.821905,
      "n": 1,
-     "rumbo": 13
+     "rumbo": 13,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -3230,7 +3427,8 @@
      "lat": -34.281973,
      "lon": -70.818679,
      "n": 1,
-     "rumbo": 205
+     "rumbo": 205,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -3258,7 +3456,9 @@
      "lat": -34.236562,
      "lon": -70.792153,
      "n": 1,
-     "rumbo": 23
+     "rumbo": 23,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -3285,13 +3485,15 @@
      "lat": -34.183931,
      "lon": -70.788434,
      "n": 1,
-     "rumbo": 33
+     "rumbo": 33,
+     "ancho": 3.5
     },
     {
      "lat": -34.18092,
      "lon": -70.790648,
      "n": 1,
-     "rumbo": 198
+     "rumbo": 198,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -3322,7 +3524,9 @@
      "lon": -71.37089,
      "n": 1,
      "rumbo": 10,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -3349,7 +3553,8 @@
      "lat": -34.037618,
      "lon": -70.705914,
      "n": 1,
-     "rumbo": 174
+     "rumbo": 174,
+     "ancho": 17.5
     }
    ],
    "posicion": {
@@ -3375,13 +3580,17 @@
      "lat": -33.907711,
      "lon": -70.731354,
      "n": 2,
-     "rumbo": 138
+     "rumbo": 138,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     },
     {
      "lat": -33.907501,
      "lon": -70.730985,
      "n": 2,
-     "rumbo": 317
+     "rumbo": 317,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     }
    ],
    "posicion": {
@@ -3413,7 +3622,8 @@
      "lat": -33.852205,
      "lon": -70.748769,
      "n": 1,
-     "rumbo": 168
+     "rumbo": 168,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3440,7 +3650,9 @@
      "lon": -71.526424,
      "n": 1,
      "rumbo": 347,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -3467,13 +3679,15 @@
      "lat": -33.822059,
      "lon": -70.751439,
      "n": 1,
-     "rumbo": 9
+     "rumbo": 9,
+     "ancho": 3.5
     },
     {
      "lat": -33.818407,
      "lon": -70.751252,
      "n": 1,
-     "rumbo": 187
+     "rumbo": 187,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3504,7 +3718,9 @@
      "lat": -33.695435,
      "lon": -70.723672,
      "n": 1,
-     "rumbo": 166
+     "rumbo": 166,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -3530,13 +3746,17 @@
      "lat": -33.684821,
      "lon": -70.943167,
      "n": 1,
-     "rumbo": 56
+     "rumbo": 56,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.684696,
      "lon": -70.943213,
      "n": 1,
-     "rumbo": 236
+     "rumbo": 236,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3563,7 +3783,9 @@
      "lon": -71.167637,
      "n": 1,
      "rumbo": 186,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     }
    ],
    "posicion": {
@@ -3589,13 +3811,17 @@
      "lat": -33.669425,
      "lon": -71.150747,
      "n": 1,
-     "rumbo": 86
+     "rumbo": 86,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.669301,
      "lon": -71.150724,
      "n": 1,
-     "rumbo": 266
+     "rumbo": 266,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3621,13 +3847,17 @@
      "lat": -33.662781,
      "lon": -70.668004,
      "n": 1,
-     "rumbo": 55
+     "rumbo": 55,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.662511,
      "lon": -70.667891,
      "n": 1,
-     "rumbo": 236
+     "rumbo": 236,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3657,13 +3887,17 @@
      "lat": -33.647546,
      "lon": -71.360291,
      "n": 1,
-     "rumbo": 133
+     "rumbo": 133,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.647476,
      "lon": -71.360178,
      "n": 1,
-     "rumbo": 312
+     "rumbo": 312,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3689,7 +3923,9 @@
      "lat": -33.647339,
      "lon": -70.711611,
      "n": 1,
-     "rumbo": 13
+     "rumbo": 13,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -3715,13 +3951,17 @@
      "lat": -33.642939,
      "lon": -70.87549,
      "n": 1,
-     "rumbo": 32
+     "rumbo": 32,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -33.642901,
      "lon": -70.875634,
      "n": 1,
-     "rumbo": 212
+     "rumbo": 212,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -3747,13 +3987,17 @@
      "lat": -33.622759,
      "lon": -70.71457,
      "n": 1,
-     "rumbo": 353
+     "rumbo": 353,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -33.621981,
      "lon": -70.714868,
      "n": 1,
-     "rumbo": 173
+     "rumbo": 173,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -3781,13 +4025,15 @@
      "lat": -33.605032,
      "lon": -70.604663,
      "n": 1,
-     "rumbo": 174
+     "rumbo": 174,
+     "ancho": 17.5
     },
     {
      "lat": -33.604773,
      "lon": -70.603875,
      "n": 1,
-     "rumbo": 339
+     "rumbo": 339,
+     "ancho": 17.5
     }
    ],
    "posicion": {
@@ -3817,7 +4063,9 @@
      "lat": -33.601254,
      "lon": -70.847105,
      "n": 1,
-     "rumbo": 26
+     "rumbo": 26,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -3844,7 +4092,9 @@
      "lat": -33.596894,
      "lon": -70.715792,
      "n": 1,
-     "rumbo": 186
+     "rumbo": 186,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -3870,7 +4120,9 @@
      "lat": -33.587807,
      "lon": -70.84505,
      "n": 1,
-     "rumbo": 174
+     "rumbo": 174,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -3897,13 +4149,17 @@
      "lat": -33.582754,
      "lon": -70.713842,
      "n": 1,
-     "rumbo": 6
+     "rumbo": 6,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.582412,
      "lon": -70.713975,
      "n": 1,
-     "rumbo": 186
+     "rumbo": 186,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -3931,13 +4187,15 @@
      "lat": -33.581996,
      "lon": -70.611236,
      "n": 1,
-     "rumbo": 178
+     "rumbo": 178,
+     "ancho": 10.5
     },
     {
      "lat": -33.581699,
      "lon": -70.610295,
      "n": 1,
-     "rumbo": 333
+     "rumbo": 333,
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -3967,7 +4225,9 @@
      "lat": -33.55888,
      "lon": -70.710586,
      "n": 1,
-     "rumbo": 178
+     "rumbo": 178,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     }
    ],
    "posicion": {
@@ -3993,13 +4253,17 @@
      "lat": -33.552919,
      "lon": -70.813784,
      "n": 1,
-     "rumbo": 62
+     "rumbo": 62,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.552831,
      "lon": -70.813902,
      "n": 1,
-     "rumbo": 242
+     "rumbo": 242,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4024,7 +4288,9 @@
      "lat": -33.551404,
      "lon": -70.709061,
      "n": 1,
-     "rumbo": 8
+     "rumbo": 8,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -4050,13 +4316,17 @@
      "lat": -33.547899,
      "lon": -70.697007,
      "n": 1,
-     "rumbo": 53
+     "rumbo": 53,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.547627,
      "lon": -70.696839,
      "n": 1,
-     "rumbo": 235
+     "rumbo": 235,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4086,7 +4356,9 @@
      "lat": -33.541153,
      "lon": -70.61502,
      "n": 1,
-     "rumbo": 82
+     "rumbo": 82,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4112,13 +4384,17 @@
      "lat": -33.539842,
      "lon": -70.652997,
      "n": 1,
-     "rumbo": 102
+     "rumbo": 102,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.539608,
      "lon": -70.652943,
      "n": 1,
-     "rumbo": 282
+     "rumbo": 282,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4143,7 +4419,9 @@
      "lat": -33.536473,
      "lon": -70.707659,
      "n": 1,
-     "rumbo": 193
+     "rumbo": 193,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4169,13 +4447,17 @@
      "lat": -33.533816,
      "lon": -70.676451,
      "n": 1,
-     "rumbo": 112
+     "rumbo": 112,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.533585,
      "lon": -70.676345,
      "n": 1,
-     "rumbo": 291
+     "rumbo": 291,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4201,13 +4483,17 @@
      "lat": -33.52979,
      "lon": -70.604845,
      "n": 1,
-     "rumbo": 210
+     "rumbo": 210,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.526802,
      "lon": -70.602574,
      "n": 1,
-     "rumbo": 28
+     "rumbo": 28,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -4237,13 +4523,17 @@
      "lat": -33.526262,
      "lon": -70.694103,
      "n": 1,
-     "rumbo": 119
+     "rumbo": 119,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -33.526052,
      "lon": -70.694017,
      "n": 1,
-     "rumbo": 299
+     "rumbo": 299,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -4269,7 +4559,9 @@
      "lat": -33.516561,
      "lon": -70.712534,
      "n": 1,
-     "rumbo": 295
+     "rumbo": 295,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4295,13 +4587,17 @@
      "lat": -33.507288,
      "lon": -70.669319,
      "n": 1,
-     "rumbo": 23
+     "rumbo": 23,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.507148,
      "lon": -70.669424,
      "n": 1,
-     "rumbo": 201
+     "rumbo": 201,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4326,13 +4622,17 @@
      "lat": -33.506426,
      "lon": -70.697251,
      "n": 1,
-     "rumbo": 22
+     "rumbo": 22,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.505631,
      "lon": -70.69702,
      "n": 1,
-     "rumbo": 202
+     "rumbo": 202,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4362,7 +4662,9 @@
      "lat": -33.505861,
      "lon": -70.728455,
      "n": 1,
-     "rumbo": 112
+     "rumbo": 112,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4388,13 +4690,17 @@
      "lat": -33.496067,
      "lon": -70.584502,
      "n": 1,
-     "rumbo": 28
+     "rumbo": 28,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.495558,
      "lon": -70.584456,
      "n": 1,
-     "rumbo": 208
+     "rumbo": 208,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4424,13 +4730,17 @@
      "lat": -33.495647,
      "lon": -70.777162,
      "n": 1,
-     "rumbo": 75
+     "rumbo": 75,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.49553,
      "lon": -70.777166,
      "n": 1,
-     "rumbo": 256
+     "rumbo": 256,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4456,13 +4766,17 @@
      "lat": -33.495772,
      "lon": -70.663899,
      "n": 1,
-     "rumbo": 21
+     "rumbo": 21,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.495349,
      "lon": -70.663893,
      "n": 1,
-     "rumbo": 201
+     "rumbo": 201,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4492,13 +4806,17 @@
      "lat": -33.484865,
      "lon": -70.741021,
      "n": 1,
-     "rumbo": 71
+     "rumbo": 71,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.484758,
      "lon": -70.741127,
      "n": 1,
-     "rumbo": 250
+     "rumbo": 250,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4524,13 +4842,17 @@
      "lat": -33.483359,
      "lon": -70.753094,
      "n": 1,
-     "rumbo": 335
+     "rumbo": 335,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.482867,
      "lon": -70.753573,
      "n": 1,
-     "rumbo": 154
+     "rumbo": 154,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4561,7 +4883,9 @@
      "lon": -71.581703,
      "n": 1,
      "rumbo": 143,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 50.0
     }
    ],
    "posicion": {
@@ -4587,13 +4911,17 @@
      "lat": -33.481004,
      "lon": -70.578773,
      "n": 1,
-     "rumbo": 11
+     "rumbo": 11,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.480945,
      "lon": -70.579043,
      "n": 1,
-     "rumbo": 189
+     "rumbo": 189,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4645,7 +4973,9 @@
      "lon": -71.599221,
      "n": 1,
      "rumbo": 201,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -4672,7 +5002,9 @@
      "lon": -71.473219,
      "n": 1,
      "rumbo": 230,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 24.0
     }
    ],
    "posicion": {
@@ -4697,13 +5029,17 @@
      "lat": -33.469838,
      "lon": -70.688245,
      "n": 1,
-     "rumbo": 181
+     "rumbo": 181,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.469061,
      "lon": -70.688127,
      "n": 1,
-     "rumbo": 359
+     "rumbo": 359,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4733,13 +5069,17 @@
      "lat": -33.469011,
      "lon": -70.656243,
      "n": 1,
-     "rumbo": 358
+     "rumbo": 358,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.468848,
      "lon": -70.656558,
      "n": 1,
-     "rumbo": 179
+     "rumbo": 179,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4769,7 +5109,9 @@
      "lat": -33.45638,
      "lon": -70.767152,
      "n": 1,
-     "rumbo": 136
+     "rumbo": 136,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -4795,25 +5137,33 @@
      "lat": -33.457356,
      "lon": -70.898357,
      "n": 1,
-     "rumbo": 72
+     "rumbo": 72,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     },
     {
      "lat": -33.456415,
      "lon": -70.898696,
      "n": 1,
-     "rumbo": 252
+     "rumbo": 252,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     },
     {
      "lat": -33.455517,
      "lon": -70.894855,
      "n": 1,
-     "rumbo": 68
+     "rumbo": 68,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.455434,
      "lon": -70.894898,
      "n": 1,
-     "rumbo": 248
+     "rumbo": 248,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -4843,7 +5193,9 @@
      "lat": -33.451213,
      "lon": -70.772985,
      "n": 1,
-     "rumbo": 315
+     "rumbo": 315,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -4869,13 +5221,17 @@
      "lat": -33.448923,
      "lon": -70.659592,
      "n": 1,
-     "rumbo": 345
+     "rumbo": 345,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.448382,
      "lon": -70.660086,
      "n": 1,
-     "rumbo": 164
+     "rumbo": 164,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4904,13 +5260,17 @@
      "lat": -33.447452,
      "lon": -70.692286,
      "n": 1,
-     "rumbo": 185
+     "rumbo": 185,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.44674,
      "lon": -70.69208,
      "n": 1,
-     "rumbo": 4
+     "rumbo": 4,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -4940,13 +5300,15 @@
      "lat": -33.439603,
      "lon": -70.607888,
      "n": 1,
-     "rumbo": 349
+     "rumbo": 349,
+     "ancho": 7.0
     },
     {
      "lat": -33.439602,
      "lon": -70.607946,
      "n": 1,
-     "rumbo": 188
+     "rumbo": 188,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -4972,7 +5334,9 @@
      "lat": -33.438714,
      "lon": -70.783138,
      "n": 1,
-     "rumbo": 330
+     "rumbo": 330,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -5006,7 +5370,7 @@
   {
    "lat": -33.432543,
    "lon": -70.574492,
-   "nombre": "Pórtico Autopista Vespucio Oriente (70) (5)",
+   "nombre": "Pórtico Autopista Vespucio Oriente (70) (3)",
    "tipo": "portico",
    "via": "Autopista Vespucio Oriente",
    "ref": "70",
@@ -5017,7 +5381,8 @@
      "lat": -33.432543,
      "lon": -70.574492,
      "n": 1,
-     "rumbo": 173
+     "rumbo": 173,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -5044,7 +5409,9 @@
      "lat": -33.431288,
      "lon": -70.784851,
      "n": 1,
-     "rumbo": 191
+     "rumbo": 191,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -5069,13 +5436,16 @@
      "lat": -33.43028,
      "lon": -70.657227,
      "n": 1,
-     "rumbo": 282
+     "rumbo": 282,
+     "ancho": 3.5
     },
     {
      "lat": -33.430225,
      "lon": -70.657961,
      "n": 1,
-     "rumbo": 117
+     "rumbo": 117,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -5095,10 +5465,8 @@
   {
    "lat": -33.42597,
    "lon": -70.575685,
-   "nombre": "Pórtico Autopista Vespucio Oriente (70)",
+   "nombre": "Pórtico cerca de Santiago",
    "tipo": "portico",
-   "via": "Autopista Vespucio Oriente",
-   "ref": "70",
    "localidad": "Santiago",
    "fuente": "armado",
    "cabinas": [
@@ -5106,19 +5474,22 @@
      "lat": -33.430139,
      "lon": -70.574703,
      "n": 1,
-     "rumbo": 353
+     "rumbo": 353,
+     "ancho": 3.5
     },
     {
      "lat": -33.42597,
      "lon": -70.575685,
      "n": 1,
-     "rumbo": 95
+     "rumbo": 95,
+     "ancho": 3.5
     },
     {
      "lat": -33.42443,
      "lon": -70.578416,
      "n": 1,
-     "rumbo": 138
+     "rumbo": 138,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -5149,19 +5520,25 @@
      "lat": -33.426515,
      "lon": -70.668895,
      "n": 1,
-     "rumbo": 113
+     "rumbo": 113,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     },
     {
      "lat": -33.426442,
      "lon": -70.67014,
      "n": 1,
-     "rumbo": 115
+     "rumbo": 115,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.426438,
      "lon": -70.669833,
      "n": 1,
-     "rumbo": 295
+     "rumbo": 295,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -5190,19 +5567,24 @@
      "lat": -33.425408,
      "lon": -70.625297,
      "n": 1,
-     "rumbo": 267
+     "rumbo": 267,
+     "ancho": 7.0
     },
     {
      "lat": -33.424113,
      "lon": -70.621811,
      "n": 1,
-     "rumbo": 40
+     "rumbo": 40,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     },
     {
      "lat": -33.423992,
      "lon": -70.621955,
      "n": 1,
-     "rumbo": 221
+     "rumbo": 221,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -5230,7 +5612,8 @@
      "lat": -33.422147,
      "lon": -70.619825,
      "n": 1,
-     "rumbo": 239
+     "rumbo": 239,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -5247,10 +5630,8 @@
   {
    "lat": -33.420415,
    "lon": -70.58142,
-   "nombre": "Pórtico Autopista Vespucio Oriente (70) (2)",
+   "nombre": "Pórtico cerca de Santiago (2)",
    "tipo": "portico",
-   "via": "Autopista Vespucio Oriente",
-   "ref": "70",
    "localidad": "Santiago",
    "fuente": "armado",
    "cabinas": [
@@ -5258,7 +5639,8 @@
      "lat": -33.420415,
      "lon": -70.58142,
      "n": 1,
-     "rumbo": 328
+     "rumbo": 328,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -5285,7 +5667,9 @@
      "lat": -33.417186,
      "lon": -70.678723,
      "n": 1,
-     "rumbo": 354
+     "rumbo": 354,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -5311,25 +5695,32 @@
      "lat": -33.418078,
      "lon": -70.791003,
      "n": 1,
-     "rumbo": 54
+     "rumbo": 54,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.417858,
      "lon": -70.790855,
      "n": 1,
-     "rumbo": 234
+     "rumbo": 234,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.416596,
      "lon": -70.792727,
      "n": 1,
-     "rumbo": 177
+     "rumbo": 177,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -33.415283,
      "lon": -70.792964,
      "n": 1,
-     "rumbo": 179
+     "rumbo": 179,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -5358,13 +5749,17 @@
      "lat": -33.413064,
      "lon": -70.766743,
      "n": 1,
-     "rumbo": 93
+     "rumbo": 93,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.412972,
      "lon": -70.766457,
      "n": 1,
-     "rumbo": 274
+     "rumbo": 274,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -5407,13 +5802,17 @@
      "lat": -33.411826,
      "lon": -70.739583,
      "n": 1,
-     "rumbo": 89
+     "rumbo": 89,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.41171,
      "lon": -70.739581,
      "n": 1,
-     "rumbo": 269
+     "rumbo": 269,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -5429,7 +5828,7 @@
   {
    "lat": -33.409354,
    "lon": -70.586954,
-   "nombre": "Pórtico Autopista Vespucio Oriente (70) (4)",
+   "nombre": "Pórtico Autopista Vespucio Oriente (70) (2)",
    "tipo": "portico",
    "via": "Autopista Vespucio Oriente",
    "ref": "70",
@@ -5440,13 +5839,15 @@
      "lat": -33.412457,
      "lon": -70.582035,
      "n": 1,
-     "rumbo": 58
+     "rumbo": 58,
+     "ancho": 7.0
     },
     {
      "lat": -33.409354,
      "lon": -70.586954,
      "n": 2,
-     "rumbo": 340
+     "rumbo": 340,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -5476,25 +5877,29 @@
      "lat": -33.409988,
      "lon": -70.602224,
      "n": 1,
-     "rumbo": 17
+     "rumbo": 17,
+     "ancho": 3.5
     },
     {
      "lat": -33.40908,
      "lon": -70.604113,
      "n": 2,
-     "rumbo": 65
+     "rumbo": 65,
+     "ancho": 7.0
     },
     {
      "lat": -33.408491,
      "lon": -70.601945,
      "n": 1,
-     "rumbo": 83
+     "rumbo": 83,
+     "ancho": 3.5
     },
     {
      "lat": -33.408107,
      "lon": -70.599764,
      "n": 2,
-     "rumbo": 268
+     "rumbo": 268,
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -5522,19 +5927,22 @@
      "lat": -33.405036,
      "lon": -70.586333,
      "n": 1,
-     "rumbo": 179
+     "rumbo": 179,
+     "ancho": 3.5
     },
     {
      "lat": -33.402401,
      "lon": -70.581692,
      "n": 1,
-     "rumbo": 63
+     "rumbo": 63,
+     "ancho": 3.5
     },
     {
      "lat": -33.400234,
      "lon": -70.587549,
      "n": 1,
-     "rumbo": 168
+     "rumbo": 168,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -5564,7 +5972,8 @@
      "lat": -33.401491,
      "lon": -70.580488,
      "n": 1,
-     "rumbo": 243
+     "rumbo": 243,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -5591,7 +6000,9 @@
      "lon": -71.497672,
      "n": 1,
      "rumbo": 49,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     }
    ],
    "posicion": {
@@ -5617,13 +6028,17 @@
      "lat": -33.399624,
      "lon": -70.775638,
      "n": 1,
-     "rumbo": 44
+     "rumbo": 44,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.399353,
      "lon": -70.775564,
      "n": 1,
-     "rumbo": 225
+     "rumbo": 225,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -5658,19 +6073,24 @@
      "lat": -33.3988,
      "lon": -70.615132,
      "n": 1,
-     "rumbo": 319
+     "rumbo": 319,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.398616,
      "lon": -70.615725,
      "n": 1,
-     "rumbo": 140
+     "rumbo": 140,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.396448,
      "lon": -70.6198,
      "n": 1,
-     "rumbo": 109
+     "rumbo": 109,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -5700,25 +6120,32 @@
      "lat": -33.396148,
      "lon": -70.604134,
      "n": 1,
-     "rumbo": 11
+     "rumbo": 11,
+     "ancho": 7.0
     },
     {
      "lat": -33.39525,
      "lon": -70.61011,
      "n": 1,
-     "rumbo": 227
+     "rumbo": 227,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.394444,
      "lon": -70.603386,
      "n": 1,
-     "rumbo": 27
+     "rumbo": 27,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -33.394409,
      "lon": -70.603526,
      "n": 1,
-     "rumbo": 207
+     "rumbo": 207,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -5738,7 +6165,7 @@
   {
    "lat": -33.396604,
    "lon": -70.588756,
-   "nombre": "Pórtico Autopista Vespucio Oriente (70) (3)",
+   "nombre": "Pórtico Autopista Vespucio Oriente (70)",
    "tipo": "portico",
    "via": "Autopista Vespucio Oriente",
    "ref": "70",
@@ -5749,13 +6176,15 @@
      "lat": -33.396604,
      "lon": -70.588756,
      "n": 1,
-     "rumbo": 333
+     "rumbo": 333,
+     "ancho": 3.5
     },
     {
      "lat": -33.392756,
      "lon": -70.592471,
      "n": 1,
-     "rumbo": 129
+     "rumbo": 129,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -5776,10 +6205,9 @@
   {
    "lat": -33.38965,
    "lon": -70.600007,
-   "nombre": "Pórtico Avenida Manuel Zañartu (70)",
+   "nombre": "Pórtico Avenida Manuel Zañartu",
    "tipo": "portico",
    "via": "Avenida Manuel Zañartu",
-   "ref": "70",
    "localidad": "Santiago",
    "fuente": "armado",
    "cabinas": [
@@ -5787,20 +6215,23 @@
      "lat": -33.391634,
      "lon": -70.597093,
      "n": 1,
-     "rumbo": 240
+     "rumbo": 240,
+     "ancho": 7.0
     },
     {
      "lat": -33.38965,
      "lon": -70.600007,
      "n": 1,
-     "rumbo": 277
+     "rumbo": 277,
+     "ancho": 3.5
     },
     {
      "lat": -33.388184,
      "lon": -70.601754,
      "n": 1,
      "rumbo": 203,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -5812,9 +6243,9 @@
     ]
    },
    "pais": "CL",
-   "via_visible": "Ruta 70",
+   "via_visible": "Avenida Manuel Zañartu",
    "punto": "Santiago",
-   "nombre_visible": "Ruta 70 - Pórtico TAG Santiago",
+   "nombre_visible": "Avenida Manuel Zañartu - Pórtico TAG Santiago",
    "confianza": "media"
   },
   {
@@ -5830,13 +6261,17 @@
      "lat": -33.388664,
      "lon": -70.632967,
      "n": 1,
-     "rumbo": 311
+     "rumbo": 311,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.388604,
      "lon": -70.633316,
      "n": 1,
-     "rumbo": 131
+     "rumbo": 131,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -5865,13 +6300,17 @@
      "lat": -33.387681,
      "lon": -70.542926,
      "n": 1,
-     "rumbo": 244
+     "rumbo": 244,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.387206,
      "lon": -70.541372,
      "n": 1,
-     "rumbo": 66
+     "rumbo": 66,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -5901,13 +6340,17 @@
      "lat": -33.384683,
      "lon": -70.592604,
      "n": 1,
-     "rumbo": 46
+     "rumbo": 46,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.384604,
      "lon": -70.592696,
      "n": 1,
-     "rumbo": 226
+     "rumbo": 226,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -5932,13 +6375,17 @@
      "lat": -33.382239,
      "lon": -70.695562,
      "n": 1,
-     "rumbo": 26
+     "rumbo": 26,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.381938,
      "lon": -70.695474,
      "n": 1,
-     "rumbo": 211
+     "rumbo": 211,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -5968,7 +6415,9 @@
      "lat": -33.38132,
      "lon": -70.753937,
      "n": 1,
-     "rumbo": 44
+     "rumbo": 44,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -5993,13 +6442,17 @@
      "lat": -33.37582,
      "lon": -70.542649,
      "n": 1,
-     "rumbo": 301
+     "rumbo": 301,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.375729,
      "lon": -70.54306,
      "n": 1,
-     "rumbo": 122
+     "rumbo": 122,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -6029,13 +6482,17 @@
      "lat": -33.373394,
      "lon": -70.664973,
      "n": 1,
-     "rumbo": 114
+     "rumbo": 114,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.373364,
      "lon": -70.664615,
      "n": 1,
-     "rumbo": 294
+     "rumbo": 294,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -6065,7 +6522,9 @@
      "lat": -33.373036,
      "lon": -70.711303,
      "n": 1,
-     "rumbo": 237
+     "rumbo": 237,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -6090,13 +6549,16 @@
      "lat": -33.371209,
      "lon": -70.522911,
      "n": 1,
-     "rumbo": 74
+     "rumbo": 74,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.371003,
      "lon": -70.52258,
      "n": 1,
-     "rumbo": 245
+     "rumbo": 245,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -6126,13 +6588,17 @@
      "lat": -33.371552,
      "lon": -71.300062,
      "n": 1,
-     "rumbo": 119
+     "rumbo": 119,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     },
     {
      "lat": -33.370647,
      "lon": -71.299468,
      "n": 1,
-     "rumbo": 299
+     "rumbo": 299,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     }
    ],
    "posicion": {
@@ -6162,7 +6628,9 @@
      "lat": -33.368877,
      "lon": -70.704343,
      "n": 1,
-     "rumbo": 52
+     "rumbo": 52,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -6189,19 +6657,24 @@
      "lat": -33.369045,
      "lon": -71.303257,
      "n": 1,
-     "rumbo": 124
+     "rumbo": 124,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.368968,
      "lon": -71.3032,
      "n": 1,
-     "rumbo": 305
+     "rumbo": 305,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.366769,
      "lon": -71.308506,
      "n": 1,
-     "rumbo": 118
+     "rumbo": 118,
+     "ancho": 20.0
     }
    ],
    "posicion": {
@@ -6231,25 +6704,32 @@
      "lat": -33.368582,
      "lon": -70.699104,
      "n": 1,
-     "rumbo": 340
+     "rumbo": 340,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -33.368298,
      "lon": -70.699426,
      "n": 1,
-     "rumbo": 159
+     "rumbo": 159,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -33.365948,
      "lon": -70.696904,
      "n": 1,
-     "rumbo": 90
+     "rumbo": 90,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -33.365796,
      "lon": -70.695114,
      "n": 2,
-     "rumbo": 276
+     "rumbo": 276,
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -6280,13 +6760,17 @@
      "lat": -33.365656,
      "lon": -70.801689,
      "n": 1,
-     "rumbo": 127
+     "rumbo": 127,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     },
     {
      "lat": -33.365621,
      "lon": -70.801663,
      "n": 1,
-     "rumbo": 307
+     "rumbo": 307,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -6313,13 +6797,17 @@
      "lat": -33.358007,
      "lon": -70.703834,
      "n": 1,
-     "rumbo": 339
+     "rumbo": 339,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -33.357992,
      "lon": -70.704091,
      "n": 1,
-     "rumbo": 159
+     "rumbo": 159,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -6336,10 +6824,8 @@
   {
    "lat": -33.340624,
    "lon": -71.366673,
-   "nombre": "Peaje Ruta 68 (5)",
+   "nombre": "Peaje cerca de Casablanca",
    "tipo": "cabina",
-   "via": "Ruta 68",
-   "ref": "68",
    "localidad": "Casablanca",
    "fuente": "armado",
    "cabinas": [
@@ -6347,7 +6833,8 @@
      "lat": -33.340624,
      "lon": -71.366673,
      "n": 1,
-     "rumbo": 119
+     "rumbo": 119,
+     "ancho": 20.0
     }
    ],
    "posicion": {
@@ -6375,13 +6862,17 @@
      "lat": -33.339828,
      "lon": -70.712005,
      "n": 1,
-     "rumbo": 339
+     "rumbo": 339,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -33.339815,
      "lon": -70.712212,
      "n": 1,
-     "rumbo": 160
+     "rumbo": 160,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     }
    ],
    "posicion": {
@@ -6409,7 +6900,8 @@
      "lat": -33.328601,
      "lon": -71.390358,
      "n": 1,
-     "rumbo": 153
+     "rumbo": 153,
+     "ancho": 15.0
     }
    ],
    "posicion": {
@@ -6434,13 +6926,15 @@
      "lat": -33.325918,
      "lon": -70.624287,
      "n": 1,
-     "rumbo": 359
+     "rumbo": 359,
+     "ancho": 3.5
     },
     {
      "lat": -33.324694,
      "lon": -70.624804,
      "n": 1,
-     "rumbo": 176
+     "rumbo": 176,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -6470,13 +6964,17 @@
      "lat": -33.31711,
      "lon": -70.722201,
      "n": 1,
-     "rumbo": 339
+     "rumbo": 339,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.317078,
      "lon": -70.722419,
      "n": 1,
-     "rumbo": 160
+     "rumbo": 160,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -6502,13 +7000,17 @@
      "lat": -33.311387,
      "lon": -70.634191,
      "n": 1,
-     "rumbo": 57
+     "rumbo": 57,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.311318,
      "lon": -70.634252,
      "n": 1,
-     "rumbo": 237
+     "rumbo": 237,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -6534,25 +7036,33 @@
      "lat": -33.31087,
      "lon": -70.70214,
      "n": 1,
-     "rumbo": 29
+     "rumbo": 29,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.310711,
      "lon": -70.70248,
      "n": 1,
-     "rumbo": 210
+     "rumbo": 210,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.310002,
      "lon": -70.701748,
      "n": 1,
-     "rumbo": 28
+     "rumbo": 28,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.309983,
      "lon": -70.701857,
      "n": 1,
-     "rumbo": 208
+     "rumbo": 208,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -6584,7 +7094,8 @@
      "lat": -33.30552,
      "lon": -71.411215,
      "n": 1,
-     "rumbo": 144
+     "rumbo": 144,
+     "ancho": 18.0
     }
    ],
    "posicion": {
@@ -6611,13 +7122,17 @@
      "lat": -33.299471,
      "lon": -70.670493,
      "n": 1,
-     "rumbo": 89
+     "rumbo": 89,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.299381,
      "lon": -70.670492,
      "n": 1,
-     "rumbo": 269
+     "rumbo": 269,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -6649,7 +7164,8 @@
      "lat": -33.282965,
      "lon": -70.702682,
      "n": 1,
-     "rumbo": 173
+     "rumbo": 173,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -6676,13 +7192,17 @@
      "lat": -33.27995,
      "lon": -70.73888,
      "n": 1,
-     "rumbo": 339
+     "rumbo": 339,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -33.27992,
      "lon": -70.739095,
      "n": 1,
-     "rumbo": 159
+     "rumbo": 159,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -6709,7 +7229,9 @@
      "lon": -70.73546,
      "n": 1,
      "rumbo": 241,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -6735,13 +7257,17 @@
      "lat": -33.235666,
      "lon": -70.759127,
      "n": 2,
-     "rumbo": 159
+     "rumbo": 159,
+     "tipo": "CENTRAL",
+     "ancho": 28.0
     },
     {
      "lat": -33.235598,
      "lon": -70.75872,
      "n": 2,
-     "rumbo": 339
+     "rumbo": 339,
+     "tipo": "CENTRAL",
+     "ancho": 28.0
     }
    ],
    "posicion": {
@@ -6761,10 +7287,8 @@
   {
    "lat": -33.208953,
    "lon": -70.668045,
-   "nombre": "Peaje Autopista Los Libertadores (57) (2)",
+   "nombre": "Peaje cerca de Colina",
    "tipo": "cabina",
-   "via": "Autopista Los Libertadores",
-   "ref": "57",
    "localidad": "Colina",
    "fuente": "armado",
    "cabinas": [
@@ -6772,7 +7296,8 @@
      "lat": -33.208953,
      "lon": -70.668045,
      "n": 1,
-     "rumbo": 34
+     "rumbo": 34,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -6799,7 +7324,8 @@
      "lat": -33.1615,
      "lon": -71.542052,
      "n": 1,
-     "rumbo": 122
+     "rumbo": 122,
+     "ancho": 18.0
     }
    ],
    "posicion": {
@@ -6825,25 +7351,33 @@
      "lat": -33.063522,
      "lon": -71.431671,
      "n": 1,
-     "rumbo": 98
+     "rumbo": 98,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.063448,
      "lon": -71.434126,
      "n": 1,
-     "rumbo": 97
+     "rumbo": 97,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     },
     {
      "lat": -33.063407,
      "lon": -71.431655,
      "n": 1,
-     "rumbo": 278
+     "rumbo": 278,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.062926,
      "lon": -71.434041,
      "n": 1,
-     "rumbo": 277
+     "rumbo": 277,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     }
    ],
    "posicion": {
@@ -6874,13 +7408,15 @@
      "lat": -33.061846,
      "lon": -71.457493,
      "n": 1,
-     "rumbo": 110
+     "rumbo": 110,
+     "ancho": 30.0
     },
     {
      "lat": -33.061511,
      "lon": -71.457091,
      "n": 1,
-     "rumbo": 289
+     "rumbo": 289,
+     "ancho": 30.0
     }
    ],
    "posicion": {
@@ -6911,7 +7447,9 @@
      "lon": -70.687245,
      "n": 1,
      "rumbo": 19,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 28.0
     }
    ],
    "posicion": {
@@ -6938,13 +7476,15 @@
      "lat": -32.97335,
      "lon": -71.302674,
      "n": 1,
-     "rumbo": 204
+     "rumbo": 204,
+     "ancho": 15.0
     },
     {
      "lat": -32.972114,
      "lon": -71.300955,
      "n": 1,
-     "rumbo": 25
+     "rumbo": 25,
+     "ancho": 10.0
     }
    ],
    "posicion": {
@@ -6977,13 +7517,17 @@
      "lat": -32.93498,
      "lon": -71.288361,
      "n": 1,
-     "rumbo": 170
+     "rumbo": 170,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     },
     {
      "lat": -32.934973,
      "lon": -71.288251,
      "n": 1,
-     "rumbo": 350
+     "rumbo": 350,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     }
    ],
    "posicion": {
@@ -7013,7 +7557,9 @@
      "lon": -71.286487,
      "n": 1,
      "rumbo": 251,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 28.0
     }
    ],
    "posicion": {
@@ -7041,13 +7587,15 @@
      "lat": -32.902746,
      "lon": -71.249396,
      "n": 1,
-     "rumbo": 259
+     "rumbo": 259,
+     "ancho": 10.0
     },
     {
      "lat": -32.901303,
      "lon": -71.245815,
      "n": 1,
-     "rumbo": 261
+     "rumbo": 261,
+     "ancho": 15.0
     }
    ],
    "posicion": {
@@ -7078,7 +7626,9 @@
      "lat": -32.900681,
      "lon": -70.24891,
      "n": 1,
-     "rumbo": 83
+     "rumbo": 83,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     }
    ],
    "posicion": {
@@ -7094,10 +7644,8 @@
   {
    "lat": -32.875537,
    "lon": -71.231631,
-   "nombre": "Peaje Autopista Los Andes (60) (2)",
+   "nombre": "Peaje cerca de Quillota",
    "tipo": "cabina",
-   "via": "Autopista Los Andes",
-   "ref": "60",
    "localidad": "Quillota",
    "fuente": "armado",
    "cabinas": [
@@ -7105,13 +7653,15 @@
      "lat": -32.875537,
      "lon": -71.231631,
      "n": 1,
-     "rumbo": 188
+     "rumbo": 188,
+     "ancho": 18.0
     },
     {
      "lat": -32.875029,
      "lon": -71.230781,
      "n": 1,
-     "rumbo": 2
+     "rumbo": 2,
+     "ancho": 18.0
     }
    ],
    "posicion": {
@@ -7142,13 +7692,17 @@
      "lat": -32.844016,
      "lon": -70.989277,
      "n": 1,
-     "rumbo": 99
+     "rumbo": 99,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -32.843559,
      "lon": -70.989179,
      "n": 1,
-     "rumbo": 280
+     "rumbo": 280,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -7179,13 +7733,17 @@
      "lat": -32.840633,
      "lon": -71.029466,
      "n": 1,
-     "rumbo": 104
+     "rumbo": 104,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -32.840483,
      "lon": -71.029432,
      "n": 1,
-     "rumbo": 284
+     "rumbo": 284,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -7219,10 +7777,8 @@
   {
    "lat": -32.769255,
    "lon": -70.703584,
-   "nombre": "Peaje Autopista Los Andes (60) (3)",
+   "nombre": "Peaje Autopista Los Andes",
    "tipo": "cabina",
-   "via": "Autopista Los Andes",
-   "ref": "60",
    "localidad": "Tierras Blancas",
    "fuente": "armado",
    "cabinas": [
@@ -7230,13 +7786,15 @@
      "lat": -32.769514,
      "lon": -70.703814,
      "n": 1,
-     "rumbo": 112
+     "rumbo": 112,
+     "ancho": 12.0
     },
     {
      "lat": -32.769255,
      "lon": -70.703584,
      "n": 1,
-     "rumbo": 293
+     "rumbo": 293,
+     "ancho": 12.0
     }
    ],
    "posicion": {
@@ -7266,13 +7824,17 @@
      "lat": -32.760279,
      "lon": -70.828287,
      "n": 1,
-     "rumbo": 54
+     "rumbo": 54,
+     "tipo": "CENTRAL",
+     "ancho": 12.0
     },
     {
      "lat": -32.760209,
      "lon": -70.828352,
      "n": 1,
-     "rumbo": 234
+     "rumbo": 234,
+     "tipo": "CENTRAL",
+     "ancho": 12.0
     }
    ],
    "posicion": {
@@ -7299,13 +7861,17 @@
      "lat": -32.753333,
      "lon": -71.253129,
      "n": 2,
-     "rumbo": 55
+     "rumbo": 55,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -32.753024,
      "lon": -71.253054,
      "n": 2,
-     "rumbo": 235
+     "rumbo": 235,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -7335,13 +7901,17 @@
      "lat": -32.714422,
      "lon": -71.43974,
      "n": 2,
-     "rumbo": 17
+     "rumbo": 17,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -32.714231,
      "lon": -71.439961,
      "n": 2,
-     "rumbo": 196
+     "rumbo": 196,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -7367,13 +7937,17 @@
      "lat": -32.62967,
      "lon": -71.23062,
      "n": 2,
-     "rumbo": 8
+     "rumbo": 8,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -32.629639,
      "lon": -71.230826,
      "n": 2,
-     "rumbo": 189
+     "rumbo": 189,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -7399,13 +7973,17 @@
      "lat": -32.175154,
      "lon": -71.520805,
      "n": 2,
-     "rumbo": 14
+     "rumbo": 14,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -32.175108,
      "lon": -71.52105,
      "n": 2,
-     "rumbo": 194
+     "rumbo": 194,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -7432,7 +8010,9 @@
      "lat": -31.44608,
      "lon": -71.56125,
      "n": 1,
-     "rumbo": 79
+     "rumbo": 79,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -7458,13 +8038,17 @@
      "lat": -31.420199,
      "lon": -71.570835,
      "n": 1,
-     "rumbo": 156
+     "rumbo": 156,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     },
     {
      "lat": -31.420145,
      "lon": -71.570709,
      "n": 1,
-     "rumbo": 337
+     "rumbo": 337,
+     "tipo": "CENTRAL",
+     "ancho": 18.0
     }
    ],
    "posicion": {
@@ -7491,7 +8075,9 @@
      "lat": -30.707482,
      "lon": -71.488889,
      "n": 1,
-     "rumbo": 23
+     "rumbo": 23,
+     "tipo": "CENTRAL",
+     "ancho": 12.0
     }
    ],
    "posicion": {
@@ -7518,13 +8104,17 @@
      "lat": -30.408219,
      "lon": -71.445402,
      "n": 1,
-     "rumbo": 20
+     "rumbo": 20,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     },
     {
      "lat": -30.408191,
      "lon": -71.445538,
      "n": 1,
-     "rumbo": 199
+     "rumbo": 199,
+     "tipo": "CENTRAL",
+     "ancho": 16.0
     }
    ],
    "posicion": {
@@ -7550,7 +8140,9 @@
      "lat": -30.351708,
      "lon": -71.432331,
      "n": 1,
-     "rumbo": 299
+     "rumbo": 299,
+     "tipo": "CENTRAL",
+     "ancho": 8.0
     }
    ],
    "posicion": {
@@ -7577,13 +8169,17 @@
      "lat": -30.330357,
      "lon": -71.244256,
      "n": 1,
-     "rumbo": 172
+     "rumbo": 172,
+     "tipo": "CENTRAL",
+     "ancho": 15.0
     },
     {
      "lat": -30.330342,
      "lon": -71.244131,
      "n": 1,
-     "rumbo": 352
+     "rumbo": 352,
+     "tipo": "CENTRAL",
+     "ancho": 15.0
     }
    ],
    "posicion": {
@@ -7609,7 +8205,9 @@
      "lat": -30.19738,
      "lon": -71.387961,
      "n": 1,
-     "rumbo": 282
+     "rumbo": 282,
+     "tipo": "CENTRAL",
+     "ancho": 20.0
     }
    ],
    "posicion": {
@@ -7635,13 +8233,17 @@
      "lat": -29.371105,
      "lon": -71.073083,
      "n": 1,
-     "rumbo": 60
+     "rumbo": 60,
+     "tipo": "CENTRAL",
+     "ancho": 25.0
     },
     {
      "lat": -29.371009,
      "lon": -71.073152,
      "n": 1,
-     "rumbo": 241
+     "rumbo": 241,
+     "tipo": "CENTRAL",
+     "ancho": 25.0
     }
    ],
    "posicion": {
@@ -7667,13 +8269,17 @@
      "lat": -29.08674,
      "lon": -70.916949,
      "n": 1,
-     "rumbo": 11
+     "rumbo": 11,
+     "tipo": "CENTRAL",
+     "ancho": 28.0
     },
     {
      "lat": -29.086711,
      "lon": -70.917138,
      "n": 1,
-     "rumbo": 191
+     "rumbo": 191,
+     "tipo": "CENTRAL",
+     "ancho": 18.0
     }
    ],
    "posicion": {
@@ -7699,13 +8305,17 @@
      "lat": -27.997114,
      "lon": -70.565755,
      "n": 1,
-     "rumbo": 17
+     "rumbo": 17,
+     "tipo": "CENTRAL",
+     "ancho": 12.0
     },
     {
      "lat": -27.997073,
      "lon": -70.565916,
      "n": 1,
-     "rumbo": 197
+     "rumbo": 197,
+     "tipo": "CENTRAL",
+     "ancho": 12.0
     }
    ],
    "posicion": {
@@ -7732,7 +8342,9 @@
      "lon": -70.952691,
      "n": 1,
      "rumbo": 230,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -7758,13 +8370,17 @@
      "lat": -27.348294,
      "lon": -70.636334,
      "n": 1,
-     "rumbo": 73
+     "rumbo": 73,
+     "tipo": "CENTRAL",
+     "ancho": 15.0
     },
     {
      "lat": -27.348174,
      "lon": -70.636375,
      "n": 1,
-     "rumbo": 253
+     "rumbo": 253,
+     "tipo": "CENTRAL",
+     "ancho": 15.0
     }
    ],
    "posicion": {
@@ -7789,7 +8405,9 @@
      "lat": -23.767324,
      "lon": -70.28809,
      "n": 1,
-     "rumbo": 70
+     "rumbo": 70,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -7816,13 +8434,17 @@
      "lat": -23.453956,
      "lon": -70.125175,
      "n": 1,
-     "rumbo": 85
+     "rumbo": 85,
+     "tipo": "CENTRAL",
+     "ancho": 15.0
     },
     {
      "lat": -23.453842,
      "lon": -70.125186,
      "n": 1,
-     "rumbo": 264
+     "rumbo": 264,
+     "tipo": "CENTRAL",
+     "ancho": 15.0
     }
    ],
    "posicion": {
@@ -7833,6 +8455,32 @@
    "via_visible": "Ruta 5",
    "punto": "Baquedano",
    "nombre_visible": "Ruta 5 - Peaje Baquedano",
+   "confianza": "media"
+  },
+  {
+   "lat": -23.448667,
+   "lon": -70.440258,
+   "nombre": "Peaje cerca de Antofagasta",
+   "tipo": "cabina",
+   "localidad": "Antofagasta",
+   "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -23.448667,
+     "lon": -70.440258,
+     "n": 1,
+     "rumbo": 280,
+     "doble": true,
+     "ancho": 7.0
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
+   "pais": "CL",
+   "punto": "Antofagasta",
+   "nombre_visible": "Peaje Antofagasta",
    "confianza": "media"
   },
   {
@@ -7848,13 +8496,17 @@
      "lat": -23.310605,
      "lon": -70.418984,
      "n": 1,
-     "rumbo": 10
+     "rumbo": 10,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -23.310564,
      "lon": -70.419055,
      "n": 1,
-     "rumbo": 190
+     "rumbo": 190,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -7880,13 +8532,17 @@
      "lat": -22.695814,
      "lon": -69.188364,
      "n": 1,
-     "rumbo": 23
+     "rumbo": 23,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -22.695745,
      "lon": -69.188534,
      "n": 1,
-     "rumbo": 203
+     "rumbo": 203,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -7913,13 +8569,17 @@
      "lat": -20.495615,
      "lon": -70.161594,
      "n": 1,
-     "rumbo": 12
+     "rumbo": 12,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -20.495595,
      "lon": -70.161717,
      "n": 1,
-     "rumbo": 192
+     "rumbo": 192,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -7946,13 +8606,17 @@
      "lat": -20.216173,
      "lon": -69.903414,
      "n": 1,
-     "rumbo": 77
+     "rumbo": 77,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -20.21606,
      "lon": -69.903442,
      "n": 1,
-     "rumbo": 257
+     "rumbo": 257,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -7979,30 +8643,9 @@
      "lat": -23.451537,
      "lon": -70.431214,
      "n": 2,
-     "rumbo": 96
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
-  },
-  {
-   "lat": -23.448667,
-   "lon": -70.440258,
-   "nombre": "Peaje Acceso a Aeropuerto Andrés Sabella",
-   "tipo": "cabina",
-   "via": "Acceso a Aeropuerto Andrés Sabella",
-   "localidad": "Antofagasta",
-   "fuente": "armado",
-   "cabinas": [
-    {
-     "lat": -23.448667,
-     "lon": -70.440258,
-     "n": 1,
-     "rumbo": 280,
-     "doble": true
+     "rumbo": 96,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -8012,6 +8655,9 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-06T04:25Z",
- "alertas": []
+ "generado": "2026-11-07T11:59Z",
+ "alertas": [
+  "CL: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 400 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo.",
+  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+ ]
 }
