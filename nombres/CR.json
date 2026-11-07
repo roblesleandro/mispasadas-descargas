@@ -10,10 +10,10 @@
   "confianza_baja": 0,
   "excluidas": 0,
   "tipos_filas": {
-   "CENTRAL": 10,
-   "SALIDA": 0,
-   "ENTRADA": 0,
-   "sin_tipo": 22
+   "CENTRAL": 12,
+   "SALIDA": 3,
+   "ENTRADA": 4,
+   "sin_tipo": 13
   },
   "posicion": {
    "umbral_m": 15.0,
@@ -193,6 +193,7 @@
      "lon": -84.580309,
      "n": 1,
      "rumbo": 78,
+     "tipo": "CENTRAL",
      "ancho": 3.5
     },
     {
@@ -200,6 +201,7 @@
      "lon": -84.575603,
      "n": 1,
      "rumbo": 27,
+     "tipo": "CENTRAL",
      "ancho": 3.5
     }
    ],
@@ -304,6 +306,7 @@
      "lon": -84.218975,
      "n": 1,
      "rumbo": 74,
+     "tipo": "ENTRADA",
      "ancho": 17.5
     },
     {
@@ -444,6 +447,7 @@
      "lon": -84.358621,
      "n": 2,
      "rumbo": 222,
+     "tipo": "SALIDA",
      "ancho": 7.0
     },
     {
@@ -451,7 +455,8 @@
      "lon": -84.357801,
      "n": 1,
      "rumbo": 16,
-     "ancho": 7.0
+     "tipo": "ENTRADA",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -509,13 +514,15 @@
      "lon": -84.280855,
      "n": 1,
      "rumbo": 95,
-     "ancho": 7.0
+     "tipo": "SALIDA",
+     "ancho": 3.5
     },
     {
      "lat": 9.964978,
      "lon": -84.282988,
      "n": 1,
      "rumbo": 273,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     }
    ],
@@ -546,14 +553,16 @@
      "lon": -84.251872,
      "n": 1,
      "rumbo": 171,
-     "ancho": 7.0
+     "tipo": "SALIDA",
+     "ancho": 3.5
     },
     {
      "lat": 9.965901,
      "lon": -84.254031,
      "n": 1,
      "rumbo": 278,
-     "ancho": 7.0
+     "tipo": "ENTRADA",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -651,8 +660,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-11-07T13:51Z",
- "alertas": [
-  "CR: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo."
- ]
+ "generado": "2026-11-07T22:26Z",
+ "alertas": []
 }
