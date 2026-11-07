@@ -4,16 +4,16 @@
  "moneda": "COP",
  "resumen": {
   "oficial": 47,
-  "osm": 143,
-  "armado": 17,
+  "osm": 144,
+  "armado": 16,
   "total": 207,
   "confianza_baja": 0,
   "excluidas": 1,
   "tipos_filas": {
-   "CENTRAL": 286,
+   "CENTRAL": 288,
    "SALIDA": 0,
    "ENTRADA": 0,
-   "sin_tipo": 16
+   "sin_tipo": 15
   },
   "posicion": {
    "umbral_m": 15.0,
@@ -488,7 +488,7 @@
    "lon": -76.443022,
    "nombre": "Peaje Estambul",
    "tipo": "cabina",
-   "via": "Autopista Palmira",
+   "via": "Vía Cali - Palmira",
    "ref": "25",
    "fuente": "osm",
    "cabinas": [
@@ -506,9 +506,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Autopista Palmira",
+   "via_visible": "Vía Cali - Palmira",
    "punto": "Estambul",
-   "nombre_visible": "Autopista Palmira - Peaje Estambul",
+   "nombre_visible": "Vía Cali - Palmira - Peaje Estambul",
    "confianza": "alta"
   },
   {
@@ -516,7 +516,7 @@
    "lon": -76.343319,
    "nombre": "Peaje Ciat",
    "tipo": "cabina",
-   "via": "Autopista Palmira",
+   "via": "Vía Cali - Palmira",
    "ref": "25",
    "fuente": "osm",
    "cabinas": [
@@ -534,9 +534,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Autopista Palmira",
+   "via_visible": "Vía Cali - Palmira",
    "punto": "Ciat",
-   "nombre_visible": "Autopista Palmira - Peaje Ciat",
+   "nombre_visible": "Vía Cali - Palmira - Peaje Ciat",
    "confianza": "alta"
   },
   {
@@ -1868,8 +1868,8 @@
    "confianza": "alta"
   },
   {
-   "lat": 4.698587,
-   "lon": -74.179402,
+   "lat": 4.698619,
+   "lon": -74.179391,
    "nombre": "Río Bogotá",
    "tipo": "cabina",
    "via": "Río Bogotá",
@@ -1877,12 +1877,12 @@
    "fuente": "oficial",
    "cabinas": [
     {
-     "lat": 4.698587,
-     "lon": -74.179402,
-     "n": 7,
+     "lat": 4.698619,
+     "lon": -74.179391,
+     "n": 11,
      "rumbo": 290,
      "tipo": "CENTRAL",
-     "ancho": 24.5
+     "ancho": 38.5
     }
    ],
    "posicion": {
@@ -1962,18 +1962,17 @@
    "plaza": "EL CORZO"
   },
   {
-   "lat": 4.763644,
-   "lon": -74.043662,
-   "nombre": "Peaje Calle 187 Bis (55)",
+   "lat": 4.763638,
+   "lon": -74.043671,
+   "nombre": "Peaje Calle 187 Bis",
    "tipo": "cabina",
    "via": "Calle 187 Bis",
-   "ref": "55",
    "localidad": "Cota",
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": 4.763644,
-     "lon": -74.043662,
+     "lat": 4.763638,
+     "lon": -74.043671,
      "n": 1,
      "rumbo": 58,
      "ancho": 3.5
@@ -1984,9 +1983,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Ruta 55",
+   "via_visible": "Calle 187 Bis",
    "punto": "Cota",
-   "nombre_visible": "Ruta 55 - Peaje Cota",
+   "nombre_visible": "Calle 187 Bis - Peaje Cota",
    "confianza": "media"
   },
   {
@@ -2136,6 +2135,7 @@
      "lon": -74.033021,
      "n": 5,
      "rumbo": 8,
+     "tipo": "CENTRAL",
      "ancho": 24.5
     }
    ],
@@ -2216,12 +2216,11 @@
   {
    "lat": 4.841866,
    "lon": -73.936142,
-   "nombre": "Peaje Vía La Calera - Sopó (50 CN 03)",
+   "nombre": "Peaje Sopó Salitre",
    "tipo": "cabina",
    "via": "Vía La Calera - Sopó",
    "ref": "50 CN 03",
-   "localidad": "Salitre",
-   "fuente": "armado",
+   "fuente": "osm",
    "cabinas": [
     {
      "lat": 4.841866,
@@ -2238,9 +2237,9 @@
    },
    "pais": "CO",
    "via_visible": "Vía La Calera - Sopó",
-   "punto": "Salitre",
-   "nombre_visible": "Vía La Calera - Sopó - Peaje Salitre",
-   "confianza": "media"
+   "punto": "Sopó Salitre",
+   "nombre_visible": "Vía La Calera - Sopó - Peaje Sopó Salitre",
+   "confianza": "alta"
   },
   {
    "lat": 4.855352,
@@ -2270,9 +2269,8 @@
   {
    "lat": 4.862194,
    "lon": -74.04327,
-   "nombre": "Peaje Carrera 5 Este",
+   "nombre": "Peaje cerca de Chía",
    "tipo": "cabina",
-   "via": "Carrera 5 Este",
    "localidad": "Chía",
    "fuente": "armado",
    "cabinas": [
@@ -2287,9 +2285,8 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Carrera 5 Este",
    "punto": "Chía",
-   "nombre_visible": "Carrera 5 Este - Peaje Chía",
+   "nombre_visible": "Peaje Chía",
    "confianza": "media"
   },
   {
@@ -2712,25 +2709,18 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": 5.077415,
-     "lon": -73.553759,
-     "n": 1,
+     "lat": 5.077523,
+     "lon": -73.553712,
+     "n": 2,
      "rumbo": 111,
-     "tipo": "CENTRAL",
-     "ancho": 10.5
-    },
-    {
-     "lat": 5.077631,
-     "lon": -73.553665,
-     "n": 1,
-     "rumbo": 291,
+     "doble": true,
      "tipo": "CENTRAL",
      "ancho": 7.0
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 13.0
+    "distancia_m": 0.0
    },
    "pais": "CO",
    "via_visible": "Ruta 56",
@@ -2838,8 +2828,8 @@
    "confianza": "alta"
   },
   {
-   "lat": 5.201512,
-   "lon": -74.820329,
+   "lat": 5.201522,
+   "lon": -74.820328,
    "nombre": "Peaje Honda",
    "tipo": "cabina",
    "via": "Vía Mariquita - Honda",
@@ -2847,18 +2837,23 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": 5.201512,
-     "lon": -74.820329,
+     "lat": 5.201515,
+     "lon": -74.820326,
      "n": 1,
      "rumbo": 67,
      "doble": true,
      "tipo": "CENTRAL",
      "ancho": 3.5
+    },
+    {
+     "lat": 5.201529,
+     "lon": -74.820331,
+     "n": 1
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 0.8
    },
    "pais": "CO",
    "via_visible": "Vía Mariquita - Honda",
@@ -3037,9 +3032,8 @@
   {
    "lat": 5.33515,
    "lon": -72.391142,
-   "nombre": "Peaje Avenida Carrera 23",
+   "nombre": "Peaje cerca de Yopal",
    "tipo": "cabina",
-   "via": "Avenida Carrera 23",
    "localidad": "Yopal",
    "fuente": "armado",
    "cabinas": [
@@ -3054,9 +3048,8 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Avenida Carrera 23",
    "punto": "Yopal",
-   "nombre_visible": "Avenida Carrera 23 - Peaje Yopal",
+   "nombre_visible": "Peaje Yopal",
    "confianza": "media"
   },
   {
@@ -3291,7 +3284,7 @@
    "lon": -73.27862,
    "nombre": "Peaje de Tuta",
    "tipo": "cabina",
-   "via": "Vía Tunja - Paipa",
+   "via": "Vía Tunja - Duitama",
    "ref": "55",
    "fuente": "osm",
    "cabinas": [
@@ -3321,9 +3314,9 @@
     ]
    },
    "pais": "CO",
-   "via_visible": "Vía Tunja - Paipa",
+   "via_visible": "Vía Tunja - Duitama",
    "punto": "de Tuta",
-   "nombre_visible": "Vía Tunja - Paipa - Peaje de Tuta",
+   "nombre_visible": "Vía Tunja - Duitama - Peaje de Tuta",
    "confianza": "alta"
   },
   {
@@ -4000,7 +3993,7 @@
    "lon": -75.432961,
    "nombre": "Peaje Trapiche",
    "tipo": "cabina",
-   "via": "Autopista Bello - El Hatillo",
+   "via": "Doble Calzada Niquia - Hatillo",
    "ref": "25",
    "fuente": "osm",
    "cabinas": [
@@ -4016,7 +4009,7 @@
      "lat": 6.399648,
      "lon": -75.433001,
      "n": 1,
-     "rumbo": 233,
+     "rumbo": 235,
      "tipo": "CENTRAL",
      "ancho": 10.5
     }
@@ -4026,9 +4019,9 @@
     "distancia_m": 7.6
    },
    "pais": "CO",
-   "via_visible": "Autopista Bello - El Hatillo",
+   "via_visible": "Ruta 25",
    "punto": "Trapiche",
-   "nombre_visible": "Autopista Bello - El Hatillo - Peaje Trapiche",
+   "nombre_visible": "Ruta 25 - Peaje Trapiche",
    "confianza": "alta"
   },
   {
@@ -4036,7 +4029,7 @@
    "lon": -74.501344,
    "nombre": "Peaje Puerto Berrío",
    "tipo": "cabina",
-   "via": "Vía Puerto Berrío - San José del Nus",
+   "via": "Variante Puerto Berrio",
    "ref": "62",
    "fuente": "osm",
    "cabinas": [
@@ -4055,9 +4048,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Vía Puerto Berrío - San José del Nus",
+   "via_visible": "Ruta 62",
    "punto": "Puerto Berrío",
-   "nombre_visible": "Vía Puerto Berrío - San José del Nus - Peaje Puerto Berrío",
+   "nombre_visible": "Ruta 62 - Peaje Puerto Berrío",
    "confianza": "alta"
   },
   {
@@ -4105,7 +4098,7 @@
    "lon": -75.075494,
    "nombre": "Peaje Cisneros",
    "tipo": "cabina",
-   "via": "Vía Providencia - Cisneros",
+   "via": "Transversal Tribuga - Arauca",
    "ref": "62",
    "fuente": "osm",
    "cabinas": [
@@ -4131,9 +4124,9 @@
     "distancia_m": 8.5
    },
    "pais": "CO",
-   "via_visible": "Vía Providencia - Cisneros",
+   "via_visible": "Ruta 62",
    "punto": "Cisneros",
-   "nombre_visible": "Vía Providencia - Cisneros - Peaje Cisneros",
+   "nombre_visible": "Ruta 62 - Peaje Cisneros",
    "confianza": "alta"
   },
   {
@@ -4202,7 +4195,7 @@
    "lon": -73.952501,
    "nombre": "Peaje Aguas Negras",
    "tipo": "cabina",
-   "via": "Vía Puerto Nuevo - Puerto Araujo",
+   "via": "Troncal del Magdalena Medio - Puerto Araujo - La Rochela",
    "ref": "45",
    "fuente": "osm",
    "cabinas": [
@@ -4221,9 +4214,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Vía Puerto Nuevo - Puerto Araujo",
+   "via_visible": "Ruta 45",
    "punto": "Aguas Negras",
-   "nombre_visible": "Vía Puerto Nuevo - Puerto Araujo - Peaje Aguas Negras",
+   "nombre_visible": "Ruta 45 - Peaje Aguas Negras",
    "confianza": "alta"
   },
   {
@@ -4385,43 +4378,42 @@
    "plaza": "Fuemia"
   },
   {
-   "lat": 7.083417,
-   "lon": -73.717343,
+   "lat": 7.083662,
+   "lon": -73.717516,
    "nombre": "Peaje La Lizama",
    "tipo": "cabina",
-   "via": "Vía Bucaramanga - Barrancabermeja",
    "ref": "66",
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": 7.083417,
-     "lon": -73.717343,
+     "lat": 7.083395,
+     "lon": -73.71733,
      "n": 1,
-     "rumbo": 55,
+     "rumbo": 56,
      "tipo": "CENTRAL",
      "ancho": 14.0
     },
     {
-     "lat": 7.083645,
-     "lon": -73.717503,
+     "lat": 7.083662,
+     "lon": -73.717516,
      "n": 1,
-     "rumbo": 239,
+     "rumbo": 235,
      "tipo": "CENTRAL",
      "ancho": 14.0
     }
    ],
    "posicion": {
     "estado": "corregida",
-    "antes_m": 15,
+    "antes_m": 18,
     "centro_plaza": [
-     7.083531,
+     7.083529,
      -73.717423
     ]
    },
    "pais": "CO",
-   "via_visible": "Vía Bucaramanga - Barrancabermeja",
+   "via_visible": "Ruta 66",
    "punto": "La Lizama",
-   "nombre_visible": "Vía Bucaramanga - Barrancabermeja - Peaje La Lizama",
+   "nombre_visible": "Ruta 66 - Peaje La Lizama",
    "confianza": "alta"
   },
   {
@@ -4531,7 +4523,7 @@
   },
   {
    "lat": 7.222946,
-   "lon": -76.433353,
+   "lon": -76.433287,
    "nombre": "Mutatá",
    "tipo": "cabina",
    "via": "MUTATÁ",
@@ -4541,9 +4533,9 @@
    "cabinas": [
     {
      "lat": 7.222946,
-     "lon": -76.433353,
+     "lon": -76.433287,
      "n": 1,
-     "rumbo": 359,
+     "rumbo": 0,
      "doble": true,
      "tipo": "CENTRAL",
      "ancho": 3.5
@@ -4597,8 +4589,8 @@
    "confianza": "alta"
   },
   {
-   "lat": 7.277107,
-   "lon": -74.832073,
+   "lat": 7.277135,
+   "lon": -74.832123,
    "nombre": "Fragua",
    "tipo": "cabina",
    "via": "FRAGUA",
@@ -4607,18 +4599,25 @@
    "fuente": "oficial",
    "cabinas": [
     {
-     "lat": 7.277107,
-     "lon": -74.832073,
+     "lat": 7.277118,
+     "lon": -74.832045,
      "n": 1,
-     "rumbo": 16,
-     "doble": true,
+     "rumbo": 10,
      "tipo": "CENTRAL",
-     "ancho": 3.5
+     "ancho": 7.0
+    },
+    {
+     "lat": 7.277152,
+     "lon": -74.832202,
+     "n": 1,
+     "rumbo": 194,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 8.8
    },
    "pais": "CO",
    "via_visible": "Autopista Conexión Norte",
@@ -4959,7 +4958,7 @@
    "lon": -73.560074,
    "nombre": "Peaje Mórrison",
    "tipo": "cabina",
-   "via": "Vía San Alberto - Aguachica",
+   "via": "Vía a la Costa Aguachica - San Martin",
    "ref": "45",
    "fuente": "osm",
    "cabinas": [
@@ -4985,9 +4984,9 @@
     "distancia_m": 8.2
    },
    "pais": "CO",
-   "via_visible": "Vía San Alberto - Aguachica",
+   "via_visible": "Vía a la Costa Aguachica - San Martin",
    "punto": "Mórrison",
-   "nombre_visible": "Vía San Alberto - Aguachica - Peaje Mórrison",
+   "nombre_visible": "Vía a la Costa Aguachica - San Martin - Peaje Mórrison",
    "confianza": "alta"
   },
   {
@@ -5401,7 +5400,7 @@
    "lon": -73.669729,
    "nombre": "Peaje Pailitas",
    "tipo": "cabina",
-   "via": "Vía Aguachica - Pailitas",
+   "via": "Ruta del sol El Burro - Pailitas",
    "ref": "45",
    "fuente": "osm",
    "cabinas": [
@@ -5427,9 +5426,9 @@
     "distancia_m": 12.8
    },
    "pais": "CO",
-   "via_visible": "Vía Aguachica - Pailitas",
+   "via_visible": "Ruta 45",
    "punto": "Pailitas",
-   "nombre_visible": "Vía Aguachica - Pailitas - Peaje Pailitas",
+   "nombre_visible": "Ruta 45 - Peaje Pailitas",
    "confianza": "alta"
   },
   {
@@ -5796,7 +5795,7 @@
    "lon": -73.923803,
    "nombre": "Peaje El Copey",
    "tipo": "cabina",
-   "via": "Vía Bosconia - Ciénaga",
+   "via": "Ruta del Sol III",
    "ref": "45",
    "fuente": "osm",
    "cabinas": [
@@ -5815,9 +5814,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Vía Bosconia - Ciénaga",
+   "via_visible": "Ruta 45",
    "punto": "El Copey",
-   "nombre_visible": "Vía Bosconia - Ciénaga - Peaje El Copey",
+   "nombre_visible": "Ruta 45 - Peaje El Copey",
    "confianza": "alta"
   },
   {
@@ -6722,6 +6721,7 @@
      "n": 2,
      "rumbo": 100,
      "doble": true,
+     "tipo": "CENTRAL",
      "ancho": 7.0
     }
    ],
@@ -6777,7 +6777,7 @@
    "lon": -76.462679,
    "nombre": "Peaje Cencar",
    "tipo": "cabina",
-   "via": "Autopista Aeropuerto Norte",
+   "via": "Vía Aeropuerto",
    "ref": "23VL01",
    "fuente": "osm",
    "cabinas": [
@@ -6797,8 +6797,8 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-07T12:41Z",
+ "generado": "2026-11-07T19:55Z",
  "alertas": [
-  "CO: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 400 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo."
+  "Alrededores: falló un lote de 16 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
  ]
 }
