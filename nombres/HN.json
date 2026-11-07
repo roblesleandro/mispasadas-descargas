@@ -9,6 +9,12 @@
   "total": 11,
   "confianza_baja": 0,
   "excluidas": 1,
+  "tipos_filas": {
+   "CENTRAL": 10,
+   "SALIDA": 0,
+   "ENTRADA": 1,
+   "sin_tipo": 1
+  },
   "posicion": {
    "umbral_m": 15.0,
    "ok": 12,
@@ -58,7 +64,9 @@
      "lon": -88.058329,
      "n": 1,
      "rumbo": 5,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -83,13 +91,17 @@
      "lat": 14.291621,
      "lon": -87.433529,
      "n": 1,
-     "rumbo": 72
+     "rumbo": 72,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": 14.291691,
      "lon": -87.433554,
      "n": 1,
-     "rumbo": 253
+     "rumbo": 253,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -116,7 +128,9 @@
      "lat": 14.391822,
      "lon": -87.615168,
      "n": 1,
-     "rumbo": 83
+     "rumbo": 83,
+     "tipo": "ENTRADA",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -143,7 +157,9 @@
      "lon": -87.827961,
      "n": 1,
      "rumbo": 307,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -169,7 +185,9 @@
      "lat": 15.030637,
      "lon": -87.927935,
      "n": 1,
-     "rumbo": 178
+     "rumbo": 178,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -195,7 +213,9 @@
      "lon": -87.947519,
      "n": 1,
      "rumbo": 62,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -221,7 +241,9 @@
      "lat": 15.437223,
      "lon": -88.020978,
      "n": 1,
-     "rumbo": 181
+     "rumbo": 181,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -248,7 +270,9 @@
      "lat": 15.463211,
      "lon": -87.960457,
      "n": 1,
-     "rumbo": 128
+     "rumbo": 128,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -275,7 +299,9 @@
      "lat": 15.559777,
      "lon": -87.984901,
      "n": 1,
-     "rumbo": 62
+     "rumbo": 62,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -302,7 +328,9 @@
      "lat": 15.823729,
      "lon": -87.899386,
      "n": 1,
-     "rumbo": 99
+     "rumbo": 99,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -340,6 +368,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-01T22:36Z",
+ "generado": "2026-11-07T23:28Z",
  "alertas": []
 }
