@@ -9,6 +9,12 @@
   "total": 19,
   "confianza_baja": 0,
   "excluidas": 0,
+  "tipos_filas": {
+   "CENTRAL": 29,
+   "SALIDA": 0,
+   "ENTRADA": 0,
+   "sin_tipo": 2
+  },
   "posicion": {
    "umbral_m": 15.0,
    "ok": 17,
@@ -38,13 +44,15 @@
      "lat": -34.839556,
      "lon": -56.014118,
      "n": 1,
-     "rumbo": 141
+     "rumbo": 141,
+     "ancho": 14.0
     },
     {
      "lat": -34.839484,
      "lon": -56.013994,
      "n": 1,
-     "rumbo": 327
+     "rumbo": 327,
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -71,13 +79,17 @@
      "lat": -34.784916,
      "lon": -55.888453,
      "n": 1,
-     "rumbo": 52
+     "rumbo": 52,
+     "tipo": "CENTRAL",
+     "ancho": 21.0
     },
     {
      "lat": -34.784726,
      "lon": -55.888607,
      "n": 1,
-     "rumbo": 226
+     "rumbo": 226,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -106,19 +118,25 @@
      "lon": -56.355435,
      "n": 1,
      "rumbo": 160,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     },
     {
      "lat": -34.776489,
      "lon": -56.366213,
      "n": 1,
-     "rumbo": 96
+     "rumbo": 96,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -34.776291,
      "lon": -56.366194,
      "n": 1,
-     "rumbo": 275
+     "rumbo": 275,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -150,13 +168,17 @@
      "lat": -34.777612,
      "lon": -55.392393,
      "n": 1,
-     "rumbo": 68
+     "rumbo": 68,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     },
     {
      "lat": -34.777412,
      "lon": -55.392507,
      "n": 1,
-     "rumbo": 247
+     "rumbo": 247,
+     "tipo": "CENTRAL",
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -185,7 +207,9 @@
      "lon": -55.466127,
      "n": 1,
      "rumbo": 91,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -214,7 +238,9 @@
      "lon": -55.765381,
      "n": 2,
      "rumbo": 85,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -242,13 +268,17 @@
      "lat": -34.602797,
      "lon": -54.426493,
      "n": 1,
-     "rumbo": 49
+     "rumbo": 49,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -34.602701,
      "lon": -54.426585,
      "n": 1,
-     "rumbo": 230
+     "rumbo": 230,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -276,13 +306,17 @@
      "lat": -34.443384,
      "lon": -56.421485,
      "n": 2,
-     "rumbo": 98
+     "rumbo": 98,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -34.443293,
      "lon": -56.421472,
      "n": 2,
-     "rumbo": 280
+     "rumbo": 280,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -310,13 +344,17 @@
      "lat": -34.355039,
      "lon": -57.113498,
      "n": 1,
-     "rumbo": 98
+     "rumbo": 98,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -34.354931,
      "lon": -57.113486,
      "n": 1,
-     "rumbo": 280
+     "rumbo": 280,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -344,13 +382,17 @@
      "lat": -34.33483,
      "lon": -56.245035,
      "n": 1,
-     "rumbo": 7
+     "rumbo": 7,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -34.334819,
      "lon": -56.245094,
      "n": 1,
-     "rumbo": 188
+     "rumbo": 188,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -379,7 +421,9 @@
      "lon": -54.766413,
      "n": 1,
      "rumbo": 356,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -408,7 +452,9 @@
      "lon": -58.047951,
      "n": 1,
      "rumbo": 302,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -437,7 +483,9 @@
      "lon": -57.172657,
      "n": 1,
      "rumbo": 292,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -463,13 +511,17 @@
      "lat": -33.109662,
      "lon": -58.246569,
      "n": 1,
-     "rumbo": 176
+     "rumbo": 176,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -33.109631,
      "lon": -58.246326,
      "n": 1,
-     "rumbo": 344
+     "rumbo": 344,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -497,14 +549,18 @@
      "lon": -56.482138,
      "n": 1,
      "rumbo": 10,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     },
     {
      "lat": -32.839941,
      "lon": -56.493546,
      "n": 1,
      "rumbo": 344,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -536,13 +592,17 @@
      "lat": -32.265923,
      "lon": -58.093423,
      "n": 1,
-     "rumbo": 107
+     "rumbo": 107,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -32.265838,
      "lon": -58.093386,
      "n": 1,
-     "rumbo": 292
+     "rumbo": 292,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -570,7 +630,9 @@
      "lon": -57.938691,
      "n": 1,
      "rumbo": 29,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -599,7 +661,9 @@
      "lon": -55.698775,
      "n": 1,
      "rumbo": 60,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -626,7 +690,9 @@
      "lon": -57.534102,
      "n": 1,
      "rumbo": 331,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -641,6 +707,8 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-11-01T23:58Z",
- "alertas": []
+ "generado": "2026-11-07T10:25Z",
+ "alertas": [
+  "UY: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo."
+ ]
 }
