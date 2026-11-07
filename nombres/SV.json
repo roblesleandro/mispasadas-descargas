@@ -5,37 +5,41 @@
  "resumen": {
   "oficial": 0,
   "osm": 0,
-  "armado": 4,
-  "total": 4,
+  "armado": 3,
+  "total": 3,
   "confianza_baja": 0,
   "excluidas": 0,
+  "tipos_filas": {
+   "CENTRAL": 0,
+   "SALIDA": 0,
+   "ENTRADA": 0,
+   "sin_tipo": 3
+  },
   "posicion": {
    "umbral_m": 15.0,
-   "ok": 4,
+   "ok": 3,
    "corregidas": 0,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 4,
+    "ok": 3,
     "a_mas_de_15_m": 0,
-    "sin_referencia": 0,
+    "sin_referencia": 1,
     "total": 4
    }
   }
  },
  "estaciones": [
   {
-   "lat": 13.687069,
-   "lon": -89.739864,
-   "nombre": "Peaje Carretera Sonsonate - Acajutla (CA-12)",
+   "lat": 13.696695,
+   "lon": -89.189984,
+   "nombre": "Peaje cerca de San Salvador",
    "tipo": "cabina",
-   "via": "Carretera Sonsonate - Acajutla",
-   "ref": "CA-12",
-   "localidad": "El Guayabo",
+   "localidad": "San Salvador",
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": 13.687069,
-     "lon": -89.739864,
+     "lat": 13.696695,
+     "lon": -89.189984,
      "n": 1
     }
    ],
@@ -44,55 +48,22 @@
     "distancia_m": 0.0
    },
    "pais": "SV",
-   "via_visible": "Carretera Sonsonate - Acajutla",
-   "punto": "El Guayabo",
-   "nombre_visible": "Carretera Sonsonate - Acajutla - Peaje El Guayabo",
-   "confianza": "media"
-  },
-  {
-   "lat": 13.696695,
-   "lon": -89.189984,
-   "nombre": "Peaje 6a Calle Oriente km 0",
-   "tipo": "cabina",
-   "via": "6a Calle Oriente",
-   "km": "0",
-   "localidad": "San Salvador",
-   "fuente": "armado",
-   "cabinas": [
-    {
-     "lat": 13.696695,
-     "lon": -89.189984,
-     "n": 1,
-     "rumbo": 96,
-     "doble": true
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "pais": "SV",
-   "via_visible": "6a Calle Oriente",
    "punto": "San Salvador",
-   "nombre_visible": "6a Calle Oriente - Peaje San Salvador",
+   "nombre_visible": "Peaje San Salvador",
    "confianza": "media"
   },
   {
    "lat": 13.710108,
    "lon": -89.719732,
-   "nombre": "Peaje Carretera Sonsonate - Acajutla (CA-8)",
+   "nombre": "Peaje cerca de Nahulingo",
    "tipo": "cabina",
-   "via": "Carretera Sonsonate - Acajutla",
-   "ref": "CA-8",
    "localidad": "Nahulingo",
    "fuente": "armado",
    "cabinas": [
     {
      "lat": 13.710108,
      "lon": -89.719732,
-     "n": 1,
-     "rumbo": 267,
-     "doble": true
+     "n": 1
     }
    ],
    "posicion": {
@@ -108,18 +79,15 @@
   {
    "lat": 13.710173,
    "lon": -90.030949,
-   "nombre": "Peaje AHU37S",
+   "nombre": "Peaje cerca de Faya",
    "tipo": "cabina",
-   "ref": "AHU37S",
    "localidad": "Faya",
    "fuente": "armado",
    "cabinas": [
     {
      "lat": 13.710173,
      "lon": -90.030949,
-     "n": 1,
-     "rumbo": 55,
-     "doble": true
+     "n": 1
     }
    ],
    "posicion": {
@@ -127,13 +95,16 @@
     "distancia_m": 0.0
    },
    "pais": "SV",
-   "via_visible": "AHU37S",
    "punto": "Faya",
-   "nombre_visible": "AHU37S - Peaje Faya",
+   "nombre_visible": "Peaje Faya",
    "confianza": "media"
   }
  ],
  "excluidas": [],
- "generado": "2026-11-02T21:27Z",
- "alertas": []
+ "generado": "2026-11-07T23:17Z",
+ "alertas": [
+  "SV: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo.",
+  "SV: OpenStreetMap no devolvió la geometría de las calles (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las cabinas salen sin sentido.",
+  "Alrededores: falló un lote de 3 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+ ]
 }
