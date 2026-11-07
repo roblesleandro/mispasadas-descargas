@@ -9,15 +9,21 @@
   "total": 117,
   "confianza_baja": 0,
   "excluidas": 1,
+  "tipos_filas": {
+   "CENTRAL": 125,
+   "SALIDA": 0,
+   "ENTRADA": 0,
+   "sin_tipo": 40
+  },
   "posicion": {
    "umbral_m": 15.0,
-   "ok": 110,
-   "corregidas": 8,
+   "ok": 107,
+   "corregidas": 11,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 117,
-    "a_mas_de_15_m": 0,
-    "sin_referencia": 0,
+    "ok": 114,
+    "a_mas_de_15_m": 2,
+    "sin_referencia": 1,
     "total": 117
    }
   }
@@ -37,7 +43,9 @@
      "lon": -70.754021,
      "n": 1,
      "rumbo": 314,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -63,13 +71,17 @@
      "lat": -17.832187,
      "lon": -70.539334,
      "n": 1,
-     "rumbo": 118
+     "rumbo": 118,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -17.832125,
      "lon": -70.539305,
      "n": 1,
-     "rumbo": 298
+     "rumbo": 298,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -95,13 +107,17 @@
      "lat": -17.661543,
      "lon": -71.220726,
      "n": 1,
-     "rumbo": 27
+     "rumbo": 27,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -17.661504,
      "lon": -71.220818,
      "n": 1,
-     "rumbo": 207
+     "rumbo": 207,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -128,7 +144,9 @@
      "lon": -70.974909,
      "n": 1,
      "rumbo": 318,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -154,13 +172,17 @@
      "lat": -17.067049,
      "lon": -71.607438,
      "n": 1,
-     "rumbo": 156
+     "rumbo": 156,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -17.067014,
      "lon": -71.607336,
      "n": 1,
-     "rumbo": 336
+     "rumbo": 336,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -187,7 +209,9 @@
      "lon": -70.726469,
      "n": 1,
      "rumbo": 257,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -213,8 +237,10 @@
      "lat": -16.983479,
      "lon": -72.077703,
      "n": 1,
-     "rumbo": 267,
-     "doble": true
+     "rumbo": 266,
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -241,7 +267,9 @@
      "lon": -70.037672,
      "n": 1,
      "rumbo": 229,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -267,13 +295,17 @@
      "lat": -16.646532,
      "lon": -72.625682,
      "n": 1,
-     "rumbo": 7
+     "rumbo": 7,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -16.64652,
      "lon": -72.625833,
      "n": 1,
-     "rumbo": 186
+     "rumbo": 186,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -300,7 +332,9 @@
      "lon": -69.228845,
      "n": 1,
      "rumbo": 297,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -328,7 +362,8 @@
      "lon": -69.03689,
      "n": 1,
      "rumbo": 117,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -346,7 +381,6 @@
    "lon": -70.368861,
    "nombre": "Unidad de peaje Titire",
    "tipo": "cabina",
-   "via": "Eje Transversal Moquegua - Puno",
    "ref": "PE-36B",
    "fuente": "osm",
    "cabinas": [
@@ -355,7 +389,9 @@
      "lon": -70.368861,
      "n": 1,
      "rumbo": 232,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -381,13 +417,17 @@
      "lat": -16.426003,
      "lon": -71.673028,
      "n": 1,
-     "rumbo": 97
+     "rumbo": 97,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     },
     {
      "lat": -16.425951,
      "lon": -71.673024,
      "n": 1,
-     "rumbo": 278
+     "rumbo": 278,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -413,13 +453,17 @@
      "lat": -16.234005,
      "lon": -73.592642,
      "n": 1,
-     "rumbo": 113
+     "rumbo": 113,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -16.233863,
      "lon": -73.592586,
      "n": 1,
-     "rumbo": 294
+     "rumbo": 294,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -433,8 +477,8 @@
    "confianza": "alta"
   },
   {
-   "lat": -16.078208,
-   "lon": -69.657617,
+   "lat": -16.078188,
+   "lon": -69.657608,
    "nombre": "Unidad de peaje Ilave",
    "tipo": "cabina",
    "via": "Carretera Longitudinal de la Sierra Sur",
@@ -442,11 +486,13 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -16.078208,
-     "lon": -69.657617,
+     "lat": -16.078188,
+     "lon": -69.657608,
      "n": 1,
-     "rumbo": 114,
-     "doble": true
+     "rumbo": 117,
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -472,13 +518,17 @@
      "lat": -16.05726,
      "lon": -71.41395,
      "n": 2,
-     "rumbo": 53
+     "rumbo": 53,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -16.057197,
      "lon": -71.413996,
      "n": 1,
-     "rumbo": 232
+     "rumbo": 232,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -504,7 +554,9 @@
      "lat": -15.696833,
      "lon": -70.067839,
      "n": 1,
-     "rumbo": 345
+     "rumbo": 345,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -531,7 +583,9 @@
      "lon": -70.613349,
      "n": 1,
      "rumbo": 279,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -557,13 +611,17 @@
      "lat": -15.669777,
      "lon": -74.541125,
      "n": 1,
-     "rumbo": 110
+     "rumbo": 110,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -15.669662,
      "lon": -74.541064,
      "n": 1,
-     "rumbo": 290
+     "rumbo": 290,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -591,7 +649,9 @@
      "lon": -71.603998,
      "n": 1,
      "rumbo": 352,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -619,7 +679,9 @@
      "lon": -71.858161,
      "n": 1,
      "rumbo": 335,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -646,7 +708,9 @@
      "lon": -75.13479,
      "n": 1,
      "rumbo": 297,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -673,7 +737,9 @@
      "lon": -70.5599,
      "n": 1,
      "rumbo": 303,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -699,7 +765,9 @@
      "lat": -14.80525,
      "lon": -74.998118,
      "n": 1,
-     "rumbo": 126
+     "rumbo": 126,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -726,7 +794,9 @@
      "lon": -74.284929,
      "n": 1,
      "rumbo": 198,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -754,7 +824,9 @@
      "lon": -73.469722,
      "n": 1,
      "rumbo": 288,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -782,7 +854,9 @@
      "lon": -70.296574,
      "n": 1,
      "rumbo": 17,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -814,7 +888,9 @@
      "lon": -71.03661,
      "n": 1,
      "rumbo": 268,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -842,7 +918,9 @@
      "lon": -76.016592,
      "n": 1,
      "rumbo": 284,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -869,7 +947,9 @@
      "lon": -70.446212,
      "n": 1,
      "rumbo": 318,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -896,7 +976,9 @@
      "lat": -13.932178,
      "lon": -75.90493,
      "n": 1,
-     "rumbo": 275
+     "rumbo": 275,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -923,7 +1005,9 @@
      "lon": -71.504581,
      "n": 1,
      "rumbo": 345,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -950,7 +1034,9 @@
      "lon": -73.048822,
      "n": 1,
      "rumbo": 211,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -978,7 +1064,9 @@
      "lon": -76.254721,
      "n": 2,
      "rumbo": 48,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1004,7 +1092,8 @@
      "lon": -71.281032,
      "n": 1,
      "rumbo": 289,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1030,7 +1119,8 @@
      "lon": -71.238556,
      "n": 1,
      "rumbo": 187,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1080,7 +1170,9 @@
      "lon": -75.568813,
      "n": 1,
      "rumbo": 152,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1107,7 +1199,9 @@
      "lon": -70.409442,
      "n": 1,
      "rumbo": 8,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1121,35 +1215,39 @@
    "confianza": "alta"
   },
   {
-   "lat": -13.386877,
-   "lon": -76.202133,
-   "nombre": "Unidad de Peaje Jahuay",
+   "lat": -13.387053,
+   "lon": -76.202037,
+   "nombre": "Unidad de peaje Jahuay",
    "tipo": "cabina",
    "via": "Carretera Panamericana Sur",
    "ref": "PE-1S",
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -13.386914,
-     "lon": -76.20223,
-     "n": 2,
-     "rumbo": 152
+     "lat": -13.3871,
+     "lon": -76.202156,
+     "n": 1,
+     "rumbo": 153,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
-     "lat": -13.386839,
-     "lon": -76.202036,
-     "n": 2,
-     "rumbo": 331
+     "lat": -13.387006,
+     "lon": -76.201919,
+     "n": 1,
+     "rumbo": 334,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 11.3
+    "distancia_m": 13.8
    },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
-   "punto": "Unidad de Peaje Jahuay",
-   "nombre_visible": "Carretera Panamericana Sur - Peaje Unidad de Peaje Jahuay",
+   "punto": "Unidad de peaje Jahuay",
+   "nombre_visible": "Carretera Panamericana Sur - Peaje Unidad de peaje Jahuay",
    "confianza": "alta"
   },
   {
@@ -1166,7 +1264,9 @@
      "lon": -74.939614,
      "n": 1,
      "rumbo": 151,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1193,7 +1293,9 @@
      "lon": -70.78583,
      "n": 1,
      "rumbo": 37,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1220,7 +1322,9 @@
      "lon": -74.273236,
      "n": 1,
      "rumbo": 24,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1247,7 +1351,9 @@
      "lon": -76.288089,
      "n": 1,
      "rumbo": 210,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -1273,7 +1379,9 @@
      "lat": -12.881157,
      "lon": -69.776051,
      "n": 1,
-     "rumbo": 87
+     "rumbo": 87,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -12.881122,
@@ -1284,7 +1392,9 @@
      "lat": -12.881085,
      "lon": -69.776055,
      "n": 1,
-     "rumbo": 267
+     "rumbo": 267,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1296,35 +1406,6 @@
    "punto": "Unidad de peaje Unión Progreso",
    "nombre_visible": "PE-30C - Peaje Unidad de peaje Unión Progreso",
    "confianza": "alta"
-  },
-  {
-   "lat": -12.539953,
-   "lon": -76.718585,
-   "nombre": "Peaje Carretera Panamericana Sur (PE-1S) km 67",
-   "tipo": "cabina",
-   "via": "Carretera Panamericana Sur",
-   "ref": "PE-1S",
-   "km": "67",
-   "localidad": "Las Salinas",
-   "fuente": "armado",
-   "cabinas": [
-    {
-     "lat": -12.539953,
-     "lon": -76.718585,
-     "n": 1,
-     "rumbo": 230,
-     "doble": true
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "pais": "PE",
-   "via_visible": "PE-1S",
-   "punto": "Las Salinas",
-   "nombre_visible": "PE-1S - Peaje Las Salinas",
-   "confianza": "media"
   },
   {
    "lat": -12.533238,
@@ -1339,7 +1420,9 @@
      "lat": -12.533238,
      "lon": -76.721175,
      "n": 2,
-     "rumbo": 156
+     "rumbo": 156,
+     "tipo": "CENTRAL",
+     "ancho": 24.5
     }
    ],
    "posicion": {
@@ -1353,8 +1436,8 @@
    "confianza": "alta"
   },
   {
-   "lat": -12.366419,
-   "lon": -76.789311,
+   "lat": -12.366632,
+   "lon": -76.789513,
    "nombre": "Punta Negra",
    "tipo": "cabina",
    "via": "Carretera Panamericana Sur",
@@ -1362,20 +1445,29 @@
    "fuente": "osm",
    "cabinas": [
     {
+     "lat": -12.366632,
+     "lon": -76.789513,
+     "n": 1,
+     "rumbo": 135,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
+    },
+    {
      "lat": -12.366423,
      "lon": -76.78929,
      "n": 1,
-     "rumbo": 315
-    },
-    {
-     "lat": -12.366414,
-     "lon": -76.789333,
-     "n": 1
+     "rumbo": 315,
+     "tipo": "CENTRAL",
+     "ancho": 42.0
     }
    ],
    "posicion": {
-    "estado": "ok",
-    "distancia_m": 2.3
+    "estado": "corregida",
+    "antes_m": 17,
+    "centro_plaza": [
+     -12.366528,
+     -76.789402
+    ]
    },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
@@ -1397,7 +1489,8 @@
      "lat": -12.359593,
      "lon": -76.796277,
      "n": 1,
-     "rumbo": 291
+     "rumbo": 291,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1424,7 +1517,8 @@
      "lat": -12.332323,
      "lon": -76.820377,
      "n": 3,
-     "rumbo": 325
+     "rumbo": 325,
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -1439,8 +1533,8 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": -12.303551,
-   "lon": -76.842213,
+   "lat": -12.303638,
+   "lon": -76.841994,
    "nombre": "Peaje Carretera Panamericana Sur (PE-1S)",
    "tipo": "cabina",
    "via": "Carretera Panamericana Sur",
@@ -1449,10 +1543,11 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -12.303551,
-     "lon": -76.842213,
+     "lat": -12.303638,
+     "lon": -76.841994,
      "n": 1,
-     "rumbo": 115
+     "rumbo": 115,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1467,27 +1562,23 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": -12.300464,
-   "lon": -76.847459,
+   "lat": -12.300447,
+   "lon": -76.847439,
    "nombre": "Peaje Arica",
    "tipo": "cabina",
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -12.300482,
-     "lon": -76.847479,
-     "n": 1
-    },
-    {
      "lat": -12.300447,
      "lon": -76.847439,
      "n": 1,
-     "rumbo": 290
+     "rumbo": 288,
+     "ancho": 17.5
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 2.9
+    "distancia_m": 0.0
    },
    "pais": "PE",
    "via_visible": "Carretera Panamericana Sur",
@@ -1509,7 +1600,9 @@
      "lon": -69.170352,
      "n": 1,
      "rumbo": 40,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1523,8 +1616,8 @@
    "confianza": "alta"
   },
   {
-   "lat": -12.282407,
-   "lon": -76.879238,
+   "lat": -12.284275,
+   "lon": -76.878785,
    "nombre": "Peaje Carretera Panamericana Sur (PE-1S) (3)",
    "tipo": "cabina",
    "via": "Carretera Panamericana Sur",
@@ -1533,24 +1626,26 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -12.284166,
-     "lon": -76.878689,
+     "lat": -12.284275,
+     "lon": -76.878785,
      "n": 1,
-     "rumbo": 39
+     "rumbo": 39,
+     "ancho": 3.5
     },
     {
      "lat": -12.282407,
      "lon": -76.879238,
      "n": 1,
-     "rumbo": 300
+     "rumbo": 300,
+     "ancho": 10.5
     }
    ],
    "posicion": {
     "estado": "corregida",
-    "antes_m": 102,
+    "antes_m": 106,
     "centro_plaza": [
-     -12.283286,
-     -76.878963
+     -12.283341,
+     -76.879011
     ]
    },
    "pais": "PE",
@@ -1574,14 +1669,18 @@
      "lon": -75.119461,
      "n": 1,
      "rumbo": 122,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     },
     {
      "lat": -12.271455,
      "lon": -75.119927,
      "n": 1,
      "rumbo": 318,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1599,8 +1698,8 @@
    "confianza": "alta"
   },
   {
-   "lat": -12.254953,
-   "lon": -76.920922,
+   "lat": -12.25494,
+   "lon": -76.920917,
    "nombre": "Peaje Carretera Panamericana Sur (PE-1S) (2)",
    "tipo": "cabina",
    "via": "Carretera Panamericana Sur",
@@ -1609,20 +1708,16 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -12.254966,
-     "lon": -76.920927,
-     "n": 1
-    },
-    {
      "lat": -12.25494,
      "lon": -76.920917,
      "n": 1,
-     "rumbo": 208
+     "rumbo": 208,
+     "ancho": 7.0
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 1.5
+    "distancia_m": 0.0
    },
    "pais": "PE",
    "via_visible": "PE-1S",
@@ -1636,16 +1731,8 @@
    "lon": -76.970489,
    "nombre": "Peaje Villa",
    "tipo": "cabina",
-   "via": "Carretera Panamericana Sur",
-   "ref": "PE-1S",
    "fuente": "osm",
    "cabinas": [
-    {
-     "lat": -12.228039,
-     "lon": -76.969387,
-     "n": 1,
-     "rumbo": 135
-    },
     {
      "lat": -12.228027,
      "lon": -76.969373,
@@ -1655,20 +1742,14 @@
      "lat": -12.226824,
      "lon": -76.970489,
      "n": 1
-    },
-    {
-     "lat": -12.226785,
-     "lon": -76.97045,
-     "n": 1,
-     "rumbo": 134
     }
    ],
    "posicion": {
     "estado": "corregida",
     "antes_m": 90,
     "centro_plaza": [
-     -12.227419,
-     -76.969925
+     -12.227425,
+     -76.969931
     ]
    },
    "pais": "PE",
@@ -1678,41 +1759,42 @@
    "confianza": "alta"
   },
   {
-   "lat": -12.217865,
-   "lon": -76.978142,
-   "nombre": "Peaje Prolongación Avenida Defensores del Morro",
+   "lat": -12.217517,
+   "lon": -76.978196,
+   "nombre": "Peaje Avenida Caminos del Inca",
    "tipo": "cabina",
-   "via": "Prolongación Avenida Defensores del Morro",
+   "via": "Avenida Caminos del Inca",
    "localidad": "Quebrada Verde",
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -12.218119,
-     "lon": -76.978056,
-     "n": 1,
-     "rumbo": 34
-    },
-    {
      "lat": -12.21796,
      "lon": -76.978174,
      "n": 1,
-     "rumbo": 95
+     "rumbo": 95,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -12.217517,
      "lon": -76.978196,
      "n": 1,
-     "rumbo": 265
+     "rumbo": 265,
+     "ancho": 7.0
     }
    ],
    "posicion": {
-    "estado": "ok",
-    "distancia_m": 11.1
+    "estado": "corregida",
+    "antes_m": 24,
+    "centro_plaza": [
+     -12.217738,
+     -76.978185
+    ]
    },
    "pais": "PE",
-   "via_visible": "Carretera Panamericana Sur",
+   "via_visible": "Avenida Caminos del Inca",
    "punto": "Quebrada Verde",
-   "nombre_visible": "Carretera Panamericana Sur - Peaje Quebrada Verde",
+   "nombre_visible": "Avenida Caminos del Inca - Peaje Quebrada Verde",
    "confianza": "media"
   },
   {
@@ -1729,7 +1811,9 @@
      "lon": -75.209193,
      "n": 1,
      "rumbo": 143,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1780,7 +1864,8 @@
      "lon": -76.974195,
      "n": 1,
      "rumbo": 43,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -1837,55 +1922,67 @@
      "lat": -12.069822,
      "lon": -76.972611,
      "n": 1,
-     "rumbo": 213
+     "rumbo": 213,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     },
     {
      "lat": -12.069085,
      "lon": -76.972429,
      "n": 4,
-     "rumbo": 206
+     "rumbo": 206,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     },
     {
      "lat": -12.067965,
      "lon": -76.971793,
      "n": 1,
-     "rumbo": 17
+     "rumbo": 17,
+     "ancho": 7.0
     },
     {
      "lat": -12.067842,
      "lon": -76.972067,
      "n": 1,
-     "rumbo": 200
+     "rumbo": 200,
+     "tipo": "CENTRAL",
+     "ancho": 17.5
     },
     {
      "lat": -12.067337,
      "lon": -76.97081,
      "n": 1,
-     "rumbo": 67
+     "rumbo": 67,
+     "ancho": 7.0
     },
     {
      "lat": -12.066983,
      "lon": -76.970954,
      "n": 1,
-     "rumbo": 312
+     "rumbo": 312,
+     "ancho": 7.0
     },
     {
      "lat": -12.066957,
      "lon": -76.971607,
      "n": 1,
-     "rumbo": 193
+     "rumbo": 193,
+     "ancho": 7.0
     },
     {
      "lat": -12.066661,
      "lon": -76.97136,
      "n": 3,
-     "rumbo": 14
+     "rumbo": 14,
+     "ancho": 28.0
     },
     {
      "lat": -12.065864,
      "lon": -76.971301,
      "n": 1,
-     "rumbo": 9
+     "rumbo": 9,
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1916,7 +2013,8 @@
      "lat": -12.05778,
      "lon": -77.146366,
      "n": 4,
-     "rumbo": 130
+     "rumbo": 130,
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -1944,13 +2042,15 @@
      "lat": -12.057491,
      "lon": -76.974722,
      "n": 1,
-     "rumbo": 196
+     "rumbo": 196,
+     "ancho": 14.0
     },
     {
      "lat": -12.056688,
      "lon": -76.973388,
      "n": 1,
-     "rumbo": 295
+     "rumbo": 295,
+     "ancho": 17.5
     }
    ],
    "posicion": {
@@ -1980,7 +2080,9 @@
      "lat": -12.043344,
      "lon": -77.020186,
      "n": 1,
-     "rumbo": 277
+     "rumbo": 277,
+     "tipo": "CENTRAL",
+     "ancho": 24.5
     }
    ],
    "posicion": {
@@ -2006,32 +2108,31 @@
      "lat": -12.039495,
      "lon": -77.042497,
      "n": 1,
-     "rumbo": 57
-    },
-    {
-     "lat": -12.039495,
-     "lon": -77.042489,
-     "n": 1
+     "rumbo": 61,
+     "ancho": 14.0
     },
     {
      "lat": -12.038022,
      "lon": -77.046798,
      "n": 1,
-     "rumbo": 139
+     "rumbo": 139,
+     "ancho": 7.0
     },
     {
      "lat": -12.037257,
      "lon": -77.047218,
      "n": 1,
-     "rumbo": 144
+     "rumbo": 144,
+     "tipo": "CENTRAL",
+     "ancho": 21.0
     }
    ],
    "posicion": {
     "estado": "corregida",
-    "antes_m": 231,
+    "antes_m": 143,
     "centro_plaza": [
-     -12.038567,
-     -77.04475
+     -12.038258,
+     -77.045504
     ]
    },
    "pais": "PE",
@@ -2056,13 +2157,15 @@
      "lon": -76.988889,
      "n": 1,
      "rumbo": 165,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     },
     {
      "lat": -12.031902,
      "lon": -76.98893,
      "n": 4,
-     "rumbo": 256
+     "rumbo": 256,
+     "ancho": 14.0
     }
    ],
    "posicion": {
@@ -2076,8 +2179,8 @@
    "confianza": "media"
   },
   {
-   "lat": -12.022319,
-   "lon": -77.106575,
+   "lat": -12.022326,
+   "lon": -77.1066,
    "nombre": "Peaje Avenida Elmer Faucett (PE-20B)",
    "tipo": "cabina",
    "via": "Avenida Elmer Faucett",
@@ -2086,24 +2189,26 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -12.022319,
-     "lon": -77.106575,
+     "lat": -12.022326,
+     "lon": -77.1066,
      "n": 2,
-     "rumbo": 70
+     "rumbo": 67,
+     "ancho": 10.5
     },
     {
-     "lat": -12.02079,
-     "lon": -77.107755,
+     "lat": -12.020767,
+     "lon": -77.107743,
      "n": 2,
-     "rumbo": 332
+     "rumbo": 333,
+     "ancho": 7.0
     }
    ],
    "posicion": {
     "estado": "corregida",
     "antes_m": 106,
     "centro_plaza": [
-     -12.021555,
-     -77.107165
+     -12.021547,
+     -77.107172
     ]
    },
    "pais": "PE",
@@ -2150,13 +2255,17 @@
      "lat": -11.911294,
      "lon": -76.582886,
      "n": 1,
-     "rumbo": 72
+     "rumbo": 72,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -11.911174,
      "lon": -76.582931,
      "n": 1,
-     "rumbo": 250
+     "rumbo": 250,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2168,6 +2277,41 @@
    "punto": "Unidad de peaje Corcona",
    "nombre_visible": "Carretera Central - Peaje Unidad de peaje Corcona",
    "confianza": "alta"
+  },
+  {
+   "lat": -11.911244,
+   "lon": -77.072599,
+   "nombre": "Peaje Avenida Panamericana Norte (PE-1N)",
+   "tipo": "cabina",
+   "via": "Avenida Panamericana Norte",
+   "ref": "PE-1N",
+   "localidad": "Huarangal",
+   "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -11.911244,
+     "lon": -77.072599,
+     "n": 1
+    },
+    {
+     "lat": -11.90998,
+     "lon": -77.071613,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "corregida",
+    "antes_m": 88,
+    "centro_plaza": [
+     -11.910612,
+     -77.072106
+    ]
+   },
+   "pais": "PE",
+   "via_visible": "PE-1N",
+   "punto": "Huarangal",
+   "nombre_visible": "PE-1N - Peaje Huarangal",
+   "confianza": "media"
   },
   {
    "lat": -11.747527,
@@ -2182,13 +2326,17 @@
      "lat": -11.747563,
      "lon": -77.143739,
      "n": 1,
-     "rumbo": 41
+     "rumbo": 41,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -11.747492,
      "lon": -77.143822,
      "n": 1,
-     "rumbo": 221
+     "rumbo": 221,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2202,8 +2350,8 @@
    "confianza": "alta"
   },
   {
-   "lat": -11.743884,
-   "lon": -77.164917,
+   "lat": -11.7439,
+   "lon": -77.164884,
    "nombre": "Unidad de peaje Serpentín de Pasamayo",
    "tipo": "cabina",
    "via": "Carretera Serpentín de Pasamayo",
@@ -2211,21 +2359,18 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -11.743887,
-     "lon": -77.164927,
-     "n": 2
-    },
-    {
-     "lat": -11.74388,
-     "lon": -77.164897,
+     "lat": -11.7439,
+     "lon": -77.164884,
      "n": 1,
      "rumbo": 342,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 1.1
+    "distancia_m": 0.0
    },
    "pais": "PE",
    "via_visible": "Carretera Serpentín de Pasamayo",
@@ -2247,7 +2392,9 @@
      "lon": -75.827894,
      "n": 1,
      "rumbo": 83,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2273,13 +2420,17 @@
      "lat": -11.448134,
      "lon": -75.947217,
      "n": 1,
-     "rumbo": 34
+     "rumbo": 34,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -11.448076,
      "lon": -75.947336,
      "n": 1,
-     "rumbo": 214
+     "rumbo": 214,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2306,7 +2457,9 @@
      "lon": -69.333252,
      "n": 1,
      "rumbo": 137,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2332,7 +2485,9 @@
      "lon": -76.950772,
      "n": 1,
      "rumbo": 51,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2358,13 +2513,17 @@
      "lat": -11.191484,
      "lon": -77.571556,
      "n": 1,
-     "rumbo": 145
+     "rumbo": 145,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -11.191374,
      "lon": -77.571396,
      "n": 1,
-     "rumbo": 325
+     "rumbo": 325,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2391,7 +2550,9 @@
      "lon": -75.409685,
      "n": 1,
      "rumbo": 84,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2417,13 +2578,17 @@
      "lat": -10.602453,
      "lon": -77.871243,
      "n": 1,
-     "rumbo": 178
+     "rumbo": 178,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -10.602449,
      "lon": -77.871072,
      "n": 1,
-     "rumbo": 358
+     "rumbo": 358,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -2449,13 +2614,17 @@
      "lat": -10.572041,
      "lon": -77.75795,
      "n": 1,
-     "rumbo": 39
+     "rumbo": 39,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     },
     {
      "lat": -10.571998,
      "lon": -77.758002,
      "n": 1,
-     "rumbo": 220
+     "rumbo": 220,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2481,7 +2650,9 @@
      "lon": -77.035066,
      "n": 1,
      "rumbo": 54,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2508,7 +2679,9 @@
      "lon": -76.1962,
      "n": 1,
      "rumbo": 159,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2535,13 +2708,17 @@
      "lat": -10.103044,
      "lon": -78.139077,
      "n": 1,
-     "rumbo": 155
+     "rumbo": 155,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -10.102974,
      "lon": -78.138939,
      "n": 1,
-     "rumbo": 334
+     "rumbo": 334,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2567,13 +2744,17 @@
      "lat": -9.923871,
      "lon": -78.219949,
      "n": 1,
-     "rumbo": 0
+     "rumbo": 0,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -9.92387,
      "lon": -78.220104,
      "n": 1,
-     "rumbo": 180
+     "rumbo": 180,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -2600,7 +2781,9 @@
      "lon": -77.40458,
      "n": 1,
      "rumbo": 177,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2627,7 +2810,9 @@
      "lon": -76.124701,
      "n": 1,
      "rumbo": 89,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2653,7 +2838,9 @@
      "lon": -77.523029,
      "n": 1,
      "rumbo": 337,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2679,13 +2866,17 @@
      "lat": -9.296301,
      "lon": -78.412827,
      "n": 1,
-     "rumbo": 157
+     "rumbo": 157,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -9.296242,
      "lon": -78.412695,
      "n": 1,
-     "rumbo": 337
+     "rumbo": 337,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2712,7 +2903,9 @@
      "lon": -78.481528,
      "n": 1,
      "rumbo": 133,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2738,13 +2931,17 @@
      "lat": -9.048919,
      "lon": -78.515602,
      "n": 1,
-     "rumbo": 5
+     "rumbo": 5,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -9.048895,
      "lon": -78.515854,
      "n": 1,
-     "rumbo": 183
+     "rumbo": 183,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2771,13 +2968,17 @@
      "lat": -8.377968,
      "lon": -78.860307,
      "n": 1,
-     "rumbo": 140
+     "rumbo": 140,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -8.377862,
      "lon": -78.86018,
      "n": 1,
-     "rumbo": 317
+     "rumbo": 317,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2804,7 +3005,9 @@
      "lon": -78.840177,
      "n": 1,
      "rumbo": 201,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2830,13 +3033,15 @@
      "lat": -7.875874,
      "lon": -79.132295,
      "n": 3,
-     "rumbo": 155
+     "rumbo": 155,
+     "ancho": 10.5
     },
     {
      "lat": -7.875793,
      "lon": -79.132121,
      "n": 2,
-     "rumbo": 334
+     "rumbo": 334,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2863,7 +3068,9 @@
      "lon": -79.45927,
      "n": 1,
      "rumbo": 273,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2889,13 +3096,17 @@
      "lat": -7.111712,
      "lon": -79.497108,
      "n": 2,
-     "rumbo": 129
+     "rumbo": 129,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -7.111631,
      "lon": -79.497034,
      "n": 2,
-     "rumbo": 308
+     "rumbo": 308,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2921,7 +3132,9 @@
      "lon": -79.6081,
      "n": 1,
      "rumbo": 220,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -2947,7 +3160,9 @@
      "lon": -79.47609,
      "n": 1,
      "rumbo": 196,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -2973,13 +3188,17 @@
      "lat": -6.667185,
      "lon": -79.898341,
      "n": 3,
-     "rumbo": 15
+     "rumbo": 15,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": -6.667156,
      "lon": -79.898464,
      "n": 2,
-     "rumbo": 197
+     "rumbo": 197,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3007,7 +3226,9 @@
      "lon": -80.028243,
      "n": 1,
      "rumbo": 127,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3034,7 +3255,9 @@
      "lon": -80.072176,
      "n": 1,
      "rumbo": 127,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -3060,7 +3283,9 @@
      "lon": -76.280185,
      "n": 1,
      "rumbo": 0,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 15.0
     }
    ],
    "posicion": {
@@ -3087,7 +3312,9 @@
      "lon": -76.937885,
      "n": 3,
      "rumbo": 305,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -3114,7 +3341,9 @@
      "lon": -79.656062,
      "n": 1,
      "rumbo": 58,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3141,7 +3370,9 @@
      "lon": -79.261278,
      "n": 1,
      "rumbo": 108,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3168,7 +3399,9 @@
      "lon": -77.982514,
      "n": 1,
      "rumbo": 181,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3195,7 +3428,9 @@
      "lon": -78.660844,
      "n": 1,
      "rumbo": 58,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3222,7 +3457,9 @@
      "lon": -77.60859,
      "n": 1,
      "rumbo": 292,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -3249,7 +3486,9 @@
      "lon": -80.576873,
      "n": 1,
      "rumbo": 346,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -3275,7 +3514,9 @@
      "lon": -79.684078,
      "n": 1,
      "rumbo": 67,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3302,7 +3543,9 @@
      "lon": -80.616282,
      "n": 1,
      "rumbo": 12,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -3329,7 +3572,9 @@
      "lon": -80.201626,
      "n": 1,
      "rumbo": 275,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3355,13 +3600,17 @@
      "lat": -5.109008,
      "lon": -81.031982,
      "n": 1,
-     "rumbo": 98
+     "rumbo": 98,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -5.108839,
      "lon": -81.031959,
      "n": 1,
-     "rumbo": 278
+     "rumbo": 278,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3387,13 +3636,17 @@
      "lat": -5.038425,
      "lon": -80.70141,
      "n": 1,
-     "rumbo": 3
+     "rumbo": 3,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": -5.038421,
      "lon": -80.701556,
      "n": 1,
-     "rumbo": 183
+     "rumbo": 183,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3420,7 +3673,9 @@
      "lon": -80.54665,
      "n": 1,
      "rumbo": 247,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3446,8 +3701,10 @@
      "lat": -4.601313,
      "lon": -81.163357,
      "n": 1,
-     "rumbo": 304,
-     "doble": true
+     "rumbo": 305,
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3474,7 +3731,9 @@
      "lon": -80.91675,
      "n": 1,
      "rumbo": 62,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -3511,6 +3770,8 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-06T04:44Z",
- "alertas": []
+ "generado": "2026-11-07T12:33Z",
+ "alertas": [
+  "PE: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo."
+ ]
 }
