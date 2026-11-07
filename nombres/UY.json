@@ -708,7 +708,5 @@
  ],
  "excluidas": [],
  "generado": "2026-11-07T10:25Z",
- "alertas": [
-  "UY: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo."
- ]
+ "alertas": []
 }
