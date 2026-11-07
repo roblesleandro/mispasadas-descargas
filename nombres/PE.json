@@ -5,25 +5,25 @@
  "resumen": {
   "oficial": 0,
   "osm": 89,
-  "armado": 28,
-  "total": 117,
+  "armado": 27,
+  "total": 116,
   "confianza_baja": 0,
-  "excluidas": 1,
+  "excluidas": 0,
   "tipos_filas": {
-   "CENTRAL": 125,
-   "SALIDA": 0,
-   "ENTRADA": 0,
-   "sin_tipo": 40
+   "CENTRAL": 129,
+   "SALIDA": 3,
+   "ENTRADA": 10,
+   "sin_tipo": 22
   },
   "posicion": {
    "umbral_m": 15.0,
-   "ok": 107,
+   "ok": 105,
    "corregidas": 11,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 114,
-    "a_mas_de_15_m": 2,
-    "sin_referencia": 1,
+    "ok": 115,
+    "a_mas_de_15_m": 0,
+    "sin_referencia": 2,
     "total": 117
    }
   }
@@ -350,10 +350,9 @@
   {
    "lat": -16.563508,
    "lon": -69.03689,
-   "nombre": "Peaje Avenida Panamericana km 1508",
+   "nombre": "Peaje Avenida Panamericana",
    "tipo": "cabina",
    "via": "Avenida Panamericana",
-   "km": "1508",
    "localidad": "Desaguadero",
    "fuente": "armado",
    "cabinas": [
@@ -439,6 +438,29 @@
    "punto": "Unidad de peaje Variante de Uchumayo",
    "nombre_visible": "Carretera Interoceánica Sur - Peaje Unidad de peaje Variante de Uchumayo",
    "confianza": "alta"
+  },
+  {
+   "lat": -16.345318,
+   "lon": -71.567082,
+   "nombre": "Peaje cerca de Peruarboo",
+   "tipo": "cabina",
+   "localidad": "Peruarboo",
+   "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": -16.345318,
+     "lon": -71.567082,
+     "n": 1
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
+   "pais": "PE",
+   "punto": "Peruarboo",
+   "nombre_visible": "Peaje Peruarboo",
+   "confianza": "media"
   },
   {
    "lat": -16.233934,
@@ -904,36 +926,6 @@
    "confianza": "alta"
   },
   {
-   "lat": -14.198014,
-   "lon": -76.016592,
-   "nombre": "Peaje Carretera Ica - Carhuaz (IC-105)",
-   "tipo": "cabina",
-   "via": "Carretera Ica - Carhuaz",
-   "ref": "IC-105",
-   "localidad": "Laguna Grande Sector Muelle",
-   "fuente": "armado",
-   "cabinas": [
-    {
-     "lat": -14.198014,
-     "lon": -76.016592,
-     "n": 1,
-     "rumbo": 284,
-     "doble": true,
-     "tipo": "CENTRAL",
-     "ancho": 7.0
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "pais": "PE",
-   "via_visible": "Carretera Ica - Carhuaz",
-   "punto": "Laguna Grande Sector Muelle",
-   "nombre_visible": "Carretera Ica - Carhuaz - Peaje Laguna Grande Sector Muelle",
-   "confianza": "media"
-  },
-  {
    "lat": -14.035429,
    "lon": -70.446212,
    "nombre": "Unidad de Peaje Macusani",
@@ -965,7 +957,7 @@
   {
    "lat": -13.932178,
    "lon": -75.90493,
-   "nombre": "Peaje Carretera Panamericana Sur (PE-1S) (4)",
+   "nombre": "Peaje Carretera Panamericana Sur (PE-1S)",
    "tipo": "cabina",
    "via": "Carretera Panamericana Sur",
    "ref": "PE-1S",
@@ -1050,8 +1042,8 @@
    "confianza": "alta"
   },
   {
-   "lat": -13.86358,
-   "lon": -76.254721,
+   "lat": -13.86363,
+   "lon": -76.254692,
    "nombre": "Peaje Carretera Paracas - Puerto General San Martín (PE-28)",
    "tipo": "cabina",
    "via": "Carretera Paracas - Puerto General San Martín",
@@ -1060,13 +1052,13 @@
    "fuente": "armado",
    "cabinas": [
     {
-     "lat": -13.86358,
-     "lon": -76.254721,
-     "n": 2,
+     "lat": -13.86363,
+     "lon": -76.254692,
+     "n": 1,
      "rumbo": 48,
      "doble": true,
      "tipo": "CENTRAL",
-     "ancho": 7.0
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -1473,15 +1465,14 @@
    "via_visible": "Carretera Panamericana Sur",
    "punto": "Punta Negra",
    "nombre_visible": "Carretera Panamericana Sur - Peaje Punta Negra",
-   "confianza": "alta"
+   "confianza": "alta",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": -12.359593,
    "lon": -76.796277,
-   "nombre": "Peaje Carretera Panamericana Sur (PE-1S) (5)",
+   "nombre": "Peaje cerca de Punta Negra",
    "tipo": "cabina",
-   "via": "Carretera Panamericana Sur",
-   "ref": "PE-1S",
    "localidad": "Punta Negra",
    "fuente": "armado",
    "cabinas": [
@@ -1490,6 +1481,7 @@
      "lon": -76.796277,
      "n": 1,
      "rumbo": 291,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     }
    ],
@@ -1498,18 +1490,17 @@
     "distancia_m": 0.0
    },
    "pais": "PE",
-   "via_visible": "PE-1S",
+   "via_visible": "Carretera Panamericana Sur",
    "punto": "Punta Negra",
-   "nombre_visible": "PE-1S - Peaje Punta Negra",
-   "confianza": "media"
+   "nombre_visible": "Carretera Panamericana Sur - Peaje Punta Negra",
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": -12.332323,
    "lon": -76.820377,
-   "nombre": "Peaje Carretera Panamericana Sur (PE-1S) (6)",
+   "nombre": "Peaje Rutas de Lima",
    "tipo": "cabina",
-   "via": "Carretera Panamericana Sur",
-   "ref": "PE-1S",
    "localidad": "Punta Hermosa",
    "fuente": "armado",
    "cabinas": [
@@ -1518,6 +1509,7 @@
      "lon": -76.820377,
      "n": 3,
      "rumbo": 325,
+     "tipo": "ENTRADA",
      "ancho": 10.5
     }
    ],
@@ -1526,19 +1518,17 @@
     "distancia_m": 0.0
    },
    "pais": "PE",
-   "via_visible": "PE-1S",
+   "via_visible": "Carretera Panamericana Sur",
    "punto": "Punta Hermosa",
-   "nombre_visible": "PE-1S - Peaje Punta Hermosa",
+   "nombre_visible": "Carretera Panamericana Sur - Peaje Punta Hermosa",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": -12.303638,
    "lon": -76.841994,
-   "nombre": "Peaje Carretera Panamericana Sur (PE-1S)",
+   "nombre": "Peaje cerca de Punta Hermosa",
    "tipo": "cabina",
-   "via": "Carretera Panamericana Sur",
-   "ref": "PE-1S",
    "localidad": "Punta Hermosa",
    "fuente": "armado",
    "cabinas": [
@@ -1547,6 +1537,7 @@
      "lon": -76.841994,
      "n": 1,
      "rumbo": 115,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     }
    ],
@@ -1555,9 +1546,9 @@
     "distancia_m": 0.0
    },
    "pais": "PE",
-   "via_visible": "PE-1S",
+   "via_visible": "Carretera Panamericana Sur",
    "punto": "Punta Hermosa",
-   "nombre_visible": "PE-1S - Peaje Punta Hermosa",
+   "nombre_visible": "Carretera Panamericana Sur - Peaje Punta Hermosa",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -1573,6 +1564,7 @@
      "lon": -76.847439,
      "n": 1,
      "rumbo": 288,
+     "tipo": "ENTRADA",
      "ancho": 17.5
     }
    ],
@@ -1618,10 +1610,8 @@
   {
    "lat": -12.284275,
    "lon": -76.878785,
-   "nombre": "Peaje Carretera Panamericana Sur (PE-1S) (3)",
+   "nombre": "Peaje cerca de Villa Libertad Casica (2)",
    "tipo": "cabina",
-   "via": "Carretera Panamericana Sur",
-   "ref": "PE-1S",
    "localidad": "Villa Libertad Casica",
    "fuente": "armado",
    "cabinas": [
@@ -1630,6 +1620,7 @@
      "lon": -76.878785,
      "n": 1,
      "rumbo": 39,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     },
     {
@@ -1637,6 +1628,7 @@
      "lon": -76.879238,
      "n": 1,
      "rumbo": 300,
+     "tipo": "ENTRADA",
      "ancho": 10.5
     }
    ],
@@ -1649,9 +1641,9 @@
     ]
    },
    "pais": "PE",
-   "via_visible": "PE-1S",
+   "via_visible": "Carretera Panamericana Sur",
    "punto": "Villa Libertad Casica",
-   "nombre_visible": "PE-1S - Peaje Villa Libertad Casica",
+   "nombre_visible": "Carretera Panamericana Sur - Peaje Villa Libertad Casica",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -1700,10 +1692,8 @@
   {
    "lat": -12.25494,
    "lon": -76.920917,
-   "nombre": "Peaje Carretera Panamericana Sur (PE-1S) (2)",
+   "nombre": "Peaje cerca de Villa Libertad Casica",
    "tipo": "cabina",
-   "via": "Carretera Panamericana Sur",
-   "ref": "PE-1S",
    "localidad": "Villa Libertad Casica",
    "fuente": "armado",
    "cabinas": [
@@ -1712,6 +1702,7 @@
      "lon": -76.920917,
      "n": 1,
      "rumbo": 208,
+     "tipo": "ENTRADA",
      "ancho": 7.0
     }
    ],
@@ -1720,9 +1711,9 @@
     "distancia_m": 0.0
    },
    "pais": "PE",
-   "via_visible": "PE-1S",
+   "via_visible": "Carretera Panamericana Sur",
    "punto": "Villa Libertad Casica",
-   "nombre_visible": "PE-1S - Peaje Villa Libertad Casica",
+   "nombre_visible": "Carretera Panamericana Sur - Peaje Villa Libertad Casica",
    "confianza": "media",
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
@@ -1780,6 +1771,7 @@
      "lon": -76.978196,
      "n": 1,
      "rumbo": 265,
+     "tipo": "SALIDA",
      "ancho": 7.0
     }
    ],
@@ -1802,7 +1794,7 @@
    "lon": -75.209193,
    "nombre": "Unidad de peaje Huacrapuquio",
    "tipo": "cabina",
-   "via": "Calle Ayacucho",
+   "via": "Carretera Longitudinal de la Sierra Sur",
    "ref": "PE-3S",
    "fuente": "osm",
    "cabinas": [
@@ -1821,17 +1813,16 @@
     "distancia_m": 0.0
    },
    "pais": "PE",
-   "via_visible": "PE-3S",
+   "via_visible": "Carretera Longitudinal de la Sierra Sur",
    "punto": "Unidad de peaje Huacrapuquio",
-   "nombre_visible": "PE-3S - Peaje Unidad de peaje Huacrapuquio",
+   "nombre_visible": "Carretera Longitudinal de la Sierra Sur - Peaje Unidad de peaje Huacrapuquio",
    "confianza": "alta"
   },
   {
    "lat": -12.129576,
    "lon": -77.017848,
-   "nombre": "Peaje Avenida República de Panamá",
+   "nombre": "Peaje cerca de Lima",
    "tipo": "cabina",
-   "via": "Avenida República de Panamá",
    "localidad": "Lima",
    "fuente": "armado",
    "cabinas": [
@@ -1939,6 +1930,7 @@
      "lon": -76.971793,
      "n": 1,
      "rumbo": 17,
+     "tipo": "CENTRAL",
      "ancho": 7.0
     },
     {
@@ -1954,6 +1946,7 @@
      "lon": -76.97081,
      "n": 1,
      "rumbo": 67,
+     "tipo": "SALIDA",
      "ancho": 7.0
     },
     {
@@ -1961,6 +1954,7 @@
      "lon": -76.970954,
      "n": 1,
      "rumbo": 312,
+     "tipo": "ENTRADA",
      "ancho": 7.0
     },
     {
@@ -1975,6 +1969,7 @@
      "lon": -76.97136,
      "n": 3,
      "rumbo": 14,
+     "tipo": "CENTRAL",
      "ancho": 28.0
     },
     {
@@ -1982,6 +1977,7 @@
      "lon": -76.971301,
      "n": 1,
      "rumbo": 9,
+     "tipo": "CENTRAL",
      "ancho": 3.5
     }
    ],
@@ -2002,10 +1998,8 @@
   {
    "lat": -12.05778,
    "lon": -77.146366,
-   "nombre": "Peaje Calle Manco Capac (PE-20)",
+   "nombre": "Peaje cerca de Callao (2)",
    "tipo": "cabina",
-   "via": "Calle Manco Capac",
-   "ref": "PE-20",
    "localidad": "Callao",
    "fuente": "armado",
    "cabinas": [
@@ -2022,19 +2016,15 @@
     "distancia_m": 0.0
    },
    "pais": "PE",
-   "via_visible": "PE-20",
    "punto": "Callao",
-   "nombre_visible": "PE-20 - Peaje Callao",
+   "nombre_visible": "Peaje Callao",
    "confianza": "media"
   },
   {
    "lat": -12.057491,
    "lon": -76.974722,
-   "nombre": "Peaje Vía de Evitamiento (PE-1N) km 0",
+   "nombre": "Peaje cerca de Santa María de Huachipa",
    "tipo": "cabina",
-   "via": "Vía de Evitamiento",
-   "ref": "PE-1N",
-   "km": "0",
    "localidad": "Santa María de Huachipa",
    "fuente": "armado",
    "cabinas": [
@@ -2043,6 +2033,7 @@
      "lon": -76.974722,
      "n": 1,
      "rumbo": 196,
+     "tipo": "SALIDA",
      "ancho": 14.0
     },
     {
@@ -2050,6 +2041,7 @@
      "lon": -76.973388,
      "n": 1,
      "rumbo": 295,
+     "tipo": "ENTRADA",
      "ancho": 17.5
     }
    ],
@@ -2062,9 +2054,9 @@
     ]
    },
    "pais": "PE",
-   "via_visible": "PE-1N",
+   "via_visible": "Vía de Evitamiento",
    "punto": "Santa María de Huachipa",
-   "nombre_visible": "PE-1N - Peaje Santa María de Huachipa",
+   "nombre_visible": "Vía de Evitamiento - Peaje Santa María de Huachipa",
    "confianza": "media"
   },
   {
@@ -2109,6 +2101,7 @@
      "lon": -77.042497,
      "n": 1,
      "rumbo": 61,
+     "tipo": "ENTRADA",
      "ancho": 14.0
     },
     {
@@ -2116,6 +2109,7 @@
      "lon": -77.046798,
      "n": 1,
      "rumbo": 139,
+     "tipo": "CENTRAL",
      "ancho": 7.0
     },
     {
@@ -2144,11 +2138,8 @@
   {
    "lat": -12.031933,
    "lon": -76.988922,
-   "nombre": "Peaje Autopista Ramiro Prialé (PE-22) km 2",
+   "nombre": "Peaje cerca de Santa María de Huachipa (2)",
    "tipo": "cabina",
-   "via": "Autopista Ramiro Prialé",
-   "ref": "PE-22",
-   "km": "2",
    "localidad": "Santa María de Huachipa",
    "fuente": "armado",
    "cabinas": [
@@ -2173,18 +2164,16 @@
     "distancia_m": 3.5
    },
    "pais": "PE",
-   "via_visible": "PE-22",
+   "via_visible": "Autopista Ramiro Prialé",
    "punto": "Santa María de Huachipa",
-   "nombre_visible": "PE-22 - Peaje Santa María de Huachipa",
+   "nombre_visible": "Autopista Ramiro Prialé - Peaje Santa María de Huachipa",
    "confianza": "media"
   },
   {
    "lat": -12.022326,
    "lon": -77.1066,
-   "nombre": "Peaje Avenida Elmer Faucett (PE-20B)",
+   "nombre": "Peaje cerca de Callao",
    "tipo": "cabina",
-   "via": "Avenida Elmer Faucett",
-   "ref": "PE-20B",
    "localidad": "Callao",
    "fuente": "armado",
    "cabinas": [
@@ -2220,9 +2209,8 @@
   {
    "lat": -12.01826,
    "lon": -77.101642,
-   "nombre": "Peaje Avenida Alejandro Bertello Bollati",
+   "nombre": "Peaje cerca de Callao (3)",
    "tipo": "cabina",
-   "via": "Avenida Alejandro Bertello Bollati",
    "localidad": "Callao",
    "fuente": "armado",
    "cabinas": [
@@ -2281,10 +2269,8 @@
   {
    "lat": -11.911244,
    "lon": -77.072599,
-   "nombre": "Peaje Avenida Panamericana Norte (PE-1N)",
+   "nombre": "Peaje cerca de Huarangal",
    "tipo": "cabina",
-   "via": "Avenida Panamericana Norte",
-   "ref": "PE-1N",
    "localidad": "Huarangal",
    "fuente": "armado",
    "cabinas": [
@@ -2308,9 +2294,8 @@
     ]
    },
    "pais": "PE",
-   "via_visible": "PE-1N",
    "punto": "Huarangal",
-   "nombre_visible": "PE-1N - Peaje Huarangal",
+   "nombre_visible": "Peaje Huarangal",
    "confianza": "media"
   },
   {
@@ -2961,7 +2946,7 @@
    "tipo": "cabina",
    "via": "Panamericana Norte",
    "ref": "PE-1N",
-   "localidad": "Puerto Morin",
+   "localidad": "Victor Raúl",
    "fuente": "armado",
    "cabinas": [
     {
@@ -2987,8 +2972,8 @@
    },
    "pais": "PE",
    "via_visible": "PE-1N",
-   "punto": "Puerto Morin",
-   "nombre_visible": "PE-1N - Peaje Puerto Morin",
+   "punto": "Victor Raúl",
+   "nombre_visible": "PE-1N - Peaje Victor Raúl",
    "confianza": "media"
   },
   {
@@ -3034,6 +3019,7 @@
      "lon": -79.132295,
      "n": 3,
      "rumbo": 155,
+     "tipo": "CENTRAL",
      "ancho": 10.5
     },
     {
@@ -3041,6 +3027,7 @@
      "lon": -79.132121,
      "n": 2,
      "rumbo": 334,
+     "tipo": "CENTRAL",
      "ancho": 7.0
     }
    ],
@@ -3210,36 +3197,6 @@
    "punto": "Unidad de peaje Mocce",
    "nombre_visible": "Carretera Lambayeque - Olmos - Peaje Unidad de peaje Mocce",
    "confianza": "alta"
-  },
-  {
-   "lat": -6.534396,
-   "lon": -80.028243,
-   "nombre": "Peaje Carretera Panamericana Norte (PE-1N)",
-   "tipo": "cabina",
-   "via": "Carretera Panamericana Norte",
-   "ref": "PE-1N",
-   "localidad": "Mórrope",
-   "fuente": "armado",
-   "cabinas": [
-    {
-     "lat": -6.534396,
-     "lon": -80.028243,
-     "n": 1,
-     "rumbo": 127,
-     "doble": true,
-     "tipo": "CENTRAL",
-     "ancho": 7.0
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "pais": "PE",
-   "via_visible": "PE-1N",
-   "punto": "Mórrope",
-   "nombre_visible": "PE-1N - Peaje Mórrope",
-   "confianza": "media"
   },
   {
    "lat": -6.500995,
@@ -3747,31 +3704,10 @@
    "confianza": "alta"
   }
  ],
- "excluidas": [
-  {
-   "lat": -16.345318,
-   "lon": -71.567082,
-   "nombre": "Peaje Avenida Aeropuerto",
-   "tipo": "cabina",
-   "via": "Avenida Aeropuerto",
-   "localidad": "Peruarboo",
-   "fuente": "armado",
-   "cabinas": [
-    {
-     "lat": -16.345318,
-     "lon": -71.567082,
-     "n": 1
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
-  }
- ],
- "generado": "2026-11-07T12:33Z",
+ "excluidas": [],
+ "generado": "2026-11-07T19:33Z",
  "alertas": [
-  "PE: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo."
+  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
+  "Alrededores: falló un lote de 2 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
  ]
 }
