@@ -11,9 +11,9 @@
   "excluidas": 0,
   "tipos_filas": {
    "CENTRAL": 9,
-   "SALIDA": 0,
-   "ENTRADA": 0,
-   "sin_tipo": 23
+   "SALIDA": 2,
+   "ENTRADA": 4,
+   "sin_tipo": 17
   },
   "posicion": {
    "umbral_m": 15.0,
@@ -196,6 +196,7 @@
      "lon": -90.542506,
      "n": 1,
      "rumbo": 220,
+     "tipo": "SALIDA",
      "ancho": 7.0
     },
     {
@@ -232,6 +233,7 @@
      "lon": -90.58578,
      "n": 1,
      "rumbo": 152,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     },
     {
@@ -321,6 +323,7 @@
      "lon": -90.575504,
      "n": 1,
      "rumbo": 93,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     },
     {
@@ -333,6 +336,7 @@
      "lon": -90.576607,
      "n": 1,
      "rumbo": 300,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     }
    ],
@@ -392,6 +396,7 @@
      "lon": -90.601665,
      "n": 1,
      "rumbo": 120,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -411,6 +416,7 @@
      "lon": -90.599924,
      "n": 1,
      "rumbo": 239,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     }
    ],
@@ -577,8 +583,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-11-07T14:06Z",
- "alertas": [
-  "GT: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo."
- ]
+ "generado": "2026-11-07T22:35Z",
+ "alertas": []
 }
