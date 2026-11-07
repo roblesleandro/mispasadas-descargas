@@ -9,6 +9,12 @@
   "total": 925,
   "confianza_baja": 7,
   "excluidas": 1,
+  "tipos_filas": {
+   "CENTRAL": 0,
+   "SALIDA": 0,
+   "ENTRADA": 0,
+   "sin_tipo": 1373
+  },
   "posicion": {
    "umbral_m": 15.0,
    "ok": 782,
@@ -28210,9 +28216,10 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-06T05:13Z",
+ "generado": "2026-11-07T13:18Z",
  "alertas": [
   "MX: no se pudo leer Red Nacional de Caminos 2025 (IMT / INEGI) – Plazas de cobro (403 Client Error: Forbidden for url: https://rnc.imt.mx/recursos/ShapeFiles/Plaza_cobro_shapefiles2025.zip).",
+  "MX: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 400 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo.",
   "MX: Salieron 555 y antes había 925: se mantiene lo anterior."
  ]
 }
