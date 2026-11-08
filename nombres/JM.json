@@ -9,6 +9,12 @@
   "total": 13,
   "confianza_baja": 0,
   "excluidas": 0,
+  "tipos_filas": {
+   "CENTRAL": 13,
+   "SALIDA": 4,
+   "ENTRADA": 5,
+   "sin_tipo": 4
+  },
   "posicion": {
    "umbral_m": 15.0,
    "ok": 12,
@@ -36,7 +42,9 @@
      "lat": 17.938357,
      "lon": -76.777894,
      "n": 2,
-     "rumbo": 203
+     "rumbo": 203,
+     "tipo": "ENTRADA",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -62,13 +70,17 @@
      "lat": 17.938798,
      "lon": -77.237662,
      "n": 1,
-     "rumbo": 288
+     "rumbo": 288,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": 17.938936,
      "lon": -77.237615,
      "n": 1,
-     "rumbo": 108
+     "rumbo": 108,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -94,13 +106,17 @@
      "lat": 17.939819,
      "lon": -77.072596,
      "n": 1,
-     "rumbo": 258
+     "rumbo": 258,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": 17.939976,
      "lon": -77.072642,
      "n": 1,
-     "rumbo": 80
+     "rumbo": 80,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -126,25 +142,33 @@
      "lat": 17.964795,
      "lon": -77.360571,
      "n": 1,
-     "rumbo": 294
+     "rumbo": 294,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": 17.964915,
      "lon": -77.360515,
      "n": 1,
-     "rumbo": 114
+     "rumbo": 114,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": 17.968207,
      "lon": -77.361762,
      "n": 1,
-     "rumbo": 203
+     "rumbo": 203,
+     "tipo": "ENTRADA",
+     "ancho": 3.5
     },
     {
      "lat": 17.968256,
      "lon": -77.361854,
      "n": 1,
-     "rumbo": 24
+     "rumbo": 24,
+     "tipo": "SALIDA",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -174,7 +198,9 @@
      "lat": 17.967878,
      "lon": -76.852421,
      "n": 1,
-     "rumbo": 244
+     "rumbo": 244,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     },
     {
      "lat": 17.967994,
@@ -185,7 +211,9 @@
      "lat": 17.968215,
      "lon": -76.852614,
      "n": 1,
-     "rumbo": 65
+     "rumbo": 65,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -209,13 +237,16 @@
      "lat": 17.975614,
      "lon": -76.964109,
      "n": 1,
-     "rumbo": 1
+     "rumbo": 1,
+     "ancho": 7.0
     },
     {
      "lat": 17.975617,
      "lon": -76.964026,
      "n": 1,
-     "rumbo": 179
+     "rumbo": 179,
+     "tipo": "ENTRADA",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -240,13 +271,17 @@
      "lat": 18.009392,
      "lon": -76.906791,
      "n": 1,
-     "rumbo": 322
+     "rumbo": 322,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": 18.009513,
      "lon": -76.906645,
      "n": 1,
-     "rumbo": 141
+     "rumbo": 141,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -270,13 +305,16 @@
      "lat": 18.038404,
      "lon": -76.973262,
      "n": 1,
-     "rumbo": 284
+     "rumbo": 284,
+     "tipo": "SALIDA",
+     "ancho": 3.5
     },
     {
      "lat": 18.038567,
      "lon": -76.973171,
      "n": 1,
-     "rumbo": 105
+     "rumbo": 105,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -299,13 +337,17 @@
      "lat": 18.156988,
      "lon": -77.034916,
      "n": 1,
-     "rumbo": 177
+     "rumbo": 177,
+     "tipo": "SALIDA",
+     "ancho": 3.5
     },
     {
      "lat": 18.156993,
      "lon": -77.035079,
      "n": 1,
-     "rumbo": 0
+     "rumbo": 0,
+     "tipo": "ENTRADA",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -331,7 +373,9 @@
      "lon": -77.013609,
      "n": 1,
      "rumbo": 3,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -355,7 +399,8 @@
      "lon": -77.116046,
      "n": 1,
      "rumbo": 151,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -379,13 +424,17 @@
      "lat": 18.331491,
      "lon": -77.144208,
      "n": 1,
-     "rumbo": 254
+     "rumbo": 254,
+     "tipo": "SALIDA",
+     "ancho": 3.5
     },
     {
      "lat": 18.331608,
      "lon": -77.144254,
      "n": 1,
-     "rumbo": 73
+     "rumbo": 73,
+     "tipo": "ENTRADA",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -410,13 +459,17 @@
      "lat": 18.346135,
      "lon": -77.148231,
      "n": 1,
-     "rumbo": 332
+     "rumbo": 332,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     },
     {
      "lat": 18.346241,
      "lon": -77.148047,
      "n": 1,
-     "rumbo": 150
+     "rumbo": 150,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -431,6 +484,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-11-01T22:48Z",
+ "generado": "2026-11-08T00:39Z",
  "alertas": []
 }
