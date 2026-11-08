@@ -9,6 +9,12 @@
   "total": 2,
   "confianza_baja": 0,
   "excluidas": 0,
+  "tipos_filas": {
+   "CENTRAL": 0,
+   "SALIDA": 0,
+   "ENTRADA": 0,
+   "sin_tipo": 2
+  },
   "posicion": {
    "umbral_m": 15.0,
    "ok": 2,
@@ -61,7 +67,8 @@
      "lon": -72.280204,
      "n": 1,
      "rumbo": 337,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -75,6 +82,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-11-01T16:27Z",
+ "generado": "2026-11-08T00:32Z",
  "alertas": []
 }
