@@ -9,6 +9,12 @@
   "total": 3,
   "confianza_baja": 0,
   "excluidas": 1,
+  "tipos_filas": {
+   "CENTRAL": 0,
+   "SALIDA": 0,
+   "ENTRADA": 0,
+   "sin_tipo": 4
+  },
   "posicion": {
    "umbral_m": 15.0,
    "ok": 2,
@@ -129,6 +135,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-02T01:04Z",
+ "generado": "2026-11-08T01:18Z",
  "alertas": []
 }
