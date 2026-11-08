@@ -9,6 +9,12 @@
   "total": 5,
   "confianza_baja": 0,
   "excluidas": 0,
+  "tipos_filas": {
+   "CENTRAL": 2,
+   "SALIDA": 0,
+   "ENTRADA": 0,
+   "sin_tipo": 5
+  },
   "posicion": {
    "umbral_m": 15.0,
    "ok": 5,
@@ -112,7 +118,9 @@
      "lat": 6.281275,
      "lon": -57.536678,
      "n": 1,
-     "rumbo": 105
+     "rumbo": 105,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -143,7 +151,9 @@
      "lon": -58.178158,
      "n": 1,
      "rumbo": 299,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -158,6 +168,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-11-01T16:30Z",
+ "generado": "2026-11-08T01:11Z",
  "alertas": []
 }
