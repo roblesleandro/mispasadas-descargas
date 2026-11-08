@@ -9,6 +9,12 @@
   "total": 1,
   "confianza_baja": 0,
   "excluidas": 0,
+  "tipos_filas": {
+   "CENTRAL": 1,
+   "SALIDA": 0,
+   "ENTRADA": 0,
+   "sin_tipo": 0
+  },
   "posicion": {
    "umbral_m": 15.0,
    "ok": 1,
@@ -36,7 +42,9 @@
      "lat": 25.080553,
      "lon": -77.321813,
      "n": 1,
-     "rumbo": 25
+     "rumbo": 25,
+     "tipo": "CENTRAL",
+     "ancho": 10.5
     }
    ],
    "posicion": {
@@ -51,6 +59,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-11-02T21:59Z",
+ "generado": "2026-11-08T01:31Z",
  "alertas": []
 }
