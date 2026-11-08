@@ -9,17 +9,24 @@
   "total": 13,
   "confianza_baja": 0,
   "excluidas": 1,
+  "tipos_filas": {
+   "CENTRAL": 0,
+   "SALIDA": 0,
+   "ENTRADA": 0,
+   "sin_tipo": 19
+  },
   "posicion": {
    "umbral_m": 15.0,
-   "ok": 12,
-   "corregidas": 2,
+   "ok": 13,
+   "corregidas": 0,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 13,
+    "ok": 6,
     "a_mas_de_15_m": 0,
-    "sin_referencia": 0,
+    "sin_referencia": 7,
     "total": 13
-   }
+   },
+   "nota": "OpenStreetMap respondió a medias: se mantuvo la corrida anterior."
   }
  },
  "estaciones": [
@@ -431,6 +438,8 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-06T06:11Z",
- "alertas": []
+ "generado": "2026-11-08T00:24Z",
+ "alertas": [
+  "CU: Salieron 7 y antes había 13: se mantiene lo anterior."
+ ]
 }
