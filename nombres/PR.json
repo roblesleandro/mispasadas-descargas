@@ -9,6 +9,12 @@
   "total": 0,
   "confianza_baja": 0,
   "excluidas": 0,
+  "tipos_filas": {
+   "CENTRAL": 0,
+   "SALIDA": 0,
+   "ENTRADA": 0,
+   "sin_tipo": 0
+  },
   "posicion": {
    "umbral_m": 15.0,
    "ok": 0,
@@ -24,8 +30,6 @@
  },
  "estaciones": [],
  "excluidas": [],
- "generado": "2026-11-01T16:23Z",
- "alertas": [
-  "PR: OpenStreetMap no devolvió la geometría de las calles (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las cabinas salen sin sentido."
- ]
+ "generado": "2026-11-08T00:04Z",
+ "alertas": []
 }
