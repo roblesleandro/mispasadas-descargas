@@ -9,6 +9,12 @@
   "total": 3,
   "confianza_baja": 0,
   "excluidas": 0,
+  "tipos_filas": {
+   "CENTRAL": 1,
+   "SALIDA": 0,
+   "ENTRADA": 0,
+   "sin_tipo": 2
+  },
   "posicion": {
    "umbral_m": 15.0,
    "ok": 3,
@@ -37,7 +43,9 @@
      "lon": -88.987439,
      "n": 1,
      "rumbo": 3,
-     "doble": true
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -87,7 +95,8 @@
      "lon": -88.302755,
      "n": 1,
      "rumbo": 13,
-     "doble": true
+     "doble": true,
+     "ancho": 7.0
     }
    ],
    "posicion": {
@@ -102,6 +111,8 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-11-06T06:40Z",
- "alertas": []
+ "generado": "2026-11-08T00:56Z",
+ "alertas": [
+  "BZ: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo."
+ ]
 }
