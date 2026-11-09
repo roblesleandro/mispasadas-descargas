@@ -5,60 +5,30 @@
  "resumen": {
   "oficial": 0,
   "osm": 1,
-  "armado": 24,
-  "total": 25,
+  "armado": 23,
+  "total": 24,
   "confianza_baja": 0,
   "excluidas": 0,
   "tipos_filas": {
-   "CENTRAL": 19,
+   "CENTRAL": 18,
    "SALIDA": 16,
    "ENTRADA": 14,
    "sin_tipo": 13
   },
   "posicion": {
    "umbral_m": 15.0,
-   "ok": 8,
+   "ok": 7,
    "corregidas": 17,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 25,
+    "ok": 24,
     "a_mas_de_15_m": 0,
-    "sin_referencia": 0,
+    "sin_referencia": 1,
     "total": 25
    }
   }
  },
  "estaciones": [
-  {
-   "lat": 8.277497,
-   "lon": -81.666656,
-   "nombre": "Peaje Vía Peña Blanca (4099)",
-   "tipo": "cabina",
-   "via": "Vía Peña Blanca",
-   "ref": "4099",
-   "localidad": "Alto Caballero",
-   "fuente": "armado",
-   "cabinas": [
-    {
-     "lat": 8.277497,
-     "lon": -81.666656,
-     "n": 1,
-     "rumbo": 206,
-     "doble": true,
-     "tipo": "CENTRAL",
-     "ancho": 7.0
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "pais": "PA",
-   "via_visible": "Ruta 4099",
-   "punto": "Alto Caballero",
-   "nombre_visible": "Ruta 4099 - Peaje Alto Caballero",
-   "confianza": "media"
-  },
   {
    "lat": 8.643921,
    "lon": -80.019576,
@@ -1104,6 +1074,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-11-07T22:12Z",
+ "generado": "2026-11-09T14:23Z",
  "alertas": []
 }
