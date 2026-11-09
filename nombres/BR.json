@@ -10,10 +10,10 @@
   "confianza_baja": 0,
   "excluidas": 1,
   "tipos_filas": {
-   "CENTRAL": 903,
-   "SALIDA": 0,
-   "ENTRADA": 0,
-   "sin_tipo": 84
+   "CENTRAL": 929,
+   "SALIDA": 5,
+   "ENTRADA": 5,
+   "sin_tipo": 48
   },
   "posicion": {
    "umbral_m": 15.0,
@@ -947,6 +947,7 @@
      "lon": -52.640538,
      "n": 2,
      "rumbo": 327,
+     "tipo": "CENTRAL",
      "ancho": 7.0
     }
    ],
@@ -1231,6 +1232,7 @@
      "lon": -50.450637,
      "n": 1,
      "rumbo": 79,
+     "tipo": "CENTRAL",
      "ancho": 7.0
     },
     {
@@ -1246,6 +1248,7 @@
      "lon": -50.450483,
      "n": 1,
      "rumbo": 235,
+     "tipo": "CENTRAL",
      "ancho": 7.0
     },
     {
@@ -2069,11 +2072,10 @@
   {
    "lat": -28.897846,
    "lon": -49.472926,
-   "nombre": "Peaje Rodovia Governador Mário Covas (BR-101) km 405",
+   "nombre": "Peaje Rodovia Governador Mário Covas (BR-101)",
    "tipo": "cabina",
    "via": "Rodovia Governador Mário Covas",
    "ref": "BR-101",
-   "km": "405",
    "localidad": "Araranguá",
    "fuente": "armado",
    "cabinas": [
@@ -2303,11 +2305,10 @@
   {
    "lat": -27.885073,
    "lon": -48.647673,
-   "nombre": "Peaje Rodovia Governador Mário Covas (BR-101) km 243",
+   "nombre": "Peaje Rodovia Governador Mário Covas (BR-101) (2)",
    "tipo": "cabina",
    "via": "Rodovia Governador Mário Covas",
    "ref": "BR-101",
-   "km": "243",
    "localidad": "Paulo Lopes",
    "fuente": "armado",
    "cabinas": [
@@ -4495,6 +4496,7 @@
      "lon": -45.376116,
      "n": 1,
      "rumbo": 323,
+     "tipo": "ENTRADA",
      "ancho": 17.5
     }
    ],
@@ -4659,6 +4661,7 @@
      "lon": -46.593833,
      "n": 1,
      "rumbo": 109,
+     "tipo": "CENTRAL",
      "ancho": 7.0
     },
     {
@@ -4686,11 +4689,8 @@
   {
    "lat": -23.763803,
    "lon": -46.581527,
-   "nombre": "Peaje Rodoanel Mário Covas (SP-021) km 71,4",
+   "nombre": "Peaje SPMar",
    "tipo": "cabina",
-   "via": "Rodoanel Mário Covas",
-   "ref": "SP-021",
-   "km": "71,4",
    "localidad": "São Bernardo do Campo",
    "fuente": "armado",
    "cabinas": [
@@ -4707,9 +4707,8 @@
     "distancia_m": 0.0
    },
    "pais": "BR",
-   "via_visible": "Rodoanel Mário Covas",
    "punto": "São Bernardo do Campo",
-   "nombre_visible": "Rodoanel Mário Covas - Pedágio São Bernardo do Campo",
+   "nombre_visible": "Pedágio São Bernardo do Campo",
    "confianza": "media"
   },
   {
@@ -4823,6 +4822,7 @@
      "lon": -46.605912,
      "n": 1,
      "rumbo": 197,
+     "tipo": "SALIDA",
      "ancho": 10.5
     }
    ],
@@ -5597,6 +5597,7 @@
      "lon": -46.573525,
      "n": 1,
      "rumbo": 223,
+     "tipo": "CENTRAL",
      "ancho": 3.5
     },
     {
@@ -5637,6 +5638,7 @@
      "lon": -46.823238,
      "n": 1,
      "rumbo": 278,
+     "tipo": "CENTRAL",
      "ancho": 21.0
     }
    ],
@@ -5756,6 +5758,7 @@
      "lon": -46.543396,
      "n": 2,
      "rumbo": 56,
+     "tipo": "CENTRAL",
      "ancho": 10.5
     },
     {
@@ -5763,6 +5766,7 @@
      "lon": -46.539005,
      "n": 2,
      "rumbo": 235,
+     "tipo": "CENTRAL",
      "ancho": 10.5
     }
    ],
@@ -5795,6 +5799,7 @@
      "lon": -46.530391,
      "n": 2,
      "rumbo": 55,
+     "tipo": "CENTRAL",
      "ancho": 10.5
     }
    ],
@@ -5930,10 +5935,10 @@
   {
    "lat": -23.463641,
    "lon": -46.495541,
-   "nombre": "Pórtico Rodovia Presidente Dutra (BR-116) km 219",
+   "nombre": "Pórtico Rodovia Presidente Dutra (SP-060) km 219",
    "tipo": "portico",
    "via": "Rodovia Presidente Dutra",
-   "ref": "BR-116;SP-060",
+   "ref": "SP-060;BR-116",
    "km": "219",
    "localidad": "Guarulhos",
    "fuente": "armado",
@@ -5944,7 +5949,8 @@
      "n": 1,
      "rumbo": 249,
      "doble": true,
-     "ancho": 7.0
+     "tipo": "ENTRADA",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -5952,9 +5958,9 @@
     "distancia_m": 0.0
    },
    "pais": "BR",
-   "via_visible": "BR-116",
+   "via_visible": "Rodovia Presidente Dutra",
    "punto": "Guarulhos",
-   "nombre_visible": "BR-116 - Pórtico free flow Guarulhos",
+   "nombre_visible": "Rodovia Presidente Dutra - Pórtico free flow Guarulhos",
    "confianza": "media"
   },
   {
@@ -5971,6 +5977,7 @@
      "lon": -46.48513,
      "n": 2,
      "rumbo": 68,
+     "tipo": "CENTRAL",
      "ancho": 10.5
     }
    ],
@@ -6057,12 +6064,12 @@
   {
    "lat": -23.45034,
    "lon": -46.462943,
-   "nombre": "Pórtico Via Marginal Rodovia Presidente Dutra (BR-116) km 216",
+   "nombre": "Pórtico Via Marginal Rodovia Presidente Dutra (SP-060) km 216",
    "tipo": "portico",
    "via": "Via Marginal Rodovia Presidente Dutra",
-   "ref": "BR-116;SP-060",
+   "ref": "SP-060;BR-116",
    "km": "216",
-   "localidad": "Jardim Presidente Dutra",
+   "localidad": "Guarulhos",
    "fuente": "armado",
    "cabinas": [
     {
@@ -6070,6 +6077,7 @@
      "lon": -46.462943,
      "n": 1,
      "rumbo": 247,
+     "tipo": "CENTRAL",
      "ancho": 3.5
     }
    ],
@@ -6078,11 +6086,10 @@
     "distancia_m": 0.0
    },
    "pais": "BR",
-   "via_visible": "BR-116",
-   "punto": "Jardim Presidente Dutra",
-   "nombre_visible": "BR-116 - Pórtico free flow Jardim Presidente Dutra",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "via_visible": "SP-060",
+   "punto": "Guarulhos",
+   "nombre_visible": "SP-060 - Pórtico free flow Guarulhos",
+   "confianza": "media"
   },
   {
    "lat": -23.448002,
@@ -6100,6 +6107,7 @@
      "lon": -46.78274,
      "n": 1,
      "rumbo": 234,
+     "tipo": "CENTRAL",
      "ancho": 10.5
     }
    ],
@@ -6177,12 +6185,12 @@
   {
    "lat": -23.435272,
    "lon": -46.427008,
-   "nombre": "Pórtico Rodovia Presidente Dutra (BR-116) km 212",
+   "nombre": "Pórtico Rodovia Presidente Dutra (SP-060) km 212",
    "tipo": "portico",
    "via": "Rodovia Presidente Dutra",
-   "ref": "BR-116;SP-060",
+   "ref": "SP-060;BR-116",
    "km": "212",
-   "localidad": "Jardim Presidente Dutra",
+   "localidad": "Itaquaquecetuba",
    "fuente": "armado",
    "cabinas": [
     {
@@ -6190,7 +6198,8 @@
      "lon": -46.427008,
      "n": 1,
      "rumbo": 243,
-     "ancho": 7.0
+     "tipo": "ENTRADA",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -6198,11 +6207,10 @@
     "distancia_m": 0.0
    },
    "pais": "BR",
-   "via_visible": "BR-116",
-   "punto": "Jardim Presidente Dutra",
-   "nombre_visible": "BR-116 - Pórtico free flow Jardim Presidente Dutra",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "via_visible": "Rodovia Presidente Dutra",
+   "punto": "Itaquaquecetuba",
+   "nombre_visible": "Rodovia Presidente Dutra - Pórtico free flow Itaquaquecetuba",
+   "confianza": "media"
   },
   {
    "lat": -23.434727,
@@ -6551,6 +6559,7 @@
      "lon": -47.301556,
      "n": 2,
      "rumbo": 100,
+     "tipo": "CENTRAL",
      "ancho": 10.5
     }
    ],
@@ -6600,7 +6609,7 @@
    "tipo": "portico",
    "via": "Rodoanel Mário Covas",
    "ref": "SP-021",
-   "localidad": "Jardim Presidente Dutra",
+   "localidad": "Arujá",
    "fuente": "armado",
    "cabinas": [
     {
@@ -6626,8 +6635,8 @@
    },
    "pais": "BR",
    "via_visible": "Rodoanel Mário Covas",
-   "punto": "Jardim Presidente Dutra",
-   "nombre_visible": "Rodoanel Mário Covas - Pórtico free flow Jardim Presidente Dutra",
+   "punto": "Arujá",
+   "nombre_visible": "Rodoanel Mário Covas - Pórtico free flow Arujá",
    "confianza": "media"
   },
   {
@@ -7029,6 +7038,7 @@
      "lon": -47.635247,
      "n": 1,
      "rumbo": 87,
+     "tipo": "ENTRADA",
      "ancho": 7.0
     },
     {
@@ -7036,6 +7046,7 @@
      "lon": -47.635308,
      "n": 1,
      "rumbo": 281,
+     "tipo": "SALIDA",
      "ancho": 7.0
     }
    ],
@@ -7488,11 +7499,10 @@
   {
    "lat": -23.198564,
    "lon": -46.181527,
-   "nombre": "Peaje Rodovia Dom Pedro I (SP-065) km 26",
+   "nombre": "Peaje Rodovia Dom Pedro I (SP-065)",
    "tipo": "cabina",
    "via": "Rodovia Dom Pedro I",
    "ref": "SP-065",
-   "km": "26",
    "localidad": "Igaratá",
    "fuente": "armado",
    "cabinas": [
@@ -7542,6 +7552,7 @@
      "lon": -54.199017,
      "n": 3,
      "rumbo": 3,
+     "tipo": "CENTRAL",
      "ancho": 10.5
     },
     {
@@ -7549,6 +7560,7 @@
      "lon": -54.199196,
      "n": 4,
      "rumbo": 184,
+     "tipo": "CENTRAL",
      "ancho": 14.0
     }
    ],
@@ -8545,6 +8557,7 @@
      "lon": -43.396245,
      "n": 1,
      "rumbo": 0,
+     "tipo": "SALIDA",
      "ancho": 10.5
     },
     {
@@ -8552,6 +8565,7 @@
      "lon": -43.396781,
      "n": 1,
      "rumbo": 187,
+     "tipo": "ENTRADA",
      "ancho": 10.5
     }
    ],
@@ -8951,11 +8965,10 @@
   {
    "lat": -22.875125,
    "lon": -49.144614,
-   "nombre": "Peaje Rodovia Presidente Castelo Branco (SP-280) km 278",
+   "nombre": "Peaje Rodovia Presidente Castelo Branco (SP-280)",
    "tipo": "cabina",
    "via": "Rodovia Presidente Castelo Branco",
    "ref": "SP-280",
-   "km": "278",
    "localidad": "Iaras",
    "fuente": "armado",
    "cabinas": [
@@ -8993,11 +9006,8 @@
   {
    "lat": -22.860144,
    "lon": -47.28847,
-   "nombre": "Peaje Rodovia dos Bandeirantes (SP-348) km 115 (2)",
+   "nombre": "Peaje CCR AutoBAn",
    "tipo": "cabina",
-   "via": "Rodovia dos Bandeirantes",
-   "ref": "SP-348",
-   "km": "115",
    "localidad": "Sumaré",
    "fuente": "armado",
    "cabinas": [
@@ -9154,6 +9164,7 @@
      "lon": -43.804781,
      "n": 2,
      "rumbo": 23,
+     "tipo": "CENTRAL",
      "ancho": 7.0
     },
     {
@@ -9161,6 +9172,7 @@
      "lon": -43.805132,
      "n": 2,
      "rumbo": 203,
+     "tipo": "CENTRAL",
      "ancho": 7.0
     }
    ],
@@ -9232,6 +9244,7 @@
      "lon": -42.945453,
      "n": 3,
      "rumbo": 256,
+     "tipo": "CENTRAL",
      "ancho": 24.5
     }
    ],
@@ -9332,11 +9345,10 @@
   {
    "lat": -22.769818,
    "lon": -50.145266,
-   "nombre": "Peaje Rodovia Raposo Tavares (SP-270) km 413",
+   "nombre": "Peaje Rodovia Raposo Tavares (SP-270)",
    "tipo": "cabina",
    "via": "Rodovia Raposo Tavares",
    "ref": "SP-270",
-   "km": "413",
    "localidad": "Palmital",
    "fuente": "armado",
    "cabinas": [
@@ -9478,6 +9490,7 @@
      "lon": -43.716778,
      "n": 2,
      "rumbo": 99,
+     "tipo": "CENTRAL",
      "ancho": 21.0
     },
     {
@@ -9485,6 +9498,7 @@
      "lon": -43.716721,
      "n": 2,
      "rumbo": 278,
+     "tipo": "CENTRAL",
      "ancho": 21.0
     }
    ],
@@ -9564,7 +9578,8 @@
      "lon": -43.731321,
      "n": 1,
      "rumbo": 110,
-     "ancho": 7.0
+     "tipo": "SALIDA",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -9833,10 +9848,9 @@
   {
    "lat": -22.654432,
    "lon": -47.518861,
-   "nombre": "Peaje SP-147 km 127",
+   "nombre": "Peaje SP-147",
    "tipo": "cabina",
    "ref": "SP-147",
-   "km": "127",
    "localidad": "Iracemápolis",
    "fuente": "armado",
    "cabinas": [
@@ -9918,6 +9932,7 @@
      "lon": -47.807224,
      "n": 2,
      "rumbo": 104,
+     "tipo": "CENTRAL",
      "ancho": 10.5
     },
     {
@@ -9925,6 +9940,7 @@
      "lon": -47.807143,
      "n": 2,
      "rumbo": 287,
+     "tipo": "CENTRAL",
      "ancho": 10.5
     }
    ],
@@ -10021,11 +10037,10 @@
   {
    "lat": -22.610155,
    "lon": -43.285462,
-   "nombre": "Peaje Rodovia Washington Luiz (BR-040) km 104",
+   "nombre": "Peaje Rodovia Washington Luiz (BR-040)",
    "tipo": "cabina",
    "via": "Rodovia Washington Luiz",
    "ref": "BR-040",
-   "km": "104",
    "localidad": "Imbariê",
    "fuente": "armado",
    "cabinas": [
@@ -10147,11 +10162,11 @@
   {
    "lat": -22.572327,
    "lon": -50.517236,
-   "nombre": "Peaje Rodovia Manílio Gobbli (SP-284) km 458,3",
+   "nombre": "Peaje Rodovia Manílio Gobbli (SP-284) km 458",
    "tipo": "cabina",
    "via": "Rodovia Manílio Gobbli",
    "ref": "SP-284",
-   "km": "458,3",
+   "km": "458",
    "localidad": "Assis",
    "fuente": "armado",
    "cabinas": [
@@ -10644,6 +10659,7 @@
      "lon": -54.860799,
      "n": 4,
      "rumbo": 42,
+     "tipo": "CENTRAL",
      "ancho": 14.0
     },
     {
@@ -10651,6 +10667,7 @@
      "lon": -54.860951,
      "n": 4,
      "rumbo": 223,
+     "tipo": "CENTRAL",
      "ancho": 14.0
     }
    ],
@@ -11398,11 +11415,10 @@
   {
    "lat": -22.263825,
    "lon": -47.902493,
-   "nombre": "Peaje Rodovia Engenheiro Paulo Nilo Romano (SP-225) km 106",
+   "nombre": "Peaje Rodovia Engenheiro Paulo Nilo Romano (SP-225)",
    "tipo": "cabina",
    "via": "Rodovia Engenheiro Paulo Nilo Romano",
    "ref": "SP-225",
-   "km": "106",
    "localidad": "Itirapina",
    "fuente": "armado",
    "cabinas": [
@@ -11510,10 +11526,9 @@
   {
    "lat": -22.252277,
    "lon": -46.813451,
-   "nombre": "Peaje SP-342 km 192",
+   "nombre": "Peaje SP-342",
    "tipo": "cabina",
    "ref": "SP-342",
-   "km": "192",
    "localidad": "Espírito Santo do Pinhal",
    "fuente": "armado",
    "cabinas": [
@@ -11693,11 +11708,10 @@
   {
    "lat": -22.213548,
    "lon": -42.491661,
-   "nombre": "Peaje RJ- 116 km 91",
+   "nombre": "Peaje RJ- 116",
    "tipo": "cabina",
    "via": "RJ- 116",
    "ref": "RJ-116",
-   "km": "91",
    "localidad": "Riograndina",
    "fuente": "armado",
    "cabinas": [
@@ -12301,11 +12315,10 @@
   {
    "lat": -22.013948,
    "lon": -46.850589,
-   "nombre": "Peaje Rodovia Dom Tomás Vaquero (SP-344) km 219",
+   "nombre": "Peaje Rodovia Dom Tomás Vaquero (SP-344) (2)",
    "tipo": "cabina",
    "via": "Rodovia Dom Tomás Vaquero",
    "ref": "SP-344",
-   "km": "219",
    "localidad": "São João da Boa Vista",
    "fuente": "armado",
    "cabinas": [
@@ -12574,11 +12587,10 @@
   {
    "lat": -21.94824,
    "lon": -46.841472,
-   "nombre": "Peaje Rodovia Dom Tomás Vaquero (SP-344) km 230",
+   "nombre": "Peaje Rodovia Dom Tomás Vaquero (SP-344)",
    "tipo": "cabina",
    "via": "Rodovia Dom Tomás Vaquero",
    "ref": "SP-344",
-   "km": "230",
    "localidad": "São João da Boa Vista",
    "fuente": "armado",
    "cabinas": [
@@ -12681,11 +12693,10 @@
   {
    "lat": -21.919033,
    "lon": -47.051816,
-   "nombre": "Peaje Rodovia Professor Boanerges Nogueira de Lima (SP-340) km 221",
+   "nombre": "Peaje Rodovia Professor Boanerges Nogueira de Lima (SP-340)",
    "tipo": "cabina",
    "via": "Rodovia Professor Boanerges Nogueira de Lima",
    "ref": "SP-340",
-   "km": "221",
    "localidad": "Lagoa Branca",
    "fuente": "armado",
    "cabinas": [
@@ -12755,11 +12766,10 @@
   {
    "lat": -21.869577,
    "lon": -47.535811,
-   "nombre": "Peaje Rodovia Deputado Vicente Botta (SP-215) km 104",
+   "nombre": "Peaje Rodovia Deputado Vicente Botta (SP-215)",
    "tipo": "cabina",
    "via": "Rodovia Deputado Vicente Botta",
    "ref": "SP-215",
-   "km": "104",
    "localidad": "Porto Ferreira",
    "fuente": "armado",
    "cabinas": [
@@ -12943,11 +12953,10 @@
   {
    "lat": -21.807988,
    "lon": -47.193451,
-   "nombre": "Peaje Rodovia Deputado Vicente Botta (SP-215) km 65",
+   "nombre": "Peaje Rodovia Deputado Vicente Botta (SP-215) (2)",
    "tipo": "cabina",
    "via": "Rodovia Deputado Vicente Botta",
    "ref": "SP-215",
-   "km": "65",
    "localidad": "Santa Cruz das Palmeiras",
    "fuente": "armado",
    "cabinas": [
@@ -14489,11 +14498,10 @@
   {
    "lat": -21.009319,
    "lon": -48.176673,
-   "nombre": "Peaje Rodovia Armando Salles de Oliveira (SP-322) km 363",
+   "nombre": "Peaje Rodovia Armando Salles de Oliveira (SP-322)",
    "tipo": "cabina",
    "via": "Rodovia Armando Salles de Oliveira",
    "ref": "SP-322",
-   "km": "363",
    "localidad": "Pitangueiras",
    "fuente": "armado",
    "cabinas": [
@@ -14797,11 +14805,10 @@
   {
    "lat": -20.850903,
    "lon": -47.895702,
-   "nombre": "Peaje Rodovia Anhanguera (SP-330) km 350",
+   "nombre": "Peaje Rodovia Anhanguera (SP-330)",
    "tipo": "cabina",
    "via": "Rodovia Anhanguera",
    "ref": "SP-330",
-   "km": "350",
    "localidad": "Cândia",
    "fuente": "armado",
    "cabinas": [
@@ -15101,11 +15108,10 @@
   {
    "lat": -20.591841,
    "lon": -44.701252,
-   "nombre": "Peaje Rodovia Fernão Dias (BR-381) km 598",
+   "nombre": "Peaje Rodovia Fernão Dias (BR-381)",
    "tipo": "cabina",
    "via": "Rodovia Fernão Dias",
    "ref": "BR-381",
-   "km": "598",
    "localidad": "Bom Jardim das Pedras",
    "fuente": "armado",
    "cabinas": [
@@ -15705,6 +15711,7 @@
      "lon": -54.41269,
      "n": 4,
      "rumbo": 23,
+     "tipo": "CENTRAL",
      "ancho": 14.0
     },
     {
@@ -15712,6 +15719,7 @@
      "lon": -54.412884,
      "n": 5,
      "rumbo": 203,
+     "tipo": "CENTRAL",
      "ancho": 17.5
     }
    ],
@@ -15766,11 +15774,10 @@
   {
    "lat": -20.032538,
    "lon": -40.39661,
-   "nombre": "Peaje Rodovia Governador Mário Covas (BR-101) km 242",
+   "nombre": "Peaje Rodovia Governador Mário Covas (BR-101) (3)",
    "tipo": "cabina",
    "via": "Rodovia Governador Mário Covas",
    "ref": "BR-101",
-   "km": "242",
    "localidad": "Timbuí",
    "fuente": "armado",
    "cabinas": [
@@ -17065,8 +17072,9 @@
   {
    "lat": -18.876423,
    "lon": -48.519637,
-   "nombre": "Peaje BR-365 km 646",
+   "nombre": "Peaje Rodovia BR-365 km 646",
    "tipo": "cabina",
+   "via": "Rodovia BR-365",
    "ref": "BR-365",
    "km": "646",
    "localidad": "Posto Laranjeiras",
@@ -17094,9 +17102,9 @@
     "distancia_m": 8.0
    },
    "pais": "BR",
-   "via_visible": "BR-365",
+   "via_visible": "Rodovia BR-365",
    "punto": "Posto Laranjeiras",
-   "nombre_visible": "BR-365 - Pedágio Posto Laranjeiras",
+   "nombre_visible": "Rodovia BR-365 - Pedágio Posto Laranjeiras",
    "confianza": "media"
   },
   {
@@ -18752,7 +18760,7 @@
    "tipo": "cabina",
    "ref": "BR-080",
    "km": "155",
-   "localidad": "Placa",
+   "localidad": "Povoado da Placa",
    "fuente": "armado",
    "cabinas": [
     {
@@ -18778,8 +18786,8 @@
    },
    "pais": "BR",
    "via_visible": "BR-080",
-   "punto": "Placa",
-   "nombre_visible": "BR-080 - Pedágio Placa",
+   "punto": "Povoado da Placa",
+   "nombre_visible": "BR-080 - Pedágio Povoado da Placa",
    "confianza": "media"
   },
   {
@@ -18973,6 +18981,7 @@
    "lon": -57.917788,
    "nombre": "Peaje MT-170 km 107",
    "tipo": "cabina",
+   "via": "MT-170",
    "ref": "MT-170",
    "km": "107",
    "localidad": "São Jorge",
@@ -19572,6 +19581,7 @@
      "lon": -38.246347,
      "n": 1,
      "rumbo": 234,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -19668,11 +19678,10 @@
   {
    "lat": -12.718402,
    "lon": -38.394874,
-   "nombre": "Peaje Travessa Hortência (BA-093) km 8",
+   "nombre": "Peaje Travessa Hortência (BA-093)",
    "tipo": "cabina",
    "via": "Travessa Hortência",
    "ref": "BA-093",
-   "km": "8",
    "localidad": "Menino Jesus",
    "fuente": "armado",
    "cabinas": [
@@ -20738,10 +20747,8 @@
   {
    "lat": -8.361741,
    "lon": -35.009646,
-   "nombre": "Peaje Estrada TDR Sul (PE-009)",
+   "nombre": "Peaje Rota do Atlântico",
    "tipo": "cabina",
-   "via": "Estrada TDR Sul",
-   "ref": "PE-009",
    "localidad": "Santo Agostinho",
    "fuente": "armado",
    "cabinas": [
@@ -20759,9 +20766,8 @@
     "distancia_m": 0.0
    },
    "pais": "BR",
-   "via_visible": "PE-009",
    "punto": "Santo Agostinho",
-   "nombre_visible": "PE-009 - Pedágio Santo Agostinho",
+   "nombre_visible": "Pedágio Santo Agostinho",
    "confianza": "media"
   },
   {
@@ -20857,11 +20863,8 @@
   {
    "lat": -8.238798,
    "lon": -34.940155,
-   "nombre": "Peaje Ponte do Paiva (PE-024) km 0",
+   "nombre": "Peaje Rota dos Coqueiros",
    "tipo": "cabina",
-   "via": "Ponte do Paiva",
-   "ref": "PE-024",
-   "km": "0",
    "localidad": "Ponte dos Carvalhos",
    "fuente": "armado",
    "cabinas": [
@@ -20879,9 +20882,8 @@
     "distancia_m": 0.0
    },
    "pais": "BR",
-   "via_visible": "PE-024",
    "punto": "Ponte dos Carvalhos",
-   "nombre_visible": "PE-024 - Pedágio Ponte dos Carvalhos",
+   "nombre_visible": "Pedágio Ponte dos Carvalhos",
    "confianza": "media"
   },
   {
@@ -20949,7 +20951,7 @@
   {
    "lat": -7.210985,
    "lon": -34.910542,
-   "nombre": "Peaje Rodovia Governador Mário Covas (BR-101)",
+   "nombre": "Peaje Rodovia Governador Mário Covas (BR-101) (4)",
    "tipo": "cabina",
    "via": "Rodovia Governador Mário Covas",
    "ref": "BR-101",
@@ -21174,9 +21176,9 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-07T11:15Z",
+ "generado": "2026-11-09T11:51Z",
  "alertas": [
   "BR: no se pudo leer ANTT – Praças de pedágio (rodovias federais concedidas) (no se encontró un recurso «dados-dos-pracas-de-pedagio(\\d+)_(\\d{4})\\.json$» en https://dados.antt.gov.br/dataset/praca-de-pedagio (¿cambió la página?)).",
-  "BR: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 400 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo."
+  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
  ]
 }
