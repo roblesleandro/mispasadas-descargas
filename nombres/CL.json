@@ -10,10 +10,10 @@
   "confianza_baja": 0,
   "excluidas": 2,
   "tipos_filas": {
-   "CENTRAL": 252,
-   "SALIDA": 0,
-   "ENTRADA": 0,
-   "sin_tipo": 161
+   "CENTRAL": 258,
+   "SALIDA": 88,
+   "ENTRADA": 22,
+   "sin_tipo": 45
   },
   "posicion": {
    "umbral_m": 15.0,
@@ -21,10 +21,10 @@
    "corregidas": 80,
    "sin_referencia": 3,
    "corrida_anterior": {
-    "ok": 249,
+    "ok": 248,
     "a_mas_de_15_m": 0,
     "sin_referencia": 3,
-    "total": 252
+    "total": 251
    }
   }
  },
@@ -32,7 +32,7 @@
   {
    "lat": -41.723446,
    "lon": -73.374003,
-   "nombre": "Peaje Ruta 5 Sur (38)",
+   "nombre": "Peaje Ruta 5 Sur (47)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -44,7 +44,8 @@
      "lon": -73.374003,
      "n": 1,
      "rumbo": 203,
-     "ancho": 7.0
+     "tipo": "ENTRADA",
+     "ancho": 3.5
     }
    ],
    "posicion": {
@@ -60,7 +61,7 @@
   {
    "lat": -41.617039,
    "lon": -73.273783,
-   "nombre": "Peaje Ruta 5 Sur (34)",
+   "nombre": "Peaje Ruta 5 Sur (43)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -98,7 +99,7 @@
   {
    "lat": -41.58903,
    "lon": -73.233472,
-   "nombre": "Peaje Ruta 5 Sur (33)",
+   "nombre": "Peaje Ruta 5 Sur (42)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -110,6 +111,7 @@
      "lon": -73.233298,
      "n": 1,
      "rumbo": 55,
+     "tipo": "ENTRADA",
      "ancho": 7.0
     },
     {
@@ -117,6 +119,7 @@
      "lon": -73.233472,
      "n": 1,
      "rumbo": 235,
+     "tipo": "SALIDA",
      "ancho": 7.0
     }
    ],
@@ -138,7 +141,7 @@
   {
    "lat": -41.516688,
    "lon": -73.078186,
-   "nombre": "Peaje Ruta 5 Sur (35)",
+   "nombre": "Peaje Ruta 5 Sur (44)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -157,6 +160,7 @@
      "lon": -73.078186,
      "n": 1,
      "rumbo": 239,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -177,10 +181,11 @@
   {
    "lat": -41.438476,
    "lon": -72.956522,
-   "nombre": "Peaje Ruta 5 Sur",
+   "nombre": "Peaje Ruta 5 Sur km 1019",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
+   "km": "1019",
    "localidad": "Puerto Montt",
    "fuente": "armado",
    "cabinas": [
@@ -245,7 +250,7 @@
   {
    "lat": -41.319802,
    "lon": -73.007608,
-   "nombre": "Peaje Ruta 5 Sur (4)",
+   "nombre": "Peaje Ruta 5 Sur (13)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -257,6 +262,7 @@
      "lon": -73.007608,
      "n": 1,
      "rumbo": 322,
+     "tipo": "SALIDA",
      "ancho": 7.0
     },
     {
@@ -297,6 +303,7 @@
      "lon": -73.007361,
      "n": 1,
      "rumbo": 4,
+     "tipo": "SALIDA",
      "ancho": 7.0
     },
     {
@@ -304,6 +311,7 @@
      "lon": -73.007425,
      "n": 1,
      "rumbo": 183,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -338,6 +346,7 @@
      "lon": -73.020461,
      "n": 1,
      "rumbo": 326,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -345,6 +354,7 @@
      "lon": -73.023277,
      "n": 1,
      "rumbo": 136,
+     "tipo": "SALIDA",
      "ancho": 7.0
     }
    ],
@@ -366,8 +376,10 @@
   {
    "lat": -41.219311,
    "lon": -73.052557,
-   "nombre": "Peaje cerca de Los Pellines",
+   "nombre": "Peaje Ruta 5 Sur (6)",
    "tipo": "cabina",
+   "via": "Ruta 5 Sur",
+   "ref": "5",
    "localidad": "Los Pellines",
    "fuente": "armado",
    "cabinas": [
@@ -376,6 +388,7 @@
      "lon": -73.052557,
      "n": 1,
      "rumbo": 338,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -383,6 +396,7 @@
      "lon": -73.055946,
      "n": 1,
      "rumbo": 156,
+     "tipo": "SALIDA",
      "ancho": 7.0
     }
    ],
@@ -428,7 +442,7 @@
   {
    "lat": -41.009143,
    "lon": -73.120332,
-   "nombre": "Peaje Ruta 5 Sur (20)",
+   "nombre": "Peaje Ruta 5 Sur (29)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -456,7 +470,7 @@
   {
    "lat": -40.959105,
    "lon": -73.133928,
-   "nombre": "Peaje Ruta 5 Sur (19)",
+   "nombre": "Peaje Ruta 5 Sur (28)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -493,7 +507,7 @@
   {
    "lat": -40.901401,
    "lon": -73.152246,
-   "nombre": "Peaje Ruta 5 Sur (26)",
+   "nombre": "Peaje Ruta 5 Sur (35)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -505,6 +519,7 @@
      "lon": -73.152246,
      "n": 1,
      "rumbo": 168,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -521,8 +536,10 @@
   {
    "lat": -40.808509,
    "lon": -73.167507,
-   "nombre": "Peaje cerca de Río Negro",
+   "nombre": "Peaje Ruta 5 Sur (5)",
    "tipo": "cabina",
+   "via": "Ruta 5 Sur",
+   "ref": "5",
    "localidad": "Río Negro",
    "fuente": "armado",
    "cabinas": [
@@ -531,6 +548,7 @@
      "lon": -73.167507,
      "n": 1,
      "rumbo": 192,
+     "tipo": "SALIDA",
      "ancho": 6.0
     }
    ],
@@ -547,8 +565,10 @@
   {
    "lat": -40.594831,
    "lon": -73.09911,
-   "nombre": "Peaje cerca de Osorno (2)",
+   "nombre": "Peaje Ruta 5 Sur (4)",
    "tipo": "cabina",
+   "via": "Ruta 5 Sur",
+   "ref": "5",
    "localidad": "Osorno",
    "fuente": "armado",
    "cabinas": [
@@ -557,6 +577,7 @@
      "lon": -73.09911,
      "n": 1,
      "rumbo": 13,
+     "tipo": "SALIDA",
      "ancho": 15.0
     },
     {
@@ -564,6 +585,7 @@
      "lon": -73.098055,
      "n": 1,
      "rumbo": 186,
+     "tipo": "SALIDA",
      "ancho": 14.0
     }
    ],
@@ -585,8 +607,10 @@
   {
    "lat": -40.579419,
    "lon": -73.098143,
-   "nombre": "Peaje cerca de Osorno",
+   "nombre": "Peaje Ruta 5 Sur (3)",
    "tipo": "cabina",
+   "via": "Ruta 5 Sur",
+   "ref": "5",
    "localidad": "Osorno",
    "fuente": "armado",
    "cabinas": [
@@ -595,6 +619,7 @@
      "lon": -73.097648,
      "n": 1,
      "rumbo": 0,
+     "tipo": "SALIDA",
      "ancho": 14.0
     },
     {
@@ -602,6 +627,7 @@
      "lon": -73.098143,
      "n": 1,
      "rumbo": 178,
+     "tipo": "SALIDA",
      "ancho": 14.0
     }
    ],
@@ -623,9 +649,10 @@
   {
    "lat": -40.561913,
    "lon": -73.10036,
-   "nombre": "Peaje Pilauco",
+   "nombre": "Peaje Pilauco km 917",
    "tipo": "cabina",
    "via": "Pilauco",
+   "km": "917",
    "localidad": "Osorno",
    "fuente": "armado",
    "cabinas": [
@@ -652,7 +679,7 @@
   {
    "lat": -40.413107,
    "lon": -73.001714,
-   "nombre": "Peaje Ruta 5 Sur (18)",
+   "nombre": "Peaje Ruta 5 Sur (27)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -664,6 +691,7 @@
      "lon": -73.001714,
      "n": 1,
      "rumbo": 359,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -689,6 +717,7 @@
      "lon": -72.986786,
      "n": 1,
      "rumbo": 22,
+     "tipo": "SALIDA",
      "ancho": 10.5
     }
    ],
@@ -741,7 +770,7 @@
   {
    "lat": -40.087391,
    "lon": -72.864659,
-   "nombre": "Peaje Ruta 5 Sur (10)",
+   "nombre": "Peaje Ruta 5 Sur (19)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -753,6 +782,7 @@
      "lon": -72.864659,
      "n": 1,
      "rumbo": 189,
+     "tipo": "SALIDA",
      "ancho": 10.0
     }
    ],
@@ -769,7 +799,7 @@
   {
    "lat": -39.480385,
    "lon": -72.806435,
-   "nombre": "Peaje Ruta 5 Sur (17)",
+   "nombre": "Peaje Ruta 5 Sur (26)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -820,6 +850,7 @@
      "lon": -72.771481,
      "n": 1,
      "rumbo": 250,
+     "tipo": "SALIDA",
      "ancho": 15.0
     }
    ],
@@ -837,7 +868,7 @@
   {
    "lat": -39.359334,
    "lon": -72.620928,
-   "nombre": "Peaje Ruta 5 Sur (31)",
+   "nombre": "Peaje Ruta 5 Sur (40)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -849,6 +880,7 @@
      "lon": -72.620928,
      "n": 1,
      "rumbo": 328,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -866,7 +898,7 @@
   {
    "lat": -39.358835,
    "lon": -72.639728,
-   "nombre": "Peaje Ruta 5 Sur (13)",
+   "nombre": "Peaje Ruta 5 Sur (22)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -895,7 +927,7 @@
   {
    "lat": -38.991293,
    "lon": -72.646876,
-   "nombre": "Peaje Ruta 5 Sur (9)",
+   "nombre": "Peaje Ruta 5 Sur (18)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -907,6 +939,7 @@
      "lon": -72.646876,
      "n": 1,
      "rumbo": 31,
+     "tipo": "SALIDA",
      "ancho": 9.0
     }
    ],
@@ -1136,7 +1169,7 @@
   {
    "lat": -38.522351,
    "lon": -72.456262,
-   "nombre": "Peaje Ruta 5 Sur (28)",
+   "nombre": "Peaje Ruta 5 Sur (37)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -1148,6 +1181,7 @@
      "lon": -72.456262,
      "n": 1,
      "rumbo": 110,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -1214,6 +1248,7 @@
      "lon": -72.359127,
      "n": 1,
      "rumbo": 190,
+     "tipo": "SALIDA",
      "ancho": 12.0
     }
    ],
@@ -1244,6 +1279,7 @@
      "lon": -72.355913,
      "n": 1,
      "rumbo": 304,
+     "tipo": "SALIDA",
      "ancho": 10.5
     }
    ],
@@ -1261,7 +1297,7 @@
   {
    "lat": -37.853471,
    "lon": -72.396516,
-   "nombre": "Peaje Ruta 5 Sur (37)",
+   "nombre": "Peaje Ruta 5 Sur (46)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -1273,6 +1309,7 @@
      "lon": -72.396516,
      "n": 1,
      "rumbo": 56,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -1325,7 +1362,7 @@
   {
    "lat": -37.704223,
    "lon": -72.257473,
-   "nombre": "Peaje Ruta 5 Sur (25)",
+   "nombre": "Peaje Ruta 5 Sur (34)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -1337,6 +1374,7 @@
      "lon": -72.257473,
      "n": 1,
      "rumbo": 195,
+     "tipo": "SALIDA",
      "ancho": 9.0
     }
    ],
@@ -1461,7 +1499,7 @@
   {
    "lat": -37.531878,
    "lon": -72.32802,
-   "nombre": "Peaje Ruta 5 Sur (14)",
+   "nombre": "Peaje Ruta 5 Sur (23)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -1473,13 +1511,15 @@
      "lon": -72.32802,
      "n": 1,
      "rumbo": 164,
-     "ancho": 7.0
+     "tipo": "SALIDA",
+     "ancho": 6.0
     },
     {
      "lat": -37.531588,
      "lon": -72.32506,
      "n": 1,
      "rumbo": 344,
+     "tipo": "SALIDA",
      "ancho": 6.0
     }
    ],
@@ -1509,6 +1549,7 @@
      "lon": -72.404196,
      "n": 1,
      "rumbo": 351,
+     "tipo": "SALIDA",
      "ancho": 9.0
     },
     {
@@ -1516,6 +1557,7 @@
      "lon": -72.405178,
      "n": 1,
      "rumbo": 174,
+     "tipo": "CENTRAL",
      "ancho": 7.0
     }
    ],
@@ -1581,6 +1623,7 @@
      "lon": -72.39661,
      "n": 1,
      "rumbo": 218,
+     "tipo": "SALIDA",
      "ancho": 9.0
     }
    ],
@@ -1610,6 +1653,7 @@
      "lon": -72.361518,
      "n": 1,
      "rumbo": 12,
+     "tipo": "SALIDA",
      "ancho": 9.0
     },
     {
@@ -1617,6 +1661,7 @@
      "lon": -72.361392,
      "n": 1,
      "rumbo": 189,
+     "tipo": "SALIDA",
      "ancho": 7.0
     }
    ],
@@ -1833,6 +1878,7 @@
      "lon": -72.371628,
      "n": 1,
      "rumbo": 10,
+     "tipo": "SALIDA",
      "ancho": 10.5
     }
    ],
@@ -2068,8 +2114,10 @@
   {
    "lat": -36.755814,
    "lon": -72.29531,
-   "nombre": "Peaje cerca de Bulnes",
+   "nombre": "Peaje Ruta 5 Sur (8)",
    "tipo": "cabina",
+   "via": "Ruta 5 Sur",
+   "ref": "5",
    "localidad": "Bulnes",
    "fuente": "armado",
    "cabinas": [
@@ -2078,6 +2126,7 @@
      "lon": -72.29531,
      "n": 1,
      "rumbo": 284,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -2124,7 +2173,7 @@
   {
    "lat": -36.747784,
    "lon": -72.285426,
-   "nombre": "Peaje Ruta 5 Sur (30)",
+   "nombre": "Peaje Ruta 5 Sur (39)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -2136,6 +2185,7 @@
      "lon": -72.285426,
      "n": 1,
      "rumbo": 201,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -2207,6 +2257,7 @@
      "lon": -72.865382,
      "n": 1,
      "rumbo": 20,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -2214,6 +2265,7 @@
      "lon": -72.865645,
      "n": 1,
      "rumbo": 202,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     }
    ],
@@ -2234,7 +2286,7 @@
   {
    "lat": -36.722996,
    "lon": -72.274406,
-   "nombre": "Peaje Ruta 5 Sur (12)",
+   "nombre": "Peaje Ruta 5 Sur (21)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -2246,6 +2298,7 @@
      "lon": -72.274406,
      "n": 1,
      "rumbo": 233,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -2275,6 +2328,7 @@
      "lon": -72.457296,
      "n": 1,
      "rumbo": 22,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     },
     {
@@ -2282,6 +2336,7 @@
      "lon": -72.457709,
      "n": 1,
      "rumbo": 298,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -2302,8 +2357,9 @@
   {
    "lat": -36.625933,
    "lon": -72.160539,
-   "nombre": "Peaje cerca de Chillán Viejo",
+   "nombre": "Peaje Avenida Libertador Bernardo O'Higgins",
    "tipo": "cabina",
+   "via": "Avenida Libertador Bernardo O'Higgins",
    "localidad": "Chillán Viejo",
    "fuente": "armado",
    "cabinas": [
@@ -2320,9 +2376,9 @@
     "distancia_m": 0.0
    },
    "pais": "CL",
-   "via_visible": "Ruta 5",
+   "via_visible": "Avenida Libertador Bernardo O'Higgins",
    "punto": "Chillán Viejo",
-   "nombre_visible": "Ruta 5 - Peaje Chillán Viejo",
+   "nombre_visible": "Avenida Libertador Bernardo O'Higgins - Peaje Chillán Viejo",
    "confianza": "media"
   },
   {
@@ -2352,8 +2408,8 @@
    "confianza": "alta"
   },
   {
-   "lat": -36.524459,
-   "lon": -72.072423,
+   "lat": -36.524511,
+   "lon": -72.072498,
    "nombre": "Lateral Cocharcas",
    "tipo": "cabina",
    "via": "Ruta N-50",
@@ -2361,10 +2417,10 @@
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": -36.524459,
-     "lon": -72.072423,
+     "lat": -36.524511,
+     "lon": -72.072498,
      "n": 1,
-     "rumbo": 314,
+     "rumbo": 313,
      "tipo": "CENTRAL",
      "ancho": 7.0
     }
@@ -2391,6 +2447,7 @@
      "lon": -71.962482,
      "n": 1,
      "rumbo": 56,
+     "tipo": "SALIDA",
      "ancho": 12.0
     }
    ],
@@ -2407,8 +2464,11 @@
   {
    "lat": -36.414122,
    "lon": -71.94597,
-   "nombre": "Peaje cerca de San Carlos",
+   "nombre": "Peaje Ruta 5 Sur km 375",
    "tipo": "cabina",
+   "via": "Ruta 5 Sur",
+   "ref": "5",
+   "km": "375",
    "localidad": "San Carlos",
    "fuente": "armado",
    "cabinas": [
@@ -2417,6 +2477,7 @@
      "lon": -71.94597,
      "n": 1,
      "rumbo": 191,
+     "tipo": "SALIDA",
      "ancho": 9.0
     }
    ],
@@ -2446,6 +2507,7 @@
      "lon": -71.81389,
      "n": 1,
      "rumbo": 14,
+     "tipo": "SALIDA",
      "ancho": 10.5
     }
    ],
@@ -2462,7 +2524,7 @@
   {
    "lat": -36.00928,
    "lon": -71.732288,
-   "nombre": "Peaje Ruta 5 Sur (39)",
+   "nombre": "Peaje Ruta 5 Sur (48)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -2533,7 +2595,7 @@
   {
    "lat": -35.694987,
    "lon": -71.68617,
-   "nombre": "Peaje Ruta 5 Sur (27)",
+   "nombre": "Peaje Ruta 5 Sur (36)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -2545,6 +2607,7 @@
      "lon": -71.68617,
      "n": 1,
      "rumbo": 233,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -2626,6 +2689,7 @@
      "lon": -71.706395,
      "n": 1,
      "rumbo": 171,
+     "tipo": "SALIDA",
      "ancho": 7.0
     }
    ],
@@ -2684,6 +2748,7 @@
      "lon": -71.698011,
      "n": 1,
      "rumbo": 257,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -2700,7 +2765,7 @@
   {
    "lat": -35.521282,
    "lon": -71.676707,
-   "nombre": "Peaje Ruta 5 Sur (5)",
+   "nombre": "Peaje Ruta 5 Sur (14)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -2712,6 +2777,7 @@
      "lon": -71.676707,
      "n": 1,
      "rumbo": 79,
+     "tipo": "SALIDA",
      "ancho": 7.0
     }
    ],
@@ -2728,7 +2794,7 @@
   {
    "lat": -35.489366,
    "lon": -71.659271,
-   "nombre": "Peaje Ruta 5 Sur (11)",
+   "nombre": "Peaje Ruta 5 Sur (20)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -2740,6 +2806,7 @@
      "lon": -71.659271,
      "n": 1,
      "rumbo": 92,
+     "tipo": "SALIDA",
      "ancho": 10.5
     }
    ],
@@ -2797,7 +2864,7 @@
   {
    "lat": -35.133437,
    "lon": -71.35469,
-   "nombre": "Peaje Ruta 5 Sur (29)",
+   "nombre": "Peaje Ruta 5 Sur (38)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -2809,6 +2876,7 @@
      "lon": -71.35469,
      "n": 1,
      "rumbo": 232,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -2825,7 +2893,7 @@
   {
    "lat": -35.093077,
    "lon": -71.318112,
-   "nombre": "Peaje Ruta 5 Sur (21)",
+   "nombre": "Peaje Ruta 5 Sur (30)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -2837,6 +2905,7 @@
      "lon": -71.319602,
      "n": 1,
      "rumbo": 33,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -2864,8 +2933,10 @@
   {
    "lat": -35.050782,
    "lon": -71.282286,
-   "nombre": "Peaje cerca de Lontué",
+   "nombre": "Peaje Ruta 5 Sur (7)",
    "tipo": "cabina",
+   "via": "Ruta 5 Sur",
+   "ref": "5",
    "localidad": "Lontué",
    "fuente": "armado",
    "cabinas": [
@@ -2874,6 +2945,7 @@
      "lon": -71.282286,
      "n": 1,
      "rumbo": 99,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -2881,6 +2953,7 @@
      "lon": -71.280033,
      "n": 1,
      "rumbo": 240,
+     "tipo": "SALIDA",
      "ancho": 7.0
     }
    ],
@@ -2901,8 +2974,11 @@
   {
    "lat": -34.99396,
    "lon": -71.232402,
-   "nombre": "Peaje cerca de Curicó",
+   "nombre": "Peaje Ruta 5 Sur km 191,7",
    "tipo": "cabina",
+   "via": "Ruta 5 Sur",
+   "ref": "5",
+   "km": "191,7",
    "localidad": "Curicó",
    "fuente": "armado",
    "cabinas": [
@@ -2911,6 +2987,7 @@
      "lon": -71.232402,
      "n": 1,
      "rumbo": 290,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -2928,8 +3005,11 @@
   {
    "lat": -34.982717,
    "lon": -71.215052,
-   "nombre": "Peaje cerca de Curicó (2)",
+   "nombre": "Peaje Ruta 5 Sur km 188,5",
    "tipo": "cabina",
+   "via": "Ruta 5 Sur",
+   "ref": "5",
+   "km": "188,5",
    "localidad": "Curicó",
    "fuente": "armado",
    "cabinas": [
@@ -2938,6 +3018,7 @@
      "lon": -71.215052,
      "n": 1,
      "rumbo": 233,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -2968,6 +3049,7 @@
      "lon": -71.205738,
      "n": 1,
      "rumbo": 239,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -2984,7 +3066,7 @@
   {
    "lat": -34.883785,
    "lon": -71.150528,
-   "nombre": "Peaje Ruta 5 Sur (3)",
+   "nombre": "Peaje Ruta 5 Sur (12)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -2996,6 +3078,7 @@
      "lon": -71.150528,
      "n": 1,
      "rumbo": 39,
+     "tipo": "SALIDA",
      "ancho": 7.0
     }
    ],
@@ -3012,7 +3095,7 @@
   {
    "lat": -34.796163,
    "lon": -71.048048,
-   "nombre": "Peaje Ruta 5 Sur (36)",
+   "nombre": "Peaje Ruta 5 Sur (45)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3024,6 +3107,7 @@
      "lon": -71.049635,
      "n": 1,
      "rumbo": 14,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -3073,6 +3157,7 @@
      "lon": -71.030564,
      "n": 1,
      "rumbo": 201,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -3089,7 +3174,7 @@
   {
    "lat": -34.60568,
    "lon": -70.983124,
-   "nombre": "Peaje Ruta 5 Sur (15)",
+   "nombre": "Peaje Ruta 5 Sur (24)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3101,6 +3186,7 @@
      "lon": -70.984086,
      "n": 1,
      "rumbo": 70,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -3108,6 +3194,7 @@
      "lon": -70.983124,
      "n": 1,
      "rumbo": 219,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -3129,7 +3216,7 @@
   {
    "lat": -34.594025,
    "lon": -70.973092,
-   "nombre": "Peaje Ruta 5 Sur (32)",
+   "nombre": "Peaje Ruta 5 Sur (41)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3141,6 +3228,7 @@
      "lon": -70.973241,
      "n": 1,
      "rumbo": 41,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -3148,6 +3236,7 @@
      "lon": -70.973092,
      "n": 1,
      "rumbo": 0,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -3160,6 +3249,7 @@
      "lon": -70.9695,
      "n": 1,
      "rumbo": 229,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -3181,8 +3271,10 @@
   {
    "lat": -34.574384,
    "lon": -70.972747,
-   "nombre": "Peaje cerca de San Fernando",
+   "nombre": "Peaje Ruta 5 Sur",
    "tipo": "cabina",
+   "via": "Ruta 5 Sur",
+   "ref": "5",
    "localidad": "San Fernando",
    "fuente": "armado",
    "cabinas": [
@@ -3219,7 +3311,7 @@
   {
    "lat": -34.551701,
    "lon": -70.961434,
-   "nombre": "Peaje Ruta 5 Sur (8)",
+   "nombre": "Peaje Ruta 5 Sur (17)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3231,6 +3323,7 @@
      "lon": -70.961795,
      "n": 1,
      "rumbo": 43,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -3238,6 +3331,7 @@
      "lon": -70.961434,
      "n": 1,
      "rumbo": 302,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -3259,7 +3353,7 @@
   {
    "lat": -34.465564,
    "lon": -70.898352,
-   "nombre": "Peaje Ruta 5 Sur (7)",
+   "nombre": "Peaje Ruta 5 Sur (16)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3271,6 +3365,7 @@
      "lon": -70.897147,
      "n": 1,
      "rumbo": 115,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -3278,6 +3373,7 @@
      "lon": -70.898352,
      "n": 1,
      "rumbo": 285,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -3298,7 +3394,7 @@
   {
    "lat": -34.400011,
    "lon": -70.871746,
-   "nombre": "Peaje Ruta 5 Sur (16)",
+   "nombre": "Peaje Ruta 5 Sur (25)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3310,6 +3406,7 @@
      "lon": -70.873365,
      "n": 1,
      "rumbo": 27,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -3317,6 +3414,7 @@
      "lon": -70.871746,
      "n": 1,
      "rumbo": 207,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -3337,7 +3435,7 @@
   {
    "lat": -34.34597,
    "lon": -70.840755,
-   "nombre": "Peaje Ruta 5 Sur (22)",
+   "nombre": "Peaje Ruta 5 Sur (31)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3349,6 +3447,7 @@
      "lon": -70.840725,
      "n": 1,
      "rumbo": 25,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -3356,6 +3455,7 @@
      "lon": -70.840755,
      "n": 1,
      "rumbo": 205,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -3376,7 +3476,7 @@
   {
    "lat": -34.288986,
    "lon": -70.821905,
-   "nombre": "Peaje Ruta 5 Sur (24)",
+   "nombre": "Peaje Ruta 5 Sur (33)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3388,6 +3488,7 @@
      "lon": -70.821905,
      "n": 1,
      "rumbo": 13,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -3405,7 +3506,7 @@
   {
    "lat": -34.281973,
    "lon": -70.818679,
-   "nombre": "Peaje Ruta 5 Sur (23)",
+   "nombre": "Peaje Ruta 5 Sur (32)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3463,7 +3564,7 @@
   {
    "lat": -34.18092,
    "lon": -70.790648,
-   "nombre": "Peaje Ruta 5 Sur (6)",
+   "nombre": "Peaje Ruta 5 Sur (15)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3475,6 +3576,7 @@
      "lon": -70.788434,
      "n": 1,
      "rumbo": 33,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -3482,6 +3584,7 @@
      "lon": -70.790648,
      "n": 1,
      "rumbo": 198,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -3531,8 +3634,10 @@
   {
    "lat": -34.037618,
    "lon": -70.705914,
-   "nombre": "Peaje cerca de Graneros",
+   "nombre": "Peaje Ruta 5 Sur (11)",
    "tipo": "cabina",
+   "via": "Ruta 5 Sur",
+   "ref": "5",
    "localidad": "Graneros",
    "fuente": "armado",
    "cabinas": [
@@ -3598,8 +3703,10 @@
   {
    "lat": -33.852205,
    "lon": -70.748769,
-   "nombre": "Peaje cerca de Hospital",
+   "nombre": "Peaje Ruta 5 Sur (10)",
    "tipo": "cabina",
+   "via": "Ruta 5 Sur",
+   "ref": "5",
    "localidad": "Hospital",
    "fuente": "armado",
    "cabinas": [
@@ -3653,8 +3760,10 @@
   {
    "lat": -33.818407,
    "lon": -70.751252,
-   "nombre": "Peaje Rutas del Maipo",
+   "nombre": "Peaje Ruta 5 Sur (9)",
    "tipo": "cabina",
+   "via": "Ruta 5 Sur",
+   "ref": "5",
    "localidad": "Paine",
    "fuente": "armado",
    "cabinas": [
@@ -3663,6 +3772,7 @@
      "lon": -70.751439,
      "n": 1,
      "rumbo": 9,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -4009,6 +4119,7 @@
      "lon": -70.604663,
      "n": 1,
      "rumbo": 174,
+     "tipo": "SALIDA",
      "ancho": 17.5
     },
     {
@@ -4016,6 +4127,7 @@
      "lon": -70.603875,
      "n": 1,
      "rumbo": 339,
+     "tipo": "ENTRADA",
      "ancho": 17.5
     }
    ],
@@ -4171,6 +4283,7 @@
      "lon": -70.611236,
      "n": 1,
      "rumbo": 178,
+     "tipo": "SALIDA",
      "ancho": 10.5
     },
     {
@@ -4178,6 +4291,7 @@
      "lon": -70.610295,
      "n": 1,
      "rumbo": 333,
+     "tipo": "ENTRADA",
      "ancho": 14.0
     }
    ],
@@ -5365,6 +5479,7 @@
      "lon": -70.574492,
      "n": 1,
      "rumbo": 173,
+     "tipo": "SALIDA",
      "ancho": 7.0
     }
    ],
@@ -5420,6 +5535,7 @@
      "lon": -70.657227,
      "n": 1,
      "rumbo": 282,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     },
     {
@@ -5460,6 +5576,7 @@
      "lon": -70.574703,
      "n": 1,
      "rumbo": 353,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     },
     {
@@ -5467,6 +5584,7 @@
      "lon": -70.575685,
      "n": 1,
      "rumbo": 95,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -5474,6 +5592,7 @@
      "lon": -70.578416,
      "n": 1,
      "rumbo": 138,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     }
    ],
@@ -5598,6 +5717,7 @@
      "lon": -70.619825,
      "n": 1,
      "rumbo": 239,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -5627,6 +5747,7 @@
      "lon": -70.58142,
      "n": 1,
      "rumbo": 328,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     }
    ],
@@ -5707,6 +5828,7 @@
      "lon": -70.792964,
      "n": 1,
      "rumbo": 179,
+     "tipo": "CENTRAL",
      "ancho": 3.5
     }
    ],
@@ -5827,6 +5949,7 @@
      "lon": -70.582035,
      "n": 1,
      "rumbo": 58,
+     "tipo": "SALIDA",
      "ancho": 7.0
     },
     {
@@ -5865,6 +5988,7 @@
      "lon": -70.602224,
      "n": 1,
      "rumbo": 17,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     },
     {
@@ -5879,6 +6003,7 @@
      "lon": -70.601945,
      "n": 1,
      "rumbo": 83,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     },
     {
@@ -5915,6 +6040,7 @@
      "lon": -70.586333,
      "n": 1,
      "rumbo": 179,
+     "tipo": "CENTRAL",
      "ancho": 3.5
     },
     {
@@ -5922,6 +6048,7 @@
      "lon": -70.581692,
      "n": 1,
      "rumbo": 63,
+     "tipo": "CENTRAL",
      "ancho": 3.5
     },
     {
@@ -5929,6 +6056,7 @@
      "lon": -70.587549,
      "n": 1,
      "rumbo": 168,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     }
    ],
@@ -5960,6 +6088,7 @@
      "lon": -70.580488,
      "n": 1,
      "rumbo": 243,
+     "tipo": "CENTRAL",
      "ancho": 7.0
     }
    ],
@@ -6077,6 +6206,7 @@
      "lon": -70.6198,
      "n": 1,
      "rumbo": 109,
+     "tipo": "ENTRADA",
      "ancho": 7.0
     }
    ],
@@ -6108,6 +6238,7 @@
      "lon": -70.604134,
      "n": 1,
      "rumbo": 11,
+     "tipo": "CENTRAL",
      "ancho": 7.0
     },
     {
@@ -6164,6 +6295,7 @@
      "lon": -70.588756,
      "n": 1,
      "rumbo": 333,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -6171,6 +6303,7 @@
      "lon": -70.592471,
      "n": 1,
      "rumbo": 129,
+     "tipo": "SALIDA",
      "ancho": 3.5
     }
    ],
@@ -6204,6 +6337,7 @@
      "lon": -70.597093,
      "n": 1,
      "rumbo": 240,
+     "tipo": "SALIDA",
      "ancho": 7.0
     },
     {
@@ -6211,6 +6345,7 @@
      "lon": -70.600007,
      "n": 1,
      "rumbo": 277,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     },
     {
@@ -6546,6 +6681,7 @@
      "lon": -70.52258,
      "n": 1,
      "rumbo": 245,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     }
    ],
@@ -6634,7 +6770,7 @@
   {
    "lat": -33.369045,
    "lon": -71.303257,
-   "nombre": "Peaje Ruta 68",
+   "nombre": "Peaje Ruta 68 (2)",
    "tipo": "cabina",
    "via": "Ruta 68",
    "ref": "68",
@@ -6812,7 +6948,7 @@
   {
    "lat": -33.340624,
    "lon": -71.366673,
-   "nombre": "Peaje Ruta 68 (2)",
+   "nombre": "Peaje Ruta 68 (5)",
    "tipo": "cabina",
    "via": "Ruta 68",
    "ref": "68",
@@ -6879,8 +7015,10 @@
   {
    "lat": -33.328601,
    "lon": -71.390358,
-   "nombre": "Peaje cerca de Casablanca (2)",
+   "nombre": "Peaje Ruta 68 (4)",
    "tipo": "cabina",
+   "via": "Ruta 68",
+   "ref": "68",
    "localidad": "Casablanca",
    "fuente": "armado",
    "cabinas": [
@@ -6915,6 +7053,7 @@
      "lon": -70.624287,
      "n": 1,
      "rumbo": 359,
+     "tipo": "SALIDA",
      "ancho": 3.5
     },
     {
@@ -6922,6 +7061,7 @@
      "lon": -70.624804,
      "n": 1,
      "rumbo": 176,
+     "tipo": "ENTRADA",
      "ancho": 3.5
     }
    ],
@@ -7071,8 +7211,10 @@
   {
    "lat": -33.30552,
    "lon": -71.411215,
-   "nombre": "Peaje cerca de Casablanca",
+   "nombre": "Peaje Ruta 68 (3)",
    "tipo": "cabina",
+   "via": "Ruta 68",
+   "ref": "68",
    "localidad": "Casablanca",
    "fuente": "armado",
    "cabinas": [
@@ -7134,8 +7276,10 @@
   {
    "lat": -33.282971,
    "lon": -70.702656,
-   "nombre": "Peaje cerca de Las Canteras",
+   "nombre": "Peaje Autopista Los Libertadores (57)",
    "tipo": "cabina",
+   "via": "Autopista Los Libertadores",
+   "ref": "57",
    "localidad": "Las Canteras",
    "fuente": "armado",
    "cabinas": [
@@ -7149,6 +7293,7 @@
      "lon": -70.702682,
      "n": 1,
      "rumbo": 173,
+     "tipo": "SALIDA",
      "ancho": 7.0
     }
    ],
@@ -7271,7 +7416,7 @@
   {
    "lat": -33.208953,
    "lon": -70.668045,
-   "nombre": "Peaje Autopista Los Libertadores (57)",
+   "nombre": "Peaje Autopista Los Libertadores (57) (2)",
    "tipo": "cabina",
    "via": "Autopista Los Libertadores",
    "ref": "57",
@@ -7299,8 +7444,10 @@
   {
    "lat": -33.1615,
    "lon": -71.542052,
-   "nombre": "Peaje cerca de Placilla de Peñuelas",
+   "nombre": "Peaje Ruta 68",
    "tipo": "cabina",
+   "via": "Ruta 68",
+   "ref": "68",
    "localidad": "Placilla de Peñuelas",
    "fuente": "armado",
    "cabinas": [
@@ -7381,8 +7528,10 @@
   {
    "lat": -33.061846,
    "lon": -71.457493,
-   "nombre": "Peaje cerca de Quilpué",
+   "nombre": "Peaje Autopista Troncal Sur (60)",
    "tipo": "cabina",
+   "via": "Autopista Troncal Sur",
+   "ref": "60",
    "localidad": "Quilpué",
    "fuente": "armado",
    "cabinas": [
@@ -7391,6 +7540,7 @@
      "lon": -71.457493,
      "n": 1,
      "rumbo": 110,
+     "tipo": "SALIDA",
      "ancho": 30.0
     },
     {
@@ -7398,6 +7548,7 @@
      "lon": -71.457091,
      "n": 1,
      "rumbo": 289,
+     "tipo": "ENTRADA",
      "ancho": 30.0
     }
    ],
@@ -7447,7 +7598,7 @@
   {
    "lat": -32.972114,
    "lon": -71.300955,
-   "nombre": "Peaje Autopista Los Andes (60) (2)",
+   "nombre": "Peaje Autopista Los Andes (60)",
    "tipo": "cabina",
    "via": "Autopista Los Andes",
    "ref": "60",
@@ -7459,6 +7610,7 @@
      "lon": -71.302674,
      "n": 1,
      "rumbo": 204,
+     "tipo": "ENTRADA",
      "ancho": 15.0
     },
     {
@@ -7466,6 +7618,7 @@
      "lon": -71.300955,
      "n": 1,
      "rumbo": 25,
+     "tipo": "SALIDA",
      "ancho": 10.0
     }
    ],
@@ -7487,10 +7640,11 @@
   {
    "lat": -32.934977,
    "lon": -71.288306,
-   "nombre": "Peaje Autopista Los Andes (60)",
+   "nombre": "Peaje Autopista Los Andes (60) km 1",
    "tipo": "cabina",
    "via": "Autopista Los Andes",
    "ref": "60",
+   "km": "1",
    "localidad": "San Pedro",
    "fuente": "armado",
    "cabinas": [
@@ -7569,6 +7723,7 @@
      "lon": -71.249396,
      "n": 1,
      "rumbo": 259,
+     "tipo": "ENTRADA",
      "ancho": 10.0
     },
     {
@@ -7625,7 +7780,7 @@
   {
    "lat": -32.875537,
    "lon": -71.231631,
-   "nombre": "Peaje Autopista Los Andes (60) (3)",
+   "nombre": "Peaje Autopista Los Andes (60) (2)",
    "tipo": "cabina",
    "via": "Autopista Los Andes",
    "ref": "60",
@@ -7637,6 +7792,7 @@
      "lon": -71.231631,
      "n": 1,
      "rumbo": 188,
+     "tipo": "SALIDA",
      "ancho": 18.0
     },
     {
@@ -7644,6 +7800,7 @@
      "lon": -71.230781,
      "n": 1,
      "rumbo": 2,
+     "tipo": "ENTRADA",
      "ancho": 18.0
     }
    ],
@@ -7760,7 +7917,7 @@
   {
    "lat": -32.769255,
    "lon": -70.703584,
-   "nombre": "Peaje Autopista Los Andes (60) (4)",
+   "nombre": "Peaje Autopista Los Andes (60) (3)",
    "tipo": "cabina",
    "via": "Autopista Los Andes",
    "ref": "60",
@@ -7772,6 +7929,7 @@
      "lon": -70.703814,
      "n": 1,
      "rumbo": 112,
+     "tipo": "ENTRADA",
      "ancho": 12.0
     },
     {
@@ -7779,6 +7937,7 @@
      "lon": -70.703584,
      "n": 1,
      "rumbo": 293,
+     "tipo": "SALIDA",
      "ancho": 12.0
     }
    ],
@@ -8638,9 +8797,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-07T18:22Z",
- "alertas": [
-  "CL: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo.",
-  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
- ]
+ "generado": "2026-11-09T12:27Z",
+ "alertas": []
 }
