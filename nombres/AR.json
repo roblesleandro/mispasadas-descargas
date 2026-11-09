@@ -5,25 +5,25 @@
  "resumen": {
   "oficial": 136,
   "osm": 6,
-  "armado": 21,
-  "total": 163,
+  "armado": 20,
+  "total": 162,
   "confianza_baja": 1,
   "excluidas": 4,
   "tipos_filas": {
    "CENTRAL": 181,
    "SALIDA": 28,
    "ENTRADA": 40,
-   "sin_tipo": 45
+   "sin_tipo": 44
   },
   "posicion": {
    "umbral_m": 15.0,
-   "ok": 114,
+   "ok": 113,
    "corregidas": 53,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 163,
+    "ok": 162,
     "a_mas_de_15_m": 0,
-    "sin_referencia": 0,
+    "sin_referencia": 1,
     "total": 163
    }
   }
@@ -53,32 +53,6 @@
    "via_visible": "RN 288",
    "punto": "Puerto Santa Cruz",
    "nombre_visible": "RN 288 - Peaje Puerto Santa Cruz",
-   "confianza": "media"
-  },
-  {
-   "lat": -46.073726,
-   "lon": -67.62925,
-   "nombre": "Peaje Ruta Nacional 3 (RN3)",
-   "tipo": "cabina",
-   "via": "Ruta Nacional 3",
-   "ref": "RN3",
-   "localidad": "Rada Tilly",
-   "fuente": "armado",
-   "cabinas": [
-    {
-     "lat": -46.073726,
-     "lon": -67.62925,
-     "n": 1
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "pais": "AR",
-   "via_visible": "RN 3",
-   "punto": "Rada Tilly",
-   "nombre_visible": "RN 3 - Peaje Rada Tilly",
    "confianza": "media"
   },
   {
@@ -588,7 +562,7 @@
      "lat": -35.360441,
      "lon": -60.702915,
      "n": 1,
-     "rumbo": 224,
+     "rumbo": 225,
      "tipo": "CENTRAL",
      "ancho": 7.0
     }
@@ -4084,9 +4058,9 @@
     ]
    },
    "pais": "AR",
-   "via_visible": "Autopista Ernesto Guevara",
+   "via_visible": "Autopista Rosario - Córdoba",
    "punto": "Carcarañá",
-   "nombre_visible": "Autopista Ernesto Guevara - Peaje Carcarañá",
+   "nombre_visible": "Autopista Rosario - Córdoba - Peaje Carcarañá",
    "confianza": "alta",
    "plaza": "Carcarañá (Centro)"
   },
@@ -6195,6 +6169,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-07T14:49Z",
+ "generado": "2026-11-09T10:41Z",
  "alertas": []
 }
