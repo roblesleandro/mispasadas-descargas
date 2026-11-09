@@ -7,13 +7,13 @@
   "osm": 24,
   "armado": 33,
   "total": 58,
-  "confianza_baja": 0,
+  "confianza_baja": 9,
   "excluidas": 1,
   "tipos_filas": {
-   "CENTRAL": 71,
+   "CENTRAL": 72,
    "SALIDA": 0,
    "ENTRADA": 0,
-   "sin_tipo": 26
+   "sin_tipo": 25
   },
   "posicion": {
    "umbral_m": 15.0,
@@ -32,9 +32,8 @@
   {
    "lat": -3.978075,
    "lon": -79.205609,
-   "nombre": "Peaje cerca de Loja",
+   "nombre": "Peaje en Ecuador (5)",
    "tipo": "cabina",
-   "localidad": "Loja",
    "fuente": "armado",
    "cabinas": [
     {
@@ -49,9 +48,10 @@
    },
    "pais": "EC",
    "via_visible": "E35",
-   "punto": "Loja",
-   "nombre_visible": "E35 - Peaje Loja",
-   "confianza": "media"
+   "punto": "(sin nombre)",
+   "nombre_visible": "E35 - Peaje (sin nombre)",
+   "confianza": "baja",
+   "nota": "El robot no encontró ruta ni localidad: completar a mano."
   },
   {
    "lat": -3.272282,
@@ -59,7 +59,6 @@
    "nombre": "Pórtico Carretera La Ramada Nabón",
    "tipo": "portico",
    "via": "Carretera La Ramada Nabón",
-   "localidad": "Shiña",
    "fuente": "armado",
    "cabinas": [
     {
@@ -78,9 +77,10 @@
    },
    "pais": "EC",
    "via_visible": "Carretera La Ramada Nabón",
-   "punto": "Shiña",
-   "nombre_visible": "Carretera La Ramada Nabón - Pórtico Shiña",
-   "confianza": "media"
+   "punto": "(sin nombre)",
+   "nombre_visible": "Carretera La Ramada Nabón - Pórtico (sin nombre)",
+   "confianza": "baja",
+   "nota": "El robot no encontró ruta ni localidad: completar a mano."
   },
   {
    "lat": -3.156588,
@@ -240,7 +240,6 @@
    "tipo": "cabina",
    "via": "Troncal de la Costa",
    "ref": "E25",
-   "localidad": "Jaime Roldos",
    "fuente": "armado",
    "cabinas": [
     {
@@ -266,9 +265,10 @@
    },
    "pais": "EC",
    "via_visible": "E25",
-   "punto": "Jaime Roldos",
-   "nombre_visible": "E25 - Peaje Jaime Roldos",
-   "confianza": "media"
+   "punto": "(sin nombre)",
+   "nombre_visible": "E25 - Peaje (sin nombre)",
+   "confianza": "baja",
+   "nota": "El robot no encontró ruta ni localidad: completar a mano."
   },
   {
    "lat": -2.784652,
@@ -440,9 +440,8 @@
   {
    "lat": -2.347659,
    "lon": -78.146407,
-   "nombre": "Pórtico cerca de Rio Blanco",
+   "nombre": "Pórtico en Ecuador",
    "tipo": "portico",
-   "localidad": "Rio Blanco",
    "fuente": "armado",
    "cabinas": [
     {
@@ -460,9 +459,10 @@
     "distancia_m": 0.0
    },
    "pais": "EC",
-   "punto": "Rio Blanco",
-   "nombre_visible": "Pórtico Rio Blanco",
-   "confianza": "media"
+   "punto": "(sin nombre)",
+   "nombre_visible": "(sin nombre)",
+   "confianza": "baja",
+   "nota": "El robot no encontró ruta ni localidad: completar a mano."
   },
   {
    "lat": -2.302651,
@@ -496,9 +496,10 @@
   {
    "lat": -2.232435,
    "lon": -79.639873,
-   "nombre": "Peaje E25",
+   "nombre": "Peaje E25 km 25",
    "tipo": "cabina",
    "ref": "E25",
+   "km": "25",
    "localidad": "Virgen de Fátima",
    "fuente": "armado",
    "cabinas": [
@@ -536,10 +537,11 @@
   {
    "lat": -2.222304,
    "lon": -80.08973,
-   "nombre": "Peaje Vía a la Costa (E40)",
+   "nombre": "Peaje Vía a la Costa (E40) km 24",
    "tipo": "cabina",
    "via": "Vía a la Costa",
    "ref": "E40",
+   "km": "24",
    "localidad": "Chongón",
    "fuente": "armado",
    "cabinas": [
@@ -548,6 +550,7 @@
      "lon": -80.089682,
      "n": 2,
      "rumbo": 57,
+     "tipo": "CENTRAL",
      "ancho": 7.0
     },
     {
@@ -792,10 +795,11 @@
   {
    "lat": -1.941229,
    "lon": -79.887583,
-   "nombre": "Peaje Vía a Salitre (E486)",
+   "nombre": "Peaje Vía a Salitre (E486) km 14",
    "tipo": "cabina",
    "via": "Vía a Salitre",
    "ref": "E486",
+   "km": "14",
    "localidad": "El Naranjo",
    "fuente": "armado",
    "cabinas": [
@@ -837,7 +841,6 @@
    "nombre": "Peaje E482",
    "tipo": "cabina",
    "ref": "E482",
-   "localidad": "Potrerillo",
    "fuente": "armado",
    "cabinas": [
     {
@@ -868,9 +871,10 @@
    },
    "pais": "EC",
    "via_visible": "E482",
-   "punto": "Potrerillo",
-   "nombre_visible": "E482 - Peaje Potrerillo",
-   "confianza": "media"
+   "punto": "(sin nombre)",
+   "nombre_visible": "E482 - Peaje (sin nombre)",
+   "confianza": "baja",
+   "nota": "El robot no encontró ruta ni localidad: completar a mano."
   },
   {
    "lat": -1.574828,
@@ -916,10 +920,11 @@
   {
    "lat": -1.531832,
    "lon": -79.954264,
-   "nombre": "Peaje Vía Palestina - Balzar (E48)",
+   "nombre": "Peaje Vía Palestina - Balzar (E48) km 85",
    "tipo": "cabina",
    "via": "Vía Palestina - Balzar",
    "ref": "E48",
+   "km": "85",
    "localidad": "Colimes",
    "fuente": "armado",
    "cabinas": [
@@ -1026,8 +1031,9 @@
   {
    "lat": -1.069051,
    "lon": -80.555534,
-   "nombre": "Peaje cerca de La Pila",
+   "nombre": "Peaje E30",
    "tipo": "cabina",
+   "ref": "E30",
    "localidad": "La Pila",
    "fuente": "armado",
    "cabinas": [
@@ -1117,9 +1123,8 @@
   {
    "lat": -0.683916,
    "lon": -79.649023,
-   "nombre": "Peaje cerca de Santa María",
+   "nombre": "Peaje en Ecuador (2)",
    "tipo": "cabina",
-   "localidad": "Santa María",
    "fuente": "armado",
    "cabinas": [
     {
@@ -1133,9 +1138,10 @@
     "distancia_m": 0.0
    },
    "pais": "EC",
-   "punto": "Santa María",
-   "nombre_visible": "Peaje Santa María",
-   "confianza": "media"
+   "punto": "(sin nombre)",
+   "nombre_visible": "(sin nombre)",
+   "confianza": "baja",
+   "nota": "El robot no encontró ruta ni localidad: completar a mano."
   },
   {
    "lat": -0.545835,
@@ -1425,8 +1431,9 @@
   {
    "lat": -0.182305,
    "lon": -78.487857,
-   "nombre": "Pórtico cerca de Comuna Miraflores",
+   "nombre": "Pórtico Avenida Atahualpa",
    "tipo": "portico",
+   "via": "Avenida Atahualpa",
    "localidad": "Comuna Miraflores",
    "fuente": "armado",
    "cabinas": [
@@ -1444,15 +1451,17 @@
     "distancia_m": 0.0
    },
    "pais": "EC",
+   "via_visible": "Avenida Atahualpa",
    "punto": "Comuna Miraflores",
-   "nombre_visible": "Pórtico Comuna Miraflores",
+   "nombre_visible": "Avenida Atahualpa - Pórtico Comuna Miraflores",
    "confianza": "media"
   },
   {
    "lat": -0.151066,
    "lon": -78.493143,
-   "nombre": "Peaje cerca de Atucucho (2)",
+   "nombre": "Peaje Avenida Brasil",
    "tipo": "cabina",
+   "via": "Avenida Brasil",
    "localidad": "Atucucho",
    "fuente": "armado",
    "cabinas": [
@@ -1470,16 +1479,16 @@
     "distancia_m": 0.0
    },
    "pais": "EC",
+   "via_visible": "Avenida Brasil",
    "punto": "Atucucho",
-   "nombre_visible": "Peaje Atucucho",
+   "nombre_visible": "Avenida Brasil - Peaje Atucucho",
    "confianza": "media"
   },
   {
    "lat": -0.145024,
    "lon": -78.490681,
-   "nombre": "Peaje cerca de Atucucho (3)",
+   "nombre": "Peaje en Ecuador",
    "tipo": "cabina",
-   "localidad": "Atucucho",
    "fuente": "armado",
    "cabinas": [
     {
@@ -1503,16 +1512,17 @@
    },
    "pais": "EC",
    "via_visible": "Avenida de la Prensa",
-   "punto": "Atucucho",
-   "nombre_visible": "Avenida de la Prensa - Peaje Atucucho",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "punto": "(sin nombre)",
+   "nombre_visible": "Avenida de la Prensa - Peaje (sin nombre)",
+   "confianza": "baja",
+   "nota": "El robot no encontró ruta ni localidad: completar a mano."
   },
   {
    "lat": -0.142424,
    "lon": -78.493448,
-   "nombre": "Peaje cerca de Atucucho",
+   "nombre": "Peaje Machala",
    "tipo": "cabina",
+   "via": "Machala",
    "localidad": "Atucucho",
    "fuente": "armado",
    "cabinas": [
@@ -1545,15 +1555,13 @@
    "via_visible": "Avenida de la Prensa",
    "punto": "Atucucho",
    "nombre_visible": "Avenida de la Prensa - Peaje Atucucho",
-   "confianza": "media",
-   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
+   "confianza": "media"
   },
   {
    "lat": -0.12728,
    "lon": -78.471649,
-   "nombre": "Peaje cerca de Puertas del Sol",
+   "nombre": "Peaje en Ecuador (3)",
    "tipo": "cabina",
-   "localidad": "Puertas del Sol",
    "fuente": "armado",
    "cabinas": [
     {
@@ -1577,9 +1585,10 @@
    },
    "pais": "EC",
    "via_visible": "Avenida General Eloy Alfaro",
-   "punto": "Puertas del Sol",
-   "nombre_visible": "Avenida General Eloy Alfaro - Peaje Puertas del Sol",
-   "confianza": "media"
+   "punto": "(sin nombre)",
+   "nombre_visible": "Avenida General Eloy Alfaro - Peaje (sin nombre)",
+   "confianza": "baja",
+   "nota": "El robot no encontró ruta ni localidad: completar a mano."
   },
   {
    "lat": -0.099271,
@@ -1890,9 +1899,8 @@
   {
    "lat": 0.644648,
    "lon": -77.896259,
-   "nombre": "Peaje cerca de La Libertad",
+   "nombre": "Peaje en Ecuador (4)",
    "tipo": "cabina",
-   "localidad": "La Libertad",
    "fuente": "armado",
    "cabinas": [
     {
@@ -1906,9 +1914,10 @@
     "distancia_m": 0.0
    },
    "pais": "EC",
-   "punto": "La Libertad",
-   "nombre_visible": "Peaje La Libertad",
-   "confianza": "media"
+   "punto": "(sin nombre)",
+   "nombre_visible": "(sin nombre)",
+   "confianza": "baja",
+   "nota": "El robot no encontró ruta ni localidad: completar a mano."
   },
   {
    "lat": 1.425456,
@@ -1972,10 +1981,9 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-07T22:00Z",
+ "generado": "2026-11-09T14:16Z",
  "alertas": [
-  "EC: OpenStreetMap no devolvió los ramales de las cabinas (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter); las filas salen sin tipo.",
-  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
+  "Alrededores: falló un lote de 9 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
   "Alrededores: falló un lote de 9 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
  ]
 }
