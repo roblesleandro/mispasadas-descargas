@@ -1,7 +1,7 @@
 {
- "version": "bz-2026-11-03",
+ "version": "bz-2026-11-10",
  "pais": "BZ",
- "generado": "2026-11-03T20:11:50+00:00",
+ "generado": "2026-11-10T13:50:35+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial con ubicaciones."
@@ -61,7 +61,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10709978063",
-   "source_version": "bz-2026-11-03",
+   "source_version": "bz-2026-11-10",
    "confidence_score": 50,
    "controls": [],
    "heading_min": 340.0,
