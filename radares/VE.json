@@ -1,7 +1,7 @@
 {
- "version": "ve-2026-11-03",
+ "version": "ve-2026-11-10",
  "pais": "VE",
- "generado": "2026-11-03T20:01:26+00:00",
+ "generado": "2026-11-10T13:41:38+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial."
@@ -61,7 +61,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921864",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -89,7 +89,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12219583983",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -119,7 +119,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921862",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -147,7 +147,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921860",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -175,7 +175,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921858",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -203,7 +203,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921855",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -231,7 +231,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921853",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -259,7 +259,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921848",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -287,7 +287,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11742921850",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -315,7 +315,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1208753545",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -343,7 +343,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/260454169",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -371,7 +371,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/14137549002",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "controls": [],
    "heading_min": 325.0,
@@ -400,7 +400,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2831839248",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -428,7 +428,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/315078018",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -456,7 +456,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3105400761",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -484,7 +484,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6597737933",
-   "source_version": "ve-2026-11-03",
+   "source_version": "ve-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 90,
    "speed_limit_source": "OSM_ETIQUETA",
