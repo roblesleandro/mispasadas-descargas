@@ -1,31 +1,31 @@
 {
- "version": "pe-2026-11-06",
+ "version": "pe-2026-11-10",
  "pais": "PE",
- "generado": "2026-11-06T13:16:29+00:00",
+ "generado": "2026-11-10T12:57:12+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "SUTRAN – «Excesos de velocidad detectados por cinemómetros» (datosabiertos.gob.pe): lat/lon de cada detección, no de equipos fijos; desactualizado (2023).",
   "SAT Lima / municipalidades: sin dataset de cámaras."
  ],
  "resumen": {
-  "total": 53,
+  "total": 58,
   "oficiales": 0,
-  "osm": 53,
+  "osm": 58,
   "por_tipo": {
-   "FIXED_SPEED": 52,
+   "FIXED_SPEED": 57,
    "AVERAGE_SPEED_SECTION": 0,
    "RED_LIGHT_CAMERA": 0,
    "VEHICLE_CAMERA": 1
   },
-  "con_limite": 52,
+  "con_limite": 57,
   "limite_revisar": 0,
   "limite_desconocido": 1,
   "revisados_esta_corrida": 0,
   "sin_via": 0,
-  "via_completada_esta_corrida": 1,
+  "via_completada_esta_corrida": 0,
   "limites_dudosos_sacados": 0,
   "por_control": {
-   "VELOCIDAD": 52,
+   "VELOCIDAD": 57,
    "VELOCIDAD_PROMEDIO": 0,
    "SEMAFORO": 0,
    "CINTURON": 0,
@@ -37,10 +37,10 @@
   "posicion": {
    "umbral_m": 15.0,
    "radio_busqueda_m": 150.0,
-   "ok": 53,
+   "ok": 58,
    "corregidas": 0,
    "sin_referencia": 0,
-   "de_osm": 53,
+   "de_osm": 58,
    "corrida_anterior": {
     "umbral_m": 15.0,
     "radio_busqueda_m": 150.0,
@@ -54,6 +54,32 @@
  "alertas": [],
  "radars": [
   {
+   "radar_id": "osm-pe-n14330237167",
+   "name": "Carretera Panamericana Sur - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -12.489884,
+   "longitude": -76.744753,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14330237167",
+   "source_version": "pe-2026-11-10",
+   "confidence_score": 50,
+   "speed_limit_kmh": 60,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14330237167"
+   },
+   "road_label": "Carretera Panamericana Sur",
+   "display_name": "Carretera Panamericana Sur - Radar",
+   "country": "PE"
+  },
+  {
    "radar_id": "osm-pe-n3708582634",
    "name": "Vía Expresa Luis Fernán Bedoya Reyes - Radar",
    "radar_type": "FIXED_SPEED",
@@ -62,7 +88,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3708582634",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -90,7 +116,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/263631700",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -118,7 +144,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5873991561",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -146,7 +172,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872093965",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -174,7 +200,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/257943385",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -204,7 +230,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9368008281",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -232,7 +258,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872013158",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -262,7 +288,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872013160",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -270,8 +296,6 @@
    "controls": [
     "VELOCIDAD"
    ],
-   "heading_min": 170.0,
-   "heading_max": 240.0,
    "position_check": {
     "status": "OK",
     "offset_m": 0.0,
@@ -290,7 +314,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5873968064",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -310,6 +334,36 @@
    "country": "PE"
   },
   {
+   "radar_id": "osm-pe-n5873968059",
+   "name": "Vía Expresa Luis Fernán Bedoya Reyes - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -12.092201,
+   "longitude": -77.023101,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/5873968059",
+   "source_version": "pe-2026-11-10",
+   "confidence_score": 50,
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/5873968059"
+   },
+   "road_label": "Vía Expresa Luis Fernán Bedoya Reyes",
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "motorway",
+   "speed_limit_road_kmh": 80,
+   "display_name": "Vía Expresa Luis Fernán Bedoya Reyes - Radar",
+   "country": "PE"
+  },
+  {
    "radar_id": "osm-pe-n5872013143",
    "name": "Avenida Javier Prado Este - Radar",
    "radar_type": "FIXED_SPEED",
@@ -318,7 +372,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872013143",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -346,7 +400,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872438409",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -354,8 +408,6 @@
    "controls": [
     "VELOCIDAD"
    ],
-   "heading_min": 225.0,
-   "heading_max": 295.0,
    "position_check": {
     "status": "OK",
     "offset_m": 0.0,
@@ -374,7 +426,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/1727347001",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -404,7 +456,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5873943241",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -434,7 +486,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2058517409",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -464,7 +516,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/411672422",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -494,7 +546,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13481095297",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 50,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -522,7 +574,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6110043470",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -552,7 +604,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6110037268",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -582,7 +634,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872388778",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -612,7 +664,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872396529",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -640,7 +692,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6110032458",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -665,18 +717,16 @@
    "radar_id": "osm-pe-n5872155399",
    "name": "Avenida Sáenz Peña - Radar",
    "radar_type": "FIXED_SPEED",
-   "latitude": -12.060584,
+   "latitude": -12.060585,
    "longitude": -77.140416,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872155399",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
-   "heading_min": 45.0,
-   "heading_max": 115.0,
    "position_check": {
     "status": "OK",
     "offset_m": 0.0,
@@ -700,7 +750,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872202180",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -730,7 +780,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872285704",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -760,7 +810,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872293661",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -790,7 +840,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3023423293",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -820,7 +870,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872266477",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -850,7 +900,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872328141",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -880,13 +930,11 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872328140",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
    ],
-   "heading_min": 230.0,
-   "heading_max": 300.0,
    "position_check": {
     "status": "OK",
     "offset_m": 0.0,
@@ -910,7 +958,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872155401",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -940,7 +988,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872155400",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -970,7 +1018,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872342295",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -998,7 +1046,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872155403",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1021,12 +1069,12 @@
    "radar_id": "osm-pe-n6110041742",
    "name": "Avenida Elmer Faucett - Radar",
    "radar_type": "FIXED_SPEED",
-   "latitude": -12.048124,
-   "longitude": -77.098481,
+   "latitude": -12.048126,
+   "longitude": -77.098568,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/6110041742",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1054,7 +1102,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872155404",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -1084,7 +1132,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872369791",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1092,8 +1140,6 @@
    "controls": [
     "VELOCIDAD"
    ],
-   "heading_min": 320.0,
-   "heading_max": 30.0,
    "position_check": {
     "status": "OK",
     "offset_m": 0.0,
@@ -1107,12 +1153,12 @@
    "radar_id": "osm-pe-n5872337757",
    "name": "Vía Expresa Elmer Faucett - Radar",
    "radar_type": "FIXED_SPEED",
-   "latitude": -12.033176,
-   "longitude": -77.100306,
+   "latitude": -12.03317,
+   "longitude": -77.100305,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872337757",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1120,8 +1166,6 @@
    "controls": [
     "VELOCIDAD"
    ],
-   "heading_min": 120.0,
-   "heading_max": 190.0,
    "position_check": {
     "status": "OK",
     "offset_m": 0.0,
@@ -1135,12 +1179,12 @@
    "radar_id": "osm-pe-n5872337759",
    "name": "Vía Expresa Elmer Faucett - Radar",
    "radar_type": "FIXED_SPEED",
-   "latitude": -12.029789,
-   "longitude": -77.102154,
+   "latitude": -12.029784,
+   "longitude": -77.102146,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872337759",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1148,8 +1192,6 @@
    "controls": [
     "VELOCIDAD"
    ],
-   "heading_min": 295.0,
-   "heading_max": 5.0,
    "position_check": {
     "status": "OK",
     "offset_m": 0.0,
@@ -1168,7 +1210,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872337760",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 80,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1196,7 +1238,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/2470149905",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -1226,7 +1268,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872409408",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -1256,7 +1298,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5872350786",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -1286,7 +1328,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/9811925639",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -1314,7 +1356,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/273420690",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1342,7 +1384,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/5930182044",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [
     "VELOCIDAD"
@@ -1372,7 +1414,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12681646281",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 35,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1398,7 +1440,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12356887148",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 35,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1418,6 +1460,66 @@
    "country": "PE"
   },
   {
+   "radar_id": "osm-pe-n14081004796",
+   "name": "Panamericana Norte - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -9.248311,
+   "longitude": -78.44161,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14081004796",
+   "source_version": "pe-2026-11-10",
+   "confidence_score": 50,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14081004796"
+   },
+   "road_label": "Panamericana Norte",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
+   "display_name": "Panamericana Norte - Radar",
+   "country": "PE"
+  },
+  {
+   "radar_id": "osm-pe-n14080997926",
+   "name": "Panamericana Norte - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -9.247267,
+   "longitude": -78.443222,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14080997926",
+   "source_version": "pe-2026-11-10",
+   "confidence_score": 50,
+   "speed_limit_kmh": 80,
+   "speed_limit_source": "OSM_PROPIO",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14080997926"
+   },
+   "road_label": "Panamericana Norte",
+   "speed_limit_detail": "La vía del radar tiene límite en OSM",
+   "speed_limit_checked": "2026-11-01",
+   "speed_limit_road_class": "trunk",
+   "speed_limit_road_kmh": 80,
+   "display_name": "Panamericana Norte - Radar",
+   "country": "PE"
+  },
+  {
    "radar_id": "osm-pe-n3778979788",
    "name": "Avenida Progreso - Radar",
    "radar_type": "FIXED_SPEED",
@@ -1426,7 +1528,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3778979788",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1452,7 +1554,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3778979787",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 60,
    "speed_limit_source": "OSM_PROPIO",
@@ -1481,7 +1583,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/3778979786",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 45,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1509,7 +1611,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13694493867",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1535,7 +1637,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/13694493866",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "speed_limit_kmh": 30,
    "speed_limit_source": "OSM_ETIQUETA",
@@ -1553,6 +1655,32 @@
    "country": "PE"
   },
   {
+   "radar_id": "osm-pe-n14073021512",
+   "name": "PE-1N - Radar",
+   "radar_type": "FIXED_SPEED",
+   "latitude": -5.173097,
+   "longitude": -80.682188,
+   "status": "UNVERIFIED",
+   "source": "OSM",
+   "source_reference": "node/14073021512",
+   "source_version": "pe-2026-11-10",
+   "confidence_score": 50,
+   "speed_limit_kmh": 50,
+   "speed_limit_source": "OSM_ETIQUETA",
+   "speed_limit_status": "VALIDO",
+   "controls": [
+    "VELOCIDAD"
+   ],
+   "position_check": {
+    "status": "OK",
+    "offset_m": 0.0,
+    "reference": "node/14073021512"
+   },
+   "road_label": "PE-1N",
+   "display_name": "PE-1N - Radar",
+   "country": "PE"
+  },
+  {
    "radar_id": "osm-pe-n10554663848",
    "name": "Avenida Principal - Cámara de tránsito",
    "radar_type": "VEHICLE_CAMERA",
@@ -1561,7 +1689,7 @@
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10554663848",
-   "source_version": "pe-2026-11-06",
+   "source_version": "pe-2026-11-10",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
