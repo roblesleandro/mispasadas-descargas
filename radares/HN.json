@@ -1,7 +1,7 @@
 {
- "version": "hn-2026-11-06",
+ "version": "hn-2026-11-10",
  "pais": "HN",
- "generado": "2026-11-06T14:31:56+00:00",
+ "generado": "2026-11-10T13:32:31+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial."
@@ -50,21 +50,18 @@
    }
   }
  },
- "alertas": [
-  "HN: no se pudieron leer radares/cámaras de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
-  "HN: Salieron 0 y antes había 11: se mantiene lo anterior."
- ],
+ "alertas": [],
  "radars": [
   {
    "radar_id": "osm-hn-n11390367061",
-   "name": "0 Avenida Sur - Cámara de tránsito (0 Avenida Sur - Cámara de tránsito)",
+   "name": "0 Avenida Sur - Cámara de tránsito",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 14.4528,
    "longitude": -87.640275,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/11390367061",
-   "source_version": "hn-2026-11-03",
+   "source_version": "hn-2026-11-10",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -76,19 +73,19 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "0 Avenida Sur - Cámara de tránsito (0 Avenida Sur - Cámara de tránsito)",
+   "display_name": "0 Avenida Sur - Cámara de tránsito",
    "country": "HN"
   },
   {
    "radar_id": "osm-hn-n10164408210",
-   "name": "RV-206 - Cámara de tránsito (RV-206 - Cámara de tránsito)",
+   "name": "RV-206 - Cámara de tránsito",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 14.459459,
    "longitude": -87.639435,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10164408210",
-   "source_version": "hn-2026-11-03",
+   "source_version": "hn-2026-11-10",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -100,19 +97,19 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "RV-206 - Cámara de tránsito (RV-206 - Cámara de tránsito)",
+   "display_name": "RV-206 - Cámara de tránsito",
    "country": "HN"
   },
   {
    "radar_id": "osm-hn-n10164408209",
-   "name": "4a Calle NO - Cámara de tránsito (4a Calle NO - Cámara de tránsito)",
+   "name": "4a Calle NO - Cámara de tránsito",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 14.459828,
    "longitude": -87.641108,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10164408209",
-   "source_version": "hn-2026-11-03",
+   "source_version": "hn-2026-11-10",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -124,19 +121,19 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "4a Calle NO - Cámara de tránsito (4a Calle NO - Cámara de tránsito)",
+   "display_name": "4a Calle NO - Cámara de tránsito",
    "country": "HN"
   },
   {
    "radar_id": "osm-hn-n10740284528",
-   "name": "RV-206 - Cámara de tránsito (RV-206 - Cámara de tránsito)",
+   "name": "RV-206 - Cámara de tránsito",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 14.459859,
    "longitude": -87.636607,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10740284528",
-   "source_version": "hn-2026-11-03",
+   "source_version": "hn-2026-11-10",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -148,19 +145,19 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "RV-206 - Cámara de tránsito (RV-206 - Cámara de tránsito)",
+   "display_name": "RV-206 - Cámara de tránsito",
    "country": "HN"
   },
   {
    "radar_id": "osm-hn-n10177418702",
-   "name": "5a Calle NO - Cámara de tránsito (5a Calle NO - Cámara de tránsito)",
+   "name": "5a Calle NO - Cámara de tránsito",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 14.460668,
    "longitude": -87.6412,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10177418702",
-   "source_version": "hn-2026-11-03",
+   "source_version": "hn-2026-11-10",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -172,19 +169,19 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "5a Calle NO - Cámara de tránsito (5a Calle NO - Cámara de tránsito)",
+   "display_name": "5a Calle NO - Cámara de tránsito",
    "country": "HN"
   },
   {
    "radar_id": "osm-hn-n10204577419",
-   "name": "2a Avenida NO - Cámara de tránsito (2a Avenida NO - Cámara de tránsito)",
+   "name": "2a Avenida NO - Cámara de tránsito",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 14.604492,
    "longitude": -87.832503,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/10204577419",
-   "source_version": "hn-2026-11-03",
+   "source_version": "hn-2026-11-10",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -196,19 +193,19 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "2a Avenida NO - Cámara de tránsito (2a Avenida NO - Cámara de tránsito)",
+   "display_name": "2a Avenida NO - Cámara de tránsito",
    "country": "HN"
   },
   {
    "radar_id": "osm-hn-n12920260630",
-   "name": "Carretera Santa Rosa - La Entrada - Cámara de tránsito (Carretera Santa Rosa - La Entrada - Cámara de tránsito)",
+   "name": "Carretera Santa Rosa - La Entrada - Cámara de tránsito",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 14.804627,
    "longitude": -88.774566,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12920260630",
-   "source_version": "hn-2026-11-03",
+   "source_version": "hn-2026-11-10",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -220,19 +217,19 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Santa Rosa - La Entrada - Cámara de tránsito (Carretera Santa Rosa - La Entrada - Cámara de tránsito)",
+   "display_name": "Carretera Santa Rosa - La Entrada - Cámara de tránsito",
    "country": "HN"
   },
   {
    "radar_id": "osm-hn-n12920318465",
-   "name": "Carretera Santa Rosa - La Entrada - Cámara de tránsito (Carretera Santa Rosa - La Entrada - Cámara de tránsito)",
+   "name": "Carretera Santa Rosa - La Entrada - Cámara de tránsito",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 15.053805,
    "longitude": -88.75562,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12920318465",
-   "source_version": "hn-2026-11-03",
+   "source_version": "hn-2026-11-10",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -244,19 +241,19 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Santa Rosa - La Entrada - Cámara de tránsito (Carretera Santa Rosa - La Entrada - Cámara de tránsito)",
+   "display_name": "Carretera Santa Rosa - La Entrada - Cámara de tránsito",
    "country": "HN"
   },
   {
    "radar_id": "osm-hn-n12920318464",
-   "name": "CA-11 - Cámara de tránsito (CA-11 - Cámara de tránsito)",
+   "name": "CA-11 - Cámara de tránsito",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 15.059993,
    "longitude": -88.753039,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12920318464",
-   "source_version": "hn-2026-11-03",
+   "source_version": "hn-2026-11-10",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -268,19 +265,19 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "CA-11 - Cámara de tránsito (CA-11 - Cámara de tránsito)",
+   "display_name": "CA-11 - Cámara de tránsito",
    "country": "HN"
   },
   {
    "radar_id": "osm-hn-n12924909546",
-   "name": "Carretera El Progreso - Tela - Cámara de tránsito (Carretera El Progreso - Tela - Cámara de tránsito)",
+   "name": "Carretera El Progreso - Tela - Cámara de tránsito",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 15.417989,
    "longitude": -87.801288,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12924909546",
-   "source_version": "hn-2026-11-03",
+   "source_version": "hn-2026-11-10",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -294,19 +291,19 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera El Progreso - Tela - Cámara de tránsito (Carretera El Progreso - Tela - Cámara de tránsito)",
+   "display_name": "Carretera El Progreso - Tela - Cámara de tránsito",
    "country": "HN"
   },
   {
    "radar_id": "osm-hn-n12924909547",
-   "name": "Carretera La Ceiba - San Juan Pueblo - Cámara de tránsito (Carretera La Ceiba - San Juan Pueblo - Cámara de tránsito)",
+   "name": "Carretera La Ceiba - San Juan Pueblo - Cámara de tránsito",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 15.60018,
    "longitude": -87.196771,
    "status": "UNVERIFIED",
    "source": "OSM",
    "source_reference": "node/12924909547",
-   "source_version": "hn-2026-11-03",
+   "source_version": "hn-2026-11-10",
    "confidence_score": 50,
    "controls": [],
    "position_check": {
@@ -320,7 +317,7 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera La Ceiba - San Juan Pueblo - Cámara de tránsito (Carretera La Ceiba - San Juan Pueblo - Cámara de tránsito)",
+   "display_name": "Carretera La Ceiba - San Juan Pueblo - Cámara de tránsito",
    "country": "HN"
   }
  ]
