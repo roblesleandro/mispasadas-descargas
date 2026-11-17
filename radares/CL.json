@@ -1,7 +1,7 @@
 {
- "version": "cl-2026-11-10",
+ "version": "cl-2026-11-17",
  "pais": "CL",
- "generado": "2026-11-10T12:53:52+00:00",
+ "generado": "2026-11-17T13:16:34+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Ley CATI (Centro Automatizado de Tratamiento de Infracciones, MTT): al 29/10/2026 no se encontró un listado oficial de cámaras de velocidad en funcionamiento; en 2025 hubo pilotos (Apoquindo con El Bosque en Las Condes, comuna de Santiago y Ruta 5). Revisar mtt.gob.cl cuando arranque.",
@@ -52,11 +52,14 @@
    }
   }
  },
- "alertas": [],
+ "alertas": [
+  "CL: no se pudieron leer radares/cámaras de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
+  "CL: Salieron 0 y antes había 122: se mantiene lo anterior."
+ ],
  "radars": [
   {
    "radar_id": "osm-cl-n8235341176",
-   "name": "Ruta 206 - Radar",
+   "name": "Ruta 206 - Radar (Ruta 206 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -39.823839,
    "longitude": -73.227525,
@@ -79,12 +82,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Ruta 206 - Radar",
+   "display_name": "Ruta 206 - Radar (Ruta 206 - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n7246690339",
-   "name": "Lord Cochrane - Radar",
+   "name": "Lord Cochrane - Radar (Lord Cochrane - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -39.819046,
    "longitude": -73.247741,
@@ -107,12 +110,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Lord Cochrane - Radar",
+   "display_name": "Lord Cochrane - Radar (Lord Cochrane - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n11748242162",
-   "name": "Ruta S-60 - Cámara de tránsito",
+   "name": "Ruta S-60 - Cámara de tránsito (Ruta S-60 - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -38.992668,
    "longitude": -73.08229,
@@ -135,12 +138,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Ruta S-60 - Cámara de tránsito",
+   "display_name": "Ruta S-60 - Cámara de tránsito (Ruta S-60 - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13414510965",
-   "name": "2 de Enero - Cámara de tránsito",
+   "name": "2 de Enero - Cámara de tránsito (2 de Enero - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -38.986523,
    "longitude": -72.638339,
@@ -161,12 +164,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "2 de Enero - Cámara de tránsito",
+   "display_name": "2 de Enero - Cámara de tránsito (2 de Enero - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n11702251783",
-   "name": "Panamericana Sur - Cámara de tránsito",
+   "name": "Panamericana Sur - Cámara de tránsito (Panamericana Sur - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -38.765029,
    "longitude": -72.609267,
@@ -189,12 +192,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Panamericana Sur - Cámara de tránsito",
+   "display_name": "Panamericana Sur - Cámara de tránsito (Panamericana Sur - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n11390818240",
-   "name": "Ruta S-40 - Radar",
+   "name": "Ruta S-40 - Radar (Ruta S-40 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.762165,
    "longitude": -72.687555,
@@ -218,12 +221,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
    "speed_limit_road_kmh": 80,
-   "display_name": "Ruta S-40 - Radar",
+   "display_name": "Ruta S-40 - Radar (Ruta S-40 - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n11390818239",
-   "name": "Ruta S-40 - Radar",
+   "name": "Ruta S-40 - Radar (Ruta S-40 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.761618,
    "longitude": -72.679108,
@@ -247,12 +250,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta S-40 - Radar",
+   "display_name": "Ruta S-40 - Radar (Ruta S-40 - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n11735587432",
-   "name": "Ruta S-40 - Radar",
+   "name": "Ruta S-40 - Radar (Ruta S-40 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -38.760863,
    "longitude": -72.706173,
@@ -276,12 +279,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "primary",
    "speed_limit_road_kmh": 80,
-   "display_name": "Ruta S-40 - Radar",
+   "display_name": "Ruta S-40 - Radar (Ruta S-40 - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n11887434212",
-   "name": "Avenida Balmaceda - Cámara de tránsito",
+   "name": "Avenida Balmaceda - Cámara de tránsito (Avenida Balmaceda - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -38.733319,
    "longitude": -72.589035,
@@ -302,12 +305,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Balmaceda - Cámara de tránsito",
+   "display_name": "Avenida Balmaceda - Cámara de tránsito (Avenida Balmaceda - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n12135719839",
-   "name": "Ruta 5 Sur - Cámara de tránsito",
+   "name": "Ruta 5 Sur - Cámara de tránsito (Ruta 5 Sur - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -38.639474,
    "longitude": -72.464938,
@@ -328,12 +331,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Ruta 5 Sur - Cámara de tránsito",
+   "display_name": "Ruta 5 Sur - Cámara de tránsito (Ruta 5 Sur - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n12135719836",
-   "name": "Ruta 5 Sur - Cámara de tránsito",
+   "name": "Ruta 5 Sur - Cámara de tránsito (Ruta 5 Sur - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -38.543647,
    "longitude": -72.45957,
@@ -354,12 +357,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Ruta 5 Sur - Cámara de tránsito",
+   "display_name": "Ruta 5 Sur - Cámara de tránsito (Ruta 5 Sur - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n12135719844",
-   "name": "Ruta 5 Sur - Cámara de tránsito",
+   "name": "Ruta 5 Sur - Cámara de tránsito (Ruta 5 Sur - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -38.406644,
    "longitude": -72.392932,
@@ -380,12 +383,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Ruta 5 Sur - Cámara de tránsito",
+   "display_name": "Ruta 5 Sur - Cámara de tránsito (Ruta 5 Sur - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n14003807950",
-   "name": "Avenida Las Encinas - Cámara de tránsito",
+   "name": "Avenida Las Encinas - Cámara de tránsito (Avenida Las Encinas - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -36.981868,
    "longitude": -73.162847,
@@ -408,12 +411,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Las Encinas - Cámara de tránsito",
+   "display_name": "Avenida Las Encinas - Cámara de tránsito (Avenida Las Encinas - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n11938982338",
-   "name": "Ruta 115 - Radar",
+   "name": "Ruta 115 - Radar (Ruta 115 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -35.434257,
    "longitude": -71.629405,
@@ -436,12 +439,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Ruta 115 - Radar",
+   "display_name": "Ruta 115 - Radar (Ruta 115 - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13281595125",
-   "name": "Doctor Exequiel González Cortés - Cámara de tránsito",
+   "name": "Doctor Exequiel González Cortés - Cámara de tránsito (Doctor Exequiel González Cortés - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -34.438413,
    "longitude": -71.078102,
@@ -462,12 +465,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 50 km/h a 4 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Doctor Exequiel González Cortés - Cámara de tránsito",
+   "display_name": "Doctor Exequiel González Cortés - Cámara de tránsito (Doctor Exequiel González Cortés - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8604906240",
-   "name": "Doctor Exequiel González Cortés - Radar",
+   "name": "Doctor Exequiel González Cortés - Radar (Doctor Exequiel González Cortés - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -34.43837,
    "longitude": -71.078021,
@@ -490,12 +493,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Doctor Exequiel González Cortés - Radar",
+   "display_name": "Doctor Exequiel González Cortés - Radar (Doctor Exequiel González Cortés - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13281595124",
-   "name": "Doctor Exequiel González Cortés - Cámara de tránsito",
+   "name": "Doctor Exequiel González Cortés - Cámara de tránsito (Doctor Exequiel González Cortés - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -34.437721,
    "longitude": -71.077756,
@@ -516,12 +519,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 50 km/h a 4 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Doctor Exequiel González Cortés - Cámara de tránsito",
+   "display_name": "Doctor Exequiel González Cortés - Cámara de tránsito (Doctor Exequiel González Cortés - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n11182269065",
-   "name": "H-76-I - Cámara de tránsito",
+   "name": "H-76-I - Cámara de tránsito (H-76-I - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -34.354583,
    "longitude": -71.289294,
@@ -542,12 +545,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "H-76-I - Cámara de tránsito",
+   "display_name": "H-76-I - Cámara de tránsito (H-76-I - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n7571612557",
-   "name": "Bellavista - Radar",
+   "name": "Bellavista - Radar (Bellavista - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.657407,
    "longitude": -70.923751,
@@ -570,12 +573,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Bellavista - Radar",
+   "display_name": "Bellavista - Radar (Bellavista - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8395691034",
-   "name": "Avenida Sargento Menadier - Radar",
+   "name": "Avenida Sargento Menadier - Radar (Avenida Sargento Menadier - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.6163,
    "longitude": -70.574738,
@@ -598,12 +601,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Sargento Menadier - Radar",
+   "display_name": "Avenida Sargento Menadier - Radar (Avenida Sargento Menadier - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8828228140",
-   "name": "José Manuel Irarrázaval - Radar",
+   "name": "José Manuel Irarrázaval - Radar (José Manuel Irarrázaval - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.607889,
    "longitude": -70.575451,
@@ -628,12 +631,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "José Manuel Irarrázaval - Radar",
+   "display_name": "José Manuel Irarrázaval - Radar (José Manuel Irarrázaval - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n14342425979",
-   "name": "Ruta G-260 - Cámara de tránsito",
+   "name": "Ruta G-260 - Cámara de tránsito (Ruta G-260 - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.537952,
    "longitude": -70.826106,
@@ -656,12 +659,12 @@
    "speed_limit_checked": "2026-11-03",
    "speed_limit_road_class": "tertiary",
    "speed_limit_road_kmh": 60,
-   "display_name": "Ruta G-260 - Cámara de tránsito",
+   "display_name": "Ruta G-260 - Cámara de tránsito (Ruta G-260 - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n10920713941",
-   "name": "Avenida Departamental - Cámara de tránsito",
+   "name": "Avenida Departamental - Cámara de tránsito (Avenida Departamental - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.510916,
    "longitude": -70.588734,
@@ -684,12 +687,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Departamental - Cámara de tránsito",
+   "display_name": "Avenida Departamental - Cámara de tránsito (Avenida Departamental - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n9115480545",
-   "name": "Avenida San Luis de Macul - Cámara de tránsito",
+   "name": "Avenida San Luis de Macul - Cámara de tránsito (Avenida San Luis de Macul - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.506774,
    "longitude": -70.589261,
@@ -710,12 +713,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida San Luis de Macul - Cámara de tránsito",
+   "display_name": "Avenida San Luis de Macul - Cámara de tránsito (Avenida San Luis de Macul - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8711321105",
-   "name": "Avenida Lo Ovalle - Cámara de tránsito",
+   "name": "Avenida Lo Ovalle - Cámara de tránsito (Avenida Lo Ovalle - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.505494,
    "longitude": -70.684979,
@@ -736,12 +739,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Lo Ovalle - Cámara de tránsito",
+   "display_name": "Avenida Lo Ovalle - Cámara de tránsito (Avenida Lo Ovalle - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n9115435963",
-   "name": "Avenida Las Torres - Cámara de tránsito",
+   "name": "Avenida Las Torres - Cámara de tránsito (Avenida Las Torres - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.500789,
    "longitude": -70.587181,
@@ -762,12 +765,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Las Torres - Cámara de tránsito",
+   "display_name": "Avenida Las Torres - Cámara de tránsito (Avenida Las Torres - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8719105806",
-   "name": "Avenida Departamental - Cámara de tránsito",
+   "name": "Avenida Departamental - Cámara de tránsito (Avenida Departamental - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.499956,
    "longitude": -70.667684,
@@ -788,12 +791,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Departamental - Cámara de tránsito",
+   "display_name": "Avenida Departamental - Cámara de tránsito (Avenida Departamental - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8711321115",
-   "name": "Avenida Departamental - Cámara de tránsito",
+   "name": "Avenida Departamental - Cámara de tránsito (Avenida Departamental - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.498186,
    "longitude": -70.6709,
@@ -814,12 +817,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Departamental - Cámara de tránsito",
+   "display_name": "Avenida Departamental - Cámara de tránsito (Avenida Departamental - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n10855512915",
-   "name": "Avenida Monseñor Carlos Casanueva - Radar",
+   "name": "Avenida Monseñor Carlos Casanueva - Radar (Avenida Monseñor Carlos Casanueva - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.496108,
    "longitude": -70.616215,
@@ -842,12 +845,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Monseñor Carlos Casanueva - Radar",
+   "display_name": "Avenida Monseñor Carlos Casanueva - Radar (Avenida Monseñor Carlos Casanueva - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8379073040",
-   "name": "Avenida Quilín - Cámara de tránsito",
+   "name": "Avenida Quilín - Cámara de tránsito (Avenida Quilín - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.489889,
    "longitude": -70.57892,
@@ -870,12 +873,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Quilín - Cámara de tránsito",
+   "display_name": "Avenida Quilín - Cámara de tránsito (Avenida Quilín - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8711359124",
-   "name": "Avenida Clotario Blest - Cámara de tránsito",
+   "name": "Avenida Clotario Blest - Cámara de tránsito (Avenida Clotario Blest - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.488739,
    "longitude": -70.673764,
@@ -896,12 +899,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Clotario Blest - Cámara de tránsito",
+   "display_name": "Avenida Clotario Blest - Cámara de tránsito (Avenida Clotario Blest - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8711359119",
-   "name": "Haití - Cámara de tránsito",
+   "name": "Haití - Cámara de tránsito (Haití - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.488255,
    "longitude": -70.684235,
@@ -922,12 +925,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Haití - Cámara de tránsito",
+   "display_name": "Haití - Cámara de tránsito (Haití - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8711359120",
-   "name": "Pasaje Quauhtémoc - Cámara de tránsito",
+   "name": "Pasaje Quauhtémoc - Cámara de tránsito (Pasaje Quauhtémoc - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.488172,
    "longitude": -70.686065,
@@ -948,12 +951,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Pasaje Quauhtémoc - Cámara de tránsito",
+   "display_name": "Pasaje Quauhtémoc - Cámara de tránsito (Pasaje Quauhtémoc - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8711359122",
-   "name": "Villa Sur - Cámara de tránsito",
+   "name": "Villa Sur - Cámara de tránsito (Villa Sur - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.485934,
    "longitude": -70.681083,
@@ -972,12 +975,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Villa Sur - Cámara de tránsito",
+   "display_name": "Villa Sur - Cámara de tránsito (Villa Sur - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8711359139",
-   "name": "Ríos Talaveras - Cámara de tránsito",
+   "name": "Ríos Talaveras - Cámara de tránsito (Ríos Talaveras - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.478723,
    "longitude": -70.658012,
@@ -996,12 +999,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Ríos Talaveras - Cámara de tránsito",
+   "display_name": "Ríos Talaveras - Cámara de tránsito (Ríos Talaveras - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8008039976",
-   "name": "Avenida José Pedro Alessandri - Cámara de tránsito",
+   "name": "Avenida José Pedro Alessandri - Cámara de tránsito (Avenida José Pedro Alessandri - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.473509,
    "longitude": -70.598889,
@@ -1022,12 +1025,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida José Pedro Alessandri - Cámara de tránsito",
+   "display_name": "Avenida José Pedro Alessandri - Cámara de tránsito (Avenida José Pedro Alessandri - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n11268390057",
-   "name": "Avenida Pedro de Valdivia - Cámara de tránsito",
+   "name": "Avenida Pedro de Valdivia - Cámara de tránsito (Avenida Pedro de Valdivia - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.470101,
    "longitude": -70.606669,
@@ -1048,12 +1051,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Pedro de Valdivia - Cámara de tránsito",
+   "display_name": "Avenida Pedro de Valdivia - Cámara de tránsito (Avenida Pedro de Valdivia - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8307643998",
-   "name": "Avenida Grecia - Cámara de tránsito",
+   "name": "Avenida Grecia - Cámara de tránsito (Avenida Grecia - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.468825,
    "longitude": -70.577742,
@@ -1076,12 +1079,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Grecia - Cámara de tránsito",
+   "display_name": "Avenida Grecia - Cámara de tránsito (Avenida Grecia - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8307644002",
-   "name": "Avenida José Pedro Alessandri - Cámara de tránsito",
+   "name": "Avenida José Pedro Alessandri - Cámara de tránsito (Avenida José Pedro Alessandri - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.464238,
    "longitude": -70.598264,
@@ -1104,12 +1107,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida José Pedro Alessandri - Cámara de tránsito",
+   "display_name": "Avenida José Pedro Alessandri - Cámara de tránsito (Avenida José Pedro Alessandri - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8008039978",
-   "name": "Avenida José Pedro Alessandri - Cámara de tránsito",
+   "name": "Avenida José Pedro Alessandri - Cámara de tránsito (Avenida José Pedro Alessandri - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.459216,
    "longitude": -70.598072,
@@ -1132,12 +1135,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida José Pedro Alessandri - Cámara de tránsito",
+   "display_name": "Avenida José Pedro Alessandri - Cámara de tránsito (Avenida José Pedro Alessandri - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13482679443",
-   "name": "Avenida Almirante Blanco Encalada - Cámara de tránsito",
+   "name": "Avenida Almirante Blanco Encalada - Cámara de tránsito (Avenida Almirante Blanco Encalada - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.458454,
    "longitude": -70.674983,
@@ -1160,12 +1163,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 22 m · lado B: 50 km/h a 125 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Almirante Blanco Encalada - Cámara de tránsito",
+   "display_name": "Avenida Almirante Blanco Encalada - Cámara de tránsito (Avenida Almirante Blanco Encalada - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n11079771062",
-   "name": "Tupper - Radar",
+   "name": "Tupper - Radar (Tupper - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.458325,
    "longitude": -70.660518,
@@ -1188,12 +1191,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Tupper - Radar",
+   "display_name": "Tupper - Radar (Tupper - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13194623133",
-   "name": "Santa Elena - Cámara de tránsito",
+   "name": "Santa Elena - Cámara de tránsito (Santa Elena - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.457967,
    "longitude": -70.630601,
@@ -1216,12 +1219,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Santa Elena - Cámara de tránsito",
+   "display_name": "Santa Elena - Cámara de tránsito (Santa Elena - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13482679432",
-   "name": "Avenida Almirante Blanco Encalada - Cámara de tránsito",
+   "name": "Avenida Almirante Blanco Encalada - Cámara de tránsito (Avenida Almirante Blanco Encalada - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.457629,
    "longitude": -70.66853,
@@ -1244,12 +1247,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Almirante Blanco Encalada - Cámara de tránsito",
+   "display_name": "Avenida Almirante Blanco Encalada - Cámara de tránsito (Avenida Almirante Blanco Encalada - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8008039980",
-   "name": "Avenida José Pedro Alessandri - Cámara de tránsito",
+   "name": "Avenida José Pedro Alessandri - Cámara de tránsito (Avenida José Pedro Alessandri - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.455694,
    "longitude": -70.597938,
@@ -1272,12 +1275,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida José Pedro Alessandri - Cámara de tránsito",
+   "display_name": "Avenida José Pedro Alessandri - Cámara de tránsito (Avenida José Pedro Alessandri - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8313565360",
-   "name": "Avenida Manuel Antonio Matta - Cámara de tránsito",
+   "name": "Avenida Manuel Antonio Matta - Cámara de tránsito (Avenida Manuel Antonio Matta - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.455369,
    "longitude": -70.62963,
@@ -1300,12 +1303,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Manuel Antonio Matta - Cámara de tránsito",
+   "display_name": "Avenida Manuel Antonio Matta - Cámara de tránsito (Avenida Manuel Antonio Matta - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8378544175",
-   "name": "San Diego - Cámara de tránsito",
+   "name": "San Diego - Cámara de tránsito (San Diego - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.453942,
    "longitude": -70.650081,
@@ -1328,12 +1331,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "San Diego - Cámara de tránsito",
+   "display_name": "San Diego - Cámara de tránsito (San Diego - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8378544172",
-   "name": "Avenida Santa Rosa - Cámara de tránsito",
+   "name": "Avenida Santa Rosa - Cámara de tránsito (Avenida Santa Rosa - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.453389,
    "longitude": -70.644017,
@@ -1356,12 +1359,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Santa Rosa - Cámara de tránsito",
+   "display_name": "Avenida Santa Rosa - Cámara de tránsito (Avenida Santa Rosa - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8316348623",
-   "name": "Ruta 70 - Cámara de tránsito",
+   "name": "Ruta 70 - Cámara de tránsito (Ruta 70 - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.453304,
    "longitude": -70.570903,
@@ -1384,12 +1387,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Ruta 70 - Cámara de tránsito",
+   "display_name": "Ruta 70 - Cámara de tránsito (Ruta 70 - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8008039974",
-   "name": "Avenida Irarrázaval - Cámara de tránsito",
+   "name": "Avenida Irarrázaval - Cámara de tránsito (Avenida Irarrázaval - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.452325,
    "longitude": -70.627638,
@@ -1412,12 +1415,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Irarrázaval - Cámara de tránsito",
+   "display_name": "Avenida Irarrázaval - Cámara de tránsito (Avenida Irarrázaval - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13724455636",
-   "name": "Avenida Manuel Rodríguez Sur - Cámara de tránsito",
+   "name": "Avenida Manuel Rodríguez Sur - Cámara de tránsito (Avenida Manuel Rodríguez Sur - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.452313,
    "longitude": -70.658504,
@@ -1438,12 +1441,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Manuel Rodríguez Sur - Cámara de tránsito",
+   "display_name": "Avenida Manuel Rodríguez Sur - Cámara de tránsito (Avenida Manuel Rodríguez Sur - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8313565365",
-   "name": "Avenida Irarrázaval - Cámara de tránsito",
+   "name": "Avenida Irarrázaval - Cámara de tránsito (Avenida Irarrázaval - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.452165,
    "longitude": -70.630273,
@@ -1464,12 +1467,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Irarrázaval - Cámara de tránsito",
+   "display_name": "Avenida Irarrázaval - Cámara de tránsito (Avenida Irarrázaval - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n7730187401",
-   "name": "Avenida Vicuña Mackenna - Cámara de tránsito",
+   "name": "Avenida Vicuña Mackenna - Cámara de tránsito (Avenida Vicuña Mackenna - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.451804,
    "longitude": -70.630927,
@@ -1490,12 +1493,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Vicuña Mackenna - Cámara de tránsito",
+   "display_name": "Avenida Vicuña Mackenna - Cámara de tránsito (Avenida Vicuña Mackenna - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8378544178",
-   "name": "San Diego - Cámara de tránsito",
+   "name": "San Diego - Cámara de tránsito (San Diego - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.450607,
    "longitude": -70.650609,
@@ -1518,12 +1521,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "San Diego - Cámara de tránsito",
+   "display_name": "San Diego - Cámara de tránsito (San Diego - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8313565369",
-   "name": "Avenida Santa Rosa - Cámara de tránsito",
+   "name": "Avenida Santa Rosa - Cámara de tránsito (Avenida Santa Rosa - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.450316,
    "longitude": -70.644581,
@@ -1546,12 +1549,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Santa Rosa - Cámara de tránsito",
+   "display_name": "Avenida Santa Rosa - Cámara de tránsito (Avenida Santa Rosa - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8313565371",
-   "name": "Avenida Santa Rosa - Cámara de tránsito",
+   "name": "Avenida Santa Rosa - Cámara de tránsito (Avenida Santa Rosa - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.448119,
    "longitude": -70.644827,
@@ -1574,12 +1577,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Santa Rosa - Cámara de tránsito",
+   "display_name": "Avenida Santa Rosa - Cámara de tránsito (Avenida Santa Rosa - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8008039966",
-   "name": "Avenida Santa Isabel - Cámara de tránsito",
+   "name": "Avenida Santa Isabel - Cámara de tránsito (Avenida Santa Isabel - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.447215,
    "longitude": -70.631216,
@@ -1602,12 +1605,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Santa Isabel - Cámara de tránsito",
+   "display_name": "Avenida Santa Isabel - Cámara de tránsito (Avenida Santa Isabel - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n7886097404",
-   "name": "Avenida Libertador Bernardo O'Higgins - Cámara de tránsito",
+   "name": "Avenida Libertador Bernardo O'Higgins - Cámara de tránsito (Avenida Libertador Bernardo O'Higgins - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.443767,
    "longitude": -70.64957,
@@ -1630,12 +1633,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Libertador Bernardo O'Higgins - Cámara de tránsito",
+   "display_name": "Avenida Libertador Bernardo O'Higgins - Cámara de tránsito (Avenida Libertador Bernardo O'Higgins - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8313565375",
-   "name": "Avenida Santa Rosa - Cámara de tránsito",
+   "name": "Avenida Santa Rosa - Cámara de tránsito (Avenida Santa Rosa - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.44372,
    "longitude": -70.646065,
@@ -1658,12 +1661,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Santa Rosa - Cámara de tránsito",
+   "display_name": "Avenida Santa Rosa - Cámara de tránsito (Avenida Santa Rosa - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8008039965",
-   "name": "Curicó - Cámara de tránsito",
+   "name": "Curicó - Cámara de tránsito (Curicó - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.443244,
    "longitude": -70.633466,
@@ -1686,12 +1689,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 15 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Curicó - Cámara de tránsito",
+   "display_name": "Curicó - Cámara de tránsito (Curicó - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n7886097415",
-   "name": "Miraflores - Cámara de tránsito",
+   "name": "Miraflores - Cámara de tránsito (Miraflores - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.442363,
    "longitude": -70.64504,
@@ -1714,12 +1717,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Miraflores - Cámara de tránsito",
+   "display_name": "Miraflores - Cámara de tránsito (Miraflores - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n7886097411",
-   "name": "Enrique Mac Iver - Cámara de tránsito",
+   "name": "Enrique Mac Iver - Cámara de tránsito (Enrique Mac Iver - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.442332,
    "longitude": -70.646331,
@@ -1742,12 +1745,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Enrique Mac Iver - Cámara de tránsito",
+   "display_name": "Enrique Mac Iver - Cámara de tránsito (Enrique Mac Iver - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n7886097418",
-   "name": "Avenida Libertador Bernardo O'Higgins - Cámara de tránsito",
+   "name": "Avenida Libertador Bernardo O'Higgins - Cámara de tránsito (Avenida Libertador Bernardo O'Higgins - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.441974,
    "longitude": -70.643191,
@@ -1770,7 +1773,7 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Libertador Bernardo O'Higgins - Cámara de tránsito",
+   "display_name": "Avenida Libertador Bernardo O'Higgins - Cámara de tránsito (Avenida Libertador Bernardo O'Higgins - Cámara de tránsito)",
    "country": "CL"
   },
   {
@@ -1800,7 +1803,7 @@
   },
   {
    "radar_id": "osm-cl-n7705911244",
-   "name": "Avenida Libertador Bernardo O'Higgins - Cámara de tránsito",
+   "name": "Avenida Libertador Bernardo O'Higgins - Cámara de tránsito (Avenida Libertador Bernardo O'Higgins - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.440392,
    "longitude": -70.640963,
@@ -1823,12 +1826,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Libertador Bernardo O'Higgins - Cámara de tránsito",
+   "display_name": "Avenida Libertador Bernardo O'Higgins - Cámara de tránsito (Avenida Libertador Bernardo O'Higgins - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8490582534",
-   "name": "Avenida Brasil - Radar",
+   "name": "Avenida Brasil - Radar (Avenida Brasil - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.439999,
    "longitude": -70.665015,
@@ -1851,12 +1854,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 238 m · lado B: 50 km/h a 14 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Brasil - Radar",
+   "display_name": "Avenida Brasil - Radar (Avenida Brasil - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8316247510",
-   "name": "Compañía de Jesús - Cámara de tránsito",
+   "name": "Compañía de Jesús - Cámara de tránsito (Compañía de Jesús - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.439183,
    "longitude": -70.658018,
@@ -1879,12 +1882,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 50 km/h a 131 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Compañía de Jesús - Cámara de tránsito",
+   "display_name": "Compañía de Jesús - Cámara de tránsito (Compañía de Jesús - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8316247507",
-   "name": "Compañía de Jesús - Cámara de tránsito",
+   "name": "Compañía de Jesús - Cámara de tránsito (Compañía de Jesús - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.438861,
    "longitude": -70.654736,
@@ -1907,12 +1910,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 50 km/h a 438 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Compañía de Jesús - Cámara de tránsito",
+   "display_name": "Compañía de Jesús - Cámara de tránsito (Compañía de Jesús - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8104289387",
-   "name": "San Antonio - Cámara de tránsito",
+   "name": "San Antonio - Cámara de tránsito (San Antonio - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.438311,
    "longitude": -70.648316,
@@ -1935,12 +1938,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 248 m · lado B: 50 km/h a 499 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "San Antonio - Cámara de tránsito",
+   "display_name": "San Antonio - Cámara de tránsito (San Antonio - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8104293418",
-   "name": "Santa Lucía - Cámara de tránsito",
+   "name": "Santa Lucía - Cámara de tránsito (Santa Lucía - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.437813,
    "longitude": -70.643526,
@@ -1961,12 +1964,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Santa Lucía - Cámara de tránsito",
+   "display_name": "Santa Lucía - Cámara de tránsito (Santa Lucía - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8008039983",
-   "name": "Avenida Francisco Bilbao - Cámara de tránsito",
+   "name": "Avenida Francisco Bilbao - Cámara de tránsito (Avenida Francisco Bilbao - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.436968,
    "longitude": -70.601169,
@@ -1987,12 +1990,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Francisco Bilbao - Cámara de tránsito",
+   "display_name": "Avenida Francisco Bilbao - Cámara de tránsito (Avenida Francisco Bilbao - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8313565383",
-   "name": "Santo Domingo - Cámara de tránsito",
+   "name": "Santo Domingo - Cámara de tránsito (Santo Domingo - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.436343,
    "longitude": -70.652873,
@@ -2015,12 +2018,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 649 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Santo Domingo - Cámara de tránsito",
+   "display_name": "Santo Domingo - Cámara de tránsito (Santo Domingo - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8379154133",
-   "name": "Avenida Providencia - Cámara de tránsito",
+   "name": "Avenida Providencia - Cámara de tránsito (Avenida Providencia - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.436306,
    "longitude": -70.631212,
@@ -2041,12 +2044,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Providencia - Cámara de tránsito",
+   "display_name": "Avenida Providencia - Cámara de tránsito (Avenida Providencia - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8104289392",
-   "name": "San Antonio - Cámara de tránsito",
+   "name": "San Antonio - Cámara de tránsito (San Antonio - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.43604,
    "longitude": -70.648682,
@@ -2069,12 +2072,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 501 m · lado B: 50 km/h a 245 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "San Antonio - Cámara de tránsito",
+   "display_name": "San Antonio - Cámara de tránsito (San Antonio - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8104289397",
-   "name": "Enrique Mac Iver - Cámara de tránsito",
+   "name": "Enrique Mac Iver - Cámara de tránsito (Enrique Mac Iver - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.435346,
    "longitude": -70.647407,
@@ -2097,12 +2100,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 136 m · lado B: 50 km/h a 691 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Enrique Mac Iver - Cámara de tránsito",
+   "display_name": "Enrique Mac Iver - Cámara de tránsito (Enrique Mac Iver - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8378630705",
-   "name": "San Pablo - Cámara de tránsito",
+   "name": "San Pablo - Cámara de tránsito (San Pablo - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.434561,
    "longitude": -70.659863,
@@ -2125,12 +2128,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "San Pablo - Cámara de tránsito",
+   "display_name": "San Pablo - Cámara de tránsito (San Pablo - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8313565390",
-   "name": "Bellavista - Cámara de tránsito",
+   "name": "Bellavista - Cámara de tránsito (Bellavista - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.433897,
    "longitude": -70.632126,
@@ -2153,12 +2156,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Bellavista - Cámara de tránsito",
+   "display_name": "Bellavista - Cámara de tránsito (Bellavista - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8379154143",
-   "name": "Avenida Providencia - Cámara de tránsito",
+   "name": "Avenida Providencia - Cámara de tránsito (Avenida Providencia - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.433045,
    "longitude": -70.62607,
@@ -2181,12 +2184,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Providencia - Cámara de tránsito",
+   "display_name": "Avenida Providencia - Cámara de tránsito (Avenida Providencia - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8379154147",
-   "name": "Avenida Providencia - Cámara de tránsito",
+   "name": "Avenida Providencia - Cámara de tránsito (Avenida Providencia - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.432548,
    "longitude": -70.625332,
@@ -2207,12 +2210,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Providencia - Cámara de tránsito",
+   "display_name": "Avenida Providencia - Cámara de tránsito (Avenida Providencia - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8379154150",
-   "name": "Avenida Providencia - Cámara de tránsito",
+   "name": "Avenida Providencia - Cámara de tránsito (Avenida Providencia - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.431534,
    "longitude": -70.62405,
@@ -2235,12 +2238,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 17 m · lado B: 50 km/h a 20 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Providencia - Cámara de tránsito",
+   "display_name": "Avenida Providencia - Cámara de tránsito (Avenida Providencia - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8379154152",
-   "name": "Avenida Providencia - Cámara de tránsito",
+   "name": "Avenida Providencia - Cámara de tránsito (Avenida Providencia - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.430286,
    "longitude": -70.622528,
@@ -2263,12 +2266,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Providencia - Cámara de tránsito",
+   "display_name": "Avenida Providencia - Cámara de tránsito (Avenida Providencia - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8379154155",
-   "name": "Avenida Nueva Providencia - Cámara de tránsito",
+   "name": "Avenida Nueva Providencia - Cámara de tránsito (Avenida Nueva Providencia - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.428892,
    "longitude": -70.618368,
@@ -2291,12 +2294,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Nueva Providencia - Cámara de tránsito",
+   "display_name": "Avenida Nueva Providencia - Cámara de tránsito (Avenida Nueva Providencia - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8379154159",
-   "name": "Avenida Nueva Providencia - Cámara de tránsito",
+   "name": "Avenida Nueva Providencia - Cámara de tránsito (Avenida Nueva Providencia - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.42699,
    "longitude": -70.616117,
@@ -2319,12 +2322,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Nueva Providencia - Cámara de tránsito",
+   "display_name": "Avenida Nueva Providencia - Cámara de tránsito (Avenida Nueva Providencia - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8008056994",
-   "name": "Avenida Américo Vespucio Sur - Cámara de tránsito",
+   "name": "Avenida Américo Vespucio Sur - Cámara de tránsito (Avenida Américo Vespucio Sur - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.425809,
    "longitude": -70.577313,
@@ -2347,12 +2350,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Américo Vespucio Sur - Cámara de tránsito",
+   "display_name": "Avenida Américo Vespucio Sur - Cámara de tránsito (Avenida Américo Vespucio Sur - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n6810111577",
-   "name": "Avenida Pedro Bannen - Radar",
+   "name": "Avenida Pedro Bannen - Radar (Avenida Pedro Bannen - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.423576,
    "longitude": -70.632408,
@@ -2376,12 +2379,12 @@
     20
    ],
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Pedro Bannen - Radar",
+   "display_name": "Avenida Pedro Bannen - Radar (Avenida Pedro Bannen - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8316348626",
-   "name": "Avenida Américo Vespucio Sur - Cámara de tránsito",
+   "name": "Avenida Américo Vespucio Sur - Cámara de tránsito (Avenida Américo Vespucio Sur - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.423543,
    "longitude": -70.578848,
@@ -2404,12 +2407,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Américo Vespucio Sur - Cámara de tránsito",
+   "display_name": "Avenida Américo Vespucio Sur - Cámara de tránsito (Avenida Américo Vespucio Sur - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8008056985",
-   "name": "Avenida Providencia - Cámara de tránsito",
+   "name": "Avenida Providencia - Cámara de tránsito (Avenida Providencia - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.42082,
    "longitude": -70.608284,
@@ -2432,12 +2435,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 798 m · lado B: 50 km/h a 248 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Providencia - Cámara de tránsito",
+   "display_name": "Avenida Providencia - Cámara de tránsito (Avenida Providencia - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8008056987",
-   "name": "Avenida Providencia - Cámara de tránsito",
+   "name": "Avenida Providencia - Cámara de tránsito (Avenida Providencia - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.419951,
    "longitude": -70.606245,
@@ -2460,12 +2463,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 1005 m · lado B: 50 km/h a 37 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Providencia - Cámara de tránsito",
+   "display_name": "Avenida Providencia - Cámara de tránsito (Avenida Providencia - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8316348628",
-   "name": "Avenida Américo Vespucio Sur - Cámara de tránsito",
+   "name": "Avenida Américo Vespucio Sur - Cámara de tránsito (Avenida Américo Vespucio Sur - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.419371,
    "longitude": -70.581933,
@@ -2486,12 +2489,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Américo Vespucio Sur - Cámara de tránsito",
+   "display_name": "Avenida Américo Vespucio Sur - Cámara de tránsito (Avenida Américo Vespucio Sur - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8316348629",
-   "name": "Avenida Américo Vespucio Sur - Cámara de tránsito",
+   "name": "Avenida Américo Vespucio Sur - Cámara de tránsito (Avenida Américo Vespucio Sur - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.417111,
    "longitude": -70.583498,
@@ -2512,12 +2515,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Américo Vespucio Sur - Cámara de tránsito",
+   "display_name": "Avenida Américo Vespucio Sur - Cámara de tránsito (Avenida Américo Vespucio Sur - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8316135087",
-   "name": "Los Conquistadores - Cámara de tránsito",
+   "name": "Los Conquistadores - Cámara de tránsito (Los Conquistadores - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.416246,
    "longitude": -70.612285,
@@ -2540,12 +2543,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Los Conquistadores - Cámara de tránsito",
+   "display_name": "Los Conquistadores - Cámara de tránsito (Los Conquistadores - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n7882346958",
-   "name": "Avenida Las Condes - Cámara de tránsito",
+   "name": "Avenida Las Condes - Cámara de tránsito (Avenida Las Condes - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.376121,
    "longitude": -70.525714,
@@ -2566,12 +2569,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Las Condes - Cámara de tránsito",
+   "display_name": "Avenida Las Condes - Cámara de tránsito (Avenida Las Condes - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n7882346959",
-   "name": "Camino San Francisco de Asís - Cámara de tránsito",
+   "name": "Camino San Francisco de Asís - Cámara de tránsito (Camino San Francisco de Asís - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.369311,
    "longitude": -70.520192,
@@ -2592,12 +2595,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Camino San Francisco de Asís - Cámara de tránsito",
+   "display_name": "Camino San Francisco de Asís - Cámara de tránsito (Camino San Francisco de Asís - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n7882346961",
-   "name": "Avenida La Dehesa - Cámara de tránsito",
+   "name": "Avenida La Dehesa - Cámara de tránsito (Avenida La Dehesa - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.364507,
    "longitude": -70.514207,
@@ -2618,12 +2621,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida La Dehesa - Cámara de tránsito",
+   "display_name": "Avenida La Dehesa - Cámara de tránsito (Avenida La Dehesa - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n7882346962",
-   "name": "Avenida Raúl Labbé - Cámara de tránsito",
+   "name": "Avenida Raúl Labbé - Cámara de tránsito (Avenida Raúl Labbé - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.364063,
    "longitude": -70.513028,
@@ -2642,12 +2645,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Raúl Labbé - Cámara de tránsito",
+   "display_name": "Avenida Raúl Labbé - Cámara de tránsito (Avenida Raúl Labbé - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n7882430346",
-   "name": "Avenida Las Condes - Cámara de tránsito",
+   "name": "Avenida Las Condes - Cámara de tránsito (Avenida Las Condes - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.362557,
    "longitude": -70.493377,
@@ -2668,12 +2671,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Las Condes - Cámara de tránsito",
+   "display_name": "Avenida Las Condes - Cámara de tránsito (Avenida Las Condes - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n12853696081",
-   "name": "Lo Marcoleta - Cámara de tránsito",
+   "name": "Lo Marcoleta - Cámara de tránsito (Lo Marcoleta - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.356756,
    "longitude": -70.714805,
@@ -2694,12 +2697,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Lo Marcoleta - Cámara de tránsito",
+   "display_name": "Lo Marcoleta - Cámara de tránsito (Lo Marcoleta - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n14339338768",
-   "name": "Ruta G-21 - Cámara de tránsito",
+   "name": "Ruta G-21 - Cámara de tránsito (Ruta G-21 - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.355532,
    "longitude": -70.317158,
@@ -2721,12 +2724,12 @@
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "secondary",
-   "display_name": "Ruta G-21 - Cámara de tránsito",
+   "display_name": "Ruta G-21 - Cámara de tránsito (Ruta G-21 - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13462746695",
-   "name": "Ruta G-19 - Cámara de tránsito",
+   "name": "Ruta G-19 - Cámara de tránsito (Ruta G-19 - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -33.283795,
    "longitude": -70.652116,
@@ -2749,12 +2752,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Ruta G-19 - Cámara de tránsito",
+   "display_name": "Ruta G-19 - Cámara de tránsito (Ruta G-19 - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n5497597209",
-   "name": "Avenida Matta - Radar",
+   "name": "Avenida Matta - Radar (Avenida Matta - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.048904,
    "longitude": -71.576066,
@@ -2777,12 +2780,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Matta - Radar",
+   "display_name": "Avenida Matta - Radar (Avenida Matta - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8416924649",
-   "name": "Avenida Alemania - Radar",
+   "name": "Avenida Alemania - Radar (Avenida Alemania - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -33.047668,
    "longitude": -71.631429,
@@ -2805,12 +2808,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Alemania - Radar",
+   "display_name": "Avenida Alemania - Radar (Avenida Alemania - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13837048695",
-   "name": "Autopista Los Andes - Cámara de tránsito",
+   "name": "Autopista Los Andes - Cámara de tránsito (Autopista Los Andes - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -32.789031,
    "longitude": -71.169756,
@@ -2832,12 +2835,12 @@
     40
    ],
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Autopista Los Andes - Cámara de tránsito",
+   "display_name": "Autopista Los Andes - Cámara de tránsito (Autopista Los Andes - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n5778402057",
-   "name": "Manuel Bulnes - Radar",
+   "name": "Manuel Bulnes - Radar (Manuel Bulnes - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -32.62641,
    "longitude": -70.716453,
@@ -2858,12 +2861,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Manuel Bulnes - Radar",
+   "display_name": "Manuel Bulnes - Radar (Manuel Bulnes - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13483977527",
-   "name": "Ruta 5 Norte - Cámara de tránsito",
+   "name": "Ruta 5 Norte - Cámara de tránsito (Ruta 5 Norte - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.963677,
    "longitude": -71.31629,
@@ -2884,12 +2887,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Ruta 5 Norte - Cámara de tránsito",
+   "display_name": "Ruta 5 Norte - Cámara de tránsito (Ruta 5 Norte - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n14141254227",
-   "name": "Avenida Talca - Cámara de tránsito",
+   "name": "Avenida Talca - Cámara de tránsito (Avenida Talca - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.960754,
    "longitude": -71.26624,
@@ -2913,12 +2916,12 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "secondary",
-   "display_name": "Avenida Talca - Cámara de tránsito",
+   "display_name": "Avenida Talca - Cámara de tránsito (Avenida Talca - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13469586727",
-   "name": "Avenida Juan Cisternas - Cámara de tránsito",
+   "name": "Avenida Juan Cisternas - Cámara de tránsito (Avenida Juan Cisternas - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.948121,
    "longitude": -71.261205,
@@ -2939,12 +2942,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 11 m · lado B: 50 km/h a 32 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Juan Cisternas - Cámara de tránsito",
+   "display_name": "Avenida Juan Cisternas - Cámara de tránsito (Avenida Juan Cisternas - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13394117213",
-   "name": "Avenida Cuatro Esquinas - Cámara de tránsito",
+   "name": "Avenida Cuatro Esquinas - Cámara de tránsito (Avenida Cuatro Esquinas - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.92918,
    "longitude": -71.27129,
@@ -2965,12 +2968,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Cuatro Esquinas - Cámara de tránsito",
+   "display_name": "Avenida Cuatro Esquinas - Cámara de tránsito (Avenida Cuatro Esquinas - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13469360618",
-   "name": "Avenida Cuatro Esquinas - Cámara de tránsito",
+   "name": "Avenida Cuatro Esquinas - Cámara de tránsito (Avenida Cuatro Esquinas - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.928861,
    "longitude": -71.272168,
@@ -2991,12 +2994,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Cuatro Esquinas - Cámara de tránsito",
+   "display_name": "Avenida Cuatro Esquinas - Cámara de tránsito (Avenida Cuatro Esquinas - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13778788073",
-   "name": "Avenida Raúl Bitrán Nachary - Cámara de tránsito",
+   "name": "Avenida Raúl Bitrán Nachary - Cámara de tránsito (Avenida Raúl Bitrán Nachary - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.927753,
    "longitude": -71.210753,
@@ -3017,12 +3020,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Raúl Bitrán Nachary - Cámara de tránsito",
+   "display_name": "Avenida Raúl Bitrán Nachary - Cámara de tránsito (Avenida Raúl Bitrán Nachary - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13465403093",
-   "name": "Las Higueras - Cámara de tránsito",
+   "name": "Las Higueras - Cámara de tránsito (Las Higueras - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.920561,
    "longitude": -71.255171,
@@ -3041,12 +3044,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Las Higueras - Cámara de tránsito",
+   "display_name": "Las Higueras - Cámara de tránsito (Las Higueras - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13465403091",
-   "name": "Avenida José Manuel Balmaceda - Cámara de tránsito",
+   "name": "Avenida José Manuel Balmaceda - Cámara de tránsito (Avenida José Manuel Balmaceda - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.91518,
    "longitude": -71.252442,
@@ -3067,12 +3070,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida José Manuel Balmaceda - Cámara de tránsito",
+   "display_name": "Avenida José Manuel Balmaceda - Cámara de tránsito (Avenida José Manuel Balmaceda - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13465403092",
-   "name": "Avenida El Santo - Cámara de tránsito",
+   "name": "Avenida El Santo - Cámara de tránsito (Avenida El Santo - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.914162,
    "longitude": -71.256727,
@@ -3091,12 +3094,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida El Santo - Cámara de tránsito",
+   "display_name": "Avenida El Santo - Cámara de tránsito (Avenida El Santo - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13469337454",
-   "name": "Avenida Juan Cisternas - Cámara de tránsito",
+   "name": "Avenida Juan Cisternas - Cámara de tránsito (Avenida Juan Cisternas - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.910577,
    "longitude": -71.243629,
@@ -3117,12 +3120,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Juan Cisternas - Cámara de tránsito",
+   "display_name": "Avenida Juan Cisternas - Cámara de tránsito (Avenida Juan Cisternas - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13646646328",
-   "name": "Avenida Francisco de Aguirre - Cámara de tránsito",
+   "name": "Avenida Francisco de Aguirre - Cámara de tránsito (Avenida Francisco de Aguirre - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.905697,
    "longitude": -71.256599,
@@ -3143,12 +3146,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Francisco de Aguirre - Cámara de tránsito",
+   "display_name": "Avenida Francisco de Aguirre - Cámara de tránsito (Avenida Francisco de Aguirre - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13396864202",
-   "name": "Cirujano Videla - Cámara de tránsito",
+   "name": "Cirujano Videla - Cámara de tránsito (Cirujano Videla - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.89698,
    "longitude": -71.252335,
@@ -3169,12 +3172,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Cirujano Videla - Cámara de tránsito",
+   "display_name": "Cirujano Videla - Cámara de tránsito (Cirujano Videla - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13515978172",
-   "name": "Vicente Zorrilla - Cámara de tránsito",
+   "name": "Vicente Zorrilla - Cámara de tránsito (Vicente Zorrilla - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.894829,
    "longitude": -71.235196,
@@ -3195,12 +3198,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Vicente Zorrilla - Cámara de tránsito",
+   "display_name": "Vicente Zorrilla - Cámara de tránsito (Vicente Zorrilla - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13465301753",
-   "name": "Nicaragua - Cámara de tránsito",
+   "name": "Nicaragua - Cámara de tránsito (Nicaragua - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.885497,
    "longitude": -71.242223,
@@ -3223,12 +3226,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Nicaragua - Cámara de tránsito",
+   "display_name": "Nicaragua - Cámara de tránsito (Nicaragua - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13376234640",
-   "name": "Avenida Viña del Mar - Cámara de tránsito",
+   "name": "Avenida Viña del Mar - Cámara de tránsito (Avenida Viña del Mar - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.872201,
    "longitude": -71.239322,
@@ -3251,12 +3254,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Viña del Mar - Cámara de tránsito",
+   "display_name": "Avenida Viña del Mar - Cámara de tránsito (Avenida Viña del Mar - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n13409738773",
-   "name": "Avenida El Jardín - Cámara de tránsito",
+   "name": "Avenida El Jardín - Cámara de tránsito (Avenida El Jardín - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": -29.843142,
    "longitude": -71.271976,
@@ -3277,12 +3280,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida El Jardín - Cámara de tránsito",
+   "display_name": "Avenida El Jardín - Cámara de tránsito (Avenida El Jardín - Cámara de tránsito)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8425612492",
-   "name": "Colipí - Radar",
+   "name": "Colipí - Radar (Colipí - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.367372,
    "longitude": -70.332133,
@@ -3305,12 +3308,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Colipí - Radar",
+   "display_name": "Colipí - Radar (Colipí - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8425641319",
-   "name": "Avenida Los Carrera - Radar",
+   "name": "Avenida Los Carrera - Radar (Avenida Los Carrera - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -27.366557,
    "longitude": -70.331335,
@@ -3333,12 +3336,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Los Carrera - Radar",
+   "display_name": "Avenida Los Carrera - Radar (Avenida Los Carrera - Radar)",
    "country": "CL"
   },
   {
    "radar_id": "osm-cl-n8115272314",
-   "name": "Pasaje Vilama - Radar",
+   "name": "Pasaje Vilama - Radar (Pasaje Vilama - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": -23.602437,
    "longitude": -70.384826,
@@ -3359,7 +3362,7 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Pasaje Vilama - Radar",
+   "display_name": "Pasaje Vilama - Radar (Pasaje Vilama - Radar)",
    "country": "CL"
   }
  ]
