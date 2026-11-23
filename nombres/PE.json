@@ -12,8 +12,8 @@
   "tipos_filas": {
    "CENTRAL": 133,
    "SALIDA": 4,
-   "ENTRADA": 11,
-   "sin_tipo": 23
+   "ENTRADA": 10,
+   "sin_tipo": 24
   },
   "posicion": {
    "umbral_m": 15.0,
@@ -21,10 +21,10 @@
    "corregidas": 8,
    "sin_referencia": 0,
    "corrida_anterior": {
-    "ok": 111,
-    "a_mas_de_15_m": 4,
-    "sin_referencia": 1,
-    "total": 116
+    "ok": 117,
+    "a_mas_de_15_m": 0,
+    "sin_referencia": 0,
+    "total": 117
    }
   }
  },
@@ -2180,8 +2180,7 @@
      "lat": -12.039495,
      "lon": -77.042497,
      "n": 1,
-     "rumbo": 57,
-     "tipo": "ENTRADA",
+     "rumbo": 63,
      "ancho": 14.0
     },
     {
@@ -3011,7 +3010,7 @@
    "tipo": "cabina",
    "via": "Panamericana Norte",
    "ref": "PE-1N",
-   "localidad": "Puerto Morin",
+   "localidad": "Puerto Morín",
    "fuente": "armado",
    "cabinas": [
     {
@@ -3037,8 +3036,8 @@
    },
    "pais": "PE",
    "via_visible": "PE-1N",
-   "punto": "Puerto Morin",
-   "nombre_visible": "PE-1N - Peaje Puerto Morin",
+   "punto": "Puerto Morín",
+   "nombre_visible": "PE-1N - Peaje Puerto Morín",
    "confianza": "media"
   },
   {
@@ -3822,6 +3821,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-09T12:48Z",
+ "generado": "2026-11-23T13:31Z",
  "alertas": []
 }
