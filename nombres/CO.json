@@ -11,7 +11,7 @@
   "excluidas": 1,
   "tipos_filas": {
    "CENTRAL": 288,
-   "SALIDA": 0,
+   "SALIDA": 1,
    "ENTRADA": 0,
    "sin_tipo": 14
   },
@@ -1964,10 +1964,9 @@
   {
    "lat": 4.763644,
    "lon": -74.043662,
-   "nombre": "Peaje Calle 187 Bis (55)",
+   "nombre": "Peaje Calle 187 Bis",
    "tipo": "cabina",
    "via": "Calle 187 Bis",
-   "ref": "55",
    "localidad": "Cota",
    "fuente": "armado",
    "cabinas": [
@@ -1984,9 +1983,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Ruta 55",
+   "via_visible": "Calle 187 Bis",
    "punto": "Cota",
-   "nombre_visible": "Ruta 55 - Peaje Cota",
+   "nombre_visible": "Calle 187 Bis - Peaje Cota",
    "confianza": "media"
   },
   {
@@ -2123,31 +2122,36 @@
    "plaza": "San Luis De Gaceno"
   },
   {
-   "lat": 4.83,
-   "lon": -74.033021,
-   "nombre": "Peaje Andes",
+   "lat": 4.830041,
+   "lon": -74.033095,
+   "nombre": "Los Andes",
    "tipo": "cabina",
    "via": "Vía Bogotá - Tunja",
-   "ref": "55",
+   "ref": "45A04",
    "fuente": "osm",
    "cabinas": [
     {
-     "lat": 4.83,
-     "lon": -74.033021,
-     "n": 5,
-     "rumbo": 8,
+     "lat": 4.830039,
+     "lon": -74.033097,
+     "n": 1
+    },
+    {
+     "lat": 4.830041,
+     "lon": -74.033094,
+     "n": 3,
+     "rumbo": 9,
      "tipo": "CENTRAL",
-     "ancho": 24.5
+     "ancho": 10.5
     }
    ],
    "posicion": {
     "estado": "ok",
-    "distancia_m": 0.0
+    "distancia_m": 0.1
    },
    "pais": "CO",
    "via_visible": "Vía Bogotá - Tunja",
-   "punto": "Andes",
-   "nombre_visible": "Vía Bogotá - Tunja - Peaje Andes",
+   "punto": "Los Andes",
+   "nombre_visible": "Vía Bogotá - Tunja - Peaje Los Andes",
    "confianza": "alta"
   },
   {
@@ -2248,6 +2252,7 @@
    "lon": -74.031484,
    "nombre": "Peaje Unisabana",
    "tipo": "cabina",
+   "ref": "45A04",
    "fuente": "osm",
    "cabinas": [
     {
@@ -2255,6 +2260,7 @@
      "lon": -74.031484,
      "n": 2,
      "rumbo": 109,
+     "tipo": "SALIDA",
      "ancho": 7.0
     }
    ],
@@ -2263,9 +2269,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Vía Chía - Bogotá",
+   "via_visible": "Ruta 45A04",
    "punto": "Unisabana",
-   "nombre_visible": "Vía Chía - Bogotá - Peaje Unisabana",
+   "nombre_visible": "Ruta 45A04 - Peaje Unisabana",
    "confianza": "alta"
   },
   {
@@ -3038,9 +3044,9 @@
   {
    "lat": 5.33515,
    "lon": -72.391142,
-   "nombre": "Peaje Carrera 23",
+   "nombre": "Peaje Avenida Carrera 23",
    "tipo": "cabina",
-   "via": "Carrera 23",
+   "via": "Avenida Carrera 23",
    "localidad": "Yopal",
    "fuente": "armado",
    "cabinas": [
@@ -3055,9 +3061,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Carrera 23",
+   "via_visible": "Avenida Carrera 23",
    "punto": "Yopal",
-   "nombre_visible": "Carrera 23 - Peaje Yopal",
+   "nombre_visible": "Avenida Carrera 23 - Peaje Yopal",
    "confianza": "media"
   },
   {
@@ -3830,7 +3836,7 @@
    "lon": -74.457677,
    "nombre": "Peaje Zambito",
    "tipo": "cabina",
-   "via": "Troncal del Magdalena Medio - Puerto Nare - Puerto Araujo",
+   "via": "Vía San Juan de La Carretera - Puerto Serviez",
    "ref": "45",
    "fuente": "osm",
    "cabinas": [
@@ -3860,9 +3866,9 @@
     ]
    },
    "pais": "CO",
-   "via_visible": "Ruta 45",
+   "via_visible": "Vía San Juan de La Carretera - Puerto Serviez",
    "punto": "Zambito",
-   "nombre_visible": "Ruta 45 - Peaje Zambito",
+   "nombre_visible": "Vía San Juan de La Carretera - Puerto Serviez - Peaje Zambito",
    "confianza": "alta"
   },
   {
@@ -4169,8 +4175,8 @@
    "plaza": "Curití"
   },
   {
-   "lat": 6.626789,
-   "lon": -74.797092,
+   "lat": 6.626742,
+   "lon": -74.797193,
    "nombre": "Vegachí",
    "tipo": "cabina",
    "via": "VEGACHÍ",
@@ -4178,10 +4184,10 @@
    "fuente": "oficial",
    "cabinas": [
     {
-     "lat": 6.626789,
-     "lon": -74.797092,
+     "lat": 6.626742,
+     "lon": -74.797193,
      "n": 1,
-     "rumbo": 336,
+     "rumbo": 338,
      "doble": true,
      "tipo": "CENTRAL",
      "ancho": 7.0
@@ -4325,36 +4331,6 @@
    "confianza": "alta"
   },
   {
-   "lat": 6.953443,
-   "lon": -74.760242,
-   "nombre": "Santa Isabel",
-   "tipo": "cabina",
-   "via": "SANTA ISABEL",
-   "empresa": "CO-ANI",
-   "fuente": "oficial",
-   "cabinas": [
-    {
-     "lat": 6.953443,
-     "lon": -74.760242,
-     "n": 1,
-     "rumbo": 30,
-     "doble": true,
-     "tipo": "CENTRAL",
-     "ancho": 7.0
-    }
-   ],
-   "posicion": {
-    "estado": "ok",
-    "distancia_m": 0.0
-   },
-   "pais": "CO",
-   "via_visible": "Autopista al Río Magdalena 2",
-   "punto": "Santa Isabel",
-   "nombre_visible": "Autopista al Río Magdalena 2 - Peaje Santa Isabel",
-   "confianza": "alta",
-   "plaza": "Santa Isabel"
-  },
-  {
    "lat": 6.953467,
    "lon": -76.242497,
    "nombre": "Fuemia",
@@ -4384,6 +4360,36 @@
    "nombre_visible": "Ruta 62 - Peaje Fuemia",
    "confianza": "alta",
    "plaza": "Fuemia"
+  },
+  {
+   "lat": 6.953523,
+   "lon": -74.760344,
+   "nombre": "Santa Isabel",
+   "tipo": "cabina",
+   "via": "SANTA ISABEL",
+   "empresa": "CO-ANI",
+   "fuente": "oficial",
+   "cabinas": [
+    {
+     "lat": 6.953523,
+     "lon": -74.760344,
+     "n": 1,
+     "rumbo": 33,
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
+   "pais": "CO",
+   "via_visible": "Autopista al Río Magdalena 2",
+   "punto": "Santa Isabel",
+   "nombre_visible": "Autopista al Río Magdalena 2 - Peaje Santa Isabel",
+   "confianza": "alta",
+   "plaza": "Santa Isabel"
   },
   {
    "lat": 7.083417,
@@ -4633,7 +4639,7 @@
    "lon": -73.546539,
    "nombre": "Peaje La Gomez",
    "tipo": "cabina",
-   "via": "Vía La Gómeza - San Alberto",
+   "via": "Vía La Fortuna - San Alberto",
    "ref": "45",
    "fuente": "osm",
    "cabinas": [
@@ -4652,9 +4658,9 @@
     "distancia_m": 0.0
    },
    "pais": "CO",
-   "via_visible": "Vía La Gómeza - San Alberto",
+   "via_visible": "Vía La Fortuna - San Alberto",
    "punto": "La Gomez",
-   "nombre_visible": "Vía La Gómeza - San Alberto - Peaje La Gomez",
+   "nombre_visible": "Vía La Fortuna - San Alberto - Peaje La Gomez",
    "confianza": "alta"
   },
   {
@@ -6037,7 +6043,7 @@
    "lon": -75.365146,
    "nombre": "Peaje Bayunca",
    "tipo": "cabina",
-   "via": "Carretera de la Cordialidad",
+   "via": "Vía Bayunca - Santa Catalina",
    "ref": "90",
    "fuente": "osm",
    "cabinas": [
@@ -6063,9 +6069,9 @@
     "distancia_m": 6.8
    },
    "pais": "CO",
-   "via_visible": "Carretera de la Cordialidad",
+   "via_visible": "Vía Bayunca - Santa Catalina",
    "punto": "Bayunca",
-   "nombre_visible": "Carretera de la Cordialidad - Peaje Bayunca",
+   "nombre_visible": "Vía Bayunca - Santa Catalina - Peaje Bayunca",
    "confianza": "alta"
   },
   {
@@ -6238,9 +6244,9 @@
   {
    "lat": 10.836836,
    "lon": -74.902518,
-   "nombre": "Peaje Galapa",
+   "nombre": "Peaje Baranoa",
    "tipo": "cabina",
-   "via": "Carretera de la Cordialidad",
+   "via": "Vía Sabanalarga - Baranoa",
    "ref": "90",
    "fuente": "osm",
    "cabinas": [
@@ -6266,9 +6272,9 @@
     "distancia_m": 13.3
    },
    "pais": "CO",
-   "via_visible": "Carretera de la Cordialidad",
-   "punto": "Galapa",
-   "nombre_visible": "Carretera de la Cordialidad - Peaje Galapa",
+   "via_visible": "Vía Sabanalarga - Baranoa",
+   "punto": "Baranoa",
+   "nombre_visible": "Vía Sabanalarga - Baranoa - Peaje Baranoa",
    "confianza": "alta"
   },
   {
@@ -6801,6 +6807,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-09T12:58Z",
+ "generado": "2026-11-23T13:38Z",
  "alertas": []
 }
