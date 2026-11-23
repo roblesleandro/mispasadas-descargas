@@ -7,7 +7,7 @@
   "osm": 24,
   "armado": 33,
   "total": 58,
-  "confianza_baja": 9,
+  "confianza_baja": 0,
   "excluidas": 1,
   "tipos_filas": {
    "CENTRAL": 72,
@@ -32,8 +32,11 @@
   {
    "lat": -3.978075,
    "lon": -79.205609,
-   "nombre": "Peaje en Ecuador (5)",
+   "nombre": "Peaje Redondel Doctor Isidro Ayora Cueva (E35)",
    "tipo": "cabina",
+   "via": "Redondel Doctor Isidro Ayora Cueva",
+   "ref": "E35;E50",
+   "localidad": "Loja",
    "fuente": "armado",
    "cabinas": [
     {
@@ -48,10 +51,9 @@
    },
    "pais": "EC",
    "via_visible": "E35",
-   "punto": "(sin nombre)",
-   "nombre_visible": "E35 - Peaje (sin nombre)",
-   "confianza": "baja",
-   "nota": "El robot no encontró ruta ni localidad: completar a mano."
+   "punto": "Loja",
+   "nombre_visible": "E35 - Peaje Loja",
+   "confianza": "media"
   },
   {
    "lat": -3.272282,
@@ -59,6 +61,7 @@
    "nombre": "Pórtico Carretera La Ramada Nabón",
    "tipo": "portico",
    "via": "Carretera La Ramada Nabón",
+   "localidad": "Shiña",
    "fuente": "armado",
    "cabinas": [
     {
@@ -77,10 +80,9 @@
    },
    "pais": "EC",
    "via_visible": "Carretera La Ramada Nabón",
-   "punto": "(sin nombre)",
-   "nombre_visible": "Carretera La Ramada Nabón - Pórtico (sin nombre)",
-   "confianza": "baja",
-   "nota": "El robot no encontró ruta ni localidad: completar a mano."
+   "punto": "Shiña",
+   "nombre_visible": "Carretera La Ramada Nabón - Pórtico Shiña",
+   "confianza": "media"
   },
   {
    "lat": -3.156588,
@@ -240,6 +242,7 @@
    "tipo": "cabina",
    "via": "Troncal de la Costa",
    "ref": "E25",
+   "localidad": "Jaime Roldos",
    "fuente": "armado",
    "cabinas": [
     {
@@ -265,10 +268,9 @@
    },
    "pais": "EC",
    "via_visible": "E25",
-   "punto": "(sin nombre)",
-   "nombre_visible": "E25 - Peaje (sin nombre)",
-   "confianza": "baja",
-   "nota": "El robot no encontró ruta ni localidad: completar a mano."
+   "punto": "Jaime Roldos",
+   "nombre_visible": "E25 - Peaje Jaime Roldos",
+   "confianza": "media"
   },
   {
    "lat": -2.784652,
@@ -440,8 +442,10 @@
   {
    "lat": -2.347659,
    "lon": -78.146407,
-   "nombre": "Pórtico en Ecuador",
+   "nombre": "Pórtico E45",
    "tipo": "portico",
+   "ref": "E45",
+   "localidad": "Rio Blanco",
    "fuente": "armado",
    "cabinas": [
     {
@@ -459,10 +463,10 @@
     "distancia_m": 0.0
    },
    "pais": "EC",
-   "punto": "(sin nombre)",
-   "nombre_visible": "(sin nombre)",
-   "confianza": "baja",
-   "nota": "El robot no encontró ruta ni localidad: completar a mano."
+   "via_visible": "E45",
+   "punto": "Rio Blanco",
+   "nombre_visible": "E45 - Pórtico Rio Blanco",
+   "confianza": "media"
   },
   {
    "lat": -2.302651,
@@ -838,9 +842,11 @@
   {
    "lat": -1.778629,
    "lon": -80.294407,
-   "nombre": "Peaje E482",
+   "nombre": "Peaje E482 km 74",
    "tipo": "cabina",
    "ref": "E482",
+   "km": "74",
+   "localidad": "Potrerillo",
    "fuente": "armado",
    "cabinas": [
     {
@@ -871,10 +877,9 @@
    },
    "pais": "EC",
    "via_visible": "E482",
-   "punto": "(sin nombre)",
-   "nombre_visible": "E482 - Peaje (sin nombre)",
-   "confianza": "baja",
-   "nota": "El robot no encontró ruta ni localidad: completar a mano."
+   "punto": "Potrerillo",
+   "nombre_visible": "E482 - Peaje Potrerillo",
+   "confianza": "media"
   },
   {
    "lat": -1.574828,
@@ -1123,8 +1128,9 @@
   {
    "lat": -0.683916,
    "lon": -79.649023,
-   "nombre": "Peaje en Ecuador (2)",
+   "nombre": "Peaje cerca de Santa María",
    "tipo": "cabina",
+   "localidad": "Santa María",
    "fuente": "armado",
    "cabinas": [
     {
@@ -1138,10 +1144,9 @@
     "distancia_m": 0.0
    },
    "pais": "EC",
-   "punto": "(sin nombre)",
-   "nombre_visible": "(sin nombre)",
-   "confianza": "baja",
-   "nota": "El robot no encontró ruta ni localidad: completar a mano."
+   "punto": "Santa María",
+   "nombre_visible": "Peaje Santa María",
+   "confianza": "media"
   },
   {
    "lat": -0.545835,
@@ -1487,8 +1492,10 @@
   {
    "lat": -0.145024,
    "lon": -78.490681,
-   "nombre": "Peaje en Ecuador",
+   "nombre": "Peaje Avenida de la Prensa",
    "tipo": "cabina",
+   "via": "Avenida de la Prensa",
+   "localidad": "Atucucho",
    "fuente": "armado",
    "cabinas": [
     {
@@ -1512,10 +1519,10 @@
    },
    "pais": "EC",
    "via_visible": "Avenida de la Prensa",
-   "punto": "(sin nombre)",
-   "nombre_visible": "Avenida de la Prensa - Peaje (sin nombre)",
-   "confianza": "baja",
-   "nota": "El robot no encontró ruta ni localidad: completar a mano."
+   "punto": "Atucucho",
+   "nombre_visible": "Avenida de la Prensa - Peaje Atucucho",
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": -0.142424,
@@ -1555,13 +1562,16 @@
    "via_visible": "Avenida de la Prensa",
    "punto": "Atucucho",
    "nombre_visible": "Avenida de la Prensa - Peaje Atucucho",
-   "confianza": "media"
+   "confianza": "media",
+   "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
    "lat": -0.12728,
    "lon": -78.471649,
-   "nombre": "Peaje en Ecuador (3)",
+   "nombre": "Peaje Avenida General Eloy Alfaro",
    "tipo": "cabina",
+   "via": "Avenida General Eloy Alfaro",
+   "localidad": "Puertas del Sol",
    "fuente": "armado",
    "cabinas": [
     {
@@ -1585,10 +1595,9 @@
    },
    "pais": "EC",
    "via_visible": "Avenida General Eloy Alfaro",
-   "punto": "(sin nombre)",
-   "nombre_visible": "Avenida General Eloy Alfaro - Peaje (sin nombre)",
-   "confianza": "baja",
-   "nota": "El robot no encontró ruta ni localidad: completar a mano."
+   "punto": "Puertas del Sol",
+   "nombre_visible": "Avenida General Eloy Alfaro - Peaje Puertas del Sol",
+   "confianza": "media"
   },
   {
    "lat": -0.099271,
@@ -1899,8 +1908,9 @@
   {
    "lat": 0.644648,
    "lon": -77.896259,
-   "nombre": "Peaje en Ecuador (4)",
+   "nombre": "Peaje cerca de La Libertad",
    "tipo": "cabina",
+   "localidad": "La Libertad",
    "fuente": "armado",
    "cabinas": [
     {
@@ -1914,10 +1924,9 @@
     "distancia_m": 0.0
    },
    "pais": "EC",
-   "punto": "(sin nombre)",
-   "nombre_visible": "(sin nombre)",
-   "confianza": "baja",
-   "nota": "El robot no encontró ruta ni localidad: completar a mano."
+   "punto": "La Libertad",
+   "nombre_visible": "Peaje La Libertad",
+   "confianza": "media"
   },
   {
    "lat": 1.425456,
@@ -1981,9 +1990,6 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-09T14:16Z",
- "alertas": [
-  "Alrededores: falló un lote de 9 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
-  "Alrededores: falló un lote de 9 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
- ]
+ "generado": "2026-11-23T14:30Z",
+ "alertas": []
 }
