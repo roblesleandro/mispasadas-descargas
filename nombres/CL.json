@@ -32,7 +32,7 @@
   {
    "lat": -41.723446,
    "lon": -73.374003,
-   "nombre": "Peaje Ruta 5 Sur (47)",
+   "nombre": "Peaje Ruta 5 Sur (33)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -61,7 +61,7 @@
   {
    "lat": -41.617039,
    "lon": -73.273783,
-   "nombre": "Peaje Ruta 5 Sur (43)",
+   "nombre": "Peaje Ruta 5 Sur (29)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -99,7 +99,7 @@
   {
    "lat": -41.58903,
    "lon": -73.233472,
-   "nombre": "Peaje Ruta 5 Sur (42)",
+   "nombre": "Peaje Ruta 5 Sur (28)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -141,7 +141,7 @@
   {
    "lat": -41.516688,
    "lon": -73.078186,
-   "nombre": "Peaje Ruta 5 Sur (44)",
+   "nombre": "Peaje Ruta 5 Sur (30)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -250,10 +250,8 @@
   {
    "lat": -41.319802,
    "lon": -73.007608,
-   "nombre": "Peaje Ruta 5 Sur (13)",
+   "nombre": "Peaje cerca de Puerto Varas",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "Puerto Varas",
    "fuente": "armado",
    "cabinas": [
@@ -290,11 +288,8 @@
   {
    "lat": -41.276747,
    "lon": -73.007361,
-   "nombre": "Peaje Ruta 5 Sur km 1000",
+   "nombre": "Peaje cerca de Llanquihue",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
-   "km": "1000",
    "localidad": "Llanquihue",
    "fuente": "armado",
    "cabinas": [
@@ -333,11 +328,8 @@
   {
    "lat": -41.2547,
    "lon": -73.023277,
-   "nombre": "Peaje Ruta 5 Sur km 998",
+   "nombre": "Peaje cerca de Llanquihue (2)",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
-   "km": "998",
    "localidad": "Llanquihue",
    "fuente": "armado",
    "cabinas": [
@@ -442,7 +434,7 @@
   {
    "lat": -41.009143,
    "lon": -73.120332,
-   "nombre": "Peaje Ruta 5 Sur (29)",
+   "nombre": "Peaje Ruta 5 Sur (15)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -470,7 +462,7 @@
   {
    "lat": -40.959105,
    "lon": -73.133928,
-   "nombre": "Peaje Ruta 5 Sur (28)",
+   "nombre": "Peaje Ruta 5 Sur (14)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -507,7 +499,7 @@
   {
    "lat": -40.901401,
    "lon": -73.152246,
-   "nombre": "Peaje Ruta 5 Sur (35)",
+   "nombre": "Peaje Ruta 5 Sur (21)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -679,7 +671,7 @@
   {
    "lat": -40.413107,
    "lon": -73.001714,
-   "nombre": "Peaje Ruta 5 Sur (27)",
+   "nombre": "Peaje Ruta 5 Sur (13)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -770,10 +762,8 @@
   {
    "lat": -40.087391,
    "lon": -72.864659,
-   "nombre": "Peaje Ruta 5 Sur (19)",
+   "nombre": "Peaje cerca de Paillaco",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "Paillaco",
    "fuente": "armado",
    "cabinas": [
@@ -799,7 +789,7 @@
   {
    "lat": -39.480385,
    "lon": -72.806435,
-   "nombre": "Peaje Ruta 5 Sur (26)",
+   "nombre": "Peaje Ruta 5 Sur (12)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -868,7 +858,7 @@
   {
    "lat": -39.359334,
    "lon": -72.620928,
-   "nombre": "Peaje Ruta 5 Sur (40)",
+   "nombre": "Peaje Ruta 5 Sur (26)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -898,10 +888,8 @@
   {
    "lat": -39.358835,
    "lon": -72.639728,
-   "nombre": "Peaje Ruta 5 Sur (22)",
+   "nombre": "Peaje cerca de Loncoche",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "Loncoche",
    "fuente": "armado",
    "cabinas": [
@@ -927,10 +915,8 @@
   {
    "lat": -38.991293,
    "lon": -72.646876,
-   "nombre": "Peaje Ruta 5 Sur (18)",
+   "nombre": "Peaje cerca de Pitrufquén",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "Pitrufquén",
    "fuente": "armado",
    "cabinas": [
@@ -1019,11 +1005,8 @@
   {
    "lat": -38.77515,
    "lon": -72.581283,
-   "nombre": "Peaje Ruta 5 Sur km 677",
+   "nombre": "Peaje cerca de Padre Las Casas",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
-   "km": "677",
    "localidad": "Padre Las Casas",
    "fuente": "armado",
    "cabinas": [
@@ -1169,7 +1152,7 @@
   {
    "lat": -38.522351,
    "lon": -72.456262,
-   "nombre": "Peaje Ruta 5 Sur (37)",
+   "nombre": "Peaje Ruta 5 Sur (23)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -1297,7 +1280,7 @@
   {
    "lat": -37.853471,
    "lon": -72.396516,
-   "nombre": "Peaje Ruta 5 Sur (46)",
+   "nombre": "Peaje Ruta 5 Sur (32)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -1362,7 +1345,7 @@
   {
    "lat": -37.704223,
    "lon": -72.257473,
-   "nombre": "Peaje Ruta 5 Sur (34)",
+   "nombre": "Peaje Ruta 5 Sur (20)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -1499,10 +1482,8 @@
   {
    "lat": -37.531878,
    "lon": -72.32802,
-   "nombre": "Peaje Ruta 5 Sur (23)",
+   "nombre": "Peaje cerca de Las Delicias Alto",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "Las Delicias Alto",
    "fuente": "armado",
    "cabinas": [
@@ -2173,7 +2154,7 @@
   {
    "lat": -36.747784,
    "lon": -72.285426,
-   "nombre": "Peaje Ruta 5 Sur (39)",
+   "nombre": "Peaje Ruta 5 Sur (25)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -2286,10 +2267,8 @@
   {
    "lat": -36.722996,
    "lon": -72.274406,
-   "nombre": "Peaje Ruta 5 Sur (21)",
+   "nombre": "Peaje cerca de Bulnes",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "Bulnes",
    "fuente": "armado",
    "cabinas": [
@@ -2316,10 +2295,8 @@
   {
    "lat": -36.65835,
    "lon": -72.457709,
-   "nombre": "Peaje Autopista del Itata (152)",
+   "nombre": "Peaje cerca de Quinchamalí",
    "tipo": "cabina",
-   "via": "Autopista del Itata",
-   "ref": "152",
    "localidad": "Quinchamalí",
    "fuente": "armado",
    "cabinas": [
@@ -2494,11 +2471,8 @@
   {
    "lat": -36.157235,
    "lon": -71.81389,
-   "nombre": "Peaje Ruta 5 Sur km 342",
+   "nombre": "Peaje cerca de Parral",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
-   "km": "342",
    "localidad": "Parral",
    "fuente": "armado",
    "cabinas": [
@@ -2524,7 +2498,7 @@
   {
    "lat": -36.00928,
    "lon": -71.732288,
-   "nombre": "Peaje Ruta 5 Sur (48)",
+   "nombre": "Peaje Ruta 5 Sur (34)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -2595,7 +2569,7 @@
   {
    "lat": -35.694987,
    "lon": -71.68617,
-   "nombre": "Peaje Ruta 5 Sur (36)",
+   "nombre": "Peaje Ruta 5 Sur (22)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -2676,11 +2650,8 @@
   {
    "lat": -35.600938,
    "lon": -71.706395,
-   "nombre": "Peaje Ruta 5 Sur km 274",
+   "nombre": "Peaje cerca de San Javier",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
-   "km": "274",
    "localidad": "San Javier",
    "fuente": "armado",
    "cabinas": [
@@ -2765,10 +2736,8 @@
   {
    "lat": -35.521282,
    "lon": -71.676707,
-   "nombre": "Peaje Ruta 5 Sur (14)",
+   "nombre": "Peaje cerca de Maule",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "Maule",
    "fuente": "armado",
    "cabinas": [
@@ -2794,10 +2763,8 @@
   {
    "lat": -35.489366,
    "lon": -71.659271,
-   "nombre": "Peaje Ruta 5 Sur (20)",
+   "nombre": "Peaje cerca de Chacarillas",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "Chacarillas",
    "fuente": "armado",
    "cabinas": [
@@ -2864,7 +2831,7 @@
   {
    "lat": -35.133437,
    "lon": -71.35469,
-   "nombre": "Peaje Ruta 5 Sur (38)",
+   "nombre": "Peaje Ruta 5 Sur (24)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -2893,7 +2860,7 @@
   {
    "lat": -35.093077,
    "lon": -71.318112,
-   "nombre": "Peaje Ruta 5 Sur (30)",
+   "nombre": "Peaje Ruta 5 Sur (16)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3066,10 +3033,8 @@
   {
    "lat": -34.883785,
    "lon": -71.150528,
-   "nombre": "Peaje Ruta 5 Sur (12)",
+   "nombre": "Peaje cerca de Viluco",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "Viluco",
    "fuente": "armado",
    "cabinas": [
@@ -3095,7 +3060,7 @@
   {
    "lat": -34.796163,
    "lon": -71.048048,
-   "nombre": "Peaje Ruta 5 Sur (45)",
+   "nombre": "Peaje Ruta 5 Sur (31)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3144,11 +3109,8 @@
   {
    "lat": -34.714321,
    "lon": -71.030564,
-   "nombre": "Peaje Ruta 5 Sur km 1",
+   "nombre": "Peaje cerca de Chimbarongo",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
-   "km": "1",
    "localidad": "Chimbarongo",
    "fuente": "armado",
    "cabinas": [
@@ -3174,10 +3136,8 @@
   {
    "lat": -34.60568,
    "lon": -70.983124,
-   "nombre": "Peaje Ruta 5 Sur (24)",
+   "nombre": "Peaje cerca de San Fernando",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "San Fernando",
    "fuente": "armado",
    "cabinas": [
@@ -3216,7 +3176,7 @@
   {
    "lat": -34.594025,
    "lon": -70.973092,
-   "nombre": "Peaje Ruta 5 Sur (41)",
+   "nombre": "Peaje Ruta 5 Sur (27)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3311,10 +3271,8 @@
   {
    "lat": -34.551701,
    "lon": -70.961434,
-   "nombre": "Peaje Ruta 5 Sur (17)",
+   "nombre": "Peaje cerca de Angostura",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "Angostura",
    "fuente": "armado",
    "cabinas": [
@@ -3353,10 +3311,8 @@
   {
    "lat": -34.465564,
    "lon": -70.898352,
-   "nombre": "Peaje Ruta 5 Sur (16)",
+   "nombre": "Peaje cerca de Pelequén",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "Pelequén",
    "fuente": "armado",
    "cabinas": [
@@ -3394,10 +3350,8 @@
   {
    "lat": -34.400011,
    "lon": -70.871746,
-   "nombre": "Peaje Ruta 5 Sur (25)",
+   "nombre": "Peaje cerca de Rengo",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "Rengo",
    "fuente": "armado",
    "cabinas": [
@@ -3435,7 +3389,7 @@
   {
    "lat": -34.34597,
    "lon": -70.840755,
-   "nombre": "Peaje Ruta 5 Sur (31)",
+   "nombre": "Peaje Ruta 5 Sur (17)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3476,7 +3430,7 @@
   {
    "lat": -34.288986,
    "lon": -70.821905,
-   "nombre": "Peaje Ruta 5 Sur (33)",
+   "nombre": "Peaje Ruta 5 Sur (19)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3506,7 +3460,7 @@
   {
    "lat": -34.281973,
    "lon": -70.818679,
-   "nombre": "Peaje Ruta 5 Sur (32)",
+   "nombre": "Peaje Ruta 5 Sur (18)",
    "tipo": "cabina",
    "via": "Ruta 5 Sur",
    "ref": "5",
@@ -3564,10 +3518,8 @@
   {
    "lat": -34.18092,
    "lon": -70.790648,
-   "nombre": "Peaje Ruta 5 Sur (15)",
+   "nombre": "Peaje cerca de Punta de Cortés",
    "tipo": "cabina",
-   "via": "Ruta 5 Sur",
-   "ref": "5",
    "localidad": "Punta de Cortés",
    "fuente": "armado",
    "cabinas": [
@@ -7598,10 +7550,8 @@
   {
    "lat": -32.972114,
    "lon": -71.300955,
-   "nombre": "Peaje Autopista Los Andes (60)",
+   "nombre": "Peaje cerca de San Pedro",
    "tipo": "cabina",
-   "via": "Autopista Los Andes",
-   "ref": "60",
    "localidad": "San Pedro",
    "fuente": "armado",
    "cabinas": [
@@ -7780,7 +7730,7 @@
   {
    "lat": -32.875537,
    "lon": -71.231631,
-   "nombre": "Peaje Autopista Los Andes (60) (2)",
+   "nombre": "Peaje Autopista Los Andes (60)",
    "tipo": "cabina",
    "via": "Autopista Los Andes",
    "ref": "60",
@@ -7917,7 +7867,7 @@
   {
    "lat": -32.769255,
    "lon": -70.703584,
-   "nombre": "Peaje Autopista Los Andes (60) (3)",
+   "nombre": "Peaje Autopista Los Andes (60) (2)",
    "tipo": "cabina",
    "via": "Autopista Los Andes",
    "ref": "60",
@@ -8797,6 +8747,8 @@
    "motivo": "No parece un peaje de ruta (aeropuerto, estacionamiento, parque…)"
   }
  ],
- "generado": "2026-11-09T12:27Z",
- "alertas": []
+ "generado": "2026-11-23T12:59Z",
+ "alertas": [
+  "Alrededores: falló un lote de 25 estaciones (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter)."
+ ]
 }
