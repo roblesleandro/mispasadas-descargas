@@ -5,30 +5,60 @@
  "resumen": {
   "oficial": 0,
   "osm": 1,
-  "armado": 23,
-  "total": 24,
+  "armado": 24,
+  "total": 25,
   "confianza_baja": 0,
   "excluidas": 0,
   "tipos_filas": {
-   "CENTRAL": 18,
+   "CENTRAL": 19,
    "SALIDA": 16,
    "ENTRADA": 14,
    "sin_tipo": 13
   },
   "posicion": {
    "umbral_m": 15.0,
-   "ok": 7,
+   "ok": 8,
    "corregidas": 17,
    "sin_referencia": 0,
    "corrida_anterior": {
     "ok": 24,
     "a_mas_de_15_m": 0,
-    "sin_referencia": 1,
-    "total": 25
+    "sin_referencia": 0,
+    "total": 24
    }
   }
  },
  "estaciones": [
+  {
+   "lat": 8.277497,
+   "lon": -81.666656,
+   "nombre": "Peaje Vía Peña Blanca (40)",
+   "tipo": "cabina",
+   "via": "Vía Peña Blanca",
+   "ref": "40",
+   "localidad": "Alto Caballero",
+   "fuente": "armado",
+   "cabinas": [
+    {
+     "lat": 8.277497,
+     "lon": -81.666656,
+     "n": 1,
+     "rumbo": 206,
+     "doble": true,
+     "tipo": "CENTRAL",
+     "ancho": 7.0
+    }
+   ],
+   "posicion": {
+    "estado": "ok",
+    "distancia_m": 0.0
+   },
+   "pais": "PA",
+   "via_visible": "Ruta 40",
+   "punto": "Alto Caballero",
+   "nombre_visible": "Ruta 40 - Peaje Alto Caballero",
+   "confianza": "media"
+  },
   {
    "lat": 8.643921,
    "lon": -80.019576,
@@ -165,8 +195,8 @@
    "nota": "Mismo nombre que otro punto (¿uno por sentido?)."
   },
   {
-   "lat": 8.981116,
-   "lon": -79.508348,
+   "lat": 8.981138,
+   "lon": -79.508382,
    "nombre": "Peaje Calle Coronado",
    "tipo": "cabina",
    "via": "Calle Coronado",
@@ -182,20 +212,20 @@
      "ancho": 3.5
     },
     {
-     "lat": 8.981116,
-     "lon": -79.508348,
+     "lat": 8.981138,
+     "lon": -79.508382,
      "n": 1,
-     "rumbo": 56,
+     "rumbo": 58,
      "doble": true,
      "ancho": 7.0
     }
    ],
    "posicion": {
     "estado": "corregida",
-    "antes_m": 53,
+    "antes_m": 55,
     "centro_plaza": [
-     8.980645,
-     -79.508249
+     8.980656,
+     -79.508265
     ]
    },
    "pais": "PA",
@@ -1074,6 +1104,6 @@
   }
  ],
  "excluidas": [],
- "generado": "2026-11-09T14:23Z",
+ "generado": "2026-11-23T14:33Z",
  "alertas": []
 }
