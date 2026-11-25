@@ -1,7 +1,7 @@
 {
- "version": "cr-2026-11-17",
+ "version": "cr-2026-11-25",
  "pais": "CR",
- "generado": "2026-11-17T13:57:46+00:00",
+ "generado": "2026-11-25T12:19:00+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin listado oficial (COSEVI)."
@@ -50,11 +50,14 @@
    }
   }
  },
- "alertas": [],
+ "alertas": [
+  "CR: no se pudieron leer radares/cámaras de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
+  "CR: Salieron 0 y antes había 2: se mantiene lo anterior."
+ ],
  "radars": [
   {
    "radar_id": "osm-cr-n1234896046",
-   "name": "Carretera Pacífica Fernández Oreamuno - Radar",
+   "name": "Carretera Pacífica Fernández Oreamuno - Radar (Carretera Pacífica Fernández Oreamuno - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 9.842082,
    "longitude": -84.587927,
@@ -77,12 +80,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Pacífica Fernández Oreamuno - Radar",
+   "display_name": "Carretera Pacífica Fernández Oreamuno - Radar (Carretera Pacífica Fernández Oreamuno - Radar)",
    "country": "CR"
   },
   {
    "radar_id": "osm-cr-n12327820501",
-   "name": "Ruta 126 - Cámara de tránsito",
+   "name": "Ruta 126 - Cámara de tránsito (Ruta 126 - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 10.024558,
    "longitude": -84.124249,
@@ -104,7 +107,7 @@
     40
    ],
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Ruta 126 - Cámara de tránsito",
+   "display_name": "Ruta 126 - Cámara de tránsito (Ruta 126 - Cámara de tránsito)",
    "country": "CR"
   }
  ]
