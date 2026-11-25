@@ -1,7 +1,7 @@
 {
- "version": "cu-2026-11-17",
+ "version": "cu-2026-11-25",
  "pais": "CU",
- "generado": "2026-11-17T14:31:40+00:00",
+ "generado": "2026-11-25T12:51:12+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "Sin fuente oficial con ubicaciones."
@@ -22,7 +22,7 @@
   "revisados_esta_corrida": 0,
   "sin_via": 0,
   "via_completada_esta_corrida": 0,
-  "limites_dudosos_sacados": 1,
+  "limites_dudosos_sacados": 0,
   "por_control": {
    "VELOCIDAD": 12,
    "VELOCIDAD_PROMEDIO": 0,
@@ -50,11 +50,13 @@
    }
   }
  },
- "alertas": [],
+ "alertas": [
+  "CU: Salieron 3 y antes había 14: se mantiene lo anterior."
+ ],
  "radars": [
   {
    "radar_id": "osm-cu-n4341061896",
-   "name": "Carretera de Siboney - Radar (Punto de control)",
+   "name": "Carretera de Siboney - Radar (Carretera de Siboney - Radar (Punto de control))",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.007838,
    "longitude": -75.744188,
@@ -77,12 +79,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-30",
-   "display_name": "Carretera de Siboney - Radar (Punto de control)",
+   "display_name": "Carretera de Siboney - Radar (Carretera de Siboney - Radar (Punto de control))",
    "country": "CU"
   },
   {
    "radar_id": "osm-cu-n5259008322",
-   "name": "Carretera de Mar Verde - Radar (Control de Velocidad)",
+   "name": "Carretera de Mar Verde - Radar (Carretera de Mar Verde - Radar (Control de Velocidad))",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.012965,
    "longitude": -75.894841,
@@ -105,12 +107,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-30",
-   "display_name": "Carretera de Mar Verde - Radar (Control de Velocidad)",
+   "display_name": "Carretera de Mar Verde - Radar (Carretera de Mar Verde - Radar (Control de Velocidad))",
    "country": "CU"
   },
   {
    "radar_id": "osm-cu-n4341061012",
-   "name": "Carretera Central - Radar (Punto de Control)",
+   "name": "Carretera Central - Radar (Carretera Central - Radar (Punto de Control))",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.062144,
    "longitude": -75.912514,
@@ -133,12 +135,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-30",
-   "display_name": "Carretera Central - Radar (Punto de Control)",
+   "display_name": "Carretera Central - Radar (Carretera Central - Radar (Punto de Control))",
    "country": "CU"
   },
   {
    "radar_id": "osm-cu-n13177418789",
-   "name": "Carretera Central - Radar",
+   "name": "Carretera Central - Radar (Carretera Central - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.353024,
    "longitude": -76.60992,
@@ -161,12 +163,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-30",
-   "display_name": "Carretera Central - Radar",
+   "display_name": "Carretera Central - Radar (Carretera Central - Radar)",
    "country": "CU"
   },
   {
    "radar_id": "osm-cu-n12200101925",
-   "name": "Carretera de Segundo Frente - Radar",
+   "name": "Carretera de Segundo Frente - Radar (Carretera de Segundo Frente - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.394568,
    "longitude": -75.546173,
@@ -189,12 +191,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-30",
-   "display_name": "Carretera de Segundo Frente - Radar",
+   "display_name": "Carretera de Segundo Frente - Radar (Carretera de Segundo Frente - Radar)",
    "country": "CU"
   },
   {
    "radar_id": "osm-cu-n3840563488",
-   "name": "Carretera Gibara - Radar (Punto de Control)",
+   "name": "Carretera Gibara - Radar (Carretera Gibara - Radar (Punto de Control))",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.936512,
    "longitude": -76.266635,
@@ -217,12 +219,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-30",
-   "display_name": "Carretera Gibara - Radar (Punto de Control)",
+   "display_name": "Carretera Gibara - Radar (Carretera Gibara - Radar (Punto de Control))",
    "country": "CU"
   },
   {
    "radar_id": "osm-cu-n4341060997",
-   "name": "H - Radar (Punto de Control)",
+   "name": "H - Radar (H - Radar (Punto de Control))",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.940413,
    "longitude": -76.932532,
@@ -243,12 +245,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-30",
-   "display_name": "H - Radar (Punto de Control)",
+   "display_name": "H - Radar (H - Radar (Punto de Control))",
    "country": "CU"
   },
   {
    "radar_id": "osm-cu-n12642217363",
-   "name": "Carretera Holguín - Guardalavaca - Radar (Control de Velocidad)",
+   "name": "Carretera Holguín - Guardalavaca - Radar (Carretera Holguín - Guardalavaca - Radar (Control de Velocidad))",
    "radar_type": "FIXED_SPEED",
    "latitude": 21.015695,
    "longitude": -76.003175,
@@ -271,12 +273,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-30",
-   "display_name": "Carretera Holguín - Guardalavaca - Radar (Control de Velocidad)",
+   "display_name": "Carretera Holguín - Guardalavaca - Radar (Carretera Holguín - Guardalavaca - Radar (Control de Velocidad))",
    "country": "CU"
   },
   {
    "radar_id": "osm-cu-n9761023075",
-   "name": "Carretera Central - Radar",
+   "name": "Carretera Central - Radar (Carretera Central - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 21.399197,
    "longitude": -78.007949,
@@ -297,12 +299,12 @@
     "reference": "node/9761023075"
    },
    "road_label": "Carretera Central",
-   "display_name": "Carretera Central - Radar",
+   "display_name": "Carretera Central - Radar (Carretera Central - Radar)",
    "country": "CU"
   },
   {
    "radar_id": "osm-cu-n3440273781",
-   "name": "Máximo Gómez - Cámara de semáforo",
+   "name": "Máximo Gómez - Cámara de semáforo (Máximo Gómez - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 21.843089,
    "longitude": -78.759169,
@@ -325,12 +327,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-30",
-   "display_name": "Máximo Gómez - Cámara de semáforo",
+   "display_name": "Máximo Gómez - Cámara de semáforo (Máximo Gómez - Cámara de semáforo)",
    "country": "CU"
   },
   {
    "radar_id": "osm-cu-n2200090977",
-   "name": "Carretera Central - Radar",
+   "name": "Carretera Central - Radar (Carretera Central - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 21.937954,
    "longitude": -79.252447,
@@ -353,12 +355,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-30",
-   "display_name": "Carretera Central - Radar",
+   "display_name": "Carretera Central - Radar (Carretera Central - Radar)",
    "country": "CU"
   },
   {
    "radar_id": "osm-cu-n4439726058",
-   "name": "Autopista Nacional - Radar",
+   "name": "Autopista Nacional - Radar (Autopista Nacional - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 22.405048,
    "longitude": -80.869334,
@@ -384,12 +386,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "motorway",
    "speed_limit_road_kmh": 100,
-   "display_name": "Autopista Nacional - Radar",
+   "display_name": "Autopista Nacional - Radar (Autopista Nacional - Radar)",
    "country": "CU"
   },
   {
    "radar_id": "osm-cu-n2963211915",
-   "name": "Carretera Panamericana - Radar (Punto de Control)",
+   "name": "Carretera Panamericana - Radar (Carretera Panamericana - Radar (Punto de Control))",
    "radar_type": "FIXED_SPEED",
    "latitude": 23.058965,
    "longitude": -82.530823,
@@ -412,12 +414,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-30",
-   "display_name": "Carretera Panamericana - Radar (Punto de Control)",
+   "display_name": "Carretera Panamericana - Radar (Carretera Panamericana - Radar (Punto de Control))",
    "country": "CU"
   },
   {
    "radar_id": "osm-cu-n5923082388",
-   "name": "CN - Cámara de tráfico",
+   "name": "CN - Cámara de tráfico (CN - Cámara de tráfico)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 23.125484,
    "longitude": -81.341922,
@@ -438,7 +440,7 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 100 km/h a 10 m · lado B: 60 km/h a 18 m",
    "speed_limit_checked": "2026-10-30",
-   "display_name": "CN - Cámara de tráfico",
+   "display_name": "CN - Cámara de tráfico (CN - Cámara de tráfico)",
    "country": "CU"
   }
  ]
