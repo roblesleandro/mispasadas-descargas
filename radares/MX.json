@@ -1,7 +1,7 @@
 {
- "version": "mx-2026-11-17",
+ "version": "mx-2026-11-25",
  "pais": "MX",
- "generado": "2026-11-17T13:55:16+00:00",
+ "generado": "2026-11-25T12:07:35+00:00",
  "aviso": "Radares y cámaras de fuentes oficiales y de OpenStreetMap. El límite, si no viene de la fuente, sale del tramo de OSM (propio o vecino de la misma vía). Que figuren no garantiza que funcionen.",
  "a_investigar": [
   "CDMX Fotocívicas (SSC): capa geonode «fotocivicas» con x/y EPSG:4326 (dev-sieg.cdmx.gob.mx), desactualizada (2020/2021), sin licencia ni descarga visible.",
@@ -51,11 +51,14 @@
    }
   }
  },
- "alertas": [],
+ "alertas": [
+  "MX: no se pudieron leer radares/cámaras de OpenStreetMap (HTTP 504 en https://maps.mail.ru/osm/tools/overpass/api/interpreter).",
+  "MX: Salieron 0 y antes había 144: se mantiene lo anterior."
+ ],
  "radars": [
   {
    "radar_id": "osm-mx-n4880280443",
-   "name": "Carretera Tapanatepec - Talismán - Radar (Radares)",
+   "name": "Carretera Tapanatepec - Talismán - Radar (Carretera Tapanatepec - Talismán - Radar (Radares))",
    "radar_type": "FIXED_SPEED",
    "latitude": 15.161991,
    "longitude": -92.533581,
@@ -78,12 +81,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Tapanatepec - Talismán - Radar (Radares)",
+   "display_name": "Carretera Tapanatepec - Talismán - Radar (Carretera Tapanatepec - Talismán - Radar (Radares))",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14245511002",
-   "name": "Avenida Central Poniente - Cámara de tránsito",
+   "name": "Avenida Central Poniente - Cámara de tránsito (Avenida Central Poniente - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 16.799522,
    "longitude": -93.272574,
@@ -104,12 +107,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Central Poniente - Cámara de tránsito",
+   "display_name": "Avenida Central Poniente - Cámara de tránsito (Avenida Central Poniente - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14028304702",
-   "name": "Calle Luis Donaldo Colosio - Cámara de tránsito",
+   "name": "Calle Luis Donaldo Colosio - Cámara de tránsito (Calle Luis Donaldo Colosio - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 18.210262,
    "longitude": -98.052025,
@@ -130,12 +133,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle Luis Donaldo Colosio - Cámara de tránsito",
+   "display_name": "Calle Luis Donaldo Colosio - Cámara de tránsito (Calle Luis Donaldo Colosio - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14340007201",
-   "name": "Calle Jiménez - Cámara de tránsito",
+   "name": "Calle Jiménez - Cámara de tránsito (Calle Jiménez - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 18.519588,
    "longitude": -98.578084,
@@ -157,12 +160,12 @@
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-11-03",
    "speed_limit_road_class": "residential",
-   "display_name": "Calle Jiménez - Cámara de tránsito",
+   "display_name": "Calle Jiménez - Cámara de tránsito (Calle Jiménez - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14340005901",
-   "name": "Calle Benito Juárez - Cámara de tránsito",
+   "name": "Calle Benito Juárez - Cámara de tránsito (Calle Benito Juárez - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 18.521209,
    "longitude": -98.578516,
@@ -184,12 +187,12 @@
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-11-03",
    "speed_limit_road_class": "residential",
-   "display_name": "Calle Benito Juárez - Cámara de tránsito",
+   "display_name": "Calle Benito Juárez - Cámara de tránsito (Calle Benito Juárez - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14029895201",
-   "name": "Calle Manuel Doblado Oriente - Cámara de tránsito",
+   "name": "Calle Manuel Doblado Oriente - Cámara de tránsito (Calle Manuel Doblado Oriente - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 18.691769,
    "longitude": -103.660645,
@@ -210,12 +213,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle Manuel Doblado Oriente - Cámara de tránsito",
+   "display_name": "Calle Manuel Doblado Oriente - Cámara de tránsito (Calle Manuel Doblado Oriente - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14029849501",
-   "name": "Calle Pascual Ortiz Rubio - Cámara de tránsito",
+   "name": "Calle Pascual Ortiz Rubio - Cámara de tránsito (Calle Pascual Ortiz Rubio - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 18.692656,
    "longitude": -103.65918,
@@ -234,12 +237,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle Pascual Ortiz Rubio - Cámara de tránsito",
+   "display_name": "Calle Pascual Ortiz Rubio - Cámara de tránsito (Calle Pascual Ortiz Rubio - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n5473906469",
-   "name": "Carretera Colima - Tecomán - Radar",
+   "name": "Carretera Colima - Tecomán - Radar (Carretera Colima - Tecomán - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 18.954578,
    "longitude": -103.886046,
@@ -262,12 +265,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Colima - Tecomán - Radar",
+   "display_name": "Carretera Colima - Tecomán - Radar (Carretera Colima - Tecomán - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n9238215067",
-   "name": "MEX-190 - Radar",
+   "name": "MEX-190 - Radar (MEX-190 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 18.980996,
    "longitude": -98.224314,
@@ -290,12 +293,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "MEX-190 - Radar",
+   "display_name": "MEX-190 - Radar (MEX-190 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14347768401",
-   "name": "Diagonal Defensores de la República - Cámara de tránsito",
+   "name": "Diagonal Defensores de la República - Cámara de tránsito (Diagonal Defensores de la República - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 19.063668,
    "longitude": -98.197018,
@@ -319,12 +322,12 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-11-10",
    "speed_limit_road_class": "primary",
-   "display_name": "Diagonal Defensores de la República - Cámara de tránsito",
+   "display_name": "Diagonal Defensores de la República - Cámara de tránsito (Diagonal Defensores de la República - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874170098",
-   "name": "Avenida Guadalupe I. Ramírez - Cámara de semáforo",
+   "name": "Avenida Guadalupe I. Ramírez - Cámara de semáforo (Avenida Guadalupe I. Ramírez - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.265919,
    "longitude": -99.114787,
@@ -347,12 +350,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Guadalupe I. Ramírez - Cámara de semáforo",
+   "display_name": "Avenida Guadalupe I. Ramírez - Cámara de semáforo (Avenida Guadalupe I. Ramírez - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10876296499",
-   "name": "PERIF - Radar",
+   "name": "PERIF - Radar (PERIF - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.297207,
    "longitude": -99.095083,
@@ -375,12 +378,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "PERIF - Radar",
+   "display_name": "PERIF - Radar (PERIF - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874120431",
-   "name": "Canal de Garay - Cámara de semáforo",
+   "name": "Canal de Garay - Cámara de semáforo (Canal de Garay - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.31882,
    "longitude": -99.075485,
@@ -403,12 +406,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Canal de Garay - Cámara de semáforo",
+   "display_name": "Canal de Garay - Cámara de semáforo (Canal de Garay - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n12573223618",
-   "name": "Boulevard Adolfo Ruiz Cortines - Radar",
+   "name": "Boulevard Adolfo Ruiz Cortines - Radar (Boulevard Adolfo Ruiz Cortines - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.32094,
    "longitude": -99.220338,
@@ -431,12 +434,12 @@
     "reference": "node/12573223618"
    },
    "road_label": "Boulevard Adolfo Ruiz Cortines",
-   "display_name": "Boulevard Adolfo Ruiz Cortines - Radar",
+   "display_name": "Boulevard Adolfo Ruiz Cortines - Radar (Boulevard Adolfo Ruiz Cortines - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10927426696",
-   "name": "Periférico Segundo Piso - Radar",
+   "name": "Periférico Segundo Piso - Radar (Periférico Segundo Piso - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.336344,
    "longitude": -99.206321,
@@ -459,12 +462,12 @@
     "reference": "node/10927426696"
    },
    "road_label": "Periférico Segundo Piso",
-   "display_name": "Periférico Segundo Piso - Radar",
+   "display_name": "Periférico Segundo Piso - Radar (Periférico Segundo Piso - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874147194",
-   "name": "EJE 1 OTE - Cámara de semáforo",
+   "name": "EJE 1 OTE - Cámara de semáforo (EJE 1 OTE - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.340729,
    "longitude": -99.137419,
@@ -487,12 +490,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 1 OTE - Cámara de semáforo",
+   "display_name": "EJE 1 OTE - Cámara de semáforo (EJE 1 OTE - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874136160",
-   "name": "EJE 9 SUR - Cámara de semáforo",
+   "name": "EJE 9 SUR - Cámara de semáforo (EJE 9 SUR - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.341122,
    "longitude": -99.136901,
@@ -515,12 +518,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 9 SUR - Cámara de semáforo",
+   "display_name": "EJE 9 SUR - Cámara de semáforo (EJE 9 SUR - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10877077847",
-   "name": "EJE 8 SUR - Radar",
+   "name": "EJE 8 SUR - Radar (EJE 8 SUR - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.342864,
    "longitude": -99.056528,
@@ -543,12 +546,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 8 SUR - Radar",
+   "display_name": "EJE 8 SUR - Radar (EJE 8 SUR - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10873882276",
-   "name": "Avenida Universidad - Cámara de semáforo",
+   "name": "Avenida Universidad - Cámara de semáforo (Avenida Universidad - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.346487,
    "longitude": -99.180722,
@@ -571,12 +574,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Universidad - Cámara de semáforo",
+   "display_name": "Avenida Universidad - Cámara de semáforo (Avenida Universidad - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10927462875",
-   "name": "Periférico Segundo Piso - Radar",
+   "name": "Periférico Segundo Piso - Radar (Periférico Segundo Piso - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.350146,
    "longitude": -99.201228,
@@ -599,12 +602,12 @@
     "reference": "node/10927462875"
    },
    "road_label": "Periférico Segundo Piso",
-   "display_name": "Periférico Segundo Piso - Radar",
+   "display_name": "Periférico Segundo Piso - Radar (Periférico Segundo Piso - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n11515601447",
-   "name": "RADIAL 3 - Radar",
+   "name": "RADIAL 3 - Radar (RADIAL 3 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.354965,
    "longitude": -99.144355,
@@ -625,12 +628,12 @@
     "reference": "node/11515601447"
    },
    "road_label": "RADIAL 3",
-   "display_name": "RADIAL 3 - Radar",
+   "display_name": "RADIAL 3 - Radar (RADIAL 3 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n5399085832",
-   "name": "EJE 8 SUR - Cámara de semáforo",
+   "name": "EJE 8 SUR - Cámara de semáforo (EJE 8 SUR - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.356324,
    "longitude": -99.086253,
@@ -653,12 +656,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 8 SUR - Cámara de semáforo",
+   "display_name": "EJE 8 SUR - Cámara de semáforo (EJE 8 SUR - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10927487494",
-   "name": "Periférico Segundo Piso - Radar",
+   "name": "Periférico Segundo Piso - Radar (Periférico Segundo Piso - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.359163,
    "longitude": -99.193827,
@@ -681,12 +684,12 @@
     "reference": "node/10927487494"
    },
    "road_label": "Periférico Segundo Piso",
-   "display_name": "Periférico Segundo Piso - Radar",
+   "display_name": "Periférico Segundo Piso - Radar (Periférico Segundo Piso - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7249045149",
-   "name": "CTO INT - Radar",
+   "name": "CTO INT - Radar (CTO INT - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.359506,
    "longitude": -99.130968,
@@ -709,12 +712,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "CTO INT - Radar",
+   "display_name": "CTO INT - Radar (CTO INT - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874187382",
-   "name": "EJE 6 SUR - Cámara de semáforo",
+   "name": "EJE 6 SUR - Cámara de semáforo (EJE 6 SUR - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.362184,
    "longitude": -99.049305,
@@ -737,12 +740,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 6 SUR - Cámara de semáforo",
+   "display_name": "EJE 6 SUR - Cámara de semáforo (EJE 6 SUR - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n2834998438",
-   "name": "Avenida José María Castorena - Radar",
+   "name": "Avenida José María Castorena - Radar (Avenida José María Castorena - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.362716,
    "longitude": -99.287374,
@@ -765,12 +768,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida José María Castorena - Radar",
+   "display_name": "Avenida José María Castorena - Radar (Avenida José María Castorena - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874191238",
-   "name": "EJE 4 PTE - Cámara de semáforo",
+   "name": "EJE 4 PTE - Cámara de semáforo (EJE 4 PTE - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.363395,
    "longitude": -99.18911,
@@ -793,12 +796,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 4 PTE - Cámara de semáforo",
+   "display_name": "EJE 4 PTE - Cámara de semáforo (EJE 4 PTE - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n13313011813",
-   "name": "Avenida José María Castorena - Radar",
+   "name": "Avenida José María Castorena - Radar (Avenida José María Castorena - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.363556,
    "longitude": -99.286002,
@@ -821,12 +824,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida José María Castorena - Radar",
+   "display_name": "Avenida José María Castorena - Radar (Avenida José María Castorena - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10927468614",
-   "name": "Periférico Segundo Piso - Radar",
+   "name": "Periférico Segundo Piso - Radar (Periférico Segundo Piso - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.370855,
    "longitude": -99.191802,
@@ -849,12 +852,12 @@
     "reference": "node/10927468614"
    },
    "road_label": "Periférico Segundo Piso",
-   "display_name": "Periférico Segundo Piso - Radar",
+   "display_name": "Periférico Segundo Piso - Radar (Periférico Segundo Piso - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n11517510602",
-   "name": "Circuito Interior Río Churubusco - Radar",
+   "name": "Circuito Interior Río Churubusco - Radar (Circuito Interior Río Churubusco - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.375394,
    "longitude": -99.10171,
@@ -875,12 +878,12 @@
     "reference": "node/11517510602"
    },
    "road_label": "Circuito Interior Río Churubusco",
-   "display_name": "Circuito Interior Río Churubusco - Radar",
+   "display_name": "Circuito Interior Río Churubusco - Radar (Circuito Interior Río Churubusco - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n8040155500",
-   "name": "Avenida Marcelino Buendía - Cámara de semáforo",
+   "name": "Avenida Marcelino Buendía - Cámara de semáforo (Avenida Marcelino Buendía - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.376439,
    "longitude": -99.058933,
@@ -903,12 +906,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 57 m · lado B: 50 km/h a 10 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Marcelino Buendía - Cámara de semáforo",
+   "display_name": "Avenida Marcelino Buendía - Cámara de semáforo (Avenida Marcelino Buendía - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874191438",
-   "name": "EJE 6 SUR - Cámara de semáforo",
+   "name": "EJE 6 SUR - Cámara de semáforo (EJE 6 SUR - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.377102,
    "longitude": -99.129979,
@@ -931,12 +934,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 6 SUR - Cámara de semáforo",
+   "display_name": "EJE 6 SUR - Cámara de semáforo (EJE 6 SUR - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10873993867",
-   "name": "EJE 4 OTE - Cámara de semáforo",
+   "name": "EJE 4 OTE - Cámara de semáforo (EJE 4 OTE - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.380059,
    "longitude": -99.095551,
@@ -959,12 +962,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 4 OTE - Cámara de semáforo",
+   "display_name": "EJE 4 OTE - Cámara de semáforo (EJE 4 OTE - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874147928",
-   "name": "EJE 1 OTE - Cámara de semáforo",
+   "name": "EJE 1 OTE - Cámara de semáforo (EJE 1 OTE - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.381572,
    "longitude": -99.129477,
@@ -987,12 +990,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 1 OTE - Cámara de semáforo",
+   "display_name": "EJE 1 OTE - Cámara de semáforo (EJE 1 OTE - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n11520403461",
-   "name": "Autopista Urbana Norte - Radar",
+   "name": "Autopista Urbana Norte - Radar (Autopista Urbana Norte - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.385351,
    "longitude": -99.190846,
@@ -1018,12 +1021,12 @@
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "motorway",
    "speed_limit_road_kmh": 80,
-   "display_name": "Autopista Urbana Norte - Radar",
+   "display_name": "Autopista Urbana Norte - Radar (Autopista Urbana Norte - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10877077567",
-   "name": "CTO INT - Radar",
+   "name": "CTO INT - Radar (CTO INT - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.390277,
    "longitude": -99.185843,
@@ -1044,12 +1047,12 @@
     "reference": "node/10877077567"
    },
    "road_label": "CTO INT",
-   "display_name": "CTO INT - Radar",
+   "display_name": "CTO INT - Radar (CTO INT - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7888428593",
-   "name": "Viaducto Río de la Piedad - Radar",
+   "name": "Viaducto Río de la Piedad - Radar (Viaducto Río de la Piedad - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.405452,
    "longitude": -99.117633,
@@ -1070,12 +1073,12 @@
     "reference": "node/7888428593"
    },
    "road_label": "Viaducto Río de la Piedad",
-   "display_name": "Viaducto Río de la Piedad - Radar",
+   "display_name": "Viaducto Río de la Piedad - Radar (Viaducto Río de la Piedad - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10877068588",
-   "name": "EJE CENTRAL - Radar",
+   "name": "EJE CENTRAL - Radar (EJE CENTRAL - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.405918,
    "longitude": -99.144658,
@@ -1096,12 +1099,12 @@
     "reference": "node/10877068588"
    },
    "road_label": "EJE CENTRAL",
-   "display_name": "EJE CENTRAL - Radar",
+   "display_name": "EJE CENTRAL - Radar (EJE CENTRAL - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10877099741",
-   "name": "MEX-15 - Radar",
+   "name": "MEX-15 - Radar (MEX-15 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.406224,
    "longitude": -99.202209,
@@ -1122,12 +1125,12 @@
     "reference": "node/10877099741"
    },
    "road_label": "MEX-15",
-   "display_name": "MEX-15 - Radar",
+   "display_name": "MEX-15 - Radar (MEX-15 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10873898049",
-   "name": "EJE 3 SUR - Cámara de semáforo",
+   "name": "EJE 3 SUR - Cámara de semáforo (EJE 3 SUR - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.406997,
    "longitude": -99.149342,
@@ -1150,12 +1153,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 3 SUR - Cámara de semáforo",
+   "display_name": "EJE 3 SUR - Cámara de semáforo (EJE 3 SUR - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10875029935",
-   "name": "EJE 3 SUR - Radar",
+   "name": "EJE 3 SUR - Radar (EJE 3 SUR - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.407299,
    "longitude": -99.141173,
@@ -1178,12 +1181,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 3 SUR - Radar",
+   "display_name": "EJE 3 SUR - Radar (EJE 3 SUR - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10873875236",
-   "name": "CTO INT - Cámara de semáforo",
+   "name": "CTO INT - Cámara de semáforo (CTO INT - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.408211,
    "longitude": -99.18414,
@@ -1206,12 +1209,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "CTO INT - Cámara de semáforo",
+   "display_name": "CTO INT - Cámara de semáforo (CTO INT - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n2850480910",
-   "name": "Autopista Urbana Norte - Radar",
+   "name": "Autopista Urbana Norte - Radar (Autopista Urbana Norte - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.411207,
    "longitude": -99.193898,
@@ -1234,12 +1237,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Autopista Urbana Norte - Radar",
+   "display_name": "Autopista Urbana Norte - Radar (Autopista Urbana Norte - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874249994",
-   "name": "MEX-15 - Cámara de semáforo",
+   "name": "MEX-15 - Cámara de semáforo (MEX-15 - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.413237,
    "longitude": -99.189443,
@@ -1262,12 +1265,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "MEX-15 - Cámara de semáforo",
+   "display_name": "MEX-15 - Cámara de semáforo (MEX-15 - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874268050",
-   "name": "Calzada General Ignacio Zaragoza - Cámara de semáforo",
+   "name": "Calzada General Ignacio Zaragoza - Cámara de semáforo (Calzada General Ignacio Zaragoza - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.419884,
    "longitude": -99.095814,
@@ -1290,12 +1293,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calzada General Ignacio Zaragoza - Cámara de semáforo",
+   "display_name": "Calzada General Ignacio Zaragoza - Cámara de semáforo (Calzada General Ignacio Zaragoza - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874271409",
-   "name": "Calzada General Ignacio Zaragoza - Cámara de semáforo",
+   "name": "Calzada General Ignacio Zaragoza - Cámara de semáforo (Calzada General Ignacio Zaragoza - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.419963,
    "longitude": -99.096868,
@@ -1318,12 +1321,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calzada General Ignacio Zaragoza - Cámara de semáforo",
+   "display_name": "Calzada General Ignacio Zaragoza - Cámara de semáforo (Calzada General Ignacio Zaragoza - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14138717801",
-   "name": "Avenida Doctor José María Vértiz - Cámara de tránsito",
+   "name": "Avenida Doctor José María Vértiz - Cámara de tránsito (Avenida Doctor José María Vértiz - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 19.42166,
    "longitude": -99.147367,
@@ -1346,12 +1349,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Doctor José María Vértiz - Cámara de tránsito",
+   "display_name": "Avenida Doctor José María Vértiz - Cámara de tránsito (Avenida Doctor José María Vértiz - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10875024440",
-   "name": "EJE 1 SUR - Radar",
+   "name": "EJE 1 SUR - Radar (EJE 1 SUR - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.421689,
    "longitude": -99.118584,
@@ -1374,12 +1377,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 1 SUR - Radar",
+   "display_name": "EJE 1 SUR - Radar (EJE 1 SUR - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n12874929854",
-   "name": "CTO INT - Cámara de tránsito",
+   "name": "CTO INT - Cámara de tránsito (CTO INT - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 19.422317,
    "longitude": -99.09482,
@@ -1400,12 +1403,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "CTO INT - Cámara de tránsito",
+   "display_name": "CTO INT - Cámara de tránsito (CTO INT - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10875011768",
-   "name": "Avenida Paseo de la Reforma - Radar",
+   "name": "Avenida Paseo de la Reforma - Radar (Avenida Paseo de la Reforma - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.42324,
    "longitude": -99.176211,
@@ -1426,12 +1429,12 @@
     "reference": "node/10875011768"
    },
    "road_label": "Avenida Paseo de la Reforma",
-   "display_name": "Avenida Paseo de la Reforma - Radar",
+   "display_name": "Avenida Paseo de la Reforma - Radar (Avenida Paseo de la Reforma - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10873839240",
-   "name": "EJE 1 SUR - Cámara de semáforo",
+   "name": "EJE 1 SUR - Cámara de semáforo (EJE 1 SUR - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.423428,
    "longitude": -99.131339,
@@ -1454,12 +1457,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 1 SUR - Cámara de semáforo",
+   "display_name": "EJE 1 SUR - Cámara de semáforo (EJE 1 SUR - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n2461438740",
-   "name": "EJE 1 SUR - Radar",
+   "name": "EJE 1 SUR - Radar (EJE 1 SUR - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.425278,
    "longitude": -99.155455,
@@ -1480,12 +1483,12 @@
     "reference": "node/2461438740"
    },
    "road_label": "EJE 1 SUR",
-   "display_name": "EJE 1 SUR - Radar",
+   "display_name": "EJE 1 SUR - Radar (EJE 1 SUR - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10873855451",
-   "name": "EJE 1A SUR - Cámara de semáforo",
+   "name": "EJE 1A SUR - Cámara de semáforo (EJE 1A SUR - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.426007,
    "longitude": -99.132702,
@@ -1508,12 +1511,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 1A SUR - Cámara de semáforo",
+   "display_name": "EJE 1A SUR - Cámara de semáforo (EJE 1A SUR - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874208515",
-   "name": "EJE 1A SUR - Cámara de semáforo",
+   "name": "EJE 1A SUR - Cámara de semáforo (EJE 1A SUR - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.426473,
    "longitude": -99.141698,
@@ -1536,12 +1539,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 1A SUR - Cámara de semáforo",
+   "display_name": "EJE 1A SUR - Cámara de semáforo (EJE 1A SUR - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n11517228023",
-   "name": "CTO INT - Radar",
+   "name": "CTO INT - Radar (CTO INT - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.429954,
    "longitude": -99.090484,
@@ -1562,12 +1565,12 @@
     "reference": "node/11517228023"
    },
    "road_label": "CTO INT",
-   "display_name": "CTO INT - Radar",
+   "display_name": "CTO INT - Radar (CTO INT - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874171213",
-   "name": "EJE 3 PTE - Cámara de semáforo",
+   "name": "EJE 3 PTE - Cámara de semáforo (EJE 3 PTE - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.430028,
    "longitude": -99.174559,
@@ -1590,12 +1593,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 3 PTE - Cámara de semáforo",
+   "display_name": "EJE 3 PTE - Cámara de semáforo (EJE 3 PTE - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874233827",
-   "name": "Avenida José María Pino Suárez - Cámara de semáforo",
+   "name": "Avenida José María Pino Suárez - Cámara de semáforo (Avenida José María Pino Suárez - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.431075,
    "longitude": -99.132264,
@@ -1618,12 +1621,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 34 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida José María Pino Suárez - Cámara de semáforo",
+   "display_name": "Avenida José María Pino Suárez - Cámara de semáforo (Avenida José María Pino Suárez - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874244955",
-   "name": "EJE CENTRAL - Cámara de semáforo",
+   "name": "EJE CENTRAL - Cámara de semáforo (EJE CENTRAL - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.43582,
    "longitude": -99.140724,
@@ -1646,12 +1649,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE CENTRAL - Cámara de semáforo",
+   "display_name": "EJE CENTRAL - Cámara de semáforo (EJE CENTRAL - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7869158273",
-   "name": "Autopista Urbana Norte - Radar",
+   "name": "Autopista Urbana Norte - Radar (Autopista Urbana Norte - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.438025,
    "longitude": -99.213851,
@@ -1676,12 +1679,12 @@
    "road_label": "Autopista Urbana Norte",
    "speed_limit_checked": "2026-11-01",
    "speed_limit_road_class": "motorway",
-   "display_name": "Autopista Urbana Norte - Radar",
+   "display_name": "Autopista Urbana Norte - Radar (Autopista Urbana Norte - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10876656375",
-   "name": "Avenida Ejército Nacional Mexicano - Radar",
+   "name": "Avenida Ejército Nacional Mexicano - Radar (Avenida Ejército Nacional Mexicano - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.438687,
    "longitude": -99.209995,
@@ -1704,12 +1707,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Ejército Nacional Mexicano - Radar",
+   "display_name": "Avenida Ejército Nacional Mexicano - Radar (Avenida Ejército Nacional Mexicano - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874170081",
-   "name": "Avenida Ejército Nacional Mexicano - Cámara de semáforo",
+   "name": "Avenida Ejército Nacional Mexicano - Cámara de semáforo (Avenida Ejército Nacional Mexicano - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.438959,
    "longitude": -99.213465,
@@ -1732,12 +1735,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Ejército Nacional Mexicano - Cámara de semáforo",
+   "display_name": "Avenida Ejército Nacional Mexicano - Cámara de semáforo (Avenida Ejército Nacional Mexicano - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10879160260",
-   "name": "Avenida Oceanía - Radar",
+   "name": "Avenida Oceanía - Radar (Avenida Oceanía - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.439405,
    "longitude": -99.097042,
@@ -1760,12 +1763,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Oceanía - Radar",
+   "display_name": "Avenida Oceanía - Radar (Avenida Oceanía - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10877065884",
-   "name": "Circuito Interior Melchor Ocampo - Radar",
+   "name": "Circuito Interior Melchor Ocampo - Radar (Circuito Interior Melchor Ocampo - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.440472,
    "longitude": -99.167526,
@@ -1786,12 +1789,12 @@
     "reference": "node/10877065884"
    },
    "road_label": "Circuito Interior Melchor Ocampo",
-   "display_name": "Circuito Interior Melchor Ocampo - Radar",
+   "display_name": "Circuito Interior Melchor Ocampo - Radar (Circuito Interior Melchor Ocampo - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874126062",
-   "name": "EJE 1 NTE - Cámara de semáforo",
+   "name": "EJE 1 NTE - Cámara de semáforo (EJE 1 NTE - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.444025,
    "longitude": -99.140289,
@@ -1814,12 +1817,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 1 NTE - Cámara de semáforo",
+   "display_name": "EJE 1 NTE - Cámara de semáforo (EJE 1 NTE - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n268447438",
-   "name": "EJE CENTRAL - Cámara de semáforo",
+   "name": "EJE CENTRAL - Cámara de semáforo (EJE CENTRAL - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.444301,
    "longitude": -99.139346,
@@ -1842,12 +1845,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE CENTRAL - Cámara de semáforo",
+   "display_name": "EJE CENTRAL - Cámara de semáforo (EJE CENTRAL - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10877036001",
-   "name": "EJE 1 NTE - Radar",
+   "name": "EJE 1 NTE - Radar (EJE 1 NTE - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.444684,
    "longitude": -99.144153,
@@ -1868,12 +1871,12 @@
     "reference": "node/10877036001"
    },
    "road_label": "EJE 1 NTE",
-   "display_name": "EJE 1 NTE - Radar",
+   "display_name": "EJE 1 NTE - Radar (EJE 1 NTE - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10765164482",
-   "name": "MEX-85 - Cámara de semáforo",
+   "name": "MEX-85 - Cámara de semáforo (MEX-85 - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.445918,
    "longitude": -99.153175,
@@ -1896,12 +1899,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "MEX-85 - Cámara de semáforo",
+   "display_name": "MEX-85 - Cámara de semáforo (MEX-85 - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10875014311",
-   "name": "Avenida Paseo de la Reforma Norte - Radar",
+   "name": "Avenida Paseo de la Reforma Norte - Radar (Avenida Paseo de la Reforma Norte - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.44593,
    "longitude": -99.137071,
@@ -1924,12 +1927,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Paseo de la Reforma Norte - Radar",
+   "display_name": "Avenida Paseo de la Reforma Norte - Radar (Avenida Paseo de la Reforma Norte - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10873839241",
-   "name": "EJE 1 NTE - Cámara de semáforo",
+   "name": "EJE 1 NTE - Cámara de semáforo (EJE 1 NTE - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.446493,
    "longitude": -99.153644,
@@ -1952,12 +1955,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 1 NTE - Cámara de semáforo",
+   "display_name": "EJE 1 NTE - Cámara de semáforo (EJE 1 NTE - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10877098723",
-   "name": "EJE 1 NTE - Radar",
+   "name": "EJE 1 NTE - Radar (EJE 1 NTE - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.447282,
    "longitude": -99.159575,
@@ -1978,12 +1981,12 @@
     "reference": "node/10877098723"
    },
    "road_label": "EJE 1 NTE",
-   "display_name": "EJE 1 NTE - Radar",
+   "display_name": "EJE 1 NTE - Radar (EJE 1 NTE - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874140128",
-   "name": "Avenida Marina Nacional - Cámara de semáforo",
+   "name": "Avenida Marina Nacional - Cámara de semáforo (Avenida Marina Nacional - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.448504,
    "longitude": -99.182627,
@@ -2006,12 +2009,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Marina Nacional - Cámara de semáforo",
+   "display_name": "Avenida Marina Nacional - Cámara de semáforo (Avenida Marina Nacional - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874204622",
-   "name": "EJE CENTRAL - Cámara de semáforo",
+   "name": "EJE CENTRAL - Cámara de semáforo (EJE CENTRAL - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.449483,
    "longitude": -99.138361,
@@ -2034,12 +2037,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE CENTRAL - Cámara de semáforo",
+   "display_name": "EJE CENTRAL - Cámara de semáforo (EJE CENTRAL - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10877069993",
-   "name": "CTO INT - Radar",
+   "name": "CTO INT - Radar (CTO INT - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.451028,
    "longitude": -99.096147,
@@ -2060,12 +2063,12 @@
     "reference": "node/10877069993"
    },
    "road_label": "CTO INT",
-   "display_name": "CTO INT - Radar",
+   "display_name": "CTO INT - Radar (CTO INT - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874208538",
-   "name": "Avenida Marina Nacional - Cámara de semáforo",
+   "name": "Avenida Marina Nacional - Cámara de semáforo (Avenida Marina Nacional - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.451486,
    "longitude": -99.185047,
@@ -2088,12 +2091,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Marina Nacional - Cámara de semáforo",
+   "display_name": "Avenida Marina Nacional - Cámara de semáforo (Avenida Marina Nacional - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n12724654414",
-   "name": "Avenida 608 - Radar",
+   "name": "Avenida 608 - Radar (Avenida 608 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.451552,
    "longitude": -99.078102,
@@ -2114,12 +2117,12 @@
     "reference": "node/12724654414"
    },
    "road_label": "Avenida 608",
-   "display_name": "Avenida 608 - Radar",
+   "display_name": "Avenida 608 - Radar (Avenida 608 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874120224",
-   "name": "EJE 2 NTE - Cámara de semáforo",
+   "name": "EJE 2 NTE - Cámara de semáforo (EJE 2 NTE - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.451741,
    "longitude": -99.124184,
@@ -2142,12 +2145,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 2 NTE - Cámara de semáforo",
+   "display_name": "EJE 2 NTE - Cámara de semáforo (EJE 2 NTE - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874125128",
-   "name": "EJE 1 OTE - Cámara de semáforo",
+   "name": "EJE 1 OTE - Cámara de semáforo (EJE 1 OTE - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.452319,
    "longitude": -99.124797,
@@ -2170,12 +2173,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 1 OTE - Cámara de semáforo",
+   "display_name": "EJE 1 OTE - Cámara de semáforo (EJE 1 OTE - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10877113287",
-   "name": "Circuito Interior Instituto Técnico Industrial - Radar",
+   "name": "Circuito Interior Instituto Técnico Industrial - Radar (Circuito Interior Instituto Técnico Industrial - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.453005,
    "longitude": -99.164018,
@@ -2196,12 +2199,12 @@
     "reference": "node/10877113287"
    },
    "road_label": "Circuito Interior Instituto Técnico Industrial",
-   "display_name": "Circuito Interior Instituto Técnico Industrial - Radar",
+   "display_name": "Circuito Interior Instituto Técnico Industrial - Radar (Circuito Interior Instituto Técnico Industrial - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10879144370",
-   "name": "Avenida 608 - Radar",
+   "name": "Avenida 608 - Radar (Avenida 608 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.45371,
    "longitude": -99.075577,
@@ -2224,12 +2227,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida 608 - Radar",
+   "display_name": "Avenida 608 - Radar (Avenida 608 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874169299",
-   "name": "EJE 2 NTE - Cámara de semáforo",
+   "name": "EJE 2 NTE - Cámara de semáforo (EJE 2 NTE - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.45453,
    "longitude": -99.137923,
@@ -2252,12 +2255,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 2 NTE - Cámara de semáforo",
+   "display_name": "EJE 2 NTE - Cámara de semáforo (EJE 2 NTE - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10877064398",
-   "name": "Calle Juan Aldama - Radar",
+   "name": "Calle Juan Aldama - Radar (Calle Juan Aldama - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.456636,
    "longitude": -99.146095,
@@ -2278,12 +2281,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle Juan Aldama - Radar",
+   "display_name": "Calle Juan Aldama - Radar (Calle Juan Aldama - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874109367",
-   "name": "EJE 1 PTE - Cámara de semáforo",
+   "name": "EJE 1 PTE - Cámara de semáforo (EJE 1 PTE - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.456681,
    "longitude": -99.144969,
@@ -2306,12 +2309,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 1 PTE - Cámara de semáforo",
+   "display_name": "EJE 1 PTE - Cámara de semáforo (EJE 1 PTE - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n12724654415",
-   "name": "Avenida 608 - Radar",
+   "name": "Avenida 608 - Radar (Avenida 608 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.458173,
    "longitude": -99.068942,
@@ -2332,12 +2335,12 @@
     "reference": "node/12724654415"
    },
    "road_label": "Avenida 608",
-   "display_name": "Avenida 608 - Radar",
+   "display_name": "Avenida 608 - Radar (Avenida 608 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10873861337",
-   "name": "Calzada de los Misterios - Cámara de semáforo",
+   "name": "Calzada de los Misterios - Cámara de semáforo (Calzada de los Misterios - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.468601,
    "longitude": -99.124878,
@@ -2360,12 +2363,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calzada de los Misterios - Cámara de semáforo",
+   "display_name": "Calzada de los Misterios - Cámara de semáforo (Calzada de los Misterios - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n5189483777",
-   "name": "Avenida Aquiles Serdán - Radar",
+   "name": "Avenida Aquiles Serdán - Radar (Avenida Aquiles Serdán - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.473339,
    "longitude": -99.189352,
@@ -2388,12 +2391,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Aquiles Serdán - Radar",
+   "display_name": "Avenida Aquiles Serdán - Radar (Avenida Aquiles Serdán - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874271774",
-   "name": "EJE 3 NTE - Cámara de semáforo",
+   "name": "EJE 3 NTE - Cámara de semáforo (EJE 3 NTE - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.473583,
    "longitude": -99.159534,
@@ -2416,12 +2419,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 3 NTE - Cámara de semáforo",
+   "display_name": "EJE 3 NTE - Cámara de semáforo (EJE 3 NTE - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10765226077",
-   "name": "RADIAL 1 - Radar",
+   "name": "RADIAL 1 - Radar (RADIAL 1 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.473604,
    "longitude": -99.134671,
@@ -2442,12 +2445,12 @@
     "reference": "node/10765226077"
    },
    "road_label": "RADIAL 1",
-   "display_name": "RADIAL 1 - Radar",
+   "display_name": "RADIAL 1 - Radar (RADIAL 1 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874209255",
-   "name": "EJE 3 OTE - Cámara de semáforo",
+   "name": "EJE 3 OTE - Cámara de semáforo (EJE 3 OTE - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.478507,
    "longitude": -99.09768,
@@ -2470,12 +2473,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 3 OTE - Cámara de semáforo",
+   "display_name": "EJE 3 OTE - Cámara de semáforo (EJE 3 OTE - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10879184412",
-   "name": "RADIAL 1 - Radar",
+   "name": "RADIAL 1 - Radar (RADIAL 1 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.483757,
    "longitude": -99.126875,
@@ -2496,12 +2499,12 @@
     "reference": "node/10879184412"
    },
    "road_label": "RADIAL 1",
-   "display_name": "RADIAL 1 - Radar",
+   "display_name": "RADIAL 1 - Radar (RADIAL 1 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10875024441",
-   "name": "EJE CENTRAL - Radar",
+   "name": "EJE CENTRAL - Radar (EJE CENTRAL - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.486795,
    "longitude": -99.143397,
@@ -2524,12 +2527,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE CENTRAL - Radar",
+   "display_name": "EJE CENTRAL - Radar (EJE CENTRAL - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874220292",
-   "name": "Avenida Instituto Politécnico Nacional - Cámara de semáforo",
+   "name": "Avenida Instituto Politécnico Nacional - Cámara de semáforo (Avenida Instituto Politécnico Nacional - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.488123,
    "longitude": -99.134,
@@ -2552,12 +2555,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Instituto Politécnico Nacional - Cámara de semáforo",
+   "display_name": "Avenida Instituto Politécnico Nacional - Cámara de semáforo (Avenida Instituto Politécnico Nacional - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10876341136",
-   "name": "EJE 5 NTE - Radar",
+   "name": "EJE 5 NTE - Radar (EJE 5 NTE - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.489514,
    "longitude": -99.129838,
@@ -2580,12 +2583,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE 5 NTE - Radar",
+   "display_name": "EJE 5 NTE - Radar (EJE 5 NTE - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874247753",
-   "name": "Avenida Aquiles Serdán - Cámara de semáforo",
+   "name": "Avenida Aquiles Serdán - Cámara de semáforo (Avenida Aquiles Serdán - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.489684,
    "longitude": -99.194291,
@@ -2608,12 +2611,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Aquiles Serdán - Cámara de semáforo",
+   "display_name": "Avenida Aquiles Serdán - Cámara de semáforo (Avenida Aquiles Serdán - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10873903684",
-   "name": "Avenida Instituto Politécnico Nacional - Cámara de semáforo",
+   "name": "Avenida Instituto Politécnico Nacional - Cámara de semáforo (Avenida Instituto Politécnico Nacional - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.491155,
    "longitude": -99.133576,
@@ -2636,12 +2639,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Instituto Politécnico Nacional - Cámara de semáforo",
+   "display_name": "Avenida Instituto Politécnico Nacional - Cámara de semáforo (Avenida Instituto Politécnico Nacional - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10876619843",
-   "name": "EJE 5 NTE - Radar",
+   "name": "EJE 5 NTE - Radar (EJE 5 NTE - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.494466,
    "longitude": -99.150445,
@@ -2662,12 +2665,12 @@
     "reference": "node/10876619843"
    },
    "road_label": "EJE 5 NTE",
-   "display_name": "EJE 5 NTE - Radar",
+   "display_name": "EJE 5 NTE - Radar (EJE 5 NTE - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10874247490",
-   "name": "EJE CENTRAL - Cámara de semáforo",
+   "name": "EJE CENTRAL - Cámara de semáforo (EJE CENTRAL - Cámara de semáforo)",
    "radar_type": "RED_LIGHT_CAMERA",
    "latitude": 19.508005,
    "longitude": -99.151748,
@@ -2690,12 +2693,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "EJE CENTRAL - Cámara de semáforo",
+   "display_name": "EJE CENTRAL - Cámara de semáforo (EJE CENTRAL - Cámara de semáforo)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n3722472252",
-   "name": "MEX-140 - Radar",
+   "name": "MEX-140 - Radar (MEX-140 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.512525,
    "longitude": -96.874656,
@@ -2716,12 +2719,12 @@
     "reference": "node/3722472252"
    },
    "road_label": "MEX-140",
-   "display_name": "MEX-140 - Radar",
+   "display_name": "MEX-140 - Radar (MEX-140 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n3722563218",
-   "name": "MEX-140 - Radar",
+   "name": "MEX-140 - Radar (MEX-140 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.521095,
    "longitude": -96.888046,
@@ -2742,12 +2745,12 @@
     "reference": "node/3722563218"
    },
    "road_label": "MEX-140",
-   "display_name": "MEX-140 - Radar",
+   "display_name": "MEX-140 - Radar (MEX-140 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14098449601",
-   "name": "Calle 13 de Septiembre - Cámara de tránsito",
+   "name": "Calle 13 de Septiembre - Cámara de tránsito (Calle 13 de Septiembre - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 19.522459,
    "longitude": -96.913842,
@@ -2770,12 +2773,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 40 km/h a 1104 m · lado B: 40 km/h a 908 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle 13 de Septiembre - Cámara de tránsito",
+   "display_name": "Calle 13 de Septiembre - Cámara de tránsito (Calle 13 de Septiembre - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n3677478461",
-   "name": "MEX-140 - Radar",
+   "name": "MEX-140 - Radar (MEX-140 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.531063,
    "longitude": -96.90324,
@@ -2796,12 +2799,12 @@
     "reference": "node/3677478461"
    },
    "road_label": "MEX-140",
-   "display_name": "MEX-140 - Radar",
+   "display_name": "MEX-140 - Radar (MEX-140 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7012708765",
-   "name": "Autopista Pirámides - Texcoco - Radar",
+   "name": "Autopista Pirámides - Texcoco - Radar (Autopista Pirámides - Texcoco - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.627724,
    "longitude": -98.915242,
@@ -2824,12 +2827,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Autopista Pirámides - Texcoco - Radar",
+   "display_name": "Autopista Pirámides - Texcoco - Radar (Autopista Pirámides - Texcoco - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7012708760",
-   "name": "MEX-132D - Radar",
+   "name": "MEX-132D - Radar (MEX-132D - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.628306,
    "longitude": -98.914626,
@@ -2853,12 +2856,12 @@
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-31",
    "speed_limit_road_class": "motorway",
-   "display_name": "MEX-132D - Radar",
+   "display_name": "MEX-132D - Radar (MEX-132D - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7012708759",
-   "name": "Carretera Ecatepec - Pirámides (Cuota) - Radar",
+   "name": "Carretera Ecatepec - Pirámides (Cuota) - Radar (Carretera Ecatepec - Pirámides (Cuota) - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.628429,
    "longitude": -98.915298,
@@ -2879,12 +2882,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Ecatepec - Pirámides (Cuota) - Radar",
+   "display_name": "Carretera Ecatepec - Pirámides (Cuota) - Radar (Carretera Ecatepec - Pirámides (Cuota) - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7012708761",
-   "name": "Carretera Ecatepec - Pirámides (Cuota) - Radar",
+   "name": "Carretera Ecatepec - Pirámides (Cuota) - Radar (Carretera Ecatepec - Pirámides (Cuota) - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.628438,
    "longitude": -98.915887,
@@ -2907,12 +2910,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Ecatepec - Pirámides (Cuota) - Radar",
+   "display_name": "Carretera Ecatepec - Pirámides (Cuota) - Radar (Carretera Ecatepec - Pirámides (Cuota) - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7012708762",
-   "name": "Carretera Ecatepec - Pirámides (Cuota) - Radar",
+   "name": "Carretera Ecatepec - Pirámides (Cuota) - Radar (Carretera Ecatepec - Pirámides (Cuota) - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.62862,
    "longitude": -98.91401,
@@ -2935,12 +2938,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Ecatepec - Pirámides (Cuota) - Radar",
+   "display_name": "Carretera Ecatepec - Pirámides (Cuota) - Radar (Carretera Ecatepec - Pirámides (Cuota) - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7012708758",
-   "name": "Calzada de Los Agustinos - Radar",
+   "name": "Calzada de Los Agustinos - Radar (Calzada de Los Agustinos - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.629071,
    "longitude": -98.915093,
@@ -2961,12 +2964,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calzada de Los Agustinos - Radar",
+   "display_name": "Calzada de Los Agustinos - Radar (Calzada de Los Agustinos - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7012708768",
-   "name": "Carretera Ecatepec - Pirámides (Cuota) - Radar",
+   "name": "Carretera Ecatepec - Pirámides (Cuota) - Radar (Carretera Ecatepec - Pirámides (Cuota) - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.629122,
    "longitude": -98.912801,
@@ -2989,12 +2992,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Ecatepec - Pirámides (Cuota) - Radar",
+   "display_name": "Carretera Ecatepec - Pirámides (Cuota) - Radar (Carretera Ecatepec - Pirámides (Cuota) - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7012708757",
-   "name": "Calzada de Los Agustinos - Radar",
+   "name": "Calzada de Los Agustinos - Radar (Calzada de Los Agustinos - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.62935,
    "longitude": -98.914483,
@@ -3015,12 +3018,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calzada de Los Agustinos - Radar",
+   "display_name": "Calzada de Los Agustinos - Radar (Calzada de Los Agustinos - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7014958682",
-   "name": "Calzada de Los Agustinos - Radar",
+   "name": "Calzada de Los Agustinos - Radar (Calzada de Los Agustinos - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.629999,
    "longitude": -98.914737,
@@ -3043,12 +3046,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 50 km/h a 539 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calzada de Los Agustinos - Radar",
+   "display_name": "Calzada de Los Agustinos - Radar (Calzada de Los Agustinos - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7012739627",
-   "name": "Calzada de Los Agustinos - Radar",
+   "name": "Calzada de Los Agustinos - Radar (Calzada de Los Agustinos - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.631098,
    "longitude": -98.914472,
@@ -3071,12 +3074,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 50 km/h a 415 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calzada de Los Agustinos - Radar",
+   "display_name": "Calzada de Los Agustinos - Radar (Calzada de Los Agustinos - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7012673592",
-   "name": "Calle República Delsalvador - Radar",
+   "name": "Calle República Delsalvador - Radar (Calle República Delsalvador - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 19.640923,
    "longitude": -98.88577,
@@ -3097,12 +3100,12 @@
    "speed_limit_status": "SIN_VIA",
    "speed_limit_detail": "No hay vía de OSM a menos de 40 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle República Delsalvador - Radar",
+   "display_name": "Calle República Delsalvador - Radar (Calle República Delsalvador - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14143802801",
-   "name": "Calle Maximino Ruíz Flores - Cámara de tránsito",
+   "name": "Calle Maximino Ruíz Flores - Cámara de tránsito (Calle Maximino Ruíz Flores - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 19.800628,
    "longitude": -99.870062,
@@ -3123,12 +3126,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle Maximino Ruíz Flores - Cámara de tránsito",
+   "display_name": "Calle Maximino Ruíz Flores - Cámara de tránsito (Calle Maximino Ruíz Flores - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n6835547808",
-   "name": "Privada General Vázquez - Radar",
+   "name": "Privada General Vázquez - Radar (Privada General Vázquez - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.133388,
    "longitude": -98.887149,
@@ -3149,12 +3152,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Privada General Vázquez - Radar",
+   "display_name": "Privada General Vázquez - Radar (Privada General Vázquez - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14195495602",
-   "name": "Carretera Entronque Tulancingo - Venta Grande - Cámara de tránsito",
+   "name": "Carretera Entronque Tulancingo - Venta Grande - Cámara de tránsito (Carretera Entronque Tulancingo - Venta Grande - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 20.139037,
    "longitude": -98.127649,
@@ -3175,12 +3178,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Entronque Tulancingo - Venta Grande - Cámara de tránsito",
+   "display_name": "Carretera Entronque Tulancingo - Venta Grande - Cámara de tránsito (Carretera Entronque Tulancingo - Venta Grande - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n6699228085",
-   "name": "Anillo Periférico Oriente Manuel Gómez Morín - Radar",
+   "name": "Anillo Periférico Oriente Manuel Gómez Morín - Radar (Anillo Periférico Oriente Manuel Gómez Morín - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.528316,
    "longitude": -103.263125,
@@ -3203,12 +3206,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Anillo Periférico Oriente Manuel Gómez Morín - Radar",
+   "display_name": "Anillo Periférico Oriente Manuel Gómez Morín - Radar (Anillo Periférico Oriente Manuel Gómez Morín - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n6699223689",
-   "name": "Anillo Periférico Oriente Manuel Gómez Morín - Radar",
+   "name": "Anillo Periférico Oriente Manuel Gómez Morín - Radar (Anillo Periférico Oriente Manuel Gómez Morín - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.53367,
    "longitude": -103.288831,
@@ -3231,12 +3234,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Anillo Periférico Oriente Manuel Gómez Morín - Radar",
+   "display_name": "Anillo Periférico Oriente Manuel Gómez Morín - Radar (Anillo Periférico Oriente Manuel Gómez Morín - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10712829703",
-   "name": "Avenida Adolf B. Horn Jr. - Radar",
+   "name": "Avenida Adolf B. Horn Jr. - Radar (Avenida Adolf B. Horn Jr. - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.562265,
    "longitude": -103.366227,
@@ -3257,12 +3260,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Adolf B. Horn Jr. - Radar",
+   "display_name": "Avenida Adolf B. Horn Jr. - Radar (Avenida Adolf B. Horn Jr. - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10312584255",
-   "name": "Avenida Adolf B. Horn Jr. - Radar",
+   "name": "Avenida Adolf B. Horn Jr. - Radar (Avenida Adolf B. Horn Jr. - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.563103,
    "longitude": -103.366064,
@@ -3283,12 +3286,12 @@
     "reference": "node/10312584255"
    },
    "road_label": "Avenida Adolf B. Horn Jr.",
-   "display_name": "Avenida Adolf B. Horn Jr. - Radar",
+   "display_name": "Avenida Adolf B. Horn Jr. - Radar (Avenida Adolf B. Horn Jr. - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14138860601",
-   "name": "Avenida Constituyentes - Cámara de tránsito",
+   "name": "Avenida Constituyentes - Cámara de tránsito (Avenida Constituyentes - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 20.587176,
    "longitude": -100.384641,
@@ -3311,12 +3314,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado A: 40 km/h a 303 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Constituyentes - Cámara de tránsito",
+   "display_name": "Avenida Constituyentes - Cámara de tránsito (Avenida Constituyentes - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14141317801",
-   "name": "Calle Palma Sola - Cámara de tránsito",
+   "name": "Calle Palma Sola - Cámara de tránsito (Calle Palma Sola - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 20.596369,
    "longitude": -103.423791,
@@ -3337,12 +3340,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle Palma Sola - Cámara de tránsito",
+   "display_name": "Calle Palma Sola - Cámara de tránsito (Calle Palma Sola - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10888095423",
-   "name": "QRO 40 - Radar",
+   "name": "QRO 40 - Radar (QRO 40 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.625346,
    "longitude": -100.374271,
@@ -3363,12 +3366,12 @@
     "reference": "node/10888095423"
    },
    "road_label": "QRO 40",
-   "display_name": "QRO 40 - Radar",
+   "display_name": "QRO 40 - Radar (QRO 40 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n8266996233",
-   "name": "Avenida Cristóbal Colón - Radar",
+   "name": "Avenida Cristóbal Colón - Radar (Avenida Cristóbal Colón - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.625896,
    "longitude": -103.385868,
@@ -3392,12 +3395,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Cristóbal Colón - Radar",
+   "display_name": "Avenida Cristóbal Colón - Radar (Avenida Cristóbal Colón - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7603237216",
-   "name": "Avenida Del Bajio - Radar",
+   "name": "Avenida Del Bajio - Radar (Avenida Del Bajio - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.678617,
    "longitude": -103.461388,
@@ -3420,12 +3423,12 @@
     "reference": "node/7603237216"
    },
    "road_label": "Avenida Del Bajio",
-   "display_name": "Avenida Del Bajio - Radar",
+   "display_name": "Avenida Del Bajio - Radar (Avenida Del Bajio - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14188571401",
-   "name": "Privada Jamaica - Cámara de tránsito",
+   "name": "Privada Jamaica - Cámara de tránsito (Privada Jamaica - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 20.702451,
    "longitude": -103.363678,
@@ -3446,12 +3449,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Privada Jamaica - Cámara de tránsito",
+   "display_name": "Privada Jamaica - Cámara de tránsito (Privada Jamaica - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n13086059233",
-   "name": "Avenida del Servidor Público - Radar",
+   "name": "Avenida del Servidor Público - Radar (Avenida del Servidor Público - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.734237,
    "longitude": -103.430888,
@@ -3472,12 +3475,12 @@
     "reference": "node/13086059233"
    },
    "road_label": "Avenida del Servidor Público",
-   "display_name": "Avenida del Servidor Público - Radar",
+   "display_name": "Avenida del Servidor Público - Radar (Avenida del Servidor Público - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n13377080887",
-   "name": "Anillo Periférico Norte Manuel Gómez Morín - Radar",
+   "name": "Anillo Periférico Norte Manuel Gómez Morín - Radar (Anillo Periférico Norte Manuel Gómez Morín - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.736275,
    "longitude": -103.370476,
@@ -3500,12 +3503,12 @@
     "reference": "node/13377080887"
    },
    "road_label": "Anillo Periférico Norte Manuel Gómez Morín",
-   "display_name": "Anillo Periférico Norte Manuel Gómez Morín - Radar",
+   "display_name": "Anillo Periférico Norte Manuel Gómez Morín - Radar (Anillo Periférico Norte Manuel Gómez Morín - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14141035401",
-   "name": "Calle Paseo Real - Cámara de tránsito",
+   "name": "Calle Paseo Real - Cámara de tránsito (Calle Paseo Real - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 20.891484,
    "longitude": -100.754453,
@@ -3526,12 +3529,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle Paseo Real - Cámara de tránsito",
+   "display_name": "Calle Paseo Real - Cámara de tránsito (Calle Paseo Real - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n10261353937",
-   "name": "Calle 127 - Radar",
+   "name": "Calle 127 - Radar (Calle 127 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 20.92608,
    "longitude": -89.626842,
@@ -3554,12 +3557,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle 127 - Radar",
+   "display_name": "Calle 127 - Radar (Calle 127 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14275339001",
-   "name": "Calle José María Coss - Cámara de tránsito",
+   "name": "Calle José María Coss - Cámara de tránsito (Calle José María Coss - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 21.089188,
    "longitude": -101.758348,
@@ -3580,12 +3583,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle José María Coss - Cámara de tránsito",
+   "display_name": "Calle José María Coss - Cámara de tránsito (Calle José María Coss - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14158931501",
-   "name": "Calle Brisa del Cenit - Cámara de tránsito",
+   "name": "Calle Brisa del Cenit - Cámara de tránsito (Calle Brisa del Cenit - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 21.106531,
    "longitude": -101.595407,
@@ -3604,12 +3607,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle Brisa del Cenit - Cámara de tránsito",
+   "display_name": "Calle Brisa del Cenit - Cámara de tránsito (Calle Brisa del Cenit - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7388783483",
-   "name": "Avenida Tecnológico - Cámara de tránsito",
+   "name": "Avenida Tecnológico - Cámara de tránsito (Avenida Tecnológico - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 21.139253,
    "longitude": -86.849754,
@@ -3628,12 +3631,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Tecnológico - Cámara de tránsito",
+   "display_name": "Avenida Tecnológico - Cámara de tránsito (Avenida Tecnológico - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n6757799508",
-   "name": "Avenida La Luna - Cámara de tránsito",
+   "name": "Avenida La Luna - Cámara de tránsito (Avenida La Luna - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 21.141152,
    "longitude": -86.848021,
@@ -3652,12 +3655,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida La Luna - Cámara de tránsito",
+   "display_name": "Avenida La Luna - Cámara de tránsito (Avenida La Luna - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n7388818485",
-   "name": "Avenida Nichupté - Cámara de tránsito",
+   "name": "Avenida Nichupté - Cámara de tránsito (Avenida Nichupté - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 21.14401,
    "longitude": -86.821409,
@@ -3678,12 +3681,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Nichupté - Cámara de tránsito",
+   "display_name": "Avenida Nichupté - Cámara de tránsito (Avenida Nichupté - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n4614386635",
-   "name": "Carretera San Luis de la Paz - San José Iturbide - Radar",
+   "name": "Carretera San Luis de la Paz - San José Iturbide - Radar (Carretera San Luis de la Paz - San José Iturbide - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 21.273989,
    "longitude": -100.497385,
@@ -3706,12 +3709,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera San Luis de la Paz - San José Iturbide - Radar",
+   "display_name": "Carretera San Luis de la Paz - San José Iturbide - Radar (Carretera San Luis de la Paz - San José Iturbide - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n2154598938",
-   "name": "MEX-70 - Radar",
+   "name": "MEX-70 - Radar (MEX-70 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 21.872526,
    "longitude": -102.316286,
@@ -3734,12 +3737,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "lado B: 50 km/h a 552 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "MEX-70 - Radar",
+   "display_name": "MEX-70 - Radar (MEX-70 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14138412802",
-   "name": "Calle Lázaro Cárdenas - Cámara de tránsito",
+   "name": "Calle Lázaro Cárdenas - Cámara de tránsito (Calle Lázaro Cárdenas - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 22.161642,
    "longitude": -100.941549,
@@ -3760,12 +3763,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle Lázaro Cárdenas - Cámara de tránsito",
+   "display_name": "Calle Lázaro Cárdenas - Cámara de tránsito (Calle Lázaro Cárdenas - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n8113876720",
-   "name": "MEX-57 - Radar",
+   "name": "MEX-57 - Radar (MEX-57 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 25.428791,
    "longitude": -100.959374,
@@ -3788,12 +3791,12 @@
     "reference": "node/8113876720"
    },
    "road_label": "MEX-57",
-   "display_name": "MEX-57 - Radar",
+   "display_name": "MEX-57 - Radar (MEX-57 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n13800730473",
-   "name": "Avenida Anzures - Radar",
+   "name": "Avenida Anzures - Radar (Avenida Anzures - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 25.686641,
    "longitude": -100.11943,
@@ -3814,12 +3817,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Avenida Anzures - Radar",
+   "display_name": "Avenida Anzures - Radar (Avenida Anzures - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14139601501",
-   "name": "Calle Pitahaya - Cámara de tránsito",
+   "name": "Calle Pitahaya - Cámara de tránsito (Calle Pitahaya - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 27.073677,
    "longitude": -109.436536,
@@ -3842,12 +3845,12 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle Pitahaya - Cámara de tránsito",
+   "display_name": "Calle Pitahaya - Cámara de tránsito (Calle Pitahaya - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14138923301",
-   "name": "Calle 31 Norte - Cámara de tránsito",
+   "name": "Calle 31 Norte - Cámara de tránsito (Calle 31 Norte - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 27.92461,
    "longitude": -110.880557,
@@ -3868,12 +3871,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle 31 Norte - Cámara de tránsito",
+   "display_name": "Calle 31 Norte - Cámara de tránsito (Calle 31 Norte - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14241742501",
-   "name": "Calle de la Galera - Cámara de tránsito",
+   "name": "Calle de la Galera - Cámara de tránsito (Calle de la Galera - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 28.662919,
    "longitude": -106.011291,
@@ -3894,12 +3897,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle de la Galera - Cámara de tránsito",
+   "display_name": "Calle de la Galera - Cámara de tránsito (Calle de la Galera - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n14241749901",
-   "name": "Calle de la Galera - Cámara de tránsito",
+   "name": "Calle de la Galera - Cámara de tránsito (Calle de la Galera - Cámara de tránsito)",
    "radar_type": "VEHICLE_CAMERA",
    "latitude": 28.663447,
    "longitude": -106.011679,
@@ -3920,12 +3923,12 @@
    "speed_limit_status": "SIN_LIMITE",
    "speed_limit_detail": "Ningún tramo de la misma vía tiene límite a ≤ 2000 m",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Calle de la Galera - Cámara de tránsito",
+   "display_name": "Calle de la Galera - Cámara de tránsito (Calle de la Galera - Cámara de tránsito)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n12991942420",
-   "name": "MEX-15 - Radar",
+   "name": "MEX-15 - Radar (MEX-15 - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 29.027006,
    "longitude": -110.960198,
@@ -3946,12 +3949,12 @@
     "reference": "node/12991942420"
    },
    "road_label": "MEX-15",
-   "display_name": "MEX-15 - Radar",
+   "display_name": "MEX-15 - Radar (MEX-15 - Radar)",
    "country": "MX"
   },
   {
    "radar_id": "osm-mx-n3572963807",
-   "name": "Carretera Panamericana - Radar",
+   "name": "Carretera Panamericana - Radar (Carretera Panamericana - Radar)",
    "radar_type": "FIXED_SPEED",
    "latitude": 31.609957,
    "longitude": -106.450485,
@@ -3974,7 +3977,7 @@
    "speed_limit_status": "VALIDO",
    "speed_limit_detail": "La vía del radar tiene límite en OSM",
    "speed_limit_checked": "2026-10-29",
-   "display_name": "Carretera Panamericana - Radar",
+   "display_name": "Carretera Panamericana - Radar (Carretera Panamericana - Radar)",
    "country": "MX"
   }
  ]
